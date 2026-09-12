@@ -159,6 +159,8 @@ El romset tiene que ser de la versión exacta del core.
 
 ## 4. Pendientes
 
+La lista completa y priorizada de lo que falta conseguir, preparar o configurar está en [`PENDIENTES.md`](PENDIENTES.md).
+
 **Subida a la PS4** — completada y verificada por FTP el 2026-09-12:
 
 - [x] ROMs de NES, SNES, GB, GBC, GBA, GG, SMS y MD en `/data/ROMS/`: 5094 juegos, mismo nombre y tamaño que en el PC
