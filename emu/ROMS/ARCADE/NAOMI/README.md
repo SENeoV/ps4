@@ -1,8 +1,11 @@
 # ARCADE/NAOMI — Sega NAOMI (1998)
 
-- **Emulador recomendado:** Flycast
-- **Extensión de ROM:** `.zip`
-- **BIOS:** ⚠️ BIOS (`naomi.zip` / `awbios.zip` según el juego)
-- **Compatibilidad PS4 Pro:** 🟢/🟡 Muy buena
+- **Estado:** Probar después — rendimiento variable en PS4
+- **Cores instalados en la PS4:** `flycast`
+- **Extensiones:** `.zip`
+- **BIOS** (en `/data/retroarch/system/`, salvo que se indique otra cosa):
+  - `dc/naomi.zip` — obligatoria para NAOMI
 
-**Notas:** Mismo core que Dreamcast (Flycast) — coste marginal si ya está instalado para DC.
+**Notas:** Mismo core que Dreamcast, cuyo rendimiento en PS4 es variable: probar un juego antes de meter la colección.
+
+_Cores, extensiones y BIOS verificados contra los `.info` de los cores instalados (2026-09-13). El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola._

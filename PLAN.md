@@ -37,23 +37,22 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] **Smoke test superado** — Bomberman (NES) con imagen y sonido correctos
 - [x] `emu/RETROARCH/info/` subido a `/data/retroarch/info/` (74 `.info`, verificado por FTP)
 - [x] Filtro de extensiones reactivado (verificado en `retroarch.cfg`)
+- [ ] Herramientas de conversión a paquete en el PC, para PS1 y PSP Classics (tandas 4 y 5)
 - [ ] Homebrew Store instalado (opcional)
-- [ ] PPSSPP standalone instalado (opcional)
-- [ ] Flycast/Reicast standalone instalado (opcional, verificar build)
-- [ ] ScummVM standalone instalado (opcional)
 - [x] Repo local `D:\ps4` inicializado en git
 - [x] `.gitmodules` para `ps4_cheats` configurado
-- [x] Guía `emu/emuladores-ps4.md` creada
-- [x] Estructura de carpetas `/emu` creada (44 plataformas, nombres cortos, Arcade separado en MAME/FBNEO)
+- [x] Guía `emu/emuladores-ps4.md` creada y corregida contra los cores instalados
+- [x] Estructura de carpetas `/emu` creada, Arcade separado en MAME / FB Alpha 2012 / NAOMI / Atomiswave
 - [x] Reestructurado en `APPS/` + `BIOS/` + `ROMS/`
 - [x] `.gitignore`: se versiona la estructura y los `.md`, nunca los binarios
 - [x] `tools/inventory.py` + `catalogo/` + hook pre-commit — juegos trackeados por referencia
 - [x] `tools/guard.py` + hooks pre-commit/pre-push — ningún binario puede llegar a GitHub
 - [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas, nombres con tildes pasados a ASCII
+- [x] Revisión de consolas restantes y hoja de ruta (2026-09-13)
 
-## 1. Nivel 1 — imprescindibles
+## 1. Hecho — en la PS4
 
-| Sistema | Carpeta | BIOS lista | ROMs copiadas | Probado en PS4 |
+| Sistema | Carpeta | BIOS | ROMs | Probado en PS4 |
 |---|---|---|---|---|
 | NES | `NES/` | — | [x] 634 | [x] |
 | SNES | `SNES/` | — | [x] 164 | [ ] |
@@ -63,71 +62,102 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 | Master System | `SMS/` | [x] opcional | [x] 333 | [x] |
 | Game Gear | `GG/` | [x] opcional | [x] 373 | [ ] |
 | Mega Drive | `MD/` | [x] opcional | [x] 1337 | [ ] |
-| PC Engine | `PCE/` | — | [ ] | [ ] |
-| Neo Geo AES/MVS | `NEOGEO/` | [ ] | [ ] | [ ] |
-| Arcade (FBNeo) | `ARCADE/FBNEO/` | [ ] | [ ] | [ ] |
-| PS1 | `PSX/` | [ ] | [ ] | [ ] |
-| PSP | `PSP/` | — | [ ] | [ ] |
-| Dreamcast | `DC/` | [ ] | [ ] | [ ] |
-| N64 | `N64/` | — | [ ] | [ ] |
-| MSX | `MSX/` | [ ] | [ ] | [ ] |
-| DOS | `DOS/` | — | [ ] | [ ] |
 
-## 2. Nivel 2 — requieren configuración
+## 2. Hoja de ruta
 
-| Sistema | Carpeta | BIOS lista | ROMs copiadas | Probado en PS4 |
+Orden acordado el 2026-09-13. Cores, extensiones y BIOS están verificados contra los `.info` de los 74 cores instalados. El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola: **probar un juego antes de meter la colección entera**. Detalle de cada sistema en el `README.md` de su carpeta.
+
+### Tanda 1 — sin BIOS, deberían ir al 100%
+
+| Sistema | Carpeta | Core | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| Sega CD | `SEGACD/` | [x] U/E/J en PS4 | [ ] | [ ] |
-| 32X | `32X/` | — | [ ] | [ ] |
-| PC Engine CD | `PCECD/` | [ ] | [ ] | [ ] |
-| Neo Geo CD | `NEOGEOCD/` | [ ] | [ ] | [ ] |
-| 3DO | `3DO/` | [ ] | [ ] | [ ] |
-| Commodore 64 | `C64/` | [ ] | [ ] | [ ] |
-| Amiga | `AMIGA/` | [ ] Kickstart | [ ] | [ ] |
-| ZX Spectrum | `ZXSPECTRUM/` | — | [ ] | [ ] |
-| Nintendo DS | `NDS/` | — | [ ] | [ ] |
-| Saturn | `SATURN/` | [ ] | [ ] | [ ] |
+| Atari 2600 | `ATARI2600/` | stella2014 | [ ] | [ ] |
+| Atari 7800 | `ATARI7800/` | prosystem | [ ] | [ ] |
+| PC Engine | `PCE/` | mednafen_pce_fast | [ ] | [ ] |
+| Neo Geo Pocket | `NGP/` | mednafen_ngp | [ ] | [ ] |
+| Neo Geo Pocket Color | `NGPC/` | mednafen_ngp | [ ] | [ ] |
+| WonderSwan | `WS/` | mednafen_wswan | [ ] | [ ] |
+| WonderSwan Color | `WSC/` | mednafen_wswan | [ ] | [ ] |
+| Atari Lynx | `LYNX/` | handy | [ ] | [ ] |
+| 32X | `32X/` | picodrive | [ ] | [ ] |
+| Virtual Boy | `VB/` | mednafen_vb | [ ] | [ ] |
 
-## 3. Nivel 3 — experimental / raros
+### Tanda 2 — arcade
 
-| Sistema | Carpeta | BIOS lista | ROMs copiadas | Probado en PS4 |
+El romset tiene que ser de la versión exacta del core.
+
+| Sistema | Carpeta | Core | Romset | ROMs | Probado en PS4 |
+|---|---|---|---|---|---|
+| Neo Geo | `NEOGEO/` | fbalpha2012_neogeo | FB Alpha 2012 + `neogeo.zip` junto a las ROMs | [ ] | [ ] |
+| Arcade FB Alpha 2012 | `ARCADE/FBNEO/` | fbalpha2012 (+ cps1/2/3) | FB Alpha 2012 | [ ] | [ ] |
+| Arcade MAME | `ARCADE/MAME/` | mame2003_plus | MAME 2003-Plus; solo juegos 2D | [ ] | [ ] |
+
+### Tanda 3 — necesitan BIOS
+
+| Sistema | Carpeta | Core | BIOS | ROMs | Probado en PS4 |
+|---|---|---|---|---|---|
+| Sega CD | `SEGACD/` | genesis_plus_gx | [x] `bios_CD_U/E/J.bin` ya subidas | [ ] | [ ] |
+| PC Engine CD | `PCECD/` | mednafen_pce_fast | [ ] `syscard3.pce` | [ ] | [ ] |
+| Famicom Disk System | `FDS/` | nestopia | [ ] `disksys.rom` | [ ] | [ ] |
+| Atari 5200 | `ATARI5200/` | atari800 | [ ] `5200.rom` | [ ] | [ ] |
+| MSX / MSX2 | `MSX/` | fmsx | [ ] `MSX.ROM`, `MSX2.ROM`, `MSX2EXT.ROM`, `MSX2P.ROM`, `MSX2PEXT.ROM` | [ ] | [ ] |
+
+### Tanda 4 — PS1, como PS1 Classics
+
+| Sistema | Carpeta | Vía | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| Arcade (MAME) | `ARCADE/MAME/` | [ ] | [ ] | [ ] |
-| PS2 | `PS2/` | [ ] | [ ] | [ ] |
-| Atari 2600 | `ATARI2600/` | — | [ ] | [ ] |
-| Atari 5200 | `ATARI5200/` | [ ] | [ ] | [ ] |
-| Atari 7800 | `ATARI7800/` | — | [ ] | [ ] |
-| Atari Lynx | `LYNX/` | — | [ ] | [ ] |
-| Famicom Disk System | `FDS/` | [ ] | [ ] | [ ] |
-| Virtual Boy | `VB/` | — | [ ] | [ ] |
-| Neo Geo Pocket | `NGP/` | — | [ ] | [ ] |
-| Neo Geo Pocket Color | `NGPC/` | — | [ ] | [ ] |
-| WonderSwan | `WS/` | — | [ ] | [ ] |
-| WonderSwan Color | `WSC/` | — | [ ] | [ ] |
-| PC-FX | `PCFX/` | [ ] | [ ] | [ ] |
-| Sharp X68000 | `X68000/` | [ ] | [ ] | [ ] |
-| ScummVM | `SCUMMVM/` | — | [ ] | [ ] |
-| CHIP-8 | `CHIP8/` | — | [ ] | [ ] |
-| Sega NAOMI (arcade) | `ARCADE/NAOMI/` | [ ] | [ ] | [ ] |
-| Sega Atomiswave (arcade) | `ARCADE/ATOMISWAVE/` | — | [ ] | [ ] |
-| Pokémon Mini | `POKEMINI/` | — | [ ] | [ ] |
-| Nintendo 3DS | `3DS/` | — | 🔴 no viable | 🔴 no viable |
-| GameCube | `GC/` | — | 🔴 no viable | 🔴 no viable |
-| Wii | `WII/` | — | 🔴 no viable | 🔴 no viable |
-| PS Vita | `VITA/` | — | 🔴 no viable | 🔴 no viable |
-| PS3 | `PS3/` | — | 🔴 no viable | 🔴 no viable |
-| Xbox / Xbox 360 | `XBOX/` | — | 🔴 no viable | 🔴 no viable |
-| Nintendo Switch | `SWITCH/` | — | 🔴 no viable | 🔴 no viable |
+| PS1 | `PSX/` | Paquete con el emulador oficial de Sony. Alternativa en RetroArch: pcsx_rearmed + `scph5501.bin` | [ ] | [ ] |
 
-## 4. Rutina al añadir un sistema nuevo
+### Tanda 5 — PSP, como PSP Classics
+
+| Sistema | Carpeta | Vía | ROMs | Probado en PS4 |
+|---|---|---|---|---|
+| PSP | `PSP/` | PSP-FPKG, revisando cada juego en la lista de compatibilidad. Alternativa: ppsspp + `PPSSPP/ppge_atlas.zim` | [ ] | [ ] |
+
+### Ordenadores
+
+| Sistema | Carpeta | Core | ROMs | Probado en PS4 |
+|---|---|---|---|---|
+| Commodore 64 | `C64/` | vice_x64sc | [ ] | [ ] |
+| DOS | `DOS/` | dosbox_svn | [ ] | [ ] |
+| ScummVM | `SCUMMVM/` | scummvm | [ ] | [ ] |
+
+### Probar después — rendimiento variable o sin datos
+
+| Sistema | Carpeta | Core | BIOS | ROMs | Probado en PS4 |
+|---|---|---|---|---|---|
+| Dreamcast | `DC/` | flycast | [ ] `dc/dc_boot.bin` | [ ] | [ ] |
+| Sega NAOMI | `ARCADE/NAOMI/` | flycast | [ ] `dc/naomi.zip` | [ ] | [ ] |
+| Sega Atomiswave | `ARCADE/ATOMISWAVE/` | flycast | [ ] `dc/awbios.zip` | [ ] | [ ] |
+| Saturn | `SATURN/` | yabause | [ ] `saturn_bios.bin` | [ ] | [ ] |
+| 3DO | `3DO/` | opera | [ ] `panafz10.bin` | [ ] | [ ] |
+| PC-FX | `PCFX/` | mednafen_pcfx | [ ] `pcfx.rom` | [ ] | [ ] |
+
+### Aparcados
+
+| Sistema | Carpeta | Motivo |
+|---|---|---|
+| Nintendo 64 | `N64/` | Reportado lento o injugable en el RetroArch de PS4 |
+| Nintendo DS | `NDS/` | Reportado lento |
+| PS2 | `PS2/` | Más adelante, como PS2 Classics. Hay 5 ISO en `/data/ROMS/PS2` de la consola |
+
+### Sin core en la PS4
+
+`POKEMINI/` (pokemini), `AMIGA/` (puae), `ZXSPECTRUM/` (fuse), `NEOGEOCD/` (neocd), `X68000/` (px68k) y `CHIP8/`. Ninguno de esos cores está entre los 74 instalados.
+
+### No viables
+
+`3DS/`, `GC/`, `WII/`, `VITA/`, `PS3/`, `XBOX/` y `SWITCH/`. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).
+
+## 3. Rutina al añadir un sistema nuevo
 
 1. Copiar las ROMs a `emu/ROMS/<SISTEMA>/` en el PC, **con nombres sin tildes ni ñ**.
 2. Subir por FTP a `/data/ROMS/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
-3. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/` con el nombre que espera el core (lo indica su `.info`).
+3. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/` con el nombre y la subcarpeta que indica su README.
 4. Probar un juego y marcar la casilla "Probado en PS4".
 5. Commit — el hook regenera inventario y catálogo, y el commit lista cada juego añadido.
 
-## 5. Pendientes
+## 4. Pendientes
 
 **Subida a la PS4** — completada y verificada por FTP el 2026-09-12:
 
@@ -156,7 +186,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 ## Notas
 
 - No actualizar el firmware de la PS4 (12.52) solo para tener una versión más nueva de un emulador — GoldHEN depende de esa versión exacta.
-- No mezclar ROM sets de MAME y FBNeo entre versiones distintas del emulador.
+- No mezclar romsets de MAME y FB Alpha, ni entre versiones distintas del mismo emulador.
 - Nombres de archivo sin tildes ni ñ: FileZilla los sube a la PS4 en otra codificación y dejan de coincidir con el PC (y con su partida).
 - La PS4 distingue mayúsculas en las rutas: `/data/ROMS` y `/data/roms` son carpetas distintas.
-- Detalle completo por sistema (emulador, extensión, BIOS) en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md) y en el `README.md` de cada subcarpeta de `/emu`.
+- Detalle completo por sistema (core, extensiones, BIOS) en el `README.md` de cada subcarpeta de `emu/ROMS/` y en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).

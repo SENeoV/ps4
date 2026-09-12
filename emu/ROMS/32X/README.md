@@ -1,6 +1,10 @@
-# 32X — 32X (1994)
+# 32X — Sega 32X (1994)
 
-- **Emulador recomendado:** PicoDrive
-- **Extensión de ROM:** `.32x`
-- **BIOS:** ⚠️ según juego
-- **Compatibilidad PS4 Pro:** 🟢 Excelente
+- **Estado:** Tanda 1 — sin BIOS, debería ir al 100%
+- **Cores instalados en la PS4:** `picodrive`
+- **Extensiones:** `.32x`
+- **BIOS:** no necesita
+
+**Notas:** El `.info` de PicoDrive no declara BIOS de 32X.
+
+_Cores, extensiones y BIOS verificados contra los `.info` de los cores instalados (2026-09-13). El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola._

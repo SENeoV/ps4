@@ -1,6 +1,7 @@
 # X68000 — Sharp X68000 (1987)
 
-- **Emulador recomendado:** PX68k
-- **Extensión de ROM:** `.dim / .d88`
-- **BIOS:** ⚠️ BIOS
-- **Compatibilidad PS4 Pro:** 🟢 Excelente
+- **Estado:** Sin core en la PS4 — no se puede usar ahora
+- **Core necesario:** `px68k`, que no está instalado
+- **Extensiones:** `.dim` `.hdf`
+
+_Cores, extensiones y BIOS verificados contra los `.info` de los cores instalados (2026-09-13). El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola._

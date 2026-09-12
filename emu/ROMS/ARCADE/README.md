@@ -1,3 +1,9 @@
 # ARCADE
 
-No mezclar ROMs de MAME y FBNeo entre sí ni entre versiones distintas del mismo emulador — un ROM set de una versión de MAME puede no funcionar con otra versión de MAME (y lo mismo aplica a FBNeo). Cada colección debe corresponder exactamente a la versión del emulador instalado en la PS4.
+| Carpeta | Core en la PS4 | Romset |
+|---|---|---|
+| `FBNEO/` | FB Alpha 2012 (+ CPS1/2/3) | FB Alpha 2012 (`v0.2.97.29`) |
+| `MAME/` | MAME 2003-Plus (y otras 4 versiones) | el de la versión elegida; recomendado MAME 2003-Plus |
+| `NAOMI/`, `ATOMISWAVE/` | Flycast | BIOS en `system/dc/` |
+
+No mezclar romsets entre emuladores ni entre versiones del mismo emulador: un romset de una versión puede no funcionar en otra. Cada colección debe corresponder exactamente al core que la va a ejecutar.
