@@ -2274,3 +2274,8 @@ MOVIDO	emu/ROMS/MD/Zero Tolerance (JUE) [!].zip	emu/EXTRAS/MD-duplicados/Zero To
 MOVIDO	emu/ROMS/MD/Zero Wing (E) [!].zip	emu/EXTRAS/MD-duplicados/Zero Wing (E) [!].zip	mismo SHA-1 que 'Zero Wing (E) [c][!].bin', que se queda en MD/
 MOVIDO	emu/ROMS/MD/Zombies (E) [!].zip	emu/EXTRAS/MD-duplicados/Zombies (E) [!].zip	mismo SHA-1 que 'Zombies (E) [!].bin', que se queda en MD/
 MOVIDO	emu/ROMS/MD/Zoom (JU) [!].zip	emu/EXTRAS/MD-duplicados/Zoom (JU) [!].zip	mismo SHA-1 que 'Zoom! (JU) [!].bin', que se queda en MD/
+RENOMBRADO	emu/ROMS/GBA/Pokémon Rojo fuego [E].gba	emu/ROMS/GBA/Pokemon Rojo fuego [E].gba	sin tildes: FileZilla lo subió a la PS4 en otra codificación y dejó de coincidir con el PC
+RENOMBRADO	emu/ROMS/GBA/Pokémon Verde hoja [E].gba	emu/ROMS/GBA/Pokemon Verde hoja [E].gba	sin tildes: FileZilla lo subió a la PS4 en otra codificación y dejó de coincidir con el PC
+RENOMBRADO	emu/ROMS/GBA/Pokémon Zafiro [E].gba	emu/ROMS/GBA/Pokemon Zafiro [E].gba	sin tildes: FileZilla lo subió a la PS4 en otra codificación y dejó de coincidir con el PC
+RENOMBRADO	emu/ROMS/GBA/Shinchan contra los muñecos de Shock Gan [E].gba	emu/ROMS/GBA/Shinchan contra los munecos de Shock Gan [E].gba	sin tildes: FileZilla lo subió a la PS4 en otra codificación y dejó de coincidir con el PC
+RENOMBRADO	emu/SAVES/Pokémon Rojo fuego [E].srm	emu/SAVES/Pokemon Rojo fuego [E].srm	sin tildes: FileZilla lo subió a la PS4 en otra codificación y dejó de coincidir con el PC

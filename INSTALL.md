@@ -10,7 +10,7 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 |---|---|---|
 | `emu/APPS/*.pkg` | `/data/pkg/` | Es la ruta donde el instalador los detecta. Temporal: tras instalar se pueden borrar |
 | `emu/BIOS/*` | `/data/retroarch/system/` | **Ruta obligatoria.** Es la carpeta "system" de RetroArch |
-| `emu/ROMS/<SISTEMA>/` | `/data/roms/<SISTEMA>/` | RetroArch puede navegar a cualquier ruta; `/data/roms` mantiene el mismo esquema que el PC |
+| `emu/ROMS/<SISTEMA>/` | `/data/ROMS/<SISTEMA>/` | RetroArch puede navegar a cualquier ruta; `/data/ROMS` mantiene el mismo esquema que el PC |
 | `emu/RETROARCH/info/*.info` | `/data/retroarch/info/` | Sin ellos RetroArch no reconoce extensiones ni elige el core solo |
 | `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
 | `emu/MEDIA/`, `emu/EXTRAS/` | — | **No se suben.** Carátulas y archivos que no son juegos |
@@ -61,7 +61,7 @@ Alternativa sin esta app: *Core Updater* desde dentro de RetroArch (requiere que
 
 Se empieza por NES o SNES a propósito: **no necesitan BIOS**, así que si algo falla, el fallo está en RetroArch o el core, no en una BIOS mal nombrada.
 
-1. Subir la ROM a `/data/roms/NES/` (o `/data/roms/SNES/`).
+1. Subir la ROM a `/data/ROMS/NES/` (o `/data/ROMS/SNES/`).
 2. En RetroArch: **Load Content** → navegar a esa ruta → seleccionar la ROM.
 3. Elegir el core:
    - NES → *Nestopia* o *QuickNES*
@@ -89,6 +89,10 @@ Con eso validado, ya se puede meter contenido en volumen y pasar a los sistemas 
 | El core carga pero la ROM no | Extensión no soportada, o ROM comprimida en un formato que el core no lee |
 | Va a tirones | Core pesado para el sistema; probar el alternativo (QuickNES en vez de Nestopia) |
 | El FTP corta | Modo pasivo y una sola conexión simultánea |
+| *Load Content* muestra las carpetas vacías | Faltan los `.info` en `/data/retroarch/info/`: sin ellos RetroArch no reconoce ninguna extensión y oculta todo |
+| "Failed to load content" | El core cargado no es de ese sistema (p. ej. Snes9x con un `.nes`). *Load Core* primero, o subir los `.info` para que lo elija solo |
+| Un juego con tildes o ñ sale con símbolos raros, o su partida no carga | FileZilla lo subió en otra codificación y el nombre en la PS4 ya no coincide con el del PC. Usar nombres sin tildes |
+| Un juego del historial ya no abre tras mover o renombrar carpetas | El historial guarda la ruta antigua. Abrirlo de nuevo desde *Load Content* en la ruta nueva |
 
 ## Fuentes
 
