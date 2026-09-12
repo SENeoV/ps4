@@ -5,3 +5,801 @@ APPS,PS4_CUSB99997_v1.00_RetroArch_Picodrive.pkg,26476544,96acd63b42cb3f52a7330a
 APPS,PS4_CUSB99999_v1.00_RetroArch_QuickNES.pkg,26345472,fb73a66ac55d6c0d4b5340bf7018ebe15c709f0c
 APPS,PS4_SSNE10000_v4.00_Unofficial_RetroArch.pkg,28835840,c1c9efc8138eee7f95cef31374b33f9cfdcca048
 APPS,PS4_SSNE20000_v4.00_RetroArch_Core_Installer.pkg,1452474368,c5db1b01be6e717e51f93c60bf0afdfafe32f127
+NES,100 Games in 1.nes,1048592,1eeecaf60715b029050faabf8a71a1f5c196a907
+NES,1942.NES,40976,3d9dc619d266f1a8f6b60806fd003b2f67d3709a
+NES,1943.nes,131088,443d235fbdd0e0b3adb1dcf18c6caa7eceec8bee
+NES,1999.NES,393232,3c8f8c2c036b82afb8d3b62033511f9930ae25e2
+NES,3DWorldrunner2.nes,131088,d685685d25b6564ea24a5ba7b687db23b098b04c
+NES,8EYES.NES,262160,fddc581f9837c47628fcfba01f258f3318af9641
+NES,ABADOX.NES,262287,d385acf601470a05569518ba050f257b220155b2
+NES,ABOYANDH.NES,262288,3fe5fe3d2ecc2ef70ffaee447cb78ef82f1e1d72
+NES,Adventure of Bayou Billy.nes,262287,0baf4bc771d3cdc86455d5aa893595fc94244b65
+NES,Adventures of Lolo 2.nes,65552,47d217722bc2375163ebb4b0821dd6eb3acb38ff
+NES,Adventures of Lolo 3.nes,262160,b512c9e14ff7cf3ed5a93c79f1be86e870e00f87
+NES,Adventures of Lolo.nes,262160,49b885f1d25d8085778eefcbb98823512a2be01e
+NES,AFTRBRN2.NES,393232,aea3229d431fed65451e6cd08d5162c76eca0f52
+NES,AirFortress.nes,262160,331ebf0ae6ff3904d079fa0a31f24ed7a800a9b0
+NES,Airwolf.nes,262160,f207ae03e650a2c809c450d35f817b2ceac55fad
+NES,AlienSyndrome.nes,262160,9b31956dfcab9fdc835ccc965478d91d2f4e850f
+NES,AlphaMission.nes,65552,a58f8aa49e7292035ad22a82b67cfe57ebff6c56
+NES,AlUnserJrTurboRacing.nes,262160,b6432e0bd03395a2ff964e74067d37cebba8d236
+NES,AMAGON.NES,131088,2797a53195b27b2b570465514b4e55c43a6c9b08
+NES,Antarctic Adventure.nes,40976,680328c4c80facba9dabb50be2efe09848e4ce45
+NES,Anticipation.nes,262160,b8b310fa7026e148eee5c87567ea07d194f39c8f
+NES,ArchonTheLight&TheDark.nes,131088,bba67e11a28b8eceb1e1feded17f917abce058ff
+NES,ARGUS.NES,49168,dffccbf1e0b13121d06f419106eff8a6a4fdc06c
+NES,Arkanoid.nes,41103,3d7785b4b51564a867156de3ddc527ca90d301aa
+NES,Arkista'sRing.nes,65552,940d3dac5144e2a6399bad3bbe260d93270af10e
+NES,AstroRoboSASA.nes,40976,e1516dab22767e154b9ca7eb76beb86a0bc456d0
+NES,Astyanax (U) [T+Spa].nes,262160,21017556fce36a80d75bc2b4babbba9a0b932986
+NES,Astyanax.nes,262160,1787c6235fbf16337bb4789817cfe0b15ab3aad7
+NES,Athena.nes,131088,b01cebe33186181a642266e61b8f6fbf8644c8e3
+NES,bad.nes,131088,40ac269cdafcc860698c76fde8927d571f1d36e7
+NES,BALTRON.NES,40976,d6bde7b8e0a40f24ac0de2390f9fa7716b5fac2c
+NES,BANANA.NES,65552,5e859a6fa12809335dd8f8c99c7fc867ec23f619
+NES,BARDTALE.NES,131216,2e8dfd1b5ccc8417b5e06d9907294a51295fb3bb
+NES,BASEWARS.NES,262160,b4b19652ee2a00c48aae6ec09d63cea283e722c8
+NES,BattleChess.nes,262160,229fb2ac6ce5978b830c860473d6cf5ca794268a
+NES,BattleCity.nes,24592,0aed5461747915ccd420e7fe724c84b5098fbbea
+NES,BattleOfOlympus.nes,131088,f78bc7278e8e753e75e73bda9e5f9d055121231a
+NES,Battleship.nes,65552,086e81e018013de624c9d18fb24771e503d68c47
+NES,BattleTank.nes,65552,54a09fd17e0ec8d52f7ef46cf9a8cd198fd4c32d
+NES,BATTLETO.NES,262160,5c3a497a82be60704dedf45248b6ad9b32c855ab
+NES,Battletoads_and_double_dragon.nes,262160,61832d0f955cff169ff059bd557be4f522b15b7c
+NES,BDUDES.NES,262160,f19ededc60d3925b75bae71b72448757fd59c3db
+NES,BFIGHT.NES,40976,d411b684edd7063b24400dc2bdecc31e5ece8e89
+NES,BinaryLand.nes,40976,599f0354320e9eb6e0c5cf7694d0364418dfd2be
+NES,BIONICC.NES,262288,8deb493326eb7c61942e615b7536532f184e32d4
+NES,BirdWeek.nes,41104,3342217c69a1265c45b24493f60e4e7409c627d6
+NES,BlackBass2.nes,131088,e034dae6cadde4a22b4a3fbc09a3c1a3861d0cbd
+NES,BlackBassUsa.nes,131088,cf9b7095cdf800c8af7717d09b8ab0e0f2632995
+NES,blstmstr.nes,262287,f7031839dc119c53f49bcbf4212295b108d731eb
+NES,BNJUMP.NES,65679,a94a5d673a768deac5ecad5c18e81f30415cbc6d
+NES,BomberKing.nes,131088,07a78e7e2a8200c51ef9d78e6b7f958d5bc1bc7c
+NES,Bomberman.nes,41103,e311839bec8b9fe86006dcce14aa2aedc9aa4702
+NES,Bomberman2.nes,131215,d4d04730b8824f8fe808b94d7f20cab0db2fb5e1
+NES,BOOBY.NES,131216,330b045acc8a2aea981be76e3d25525435fa29e7
+NES,BTHRU.NES,262288,6e1732cd0e59f9e7cefe24386e7048338efee8b5
+NES,BUBBLEB2.NES,262160,8b3d397f9a2385c9f2b57e5817e421c94583f7a3
+NES,BUBLBOB.NES,262288,36183ef7783fd6ec1af919f39fe252c751d0984f
+NES,BURAI.NES,65552,85d9e0a9b8d66ddf8e05bc70cd5d75465efcdc60
+NES,BURGERTM.NES,41104,a38d0f97c6bc05ea1b512693f50ffe8e1d02f3b1
+NES,CABAL.NES,131088,2ca85d4d144a9c61bc9e14580b66ebcc68b7dab9
+NES,CASIOKID.NES,131088,3248834bc6b84ff12cde0ccdce1b3b8bf761cd5f
+NES,CASTLE.NES,65680,013ba1705dabc64916d56688a5283d463c0bbbae
+NES,CASTLEV.NES,131216,40bb16a0f0a9bd31b60b474aebb8e125a8b4ad65
+NES,Castlevania (U) (PRG1) [T+Spa100%_Tanero].nes,131088,c19ef135f6ff4439844aa80ae554b9c2ddd8e459
+NES,Castlevania II - Simon's Quest (U) [T+Spa].nes,262288,c65f79652cb75fc29355ddf5ef0acea7a9ba4659
+NES,Castlevania II - Simon's Quest (U) [T+Spa1.0_SkAnDa].nes,262160,7925f9a69bf49ac18b0d1a4d1e238ba3a3ffcc4a
+NES,Castlevania III - Dracula's Curse (E).nes,393232,5f8ff33e76633c1ad8875cfeeeb10f16bf50095c
+NES,Castlevania III - Dracula's Curse (U) [!].nes,393232,f91281d5d9cc26bcf6fb4de2f5be086bc633d49b
+NES,Castlevania III - Dracula's Curse (U) [T+Spa_PaladinKnights].nes,393232,fcc1cbacefe6898dd44ba198e710e9c05aa5af74
+NES,Castlevania2.nes,262288,8359cb9907b5105af59256fc1f574ff17fcd5ded
+NES,castlevania3.nes,524304,9bbb86da081741bdd537384b67680a68d85c0088
+NES,CCONN.NES,65680,bc4839b7ca6e30a402f25ccb72fb366f80201b7b
+NES,CFIELD.NES,131088,52b4903e85dcb693e0e0a224247d6637afab2133
+NES,CHALLEN.NES,40976,73b99d597d42f8ca92ce5121f5b010105b7d276d
+NES,CHAMLODE.NES,40976,9a869022d55c79f6e929ffc4bed01d6e0a4a5cf9
+NES,Chase_hq.nes,262160,09b4d6d7f8e1bf6603debcf728e758da4ce101bc
+NES,Chessmaster.nes,163856,9b4968837583d04f0ce092f30ac027468c4b4404
+NES,CHMPPOOL.NES,131088,78e34000b29e51c1371ff596f4de85b55e873d4f
+NES,CHOPLIFT.NES,49296,d89a6ed3d8a3a5c6853225124f338d96f67cc623
+NES,CHUBBY.NES,65552,125dd09fb22e5bd0a0945db79a629037188f59ba
+NES,CIRCCAPE.NES,262160,2c0017f31c63b2235ade9dab5c5ed13ec051fe1f
+NES,CIRCCHAR.NES,24719,aec0e6cab23f5442a6b540b0d412af96cc78c505
+NES,CLASH.NES,262160,87513184f1397e058da6d514da7863b7d043bfa7
+NES,CLULAND.NES,65552,258cef8681b593fbc6635f5f1bd871f47e67c12b
+NES,Cobra_Triangle.nes,131088,36636860236c9b83bd6fc92085eba010d1c514da
+NES,COBRAC.NES,262287,c21e31c0088701e8dae8baace8fa7c67ab4da363
+NES,CODRAGON.NES,131088,77c5d496a55ba7e1ccb2ef05da634de24b7470cd
+NES,COMMANDO.NES,131215,9ee39b80f9f3aadd824d3307d71d21861538a88d
+NES,CONQUEST.NES,262160,9369adbb9bdc25861877285773d14c747e48c500
+NES,Contra.nes,131088,c9ea66bb7cb30ad5343f1721b1d4d3219859319b
+NES,Contra_force.nes,262287,5e04823cdde1a8b1623af21622f5f2fde832bda0
+NES,CrazyClimber.nes,262160,1e82ab007129784ae1d13a8f8eb98a2910a6a3af
+NES,CRYSALIS.NES,393232,fd0dcde4f1708b30d5c3de1e463f1dde89c5cb64
+NES,CYBBALL.NES,262160,926f5b6bfbe158b3e565968c51d95192f55f59df
+NES,Dai Meiro - Meikyuu No Tatsujin (J).nes,262160,fce9f5e60f9570324966eb59d3a628edb3775252
+NES,Dai Senryaku (J).nes,163856,e16b1ac233d00375603e5e9c556c38beb8f54d2e
+NES,Daiku No Gen San (J).nes,262160,32e56f2cfce15ce90984eacd8bf9b1b7357d9d49
+NES,Dance Aerobics.nes,98320,eebc75e9de3001c8cc69f2f8a7f58048ab42d2d8
+NES,Danny Sullivan's Indy Heat.NES,131088,45404aeac39e5855034c43554ca252de17131bbe
+NES,Dark Lord (J).nes,393232,bd070a485a4d538e225be42d508bc9539635685c
+NES,Dash Galaxy in the Alien Asylum.nes,65552,a0a70eef5948f05236099a14aeb1657b43f90624
+NES,Dash Yarou (J).nes,131088,f42ec95a49704ba6f2784a8c4c6648c997f11609
+NES,Datach - Battle Rush - Build Up Robot Tournament (J).nes,262160,9f5af3e3cf586ea3f9ea7cac5e47b8ae84f3644c
+NES,Datach - Battle Rush - Build Up Robot Tournament (J).sav,128,5d522326424e51693217395919fcad2e6386865c
+NES,Datsugoku (J).nes,262160,07163eb960d8db3a2ceb0c4e07899347e1321aa2
+NES,Day Dreamin' Davey.nes,393232,4c88391318e3bd79c14bff6724a377688e47261b
+NES,Deadly Towers.nes,131088,d59da5bf52d5ecf5f407b70ff1c32b99235676d9
+NES,Death Race (U).nes,131088,16da6d9c71aa41c26c0f9487a7b348ded994f197
+NES,Deathbots (U).nes,131088,05319eda0e8655912fee0506a428c7c2e42736d7
+NES,Deblock (J).nes,65552,31bd8918cbfddccc25ed250aa248008614679810
+NES,Defender 2.nes,65552,7b8ae529a3cd0180aafed7fbfaf23e2d921003e9
+NES,Defender of the Crown (E).nes,262160,3c5a55fb4364d4a6ab7ecdbe02e777fced8a58fe
+NES,Defenders of Dynatron City (U).nes,262160,95c14682c953485869e6cd4b4fb412c107cb683e
+NES,Deja Vu (J).nes,393232,c238fc1429992c09453de6e87aa16c17ac45d3eb
+NES,Deja Vu.nes,393232,b15bb34cc2392323ac16de1a6ea4198de1971dc1
+NES,Demon Sword.nes,262160,5a298ffaa3da98d14bab2ffa25dd8a733203800f
+NES,Dengeki - Big Bang! (J).nes,262160,66c79be30fe2a35d59bcefc9747c1d11f219463c
+NES,Densetsu No Kishi - Elrond (J).NES,131088,eb9267259028cbae67a0d6a4c4a02f34fe274218
+NES,Derby Stallion - Zenkoku Ban (J).nes,262160,2e2e781c9925b38dad3857044793ce850329936b
+NES,Desert Commander.nes,262160,337145beb409e0d3f88dd0bc91b3f2a746a4809d
+NES,Destination Earthstar.nes,65552,69ca48c3a8f6ccda31df7a7ea280077287c85585
+NES,Devil World (E) [!].nes,24592,0ac20dda00a02749453753263fdd8de37a3023c7
+NES,Dezaemon (J).nes,131088,298e5070f9ac3b7ce0e27011ae55535e03242cf6
+NES,Dian Shi Ma Li (Mario Lottery) (Unl).nes,65552,050671f45712f65fec84dc490214a6942a8c53ff
+NES,Dig Dug (J).nes,24592,ef9d2a241ecd6a99c3a5e8fc30a7958aced8ea4e
+NES,Dig Dug 2 (J).NES,40976,6d6f8f98c74147171166d84ef70112029d7fa1f7
+NES,Digger - The Legend of the Lost City (U).nes,131088,a3aa8100733d15f50c9166fab6533ba56577174a
+NES,Digital Devil Story - Megami Tensei (J).nes,262160,0dcef92a7dfd2f901429044a0880ea95728d3554
+NES,Digital Devil Story - Megami Tensei 2 (J).nes,524304,ad3298f0bc7f9fc2fd15f654e0d18bdb6228735e
+NES,Dizzy The Adventurer (Aladdin Cart) (U).nes,131088,24b0b961c8cdbe3c6dd19477f29d6e8aebaec91c
+NES,DK3.NES,41104,a7ec24bc2f0f4de893ab54ff393ecac83a81b2f8
+NES,Dog Town.nes,40976,93f18c87ed94cdf6e0d47455d345ca3690dee5c9
+NES,Doki! Doki! Yuuenchi (J).nes,262160,aa248bd35a051ae91536288a09dc932adaa4fc45
+NES,Dokuganryuu Masamune (J).nes,262160,282399b1f7a320421f0dcc0d34f91d7018912f89
+NES,Don Doko Don (J).nes,393232,1fbefd95d9e6d2e9c86d098e4cf7b614caaf21f3
+NES,Don Doko Don 2 (J).nes,393232,d1f3a33cabdb2f075ecc5b60820241fe94216ba9
+NES,Dong Dong Nao II - Guo Zhong Ying Wen (Middle School English II) (Unl) (Sachen).nes,65552,e9e2ebd4b7f0964010922a3d44431a6a0193fc31
+NES,Donkey Kong (JU).nes,24592,d8dfacbfec34cdc871d73c901811551fe1706923
+NES,Donkey Kong Classics.nes,65552,8d21ea39765c31ec545bf84af339a12ad2fe16de
+NES,Donkey Kong Jr (JU).nes,24592,02633e208732b598e3a8eb80b6e0e09926f25e83
+NES,Donkey Kong Jr. Math.nes,24592,f05e358803ee665aca2f84a34d9010d01e604b2b
+NES,donkeykong.nes,24592,bf30c3348e2b0a2a8f30819e17c8b6465ab1b58a
+NES,Double Dare (U).nes,262160,f8bdeed573bd4324b5ab174bede444c4f53a49d0
+NES,Double Dragon (E).nes,262160,0bec97a1c7191757ec961b0dbd2674145674ed5a
+NES,Double Dragon (PC10).nes,270352,52cb87aaed8b81623f562f767b2f5a85d403411a
+NES,Double Dragon (U).nes,262160,a242e4d087babcd929e317f2b7c27ce7f75eb68f
+NES,Double Dragon 2 - The Revenge (U).nes,262160,e4fbbe69b3b539b198ae0e037fdc2558074a283f
+NES,Double Dragon 3 - The Sacred Stones (E).nes,262160,5d370312b65ce8058cf9c7999c7ddbe1bf10d376
+NES,Double Dragon 3 - The Sacred Stones (U).nes,262160,18ecc9cad3b1c36653867ea02a8465f2046aa459
+NES,Double Strike.nes,65552,552cb98665cec12a02442f3d3310db9cea6163b0
+NES,Double_Dragon(J).nes,262160,8ed9c42d5b3a6f404945fab611673219c898ba15
+NES,Double_Dragon_2-The_Revenge(J).nes,262160,4d98a522c28e2dedf3ef80665c8fe1d82cf9bbbd
+NES,Double_Dragon_3-The_Rosetta_Stone_(J).nes,262160,c2eb62a13faca63c55efa68984ae515b4dbea9c0
+NES,Double_Dragon_4_[p1].nes,262160,de8722989ef4379e78fc8ed159aa42a29f1e627a
+NES,Dough Boy (J).nes,40976,a4b7b8dbc21d582859b2c017d6d2ca874c33abbc
+NES,Downtown_-_Nekketsu_Koushin_Kyoku_-_Soreyuke_Dai_Undoukai_(J).nes,262160,cc2daf66588ba6b3dc792086404838c48f36d811
+NES,Dr Mario (E).nes,65552,5911a6fe7a20a514f130fbca3b9ef5e8481fd9f2
+NES,Dr Mario (JU).nes,65552,01de1e04c396298358e86468ba96148066688194
+NES,Dr Mario (PC10).nes,73744,f5282a48dc2d6b14072405a0b721751d96079996
+NES,Dr Mario (VS).nes,98320,5f07b9a1f72410aae6f751d34781e648da6f624e
+NES,Dr. Chaos (U).nes,131088,ce489cf4d432fda3c345c0735ec4d550959296bd
+NES,Drac's Night Out (Prototype).nes,262160,2bfb09932be1e547ffe5bd62b0cc6bd1f0c55ff2
+NES,Dragon Buster 2 - Yami No Fuuin (J).nes,196624,bfbdb7bfee95c956e9cbd6a3fd08c7aff5a249a0
+NES,Dragon Fighter (J).nes,262160,ef3d8386d53e2131bafb9c16ab3b9df621877a21
+NES,Dragon Ninja (J).nes,262160,a2fb92bfebac5e05405db31d8d82e200fc4186af
+NES,Dragon Scroll - Yomigaerishi Maryuu (J).nes,262160,b8a925bc1208134672cd90af738e9bd0a2bda610
+NES,Dragon Slayer 4 - Drasle Family (J).nes,196624,9aaaad6621efbfe83bf78502421958c0fa6c75be
+NES,Dragon Spirit - Aratanaru Densetsu (J).nes,262160,6e11fdb5d99f5044ab19471c66142bcb75a27fbf
+NES,Dragon Spirit - The New Legend (U).nes,262160,01b206f8cba9669fc6166a62b78c1522475d863a
+NES,Dragon Unit (J).nes,131088,0d2b5c5e2681875202a814e6995d05c5cd4359b2
+NES,Dragon's Lair (J).nes,262160,96369e101cb2fa263a7d4c16f643d1fa456637a4
+NES,Dragon's Lair (U).nes,131088,b264269fd22f9ce245bc8b84771a0022ebb75278
+NES,Dragon's_Lair (E).nes,262160,b5192ad295be365baa55f7dfc169da781a4f512d
+NES,Drop Zone (E).nes,65552,2705e49291e2dea9b739816be4857bd403577006
+NES,Duck (UNL).NES,40976,d70c8110130ca8dc18752da80f4fffcf30de035d
+NES,Duck Hunt (JUE).nes,24592,8e18068823635a115e2fc0925ff3bda209ec6a42
+NES,Duck Hunt (PC10).nes,32784,9cebce0fe1d9e2ae334418023b67e34e141756d5
+NES,Duck Hunt (VS).nes,49168,2ecb1441097cfc3a8f6d337d5d1c14a62ecfee5a
+NES,Dudes With Attitude (U).NES,65552,3c1af9bc625e179192658a3141425337fe1cfa8c
+NES,Dynablaster(E).nes,131088,58edd4bb692191c1bac79d0b8b4ca1d6f6eb9305
+NES,Dynamite Bowl (J).nes,65552,0bff13d1036eae82900e2cfe8676198c5bd00043
+NES,Dynowarz - Destruction of Spondylus (U).nes,262160,8e7f88eb94441b75b4f46563aefda94fbf307ad3
+NES,Earth Bound Alpha (Hack).nes,524304,cf3c28657c9d690bfdfb47036536d2b2be8a3af2
+NES,EarthBound (Prototype).nes,524304,4e026a8defc42118afa6f8d429fd341c48527601
+NES,EarthBound Zero (Neo Demiforce Hack) (UNL).nes,524304,f9bd76a9a1f59db081261f68290df26339c7cae3
+NES,Eggerland - Meikyuu No Fukkatsu (J).nes,163856,141e45fef898554523ba181eb25f1b4e9a7a278c
+NES,Egypt(J).nes,65552,605f62d4545e6a3b2aa4555728a6e6f5d5966389
+NES,Elevator Action (J).nes,40976,6be62281874084dd329f8dfa686dc214c9ac1f75
+NES,Elevator Action.nes,40976,8e1bacb45e381557ec36797a9239817c0fe04629
+NES,Eliminator Boat Duel (262288).nes,262288,e40d68250cc3dde3b4498c855f29b16185b8311c
+NES,ELITE.NES,131088,17c4f91469931ea309bfff4faba3f3c34deed3c7
+NES,Excitebike (PC10).nes,32784,b8ad425824126ac085b33b4d089cda48bc870bc5
+NES,Excitebike (VS).nes,49168,f25d24f58b23e51291e106df92914e1021a42b3e
+NES,Excitebike(E).nes,24592,406542b9f2bd1b88ed6f3cfc58b6d55bbbbae2da
+NES,Exciting Rally - World Rally Championship (J).nes,262160,d84a7779afc94109164c1d9ea8e34cfeb31081df
+NES,Exed Exes (J).nes,40976,f4b503de41b76f075220abf22738262ca1ed2ffe
+NES,EXERION.NES,24592,1f51e431d8febc917b9ca2835fdb0fa37bf668fa
+NES,Exodus (Ver 4_0) (U).nes,262160,27461c372300a21c710e882c6444859c119382fa
+NES,Fatal Fury 2 (UNL).nes,393232,94eb553a7f38c1eca71eaaeda6f84718ae60c40b
+NES,Galactic Crusader (U).nes,65552,2647d4f6b7346fa399ed79e1c19dabc1c045889c
+NES,Galaga (J).nes,24592,4c202daddf0107025fb9f17432a8fddc710d55c6
+NES,Galaga (U).nes,40976,da54c223d79fa59eb95437854b677cf69b5cac8a
+NES,Galaxian (J).nes,24592,57ebb5da099ccb2e563f582181d8a2d251fecf2a
+NES,GALAXIAN.NES,40976,0af1b7229429b5fa520eaf88056c5c89dec7c942
+NES,Galaxy 5000 (E).nes,262160,05414a8a47abbb37817968005f198829d53ec92f
+NES,Galaxy 5000 (U).nes,262160,cffe42a7270391a51cec04b04bc28ff8b2fa2265
+NES,Galg (J) [!].nes,40976,43ba14d9f066d5164d1e0f53776c7376b24c1fc5
+NES,Gambler Jiko Chuushin Ha - Mahjong Game (J).nes,262160,36c72aa6e3b0e44f4f8c6b38825ede1cdc35b4bd
+NES,Gambler Jiko Chuushin Ha 2 (J).nes,262160,a988255dc6763cdff302b3c97a215a0fa980a6f3
+NES,Game Party (J).nes,262160,564ffd1f4cf1bdae9c7e5ab64dc13a4f62a9224d
+NES,Ganbare Goemon 2 (J).nes,262160,4aea034f62bd8f86932f6334b6cb09ac2006e757
+NES,Ganbare Goemon Gaiden - Kieta Ougon Kiseru (J).nes,524304,6beaaffa5f4bf406215b81e10af5c8322579fe2a
+NES,Ganbare Goemon Gaiden 2 - Tenka No Zaihou (J).nes,524304,0a4a08e96ef3445a103377b74bad83a93851ace2
+NES,Ganbare Goemon! - Karakuri Douchuu (J).nes,262160,65fde65ee2483e7d6193de474c618dbab07c3ff7
+NES,Ganso Saiyuuki - Super Monkey Dai Bouken (J).nes,65552,7866ef62c7a2484a76d289c300f415c91a6fbfec
+NES,Gargoyle's Quest 2 - The Demon Darkness (E).nes,262160,6a5e46b107c6dd7cc161589bb5c92c340c604a0f
+NES,Garou Densetsu Special (UNL).nes,524304,eab8500d7bb0da445ab9b8208e1b94e042392a1b
+NES,Gauntlet (PC10).nes,204816,4c7b8d0a2672d0188abca02430ffb0809d948fbb
+NES,Gauntlet (U).nes,196624,a3daf32268297fc0132127fb143119500bd465ec
+NES,Gauntlet 2 (E).nes,262160,1ae143db5f42df81c0db83523dbd38910579ddf9
+NES,Gauntlet 2 (U).nes,262160,627d7cb9fb50f640cc3b62fd493cfdb6ff4c569b
+NES,Gegege No Kitarou - Youkai Dai Makyou (J).nes,65552,e9c75eb18dc5eff694547548e0a6080878644c14
+NES,Gegege No Kitarou 2 - Youkai Gundan No Chousen (J).nes,262160,8c4a622194f2ee671a2ccaf66ebb87ec35548e5f
+NES,Geimos (J).nes,40976,c2c2d8c22ce9483ade6e69eb52c8a9a7e9756118
+NES,Gekitotsu Yonku Battle (J).nes,131088,f000ad1916aa29be3ae51f675ed42bf7b4e1c1b4
+NES,Gemfire (U).nes,524304,65e31be40a06b3c1d4803e2c5b0decffc1a7bb48
+NES,Gen Ke Le Zhuan (C).nes,262160,89589daacef59c889f87a49d2620119efc4feb7e
+NES,Genpei Touma Den - Computer Boardgame (J).nes,196624,6d855d32fd1e0ef62115f12f99dd2e954fe2e34c
+NES,German City (River City Ransom Hack).nes,262160,a51db075e984905fc68e345f17338cf3b68d0170
+NES,Getsufuu Maden (J).NES,262160,b802f416d7e535289c4509d1768548ac703e40f1
+NES,Ghosts 'n Goblins (U).nes,131088,8de81d363e11cecb570a9d18237f7b56b2b659db
+NES,Ghosts'n Goblins (E).nes,131088,f69210c750c8d40258d8b31e46c303ce581ce642
+NES,Ghoul School (U).nes,262160,3774bba926b79382f413ed911e985baea4160de9
+NES,Gimmi a Break - Shijou Saikyou No Quiz Ou Ketteisen 2 (J).nes,262160,b40a3b9b60f6376d599da553717bbf05ff2c48a5
+NES,Gimmick! (J).nes,393232,2aff0e6a2cb09fcfe9f21803478d33a7a8f884f7
+NES,Ginga No Sannin (J).nes,131088,846e3fa6f21a0b11a09f6ee8c85d2f596b7b032b
+NES,God Slayer - Haruka Tenkuu no Sonata (J).nes,393232,39a2cb1c89921cc5cae5522b77978ef1610018c0
+NES,Goemon.nes,262672,86e24c37c7b4fe7a9636de3866df78064cc7b6e0
+NES,Golby No Pipeline Dai Sakusen (J).nes,65552,4a6331e9912d9203704e5bb7cce50931ae119003
+NES,Gomoku Narabe (J).nes,24592,6f47a49a6b4a71078db02dbb25ef79660e19543c
+NES,Gorilla Man (J).nes,524304,0766b484b0305670793c6002b32695fd118cfd16
+NES,Gozonji - Yaki Kita Chin Douchuu (J).nes,393232,ad266b5ad4d3a45f42d457d8cf8e669abadf3e6d
+NES,Gradius (E).nes,65552,489fcb79b6c20584673f04520e77c6d0dda734be
+NES,Gradius (J).nes,65552,2ea97aa8031ae5a22bc171fe959751cc09410cdf
+NES,Gradius (PC10).nes,73744,95a9e9b61d610a96b9ffefd8017db3035609dbb3
+NES,Gradius (U).nes,65552,17d740e1e79350e1f0a6565908767e8585606a98
+NES,Gradius (VS).nes,98320,572462cf0b3e6927d1e02c8aff2b4da5b94987d2
+NES,Gradius 2 (J).nes,262160,b5a8e30d20a52d0f9bfb35def76b8733dfa705e9
+NES,Gradius II (J) [a1].nes,262160,7c30827a4000d044008aa13cce9a386786040399
+NES,Gradius II (J) [hM04].nes,262672,48bf44c001738b3d8b8fb1a0203b03811e441c27
+NES,Gradius II (J) [hM04][a1].nes,262672,d8064bd99ce4829b736dcc33a9c56b028593bcc2
+NES,Gradius II (J).nes,262160,b5a8e30d20a52d0f9bfb35def76b8733dfa705e9
+NES,Grand Master (J).nes,393232,aa0fb9dd052ee687ff02ed2713ed92a3887e76f0
+NES,Great Deal (J).nes,131088,4ff6ebfc1f63d7ffd06d3e35be330c14a51a2902
+NES,Great Tank (J).nes,262160,8750ac8a960e3441eb69fda3d99e9b024efd8cad
+NES,Great Waldo Search, The (U).nes,262160,137aad36f5a68c4bea6d69d13f41a727a1eb3cb2
+NES,Gryzor (J).NES,262160,376836361f404c815d404e1d5903d5d11f4eff0e
+NES,Guardian Legend, The (U).NES,131088,d00d73c7764a4c3513892b97afb939f30e522245
+NES,Guardic Gaiden (J) [a1].nes,131088,841ee305680fa884340343d99992f6957f977993
+NES,Guerrilla War (U).nes,262160,77411a2f3a70fd415b2753710e0580dd2d9602f8
+NES,Guevara (J).nes,262160,1ecd43a03df08f3a27daca5e2a7879b9afa4d63c
+NES,Gumshoe (UE).nes,163856,03660527bbeea76aa319adfb2b3051eb7e46bf1f
+NES,Gun Hed (J).NES,262160,f96ae34e9addb03b8f31de3835596ff4cd9bff3b
+NES,Gun Smoke (E).nes,131088,f824b31ff993c22d639fc281e424cff99e653f8b
+NES,Gun Smoke (U).nes,131088,612f2aa339bf1ae54b466f1574752cd753097503
+NES,Gun-Dec_(J).nes,262160,e2457c3154095d849eb5e4a7d11c4990d03d7645
+NES,Gyrodine (J).nes,40976,fed73bde46c33ed0f241e458d567b6607786124c
+NES,Gyromite (JUE).nes,40976,77b3a27b07cf7625227478ada2d42006cad3f7d6
+NES,Gyruss (U).nes,65552,df78cf86022a40b47a17125c82b705f4ebd8a5c4
+NES,Hammerin' Harry (E) [!].nes,262160,b017bd17b5a9e07003cfc3c498b3549bdb49cb1a
+NES,Hana No Star Kaidou (J).nes,131088,2bd8b0f5c20b8cc682377bb10b100f77b559c62b
+NES,Hanafuda Yuukyou Den - Nagarebana Oryuu (UNL).nes,65552,96c8b8ce5eefd36d8f72cd8f2d74d02a967b260e
+NES,Hanjuku Hero (J).NES,131088,5aa8fdffc5fd60118edebf3e02ba1074d0cd8893
+NES,Hatris (J).nes,131088,802aa5d7fe0a8eb87741214730268874f1352fb5
+NES,Hatris (U).nes,131088,7f0eb54362927cb5fd2c6a65cdf95d45a620dc03
+NES,Hayauchi Super Igo (J).nes,65552,bf4786a6376ddc84144ffa86519db81e1146fa87
+NES,Heavy Barrel (J).nes,262160,73bd26ace4b23b16d605361b91ee7cfb6f494419
+NES,Heavy Barrel (U).NES,262160,e2472cf182961f8fbc378ac41ced33e408a54c27
+NES,Hebereke (J).nes,262160,5ce5daab012ae6a49b2fe18e162343d3ea705eac
+NES,Hector 87 (J).nes,131088,47f61f6231992ac33eb5adac07df174de5fe0017
+NES,Heisei Tensai Bakabon (J).nes,262160,77e56059186dbdadd3e1708691166caad9ef4135
+NES,Hi No Tori - Houou Hen - Gaou No Bouken (J).nes,131088,d2a36caf2740ebd67b36ab0e243ebf9bb79c3635
+NES,Hi-Game 1999 - Super Donkey Kong 2 (Unl) [p1][!].nes,262160,53621171eb6d0993f9de03684732c0c93ac76906
+NES,Higemaru Makaijima - Nanatsu No Shima Dai Bouken (J).nes,131088,0f66bfe574784dd745ce1fe53a5eef596bad6d27
+NES,High Speed (Bad Dump 1) (E).nes,196624,3de28c5191c1f3b60a85b79f26fe069dc0697cfa
+NES,High Speed (U).nes,262160,7e86548f69130f2d4d21774a313a8d83048c101d
+NES,Highway Star (J).nes,131088,de5c9120dfe4d15ceb4172b9c57470c81827f09e
+NES,Hirake! Ponkikki (J).nes,65552,914036405b4da737623cfee7668ee13531be4670
+NES,Hiryuu No Ken - Ougi No Sho (J).nes,131088,2a79f7fe9313dd04e22b29de8bfed1589b153e1e
+NES,Hiryuu No Ken 2 - Dragon No Tsubasa (J).nes,262160,b2d837e9a5752073654dcc8ca6ddfe0f0e8ea3ac
+NES,Hiryuu No Ken 3 - 5 Nin No Ryuu Senshi (J).nes,262160,f339436320c2357ab1885087d3da65aed0801856
+NES,Hiryuu No Ken Special - Fighting Wars (J).nes,262160,7d3630ac32033e47c5f87c554e4940a3787af83d
+NES,Hissatsu Doujou Yaburi (J).nes,262160,65e76c6e79aea4a29f87a5a4b32e99224072fa8f
+NES,Hissatsu Shigoto Nin (J).nes,393232,9d0dbeb95e07cd2e95ef4ad7883660f6dc7f334e
+NES,Hitler No Fukkatsu - Top Secret (J).nes,262160,efe084182014bf0fc984c6df076beb8849495157
+NES,Hogan's Alley (JU).nes,24592,aa77413f06f55f287f7033a4f239f86df925236d
+NES,Hogan's Alley (PC10).nes,32784,3e77d29927443883b4de771dfd70b19ff37f3614
+NES,Hogan's Alley (VS).nes,49168,66a4e4d7deeeeeaaec73b12056251a0e0da98631
+NES,Hollywood Squares (U).NES,262160,6e4df921a752fcbb7f3c44064e94bef6f945e05e
+NES,Holy Diver (J).nes,262160,47b1a5a395604b8dc0196c74d62bcbf00a941f5f
+NES,Hoshi No Kirby - Yume No Izumi No Monogatari (J).nes,786448,8f2f177851fadad9980ab4a6ba25850883c8c2eb
+NES,Hostages - The Embassy Mission (J).nes,262160,2c82b7cc44e780b7482bb4868893f5a6e8df71d5
+NES,Hot Slot (U).NES,98320,219c919f94dcc94251da79a5bd3bd51df53c91ef
+NES,Hototogisu (J).NES,262160,41c4064f5ff1dbff2480acbb6d364d1138d099e7
+NES,Hottaaman No Chitei Tanken (J).nes,65552,134cae1885cefed08b6c01728c1974bed8ca996b
+NES,Houma Ga Toki (J).nes,131088,cb1bc8b1f018a8fd5263157e583c8eb871686229
+NES,Hudson Hawk (J).nes,262160,1ef13024a42056a602d32862aaa19f59398ad624
+NES,Hudson Hawk (U).nes,262160,456daa7a983d1e215d9e516db7ce5703cdf2d2f4
+NES,Hudson's Adventure Island (U).nes,65552,22ee75b82f4a6412aa6bb940e109704975b95185
+NES,Hudson's Adventure Island 2 (E).nes,262160,0ca85009086f2b5ddcaf2a81a4641e2a48b7e134
+NES,Hudson's Adventure Island 2 (U).nes,262160,f53fd2b03cfc5cf28d68021b47815e8710c3b44d
+NES,Hudson's Adventure Island 3 (U).nes,262160,6b73cd5c62048f463bebf557352b2f4b6ee81651
+NES,Hyakkiyakou (J).nes,262160,f1fbb48563d8e24aa1831dd621699871e84ebe7c
+NES,Hyokkori Hyoutan Jima - Nazo No Kaizokusen (J).nes,262160,0e89c328d509d73cc22f800602a06d42d78018f4
+NES,Ice Climber (JE).nes,24592,1690e419bc2435739efbe59a64d83538ff7e16b4
+NES,Ice Climber (U).nes,24592,09d97003bf9d676f24a75cf3e1dced28cda3be59
+NES,Ice Climber (VS).nes,49168,8215ac517123ef362878c586af157e67a68129ac
+NES,Idol Hakkenden (J).nes,262160,d3731fdf1e6f954c566e46a32456f5835985de68
+NES,Idol Shisen Mahjong (UNL).nes,98320,3c10f0301c0f8f0624bcef179c3db1fec1290daf
+NES,Igo Kyuu Roban Taikyoku (J).nes,49168,c0ae1e8f5f1146ea542e0c68d6aa19726b04d8f7
+NES,Igo Meikan (J).nes,40976,bb0132aaabe946864c3a7021761b4bfe5ff819aa
+NES,Igo Shinan (J).nes,40976,30eeebbd9c9b7794fbe1cdfe651770d8ea142024
+NES,Igo Shinan '91 (J).nes,163856,c9e4beb32e84af5ab58b6b10b650814df2411104
+NES,Igo Shinan '92 (J).nes,163856,c8a89f9aa2f6259e4973c07574bb7cebac61088f
+NES,Igo Shinan '93 (J).nes,163856,34f982a9d303710543197f8c08e4889db2064dce
+NES,Igo Shinan '94 (J).nes,163856,b7de91e99a1724dabc891b9a5191f7c16bac9e85
+NES,Ikari (J).NES,131088,ced383df6aefe2d5fe99f75af6c81532d4794cb7
+NES,Ikari 2 - Dogosoken (J).nes,262160,a829135e66f490e37d0aa14950f75b78ccf6e1c5
+NES,Ikari 3 - The Rescue (U).nes,262160,b4c29b2cb75113f36a32beee120cad54e8b6fb84
+NES,Ikari 3 (J).nes,262160,c467bd38800593caa3774d22278aab6971e5aac9
+NES,Ikari Warriors (E).nes,131088,c56cfd8c94baf32ea7958821704224f777a5aabb
+NES,Ikari Warriors (U).NES,131088,6eadbbe4c2a1f7ede2978f149b63270c72db281f
+NES,Ikari Warriors 2 - Victory Road (U).nes,262160,2a43aefd2768874e211b6eba74441bf295c64ba6
+NES,Ikinari Musician (J).nes,49168,5fed64394b5ad609913d6c5850eae4e774dd4156
+NES,Ikki (J).nes,24592,ededb2e90535fb23d054646051c30daabad7ea28
+NES,Image Fight (J).NES,262160,f6192b76e5969400a78021eb5353a6d57eaea3df
+NES,Image Fight (U).NES,262160,508ae922ada0082bb48a265baa7dbb52df04af1d
+NES,Immortal, The (U).NES,393232,e8e8120f4db2eb26549b04634b13a1abf5a6f3d3
+NES,Infiltrator (U).nes,196624,09a733dafb53d30e3f7b9d8a8486b6afd160b7c9
+NES,Insector X (J).nes,262160,9648bd6e381673e52e76c1476d30df063d51b076
+NES,Iron Tank (U).NES,262160,3fdc9dae8a9464ce995203f06557170c706bbc6a
+NES,Isaki Shuugorou No Keiba Hisshou Gaku (J).nes,262160,ac95abf7643d671ead2575b34ee495476adbb49c
+NES,Isolated Warrior (E).nes,262160,0438496b52d802ce2abf3d1fcfd1fbdd8301a508
+NES,Isolated_Warrior_(U).nes,262160,78083631fb965c239bc6e36783e094fdc87688a1
+NES,Itadaki Street - Watashi No Mise Ni Yottette (J).nes,262160,ebf0db0d6a34ea0d64d33eda25d7246a66e34f2c
+NES,Ivan Ironman Stewart's Super Offroad (U).NES,131088,7aaa9447085f012e2aa0f56bbeec9f0c7aec6b79
+NES,Jackal (U).NES,131088,6ae152e9a223ff2d4c226de2835489fb2f8cbd02
+NES,Jackie Chan (J).nes,262160,67e2da4f5456dd63b040dcc0df35ef7b2a40735e
+NES,Jackie Chan's Action Kung Fu (E) [!].nes,262160,d041e0fdc4665be563eda842210741250ce1748c
+NES,Jackie Chan's Action Kung Fu (U).NES,262160,48308ad01ed49b928e38ee7de18feb9f917a6c1e
+NES,Jajamaru Gekimaden - Maboroshi No Kinmajou (J).nes,262160,f6378a7181eba89443ef8872d69d5b4b59678171
+NES,Jajamaru Ninpou Chou (J).nes,262160,b65218115f2d5b55cb9a6dc94aed30102313282b
+NES,Jajamaru No Dai Bouken (J).nes,65552,56703efb05e8f99fcb9b3bbb3cdf7a5353abe7df
+NES,Jangou (J).nes,262160,742987b4c46c1ea8168864c2ae183f702691b205
+NES,Jarinko Chie - Bakudan Musume No Shiawase Sagashi (J).nes,393232,4598787ccf3aa4d6d7041afba4eaaad85edde624
+NES,Jeopardy! (U).nes,131088,453aac7e29ebd6d1a4c4409482817bab7c43dfa5
+NES,Jeopardy! 25th Anniversary Edition (U).nes,131088,44ae6d2e2ffb202f3bbdb678fcade84340415b4e
+NES,Jeopardy! Junior Edition (U).NES,131088,baca2c6bf68f3776f34c855f798ec58e094f8f34
+NES,Jesus - Kyoufu No Bio Monster (J).nes,262160,873ec0cf44ae42e3237f7ab246f437db0ae658c5
+NES,Jigoku Gokuraku Maru (J).nes,262160,d222d7f4d782257fb018fac556fe13980b5d9fbc
+NES,JJ - Tobidase Daisakusen Part 2 (J).nes,131088,9481a4c096c4839e9d464e4383fa470975b511e6
+NES,Joshua (Ver 5_0) (U).nes,262160,011a7ce0c86929a5788a67ed49c5dc587c53f991
+NES,Joshua (Ver 6_0) (Bad Dump) (U).nes,262160,4856a12ba4f01e0ca41bfa6c95039fc302a60724
+NES,Journey to Silius (U).NES,262160,fe8620e1c3bcc5dd66291a55e94f996145098492
+NES,Joust (J).nes,24592,fc3fccdb8a69b364420e79ac23d12a5bfe89dd33
+NES,Joust (U).nes,49168,1d27731a7dd8b9a80c501e121ea12a3c35c77898
+NES,Jovial Race (Unl) (Sachen) [!].nes,98320,46942528bdccca4a788507bb9473ebd32446fe72
+NES,Joy Mecha Fight (J).NES,524304,78ae00469e285789c9200b1ea1a1398516b280c1
+NES,Juju Densetsu (J).nes,393232,bebf2d2bed72b6f2cbecdd6218c8cbdf5731156d
+NES,Jumpin' Kid - Jack To Mame No Ki Monogatari (J).nes,262160,0d7828f317773965df1368f936084f70db0609cb
+NES,Juuouki.nes,262160,dbdbb9cc04feaaa8cea5998a3be52adac910bce8
+NES,Juuryoku Soukou Metal Storm (J).nes,393232,9860e6c5797eec1766e71217c9b812d4ad6a9e1f
+NES,Juvei Quest (J).nes,524304,21cae8242cdbd22b53190b5b701aa9ef135f0bd4
+NES,Kabuki - Quantum Fighter (E).nes,262160,776d89a503071f01dc1d88e19edb30f2be8e1ead
+NES,Kabuki - Quantum Fighter (U).nes,262160,c7d9db77b3ec7496f1ccbe082104233f3c6951a0
+NES,Kabushiki Doujou (J).nes,262160,a1e521a63049a2cc205cf9efc0ebe98397856716
+NES,Kaettekita! Gunjin Shougi - Nanya Sore! (J).nes,131088,31eaa6233182d03207dde03b92d6de255b7de988
+NES,Kage (J).nes,262160,4b4e73b3e4a6a1daebed19d0d6e91370422f3352
+NES,Kage No Densetsu (J).nes,49168,8a9e3af36c3938032f8e8a58737a1d79ce1461e7
+NES,Kaiketsu Yanchamaru (J).nes,262160,7b5bbb221224057c949ffd00620a63fb7a907d22
+NES,Kaiketsu Yanchamaru 2 - Karakuri Land (J).nes,262160,c588f134d9a4bf79f8d7e8d487dda410147abde3
+NES,Kaiketsu Yanchamaru 3 - Taiketsu! Zouringen (J).NES,262160,6d1f98345fa5fe127b730567e202c5b6cc6e1627
+NES,Kakefu Kun No Jump Tengoku - Speed Jigoku (J).nes,131088,a102fd544cc9cd40fd97468bab02b6a801d0bd5a
+NES,Kame No Ongaeshi - Urashima Densetsu (J).nes,262160,76f615d84b4a56c671c4261289339e95f0127567
+NES,Kamen No Ninja - Akakage (J).nes,131088,dbaddb9427be2602b64698e6dfba3b5788ee2762
+NES,Kamen No Ninja - Hanamaru (J).nes,262160,f869df4bf18dfdb25dd0963d34c87327ec48a17f
+NES,Kanshakudama Nage Kantarou No Toukaidou Gojuusan Tsugi (Bad PRG) (J).nes,49168,7dd087c699ef63e32c2513679fc837d4e319305d
+NES,Karaoke Studio Senyou Cassette Vol 1 (J).nes,262160,2d1024f16879c741a54b6d11e005a0a453c2a4a5
+NES,Karaoke Studio Senyou Cassette Vol 2(J).nes,262160,4daeb3185aa89bea8226f044c4d0ad0d84f1805b
+NES,KarateChamp.nes,65552,33d5ecace27259ba3161096de339da39e75f8be8
+NES,Karateka (J).nes,24592,33939c51c18d29d7b523d41b058486671df87bdd
+NES,Karnov (J).nes,196624,4bf5cab72a36ac61c2138dbaabc31e32a6509b8c
+NES,Karnov (U).nes,196624,fd296fa8d67b23af852abb2b3b74eefcd38126b3
+NES,Kart Fighter (UNL).nes,393232,ebf39b0e6ec4b8d5fc0c7715bb88c9e733018d89
+NES,Keiba Simulation - Honmei (J).nes,262160,b25f402a9c954a14d40ebff1961ee9bc024dc215
+NES,Kero Kero Keroppi No Dai Bouken (J).nes,65552,01eaeaf328c345cb385eb6850cca55bf53bf579e
+NES,Kero Kero Keroppi No Dai Bouken 2 - Donuts Ike Ha Oosawagi! (J).nes,262160,ae3ce6490a7823267f9655e2de192781cc3db404
+NES,Keroppi To Keroriinu No Splash Bomb! (J).nes,163856,d7cdc031c61d2b2bd1bd2a1fe2079b4e13ba12af
+NES,Kick Master (U).NES,262160,8675bd893b287dd686642a3f609fa4f42c6d02ba
+NES,Kickle Cubicle (E).nes,262160,9650c1930f8d0b6d5b2394e26ffea233128d5eca
+NES,Kickle Cubicle (U).nes,262160,36096c4dedfff0a3ef7d597896ec0f2d332a6a82
+NES,Kid Icarus (UE).NES,131088,ea586e7e2b884ed67b99eaec0678a8faf8c94f46
+NES,Kid Klown (U).nes,262160,b585aa4d3c226ee902e12010e3511360828e980e
+NES,Kid Kool (U).nes,131088,2865f65153a9eefcd61aba2d2a071f256f202273
+NES,Kid Niki - Radical Ninja (U).nes,262160,60b0aff096f5145e15731dd68deb961ec36f15e9
+NES,King Knight.nes,65552,b43816495eb567d88fb2f25cdd9950384fa5c905
+NES,King Neptune's Adventure (U).nes,131088,fa6ed1bab491647789fd92e4f0e8e6bda7a01c5e
+NES,King of Kings (J).nes,262160,462b3a2e81aa0383a56e6ba49f430dfeef624367
+NES,King of Kings, The (Ver 1_1) (U).nes,262160,065cca441d6a0696fbcc613ee352ea7d173596b3
+NES,King of Kings, The (Ver 1_3) (U).NES,262160,3bc0aa563a25d4108eba4d5df6111372a992a1e4
+NES,King of Kings, The (Ver 5_0 CHR 1_3) (Unl) (U).nes,262160,12f38e27465cb631e0545c636028ec79fda787cf
+NES,King's Knight (U).nes,65552,b43816495eb567d88fb2f25cdd9950384fa5c905
+NES,King's Quest V (U).nes,524304,7240e1119c229a9da18663a0067c5b350c2ca161
+NES,Kinnikuman - Muscle Tag Match (J).nes,24592,a093d17239a845a486543062c369c568e6b64a4d
+NES,Kirby's Adventure (E).nes,786448,0634cf75518b28241cc0d51b73102e2b3aa744de
+NES,Kirby's Adventure (F).nes,786448,97432b1a6c71c2243a8c0bab0a7532cd4abd8379
+NES,Kirby's Adventure (U).NES,786448,6bb9ac9f3a25bc4fe0a50abf24a3dcc00c731971
+NES,Kiwi Kraze (U).NES,262160,42f1f567339e02398d32f3b07c13ad4134a49a21
+NES,Klax (J).nes,131088,610919f7f00229e24f7c9f9c0f4d14357a7feb03
+NES,Klax (U).NES,131088,80a2ea6e52b96506613912ff9a15657a29c9684a
+NES,Knome vs KDE Bingo V0.3 (PD).nes,40976,a3f166c73cda9746d42a80439c3140aa199ea8df
+NES,Krazy Kreatures (U).nes,65552,2f67c23b05f930d746be226524ffe284598817c4
+NES,Krion Conquest, The (U).NES,262160,8887894d6e4443a0ee4c35362779c7625a4cf68e
+NES,Kung Fu (PC10).nes,49168,4d1fd4d614cad080c8aa5ad58cbe72072705434f
+NES,Kung Fu (U).nes,40976,c054a885fb9b00d3f6797a35ba5579f2896a254a
+NES,Kung-Fu Heroes (U).nes,65552,14e652a39689d9b00a4ceeadebfc4cdaf5c3a0ad
+NES,Kurogane Hiroshi No Yosou Daisuki! Kachiuma Densetsu (J).nes,262160,4c07a330aeb3912ce9043e146fd8d2796c82119d
+NES,Kyoro Chan Land (J).nes,131088,dfb6e5164d09be61f54f1ea629a46757d7355775
+NES,Lagrange Point (J).nes,524304,fdc91a8b370977720d8efe16f260fd58730fe495
+NES,Last Armageddon (J).nes,524304,be941807833156f12a8650e64536b795d1c4e822
+NES,Last Ninja, The (U).nes,262160,01ea132a014b655dfd0ef67da8629cec3a28eba1
+NES,Last Starfighter, The (U).nes,65552,cd7357f1bd15c423e2760f018d3fdd31445da6f8
+NES,Law of the West (J).nes,131088,d0bf48e2cb1b31e246c44f0a5ff5ba5fa6ad271e
+NES,Layla (J).NES,131088,f8714e9837d165c35904dccb4a2644fa3a0a1ddb
+NES,Legend of Kage, The (U).nes,65552,111854f03bdee7185a4b2c95749edcaf53b13417
+NES,Legend of Zelda, The (Rev 0) (U).NES,131088,dab79c84934f9aa5db4e7dad390e5d0c12443fa2
+NES,Legend of Zelda, The (Rev 1) (U).nes,131088,3701381a82fc7d52b2dd3e8892047b30a114ab43
+NES,Legendary Wings (U).nes,131088,6940d834e7fc26597a8d06cb1509dfc1e999c77c
+NES,Lemmings (U).nes,262160,62e587ce49ff641fac3be1e6268d21038212d0fa
+NES,Lifeforce (E) [!].nes,131088,11b1afd5d53b880ca6ab808672dbc3bff3c57493
+NES,Lifeforce (U).nes,131088,56167c8fb79645b830934aba5f916d44bb36cad6
+NES,Linus Spacehead's Cosmic Crusade (U).NES,262160,d47c85385b91ff8fd9d994ffb71f3e29e01ca8ad
+NES,Lipple Island (J).nes,131088,34b72e5d9f6bfeeef9cfd29d015813287ba84a6c
+NES,Lisezmoi.txt,1528,96d386f323e9551907c8f6e689b6e62ad6e0068e
+NES,Little Nemo - The Dream Master (E).nes,262160,3994f2498ae09e150c3c7dde669b58889f859691
+NES,Little Nemo - The Dream Master (U).NES,262160,1fc0ee2265a49974f99dffa92802c2331de86d93
+NES,Little Ninja Brothers (E).nes,262160,7b3fe739b9141809e39eb9cc357e3916a8ed5591
+NES,Little Ninja Brothers (U).nes,262160,406aff51e1856c398423283b11cc48bf817ba0f9
+NES,Little Red Hood (Unl) (HES) [!].nes,40976,7f4c3071ba94c3abf6a44f9b54b22141737fb0dc
+NES,Little Red Hood (Xiao Hong Mao) (Unl) (Joy Van).nes,40976,0e03817c9082f064fbe45560760d08c02d424dfc
+NES,Little Samson (U).nes,393232,3d0d71ea765d98c8dfea02d034443d278c0fbc0c
+NES,Live in Power Bowl - TM Network (J).nes,262160,73fc4010901e20d70a86581864d38dec47afcadd
+NES,Lode Runner (Bad PRG) (J).nes,24592,9fad170773edeeb5a4f794d7f13f3ebd0bf654f3
+NES,Lode Runner (U).nes,24592,ea09aec11efc4b42ebc644ea243c2284001fe34f
+NES,LOLO1.NES,262160,49b885f1d25d8085778eefcbb98823512a2be01e
+NES,LOLO2.NES,65552,47d217722bc2375163ebb4b0821dd6eb3acb38ff
+NES,lolo3.nes,262160,b512c9e14ff7cf3ed5a93c79f1be86e870e00f87
+NES,Lone Ranger, The (U).NES,393232,6b6dbfb4538ab3fca7d1bb4d89c6ca4cb32aedf9
+NES,Loony Pool (Lunar Ball Hack).nes,40976,2380d28305f14d146540922c6d206a9d461de55e
+NES,Loopz (U).NES,131088,ccc33b5c33b7d4117ccf5a4acbf6efd9ab29442a
+NES,Lord of King, The (J).nes,262160,b1cad2d3e38ccd7780437d2c83effa254576861b
+NES,Lost Word of Jenny (J).nes,131088,47c76731542f306f905c3abd73e17af6448f1b4c
+NES,Lot Lot (J).nes,40976,fc85c2e19a019746fe9865f2bcfd25c04a2717bc
+NES,Low G Man (E).nes,262160,078d4640b709d32a01f9025a044f4c1f50006fc1
+NES,Low G Man (U).NES,262160,a5d317f9565dfefd286bc50e828667c5801b606b
+NES,Lunar Ball (J).nes,24592,2d7afa3f42501f3d043a53c5c78bfadeff3735cc
+NES,Lunar Pool (E).nes,24592,de816d1b6b804f4d3fc39953511965c408774244
+NES,Lunar Pool (U).nes,24592,79d35b9e5497a32200f56f9f86c7a0ebbe2dc52b
+NES,M.U.L.E. (U).nes,131088,4b297bb82cd8d7793459dc20536cc3457bd92011
+NES,M.U.S.C.L.E. (U).nes,24592,94560e44ce3834e69e2684a102491ac66bfe3699
+NES,M82 Game Selectable Working Product Display (E).nes,24592,4d7786106e6e550d993f20319428f27cae6ba998
+NES,Mach Rider (E) [!].nes,40976,f7194c7493fcf6d4266ce06aa0c348c158c352bc
+NES,Mach Rider (JU).nes,40976,e72320d30b6e8f68913603482bbcc81eac077a07
+NES,Mach Rider (VS).nes,49168,fa9736eba063d5c154d0f8e912834348f2697dac
+NES,Mad City (J).nes,262160,fcad4b5bc48e2f6e46f081e01d6cefa33a3a7e0c
+NES,Magic Block [p1].nes,131088,6ea2b4b3672bb397195094139042bf259439daef
+NES,Magic Darts (J).nes,262160,77935c6f277ddfa64150bc424fa1c74c8a8f2818
+NES,Magic Darts (U).nes,262160,11a75f5cd785ec8643200a705d91508295b06368
+NES,Magic Jewelry (As).nes,24592,2dbf2fef4d9b40cc716e91d34147ecfbc5a40659
+NES,Magic John (J).nes,262160,9a912e39eea7089ebe4a8cadcd645bf5fdf36343
+NES,Magic Mathematics (C.A.I) (Sachen) [!].nes,40976,6efc52b699492b619a75f314ae020f7dffdce4a7
+NES,Magic of Scheherazade, The (U).nes,262160,b7360934fe87cdbc53b7d1a1be253e7639010c65
+NES,Magical Doropie (J).nes,262160,f46c65c21104cd25fa04ad28e18cc24c9c4a356e
+NES,Magician (U) (Prototype).nes,262160,273593adaab8cc0affcc2faf41c1d785735248ad
+NES,Magician (U).nes,262160,a3386d0830caa170aeb93baf47adc3e252bddf01
+NES,Magmax (J).nes,40976,a234c4895a01fcf48ac4e7cf64bf0a5fd4eebbaf
+NES,Magmax (U) (Prototype).nes,40976,c23b61b95ad5f6fd93e74cf5152978cf32d843f5
+NES,Magmax (U).nes,40976,5436c556dbb9487bc78d805cd2fd85e421637dd9
+NES,Magnum Kiki Ippatsu - Empire City - 1931 (J).nes,131088,ac49d66180147444cbeb4cf04b1f2041252ae25a
+NES,Maharaja (J).nes,262160,00b4b2b76856a62772cc5d502a5594004cc406fc
+NES,Mahjong (J).nes,24592,1efdfb8f5bb0f8e24d45459600de472b2a940909
+NES,Mahjong Club - Nagatachou (J).nes,524304,7168f75f903782c30c1d9fc917c6bf6e665907c7
+NES,Mahjong Companion [!].nes,131088,ae459047c5d1e83a8c181afb66ccf2b8ccd2f55d
+NES,Mahjong RPG Dora Dora Dora (J).nes,262160,66e6f15a2b6c78a6dce36a64a7f980a3abdf6316
+NES,Mahjong Taikai (J).nes,131088,98806fbd302c59c1cbc4b311a5428da19369ce60
+NES,Mahjong Taisen (J).nes,393232,a6da2ef1288d28b5183e342cc5991cc10a80ebcf
+NES,Mahou no Princess Minky Momo - Remember Dream (J).nes,262160,f04c2cb30adf93ce04df63f88143e0c19fea77ba
+NES,Majaventure - Mahjong Senki (J).nes,262160,1a6a3f17dd76c78c48aec2916e448d0a56180c3a
+NES,Majou Densetsu 2 - Daimashikyou Galious (J).nes,131088,f0a48f51ef3e23c26a8cdd9df3b0ea71534154f5
+NES,Makaimura (J).nes,131088,22c99336ab8b9d3c1fa57e981766bc38cdb8fd6e
+NES,Mappy (J) [!].nes,24592,30a06c63f13d33dc5bb307f15d4be7d4478740af
+NES,Mappy Kids (J).nes,262160,0284bc4bc8248145d90f5f952b69a4496941e74c
+NES,Mappy-Land (J).nes,163856,30f09421b457fc99e4de9df100716fbf0d1e0165
+NES,Mappy-Land (U).nes,163856,dcb6181925e5badc38d8c6f96af36fb9b51b36c2
+NES,Marble Madness (E).nes,131088,6cd36de369175bf79c22908ecc22c2dfd1980812
+NES,Marble Madness (U).nes,131088,db009866ecf20cfdce93dca861f5be1f9dfaaf2b
+NES,Mari - Ayami - Luka no AV Poker (Pu Nu Jing Ling).nes,65552,bb669a5a38aa906cb27a1600a119834689f616fc
+NES,Mario & Yoshi (E) [!].nes,163856,9ca35258a3637b43c45ef7f17a75c7b32ea969a8
+NES,Mario Bros (JU).nes,24592,3de299058d7ddced4c43a14a9898150f2467a756
+NES,Mario Bros (PC10).nes,32784,c52eb8f376d2d6352498e890acd241b14bfaa1b8
+NES,mario_is_missing.nes,262160,8ae6049cfa556676820ec938331795b506db9763
+NES,MasterChuAndTheDrunkardHu.nes,65552,4143f283056a5ad500f70ffaa9406a204591f6ee
+NES,Mega Man (E) [!].nes,131088,0fe255649359ece8cb64b6f24acaf09f17af746c
+NES,Mega Man 3 (U) [!].nes,393232,0728db6b8aabf7e525d930a05929caa1891588d0
+NES,MEGAMAN.NES,131088,5914d409ea027a96c2bb58f5136c5e7e9b2e8300
+NES,MEGAMAN2.NES,262160,6b5b9235c3f630486ed8f07a133b044eaa2e22b2
+NES,MEGAMAN3.NES,393232,cf11e88d6da9f6eac660f8858a7f5f4b28e442cb
+NES,MEGAMAN4.NES,524304,2ae9a049dafc8c7577584b4b9256f7ef8932b29c
+NES,megaman5.nes,524304,1748e9b6ecff0c01dd14ecc7a48575e74f88b778
+NES,MEGAMAN6.NES,524304,32774f6a0982534272679ac424c4191f1be5f689
+NES,MermaidsOfAtlantisTheRiddleOfTheMagicBubble.nes,131088,aeab988d68b38a882a52d49ec6e1db392a5373b7
+NES,Metal Gear (U) [T+Spa_Djt].nes,131088,d0ef7ed8f0799701673e0408213f6965f7387d99
+NES,Metal_gear_2.nes,262287,5eb63400efd35ea671544b65ff6767a876b9cd0b
+NES,METALG~1.NES,131088,d229ab42c26e049b8a8d008ee4f583308e91d804
+NES,MetroCross.nes,65552,dad75c45c96286c0ba6b0f8bd9e89440dad83922
+NES,METROID.NES,131088,166a5b1344b17f98b6b18794094f745f8a7435b8
+NES,micro.nes,262160,ec7bb4d11afa5a955010bb9a548c1460eac08fe0
+NES,MightAndMagic.nes,524304,8de4f9dd211a02df5b328fb7305bd651f07e8859
+NES,Mighty_final_fight.nes,262160,1bb410bc457694fe3109791b6be8f75bf157b8c8
+NES,MightyBombJack.nes,65552,a9863364803fba444571c8ffcd8acae631f49924
+NES,MikeTyson'sPunchOut.nes,262160,8f93bb8c99fe70097bffcababaaba1d474bac751
+NES,Milliped.nes,24592,cdd5f9b85f9e7e98654352f6e74ec89e077b739f
+NES,Millipede.nes,24592,b22faf3bd79baf5a1a176dd54160f04391ace500
+NES,Milon'sSecretCastle.nes,65552,59e13172cd293ae86f037baf664659f18febe0e6
+NES,MiraclePianoTeachingSystem.nes,327696,f98c66ce2c1c73796081634b231355e7551e3931
+NES,MissionCobra.nes,65552,d12e73fa7a591617c36d74f18cfc5146c57916de
+NES,monopoly.nes,262287,8cefe29de770187798a9fc578f05bd0d85c8fdea
+NES,MoonRanger.nes,131088,1eadd4ff160fd225f0159504ac5d7659c2eca894
+NES,MortalKombat3.nes,655376,0088e4f63c744bbdc3b0b439762ed3a166159427
+NES,MotorCityPatrol.nes,262160,8f3babf76eebbd523877105fb74514c2f4169693
+NES,Musical Plan.nes,49168,6f1b7bfba7869d18f1c8f42baf3b2cff565b0b51
+NES,NARC.NES,131088,748fcca3d704f88ee923095b08d950a8564703c5
+NES,nemosp2.nes,262160,e7deca90d7953067fb122d8c9db382145444f683
+NES,NightShadePart1TheClawsOfSutekh.nes,524304,75db8d9678dccb0f1341df03d9c35a80d567558f
+NES,Ninja Gaiden (U) [T+Spa_DJ Traducciones].nes,262160,38c4afb3e2c9ce3402965575f25f985677da51ac
+NES,Ninja Gaiden 3 - The Ancient Ship of Doom (PC10).nes,270352,fb703ffc8eca1c0cbc9389039f64362a22594ae3
+NES,Ninja Gaiden 3 - The Ancient Ship of Doom (U) [!].nes,262160,6ade8f54951843fccc46fc8be439e6c56d56b14f
+NES,Ninja Gaiden 3 - The Ancient Ship of Doom (U) [t1].nes,262160,a8e66ea1e2f79f09c302446bfe53f6e7c3935e5b
+NES,NINJA_GA.NES,262287,98162662b191be485f307ce1d2bae66f89dc15c0
+NES,Ninja_gaiden3.nes,262160,3f2e6dac76ba14efc177b5653ab043e53a04d365
+NES,NJGAIDN2.NES,262160,b1796660e4a4cefc72181d4bf4f97999bc048a77
+NES,Noah'sArk.nes,262160,8caa31edf6b2998d93803c5fa0e964502477d3b3
+NES,Nobunaga's_ambition.nes,262160,787c2113da4aa7ff66a4aa1c942e16c747adf28d
+NES,Nobunga's_ambition2.nes,393232,c914e67911343b3b77671ab1870db65faa000542
+NES,North_&_south.nes,262160,da1d5fb3d856cee918a57e510a93d32e33af2843
+NES,offroad.nes,131088,7aaa9447085f012e2aa0f56bbeec9f0c7aec6b79
+NES,Operation_wolf.nes,262287,4eb944e6f08e4d9604cf0cbb5081a40ae1096a01
+NES,Othello (J).nes,40976,a788b28933ecbd1bb10ebe490dfcca599d09930d
+NES,Outlanders (J).nes,131088,34aff45766b6b3715a0adfd17926f1bf97ca6aa8
+NES,OVERLORD.NES,262160,ad715aa734215a57d56e00d0dd9eeeb3407e0d2f
+NES,Pacland.NES,40976,5cea57711fb4dca91064bd8b1c86687ea9b22bbc
+NES,Paperboy.nes,65552,0739514aabd4f3325ea644ee395455d15ca65656
+NES,Paperboy2.nes,262160,ca66bbd5607d96d72045c96a17f0d03967a7f260
+NES,pinball.nes,24719,27595ce3600af0d85c6d56bb504eca94c6ed0760
+NES,POW.NES,262160,7c3f5571851e5d6ac7ad86e53af013dc7af5bcf5
+NES,PowerBlade.nes,262160,5d2ab4af581d6b81b9a97a505798ae3b2f494d8a
+NES,PowerBlade2.nes,262160,cbd35c583d99d2181f0e482666adff3fb8456d74
+NES,PowerPunch2.nes,393232,5950803a3d337c59bab75f775fdbf406e5fd7d69
+NES,PrinceOfPersia.nes,131088,6b58f149f34fa829135619c58700caaa95b9cde3
+NES,Princess_Tomato_in_the_salad_kingdom.nes,262160,ea664585720e588b643a38d87e47ee1c279864ee
+NES,pro_am.nes,65552,99cdd0e241a8909813c9f2fdc87e754576818a21
+NES,pro_am2.nes,262160,8c68582bdaa32fbc8c7cd858991d4e00d3b1569c
+NES,Probotector (E).nes,131088,6531ff3a062c2a83fa9683bf8a859a3500e8d9af
+NES,Probotector2ReturnOfTheEvilForces.nes,262160,3057a95309b896fdbcd40e1de8445a63aef378be
+NES,PROWREST.NES,131216,151d27f8ad04a66a4d09a22b45a1dfad1194d04b
+NES,Q_bert.nes,65552,6aca50d8c260daa05360870d092b97835818f4eb
+NES,RainbowIslands-P.nes,131088,f2a7eaa7d42174f3b2d1d2ab1b3ddf339daaab5c
+NES,RAMPAGE.NES,196624,fafafb1f7d3e0cb0c46a81bbe7521473ac851537
+NES,RAMPART.NES,262160,e970fe3666e0392ee9f1c1ee25657abb48d75a3e
+NES,RENEGADE.NES,131215,6fc25d53db85381464053282d511a61c0f9912c7
+NES,RESCUE.NES,262160,171c5e22c0730be76769532fb056182be1c363dd
+NES,river_city_ransom.nes,262160,a8612a36d9d2739d2b321b6ebb97c2757ccca410
+NES,ROCKBORD.NES,262160,d94557741ae526a0cc7b4a3be5aa4a825baf9a85
+NES,Rocman_X.nes,524304,1cfa9de93c4f0304114bf709e22cba6550b63ea8
+NES,RollerBall.nes,262288,11b8a25da92bbb7ed618eee1c347a2fdf589e595
+NES,RollingThunder.nes,262160,86f01cf0a78778f3c57b98285c821686abac126c
+NES,Rygar (U) [T+Spa99%_Kale_1942].nes,131088,eb7ba7788ed5e25730583be145347fcdf68ed92a
+NES,Rygar.nes,131088,f2ca0b0d35925b4158223c220f03067aea0922d0
+NES,SamuraiSpirits2.nes,655376,8df3b769fed06f6fea32b148855b1814e7115418
+NES,Shadow Warriors (E).nes,262160,1626787616256701c4ac6b7489531b82bfbc632b
+NES,Shadow Warriors Episode II - The Dark Sword of Chaos (E) [!].nes,262160,5e982f48c34582d64ddbad559b8f29e66fe14528
+NES,Shadowgate.nes,262160,cf0626e423a6908a473d9d69edd342a810b1f35f
+NES,SKYHAWK.NES,131088,6b88f8af2ff01b7f44c1ac0ac1a1acaa62fca8a8
+NES,SNAKROLL.NES,262160,e1c5358e813e39cfa447cb61455ea88ded5a993b
+NES,Soloman'sKey.nes,65552,8f9857108b8ea45fbd17e60111d8c8c543c23302
+NES,Space Invaders.nes,24592,0fb169d00d27df8613ddcdc50999d4faf7922ce0
+NES,SPRSPRNT.NES,262160,5e41002430eba859c064a265817696f8c9f47fb5
+NES,Spy_hunter.nes,65552,bba6eea31411553d7eb103b5e90908353f022d49
+NES,spyvsspy.nes,40976,c90f7de518ed4a65b3d4c16e523d8c5355973867
+NES,Startropics.nes,524304,270b69f4c3d5803bc962cce59016494f5eb7351c
+NES,STEELCAG.NES,393232,a0b2454e7bcad92bbed8dc3be869758bf8face30
+NES,Street_fighter_2010.nes,262160,92f1dc8fc7c9420cf26d063611fa7d9067197740
+NES,Strider.nes,262160,c1c92e9ca256ac2089a5d20701bce0a624070b2c
+NES,Super Mario Bros. (JU) (PRG0) [T-Spa].nes,40976,8e70cf643b65fd3527099d4cc3c1d25bcd4b951c
+NES,Super Mario Bros. 2 (U) (PRG0) [T+Spa_PaladinKnights].nes,262160,0819266285b5c1aba56bf50cf46cc468eecae6ca
+NES,Super Mario Bros. 3 (U) (PRG0) [T+Spa_Traducciones Nemo].nes,393232,8e8bc4b23472333b612ec2de6825304ab5dfd5c8
+NES,Super_Mario World.nes,786448,c3e3f1b1e3a13adee10f1d9764472b812f8f0965
+NES,Super_mario_brothers.nes,40976,9eba0a7252374e29215d4d984f3ef842b8446b6d
+NES,Super_mario_brothers2.nes,262160,26639636ef7b2e339b745959ecfd679aa7c640de
+NES,Super_mario_brothers3.nes,393232,6bd518e85eb46a4252af07910f61036e84b020d1
+NES,super_offroad.nes,131088,7aaa9447085f012e2aa0f56bbeec9f0c7aec6b79
+NES,SUPERC.NES,253968,b504038400f2a43409c636250a8fac2296370b14
+NES,tetnin.nes,262160,0ed56d5c33b83993270086f425c3f616ae05e127
+NES,TGRHELI.NES,65552,27f32dea5b09a89f8b12faf6daee240e77e8beb1
+NES,UltimateStuntman.nes,262160,62fc4b40ee8802b11e78cdf3bf681a4e19c0f7b7
+NES,uncharted_waters.nes,655376,0c6b96d5b93a2b275dfb07180adb731c019c6fda
+NES,viper.nes,262160,3f7428865ea2e95632e32e8c3638207fed12bb52
+NES,Wall_street_kid.nes,196624,7aca04613ec4e14df9c954f3e08605b5d981fadc
+NES,WARIOSWO.NES,524304,f0ba657b91d96062d9dbfbaea81bf6ad4b3e5023
+NES,WhereInTimeIsCarmenSanDiego.nes,393232,c7f715a07515c42f1d6863711b54050b56374643
+NES,WINLOSEO.NES,131216,5975fec9c2cc4c23006d23c3fd6b012f2702c779
+NES,WizardryProvingGroundsOfTheMadOverlord.nes,262160,f7a3c22bdd74807f2ab84f4a6afe8a4b73ccdbd4
+NES,WizardryTheKnightOfDiamonds.nes,262160,2e0b891d5851342ce0d120b5a6a68b0547ee253e
+NES,WIZWAR.NES,131088,5c135a7971013cf6e3a2243bcdd6938cf5ba4b5b
+NES,WIZWAR2.NES,262160,97b79e432f62403fb9f877090850c41112a9a168
+NES,wm.nes,131088,c28092b80b67a12df48dead7060666284ee52605
+NES,WRECKCRW.NES,40976,9cdc89069351fa62ac64a1bdffbfb8eaad413999
+NES,Xenophobe.nes,262160,339b3cfb9885326dee689911bd17cf93c6f032e3
+NES,Xevious.nes,40976,b7c08ffb6402b3faf41cdf5d9f9359b5b79d5641
+NES,Y-COOKIE.NES,196624,f766507accc0976202c0124d991ddac182cd1aa8
+NES,Yoshi.nes,262160,52353a04da82b715af738c338d994c6ab5a30add
+NES,Zelda.nes,131088,dab79c84934f9aa5db4e7dad390e5d0c12443fa2
+NES,ZELDA2.NES,245904,cb2cce65630c0c5c93e32c4195c7cfa52eeded48
+NES,Zombie_Nation.nes,262160,f0c1172205c7cce9ae42676a287d9c65b5c3597e
+SNES,ActRaiser 2.smc,1573376,30752c152c7638af15165368c1a697187a8136ed
+SNES,Adventures of Kid Kleets.smc,1311232,f6019d97744d4014894808c3c3462cc9ac1161f7
+SNES,Adventures of Tintin, The - Prisoners of the Sun.smc,2097152,c5a18d06aa1e411c73cd97572716f8d712bccb8a
+SNES,Aero Fighters.smc,1311232,45841e59a01549d006ea33aedcc03bb84bfa7918
+SNES,Aladdin.smc,1311232,851b3ae4e9bf29e402897c076ca46b7e29c7b029
+SNES,Alien 3.smc,1049088,d45237f1ad334622dc354f921e7e9e4ccba44a62
+SNES,Arcana.smc,1048576,cfd3bfa00544e9eab3f838c0fc636ffd57c15f1c
+SNES,Arkanoid - doh it again.smc,524800,5f32776b7c863cf8d9b02f8e85dc689eb4f0fad5
+SNES,Asterix 2.smc,1704448,aa46774f93e6502483fa45b7a552ce8252fbe608
+SNES,Asterix.smc,524288,d684958da04b909661371d7d5b657a6beb213629
+SNES,Bastard - ankoku no hakaishin.smc,1573376,6f29e1318db944c7970a825edf0a2682dc0b97e7
+SNES,Battletoads & Double Dragon - The Ultimate Team.smc,1049088,270bf4977b544c1e3e5059e320094a202011f17d
+SNES,Battletoads in Battlemaniacs.smc,1049088,d6494d6d1cd83ac1420b6f3a049d59715a5f6713
+SNES,Bio Metal.smc,1049088,b4685fcd029a35eed70b8e5a22103808388ee897
+SNES,Blacktorne.smc,1048576,c1cd7ac04c9da6a3721f1f103749d2367cf2577d
+SNES,Brain Lord.smc,1573376,4415cc7ded471e5bcb395263c23f2a3c3361a19a
+SNES,Brandish 2 - The Planet Buster.smc,3145728,d2ae7598a6e9742ad9170800b6525dfe3ec5858c
+SNES,Brandish.smc,1572864,0fb9d6232b8e547cafa612a1689b82b96b80f8e5
+SNES,Breat Of Fire.smc,1573376,fb5a503cc2ec0e29e48079409bf733bc13f8250d
+SNES,Breath of Fire 2.smc,3146240,890fd9fe397bac8d22107c65f92d21f42f9b6312
+SNES,BS Radical Dreamers (J) [f1].smc,2097152,c3a081ed9d27581f2b0c41b6bbccb67657abf543
+SNES,Captain Commando.smc,2097152,0de8a1a7547af4563062e8d3faa63f3aefb57f61
+SNES,Captain Novolin.smc,524288,72cfb569819da4e799bf8fa1a6f023664cc7069b
+SNES,Carmen Sandiego - Where in Time.smc,1048576,5240d97b235f5377e842518b70699f6e30436fc4
+SNES,Chavez Boxing 2.smc,1048576,12b8e3a04cbac7de8181a5ebb8546489a5df0937
+SNES,Chavez Boxing.smc,524800,2ead2255098c22f99027a3f2895045805f7cb968
+SNES,Chrono Trigger.smc,4194816,1f56a7e30d5e9c3fbfd88b51ae5b9d4da937d530
+SNES,Cliffhanger.smc,1049088,6af81ec3740669c6c40dc9d8d632f740e52eb321
+SNES,Clock Tower (J) V2 By Zerel96.smc,3277312,e750e71139f06c5987ca4c261207d6d4a7a3ca68
+SNES,Clock Tower.smc,3277312,4eb925fe97a78c69b8a86dceae3a08025ef79f9b
+SNES,Crystal Beans From Dungeon Explorer (J).smc,2097152,2ec229b87b1952877978ef66cc0768d184dbdde6
+SNES,Cybernator.smc,1049088,3650f67cb9245266773106b5991d0fc155a829d7
+SNES,Demon's Crest.smc,2097664,034dc77f6c2cfeeab7aa542f2ab03787b7b80613
+SNES,Donkey Kong Contry.FIG,4194816,ad2954a06bee7731da997f8c1a6775f5426891e3
+SNES,Dossun! Ganseki Battle (J).smc,1049088,d80a1f38a7e9d0df668db5786b33fed92c4b929a
+SNES,Dragon - The Bruce Lee Story.smc,2097664,fe10494e6d4738739af08dbac41dc7961023f086
+SNES,Dragon Ball Z - Hyper Dimension.smc,3145728,acfb23bd11ed49edb1b8a7b212d835a158f09478
+SNES,dragon ball z - super butoden.smc,2097664,45871af3c7b398799cc59f574e8c177a4b5ef901
+SNES,dragon ball z - super saiya densetsu.smc,1049088,34be567a8ac844fb7dcf9828ccb92a7c4a5da5c5
+SNES,Dragon Ball Z - Ultime Menace.smc,2097152,22a863d207f823765923b4af1aee50e0f4e00cb6
+SNES,E.V.O. Search for Eden.smc,1573376,e7f0d5b9a36914b0ccdd5f75a39ad428cfdaf031
+SNES,Earthbound.smc,3145728,7d4dc6cea7804f817f5b80ab6189b53a058c4933
+SNES,Equinox (E) [!].smc,1049088,88f1cfe79650aadf867bee5b79b03a0bf35e08a3
+SNES,FIFA 97 - Gold Edition.smc,2097664,5005f1db8e46bb30f521ab5c0bfb2884f52565ca
+SNES,Final Fantasy - Mystic Quest.smc,524288,275de6f905a6e6c451392cf71da2a98cc5ee6aa1
+SNES,Final Fantasy II.smc,2097664,889ce20d75e93a6e78f736a3dec4e63b93e4b4d2
+SNES,Final Fantasy III.smc,3146240,78c1c466abcef68af694a1885908e9b25e77fc22
+SNES,Final Fantasy IV.smc,1572864,7cd7eede8b891e4a6e84b16df3c8a2a1409e7590
+SNES,Final Fantasy V.smc,2621440,40ded3555445734ff9ce1aedadb5bfd5fe00a7cc
+SNES,Final Fight 1.smc,1048576,a8247474bfd6e8aa9f752d6cb75ff0f9c70748f9
+SNES,Final Fight 2.smc,1311232,4b8ee9850c7976bda2582e711cf4e28970d53391
+SNES,Final Fight 3.smc,3146240,58d1aa225bf15c0bc4b32aac745016d7c38d2385
+SNES,Fire Strike.smc,1049088,eb4f78dd01db270311e8680b90b80440c1f1caed
+SNES,Flashback (E) (M2) [T+Spa1.0_MMM].smc,2097152,152d1211ec4ab7c7267723c720f86ff9d01206fc
+SNES,Flintstones, The - Movie Edition.smc,2097152,e52ffb054d849d90151308b3ebdbb7108d9a4de7
+SNES,Ganpuru - Gunman's Proof (J).smc,3145728,0d1545b62e4729a452e57e58d50e6d5f71cd7584
+SNES,Harvest Moon.SWC,2097664,5b26b0ff2835921c493cf072ee5261ac5f5b5a54
+SNES,Holy Umbrella - Dondera no Mubo!! (J).smc,3145728,e2fe388c4c83dc36af5d5107ee0084a7eb7a2b60
+SNES,Hyper V-Ball.smc,1048576,0825b6ce0e62b5961f8b750606cb1983d6091a8b
+SNES,Illusion of Time.smc,2097152,f236e4a5ffaa7431540dbaeb98716b3e84cfa455
+SNES,Inspector Gadget.smc,1049088,bba2cf51849fb7c06fa787707be9a4318c72fdbd
+SNES,Jetsons, The - Invasion of the Planet Pirates.smc,1048576,5f63c34b305da634d7ce90c5bd741473adc5af39
+SNES,Jikkyou World Soccer 2 - Fighting Eleven.smc,3145728,428aaa722d7facc5956682188a2e0e4cef30d07f
+SNES,Joe & Mac.smc,1048576,f8749f86d9dbc37772bd231d9e184464361b5451
+SNES,JRR Tolkien's The Lord of the Rings - Volume 1.smc,1048576,5587531909b5b419330018b3f2ef9ff9fbdaed7c
+SNES,Jurassic Park Part 2 - The Chaos Continues.smc,2097152,61e22a870f49198f656819a95264944258e773e1
+SNES,Kuusou Kagaku Sekai Gulliver Boy.smc,1572864,e90e4bb9bde88f00f09c386325a69434ecd5a2c4
+SNES,Legend of Zelda, The - A Link to the Past.smc,1049088,6b9c99d508d44f608b256930f3f9d9db47afe167
+SNES,Lucky Luke.sfc,1572864,82cef93f124906e49c4e9ec6f58e23ef7e9f77f9
+SNES,Lufia & The Fortress of Doom.SMC,1049088,42257ac5b0c80e00d4add4eec9620100d91c91ff
+SNES,Lufia II - Rise of the Sinistrals.smc,3145728,6c038609d9745ee006c3e89d31a12c7d93133704
+SNES,Magic Knight Rayearth.smc,1572864,cdb1b78a0340a85f30896a46f99e5aa5f67fca03
+SNES,Magical Pop'n (J).smc,2228224,5534088b0b11f783242064917745af779154a21c
+SNES,Magical Quest Starring Mickey Mouse.smc,1048576,0bf80bdab1b4853b73b9b00a4941cd31e0e183be
+SNES,Marvel Super Heroes - War of the Gems.smc,2097664,1130b8709ea00f4190e3feda794648ad054de758
+SNES,Mechwarrior.smc,1048576,48d6f2e0c8f673d79c2394bf9d7fc7b1218b0e6f
+SNES,Mega Man VII.smc,2097664,b1723d65ac9df19cfb66f02ab70ce144041970f6
+SNES,Mega Man X 2.smc,1572864,a974f8940088b1d49e85ec42129c32b420ad688e
+SNES,Mega Man X 3.smc,2097664,117efa2d84a30a1c5cfcc705a0a39e6132bcbc4a
+SNES,Mega Man X.smc,1573376,425df45480ae5f396ee218ce3ee2977d55aa3834
+SNES,Monstania (J).smc,3145728,e0645242afba452eac0245cc28c59f9a72f491bf
+SNES,Ninja Gaiden Trilogy.smc,1573376,b9d0158d21ed12919f3db3aa55261202e9a06116
+SNES,Out of This World.smc,1049088,7670a9ea3881a1da190a322297dd562754a22f84
+SNES,Paladin's Quest.smc,1573376,a9afc3a4147f2a1fa72daecde8b363aaf50743c4
+SNES,Paperboy 2.smc,524288,8afbd015ca71ee868d065b804beca2d0f3834af2
+SNES,Plashback.smc,2097664,30056ec867ada2970a5f9abde17a808524e25adc
+SNES,Plok!.smc,2097152,ba14e7de252c8194b1464a4353c2cf1d752bb07b
+SNES,Power Drive.smc,1049088,71c42aef225d18dd431fe84ffdae17a2a9653129
+SNES,Prehistorik Man.smc,1049088,621ebc051659905b6eeb64cf3176220dfa0e14a1
+SNES,Prince of Persia 2 - The Shadow & The Flame.smc,2097152,ed3529e8ea4794abdf8a28598f08c6a40018b99f
+SNES,Prince of Persia.smc,1049088,5e584e7d680bd03fe28ee901c2cc7d867ec8f417
+SNES,Ranma Nibun no Ichi - Akanekodan no Hihou.smc,1573376,f225722447a18004cd54df0b4ee1879157f72941
+SNES,Ranma Nibunnoichi - Akanekodan Teki Hihou (J) [!].smc,1572864,321d674b00683b96a18dde73a70a8a949dc09aac
+SNES,Rockman & Forte.smc,4194816,8f63fa14097bccf0f3a941e1e2e13ed0c4a76ecd
+SNES,Rocko's Modern Life - Spunky's Dangerous Day.smc,1572864,1da0b0ff1c5c8167f1178ce410673069232b8a95
+SNES,Romancing SaGa 3.smc,4194304,d12d3be923f9d72da14cf1c9326fb5a063c70556
+SNES,Rudra no Hihou (J).smc,4194304,beafdb8aa615cab79c29b6e48d8c1f8ffc6e6737
+SNES,SD Kidou Senshi Gundam 2.smc,1048576,cd5111993a57c149e8721a337c7619f9de85ab44
+SNES,Secret of Evermore.smc,3145728,4363ce4b19e76261f9325ac9a0cce27d97490df2
+SNES,Secret of Mana.smc,2097664,31487d21edbc27d978bb16ed92fe66012ed48558
+SNES,Secret of the Stars.smc,1572864,2b1214aec77e08469c66606d38759f51dbef8d14
+SNES,Seiken Densetsu 3.smc,4194304,197b591d959c5f4dc2a41203e340194a675911da
+SNES,Shin Megami Tensei II.smc,2621440,c689f55adec03bf81caa237d1536376d814f3ff4
+SNES,Shin Megami Tensei.smc,2097152,a8ff1d3cdb7a8ea953141001bc021565493a3d06
+SNES,Side Pocket.smc,1049088,193825ec6f9071982b084b771282ad6bd3e1c429
+SNES,Sim City.smc,524800,68edd4cd464d25e6884455d00cb89ebbe8b2dc27
+SNES,Sky Blazer.smc,1048576,45842ad1ed533ade3e7879ed981a921956579a36
+SNES,Smurfs 2.smc,1311232,3e4babe609d568c12e67ed7ddcfe5a59b126b192
+SNES,Soul Blazer.smc,1573376,c6a79b0eb47ddb8b52911ccac4d2cfae5b971c57
+SNES,Space Megaforce.smc,1049088,e554241c145bec11484e9e5e919ef6351414772b
+SNES,Speedy Gonzales - Los Gatos Bandidos.smc,1049088,9bf3e10f91cb2cc63255780ac78bb3adb57803d2
+SNES,Spider-Man & Venom - Maximum Carnage.smc,2097664,57c22d8a77ab3300399135f606bb657d6a26c44d
+SNES,Star Fox 2 Beta.smc,1572864,b92f900fcfbe6c8c97f78549a5dd360d410ccdee
+SNES,Star Fox 2 V2 por Darkchaosblast y Frandyer.smc,1048576,52f8372219e616b8e1af6dcba90b8105057cd183
+SNES,Star Fox.smc,1049088,42994d2a79a9ebb04a699cfd293923139912b8a3
+SNES,Street Fighter II - The World Warrior.smc,2097664,efd633075e7aae412a3765e9042f568426082622
+SNES,Street Fighter II The New Challangers.fig,4194816,efa24cf9d131d0136dfceff93433ecef4ac9f1a9
+SNES,Super Aleste.smc,1048576,3aa51b45947467d7e7285f3979983ceb03f8e987
+SNES,Super Battletank 2.sfc,2097152,04faa0072a039d5d1698da013b1db0d22c2f5604
+SNES,Super Castlevania IV.smc,1108763,2451524f3f6b04e878bb9bb6a43e517657e534bb
+SNES,Super Descentralizado 95.smc,2097664,5d62ccceb5ca7e21094b2bc157caa6817cc11dd6
+SNES,Super Mario All-Stars.smc,2097152,5a194fe6812fbf3657f59e711eed00eec1f84e0a
+SNES,Super Mario RPG - Legend of the Seven Stars.smc,4194304,ad6d5475a7b445049f89bdb83539604d233ce200
+SNES,Super Mario World - Mario in midgard.SMC,2097664,32d62d165b29428458f22101e55dee3ce341fb55
+SNES,Super Mario World 2 - Yoshi's Island.smc,2097152,6485620c18b0a5ef908bd86041faaed1334a9614
+SNES,Super Mario World.smc,1049088,a2da6bb84ac1baaca9c09a971c29374ae0ff0ac2
+SNES,Super Metroid.smc,3146240,a10b23ae50cb1ac3e32cb52563ba7da5c4cc8bc3
+SNES,Super Morph.smc,1048576,56387b1fb7f10521e10d08be5571d456b725c8e7
+SNES,Super Pac-Man.smc,524288,400eea720cdbe7ccd97cb871681ed7df98550971
+SNES,Super Pang.smc,524288,a8b948fe12be4d25ce98935b572ab27b972428d3
+SNES,Super R-Type.smc,1049088,37d046e155be2eaa8bdf4ba88927e5a86924867e
+SNES,Super Soccer.smc,524288,c966ace8106a1a6465ab89c9ae9b72091f0311a6
+SNES,Super SWIV.smc,1048576,b3e1936c23e825ce5dcc23408bacef113392be47
+SNES,Tactics Ogre - Let Us Cling Together (J) (V1.2).smc,4194304,cae7267d607eea7d41f0e2207562a0f67a08ab89
+SNES,Tales of Phantasia.smc,6291968,6c8602d5a50abb9fc23b3efa45b4893f717209d1
+SNES,Teenage Mutant Ninja Turtles IV - Turtles in Time.smc,1049088,021179588d4c151bd3d993dcf6bf95164d0c5666
+SNES,Tenchi Muyou! Game Hen.smc,3145728,cddcfd87a77b20d3124089c5c4172f6b5abe6e87
+SNES,Terra Nigma.SMC,4194816,87d3b302e392e74887f99475a072ac0f98d4224b
+SNES,Tetris Attack.smc,1049088,b1359ab55f5457a16e8ec30ea1632bf44365bb16
+SNES,The  Death and Return of Superman.smc,2097152,ec6bbce0a2c34526e3a636010c8b8f61df9a2a83
+SNES,The  Hunt for Red October.smc,524288,fa8dc7702d3becf80693178031997675c0153447
+SNES,The  Lion King.smc,3146240,c4168b1796015361c80a2aa97d4e61d1b39f2333
+SNES,The  Lost Vikings.smc,1048576,6c4b1326755230c870a407df7a30e1f849eacf6c
+SNES,The  Smurfs.smc,1048576,371b0e8329eb48eba1caeb8b8a051fea240282bd
+SNES,The Addams Family Values.smc,2097664,670dd2e234e0dc74977a8d38372f1175bb72cf3b
+SNES,The Addams Family.smc,1048576,9fa99b1fd2ef150c3d27544272f6945bfc12c688
+SNES,The Adventures of Dr. Franken, (E).smc,1048576,715223e622579f9e94fe00b0e3bdd6d9ce3ca9f9
+SNES,The Chessmaster.smc,335360,84b893a1a13fe063eaa7fef599011b190acd43cb
+SNES,The Legend of The Mystical Ninja.smc,1049088,236e74315fc97c5b644dc06f1b4933019a9fa410
+SNES,The Mask.smc,2097152,7275a4d12e6be3b1ca74609917283d370fdeb22e
+SNES,The Twisted Tales of Spike McFang.smc,1048576,b9e3ada76b61da0dc2568261c96fe3a205965e12
+SNES,Tiny Toon Adventures - Buster Busts Loose.smc,1048576,7e8b79ea0e23aaa6e8212dad9082d7a16fe2c67b
+SNES,Tom & Jerry.smc,524288,b2c61dc7c817779c58c80da348e6685b578ba301
+SNES,True Lies.smc,2097664,3cec6ef947f49ef8ed50ff1519c1f0a801a63216
+SNES,U.N. Squadron.smc,1048576,129d8c64665c9d0c2c39555e68bda5c3fe94639a
+SNES,Uni Racers.smc,2097152,ebc96da564577d16e2ee57677ea6f5d5ed91d017
+SNES,Vortex.sfc,524288,3a71b63605ddecf827d60554c2ddaccdd85b9624
+SNES,Where in the World is Carmen Sandiego.sfc,1048576,2a1877df758372edd5673491fada6f29ab527bde
+SNES,Whirlo.smc,1049088,7f85c91f9991c85428ca95f2ff23e6317e7cf0f9
+SNES,Wolfenstein 3D.smc,1049088,783ffd5884af4e452f9f428d9a709c3dd9ebf137
+SNES,Worms.smc,2097152,b1647a5cf50f95193eab8d03cb7d0ad76ad4b558
+SNES,WWF Raw.smc,3145728,047023620c70ac9e93853600b524036198d78dc7
+SNES,X-Men - Mutant Apocalypse.smc,2097664,331daaa2f0baefffb7663e501c9412207f8d8349
+SNES,Ys III - Wanderers from Ys.smc,1049088,af552903d0d78fa82ed989c80f735119d654dec2

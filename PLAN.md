@@ -30,7 +30,10 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 - [x] RetroArch (`SSNE10000`) instalado en la consola
 - [x] RetroArch abierto una vez (crea `/data/retroarch/`)
 - [x] Core Installer (`SSNE20000`) instalado y cores desplegados
-- [ ] **Smoke test: 1 ROM de NES/SNES cargando con imagen, sonido y mando** ← en curso
+- [x] **Smoke test superado** — Bomberman (NES) con imagen y sonido correctos
+- [ ] Subir `emu/RETROARCH/info/` a `/data/retroarch/info/` (arregla la selección
+      automática de core; sin esto hay que cargar el core a mano cada vez)
+- [ ] Reactivar el filtro de extensiones una vez subidos los `.info`
 - [ ] Homebrew Store instalado (opcional)
 - [ ] PPSSPP standalone instalado (opcional)
 - [ ] Flycast/Reicast standalone instalado (opcional, verificar build)
@@ -47,8 +50,8 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 
 | Sistema | Carpeta | BIOS lista | ROMs copiadas | Probado en PS4 |
 |---|---|---|---|---|
-| NES | `NES/` | — | [ ] | [ ] |
-| SNES | `SNES/` | — | [ ] | [ ] |
+| NES | `NES/` | — | [x] 634 | [x] |
+| SNES | `SNES/` | — | [x] 164 | [ ] |
 | Game Boy | `GB/` | — | [ ] | [ ] |
 | Game Boy Color | `GBC/` | — | [ ] | [ ] |
 | Game Boy Advance | `GBA/` | — | [ ] | [ ] |
@@ -102,15 +105,22 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 | CHIP-8 | `CHIP8/` | — | [ ] | [ ] |
 | Nintendo 3DS | `3DS/` | — | 🔴 no viable | 🔴 no viable |
 
-## 4. Antes de copiar a la PS4
+## 4. Rutina al añadir un sistema nuevo
 
-- [ ] Revisar que cada carpeta tenga al menos 1 ROM antes de copiar (evitar carpetas vacías innecesarias)
-- [ ] Confirmar que los `README.md` por carpeta no interfieren con los scrapers/frontends usados (si molestan, quitarlos antes de copiar)
-- [ ] Verificar espacio libre en el USB/HDD destino
-- [ ] Copiar `/emu` completo a la PS4
-- [ ] Configurar rutas de contenido en RetroArch/PPSSPP/Flycast/ScummVM apuntando a las carpetas copiadas
-- [ ] Probar 1 juego por sistema de Nivel 1 como humo (smoke test)
-- [ ] Backup del USB/HDD final
+1. Copiar las ROMs a `emu/ROMS/<SISTEMA>/` en el PC.
+2. `bash tools/inventory.sh` para registrar los hashes.
+3. Subir por FTP a `/data/roms/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
+4. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/`.
+5. Probar un juego y marcar la casilla "Probado en PS4".
+6. Commit — el diff de `inventory.csv` deja constancia de lo añadido.
+
+## 5. Pendientes generales
+
+- [ ] Verificar espacio libre en la PS4 antes de subidas grandes
+- [ ] Comprobar si los `README.md` dentro de `ROMS/<SISTEMA>/` molestan en el navegador
+      de RetroArch una vez reactivado el filtro de extensiones (no deberían: `.md` no
+      está en ninguna lista de extensiones soportadas)
+- [ ] Backup de la colección
 
 ## Notas
 
