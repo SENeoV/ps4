@@ -7,7 +7,7 @@ Checklist maestra para preparar la carpeta `/emu` antes de copiarla a la PS4. Es
 ```
 emu/
 ├── APPS/                 <- PKGs de emuladores
-├── BIOS/                 <- BIOS
+├── BIOS/                 <- BIOS (en la raíz, con el nombre que espera cada core)
 ├── ROMS/<SISTEMA>/       <- ROMs por sistema
 ├── RETROARCH/info/       <- .info de los cores (sí se versionan)
 ├── SAVES/                <- partidas guardadas (.srm)
@@ -35,9 +35,8 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] RetroArch abierto una vez (crea `/data/retroarch/`)
 - [x] Core Installer (`SSNE20000`) instalado y cores desplegados
 - [x] **Smoke test superado** — Bomberman (NES) con imagen y sonido correctos
-- [ ] Subir `emu/RETROARCH/info/` a `/data/retroarch/info/` (arregla la selección
-      automática de core; sin esto hay que cargar el core a mano cada vez)
-- [ ] Reactivar el filtro de extensiones una vez subidos los `.info`
+- [x] `emu/RETROARCH/info/` subido a `/data/retroarch/info/` (74 `.info`, verificado por FTP)
+- [x] Filtro de extensiones reactivado (verificado en `retroarch.cfg`)
 - [ ] Homebrew Store instalado (opcional)
 - [ ] PPSSPP standalone instalado (opcional)
 - [ ] Flycast/Reicast standalone instalado (opcional, verificar build)
@@ -49,7 +48,8 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] Reestructurado en `APPS/` + `BIOS/` + `ROMS/`
 - [x] `.gitignore`: se versiona la estructura y los `.md`, nunca los binarios
 - [x] `tools/inventory.py` + `catalogo/` + hook pre-commit — juegos trackeados por referencia
-- [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas
+- [x] `tools/guard.py` + hooks pre-commit/pre-push — ningún binario puede llegar a GitHub
+- [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas, nombres con tildes pasados a ASCII
 
 ## 1. Nivel 1 — imprescindibles
 
@@ -59,10 +59,10 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 | SNES | `SNES/` | — | [x] 164 | [ ] |
 | Game Boy | `GB/` | — | [x] 1542 | [ ] |
 | Game Boy Color | `GBC/` | — | [x] 497 | [ ] |
-| Game Boy Advance | `GBA/` | — | [x] 214 | [ ] |
-| Master System | `SMS/` | — | [x] 333 | [ ] |
-| Game Gear | `GG/` | — | [x] 373 | [ ] |
-| Mega Drive | `MD/` | — | [x] 1337 | [ ] |
+| Game Boy Advance | `GBA/` | — | [x] 214 | [x] |
+| Master System | `SMS/` | [x] opcional | [x] 333 | [x] |
+| Game Gear | `GG/` | [x] opcional | [x] 373 | [ ] |
+| Mega Drive | `MD/` | [x] opcional | [x] 1337 | [ ] |
 | PC Engine | `PCE/` | — | [ ] | [ ] |
 | Neo Geo AES/MVS | `NEOGEO/` | [ ] | [ ] | [ ] |
 | Arcade (FBNeo) | `ARCADE/FBNEO/` | [ ] | [ ] | [ ] |
@@ -77,7 +77,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 
 | Sistema | Carpeta | BIOS lista | ROMs copiadas | Probado en PS4 |
 |---|---|---|---|---|
-| Sega CD | `SEGACD/` | [ ] | [ ] | [ ] |
+| Sega CD | `SEGACD/` | [x] U/E/J en PS4 | [ ] | [ ] |
 | 32X | `32X/` | — | [ ] | [ ] |
 | PC Engine CD | `PCECD/` | [ ] | [ ] | [ ] |
 | Neo Geo CD | `NEOGEOCD/` | [ ] | [ ] | [ ] |
@@ -121,17 +121,31 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 
 ## 4. Rutina al añadir un sistema nuevo
 
-1. Copiar las ROMs a `emu/ROMS/<SISTEMA>/` en el PC.
-2. Subir por FTP a `/data/roms/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
+1. Copiar las ROMs a `emu/ROMS/<SISTEMA>/` en el PC, **con nombres sin tildes ni ñ**.
+2. Subir por FTP a `/data/ROMS/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
 3. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/` con el nombre que espera el core (lo indica su `.info`).
 4. Probar un juego y marcar la casilla "Probado en PS4".
 5. Commit — el hook regenera inventario y catálogo, y el commit lista cada juego añadido.
 
-## 5. Pendientes generales
+## 5. Pendientes
 
-- [ ] Probar en la PS4 GB, GBC, GBA, SMS, GG y MD (un juego de cada)
-- [ ] Subir `emu/SAVES/` a `/data/retroarch/savefiles/` y comprobar que carga una partida de GBA
-- [ ] BIOS de Sega CD, Master System y Game Gear están en subcarpetas con su nombre original: renombrar y dejar en la raíz antes de subir
+**Subida a la PS4** — completada y verificada por FTP el 2026-09-12:
+
+- [x] ROMs de NES, SNES, GB, GBC, GBA, GG, SMS y MD en `/data/ROMS/`: 5094 juegos, mismo nombre y tamaño que en el PC
+- [x] 9 partidas de GBA en `/data/retroarch/savefiles/`: SHA-1 idéntico al del PC y cada una casa con su ROM
+- [x] 7 BIOS en `/data/retroarch/system/`: SHA-1 idéntico al del PC
+- [x] Borrados `/data/pkg/emu` (1,6 GB de PKG ya instalados) y `/data/emu`
+
+**Pruebas en la PS4** (según el historial de RetroArch):
+
+- [x] GBA — *Dragon Ball Z: The Legacy of Goku II*. Se abrió con `mednafen_gba`; el core recomendado es mGBA
+- [x] SMS — *Indiana Jones and the Last Crusade*, que ya ha creado su partida guardada
+- [ ] GB, GBC, GG y MD: un juego de cada
+- [ ] Cargar una de las partidas de GBA subidas (Castlevania, Pokemon Rojo fuego…)
+- [ ] Borrar del historial las 2 entradas que apuntan a la ruta vieja `/data/roms`
+
+**Colección en el PC:**
+
 - [ ] `EXTRAS/MD-duplicados/` (676) y `EXTRAS/MD-malos/` (6): decidir si se borran
 - [ ] `ROMS/NES/Datach - Battle Rush….sav` suelto: decidir si va a `SAVES/`
 - [ ] `gamelist.xml` y `systeminfo.txt` en `ROMS/GBC` y `ROMS/GBA`: restos de EmulationStation, no son juegos
@@ -143,4 +157,6 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 
 - No actualizar el firmware de la PS4 (12.52) solo para tener una versión más nueva de un emulador — GoldHEN depende de esa versión exacta.
 - No mezclar ROM sets de MAME y FBNeo entre versiones distintas del emulador.
+- Nombres de archivo sin tildes ni ñ: FileZilla los sube a la PS4 en otra codificación y dejan de coincidir con el PC (y con su partida).
+- La PS4 distingue mayúsculas en las rutas: `/data/ROMS` y `/data/roms` son carpetas distintas.
 - Detalle completo por sistema (emulador, extensión, BIOS) en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md) y en el `README.md` de cada subcarpeta de `/emu`.
