@@ -2,6 +2,23 @@
 
 Checklist maestra para preparar la carpeta `/emu` antes de copiarla a la PS4. Este archivo vive fuera de `/emu` a propósito — no se copia a la consola, es solo para seguimiento durante la preparación.
 
+## Estructura
+
+```
+emu/                      <- esto es lo que se copia a la PS4
+├── APPS/                 <- PKGs de emuladores (ignorados por git)
+├── BIOS/                 <- BIOS, = carpeta "system" de RetroArch (ignoradas por git)
+└── ROMS/<SISTEMA>/       <- ROMs por sistema (ignoradas por git)
+```
+
+Del contenido binario solo se versiona el **hash**, no el archivo. Tras copiar ROMs o BIOS:
+
+```bash
+bash tools/inventory.sh
+```
+
+Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resumen por sistema). El `git diff` de `inventory.csv` muestra exactamente qué contenido se añadió. SHA-1 es el hash de los DATs de No-Intro/Redump, así que sirve también para verificar volcados.
+
 ## 0. Base del sistema
 
 - [x] GoldHEN 12.52 instalado en la PS4 Pro
@@ -14,6 +31,9 @@ Checklist maestra para preparar la carpeta `/emu` antes de copiarla a la PS4. Es
 - [x] `.gitmodules` para `ps4_cheats` configurado
 - [x] Guía `emu/emuladores-ps4.md` creada
 - [x] Estructura de carpetas `/emu` creada (44 plataformas, nombres cortos, Arcade separado en MAME/FBNEO)
+- [x] Reestructurado en `APPS/` + `BIOS/` + `ROMS/`
+- [x] `.gitignore`: se versiona la estructura y los `.md`, nunca los binarios
+- [x] `tools/inventory.sh` — inventario por hash SHA-1
 
 ## 1. Nivel 1 — imprescindibles
 
