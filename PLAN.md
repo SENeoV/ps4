@@ -27,9 +27,10 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 
 - [x] GoldHEN 12.52 instalado en la PS4 Pro
 - [x] PKGs de RetroArch descargados y verificados (ver `emu/APPS/README.md`)
-- [ ] **RetroArch (`SSNE10000`) instalado en la consola** ← siguiente paso
-- [ ] **Core Installer (`SSNE20000`) instalado y cores desplegados**
-- [ ] **Smoke test: 1 ROM de NES/SNES cargando con imagen, sonido y mando**
+- [x] RetroArch (`SSNE10000`) instalado en la consola
+- [x] RetroArch abierto una vez (crea `/data/retroarch/`)
+- [x] Core Installer (`SSNE20000`) instalado y cores desplegados
+- [ ] **Smoke test: 1 ROM de NES/SNES cargando con imagen, sonido y mando** ← en curso
 - [ ] Homebrew Store instalado (opcional)
 - [ ] PPSSPP standalone instalado (opcional)
 - [ ] Flycast/Reicast standalone instalado (opcional, verificar build)
