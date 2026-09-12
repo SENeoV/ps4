@@ -102,7 +102,7 @@ NAOMI y Atomiswave son placas arcade de Sega basadas en hardware de Dreamcast: l
 Consolas más modernas que se preguntan a menudo, pero que **no** son una opción práctica hoy en este dispositivo concreto:
 
 - **GameCube / Wii** — Dolphin (el único emulador que las soporta) necesita OpenGL 3.0+ o Vulkan; el port de RetroArch para PS4 (orbis) solo llega a OpenGL ES2. No hay build funcional del core ni un standalone.
-- **PS Vita / PS3** — Vita3K y RPCS3 solo corren sobre Linux/Windows/macOS. En PS4 la única vía sería arrancar Linux, y eso exige un jailbreak de kernel (PPPwn u otro) que hoy cubre como mucho hasta firmware ~11.00-12.02; con GoldHEN 12.52 esta consola no tiene Linux disponible. RPCS3, además, exige mucha más CPU/GPU de la que da el Jaguar de PS4.
+- **PS Vita / PS3** — Vita3K y RPCS3 solo corren sobre Linux/Windows/macOS. En PS4 la única vía sería arrancar Linux, y eso exige además saltarse el hipervisor: el jailbreak público (PPPwn) llega a firmware 11.00, hay payloads de Linux documentados hasta 12.02, pero nada confirmado para 12.5x — con GoldHEN 12.52 esta consola no tiene Linux disponible hoy. RPCS3, además, exige mucha más CPU/GPU de la que da el Jaguar de PS4.
 - **Xbox / Xbox 360** — pese a ser x86 como PS4, no existe ningún port de Cxbx-Reloaded ni Xenia para orbis. Xenia necesita además mucha más potencia (recompilación JIT + GPU DX12/Vulkan avanzada).
 - **Nintendo Switch** — Yuzu/Ryujinx exigen mucha más CPU y una GPU con Vulkan avanzado de lo que ofrece PS4. Ningún proyecto lo intenta sobre orbis.
 
