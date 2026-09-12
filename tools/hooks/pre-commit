@@ -1,0 +1,6 @@
+#!/bin/sh
+# Regenera inventario y catálogo antes de cada commit y bloquea binarios o archivos grandes.
+cd "$(git rev-parse --show-toplevel)" || exit 1
+python tools/inventory.py || exit 1
+git add -A catalogo inventory.csv INVENTORY.md
+python tools/guard.py pre-commit

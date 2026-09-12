@@ -6,22 +6,26 @@ Checklist maestra para preparar la carpeta `/emu` antes de copiarla a la PS4. Es
 
 ```
 emu/
-├── APPS/                 <- PKGs de emuladores (ignorados por git)
-├── BIOS/                 <- BIOS (ignoradas por git)
-└── ROMS/<SISTEMA>/       <- ROMs por sistema (ignoradas por git)
+├── APPS/                 <- PKGs de emuladores
+├── BIOS/                 <- BIOS
+├── ROMS/<SISTEMA>/       <- ROMs por sistema
+├── RETROARCH/info/       <- .info de los cores (sí se versionan)
+├── SAVES/                <- partidas guardadas (.srm)
+├── MEDIA/<SISTEMA>/      <- carátulas, no se suben a la consola
+└── EXTRAS/               <- apartado: no son juegos o son duplicados, no se sube
+catalogo/                 <- un puntero .ref por juego (sí se versiona)
 ```
 
-`emu/` **no se copia tal cual** a la consola: cada subcarpeta tiene su destino
-(`/data/`, `/data/retroarch/system/`, `/data/roms/`). El mapeo y el
-procedimiento completo están en [`INSTALL.md`](INSTALL.md).
+Todo el contenido binario de `emu/` está ignorado por git. `emu/` **no se copia tal cual** a la consola: cada subcarpeta tiene su destino. El mapeo y el procedimiento completo están en [`INSTALL.md`](INSTALL.md).
 
-Del contenido binario solo se versiona el **hash**, no el archivo. Tras copiar ROMs o BIOS:
+Del contenido binario solo se versiona la **referencia**, no el archivo:
 
-```bash
-bash tools/inventory.sh
-```
+- `catalogo/` — un `.ref` por archivo (SHA-1, tamaño y, en los zip, SHA-1 de la ROM interior). Cada commit lista los juegos añadidos, quitados o renombrados.
+- `inventory.csv` — lo mismo en una tabla; `INVENTORY.md` — resumen por sistema.
 
-Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resumen por sistema). El `git diff` de `inventory.csv` muestra exactamente qué contenido se añadió. SHA-1 es el hash de los DATs de No-Intro/Redump, así que sirve también para verificar volcados.
+Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: `python tools/inventory.py`.
+
+**Barrera anti-binarios:** `tools/guard.py`, llamado desde los hooks `pre-commit` y `pre-push`, bloquea cualquier binario o archivo de más de 5 MB antes de que llegue a GitHub. En un clon nuevo, instalar los hooks: `cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/`.
 
 ## 0. Base del sistema
 
@@ -44,7 +48,8 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 - [x] Estructura de carpetas `/emu` creada (44 plataformas, nombres cortos, Arcade separado en MAME/FBNEO)
 - [x] Reestructurado en `APPS/` + `BIOS/` + `ROMS/`
 - [x] `.gitignore`: se versiona la estructura y los `.md`, nunca los binarios
-- [x] `tools/inventory.sh` — inventario por hash SHA-1
+- [x] `tools/inventory.py` + `catalogo/` + hook pre-commit — juegos trackeados por referencia
+- [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas
 
 ## 1. Nivel 1 — imprescindibles
 
@@ -52,12 +57,12 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 |---|---|---|---|---|
 | NES | `NES/` | — | [x] 634 | [x] |
 | SNES | `SNES/` | — | [x] 164 | [ ] |
-| Game Boy | `GB/` | — | [ ] | [ ] |
-| Game Boy Color | `GBC/` | — | [ ] | [ ] |
-| Game Boy Advance | `GBA/` | — | [ ] | [ ] |
-| Master System | `SMS/` | — | [ ] | [ ] |
-| Game Gear | `GG/` | — | [ ] | [ ] |
-| Mega Drive | `MD/` | — | [ ] | [ ] |
+| Game Boy | `GB/` | — | [x] 1542 | [ ] |
+| Game Boy Color | `GBC/` | — | [x] 497 | [ ] |
+| Game Boy Advance | `GBA/` | — | [x] 214 | [ ] |
+| Master System | `SMS/` | — | [x] 333 | [ ] |
+| Game Gear | `GG/` | — | [x] 373 | [ ] |
+| Mega Drive | `MD/` | — | [x] 1337 | [ ] |
 | PC Engine | `PCE/` | — | [ ] | [ ] |
 | Neo Geo AES/MVS | `NEOGEO/` | [ ] | [ ] | [ ] |
 | Arcade (FBNeo) | `ARCADE/FBNEO/` | [ ] | [ ] | [ ] |
@@ -108,18 +113,21 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 ## 4. Rutina al añadir un sistema nuevo
 
 1. Copiar las ROMs a `emu/ROMS/<SISTEMA>/` en el PC.
-2. `bash tools/inventory.sh` para registrar los hashes.
-3. Subir por FTP a `/data/roms/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
-4. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/`.
-5. Probar un juego y marcar la casilla "Probado en PS4".
-6. Commit — el diff de `inventory.csv` deja constancia de lo añadido.
+2. Subir por FTP a `/data/roms/<SISTEMA>/` (puerto 2121, modo pasivo, 1 conexión).
+3. Si el sistema necesita BIOS, subirla a `/data/retroarch/system/` con el nombre que espera el core (lo indica su `.info`).
+4. Probar un juego y marcar la casilla "Probado en PS4".
+5. Commit — el hook regenera inventario y catálogo, y el commit lista cada juego añadido.
 
 ## 5. Pendientes generales
 
+- [ ] Probar en la PS4 GB, GBC, GBA, SMS, GG y MD (un juego de cada)
+- [ ] Subir `emu/SAVES/` a `/data/retroarch/savefiles/` y comprobar que carga una partida de GBA
+- [ ] BIOS de Sega CD, Master System y Game Gear están en subcarpetas con su nombre original: renombrar y dejar en la raíz antes de subir
+- [ ] `EXTRAS/MD-duplicados/` (676) y `EXTRAS/MD-malos/` (6): decidir si se borran
+- [ ] `ROMS/NES/Datach - Battle Rush….sav` suelto: decidir si va a `SAVES/`
+- [ ] `gamelist.xml` y `systeminfo.txt` en `ROMS/GBC` y `ROMS/GBA`: restos de EmulationStation, no son juegos
+- [ ] `.rar` de 4,4 GB en la raíz del repo (ignorado): decidir qué hacer con él
 - [ ] Verificar espacio libre en la PS4 antes de subidas grandes
-- [ ] Comprobar si los `README.md` dentro de `ROMS/<SISTEMA>/` molestan en el navegador
-      de RetroArch una vez reactivado el filtro de extensiones (no deberían: `.md` no
-      está en ninguna lista de extensiones soportadas)
 - [ ] Backup de la colección
 
 ## Notas

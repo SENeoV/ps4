@@ -11,6 +11,9 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 | `emu/APPS/*.pkg` | `/data/pkg/` | Es la ruta donde el instalador los detecta. Temporal: tras instalar se pueden borrar |
 | `emu/BIOS/*` | `/data/retroarch/system/` | **Ruta obligatoria.** Es la carpeta "system" de RetroArch |
 | `emu/ROMS/<SISTEMA>/` | `/data/roms/<SISTEMA>/` | RetroArch puede navegar a cualquier ruta; `/data/roms` mantiene el mismo esquema que el PC |
+| `emu/RETROARCH/info/*.info` | `/data/retroarch/info/` | Sin ellos RetroArch no reconoce extensiones ni elige el core solo |
+| `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
+| `emu/MEDIA/`, `emu/EXTRAS/` | — | **No se suben.** Carátulas y archivos que no son juegos |
 
 La carpeta `/data/retroarch/` no existirá hasta que RetroArch se haya ejecutado al menos una vez.
 
