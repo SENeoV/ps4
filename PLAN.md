@@ -5,11 +5,15 @@ Checklist maestra para preparar la carpeta `/emu` antes de copiarla a la PS4. Es
 ## Estructura
 
 ```
-emu/                      <- esto es lo que se copia a la PS4
+emu/
 ├── APPS/                 <- PKGs de emuladores (ignorados por git)
-├── BIOS/                 <- BIOS, = carpeta "system" de RetroArch (ignoradas por git)
+├── BIOS/                 <- BIOS (ignoradas por git)
 └── ROMS/<SISTEMA>/       <- ROMs por sistema (ignoradas por git)
 ```
+
+`emu/` **no se copia tal cual** a la consola: cada subcarpeta tiene su destino
+(`/data/`, `/data/retroarch/system/`, `/data/roms/`). El mapeo y el
+procedimiento completo están en [`INSTALL.md`](INSTALL.md).
 
 Del contenido binario solo se versiona el **hash**, no el archivo. Tras copiar ROMs o BIOS:
 
@@ -22,11 +26,14 @@ Eso regenera `inventory.csv` (detalle, SHA-1 por archivo) e `INVENTORY.md` (resu
 ## 0. Base del sistema
 
 - [x] GoldHEN 12.52 instalado en la PS4 Pro
-- [ ] Homebrew Store instalado
-- [ ] RetroArch (build orbis/PS4) instalado vía Homebrew Store
-- [ ] PPSSPP standalone instalado
-- [ ] Flycast/Reicast standalone instalado (verificar build actualizada)
-- [ ] ScummVM standalone instalado
+- [x] PKGs de RetroArch descargados y verificados (ver `emu/APPS/README.md`)
+- [ ] **RetroArch (`SSNE10000`) instalado en la consola** ← siguiente paso
+- [ ] **Core Installer (`SSNE20000`) instalado y cores desplegados**
+- [ ] **Smoke test: 1 ROM de NES/SNES cargando con imagen, sonido y mando**
+- [ ] Homebrew Store instalado (opcional)
+- [ ] PPSSPP standalone instalado (opcional)
+- [ ] Flycast/Reicast standalone instalado (opcional, verificar build)
+- [ ] ScummVM standalone instalado (opcional)
 - [x] Repo local `D:\ps4` inicializado en git
 - [x] `.gitmodules` para `ps4_cheats` configurado
 - [x] Guía `emu/emuladores-ps4.md` creada
