@@ -8,7 +8,7 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 
 | En el PC | En la PS4 | Notas |
 |---|---|---|
-| `emu/APPS/*.pkg` | `/data/` | Temporal: se instalan y luego se pueden borrar |
+| `emu/APPS/*.pkg` | `/data/pkg/` | Es la ruta donde el instalador los detecta. Temporal: tras instalar se pueden borrar |
 | `emu/BIOS/*` | `/data/retroarch/system/` | **Ruta obligatoria.** Es la carpeta "system" de RetroArch |
 | `emu/ROMS/<SISTEMA>/` | `/data/roms/<SISTEMA>/` | RetroArch puede navegar a cualquier ruta; `/data/roms` mantiene el mismo esquema que el PC |
 
@@ -32,7 +32,7 @@ Conviene poner FileZilla en **modo pasivo** y **1 sola conexión simultánea** �
 
 ## Paso 1 — RetroArch (la app)
 
-1. Subir por FTP a `/data/`:
+1. Subir por FTP a `/data/pkg/`:
    ```
    emu/APPS/PS4_SSNE10000_v4.00_Unofficial_RetroArch.pkg   (27 MB)
    ```
@@ -40,13 +40,11 @@ Conviene poner FileZilla en **modo pasivo** y **1 sola conexión simultánea** �
 3. Comprobar que aparece el icono de RetroArch en el menú principal.
 4. **Abrir RetroArch una vez** y cerrarlo. Esto crea `/data/retroarch/`, que hace falta para los pasos siguientes.
 
-> Según la build de GoldHEN, el Package Installer lista los PKG de `/data/` o los de USB. Si no ves el PKG ahí, la alternativa es instalarlo desde el Homebrew Store o con Remote PKG Installer (`FLTZ00003`, 4 MB, en la raíz del repo).
-
 ## Paso 2 — Core Installer
 
 RetroArch en PS4 **viene sin cores**: sin este paso se abre pero no ejecuta nada.
 
-1. Subir a `/data/`:
+1. Subir a `/data/pkg/`:
    ```
    emu/APPS/PS4_SSNE20000_v4.00_RetroArch_Core_Installer.pkg   (1385 MB)
    ```
