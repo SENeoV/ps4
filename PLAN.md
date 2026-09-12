@@ -108,7 +108,16 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 | Sharp X68000 | `X68000/` | [ ] | [ ] | [ ] |
 | ScummVM | `SCUMMVM/` | — | [ ] | [ ] |
 | CHIP-8 | `CHIP8/` | — | [ ] | [ ] |
+| Sega NAOMI (arcade) | `ARCADE/NAOMI/` | [ ] | [ ] | [ ] |
+| Sega Atomiswave (arcade) | `ARCADE/ATOMISWAVE/` | — | [ ] | [ ] |
+| Pokémon Mini | `POKEMINI/` | — | [ ] | [ ] |
 | Nintendo 3DS | `3DS/` | — | 🔴 no viable | 🔴 no viable |
+| GameCube | `GC/` | — | 🔴 no viable | 🔴 no viable |
+| Wii | `WII/` | — | 🔴 no viable | 🔴 no viable |
+| PS Vita | `VITA/` | — | 🔴 no viable | 🔴 no viable |
+| PS3 | `PS3/` | — | 🔴 no viable | 🔴 no viable |
+| Xbox / Xbox 360 | `XBOX/` | — | 🔴 no viable | 🔴 no viable |
+| Nintendo Switch | `SWITCH/` | — | 🔴 no viable | 🔴 no viable |
 
 ## 4. Rutina al añadir un sistema nuevo
 

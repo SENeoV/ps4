@@ -58,6 +58,15 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 | 42 | DOS / PC | 1981 | DOSBox | `.exe/.com` | No | 🟢 |
 | 43 | ScummVM | — | ScummVM | archivos del juego | No | 🟢 |
 | 44 | CHIP-8 | 1977 | CHIP-8 | `.ch8` | No | 🟢 |
+| 45 | Sega NAOMI (arcade) | 1998 | Flycast | `.zip` | ⚠️ BIOS | 🟢/🟡 |
+| 46 | Sega Atomiswave (arcade) | 2003 | Flycast | `.zip` | No | 🟢/🟡 |
+| 47 | Pokémon Mini | 2001 | PokeMini | `.min` | No | 🟢 |
+| 48 | GameCube | 2001 | — | `.iso/.gcm/.rvz` | — | 🔴 |
+| 49 | Wii | 2006 | — | `.iso/.wbfs/.rvz` | — | 🔴 |
+| 50 | PS Vita | 2011 | — | — | — | 🔴 |
+| 51 | PS3 | 2006 | — | — | — | 🔴 |
+| 52 | Xbox / Xbox 360 | 2001/2005 | — | — | — | 🔴 |
+| 53 | Nintendo Switch | 2017 | — | — | — | 🔴 |
 
 ## Priorización para instalar
 
@@ -81,10 +90,23 @@ Saturn: la emulación existe en PS4 (Yabause como port nativo), pero la compatib
 ### Nivel 3 — experimental
 
 ```
-PS2
+PS2, Sega NAOMI, Sega Atomiswave, Pokémon Mini
 ```
 
 No asumir que "PS4 Pro = PS2 perfecta". Mast1c0re usa el emulador PS2 nativo de la propia PS4 y permite cargar ISOs, pero con limitaciones de compatibilidad.
+
+NAOMI y Atomiswave son placas arcade de Sega basadas en hardware de Dreamcast: los cubre el mismo core Flycast, así que añadirlas no tiene coste extra si ya se instaló para DC. Pokémon Mini es trivial (core PokeMini, sin BIOS).
+
+### Descartadas — no viables en esta PS4 (GoldHEN 12.52, sin Linux)
+
+Consolas más modernas que se preguntan a menudo, pero que **no** son una opción práctica hoy en este dispositivo concreto:
+
+- **GameCube / Wii** — Dolphin (el único emulador que las soporta) necesita OpenGL 3.0+ o Vulkan; el port de RetroArch para PS4 (orbis) solo llega a OpenGL ES2. No hay build funcional del core ni un standalone.
+- **PS Vita / PS3** — Vita3K y RPCS3 solo corren sobre Linux/Windows/macOS. En PS4 la única vía sería arrancar Linux, y eso exige un jailbreak de kernel (PPPwn u otro) que hoy cubre como mucho hasta firmware ~11.00-12.02; con GoldHEN 12.52 esta consola no tiene Linux disponible. RPCS3, además, exige mucha más CPU/GPU de la que da el Jaguar de PS4.
+- **Xbox / Xbox 360** — pese a ser x86 como PS4, no existe ningún port de Cxbx-Reloaded ni Xenia para orbis. Xenia necesita además mucha más potencia (recompilación JIT + GPU DX12/Vulkan avanzada).
+- **Nintendo Switch** — Yuzu/Ryujinx exigen mucha más CPU y una GPU con Vulkan avanzado de lo que ofrece PS4. Ningún proyecto lo intenta sobre orbis.
+
+Si en el futuro se actualiza el jailbreak (firmware más bajo con Linux disponible) o aparece un port nuevo, revisar esta sección.
 
 ## Los tres grandes, en detalle
 
