@@ -2,6 +2,34 @@
 
 Aquí van los `.pkg` que se instalan en la PS4. **Los PKG no se suben al repo** (están en `.gitignore`): pesan cientos de MB y GitHub rechaza archivos de más de 100 MB. Esta carpeta solo versiona esta documentación.
 
+## Descargados (verificados)
+
+Todos comprobados: cabecera PKG válida (`\x7FCNT`) y Content ID leído del propio archivo. Hashes en [`../../inventory.csv`](../../inventory.csv).
+
+| PKG | Content ID | Tamaño | Qué es |
+|---|---|--:|---|
+| `PS4_SSNE10000_v4.00_Unofficial_RetroArch.pkg` | `UP0001-SSNE10000_00` | 27 MB | **RetroArch (la app).** v4.00 = la release R4 |
+| `PS4_SSNE20000_v4.00_RetroArch_Core_Installer.pkg` | `UP0001-SSNE20000_00` | 1385 MB | **Core Installer.** Trae los cores offline, sin depender del Core Updater |
+| `PS4_CUSB00000_v1.00_RetroArch_NES.pkg` | `UP9000-CUSB00000_00` | 64 MB | RetroArch + core NES, standalone |
+| `PS4_CUSB99999_v1.00_RetroArch_QuickNES.pkg` | `UP9000-CUSB99999_00` | 25 MB | RetroArch + core QuickNES, standalone |
+| `PS4_CUSB99997_v1.00_RetroArch_Picodrive.pkg` | `UP9000-CUSB99997_00` | 25 MB | RetroArch + core PicoDrive (MD/32X), standalone |
+| `PS4_CUSB00001_v1.00_RetroArch_2048.pkg` | `UP9000-CUSB00001_00` | 65 MB | Juego 2048, no es un emulador |
+
+### Lectura de esto
+
+Los dos primeros son **justo el combo que hace falta**: la app + los cores. Con esos dos cubres la mayoría de `ROMS/`.
+
+Los `CUSB*` son builds standalone de RetroArch con un core embebido. **Son redundantes** si instalas el Core Installer: NES, QuickNES y PicoDrive ya vienen ahí. Solo aportan un acceso directo desde el menú de la PS4 que arranca ya en ese core. El de 2048 es un juego, no pinta nada aquí.
+
+### Falta por descargar
+
+Nada crítico. Opcionales, para más adelante:
+
+- PPSSPP standalone (PSP) — el core de PPSSPP ya entra con el Core Installer
+- Flycast standalone (Dreamcast) — verificar build antes
+- ScummVM standalone
+- Homebrew Store, si prefieres instalar desde la consola en vez de por USB
+
 ## Orden recomendado de instalación
 
 ### 1. Homebrew Store (la vía fácil)

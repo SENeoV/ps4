@@ -4,4 +4,9 @@ Generado por `tools/inventory.sh`. Detalle completo en [`inventory.csv`](invento
 
 Hash: **SHA-1** (el mismo que usan los DATs de No-Intro y Redump, así que se puede verificar contra ellos).
 
-_Todavía no hay contenido. Copia ROMs a `emu/ROMS/<SISTEMA>/` y BIOS a `emu/BIOS/`, y vuelve a ejecutar el script._
+**Total: 6 archivos**
+
+| Sistema | Archivos | Tamaño |
+|---|--:|--:|
+| APPS | 6 | 1593.3 MB |
+| **TOTAL** | **6** | **1593.3 MB** |

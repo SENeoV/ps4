@@ -44,6 +44,7 @@ while IFS= read -r -d '' path; do
   case "$rel" in
     ROMS/*) sys="${rel#ROMS/}"; sys="${sys%%/*}"; file="${rel#ROMS/$sys/}" ;;
     BIOS/*) sys="BIOS"; file="${rel#BIOS/}" ;;
+    APPS/*) sys="APPS"; file="${rel#APPS/}" ;;
     *) continue ;;
   esac
 
@@ -60,7 +61,7 @@ while IFS= read -r -d '' path; do
   fi
 
   echo "$sys,$file,$bytes,$sha1" >> "$TMP"
-done < <(find ./emu/ROMS ./emu/BIOS -type f -print0 2>/dev/null | sort -z)
+done < <(find ./emu/ROMS ./emu/BIOS ./emu/APPS -type f -print0 2>/dev/null | sort -z)
 
 # Ordena por sistema y nombre para que el diff de git sea estable
 { head -1 "$TMP"; tail -n +2 "$TMP" | sort; } > "$CSV"

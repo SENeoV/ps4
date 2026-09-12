@@ -1,6 +1,9 @@
 /pkg
 /ps4_cheats
 
+# Ningun PKG entra en el repo, este donde este (pesan cientos de MB / GBs)
+*.pkg
+
 # emu/: se versiona la estructura y la documentación, nunca el contenido.
 # ROMs, BIOS y PKGs viven solo en local y en la copia que va a la PS4.
 # (GitHub rechaza archivos >100 MB, y un PKG de RetroArch los supera.)
