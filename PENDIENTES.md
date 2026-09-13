@@ -201,11 +201,14 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [ ] 🧑 Teclado y ratón USB para la consola
 - [x] 🎮 Rescue shell, instalación y arranque de la distro (13-09): **solo con la tele**, el monitor Samsung no recibe señal
 - [x] 🎮 GPU comprobada: `radeonsi, liverpool, ACO` en LXDE (13-09)
-- [ ] 🤖 Añadir `root=LABEL=psxitarch` al `bootargs.txt` del pendrive para que arranque sin `resume-boot`
+- [x] 🤖 `bootargs.txt` con `root=LABEL=psxitarch` en la FAT32 del pendrive (el instalador lo había borrado al reparticionar)
+- [x] 🤖 Paquetes sin red en `linux/pkgs/` y en el pendrive: Dolphin, PPSSPP, `iw`, `wireless-regdb`, del Arch Linux Archive del 09-03-2026
+- [ ] 🎮 `sudo sh /mnt/pkgs/instalar.sh` y comprobar que Dolphin abre
+- [ ] 🧑 Red en Linux: el Wi-Fi solo ve dos redes ajenas (driver MediaTek en 5.4); probar `iw reg set ES`, si no, móvil por USB o adaptador USB-Ethernet
 - [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
 - [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro); si va, se queda
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
-- [ ] 🎮 `IgnorePkg` para Mesa en `pacman.conf`, `pacman -Syu dolphin-emu`, backend OpenGL, y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware
+- [ ] 🎮 Dolphin con backend OpenGL y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware (necesita red o su paquete del AUR compilado)
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
 
 ---

@@ -25,3 +25,4 @@ emu/**
 linux/**
 !linux/**/
 !linux/**/*.md
+!linux/pkgs/*.sh
