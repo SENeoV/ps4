@@ -80,7 +80,8 @@ Ordenado el 2026-09-13, con cada movimiento en `cleanup-2026-09-13.tsv`. Neo Geo
 - [x] **Atari 7800:** 2821 archivos de cinco colecciones superpuestas, reducidos a las **170 ROMs que reconoce la base de datos**. Las 1191 restantes (hacks, homebrew, versiones PAL y variantes) están en `EXTRAS/ATARI7800-variantes`
 - [x] `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. La otra variante que traía la colección (`lynxboot.bin`) no es la oficial
 - [ ] 🧑 Opcional: `7800 BIOS (U).rom`. La que venía en la colección es *7800 DEV OS*, homebrew, y no está en `System.dat`
-- [ ] 🎮 Subir las carpetas de la Tanda 1 a `/data/ROMS/<SISTEMA>/` y `lynxboot.img` a `/data/retroarch/system/`
+- [ ] 🎮 Subir las carpetas de la Tanda 1 a `/data/ROMS/<SISTEMA>/`: 1897 ROMs, **1,2 GB**. Las más pesadas son WSC (447 MB), WS (350 MB) y 32X (132 MB); Atari 2600, con 885 juegos, solo ocupa 6 MB
+- [ ] 🎮 Subir `lynxboot.img` y `bios_U.sms` a `/data/retroarch/system/`: son las dos únicas BIOS de `emu/BIOS/` que aún no están en la consola
 - [ ] 🎮 Probar un juego de cada sistema. Lynx tiene 13 prototipos sin cabecera `LYNX` que podrían no arrancar
 - [ ] 🧑 Revisar lo apartado en `EXTRAS/` (4727 archivos): duplicados, las variantes de Atari 7800, 26 `.7z` de Virtual Boy que no se pudieron abrir para comprobarlos, BIOS descartadas, y el emulador OSwan y otros archivos que venían con las colecciones. Nada de esto se ha borrado
 
