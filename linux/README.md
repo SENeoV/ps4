@@ -41,20 +41,21 @@ Todo verificado por SHA-1 contra su origen y catalogado en [`../catalogo/LINUX/`
 | `initramfs/initramfs-dionkill.zip` | El zip completo, con las variantes internas (Aeolia, Belize) que aquí no sirven | ídem | referencia |
 | `initramfs/feernt-1.0/initramfs.cpio.gz` | initramfs v1.0 de feeRnt (29-01-2026). Su release avisa: **sin soporte de instalación externa** | [feeRnt/ps4-linux-initramfs](https://github.com/feeRnt/ps4-linux-initramfs/releases/tag/v1.0) | ❌ no vale en Baikal |
 | `initramfs/feernt-1.0/ps4-linux-initramfs-1.0-src.zip` | Su código fuente | ídem | referencia |
+| `distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz` | **La distro elegida.** Arch Linux (5–9 de marzo de 2026) con KDE Plasma 6.6, SDDM, Firefox, NetworkManager, Bluetooth y PipeWire; **Mesa 25.1.0-devel** (`libgallium-25.1.0-devel.so`; el paquete se llama `mesa-git 22.1-1`, "repacked from known-good PS4 rootfs") y `libdrm-git 2.4.124` "compiled for PS4 Baikal". Usuario `ps4`/`ps4`, `fstab` ya con `LABEL=psxitarch`. 2,03 GB, 6,3 GB instalada | [Mega](https://mega.nz/file/JNkUgZLY#q-XwRcz81SLyMBE_-RIpbtRZIi2pGaH-8xCc6-uFXRI), enlazada por feeRnt en el [issue #8](https://github.com/feeRnt/ps4-linux-12xx/issues/8); descargada el 13-09-2026 como `ps4linux.tar.xz`, `xz -t` correcto | ✅ va al USB recomprimida como `psxitarch.tar.gz` |
 | `distros/psxitarch-7coil-2022-06-26.tar.xz` | Rootfs de 7coil: Arch 2022.06.01 **sin escritorio**, `mesa-ps4 21.3.2`, usuario `pi`/`raspberry`, root `raspberry` | [7coil/archlinux-on-ps4](https://github.com/7coil/archlinux-on-ps4/releases/tag/2022-06-26) | ⚠️ vale para probar que la cadena arranca (Mesa vieja, compatible con el 5.4). De 2022: no actualizarla ni usarla como distro final |
 | `distros/archlinux-on-ps4-2022-06-26.zip` | Documentación de 7coil (sin binarios) | ídem | referencia |
 | `src/` | Submódulos con el código de [ps4-linux-loader](https://github.com/ps4-linux/ps4-linux-loader), [ps4-linux-initramfs](https://github.com/feeRnt/ps4-linux-initramfs), [archlinux-on-ps4](https://github.com/7coil/archlinux-on-ps4) y [ps4-linux-12xx](https://github.com/feeRnt/ps4-linux-12xx) (fuentes del kernel, 6,4 GB de historial). Se traen con `git submodule update --init linux/src/<repo>`. El kernel queda en su rama por defecto (6.15.4): la rama de Baikal, `5.4.247-baikal-dfaus`, **no se puede extraer en Windows** (archivos `aux.c` y nombres que solo difieren en mayúsculas); hace falta Linux o WSL | — | referencia; no se cataloga |
 
-### Lo que falta: la distro (🧑)
+### La distro
 
-Una distro para PS4 **con Mesa ≤ 25.1**. Las dos que hay, ambas en descargas directas que no se pueden automatizar:
+Hace falta una distro para PS4 **con Mesa ≤ 25.1**. Solo hay dos, ambas en descargas directas que no se pueden automatizar; la primera es la que está en `distros/`:
 
 | Distro | Mesa | Descarga | Acceso | Pega |
 |---|---|---|---|---|
 | **Arch limpio con Mesa 25.1** (08-03-2026) | 25.1 | [Mega](https://mega.nz/file/JNkUgZLY#q-XwRcz81SLyMBE_-RIpbtRZIi2pGaH-8xCc6-uFXRI), 2,03 GB | `ps4` / `ps4` | Autor anónimo; la enlaza y la da por buena el mantenedor del kernel Baikal ([issue #8](https://github.com/feeRnt/ps4-linux-12xx/issues/8)). Se llama `ps4linux.tar.xz`: hay que renombrarla |
 | Xubuntu 25.04 (25-05-2025) | 25.0.5 | [1fichier](https://1fichier.com/?at7ccs9f5rb9spzkm8h9) o [Mediafire](https://www.mediafire.com/folder/lmcwkxf915jqm/ps4-xubuntu), en varias partes | `ps4linux` / `ps4linux` | Trae Steam, Wine y emuladores, pero su autor (triki1) está señalado en la guía de DionKill como no fiable, y no publica fuentes |
 
-La que elijas, a `linux/distros/` con su nombre original; el commit siguiente la catalogará. Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [CachyOS Light](https://ps4linux.com/forums/d/422-cachyos-light-lxqt-a-light-and-fast-distro) (Mesa 26, se actualiza con `pacman`) y este documento cambia.
+Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [CachyOS Light](https://ps4linux.com/forums/d/422-cachyos-light-lxqt-a-light-and-fast-distro) (Mesa 26, se actualiza con `pacman`) y este documento cambia.
 
 ## Cómo arranca
 
@@ -80,10 +81,10 @@ La que elijas, a `linux/distros/` con su nombre original; el commit siguiente la
 - El instalador solo acepta **`psxitarch.tar.gz`** (gzip): busca ese nombre y extrae con `tar -xvpzf`. Un `.tar.xz` no sirve aunque se renombre. Recomprimir en el PC sin descomprimir en disco, por ejemplo la de 7coil:
 
   ```
-  python -c "import lzma,gzip,shutil,sys; shutil.copyfileobj(lzma.open(sys.argv[1]), gzip.open(sys.argv[2], 'wb', 6))" linux/distros/psxitarch-7coil-2022-06-26.tar.xz E:\psxitarch.tar.gz
+  python -c "import lzma,gzip,shutil,sys; shutil.copyfileobj(lzma.open(sys.argv[1]), gzip.open(sys.argv[2], 'wb', 6))" linux/distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz E:\psxitarch.tar.gz
   ```
 
-  (`E:` es el pendrive; tarda unos minutos. Si la distro ya es `.tar.gz`, solo renombrar.)
+  (`E:` es el pendrive; salen unos 2,5 GB y tarda unos minutos. Para la prueba con la de 7coil, el mismo comando con su archivo. Si una distro ya es `.tar.gz`, solo renombrar.)
 
 - Sin `bootargs.txt` ni `vram.txt`: el kernel 5.4.247 ya pone 1920x1080 a 60 Hz y la VRAM la fija el payload elegido. Solo si hace falta, `bootargs.txt` junto al `bzImage` (ver "Problemas").
 
@@ -134,7 +135,7 @@ GoldHEN → payload **`linux-2048mb.bin`** → arranca la distro sola desde el p
 La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace falta y lo que cabe esperar:
 
 - **GPU activa antes que nada.** `glxinfo | grep renderer` → `AMD Liverpool`. Con `llvmpipe` Dolphin va a pocos fps y no hay nada que ajustar: es la distro (Mesa) o el kernel. Dolphin necesita OpenGL 3.3; Mesa 25.1 da OpenGL 4.6 en esta GPU.
-- **Instalar, en el Arch con Mesa 25.1.** Primero proteger los drivers en `/etc/pacman.conf`, sección `[options]`: `IgnorePkg = mesa lib32-mesa libdrm lib32-libdrm llvm-libs lib32-llvm-libs` (y descomentar `DisableSandbox` si `pacman` protesta por *Landlock*). Después `sudo pacman -Syu dolphin-emu`. Sin el `IgnorePkg`, la actualización mete Mesa 26 y se pierde la GPU.
+- **Instalar, en el Arch con Mesa 25.1** (ya trae KDE, Firefox y Bluetooth; Dolphin no). Primero proteger los drivers en `/etc/pacman.conf`, sección `[options]`: `IgnorePkg = mesa lib32-mesa libdrm lib32-libdrm llvm-libs lib32-llvm-libs` (y descomentar `DisableSandbox` si `pacman` protesta por *Landlock*). Después `sudo pacman -Syu dolphin-emu`. Sin el `IgnorePkg`, la actualización mete Mesa 26 y se pierde la GPU.
 - **Backend OpenGL**, no Vulkan: Vulkan se cuelga en PS4 Pro con Mesa ≥ 22. Resolución interna 1x (nativa) para empezar; la GPU sobra y se puede subir a 2x, el límite es la CPU (8 Jaguar a 2,1 GHz). `mitigations=off` en `bootargs.txt` ayuda.
 - **Expectativa.** No hay informe de *Wind Waker* en PS4; la referencia es *Pikmin* a 50 fps en PS4 Pro con OpenGL (GBAtemp) y, en la guía, Cemu (Wii U, mucho más pesado) a 50-55 fps. *Wind Waker* es un juego ligero para Dolphin: lo previsible es velocidad completa con alguna bajada.
 - **Los juegos (🧑).** Dolphin lee `.iso`, `.gcm` y `.rvz` (RVZ es el formato comprimido de Dolphin, sin pérdida; *Wind Waker* ocupa 1,4 GB en ISO). La partición de Linux del pendrive es ext4 y Windows no la escribe, así que las ISO van en **otro USB en exFAT** (Linux lo lee) o se copian por red (Wi-Fi) una vez arrancado. Hace falta un hub USB para teclado y ratón: pendrive, USB de juegos y mando ocupan los tres puertos.

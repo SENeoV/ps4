@@ -196,7 +196,7 @@ Formato CD:
 Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B1**: kernel 5.4.247, distro con Mesa ≤ 25.1 y solo disco externo. Nada probado aún en la consola.
 
 - [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo de DionKill, verificados por SHA-1 contra su origen y catalogados en `catalogo/LINUX/`
-- [ ] 🧑 **La distro.** Bajar a `linux/distros/` una con Mesa ≤ 25.1: el **Arch limpio con Mesa 25.1** ([Mega](https://mega.nz/file/JNkUgZLY#q-XwRcz81SLyMBE_-RIpbtRZIi2pGaH-8xCc6-uFXRI), 2,03 GB, `ps4`/`ps4`) es la que avala el mantenedor del kernel; Xubuntu 25.04 (1fichier/Mediafire) es la alternativa, con reservas. Detalle y enlaces en `linux/README.md`
+- [x] 🧑 **La distro:** Arch de marzo de 2026 con KDE Plasma 6.6 y Mesa 25.1.0-devel, bajada de Mega el 2026-09-13, íntegra (`xz -t`) y catalogada como `linux/distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz`
 - [ ] 🧑 **Pendrive USB 3.0 de 32 GB o más** (se borra entero): MBR, FAT32 (Rufus si Windows no lo ofrece), con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz` (gzip; el `.tar.xz` hay que recomprimirlo, comando en el README)
 - [ ] 🧑 Teclado y ratón USB para la consola
 - [ ] 🎮 Con GoldHEN cargado, BinLoader activado y el disco de Poops fuera: enviar `linux-1024mb.bin` al puerto 9090 y llegar a la rescue shell
