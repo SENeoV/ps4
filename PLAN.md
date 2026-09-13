@@ -50,7 +50,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas, nombres con tildes pasados a ASCII
 - [x] Revisión de consolas restantes y hoja de ruta (2026-09-13)
 - [x] Bases de datos, listas y carátulas de 18 sistemas preparadas en `emu/RETROARCH/` con `tools/retroarch_lists.py`
-- [ ] Subir bases de datos, listas y carátulas a la consola (unos 1,4 GB; ver `emu/RETROARCH/README.md`), después de subir las ROMs de la Tanda 1
+- [x] Bases de datos, listas y carátulas subidas a la consola y verificadas por FTP (2026-09-13): 18 `.rdb` y 18 `.lpl` con el mismo SHA-1 que en el PC, y 5373 carátulas
 
 ## 1. Hecho — en la PS4
 
@@ -84,7 +84,7 @@ Orden acordado el 2026-09-13. Cores, extensiones y BIOS salen de los `.info` de 
 | 32X | `32X/` | picodrive | [x] 45 | [ ] |
 | Virtual Boy | `VB/` | mednafen_vb | [x] 31 | [ ] |
 
-ROMs copiadas y ordenadas el 2026-09-13 (registro en `cleanup-2026-09-13.tsv`): Neo Geo Pocket y WonderSwan separados por cabecera, duplicados, carátulas y archivos que no son juegos apartados. `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. Falta subirlo todo a la consola.
+ROMs copiadas y ordenadas el 2026-09-13 (registro en `cleanup-2026-09-13.tsv`): Neo Geo Pocket y WonderSwan separados por cabecera, duplicados, carátulas y archivos que no son juegos apartados. `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. **Subido y verificado por FTP el 2026-09-13:** las 1897 ROMs están en la consola con el mismo nombre y tamaño que en el PC. Falta probar un juego de cada sistema.
 
 ### Tanda 2 — arcade
 

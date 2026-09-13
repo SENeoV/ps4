@@ -37,24 +37,22 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 - [x] 🤖 18 bases de datos `.rdb` de libretro-database, con formato comprobado frente a la versión de RetroArch 1.8.8
 - [x] 🤖 18 listas con 6986 juegos: los 8 sistemas ya subidos y los 10 de la Tanda 1. Cada juego lleva su core; 6249 (89%) aparecen con su nombre oficial y el resto con el nombre de su archivo
 - [x] 🤖 5400 carátulas (77%) del servidor oficial de libretro y de `emu/MEDIA/`, reducidas a 512 px
-- [ ] 🎮 **Antes de subir las listas, subir las ROMs de la Tanda 1** a `/data/ROMS/<SISTEMA>/`: sus listas apuntan ahí y, si no están, mostrarán juegos que no abren
-- [ ] 🎮 **Subir por FTP, unos 1,4 GB:**
-  - `emu/RETROARCH/database/rdb/*.rdb` → `/data/retroarch/database/rdb/`
-  - `emu/RETROARCH/playlists/*.lpl` → `/data/retroarch/playlists/`
-  - las carpetas de `emu/RETROARCH/thumbnails/` → `/data/retroarch/thumbnails/`
-- [ ] 🎮 Reiniciar RetroArch y comprobar que aparecen las 18 listas con sus carátulas
+- [x] 🎮 **Subido y verificado por FTP el 2026-09-13:** las 18 bases de datos y las 18 listas coinciden por SHA-1 con las del PC, y las 5373 carátulas están completas
+- [x] 🎮 Las 18 listas aparecen en la consola
 - [ ] 🧑 Opcional: 1586 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan, Atari 2600 y Atari 7800 (del 7800 el servidor de libretro apenas tiene portadas; del resto son traducciones y variantes que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
+- ⚠️ La lista de Game Boy Color en la consola tiene 497 entradas y la del PC 495: RetroArch añadió *Gameboy Gallery 3* y *DynaMike* por su cuenta, con el core en DETECT. Son juegos de la carpeta `GB` que ya salen en su propia lista, así que no falta nada; solo desaparecerían si se vuelve a subir esa lista desde el PC
 
 ### BIOS opcionales
 
 - [x] 🤖 `bios_U.sms`: la marcada `[b]` era buena (mismo SHA-1 que la europea, que es el que libretro espera para las dos). Creada en `emu/BIOS/` como copia de `bios_E.sms`
-- [ ] 🎮 Subir `emu/BIOS/bios_U.sms` a `/data/retroarch/system/`. Sin ella el juego arranca igual
+- [x] 🎮 Las 9 BIOS de `emu/BIOS/` están en `/data/retroarch/system/`, verificadas por SHA-1
 - [ ] 🧑 `gba_bios.bin`: opcional; mGBA funciona sin ella
 
 ### Copias de seguridad
 
 - [ ] 🧑 Disco externo para la colección: el repo solo guarda las referencias, no los juegos
-- [ ] 🎮🤖 Rutina de copia de `/data/retroarch/savefiles/` y `/data/retroarch/savestates/` al PC. Puedo hacer un script que la descargue por FTP y la verifique
+- [x] 🤖 Las 15 partidas de la consola están copiadas en `emu/SAVES/` (2026-09-13). Repetir la copia de vez en cuando, sobre todo antes de subir cualquier `.srm` desde el PC, porque sobrescribe la de la consola
+- [ ] 🎮🤖 Automatizarlo con un script que las descargue por FTP y las verifique
 
 ---
 
@@ -80,8 +78,8 @@ Ordenado el 2026-09-13, con cada movimiento en `cleanup-2026-09-13.tsv`. Neo Geo
 - [x] **Atari 7800:** 2821 archivos de cinco colecciones superpuestas, reducidos a las **170 ROMs que reconoce la base de datos**. Las 1191 restantes (hacks, homebrew, versiones PAL y variantes) están en `EXTRAS/ATARI7800-variantes`
 - [x] `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. La otra variante que traía la colección (`lynxboot.bin`) no es la oficial
 - [ ] 🧑 Opcional: `7800 BIOS (U).rom`. La que venía en la colección es *7800 DEV OS*, homebrew, y no está en `System.dat`
-- [ ] 🎮 Subir las carpetas de la Tanda 1 a `/data/ROMS/<SISTEMA>/`: 1897 ROMs, **1,2 GB**. Las más pesadas son WSC (447 MB), WS (350 MB) y 32X (132 MB); Atari 2600, con 885 juegos, solo ocupa 6 MB
-- [ ] 🎮 Subir `lynxboot.img` y `bios_U.sms` a `/data/retroarch/system/`: son las dos únicas BIOS de `emu/BIOS/` que aún no están en la consola
+- [x] 🎮 Las 1897 ROMs de la Tanda 1 (1,2 GB) están en `/data/ROMS/<SISTEMA>/`, verificadas por FTP una a una: mismo nombre y mismo tamaño que en el PC, sin faltantes ni sobrantes
+- [x] 🎮 `lynxboot.img` y `bios_U.sms` subidas a `/data/retroarch/system/`
 - [ ] 🎮 Probar un juego de cada sistema. Lynx tiene 13 prototipos sin cabecera `LYNX` que podrían no arrancar
 - [ ] 🧑 Revisar lo apartado en `EXTRAS/` (4727 archivos): duplicados, las variantes de Atari 7800, 26 `.7z` de Virtual Boy que no se pudieron abrir para comprobarlos, BIOS descartadas, y el emulador OSwan y otros archivos que venían con las colecciones. Nada de esto se ha borrado
 
