@@ -155,7 +155,7 @@ El romset tiene que ser de la versión exacta del core.
 
 - [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo, verificados y catalogados
 - [x] 🧑 Distro con Mesa ≤ 25.1 en `linux/distros/`: Arch de marzo de 2026 con KDE y Mesa 25.1.0-devel, verificada (2026-09-13)
-- [ ] 🧑 Pendrive USB 3.0 ≥ 32 GB (MBR, FAT32) con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz`
+- [x] 🤖 Pendrive Kingston DataTraveler 3.0 de 30,9 GB preparado el 2026-09-13: MBR, FAT32 `PS4LINUX`, con `bzImage`, `initramfs.cpio.gz` (SHA-1 comprobados) y `psxitarch.tar.gz` (2,73 GB, `gzip -t` correcto)
 - [ ] 🎮 Llega a la rescue shell con el payload de 1 GB
 - [ ] 🎮 `install-psxitarch.sh` instala y arranca la distro
 - [ ] 🎮 Escritorio con GPU (`glxinfo`: `AMD Liverpool`, no `llvmpipe`)

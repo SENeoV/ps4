@@ -197,7 +197,7 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 
 - [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo de DionKill, verificados por SHA-1 contra su origen y catalogados en `catalogo/LINUX/`
 - [x] 🧑 **La distro:** Arch de marzo de 2026 con KDE Plasma 6.6 y Mesa 25.1.0-devel, bajada de Mega el 2026-09-13, íntegra (`xz -t`) y catalogada como `linux/distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz`
-- [ ] 🧑 **Pendrive USB 3.0 de 32 GB o más** (se borra entero): MBR, FAT32 (Rufus si Windows no lo ofrece), con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz` (gzip; el `.tar.xz` hay que recomprimirlo, comando en el README)
+- [x] 🤖 **Pendrive preparado** (2026-09-13): Kingston DataTraveler 3.0 de 30,9 GB, reparticionado de GPT a MBR, FAT32 `PS4LINUX`, con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz` (2,73 GB, verificado)
 - [ ] 🧑 Teclado y ratón USB para la consola
 - [ ] 🎮 Con GoldHEN cargado, BinLoader activado y el disco de Poops fuera: enviar `linux-1024mb.bin` al puerto 9090 y llegar a la rescue shell
 - [ ] 🎮 `install-psxitarch.sh`, esperar, y que arranque la distro. En arranques siguientes, payload de 2 GB

@@ -69,7 +69,7 @@ Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [Cac
 ### 1. Preparar el pendrive en el PC
 
 - Pendrive USB 3.0 de **32 GB o más** (el instalador exige **22 GB** como mínimo y **tabla de particiones MBR**, no GPT). **Se borra entero.**
-- Formatear en **FAT32**. Windows no ofrece FAT32 por encima de 32 GB: usar [Rufus](https://rufus.ie) con *Non bootable*, *MBR*, *FAT32*.
+- Formatear en **FAT32**. Windows no ofrece FAT32 por encima de 32 GB: usar [Rufus](https://rufus.ie) con *Non bootable*, *MBR*, *FAT32*. Ojo con la tabla de particiones: el Kingston de 32 GB venía **GPT** y el instalador aborta si no es MBR; se convirtió desde PowerShell como administrador (`Clear-Disk`, `Set-Disk -PartitionStyle MBR`, `New-Partition -MbrType FAT32`, `Format-Volume -FileSystem FAT32`), sin Rufus porque son 28,8 GiB.
 - Copiar en la raíz, con estos nombres exactos:
 
 | En el pendrive | Copia de |
@@ -86,6 +86,7 @@ Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [Cac
 
   (`E:` es el pendrive; salen unos 2,5 GB y tarda unos minutos. Para la prueba con la de 7coil, el mismo comando con su archivo. Si una distro ya es `.tar.gz`, solo renombrar.)
 
+- **Preparado el 2026-09-13** (Kingston DataTraveler 3.0, 30,9 GB, etiqueta `PS4LINUX`): `bzImage` y `initramfs.cpio.gz` con el mismo SHA-1 que el catálogo, y `psxitarch.tar.gz` de 2.729.779.909 bytes recomprimido desde el Arch Mesa 25.1 (`gzip -t` correcto, 6.630.072.320 bytes descomprimidos, los mismos que el `.xz`).
 - Sin `bootargs.txt` ni `vram.txt`: el kernel 5.4.247 ya pone 1920x1080 a 60 Hz y la VRAM la fija el payload elegido. Solo si hace falta, `bootargs.txt` junto al `bzImage` (ver "Problemas").
 
 ### 2. Preparar la consola
