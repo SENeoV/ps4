@@ -23,8 +23,9 @@ ROOTS = {
     "PKG": os.path.join(REPO, "pkg"),
     "LINUX": os.path.join(REPO, "linux"),
 }
-# Subcarpetas que no se catalogan: linux/src/ son submódulos con código fuente, no binarios que subir
-SKIP_DIRS = {"LINUX": {"src"}}
+# Subcarpetas (relativas a la raíz) que no se catalogan: linux/src/ son submódulos con código fuente, y los packs
+# de texturas extraídos en linux/texturas/ son decenas de miles de .dds; de ellos se cataloga el .7z, no cada textura
+SKIP_DIRS = {"LINUX": {"src", "texturas/GZL"}}
 FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1", "content_id"]
 
 
@@ -77,9 +78,10 @@ def disk_path(system, file):
 
 def scan():
     for root, base in ROOTS.items():
+        skip = SKIP_DIRS.get(root, set())
         for dirpath, dirs, names in os.walk(base):
-            skip = SKIP_DIRS.get(root, set()) if dirpath == base else set()
-            dirs[:] = [d for d in dirs if d != ".git" and d not in skip]
+            here = os.path.relpath(dirpath, base).replace(os.sep, "/")
+            dirs[:] = [d for d in dirs if d != ".git" and (d if here == "." else f"{here}/{d}") not in skip]
             for name in names:
                 if name.lower().endswith(".md"):
                     continue

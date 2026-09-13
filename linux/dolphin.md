@@ -36,7 +36,7 @@ Lo que Dolphin impone al juego desde su `sys/GameSettings/GZL.ini` y que no hay 
 | **16:9 con el código Gecko** | *Propiedades del juego → Gecko Codes → 16:9 Widescreen*; y *Graphics → General → Aspect Ratio: Auto* | `Dolphin.ini [Core] EnableCheats = True`; `GameSettings/GZLP01.ini [Gecko_Enabled] $16:9 Widescreen` | Parche del juego, no el *Widescreen Hack* de Dolphin: sin recortes de geometría en los bordes |
 | *Remove Distance Blur* (opcional) | *Propiedades → AR Codes* | `GameSettings/GZLP01.ini [ActionReplay_Enabled] $Remove Distance Blur` | Quita el desenfoque de lejanía; cuestión de gusto |
 | `mitigations=off` | `bootargs.txt` del pendrive | al final de la línea | Algo de CPU (Spectre/Meltdown); la consola ya está abierta |
-| Texturas HD (*Hypatia WWHD*, 1,9 GB en Descargas) | *Graphics → Advanced → Load Custom Textures* | — | **No ahora**: desde un pendrive a USB 2.0 daría tirones al cargar y 1,9 GB de DDS piden el payload de 3-4 GB. Con SSD, sí |
+| Texturas HD (*Hypatia WWHD v2.0*, `linux/texturas/`: el `.7z` de 1,9 GB catalogado y el árbol `GZL/` extraído, sin catalogar) | *Graphics → Advanced → Load Custom Textures*; van a `~/.local/share/dolphin-emu/Load/Textures/GZL/` en la PS4 | — | **No ahora**: desde un pendrive a USB 2.0 daría tirones al cargar y 1,9 GB de DDS piden el payload de 3-4 GB. Con SSD, sí |
 
 No tocar: *Skip EFB Access*, *Store EFB Copies to Texture Only*, *VBI Skip* (el INI del juego los fija por necesidad), ni el reloj de CPU emulada.
 
