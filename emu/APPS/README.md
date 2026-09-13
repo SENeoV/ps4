@@ -73,5 +73,5 @@ Los sistemas sin BIOS son los que funcionan nada más copiar la ROM: **NES, SNES
 
 ## Pendiente de verificar en la consola
 
-- [ ] Si el Core Installer instalado es el `r4` (1,35 GB) o el `r4.1` "Fixed Speed" (1,27 GB). El del PC pesa 1385 MB, así que parece el `r4`. Si algún core va acelerado, es esto
-- [ ] Listar `/data/self/retroarch/cores/` por FTP y guardar la lista en `emu/RETROARCH/README.md`
+- [x] Lista real de `/data/self/retroarch/cores/` leída por FTP el 2026-09-13: 74 cores, uno por cada `.info` del repo, 1372,5 MB en total (tabla en `emu/RETROARCH/README.md`)
+- [x] El Core Installer (`SSNE20000`) ya no está instalado en `/user/app` (se desinstaló tras desplegar los cores), así que no se puede leer su versión. Los 1372,5 MB de cores casan con el PKG `r4` (1385 MB) y no con el `r4.1` "Fixed Speed" (1,27 GB): lo instalado es el `r4`. Si algún core va acelerado, la solución es el `r4.1`

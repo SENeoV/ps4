@@ -13,14 +13,14 @@ Leyenda: **PC** = está en `emu/BIOS/` · **PS4** = subida y verificada por SHA-
 | `bios_MD.bin` | Mega Drive | genesis_plus_gx | no (arranque con logo TMSS) | ✅ | ✅ | ✅ |
 | `bios_E.sms` | Master System (EU) | genesis_plus_gx | no | ✅ | ✅ | ✅ |
 | `bios_J.sms` | Master System (JP) | genesis_plus_gx | no | ✅ | ✅ | ✅ |
-| `bios_U.sms` | Master System (US) | genesis_plus_gx | no | ✅ | ❌ | ✅ |
+| `bios_U.sms` | Master System (US) | genesis_plus_gx | no | ✅ | ✅ | ✅ |
 | `bios.gg` | Game Gear | genesis_plus_gx | no | ✅ | ✅ | ✅ |
 | `bios_CD_U.bin` | Sega CD (US) | genesis_plus_gx / picodrive | sí, para juegos US | ✅ | ✅ | ✅ |
 | `bios_CD_E.bin` | Mega CD (EU) | genesis_plus_gx / picodrive | sí, para juegos EU | ✅ | ✅ | ✅ |
 | `bios_CD_J.bin` | Mega CD (JP) | genesis_plus_gx / picodrive | sí, para juegos JP | ✅ | ✅ | ⚠️ |
-| `lynxboot.img` | Atari Lynx | handy (opcional) / mednafen_lynx (obligatoria) | según core | ✅ | ❌ | ✅ |
+| `lynxboot.img` | Atari Lynx | handy (opcional) / mednafen_lynx (obligatoria) | según core | ✅ | ✅ | ✅ |
 
-- `bios_U.sms`: es una copia de `bios_E.sms` (hecha el 2026-09-13). La BIOS US y la EU son el mismo binario: libretro espera el SHA-1 `c315672807d8…` para las dos, y es el que tiene también `Master System/[BIOS] Sega Master System (USA) (v1.3) [b].sms`, cuya marca `[b]` es falsa. Falta subirla a `/data/retroarch/system/`.
+- `bios_U.sms`: es una copia de `bios_E.sms` (hecha el 2026-09-13). La BIOS US y la EU son el mismo binario: libretro espera el SHA-1 `c315672807d8…` para las dos, y es el que tiene también `Master System/[BIOS] Sega Master System (USA) (v1.3) [b].sms`, cuya marca `[b]` es falsa. Subida a `/data/retroarch/system/` el 2026-09-13.
 - ⚠️ `bios_CD_J.bin`: es `jp_mcd1_9112` (SHA-1 `e4193c6ae44c…`). libretro espera `4846f448160059…` (otra revisión del Mega CD japonés). Genesis Plus GX no comprueba el hash, así que debería arrancar; si un juego japonés falla, es lo primero que hay que cambiar.
 - `32x/32X_G_BIOS.BIN`, `32X_M_BIOS.BIN`, `32X_S_BIOS.BIN`: BIOS reales de 32X que venían con la colección. **PicoDrive no las usa** (lleva las suyas), así que no se suben.
 - Las subcarpetas `Game Gear/`, `Master System/`, `Sega CD/` y `Sega Genesis/` son los mismos archivos con su nombre original de No-Intro; son duplicados de los de la raíz.

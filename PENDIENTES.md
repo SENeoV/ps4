@@ -191,10 +191,10 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 
 | Archivo | Sistema | Ruta en la PS4 | Tanda | ¿Obligatoria? |
 |---|---|---|---|---|
-| `bios_U.sms` (ya en el PC, falta subir) | Master System | `system/` | P0 | no |
+| ~~`bios_U.sms`~~ subida | Master System | `system/` | P0 | no |
 | `gba_bios.bin` | GBA | `system/` | P0 | no |
 | `7800 BIOS (U).rom` | Atari 7800 | `system/` | P1 | no |
-| `lynxboot.img` | Lynx | `system/` | P1 | no, con handy |
+| ~~`lynxboot.img`~~ subida | Lynx | `system/` | P1 | no, con handy |
 | `neogeo.zip` (FB Alpha 2012) | Neo Geo | junto a las ROMs | P2 | sí |
 | `syscard3.pce` | PC Engine CD | `system/` | P3 | sí |
 | `disksys.rom` | Famicom Disk System | `system/` | P3 | sí |
