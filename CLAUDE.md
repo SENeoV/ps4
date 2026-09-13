@@ -14,6 +14,7 @@ Documentos de estado, que hay que mantener al día cuando algo cambia:
 - `PENDIENTES.md`: lista priorizada (P0–P9) de lo que falta. Cada tarea indica quién la hace: 🧑 el usuario (BIOS, ROMs y juegos tienen copyright y solo los aporta el usuario; Claude no los consigue), 🤖 Claude (software libre y datos abiertos que se pueden descargar y verificar) y 🎮 en la consola.
 - `INSTALL.md`: mapeo de carpetas PC → PS4 y procedimiento de instalación por FTP.
 - `emu/ROMS/<SISTEMA>/README.md`: core, extensiones y BIOS de cada sistema. `emu/emuladores-ps4.md`: matriz global y sistemas descartados.
+- `docs/auditoria-2026-09-13.md`: qué afirmaciones de la documentación se verificaron, cuáles eran falsas y con qué fuente. Consultarlo antes de repetir una afirmación técnica sobre la consola o los cores.
 
 ## Comandos
 
@@ -38,10 +39,9 @@ Cada subcarpeta tiene su propio destino en la PS4 (tabla completa en `INSTALL.md
 
 ### Catálogo por referencia (inventory.py, guard.py y hooks)
 
-- `tools/inventory.py` recorre `emu/ROMS`, `emu/BIOS` y `emu/APPS` y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref`. Cada uno guarda `sha1`, `size` y, en los zip de un solo archivo, `rom-sha1` de la ROM interior, que es el hash que se cruza con los DAT de No-Intro/Redump. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
+- `tools/inventory.py` recorre las raíces de `ROOTS` (`emu/ROMS`, con un sistema por subcarpeta; `emu/BIOS`, `emu/APPS` y `pkg/`, que son un sistema cada una) y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref` (`pkg/` va bajo `catalogo/PKG/`). Cada uno guarda `sha1`, `size` y, según el tipo, `rom-sha1` de la ROM interior en los zip de un solo archivo (el hash que se cruza con los DAT de No-Intro/Redump) o `content-id` leído de la cabecera en los `.pkg`. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
 - El hook `pre-commit` ejecuta inventory.py, hace `git add -A catalogo inventory.csv INVENTORY.md` y llama a guard.py. Por eso **cualquier commit arrastra los cambios del catálogo** que haya pendientes en `emu/`, y tarda si hay muchas ROMs nuevas que hashear.
 - `tools/guard.py` bloquea, en pre-commit y en pre-push, cualquier archivo añadido o modificado que git detecte como binario o que pese más de 5 MB. Los hooks no se saltan.
-- `pkg/` todavía no se cataloga. Está pendiente ampliar inventory.py para que la recorra.
 
 ### Listas de RetroArch (retroarch_lists.py)
 
@@ -71,14 +71,14 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ## pkg/: PKGs de homebrew, juegos y herramientas
 
-Está ignorada por git y de momento fuera del catálogo. Sirve para:
+Está ignorada por git; sus archivos se catalogan como sistema `PKG` en `catalogo/PKG/`. Sirve para:
 
 - homebrew que se instala en la consola: se sube a `/data/pkg/` y se instala desde *Debug Settings → Package Installer*, igual que `emu/APPS`;
 - juegos y backups en fPKG;
 - instalación remota desde el PC, con Remote PKG Installer (`FLTZ00003`) o PS4 Toolset (`SAAT29385`), que están en `pkg/utils/`;
 - herramientas de Windows, en `pkg/win/`.
 
-Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide con el Content ID del paquete (`PS4_CUSA01116_v2.32.pkg` contiene `CUSA01015`), así que el Content ID se lee de la cabecera: magic `\x7FCNT` y 36 bytes a partir del offset `0x40`.
+Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide con el Content ID del paquete (`PS4_CUSA01116_v2.32.pkg` contiene `CUSA01015`), así que el Content ID fiable es el `content-id` del `.ref`, que inventory.py lee de la cabecera del PKG.
 
 ## ps4_cheats/: trucos
 

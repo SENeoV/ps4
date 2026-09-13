@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Inventario de ROMs/BIOS/APPS por SHA-1 y catálogo de punteros (un .ref por archivo) para ver los juegos en cada commit.
+# Inventario de ROMs/BIOS/APPS/PKG por SHA-1 y catálogo de punteros (un .ref por archivo) para ver los juegos en cada commit.
 #   python tools/inventory.py           incremental: reutiliza hashes si ruta y tamaño no cambian
 #   python tools/inventory.py --force   recalcula todo
 
@@ -15,8 +15,14 @@ EMU = os.path.join(REPO, "emu")
 CSV_PATH = os.path.join(REPO, "inventory.csv")
 MD_PATH = os.path.join(REPO, "INVENTORY.md")
 CATALOG = os.path.join(REPO, "catalogo")
-ROOTS = ("ROMS", "BIOS", "APPS")
-FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1"]
+# Raíces que se catalogan. En ROMS cada subcarpeta es un sistema; las demás son un sistema cada una
+ROOTS = {
+    "ROMS": os.path.join(EMU, "ROMS"),
+    "BIOS": os.path.join(EMU, "BIOS"),
+    "APPS": os.path.join(EMU, "APPS"),
+    "PKG": os.path.join(REPO, "pkg"),
+}
+FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1", "content_id"]
 
 
 def hash_stream(f):
@@ -46,13 +52,28 @@ def zipped_rom_sha1(path):
         return ""
 
 
-def emu_relpath(system, file):
-    return f"{system}/{file}" if system in ("BIOS", "APPS") else f"ROMS/{system}/{file}"
+def pkg_content_id(path):
+    # El nombre del archivo no siempre coincide con el Content ID real: se lee de la cabecera (magic 7F 'CNT', 36 bytes en 0x40)
+    if not path.lower().endswith(".pkg"):
+        return ""
+    with open(path, "rb") as f:
+        head = f.read(0x64)
+    if head[:4] != b"\x7fCNT":
+        return ""
+    return head[0x40:0x64].split(b"\0", 1)[0].decode("ascii", "replace")
+
+
+def catalog_relpath(system, file):
+    return f"{system}/{file}" if system in ROOTS else f"ROMS/{system}/{file}"
+
+
+def disk_path(system, file):
+    base = ROOTS[system] if system in ROOTS else os.path.join(ROOTS["ROMS"], system)
+    return os.path.join(base, file)
 
 
 def scan():
-    for root in ROOTS:
-        base = os.path.join(EMU, root)
+    for root, base in ROOTS.items():
         for dirpath, _, names in os.walk(base):
             for name in names:
                 if name.lower().endswith(".md"):
@@ -93,7 +114,8 @@ def write_summary(rows):
         "Generado por `tools/inventory.py`, que se ejecuta solo en cada commit. Detalle en [`inventory.csv`](inventory.csv) "
         "y un puntero por archivo en [`catalogo/`](catalogo/).",
         "",
-        "Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, que es el que se contrasta con los DAT de No-Intro/Redump.",
+        "Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, que es el que se contrasta con los DAT de No-Intro/Redump. "
+        "En los `.pkg`, `content_id` es el Content ID leído de la cabecera.",
         "",
     ]
     if not rows:
@@ -111,9 +133,13 @@ def sync_catalog(rows):
     stats = Counter()
     wanted = set()
     for r in rows:
-        ptr = os.path.normpath(os.path.join(CATALOG, emu_relpath(r["system"], r["file"]) + ".ref"))
+        ptr = os.path.normpath(os.path.join(CATALOG, catalog_relpath(r["system"], r["file"]) + ".ref"))
         wanted.add(os.path.normcase(ptr))
-        body = f"sha1 {r['sha1']}\nsize {r['bytes']}\n" + (f"rom-sha1 {r['rom_sha1']}\n" if r["rom_sha1"] else "")
+        body = f"sha1 {r['sha1']}\nsize {r['bytes']}\n"
+        if r["rom_sha1"]:
+            body += f"rom-sha1 {r['rom_sha1']}\n"
+        if r["content_id"]:
+            body += f"content-id {r['content_id']}\n"
         try:
             with open(ptr, encoding="utf-8") as f:
                 current = f.read()
@@ -139,7 +165,7 @@ def main():
     cache = load_cache("--force" in sys.argv)
     rows, stats = [], Counter()
     for system, file in sorted(scan()):
-        path = os.path.join(EMU, emu_relpath(system, file))
+        path = disk_path(system, file)
         size = str(os.path.getsize(path))
         hit = cache.get((system, file, size))
         if hit and hit.get("sha1"):
@@ -151,7 +177,8 @@ def main():
             stats["hasheados"] += 1
             if stats["hasheados"] % 500 == 0:
                 print(f"  {stats['hasheados']} hasheados...", file=sys.stderr)
-        rows.append({"system": system, "file": file, "bytes": size, "sha1": sha1, "rom_sha1": rom})
+        # El Content ID no se cachea: son 100 bytes y así el CSV viejo sin la columna sigue valiendo
+        rows.append({"system": system, "file": file, "bytes": size, "sha1": sha1, "rom_sha1": rom, "content_id": pkg_content_id(path)})
     write_csv(rows)
     write_summary(rows)
     stats.update(sync_catalog(rows))
