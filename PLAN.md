@@ -149,9 +149,18 @@ El romset tiene que ser de la versión exacta del core.
 
 `POKEMINI/` (pokemini), `AMIGA/` (puae), `ZXSPECTRUM/` (fuse), `NEOGEOCD/` (neocd), `X68000/` (px68k) y `CHIP8/`. Ninguno de esos cores está entre los 74 instalados.
 
-### Solo con Linux — fuera de la hoja de ruta
+### Solo con Linux — proyecto aparte, en marcha
 
-`GC/`, `WII/`, `PS3/` y `VITA/`: no hay emulador en el sistema de la PS4, pero Linux sí arranca en 12.52 y ahí corren Dolphin y RPCS3 (con informes en PS4 Pro) y Vita3K (sin informes). Es un proyecto aparte, no planificado. Detalle en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).
+`GC/`, `WII/`, `PS3/` y `VITA/`: no hay emulador en el sistema de la PS4, pero Linux sí arranca en 12.52 y ahí corren Dolphin y RPCS3 (con informes en PS4 Pro) y Vita3K (sin informes). Desde el 2026-09-13 se prepara en [`linux/`](linux/README.md): la consola es Baikal B1, lo que obliga a kernel 5.4.247, distro con Mesa ≤ 25.1 y disco externo.
+
+- [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo, verificados y catalogados
+- [ ] 🧑 Distro con Mesa ≤ 25.1 en `linux/distros/` (opciones en `linux/README.md`)
+- [ ] 🧑 Pendrive USB 3.0 ≥ 32 GB (MBR, FAT32) con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz`
+- [ ] 🎮 Llega a la rescue shell con el payload de 1 GB
+- [ ] 🎮 `install-psxitarch.sh` instala y arranca la distro
+- [ ] 🎮 Escritorio con GPU (`glxinfo`: `AMD Liverpool`, no `llvmpipe`)
+- [ ] 🎮 Dolphin y RPCS3 probados
+- [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 
 ### No viables
 

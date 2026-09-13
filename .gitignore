@@ -19,3 +19,9 @@ emu/**
 !emu/**/*.md
 !emu/RETROARCH/info/*.info
 !emu/RETROARCH/playlists/*.lpl
+
+# linux/: igual que emu/. Loader, kernel, initramfs y distros viven solo en local y se catalogan
+# en catalogo/LINUX/. Los repos de linux/src/ son submódulos (solo se versiona el commit).
+linux/**
+!linux/**/
+!linux/**/*.md

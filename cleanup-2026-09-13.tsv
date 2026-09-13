@@ -7028,3 +7028,17 @@ MOVIDO	emu/ROMS/GBC/gamelist.xml	emu/EXTRAS/GBC-otros/gamelist.xml	no es una ROM
 MOVIDO	emu/ROMS/GBC/systeminfo.txt	emu/EXTRAS/GBC-otros/systeminfo.txt	no es una ROM
 MOVIDO	emu/ROMS/NES/Lisezmoi.txt	emu/EXTRAS/NES-otros/Lisezmoi.txt	no es una ROM
 MOVIDO	emu/ROMS/NES/Datach - Battle Rush - Build Up Robot Tournament (J).sav	emu/EXTRAS/NES-otros/Datach - Battle Rush - Build Up Robot Tournament (J).sav	partida suelta de NES; RetroArch busca las partidas en savefiles, no junto a la ROM
+MOVIDO	linux/PS4-Linux-Loader-v25.zip	linux/loader/PS4-Linux-Loader-v25.zip	loader v25, binarios; verificado SHA-1 contra GitHub
+RENOMBRADO	linux/ps4-linux-loader-25.zip	linux/loader/ps4-linux-loader-25-src.zip	codigo fuente del loader v25, nombre explicito
+MOVIDO	linux/bzImage_Clang	linux/kernel/bzImage_Clang	kernel 5.4.247 neocine-1.1 Baikal (Clang); verificado SHA-1 contra GitHub
+MOVIDO	linux/bzImage_GCC-11	linux/kernel/bzImage_GCC-11	kernel 5.4.247 neocine-1.1 Baikal (GCC 11); verificado SHA-1 contra GitHub
+MOVIDO	linux/config_Clang	linux/kernel/config_Clang	configuracion del kernel Clang
+MOVIDO	linux/config_GCC-11	linux/kernel/config_GCC-11	configuracion del kernel GCC 11
+MOVIDO	linux/initramfs.cpio.gz	linux/initramfs/feernt-1.0/initramfs.cpio.gz	initramfs feeRnt v1.0: sin instalacion externa, no vale en Baikal; apartado
+RENOMBRADO	linux/ps4-linux-initramfs-1.0.zip	linux/initramfs/feernt-1.0/ps4-linux-initramfs-1.0-src.zip	codigo fuente del initramfs feeRnt v1.0
+RENOMBRADO	linux/psxitarch.tar.xz	linux/distros/psxitarch-7coil-2022-06-26.tar.xz	rootfs 7coil 2022-06-26 (Arch 2022.06 sin escritorio, mesa-ps4 21.3.2); verificado por tamano contra su release
+MOVIDO	linux/archlinux-on-ps4-2022-06-26.zip	linux/distros/archlinux-on-ps4-2022-06-26.zip	documentacion de 7coil
+MOVIDO	linux/archlinux-on-ps4	linux/src/archlinux-on-ps4	clon git, registrado como submodulo
+MOVIDO	linux/ps4-linux-initramfs	linux/src/ps4-linux-initramfs	clon git, registrado como submodulo
+MOVIDO	linux/ps4-linux-loader	linux/src/ps4-linux-loader	clon git, registrado como submodulo
+MOVIDO	linux/ps4-linux-12xx	linux/src/ps4-linux-12xx	clon git del kernel (6,4 GB), registrado como submodulo en su rama por defecto

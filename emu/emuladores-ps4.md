@@ -10,7 +10,7 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 - 🟢/🟡 Muy buena — algunos juegos pueden necesitar ajustes
 - 🟡 Buena/variable — depende bastante del juego/core
 - 🟠 Experimental — reportado lento; no montar la colección alrededor
-- 🐧 Solo con Linux — no hay emulador en el sistema de la PS4, pero sí arrancando Linux (sin probar en esta consola)
+- 🐧 Solo con Linux — no hay emulador en el sistema de la PS4, pero sí arrancando Linux (proyecto en marcha en [`linux/`](../linux/README.md), sin probar aún en esta consola)
 - 🔴 No viable — sin core en esta PS4 y sin emulador práctico ni siquiera en Linux
 - ❔ Sin datos de rendimiento en PS4
 - ⏸ Aplazado
@@ -108,13 +108,13 @@ La hoja de ruta con casillas está en [`PLAN.md`](../PLAN.md). Resumen:
 6. **Ordenadores:** C64, DOS, ScummVM.
 7. **Probar después:** Dreamcast, NAOMI, Atomiswave, Saturn, 3DO, PC-FX.
 8. **Aparcados:** N64 y DS, reportados lentos; PS2 para más adelante.
-9. **Solo con Linux, fuera de la hoja de ruta:** GameCube, Wii, PS3 y PS Vita.
+9. **Solo con Linux, proyecto aparte en marcha:** GameCube, Wii, PS3 y PS Vita.
 
 ### Solo con Linux — GameCube, Wii, PS3 y PS Vita
 
 Dentro del sistema de la PS4 no hay emulador para ninguna de estas: Dolphin necesita OpenGL 3.3 / GLES 3.0 / Vulkan y el port de RetroArch (orbis) solo llega a OpenGL ES 2; RPCS3 y Vita3K solo existen para Linux, Windows y macOS.
 
-Lo que sí hay es **Linux en esta consola**. En 12.52 está disponible: [ps4-linux-loader](https://github.com/ps4-linux/ps4-linux-loader) soporta de 5.05 a 13.52 y detecta la PS4 Pro, GoldHEN 2.4b18.9 arregló el arranque (kexec), y hay distribuciones recientes (Debian 13, Xubuntu 25.04, CachyOS, Manjaro, octubre de 2025) con kernel 6.6 y driver AMDGPU. Bajo Linux corren emuladores de PC, con el mismo hardware: 8 núcleos Jaguar a 2,1 GHz y una GPU tipo Polaris.
+Lo que sí hay es **Linux en esta consola**. En 12.52 está disponible: [ps4-linux-loader](https://github.com/ps4-linux/ps4-linux-loader) v25 soporta de 5.05 a 13.52 con un solo payload que detecta el southbridge y la Pro, y GoldHEN 2.4b18.9 arregló el arranque (kexec; la consola lleva 2.4b18.10). Pero esta consola es **Baikal B1**, el southbridge con menos soporte: el kernel es el **5.4.247** (los 6.x/7.x con AMDGPU moderno son solo para Aeolia y Belize; Baikal "pronto"), la distro tiene que llevar **Mesa ≤ 25.1** (con Mesa 26 el 5.4 no da GPU) y la instalación es **solo en disco externo**. Bajo Linux corren emuladores de PC, con el mismo hardware: 8 núcleos Jaguar a 2,1 GHz y una GPU tipo Polaris.
 
 | Consola | Emulador en Linux | Informes en PS4 Pro |
 |---|---|---|
@@ -122,13 +122,13 @@ Lo que sí hay es **Linux en esta consola**. En 12.52 está disponible: [ps4-lin
 | PS3 | RPCS3 | *Demon's Souls* y *Folklore* reportados jugables; los juegos que cargan las SPU van cortos de CPU |
 | PS Vita | Vita3K | Sin informes en PS4. El emulador sigue experimental incluso en PC |
 
-Lo que cuesta, y por lo que **no está en la hoja de ruta**:
+Lo que cuesta, y por lo que es **un proyecto aparte** (preparado en [`linux/`](../linux/README.md) desde el 2026-09-13, sin probar aún):
 
 - Cada arranque de Linux exige GoldHEN cargado y luego el loader; al reiniciar vuelve el sistema de la PS4 intacto. No conviven: mientras está Linux no hay RetroArch ni PS1/PSP Classics.
-- Linux vive en un USB o disco externo, con teclado y ratón. Es un PC con Linux que hay que administrar.
-- Ninguno de estos informes está verificado en esta consola.
+- Linux vive en un pendrive o disco externo (en Baikal no hay otra opción), con teclado y ratón. Es un PC con Linux que hay que administrar, y con un kernel 5.4 que no se puede actualizar a la ligera.
+- Ninguno de estos informes está verificado en esta consola; los de Dolphin y RPCS3 son de Pros con Belize y kernels más nuevos.
 
-Si algún día se quiere probar, es un proyecto aparte: distro de [ps4linux.com](https://ps4linux.com/) y loader, en un disco propio. La guía paso a paso (requisitos, payloads, instalación interna o externa, distros recomendadas, problemas y compatibilidad de juegos) está copiada en [`../linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md).
+Qué hay preparado, qué falta y el procedimiento, en [`linux/README.md`](../linux/README.md); la guía general de la escena, en [`linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md). La guía paso a paso (requisitos, payloads, instalación interna o externa, distros recomendadas, problemas y compatibilidad de juegos) está copiada en [`../linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md).
 
 ### No viables
 
@@ -210,5 +210,5 @@ El submódulo `ps4_cheats/` (shadps4-emu) es el repositorio de trucos de **shadP
 - [PSX-FPKG — PSX-Place](https://www.psx-place.com/threads/psx-fpkg-by-jabu-a-tool-to-convert-ps1-psx-games-for-use-on-ps4.30498/) · [PS1HD, notas del emulador oficial](https://github.com/andshrew/PlayStation-PS1HD)
 - [GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository) · [Menú de trucos de GoldHEN](https://github.com/GoldHEN/GoldHEN/blob/master/CHEATMENU.md)
 - [ps4-linux-loader — GitHub](https://github.com/ps4-linux/ps4-linux-loader)
-- [PS4Linux: distros y noticias](https://ps4linux.com/) · [Vulkan en PS4 Pro](https://ps4linux.com/ps4-pro-fix-vulkan-fix-crash/)
+- [Guía de DionKill](https://dionkill.github.io/ps4-linux-tutorial/) (la referencia actual) · [PS4Linux: distros y noticias](https://ps4linux.com/) · [Vulkan en PS4 Pro](https://ps4linux.com/ps4-pro-fix-vulkan-fix-crash/)
 - [Dolphin on PS4 Pro — GBAtemp](https://gbatemp.net/threads/dolphin-on-ps4-pro.495799/) · [Linux games on PS4 Pro — GBAtemp](https://gbatemp.net/threads/linux-games-on-ps4-pro.576294/)

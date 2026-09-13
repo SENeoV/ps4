@@ -4,3 +4,15 @@
 [submodule "goldhen_cheats"]
 	path = goldhen_cheats
 	url = https://github.com/GoldHEN/GoldHEN_Cheat_Repository.git
+[submodule "linux/src/archlinux-on-ps4"]
+	path = linux/src/archlinux-on-ps4
+	url = https://github.com/7coil/archlinux-on-ps4.git
+[submodule "linux/src/ps4-linux-initramfs"]
+	path = linux/src/ps4-linux-initramfs
+	url = https://github.com/feeRnt/ps4-linux-initramfs.git
+[submodule "linux/src/ps4-linux-loader"]
+	path = linux/src/ps4-linux-loader
+	url = https://github.com/ps4-linux/ps4-linux-loader.git
+[submodule "linux/src/ps4-linux-12xx"]
+	path = linux/src/ps4-linux-12xx
+	url = https://github.com/feeRnt/ps4-linux-12xx.git

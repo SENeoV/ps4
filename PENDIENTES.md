@@ -191,6 +191,22 @@ Formato CD:
 
 ---
 
+## Linux — proyecto aparte, fuera de las tandas de RetroArch
+
+Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B1**: kernel 5.4.247, distro con Mesa ≤ 25.1 y solo disco externo. Nada probado aún en la consola.
+
+- [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo de DionKill, verificados por SHA-1 contra su origen y catalogados en `catalogo/LINUX/`
+- [ ] 🧑 **La distro.** Bajar a `linux/distros/` una con Mesa ≤ 25.1: el **Arch limpio con Mesa 25.1** ([Mega](https://mega.nz/file/JNkUgZLY#q-XwRcz81SLyMBE_-RIpbtRZIi2pGaH-8xCc6-uFXRI), 2,03 GB, `ps4`/`ps4`) es la que avala el mantenedor del kernel; Xubuntu 25.04 (1fichier/Mediafire) es la alternativa, con reservas. Detalle y enlaces en `linux/README.md`
+- [ ] 🧑 **Pendrive USB 3.0 de 32 GB o más** (se borra entero): MBR, FAT32 (Rufus si Windows no lo ofrece), con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz` (gzip; el `.tar.xz` hay que recomprimirlo, comando en el README)
+- [ ] 🧑 Teclado y ratón USB para la consola
+- [ ] 🎮 Con GoldHEN cargado, BinLoader activado y el disco de Poops fuera: enviar `linux-1024mb.bin` al puerto 9090 y llegar a la rescue shell
+- [ ] 🎮 `install-psxitarch.sh`, esperar, y que arranque la distro. En arranques siguientes, payload de 2 GB
+- [ ] 🎮 Comprobar la GPU (`glxinfo | grep renderer` → `AMD Liverpool`) y anotar en `linux/README.md` qué ha pasado: pantalla, Wi-Fi/Ethernet, mando
+- [ ] 🎮 Instalar Dolphin y RPCS3 y probar un juego de cada uno (GameCube, PS3); las ISO y el firmware de PS3 los pones tú
+- [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
+
+---
+
 ## Resumen de BIOS que faltan
 
 Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando las tengas, las compruebo antes de subirlas.
@@ -231,5 +247,5 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 ## No hace falta conseguir
 
 - **Sin core en esta PS4:** Pokémon Mini, Amiga, ZX Spectrum, Neo Geo CD, Sharp X68000 y CHIP-8
-- **Solo con Linux, fuera de la hoja de ruta:** GameCube, Wii, PS3 y PS Vita. Linux arranca en 12.52, pero es un proyecto aparte
+- **Solo con Linux:** GameCube, Wii, PS3 y PS Vita. Es el proyecto aparte de la sección "Linux" de arriba
 - **No viables:** 3DS, Xbox / Xbox 360 y Switch. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md)

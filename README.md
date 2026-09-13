@@ -1,6 +1,6 @@
 # ps4
 
-Todo lo que rodea a una **PS4 Pro con firmware 12.52 y GoldHEN**: la colección retro para RetroArch, los paquetes de homebrew y los trucos. Los binarios (ROMs, BIOS, PKG) viven solo en el PC y en la consola; aquí se versionan la documentación, los scripts y una referencia (SHA-1) de cada archivo.
+Todo lo que rodea a una **PS4 Pro con firmware 12.52 y GoldHEN**: la colección retro para RetroArch, los paquetes de homebrew, los trucos y Linux. Los binarios (ROMs, BIOS, PKG, kernels y distros) viven solo en el PC y en la consola; aquí se versionan la documentación, los scripts y una referencia (SHA-1) de cada archivo.
 
 ## Por dónde empezar
 
@@ -16,7 +16,7 @@ Todo lo que rodea a una **PS4 Pro con firmware 12.52 y GoldHEN**: la colección 
 | [`INVENTORY.md`](INVENTORY.md) · [`catalogo/`](catalogo/) | Inventario y punteros por archivo, regenerados en cada commit |
 | [`CLAUDE.md`](CLAUDE.md) | Guía del repo para Claude Code |
 | [`docs/`](docs/) | Auditorías y documentos históricos |
-| [`linux/ps4-linux-tutorial.md`](linux/ps4-linux-tutorial.md) | Guía completa de instalación de Linux en PS4 (copia de dionkill.github.io, en inglés) |
+| [`linux/README.md`](linux/README.md) | Linux en esta PS4 (Baikal B1): qué hay preparado, qué falta y el procedimiento paso a paso. Guía general de la escena en [`linux/ps4-linux-tutorial.md`](linux/ps4-linux-tutorial.md) (copia de dionkill.github.io, en inglés) |
 
 ## Estructura
 
@@ -28,7 +28,7 @@ tools/          inventory.py, guard.py, retroarch_lists.py y los hooks de git
 ps4_cheats/     submódulo: trucos de shadPS4 (histórico, no válido para GoldHEN)
 goldhen_cheats/ submódulo: trucos oficiales de GoldHEN
 docs/           auditoría de la documentación e histórico
-linux/          Linux en la PS4: copia de la guía de DionKill (proyecto aparte, no planificado)
+linux/          Linux en la PS4 (proyecto aparte, en marcha): loader, kernel, initramfs y distros (ignorados, catalogados) y src/ con submódulos
 ```
 
 Los hooks de `tools/hooks/` regeneran el catálogo en cada commit y bloquean cualquier binario o archivo de más de 5 MB. En un clon nuevo: `cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/` y `git submodule update --init`.

@@ -17,6 +17,7 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 | `emu/RETROARCH/thumbnails/<lista>/` | `/data/retroarch/thumbnails/<lista>/` | Carátulas. La carpeta de cada sistema tiene que llamarse igual que su lista |
 | `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
 | `emu/MEDIA/`, `emu/EXTRAS/` | — | **No se suben.** Carátulas y archivos que no son juegos |
+| `linux/` | Pendrive USB (no FTP) | Linux: `bzImage`, `initramfs.cpio.gz` y la distro van en un pendrive FAT32, y el payload se envía al BinLoader de GoldHEN (puerto 9090). Procedimiento en [`linux/README.md`](linux/README.md) |
 
 La carpeta `/data/retroarch/` no existirá hasta que RetroArch se haya ejecutado al menos una vez.
 
@@ -33,7 +34,7 @@ En 12.50/12.52 el único exploit público es **Poops**, que entra por un disco B
 Hace falta una sola vez:
 
 - Un Blu-ray grabado con `Poops.iso` (o `henloader_lp`, que combina Lapse 9.00–12.02 y Poops 9.00–13.00 con GoldHEN 2.4b18.7 dentro).
-- Un USB en **exFAT o FAT32** (partición MBR) con el GoldHEN más reciente. GoldHEN 2.4b18.9 (12-02-2026) es el actual: añade 13.00 y arregla el arranque de Linux. No está en los releases de GitHub (el último ahí es 2.4b18); se descarga desde la cuenta de SiSTRo.
+- Un USB en **exFAT o FAT32** (partición MBR) con el GoldHEN más reciente. La consola lleva **2.4b18.10** (leído en *Información del sistema* el 2026-09-13); la 2.4b18.9 (12-02-2026) añadió 13.00 y arregló el arranque de Linux, y la 2.4b18.8 no arranca Linux. No está en los releases de GitHub (el último ahí es 2.4b18); se descarga desde la cuenta de SiSTRo.
 - En la PS4: **HDCP activado** y, en Ajustes → Sistema, **no** desactivar los avisos durante la reproducción de vídeo.
 - Conexión a internet **una vez**, para que el reproductor de Blu-ray se active.
 

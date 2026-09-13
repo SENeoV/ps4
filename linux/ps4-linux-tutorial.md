@@ -2,7 +2,7 @@
 
 > Copia en Markdown de **[dionkill.github.io/ps4-linux-tutorial](https://dionkill.github.io/ps4-linux-tutorial/)** ("A simple guide on how to install Linux on PS4 systems", por DionKill), hecha el 2026-09-13 a partir de la fuente en [GitHub](https://github.com/DionKill/ps4-linux-tutorial) (licencia MIT, último cambio 2026-09-10). Texto original en inglés, sin modificar salvo el formato: los desplegables del sitio son `<details>`, los avisos van como citas y las imágenes apuntan al sitio original. Para la versión al día, ir al enlace.
 >
-> Contexto para este repo: la PS4 Pro está en 12.52 con GoldHEN; según esta guía los payloads de Linux valen para 5.05–13.02. Qué aporta Linux aquí (Dolphin, RPCS3) y por qué no está en la hoja de ruta, en [`../emu/emuladores-ps4.md`](../emu/emuladores-ps4.md#solo-con-linux--gamecube-wii-ps3-y-ps-vita).
+> Contexto para este repo: la PS4 Pro está en 12.52 con GoldHEN y es **Baikal B1**, así que de esta guía aplican el método externo, el kernel 5.4.247 y una distro con Mesa ≤ 25.1. Lo específico de esta consola y el procedimiento elegido, en [`README.md`](README.md); qué aporta Linux aquí (Dolphin, RPCS3), en [`../emu/emuladores-ps4.md`](../emu/emuladores-ps4.md#solo-con-linux--gamecube-wii-ps3-y-ps-vita).
 
 ## Índice
 

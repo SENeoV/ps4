@@ -37,7 +37,7 @@ Es la forma más cómoda: instala un PKG una vez y desde ahí descargas el resto
 - Con GoldHEN ya cargado, abre el navegador de la PS4 y ve a `pkg-zone.com/install`.
 - Desde el Homebrew Store puedes instalar RetroArch y otros homebrew.
 
-Tu firmware **12.52 está soportado por GoldHEN** (v2.4b18.9 lista 5.05, 6.71–6.72, 9.00, 9.60, 10.00–10.71, 11.00–11.52, 12.00/02, 12.50, **12.52** y 13.00). En 12.52 GoldHEN entra por el exploit Poops desde un Blu-ray; el procedimiento está en [`INSTALL.md`](../../INSTALL.md).
+Tu firmware **12.52 está soportado por GoldHEN** (v2.4b18.9 lista 5.05, 6.71–6.72, 9.00, 9.60, 10.00–10.71, 11.00–11.52, 12.00/02, 12.50, **12.52** y 13.00; la consola lleva la 2.4b18.10). En 12.52 GoldHEN entra por el exploit Poops desde un Blu-ray; el procedimiento está en [`INSTALL.md`](../../INSTALL.md).
 
 ### 2. RetroArch (PS4) — el caballo de batalla
 

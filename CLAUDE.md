@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Qué es este repo
 
-Repo de cosas varias para una PS4 Pro con GoldHEN (firmware 12.52): emulación retro con RetroArch, PKGs de homebrew y juegos, y trucos. Los binarios (ROMs, BIOS, PKGs) viven solo en el PC y en la consola; git versiona documentación, scripts y **referencias** a esos binarios.
+Repo de cosas varias para una PS4 Pro con GoldHEN (firmware 12.52): emulación retro con RetroArch, PKGs de homebrew y juegos, trucos y Linux. Los binarios (ROMs, BIOS, PKGs, kernels, distros) viven solo en el PC y en la consola; git versiona documentación, scripts y **referencias** a esos binarios.
 
 **Todo en español:** documentación, salida de los scripts y mensajes de commit.
 
@@ -36,12 +36,12 @@ cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/   # instalar los hook
 
 Cada subcarpeta tiene su propio destino en la PS4 (tabla completa en `INSTALL.md`): `APPS/*.pkg` → `/data/pkg/`, `BIOS/` → `/data/retroarch/system/`, `ROMS/<SISTEMA>/` → `/data/ROMS/<SISTEMA>/`, `RETROARCH/{info,playlists,database/rdb,thumbnails}` → `/data/retroarch/...` y `SAVES/` → `/data/retroarch/savefiles/`. `MEDIA/` (carátulas originales) y `EXTRAS/` (duplicados, volcados malos, archivos que no son juegos) no se suben.
 
-`.gitignore` ignora `emu/**` excepto los directorios, los `*.md`, `emu/RETROARCH/info/*.info` y `emu/RETROARCH/playlists/*.lpl`. Las `.rdb` y las carátulas se quedan solo en local.
+`.gitignore` ignora `emu/**` excepto los directorios, los `*.md`, `emu/RETROARCH/info/*.info` y `emu/RETROARCH/playlists/*.lpl`. Las `.rdb` y las carátulas se quedan solo en local. `linux/**` sigue la misma regla (directorios y `*.md`).
 
 ### Catálogo por referencia (inventory.py, guard.py y hooks)
 
-- `tools/inventory.py` recorre las raíces de `ROOTS` (`emu/ROMS`, con un sistema por subcarpeta; `emu/BIOS`, `emu/APPS` y `pkg/`, que son un sistema cada una) y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref` (`pkg/` va bajo `catalogo/PKG/`). Cada uno guarda `sha1`, `size` y, según el tipo, `rom-sha1` de la ROM interior en los zip de un solo archivo (el hash que se cruza con los DAT de No-Intro/Redump) o `content-id` leído de la cabecera en los `.pkg`. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
-- El hook `pre-commit` ejecuta inventory.py, hace `git add -A catalogo inventory.csv INVENTORY.md` y llama a guard.py. Por eso **cualquier commit arrastra los cambios del catálogo** que haya pendientes en `emu/`, y tarda si hay muchas ROMs nuevas que hashear.
+- `tools/inventory.py` recorre las raíces de `ROOTS` (`emu/ROMS`, con un sistema por subcarpeta; `emu/BIOS`, `emu/APPS`, `pkg/` y `linux/`, que son un sistema cada una; `SKIP_DIRS` salta `linux/src/` y cualquier `.git`) y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref` (`pkg/` va bajo `catalogo/PKG/`, `linux/` bajo `catalogo/LINUX/`). Cada uno guarda `sha1`, `size` y, según el tipo, `rom-sha1` de la ROM interior en los zip de un solo archivo (el hash que se cruza con los DAT de No-Intro/Redump) o `content-id` leído de la cabecera en los `.pkg`. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
+- El hook `pre-commit` ejecuta inventory.py, hace `git add -A catalogo inventory.csv INVENTORY.md` y llama a guard.py. Por eso **cualquier commit arrastra los cambios del catálogo** que haya pendientes en `emu/`, `pkg/` o `linux/`, y tarda si hay muchas ROMs nuevas que hashear (o una distro de 2 GB).
 - `tools/guard.py` bloquea, en pre-commit y en pre-push, cualquier archivo añadido o modificado que git detecte como binario o que pese más de 5 MB. Los hooks no se saltan.
 
 ### Listas de RetroArch (retroarch_lists.py)
@@ -58,7 +58,7 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ## La consola
 
-- PS4 Pro con firmware 12.52 y GoldHEN. **No actualizar el firmware**: GoldHEN cubre de 5.05 a 13.00, y por encima de 13.00 hoy no hay exploit.
+- PS4 Pro con firmware 12.52, southbridge Baikal B1 y GoldHEN 2.4b18.10. **No actualizar el firmware**: GoldHEN cubre de 5.05 a 13.00, y por encima de 13.00 hoy no hay exploit.
 - RetroArch es el port no oficial de OsirisX basado en 1.8.8 (`SSNE10000`, release R4 de 2020), con los cores del Core Installer (`SSNE20000`). Core, extensiones y BIOS se contrastan con los `.info` de `emu/RETROARCH/info/`, pero con una salvedad: hay un `.info` por core instalado, **pero son los del libretro actual, no los de los cores de 2020** (la consola muestra mGBA 0.8.1 y su `.info` dice 0.10-dev), así que extensiones y BIOS pueden no coincidir con el core real. RetroArch empareja cada core con su `.info` por nombre de archivo. `mupen64plus_libretro.info` es una copia del de Mupen64Plus-Next, pero el port trae `mupen64plus` y `mupen64plus_next` como cores distintos, así que probablemente describe el core equivocado; se deja como está.
 - No usar el *Online Updater* ni el *Core Updater* de RetroArch, porque apuntan a Bintray, que cerró. Todo se sube por FTP.
 - Las rutas distinguen mayúsculas (`/data/ROMS` ≠ `/data/roms`). Los nombres de archivo van sin tildes ni ñ: FileZilla los sube con otra codificación y dejan de coincidir con el PC y con sus partidas.
@@ -80,6 +80,15 @@ Sus archivos no entran en git (`*.pkg` y `*.exe` están ignorados por extensión
 - herramientas de Windows, en `pkg/win/`.
 
 Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide con el Content ID del paquete (`PS4_CUSA01116_v2.32.pkg` contiene `CUSA01015`), así que el Content ID fiable es el `content-id` del `.ref`, que inventory.py lee de la cabecera del PKG.
+
+## linux/: Linux en la consola
+
+Proyecto aparte de RetroArch, en marcha desde el 2026-09-13 y sin probar aún en la consola. Todo lo verificado sobre esta consola y el procedimiento están en `linux/README.md`; `linux/ps4-linux-tutorial.md` es una copia literal de la guía de DionKill (la referencia viva de la escena; los textos antiguos de psxitarch/ps4linux.com están superados).
+
+- La consola es **Baikal B1** (leído en *Información del sistema* con GoldHEN): kernel **5.4.247** (el 7.x aún no soporta Baikal), distro con **Mesa ≤ 25.1** (con Mesa 26 no hay GPU) y **solo disco externo**. Repetir estas tres restricciones antes de proponer cualquier kernel o distro.
+- `linux/{loader,kernel,initramfs,distros}/` llevan los binarios, ignorados por git y catalogados como sistema `LINUX`. `linux/src/` son submódulos con el código fuente de loader, initramfs y `archlinux-on-ps4`; no se catalogan.
+- El initramfs que instala en USB es el de DionKill (`linux/initramfs/initramfs.cpio.gz`); su `install-psxitarch.sh` exige pendrive MBR ≥ 22 GB y la distro como `psxitarch.tar.gz` (gzip, no xz). El de feeRnt (`initramfs/feernt-1.0/`) solo instala en interno y no sirve aquí.
+- Linux no se sube por FTP: va en el pendrive. El payload del loader se envía al BinLoader de GoldHEN (puerto 9090). Ejecutarlo o tocar la consola sigue siendo decisión del usuario.
 
 ## ps4_cheats/ y goldhen_cheats/: trucos
 

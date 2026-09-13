@@ -1,6 +1,6 @@
 # VITA — PS Vita (2011)
 
-- **Estado:** Solo con Linux — fuera de la hoja de ruta
+- **Estado:** Solo con Linux — proyecto aparte en marcha ([`linux/`](../../../linux/README.md)), sin probar
 - **Core en la PS4:** ninguno. Vita3K solo existe para Linux, Windows, macOS y Android
 - **Extensiones:** `.vpk` o carpeta del juego descifrado (Vita3K)
 - **BIOS:** firmware de Vita (`PSVUPDAT.PUP`) y fuentes (`PSP2UPDAT.PUP`), que Vita3K instala

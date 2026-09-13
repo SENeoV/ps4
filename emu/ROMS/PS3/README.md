@@ -1,6 +1,6 @@
 # PS3 — PlayStation 3 (2006)
 
-- **Estado:** Solo con Linux — fuera de la hoja de ruta
+- **Estado:** Solo con Linux — proyecto aparte en marcha ([`linux/`](../../../linux/README.md)), sin probar
 - **Core en la PS4:** ninguno. RPCS3 solo existe para Linux, Windows y macOS
 - **Extensiones:** carpeta del juego (`PS3_GAME/`) o `.pkg` de PS3 (RPCS3)
 - **BIOS:** firmware oficial de PS3 (`PS3UPDAT.PUP`), que RPCS3 instala

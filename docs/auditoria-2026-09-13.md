@@ -12,6 +12,7 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 - 🔴 ✅ "El jailbreak público llega a 11.00" (VITA, PS3, emuladores-ps4): Poops llega a 13.00. GoldHEN 2.4b18.9 (12-02-2026) añade 13.00 y arregla el kexec de Linux. Fuente: [BiteYourConsole](https://www.biteyourconsole.net/2026/02/12/scena-ps4-goldhen-si-aggiorna-alla-versione-2-4b18-9-con-supporto-per-il-firmware-13-00/).
 - 🔴 ✅ "GoldHEN depende de esa versión exacta de firmware" (PLAN, emuladores-ps4): GoldHEN soporta muchas versiones. El riesgo real es actualizar por encima de 13.00, donde hoy no hay exploit.
 - 🟡 ✅ GoldHEN 2.4b18.9 no está en los releases de GitHub (el último ahí es 2.4b18, 28-10-2024); se distribuye aparte. Fuente: [releases](https://github.com/GoldHEN/GoldHEN/releases).
+- 🟡 ✅ "GoldHEN 2.4b18.9 es el actual" (INSTALL, APPS, CLAUDE): la consola lleva **2.4b18.10** (foto de *Información del sistema*, 13-09-2026 03:37). Corregido. La guía de DionKill avisa de que la 2.4b18.8 no arranca Linux.
 - 🔴 ✅ INSTALL.md: el Package Installer lee por defecto solo del USB. Para `/data/pkg` hay que poner *Package Source* en `Hdd` o `All`. Fuente: [How-To-Install-PS4-FPKGS](https://github.com/DrYenyen/How-To-Install-PS4-FPKGS).
 - ⚪ "RetroArch no aparece tras instalar → GoldHEN no estaba activo": plausible, sin fuente.
 
@@ -19,6 +20,9 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 
 - 🔴 ✅ "Nada confirmado para 12.5x; con GoldHEN 12.52 esta consola no tiene Linux" (emuladores-ps4, VITA, PS3): falso. [ps4-linux-loader](https://github.com/ps4-linux/ps4-linux-loader) soporta 12.50/12.52 (hasta 13.52) y detecta PS4 Pro. Bajo Linux hay informes de Dolphin ([GBAtemp](https://gbatemp.net/threads/dolphin-on-ps4-pro.495799/)) y RPCS3 ([GBAtemp](https://gbatemp.net/threads/linux-games-on-ps4-pro.576294/)) con algunos juegos. Vulkan da problemas en PS4 Pro con Mesa ≥ 22; OpenGL va bien ([PS4Linux](https://ps4linux.com/ps4-pro-fix-vulkan-fix-crash/)). Kernel 6.6 con AMDGPU desde 02-2025 ([PS4Linux](https://ps4linux.com/)).
 - 🟡 ✅ "Dolphin necesita OpenGL 3.0+": el mínimo es OpenGL 3.3 / GLES 3.0 / D3D 11.1. Fuente: [Dolphin](https://en.wikipedia.org/wiki/Dolphin_(emulator)).
+- 🟡 ✅ "Distribuciones recientes (Debian 13, Xubuntu 25.04, CachyOS, Manjaro) con kernel 6.6 y AMDGPU" (emuladores-ps4): vale para Aeolia y Belize, no para esta consola, que es **Baikal B1 (0x30201)** (foto de *Información del sistema* con GoldHEN, 13-09-2026 03:37). En Baikal el kernel es el 5.4.247 ([guía de DionKill](https://dionkill.github.io/ps4-linux-tutorial/files.html), corregida el 10-09-2026: ["7.1.7 does *not* support Baikal"](https://github.com/DionKill/ps4-linux-tutorial/commit/f4fb573); [rmux, 04-09-2026](https://gitlab.com/rmuxnet/linux/-/releases): "Baikal will be soon merged in"), la GPU solo funciona con Mesa ≤ 25.1 ([feeRnt, issue #8](https://github.com/feeRnt/ps4-linux-12xx/issues/8)) y no hay instalación en el disco interno. Corregido en `emu/emuladores-ps4.md`; detalle en `linux/README.md`.
+- 🟡 ✅ Propuesta de ChatGPT (2026-09-13): "payload Linux específico para 12.50/12.52 y PS4 Pro", `archlinux-on-ps4` de 7coil y psxitarch. El loader v25 es un solo payload para 5.05–13.52 que detecta southbridge y Pro en tiempo de ejecución ([release v25](https://github.com/ps4-linux/ps4-linux-loader/releases/tag/v25)); el rootfs de 7coil es Arch de 2022-06 sin escritorio y con `mesa-ps4 21.3.2` (leído del tar). Sirve para una primera prueba, no como distro.
+- 🔴 ✅ El `initramfs.cpio.gz` descargado (feeRnt v1.0, 29-01-2026) no vale: su [release](https://github.com/feeRnt/ps4-linux-initramfs/releases/tag/v1.0) dice "Missing support for: External installation". Sustituido por el "External HDD" de la guía de DionKill, cuyo `install-psxitarch.sh` (leído del cpio) exige pendrive MBR ≥ 22 GB y la distro como `psxitarch.tar.gz` (gzip), no `.tar.xz` como dice la guía.
 
 ### RetroArch (port de OsirisX)
 
@@ -57,6 +61,8 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 
 ## Verificado en la consola (capturas de Ajustes → Carpeta, 13-09-2026 02:06)
 
+- *Información del sistema* (03:37): `HEN 12.52`, IP 192.168.1.201, **Southbridge Baikal B1 (0x30201)**, **GoldHEN v2.4b18.10**.
+
 - Rutas: `system`, `info`, `playlists`, `database/rdb`, `thumbnails`, `savefiles`, `savestates`, `cheats`, `config`, `downloads`, `assets`, `shaders`, `overlays`, `remaps`, `layouts`, `temp` cuelgan de `/data/retroarch/`; cores en `/data/self/retroarch/cores`; explorador en `/data/ROMS`; capturas en la carpeta del contenido. Coincide con `INSTALL.md` y `emu/RETROARCH/README.md`.
 - La barra de estado muestra `1.8.8 - mGBA (0.8.1 7ad318f5)`: el core instalado es **mGBA 0.8.1**, mientras `mgba_libretro.info` del repo declara `0.10-dev`. Prueba directa de que los `.info` son más nuevos que los cores.
 - Otra sesión extrajo de los `.self` de `/data/self/retroarch/cores/` (por FTP) las versiones y extensiones que declara cada binario: `prosystem 1.3e`, `gearboy 3.4.1`, `mednafen_wswan 0.9.35.1` y `stella2014 3.9.3` coinciden con sus `.info`; las extensiones coinciden en los cinco comprobados (mGBA incluido; el `.info` de prosystem añade `cdf` y el de wswan `pcv2`, siempre de más, nunca de menos). De `handy` no se pudo leer. Conclusión: el desfase afecta a los cores en desarrollo activo (mGBA y previsiblemente VICE, ScummVM, PPSSPP, Flycast, atari800), y a las listas `.lpl` no les afecta.
@@ -70,6 +76,7 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 - Trucos: GoldHEN (`goldhen_cheats/`, `/user/data/GoldHEN/cheats/`) frente a RetroArch (`.cht`) y shadPS4 (`ps4_cheats/`, histórico).
 - Índice de BIOS con hashes; `bios_U.sms` creada a partir de la europea (mismo SHA-1).
 - README raíz con índice; `emu/init.md` a `docs/historico/`.
+- `linux/README.md`: Linux en esta consola (Baikal B1): archivos verificados, restricciones, procedimiento por pendrive y problemas; `linux/ps4-linux-tutorial.md`, copia de la guía de DionKill. Loader, kernel e initramfs catalogados en `catalogo/LINUX/`; fuentes como submódulos en `linux/src/`.
 
 ## Incidencia resuelta: RetroArch se cerraba al arrancar (2026-09-13, 03:28–03:44)
 

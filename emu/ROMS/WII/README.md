@@ -1,6 +1,6 @@
 # WII — Wii (2006)
 
-- **Estado:** Solo con Linux — fuera de la hoja de ruta
+- **Estado:** Solo con Linux — proyecto aparte en marcha ([`linux/`](../../../linux/README.md)), sin probar
 - **Core en la PS4:** ninguno. Mismo motivo que GameCube: Dolphin exige OpenGL 3.3 / Vulkan, que el port de RetroArch para PS4 no ofrece
 - **Extensiones:** `.iso` `.wbfs` `.rvz` (Dolphin)
 - **BIOS:** no necesita

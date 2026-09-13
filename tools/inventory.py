@@ -21,7 +21,10 @@ ROOTS = {
     "BIOS": os.path.join(EMU, "BIOS"),
     "APPS": os.path.join(EMU, "APPS"),
     "PKG": os.path.join(REPO, "pkg"),
+    "LINUX": os.path.join(REPO, "linux"),
 }
+# Subcarpetas que no se catalogan: linux/src/ son submódulos con código fuente, no binarios que subir
+SKIP_DIRS = {"LINUX": {"src"}}
 FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1", "content_id"]
 
 
@@ -74,7 +77,9 @@ def disk_path(system, file):
 
 def scan():
     for root, base in ROOTS.items():
-        for dirpath, _, names in os.walk(base):
+        for dirpath, dirs, names in os.walk(base):
+            skip = SKIP_DIRS.get(root, set()) if dirpath == base else set()
+            dirs[:] = [d for d in dirs if d != ".git" and d not in skip]
             for name in names:
                 if name.lower().endswith(".md"):
                     continue
