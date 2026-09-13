@@ -25,10 +25,8 @@ Los `CUSB*` son builds standalone de RetroArch con un core embebido. **Son redun
 
 Nada crítico. Opcionales, para más adelante:
 
-- PPSSPP standalone (PSP) — el core de PPSSPP ya entra con el Core Installer
-- Flycast standalone (Dreamcast) — verificar build antes
-- ScummVM standalone
-- Homebrew Store, si prefieres instalar desde la consola en vez de por USB
+- Homebrew Store (`Store-R2.pkg` de pkg-zone), si prefieres instalar desde la consola en vez de por FTP
+- Herramientas de PC para PS1/PS2/PSP Classics (PSX-FPKG, PS2-FPKG, PSP-FPKG): no son PKG de consola, van en el PC
 
 ## Orden recomendado de instalación
 
@@ -39,33 +37,25 @@ Es la forma más cómoda: instala un PKG una vez y desde ahí descargas el resto
 - Con GoldHEN ya cargado, abre el navegador de la PS4 y ve a `pkg-zone.com/install`.
 - Desde el Homebrew Store puedes instalar RetroArch y otros homebrew.
 
-Tu firmware **12.52 está soportado por GoldHEN** (v2.4b18.9 lista 5.05, 6.71–6.72, 9.00, 9.60, 10.00–10.71, 11.00–11.52, 12.00/02, 12.50, **12.52** y 13.00).
+Tu firmware **12.52 está soportado por GoldHEN** (v2.4b18.9 lista 5.05, 6.71–6.72, 9.00, 9.60, 10.00–10.71, 11.00–11.52, 12.00/02, 12.50, **12.52** y 13.00). En 12.52 GoldHEN entra por el exploit Poops desde un Blu-ray; el procedimiento está en [`INSTALL.md`](../../INSTALL.md).
 
 ### 2. RetroArch (PS4) — el caballo de batalla
 
 Port nativo de PS4 (target `orbis`). Cubre la gran mayoría de sistemas de `ROMS/`.
 
-- Es un port no oficial; la base del port es RetroArch v1.8.8 y la release R4 añadió cores nuevos (entre ellos PPSSPP y MAME 2015) y dynarec para Flycast.
-- Reporta del orden de 72 cores disponibles en PS4.
+- Port no oficial de OsirisX, basado en RetroArch **1.8.8**. La release R4 (30-06-2020) añadió 21 cores (entre ellos PPSSPP y MAME 2015) y dynarec para Flycast. No ha habido más releases desde entonces: los cores son de 2020, aunque los `.info` de este repo sean los actuales de libretro.
+- En esta consola hay **74 cores** en `/data/self/retroarch/cores/`.
+- Gráficos por OpenGL ES 2 (liborbis/piglet). Sin JIT en la mayoría de cores: N64, DS, Saturn y PSP van lentos.
 
 ### 3. RetroArch Core Installer — imprescindible
 
-RetroArch en PS4 **viene sin cores**. Hay dos formas de conseguirlos:
-
-- La app **Cores Installer** (PKG aparte, en pkg-zone con ID `SSNE20000`), o
-- La opción **Core Updater** desde dentro de RetroArch.
+RetroArch en PS4 **viene sin cores**. La única forma de conseguirlos es la app **Cores Installer** (PKG aparte, en pkg-zone con ID `SSNE20000`). El *Core Updater* de dentro de RetroArch no sirve: apunta a Bintray, que cerró en 2021.
 
 Sin este paso RetroArch se abre pero no ejecuta nada.
 
-### 4. Standalone (opcional, más adelante)
+### 4. Standalone
 
-Para PSP y Dreamcast la guía recomienda standalone antes que el core, pero conviene comprobar la build concreta antes de instalar:
-
-| App | Sistema | Estado |
-|---|---|---|
-| PPSSPP | PSP | Preferir standalone si hay build PS4 funcional; si no, el core de RetroArch |
-| Flycast / Reicast | Dreamcast | El standalone ha tenido limitaciones históricas en PS4; verificar build |
-| ScummVM | Aventuras gráficas | Standalone |
+**No existe** ningún PPSSPP, Flycast ni ScummVM standalone para PS4; la petición de Flycast standalone sigue abierta ([flycast #942](https://github.com/flyinghead/flycast/issues/942)). Para PSP y PS1 la vía buena es la de los *Classics* (paquete con el emulador oficial de Sony); ver `ROMS/PSP/README.md` y `ROMS/PSX/README.md`.
 
 ## Por dónde empezar (fricción cero)
 
@@ -83,5 +73,5 @@ Los sistemas sin BIOS son los que funcionan nada más copiar la ROM: **NES, SNES
 
 ## Pendiente de verificar en la consola
 
-- [ ] Versión exacta de RetroArch instalada (condiciona qué romsets de MAME/FBNeo valen)
-- [ ] Si el Homebrew Store de tu firmware ofrece PPSSPP/Flycast standalone o solo los cores
+- [ ] Si el Core Installer instalado es el `r4` (1,35 GB) o el `r4.1` "Fixed Speed" (1,27 GB). El del PC pesa 1385 MB, así que parece el `r4`. Si algún core va acelerado, es esto
+- [ ] Listar `/data/self/retroarch/cores/` por FTP y guardar la lista en `emu/RETROARCH/README.md`

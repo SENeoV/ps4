@@ -22,9 +22,32 @@ La carpeta `/data/retroarch/` no existirá hasta que RetroArch se haya ejecutado
 
 ## Antes de empezar
 
-1. Cargar **GoldHEN** en la consola (hay que hacerlo tras cada reinicio, no es CFW permanente).
+1. Cargar **GoldHEN** en la consola (hay que hacerlo tras cada reinicio, no es CFW permanente). Cómo, en la sección siguiente.
 2. Activar el **servidor FTP** desde el menú de GoldHEN.
 3. Anotar la IP de la PS4 (Ajustes → Red → Ver estado de la conexión).
+
+## Cargar GoldHEN en firmware 12.52
+
+En 12.50/12.52 el único exploit público es **Poops**, que entra por un disco Blu-ray (BD-JB). Cada vez que la consola se apaga o reinicia hay que repetirlo; el modo reposo lo conserva.
+
+Hace falta una sola vez:
+
+- Un Blu-ray grabado con `Poops.iso` (o `henloader_lp`, que combina Lapse 9.00–12.02 y Poops 9.00–13.00 con GoldHEN 2.4b18.7 dentro).
+- Un USB en **exFAT o FAT32** (partición MBR) con el GoldHEN más reciente. GoldHEN 2.4b18.9 (12-02-2026) es el actual: añade 13.00 y arregla el arranque de Linux. No está en los releases de GitHub (el último ahí es 2.4b18); se descarga desde la cuenta de SiSTRo.
+- En la PS4: **HDCP activado** y, en Ajustes → Sistema, **no** desactivar los avisos durante la reproducción de vídeo.
+- Conexión a internet **una vez**, para que el reproductor de Blu-ray se active.
+
+Cada arranque:
+
+1. Conectar el USB, después meter el disco.
+2. Abrir el disco desde el menú; en 12.50/12.52 elegir Poops.
+3. Esperar a que aparezca la notificación de GoldHEN. Que el disco se expulse solo es normal.
+
+Si falla: **reiniciar la consola** antes de volver a intentarlo. Reabrir la aplicación del disco sin reiniciar hace que falle más.
+
+**No actualizar el firmware.** Hoy hay exploit hasta 13.00; por encima no hay nada público. Bloquear las actualizaciones automáticas desde GoldHEN.
+
+Fuentes: [henloader_lp](https://github.com/GoldHEN/henloader_lp), [BD-JB-1252](https://github.com/DefKorns/BD-JB-1252), [GoldHEN 2.4b18.9](https://www.biteyourconsole.net/2026/02/12/scena-ps4-goldhen-si-aggiorna-alla-versione-2-4b18-9-con-supporto-per-il-firmware-13-00/).
 
 En FileZilla:
 
@@ -42,7 +65,7 @@ Conviene poner FileZilla en **modo pasivo** y **1 sola conexión simultánea** �
    ```
    emu/APPS/PS4_SSNE10000_v4.00_Unofficial_RetroArch.pkg   (27 MB)
    ```
-2. En la consola: **Ajustes → Debug Settings → Game → Package Installer**, seleccionar el PKG e instalar.
+2. En la consola: **Ajustes → Debug Settings → Game → Package Installer**. Por defecto solo lee del USB: poner antes **Package Source** en `Hdd [hdd:/data/pkg/]` o `All`. Seleccionar el PKG e instalar.
 3. Comprobar que aparece el icono de RetroArch en el menú principal.
 4. **Abrir RetroArch una vez** y cerrarlo. Esto crea `/data/retroarch/`, que hace falta para los pasos siguientes.
 
@@ -58,7 +81,7 @@ RetroArch en PS4 **viene sin cores**: sin este paso se abre pero no ejecuta nada
 2. Instalar igual que el paso 1.
 3. Ejecutar la app **Core Installer** desde el menú de la PS4 e instalar los cores.
 
-Alternativa sin esta app: *Core Updater* desde dentro de RetroArch (requiere que la consola tenga red).
+No hay alternativa: el *Core Updater* de este port apunta a Bintray, que cerró en 2021, y desde la release R3 los cores solo se instalan con esta app. El Core Installer de este repo pesa 1385 MB, lo mismo que `Cores_Installer_r4.pkg`; existe un `r4.1` (1,27 GB, "Fixed Speed") para cuando algún core va acelerado.
 
 ## Paso 3 — ROM de prueba
 
@@ -87,7 +110,9 @@ Con eso validado, ya se puede meter contenido en volumen y pasar a los sistemas 
 
 | Síntoma | Causa habitual |
 |---|---|
-| RetroArch no aparece tras instalar | GoldHEN no estaba activo al instalar |
+| RetroArch no aparece tras instalar | GoldHEN no estaba activo al instalar (sin verificar) |
+| El Package Installer no ve el PKG | *Package Source* está en `Usb`; cambiarlo a `Hdd` o `All` |
+| El exploit falla al cargar GoldHEN | Reiniciar la consola y repetir. Comprobar HDCP activado y el USB en exFAT/FAT32 |
 | Abre pero no hay cores | Falta el paso 2 |
 | El core carga pero la ROM no | Extensión no soportada, o ROM comprimida en un formato que el core no lee |
 | Va a tirones | Core pesado para el sistema; probar el alternativo (QuickNES en vez de Nestopia) |
@@ -100,6 +125,7 @@ Con eso validado, ya se puede meter contenido en volumen y pasar a los sistemas 
 ## Fuentes
 
 - [Files and Directories — ConsoleMods](https://consolemods.org/wiki/PS4:Files_and_Directories)
+- [Guía Poops 12.52 — onejailbreak](https://onejailbreak.com/blog/how-to-jailbreak-ps4-12-52-with-poops-exploit/)
 - [How To Install PS4 FPKGS on GoldHEN](https://github.com/DrYenyen/How-To-Install-PS4-FPKGS)
 - [RetroArch en PS4: instalación y configuración](https://bytesnbits.co.uk/play-real-arcade-and-console-games-on-the-ps4-with-retroarch-full-installation-and-setup/)
 - [PS4 RetroArch Port — GBAtemp](https://gbatemp.net/threads/release-ps4-retroarch-port-unofficial.555028/)

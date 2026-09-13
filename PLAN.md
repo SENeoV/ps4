@@ -191,7 +191,7 @@ La lista completa y priorizada de lo que falta conseguir, preparar o configurar 
 
 ## Notas
 
-- No actualizar el firmware de la PS4 (12.52) solo para tener una versión más nueva de un emulador — GoldHEN depende de esa versión exacta.
+- No actualizar el firmware de la PS4 (12.52). Hay exploit público hasta 13.00 (Poops); por encima no hay nada. Cómo se carga GoldHEN en 12.52, en [`INSTALL.md`](INSTALL.md).
 - No mezclar romsets de MAME y FB Alpha, ni entre versiones distintas del mismo emulador.
 - Nombres de archivo sin tildes ni ñ: FileZilla los sube a la PS4 en otra codificación y dejan de coincidir con el PC (y con su partida).
 - La PS4 distingue mayúsculas en las rutas: `/data/ROMS` y `/data/roms` son carpetas distintas.
