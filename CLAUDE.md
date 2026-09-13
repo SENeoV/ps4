@@ -77,7 +77,8 @@ Sus archivos no entran en git (`*.pkg` y `*.exe` están ignorados por extensión
 - homebrew que se instala en la consola: se sube a `/data/pkg/` y se instala desde *Debug Settings → Package Installer*, igual que `emu/APPS`;
 - juegos y backups en fPKG;
 - instalación remota desde el PC, con Remote PKG Installer (`FLTZ00003`) o PS4 Toolset (`SAAT29385`), que están en `pkg/utils/`;
-- herramientas de Windows, en `pkg/win/`.
+- herramientas de Windows, en `pkg/win/`;
+- payloads para Payload Guest, en `pkg/payloads/` (van a `/data/payloads/`): los de Linux y las herramientas del host webkitty, con tabla de compatibilidad en su README. `no-12.52/` y `no-subir/` no se suben a la consola.
 
 Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide con el Content ID del paquete (`PS4_CUSA01116_v2.32.pkg` contiene `CUSA01015`), así que el Content ID fiable es el `content-id` del `.ref`, que inventory.py lee de la cabecera del PKG.
 

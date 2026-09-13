@@ -101,7 +101,7 @@ Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [Cac
 
 ### 3. Enviar el payload
 
-**Desde la consola, sin PC** (lo normal desde el 13-09-2026): abrir **Payload Guest** (`pkg/utils/PS4_AZIF00003_v0.98_Payload_Guest.pkg`, instalado desde `/data/pkg/`) y elegir *Linux 2 GB VRAM (uso normal)*; el primer arranque tras instalar, *1 GB*. Lee `/data/payloads/` (los cuatro `linux-*.bin` del loader v25 y un `meta.json` con los nombres; copia en `linux/loader/payloads-ps4/`) y se los pasa al BinLoader de GoldHEN.
+**Desde la consola, sin PC** (lo normal desde el 13-09-2026): abrir **Payload Guest** (`pkg/utils/PS4_AZIF00003_v0.98_Payload_Guest.pkg`, instalado desde `/data/pkg/`) y elegir *Linux 2 GB VRAM (uso normal)*; el primer arranque tras instalar, *1 GB*. Lee `/data/payloads/` (los nueve `linux-*.bin` del loader v25, de 32 MB a 4 GB, más las herramientas del host webkitty; copia y tabla en [`pkg/payloads/`](../pkg/payloads/README.md)) y se los pasa al BinLoader de GoldHEN.
 
 Desde el PC, con la PS4 en el menú principal:
 
@@ -232,7 +232,7 @@ Lecciones:
 |---|---|
 | USB, raíz (FAT32) | `bzImage`, `initramfs.cpio.gz`, `psxitarch.tar.gz`; opcionales `bootargs.txt`, `vram.txt`. Tiene prioridad sobre el disco interno |
 | `/data/linux/boot/` | Alternativa por FTP para `bzImage` e `initramfs.cpio.gz`: permite llegar a la rescue shell sin USB. El loader los copia ahí solo desde el USB la primera vez |
-| `/data/payloads/` | Los cuatro `linux-*.bin` (1, 2, 3 y 4 GB de VRAM) y `meta.json` para *Payload Guest*, subidos el 13-09-2026 |
+| `/data/payloads/` | Los nueve `linux-*.bin` (32 MB a 4 GB de VRAM) y las herramientas de `pkg/payloads/` para *Payload Guest*, subidos el 13-09-2026 |
 
 ## Fuentes
 

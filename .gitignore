@@ -5,6 +5,8 @@ __pycache__/
 *.pkg
 # Instaladores de Windows (pkg/win/)
 *.exe
+# Payloads para Payload Guest (pkg/payloads/): binarios, catalogados en catalogo/PKG/payloads/
+pkg/payloads/**/*.bin
 
 # Comprimidos descargados (packs de ROMs, covers...) en cualquier ubicacion
 *.rar

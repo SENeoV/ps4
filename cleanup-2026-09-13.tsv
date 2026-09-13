@@ -7043,3 +7043,4 @@ MOVIDO	linux/ps4-linux-initramfs	linux/src/ps4-linux-initramfs	clon git, registr
 MOVIDO	linux/ps4-linux-loader	linux/src/ps4-linux-loader	clon git, registrado como submodulo
 MOVIDO	linux/ps4-linux-12xx	linux/src/ps4-linux-12xx	clon git del kernel (6,4 GB), registrado como submodulo en su rama por defecto
 RENOMBRADO	linux/ps4linux.tar.xz	linux/distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz	distro Arch 2026-03 con Mesa 25.1.0-devel y libdrm para Baikal (Mega, via feeRnt issue 8); xz -t correcto
+MOVIDO	linux/loader/payloads-ps4/	pkg/payloads/	los payloads de la consola (Linux + herramientas del host webkitty) van con el resto de homebrew; meta.json descartado (Payload Guest no lo lee sin icon)

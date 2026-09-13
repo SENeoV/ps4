@@ -4,7 +4,7 @@ Generado por `tools/inventory.py`, que se ejecuta solo en cada commit. Detalle e
 
 Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, que es el que se contrasta con los DAT de No-Intro/Redump. En los `.pkg`, `content_id` es el Content ID leído de la cabecera.
 
-**Total: 7066 archivos**
+**Total: 7095 archivos**
 
 | Sistema | Archivos | Tamaño |
 |---|--:|--:|
@@ -18,17 +18,17 @@ Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, 
 | GBC | 495 | 230.1 MB |
 | GC | 1 | 829.7 MB |
 | GG | 373 | 124.9 MB |
-| LINUX | 36 | 3148.9 MB |
+| LINUX | 31 | 3147.7 MB |
 | LYNX | 136 | 27.7 MB |
 | MD | 1337 | 1416.1 MB |
 | NES | 632 | 121.8 MB |
 | NGP | 3 | 6.0 MB |
 | NGPC | 72 | 91.9 MB |
 | PCE | 210 | 88.8 MB |
-| PKG | 17 | 2227.6 MB |
+| PKG | 51 | 2232.1 MB |
 | SMS | 333 | 88.0 MB |
 | SNES | 164 | 281.2 MB |
 | VB | 31 | 11.2 MB |
 | WS | 214 | 349.6 MB |
 | WSC | 131 | 446.5 MB |
-| **TOTAL** | **7066** | **13697.1 MB** |
+| **TOTAL** | **7095** | **13700.4 MB** |
