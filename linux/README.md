@@ -129,6 +129,18 @@ GoldHEN → payload **`linux-2048mb.bin`** → arranca la distro sola desde el p
 - Rendimiento de CPU: `mitigations=off` en `bootargs.txt` (desactiva las mitigaciones de Spectre/Meltdown; la consola ya está abierta).
 - El mando DualShock 4 hay que emparejarlo por Bluetooth en cada arranque de Linux.
 
+## Dolphin (GameCube y Wii): el objetivo
+
+La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace falta y lo que cabe esperar:
+
+- **GPU activa antes que nada.** `glxinfo | grep renderer` → `AMD Liverpool`. Con `llvmpipe` Dolphin va a pocos fps y no hay nada que ajustar: es la distro (Mesa) o el kernel. Dolphin necesita OpenGL 3.3; Mesa 25.1 da OpenGL 4.6 en esta GPU.
+- **Instalar, en el Arch con Mesa 25.1.** Primero proteger los drivers en `/etc/pacman.conf`, sección `[options]`: `IgnorePkg = mesa lib32-mesa libdrm lib32-libdrm llvm-libs lib32-llvm-libs` (y descomentar `DisableSandbox` si `pacman` protesta por *Landlock*). Después `sudo pacman -Syu dolphin-emu`. Sin el `IgnorePkg`, la actualización mete Mesa 26 y se pierde la GPU.
+- **Backend OpenGL**, no Vulkan: Vulkan se cuelga en PS4 Pro con Mesa ≥ 22. Resolución interna 1x (nativa) para empezar; la GPU sobra y se puede subir a 2x, el límite es la CPU (8 Jaguar a 2,1 GHz). `mitigations=off` en `bootargs.txt` ayuda.
+- **Expectativa.** No hay informe de *Wind Waker* en PS4; la referencia es *Pikmin* a 50 fps en PS4 Pro con OpenGL (GBAtemp) y, en la guía, Cemu (Wii U, mucho más pesado) a 50-55 fps. *Wind Waker* es un juego ligero para Dolphin: lo previsible es velocidad completa con alguna bajada.
+- **Los juegos (🧑).** Dolphin lee `.iso`, `.gcm` y `.rvz` (RVZ es el formato comprimido de Dolphin, sin pérdida; *Wind Waker* ocupa 1,4 GB en ISO). La partición de Linux del pendrive es ext4 y Windows no la escribe, así que las ISO van en **otro USB en exFAT** (Linux lo lee) o se copian por red (Wi-Fi) una vez arrancado. Hace falta un hub USB para teclado y ratón: pendrive, USB de juegos y mando ocupan los tres puertos.
+- **Mando.** El DualShock 4 **por cable USB** funciona sin emparejar; por Bluetooth hay que emparejarlo en cada arranque de Linux. En Dolphin: *Controllers → Port 1 → Standard Controller*, dispositivo `evdev`/`SDL`, y asignar botones. Para Wii, *Emulated Wii Remote* con el mismo mando.
+- **Wii** funciona igual (mismo Dolphin), con el puntero del Wiimote mapeado al stick derecho. Menos cómodo, pero para juegos sin puntero va bien.
+
 ## Problemas conocidos
 
 | Síntoma | Qué hacer |

@@ -159,7 +159,7 @@ El romset tiene que ser de la versión exacta del core.
 - [ ] 🎮 Llega a la rescue shell con el payload de 1 GB
 - [ ] 🎮 `install-psxitarch.sh` instala y arranca la distro
 - [ ] 🎮 Escritorio con GPU (`glxinfo`: `AMD Liverpool`, no `llvmpipe`)
-- [ ] 🎮 Dolphin y RPCS3 probados
+- [ ] 🎮 Dolphin con *Wind Waker* a velocidad completa (OpenGL, resolución nativa); después RPCS3
 - [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 
 ### No viables

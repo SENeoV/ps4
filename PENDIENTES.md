@@ -202,7 +202,8 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [ ] 🎮 Con GoldHEN cargado, BinLoader activado y el disco de Poops fuera: enviar `linux-1024mb.bin` al puerto 9090 y llegar a la rescue shell
 - [ ] 🎮 `install-psxitarch.sh`, esperar, y que arranque la distro. En arranques siguientes, payload de 2 GB
 - [ ] 🎮 Comprobar la GPU (`glxinfo | grep renderer` → `AMD Liverpool`) y anotar en `linux/README.md` qué ha pasado: pantalla, Wi-Fi/Ethernet, mando
-- [ ] 🎮 Instalar Dolphin y RPCS3 y probar un juego de cada uno (GameCube, PS3); las ISO y el firmware de PS3 los pones tú
+- [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
+- [ ] 🎮 `IgnorePkg` para Mesa en `pacman.conf`, `pacman -Syu dolphin-emu`, backend OpenGL, y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
 
 ---
