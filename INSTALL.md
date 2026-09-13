@@ -130,6 +130,7 @@ Salir de RetroArch: menú rápido → *Cerrar contenido*, y después *Salir de R
 | RetroArch no aparece tras instalar | GoldHEN no estaba activo al instalar (sin verificar) |
 | El Package Installer no ve el PKG | *Package Source* está en `Usb`; cambiarlo a `Hdd` o `All` |
 | El exploit falla al cargar GoldHEN | Reiniciar la consola y repetir. Comprobar HDCP activado y el USB en exFAT/FAT32 |
+| RetroArch se cierra nada más abrirse, sin llegar al menú | Visto el 2026-09-13: `retroarch.cfg` tenía `input_driver = "null"` (debe ser `"ps4"`; el mando se crea desde ese driver y sin él RetroArch cae al iniciar el menú). Bajar `retroarch.cfg` por FTP, corregir la línea y subirlo. Para diagnosticar, `log_to_file = "true"` escribe un registro por arranque en `/data/retroarch/logs/` |
 | Abre pero no hay cores | Falta el paso 2 |
 | El core carga pero la ROM no | Extensión no soportada, o ROM comprimida en un formato que el core no lee |
 | Va a tirones | Core pesado para el sistema; probar el alternativo (QuickNES en vez de Nestopia) |

@@ -71,6 +71,10 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 - Índice de BIOS con hashes; `bios_U.sms` creada a partir de la europea (mismo SHA-1).
 - README raíz con índice; `emu/init.md` a `docs/historico/`.
 
+## Incidencia resuelta: RetroArch se cerraba al arrancar (2026-09-13, 03:28–03:44)
+
+Tras abrir un juego de PC Engine desde su lista, RetroArch dejó de llegar al menú. Diagnóstico por FTP (solo lectura) más dos escrituras confirmadas: (1) vaciar `libretro_path` no lo arregló, descartado; (2) activar `log_to_file` mostró que el arranque moría al elegir el driver de entrada; `retroarch.cfg` tenía `input_driver = "null"` con `input_joypad_driver = "ps4"`. Con `input_driver = "ps4"` arranca y el mando responde. No se sabe cómo llegó a `null` (Javi no tocó la lista de drivers). Registro en `INSTALL.md`, "Si algo falla".
+
 ## No verificable desde aquí
 
 ConsoleMods, PSX-Place, PSXHAX, GBAtemp, PSDevWiki y GameBrew devuelven 403 al acceso automático, y archive.org no es accesible. Para esas fuentes se usaron los extractos de búsqueda. Pendiente de comprobar en la consola: lista real de `/data/self/retroarch/cores/`, versión del Core Installer (r4 o r4.1), y de qué versión de MAME tienen que ser los romsets de NAOMI/Atomiswave para el Flycast de 2020. La combinación del menú (Start + Select) sí está confirmada en `retroarch.cfg`.

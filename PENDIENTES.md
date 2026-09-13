@@ -48,6 +48,12 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 - [x] 🎮 Las 9 BIOS de `emu/BIOS/` están en `/data/retroarch/system/`, verificadas por SHA-1
 - [ ] 🧑 `gba_bios.bin`: opcional; mGBA funciona sin ella
 
+### Registro y aspecto del menú
+
+- [x] 🤖 Registro a archivo activado en `retroarch.cfg` el 2026-09-13 (`log_to_file`, `log_verbosity`): cada arranque deja un `.log` en `/data/retroarch/logs/`. Útil para diagnosticar; borrar los viejos de vez en cuando
+- [ ] 🤖 `/data/retroarch/assets/` está vacío: el menú Ozone funciona pero sin iconos (el log lista 150 `Asset missing`). Los assets son libres (`assets.zip` de buildbot.libretro.com); prepararlos para la versión 1.8.8 y subirlos
+- [x] 🤖 Copia de `retroarch.cfg` de la consola en `emu/RETROARCH/backup/` (local, no versionada) y en `/data/retroarch/retroarch.cfg.bak`
+
 ### Copias de seguridad
 
 - [ ] 🧑 Disco externo para la colección: el repo solo guarda las referencias, no los juegos
