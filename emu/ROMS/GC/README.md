@@ -12,6 +12,6 @@
 | Versión | ID | Tamaño | En la consola | Para qué |
 |---|---|---|---|---|
 | Europe (En,Fr,De,Es,It) | `GZLP01` | 870.001.784 B | Sí, `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz` | **En español.** El que se juega |
-| USA | `GZLE01` | 863.379.372 B | No (pendiente) | Para las texturas HD, que el mod diseñó para la versión inglesa |
+| USA | `GZLE01` | 863.379.372 B | Sí, `/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz` (14-09) | Con las texturas HD, que el mod diseñó para la versión inglesa |
 
 Es el juego objetivo del proyecto Linux; cómo llega a la consola y cómo se lanza, en [`linux/README.md`](../../../linux/README.md#dolphin-gamecube-y-wii-el-objetivo). Las texturas HD y por qué hacen falta las dos versiones, en [`linux/dolphin.md`](../../../linux/dolphin.md#texturas-hd-hypatia-wwhd-v20).

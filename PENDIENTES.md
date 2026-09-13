@@ -221,10 +221,14 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [ ] 🎮 Comprobar con la nueva configuración: fps en la cinemática del barco, 16:9 sin barras, mando (Z=R1, L=L2, R=R2, cámara)
 - [x] 🧑 *Wind Waker* (USA, RVZ, `GZLE01`, 863 MB) y el pack de texturas *Hypatia WWHD v2.0* descargados (14-09)
 - [x] 🤖 USA copiado a `emu/ROMS/GC/` con SHA-1 verificado; conjunto de prueba de texturas (`Characters` + `Items`, 846 archivos, 404 MB) extraído en `linux/texturas/GZL/` (14-09)
-- [ ] 🧑 Subir por SFTP el USA a `/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz` y `GZL/` a `~/.local/share/dolphin-emu/Load/Textures/`, con Dolphin cerrado
-- [ ] 🎮 Activar *Load Custom Textures*, anisotrópico a **1x** (el mod lo exige) y *Prefetch* **no** (5,9 GB de RAM); comprobar fps con las texturas
+- [x] 🤖 Subidos por SFTP el USA (`/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz`) y `GZL/` a `~/.local/share/dolphin-emu/Load/Textures/`, con Dolphin cerrado y copia de la config (14-09)
+- [x] 🤖 `GameSettings/GZLE01.ini`: texturas activadas, anisotrópico **1x** y *Prefetch* **no**, solo en el USA; 16:9 y sin desenfoque como el europeo (14-09)
+- [ ] 🤖 Esperar a que el pendrive termine de escribir (extracción y `sync`, ~2 h a 150 KB/s el 14-09): **no apagar Linux hasta entonces**
+- [ ] 🎮 Arrancar el USA y comprobar que Link y los objetos salen en HD, y los fps con las texturas
+- [ ] 🧑 Pendrive o SSD con buena escritura sostenida: el Kingston DataTraveler 3.0 escribe a ~150 KB/s y el pack completo de texturas tardaría unas 17 h
+- [x] 🧑 Originales de Descargas borrados tras verificar las copias del repo (14-09)
 - [ ] 🎮 Si la prueba va bien: añadir `Effects` (140 MB) y luego decidir sobre `Environments` (8,2 GB). `HUD` solo sobre la versión USA (está en inglés)
-- [ ] 🧑 Borrar la copia duplicada del `.7z` en `linux/texturas/` (1,94 GB) cuando ya no haga falta extraer más carpetas; el original sigue en `Descargas`
+- [ ] 🧑 El `.7z` de `linux/texturas/` (1,94 GB) es ya la única copia del pack: no borrarlo mientras se quiera extraer más carpetas
 - [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena)
 - [ ] 🤖 Averiguar por qué la CPU va a 1,59 GHz en vez de 2,13 (P-state del loader / kernel 5.4) y si `neocine-1.1` o rmux lo cambian
 - [ ] 🎮 RPCS3, con su firmware (AUR, con red)

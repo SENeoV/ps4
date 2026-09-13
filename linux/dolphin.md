@@ -154,4 +154,35 @@ grep -q '^HiresTextures' GFX.ini || sed -i '/^\[Settings\]/a HiresTextures = Tru
 
 En la interfaz es lo mismo: *Graphics → Enhancements → Anisotropic Filtering: 1x* y *Graphics → Advanced → Load Custom Textures* sí, *Prefetch Custom Textures* no.
 
-Para comprobar que las coge: *Graphics → Advanced → Enable API Validation Layers* no hace falta; basta mirar el registro (`~/.local/share/dolphin-emu/Logs/dolphin.log`) o, más simple, que Link se vea distinto. Si no cambia nada, casi siempre es que la carpeta no se llama exactamente `GZL` o que los `.dds` quedaron un nivel de más (`Load/Textures/GZL/GZL/...`).
+Para comprobar que las coge basta con que Link se vea distinto (o mirar `~/.local/share/dolphin-emu/Logs/dolphin.log`). Si no cambia nada, casi siempre es que la carpeta no se llama exactamente `GZL` o que los `.dds` quedaron un nivel de más (`Load/Textures/GZL/GZL/...`).
+
+### Aplicado el 14-09-2026, 00:15-00:30 (por SSH, con Dolphin cerrado)
+
+- Partida europea guardada antes de cerrar (Shift+F1 → `StateSaves/GZLP01.s01`, 00:15) y Dolphin cerrado con Ctrl+Q. El segundo `xdotool` dio `BadWindow` porque la ventana ya se había cerrado: no es un error.
+- Copia previa de la configuración en `~/.config/dolphin-emu.bak-2026-09-14`.
+- `Legend of Zelda, The - The Wind Waker (USA).rvz` subido como `/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz`.
+- Juego y `.tar` del conjunto de prueba (`Characters` + `Items`) verificados en la consola por SHA-1; el `.tar` se extrae en `~/.local/share/dolphin-emu/Load/Textures/GZL/`.
+
+**El pendrive escribe a ~150 KB/s sostenidos** (medido en `/sys/block/sda/stat`, sin errores USB en `dmesg`, enlace a 480 Mb/s). Por SFTP los primeros ~700 MB llegan a 7-8 MB/s porque van a la caché de RAM; al llenarse (`Dirty` ≈ 1 GB) todo se frena al ritmo real del pendrive, y el `tar` extrae un archivo por minuto. Consecuencias:
+
+- **No apagar Linux ni la consola mientras `grep Dirty /proc/meminfo` pase de unos MB**: lo copiado aún no está en el pendrive, y la partición no tiene journal.
+- Un `sha1sum` justo después de subir lee de la caché, no del pendrive: comprueba la transferencia, no la escritura.
+- No subir un `.tar` para extraerlo allí: duplica lo que hay que escribir. Mejor archivo a archivo, o subirlo a un USB aparte.
+- **El pack entero (9,1 GB) a 150 KB/s son unas 17 horas de escritura**: con este pendrive no es viable. Hace falta un SSD o un pendrive con buena escritura sostenida.
+- El `install-psxitarch.sh` de 1 h 40 min del 13-09 fue esto mismo.
+- **Todo por juego, sin tocar la configuración global ni la versión europea**: `GameSettings/GZLE01.ini` activa las texturas y el anisotrópico a 1x solo en el USA, y copia del europeo el 16:9 y el desenfoque:
+
+```ini
+[Gecko_Enabled]
+$16:9 Widescreen
+[ActionReplay_Enabled]
+$Remove Distance Blur
+[Video_Settings]
+AspectRatio = 1
+HiresTextures = True
+CacheHiresTextures = False
+[Video_Enhancements]
+MaxAnisotropy = 0
+```
+
+Los nombres de los códigos son iguales en `sys/GameSettings/GZLE01.ini` y `GZLP01.ini`, los dos verificados para RetroAchievements. Así el europeo sigue en 16x y sin texturas (las ignora porque `HiresTextures` está desactivado globalmente), y el USA las carga. Para quitarlo: `rm ~/.config/dolphin-emu/GameSettings/GZLE01.ini`.
