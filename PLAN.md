@@ -159,6 +159,7 @@ El romset tiene que ser de la versión exacta del core.
 - [x] 🎮 Llega a la rescue shell con el payload de 1 GB — 6 intentos sin señal en el monitor Samsung; **con una tele, a la primera** (13-09, registro en `linux/README.md`)
 - [x] 🎮 `install-psxitarch.sh` instala (1 h 40 min en pendrive a USB 2.0) y la distro arranca (13-09)
 - [x] 🎮 Escritorio LXDE con GPU: `glxinfo` → `AMD Radeon Graphics (radeonsi, liverpool, ACO…)` (13-09). Plasma no arranca bien desde el pendrive
+- [x] 🎮 Dolphin 2509 y PPSSPP instalados sin red desde el pendrive (13-09); Payload Guest en la consola para arrancar Linux sin PC
 - [ ] 🎮 Dolphin con *Wind Waker* a velocidad completa (OpenGL, resolución nativa); después RPCS3
 - [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 
