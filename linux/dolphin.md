@@ -78,7 +78,13 @@ Cruz = A, círculo = B, cuadrado = X, triángulo = Y, R1 = Z, L2/R2 = L/R. En el
 - **Por cable USB: funciona** (13-09-2026). Dolphin lo ve como `SDL/0/PS4 Controller`.
 - **Por Bluetooth: no, de momento.** Es el problema conocido de la guía: el mando guarda el emparejamiento con el Bluetooth del sistema de la PS4 y Linux usa el mismo chip con otra pila, así que hay que emparejarlo desde Linux, y en cada arranque de Linux. Procedimiento para probarlo: mando apagado, mantener **Share + PS** hasta que la barra parpadee rápido (modo emparejamiento); en LXTerminal `bluetoothctl`, y dentro: `power on`, `agent on`, `scan on`, esperar a `Wireless Controller`, `pair <MAC>`, `trust <MAC>`, `connect <MAC>`. Al volver al sistema de la PS4 hay que volver a emparejarlo allí con el cable. Con `bluetoothd` en el arranque salen dos avisos (`Failed to reset Adv Monitors`, `Set device flags`) que son de kernel 5.4 y no impiden emparejar; si el chip no lo encuentra, es el driver MediaTek y no hay más.
 
-## Cómo aplicar los cambios
+## Aplicado el 13-09-2026 a las 23:58 (por SSH, con Dolphin cerrado)
+
+Copia previa completa en `~/.config/dolphin-emu.bak-2026-09-13`. Aplicado todo lo de la tabla salvo las texturas HD: `EnableCheats`, MSAA 4x (`MSAA = 0x00000004`, Dolphin lo guarda en hexadecimal), ubershaders híbridos con compilación previa, V-Sync off, mando con `Z = R1`, `L = L2`, `R = R2` y C-Stick recto, y `GameSettings/GZLP01.ini` con el Gecko *16:9 Widescreen*, el AR *Remove Distance Blur* y `AspectRatio = 1` (16:9 forzado solo en este juego). Para volver atrás: `rm -r ~/.config/dolphin-emu && cp -a ~/.config/dolphin-emu.bak-2026-09-13 ~/.config/dolphin-emu`.
+
+Trucos de manejo remoto que sirvieron: Dolphin no tiene control remoto, pero con `xdotool` (`DISPLAY=:0`) se le mandan atajos: *Shift+F1* guarda estado en la ranura 1 (queda en `~/.local/share/dolphin-emu/StateSaves/GZLP01.s01`, se carga con F1) y *Ctrl+Q* en la ventana principal (no en la de render) lo cierra, previo diálogo *Confirm* que se acepta con *Alt+Y*. Dolphin solo reescribe los `.ini` si algo cambió.
+
+## Cómo aplicar los cambios (a mano)
 
 Con Dolphin cerrado, por SSH (`ps4`/`ps4`, IP por la MAC del Wi-Fi) o en LXTerminal:
 

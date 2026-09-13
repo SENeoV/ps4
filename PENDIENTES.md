@@ -217,7 +217,8 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🎮 ***Wind Waker* a 30 fps en Dolphin 2509** (Vulkan), 13-09 a las 23:40
 - [ ] 🎮 Lanzar `ps4-fan-threshold60.bin` antes de Linux en cada arranque: la CPU va a 71 °C jugando y en Baikal nadie mueve el ventilador
 - [x] 🎮 DualShock 4 por cable mapeado en Dolphin (13-09); por Bluetooth pendiente (emparejar desde Linux, `linux/dolphin.md`)
-- [ ] 🤖 Aplicar por SSH los cambios de `linux/dolphin.md` con Dolphin cerrado (ubershaders híbridos, V-Sync off, MSAA 4x, mando Z=R1 L=L2 R=R2, 16:9 Gecko) y comprobar los fps en la misma cinemática
+- [x] 🤖 Aplicados por SSH los cambios de `linux/dolphin.md` con copia previa (13-09, 23:58)
+- [ ] 🎮 Comprobar con la nueva configuración: fps en la cinemática del barco, 16:9 sin barras, mando (Z=R1, L=L2, R=R2, cámara)
 - [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena)
 - [ ] 🤖 Averiguar por qué la CPU va a 1,59 GHz en vez de 2,13 (P-state del loader / kernel 5.4) y si `neocine-1.1` o rmux lo cambian
 - [ ] 🎮 RPCS3, con su firmware (AUR, con red)

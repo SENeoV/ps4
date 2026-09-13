@@ -228,6 +228,7 @@ Lecciones:
 - **CPU a 1,59 GHz**, no a 2,13: el kernel dice *"Unable to measure TSC frequency, assuming default"* (1594 MHz) y el *uptime* cuadra con el reloj real, así que la frecuencia es esa de verdad. Es el P-state que deja el loader antes del kexec y/o este kernel 5.4; pregunta abierta para `neocine-1.1` y los kernels de rmux.
 - **Temperatura: CPU a 71 °C jugando, con "high" en 70** (`sensors`, `k10temp`). En Baikal ningún kernel controla el ventilador: se queda como lo dejó el sistema de la PS4. Explica los apagones de la madrugada (protección térmica del Syscon). **Antes de lanzar Linux, lanzar `ps4-fan-threshold60.bin` en Payload Guest**: el umbral vive en el microcontrolador del ventilador y sobrevive al kexec.
 - Zona horaria puesta a `Europe/Madrid` (venía en UTC; la hora ya la sincroniza NTP).
+- Estado de Dolphin guardado por SSH (`xdotool`, Shift+F1), Dolphin cerrado por SSH y **configuración recomendada aplicada** con copia previa (`dolphin.md`): ubershaders híbridos, V-Sync off, MSAA 4x, mando sin conflicto, 16:9 real y sin desenfoque de lejanía en *Wind Waker*.
 - **DualShock 4 mapeado por USB** en Dolphin; por Bluetooth no funciona todavía. Revisada la configuración de Dolphin y del juego (`Dolphin.ini`, `GFX.ini`, `GCPadNew.ini`, `sys/GameSettings/GZL.ini`) y recomendaciones en [`dolphin.md`](dolphin.md): ubershaders híbridos, V-Sync off, MSAA 4x, Z/L/R sin conflicto en el mando, 16:9 por código Gecko.
 
 ## Problemas conocidos
