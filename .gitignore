@@ -1,5 +1,7 @@
 /pkg
 /ps4_cheats
+__pycache__/
+*.pyc
 
 # Ningun PKG entra en el repo, este donde este (pesan cientos de MB / GBs)
 *.pkg
@@ -16,3 +18,4 @@ emu/**
 !emu/**/
 !emu/**/*.md
 !emu/RETROARCH/info/*.info
+!emu/RETROARCH/playlists/*.lpl
