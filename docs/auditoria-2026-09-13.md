@@ -61,6 +61,16 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 - La barra de estado muestra `1.8.8 - mGBA (0.8.1 7ad318f5)`: el core instalado es **mGBA 0.8.1**, mientras `mgba_libretro.info` del repo declara `0.10-dev`. Prueba directa de que los `.info` son más nuevos que los cores.
 - Otra sesión extrajo de los `.self` de `/data/self/retroarch/cores/` (por FTP) las versiones y extensiones que declara cada binario: `prosystem 1.3e`, `gearboy 3.4.1`, `mednafen_wswan 0.9.35.1` y `stella2014 3.9.3` coinciden con sus `.info`; las extensiones coinciden en los cinco comprobados (mGBA incluido; el `.info` de prosystem añade `cdf` y el de wswan `pcv2`, siempre de más, nunca de menos). De `handy` no se pudo leer. Conclusión: el desfase afecta a los cores en desarrollo activo (mGBA y previsiblemente VICE, ScummVM, PPSSPP, Flycast, atari800), y a las listas `.lpl` no les afecta.
 
+## Documentación añadida
+
+- Cómo se carga GoldHEN en 12.52 (`INSTALL.md`) y uso diario de RetroArch: menú, partidas, guardados rápidos, capturas, trucos y configuración, con las rutas verificadas en la consola.
+- Sección "Solo con Linux" (GameCube, Wii, PS3, Vita) con lo que cuesta y por qué no está planificado.
+- PS2 Classics (PS2-FPKG, PS2 Classic GUI, Jak v2/Rogue) y PS1 Classics (PSX-FPKG, `ps1hd`), con las listas de compatibilidad de PSDevWiki.
+- Cores instalados sin carpeta (Atari ST, Jaguar, Vectrex, ColecoVision, VIC-20/Plus4/PET/C128, Doom, Quake, Java ME, VMU).
+- Trucos: GoldHEN (`goldhen_cheats/`, `/user/data/GoldHEN/cheats/`) frente a RetroArch (`.cht`) y shadPS4 (`ps4_cheats/`, histórico).
+- Índice de BIOS con hashes; `bios_U.sms` creada a partir de la europea (mismo SHA-1).
+- README raíz con índice; `emu/init.md` a `docs/historico/`.
+
 ## No verificable desde aquí
 
-ConsoleMods, PSX-Place, PSXHAX, GBAtemp, PSDevWiki y GameBrew devuelven 403 al acceso automático, y archive.org no es accesible. Para esas fuentes se usaron los extractos de búsqueda. Pendiente de comprobar en la consola: lista real de `/data/self/retroarch/cores/`, versión del Core Installer (r4 o r4.1), combinación de botones del menú.
+ConsoleMods, PSX-Place, PSXHAX, GBAtemp, PSDevWiki y GameBrew devuelven 403 al acceso automático, y archive.org no es accesible. Para esas fuentes se usaron los extractos de búsqueda. Pendiente de comprobar en la consola: lista real de `/data/self/retroarch/cores/`, versión del Core Installer (r4 o r4.1), y de qué versión de MAME tienen que ser los romsets de NAOMI/Atomiswave para el Flycast de 2020. La combinación del menú (Start + Select) sí está confirmada en `retroarch.cfg`.

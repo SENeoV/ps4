@@ -106,6 +106,23 @@ La cadena está bien si:
 
 Con eso validado, ya se puede meter contenido en volumen y pasar a los sistemas que sí necesitan BIOS.
 
+## Uso diario de RetroArch
+
+Rutas verificadas en *Ajustes → Carpeta* de la consola (13-09-2026):
+
+| Qué | Dónde | Notas |
+|---|---|---|
+| Menú rápido durante un juego | **Start + Select** | Es el único atajo configurado (`retroarch.cfg`). Desde ahí: guardar/cargar estado, trucos, cerrar contenido |
+| Partidas (`.srm`) | `/data/retroarch/savefiles/` | Carpeta plana. Se escriben al cerrar el juego, salvo que se active el autoguardado (ver `PENDIENTES.md`, P0) |
+| Guardados rápidos | `/data/retroarch/savestates/` | `<nombre de la ROM>.state`, `.state1`… |
+| Capturas de pantalla | Junto a la ROM (`<Content Directory>`) | Acaban en `/data/ROMS/<SISTEMA>/`; conviene apuntarlas a otra carpeta |
+| Trucos de RetroArch (`.cht`) | `/data/retroarch/cheats/` | Distintos de los de GoldHEN (`/user/data/GoldHEN/cheats/`) |
+| Configuración | `/data/retroarch/retroarch.cfg` y `/data/retroarch/config/` | Copiar `retroarch.cfg` al PC antes de cambiar ajustes en volumen |
+| Listas de juegos, bases de datos, carátulas | `/data/retroarch/{playlists,database/rdb,thumbnails}/` | Ver `emu/RETROARCH/README.md` |
+| Cores | `/data/self/retroarch/cores/` | Los pone el Core Installer; no se tocan por FTP |
+
+Salir de RetroArch: menú rápido → *Cerrar contenido*, y después *Salir de RetroArch* en el menú principal, o el botón PS. Si se sale con el botón PS a mitad de juego sin autoguardado, la partida del cartucho no se escribe.
+
 ## Si algo falla
 
 | Síntoma | Causa habitual |

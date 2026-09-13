@@ -1,6 +1,6 @@
 # Pendientes — lo que falta para un sistema retro 100% funcional
 
-Lista completa y priorizada de lo que falta **conseguir, preparar o configurar**. Está verificada contra la consola por FTP (solo lectura) y contra los `.info` de los 74 cores instalados el 2026-09-13.
+Lista completa y priorizada de lo que falta **conseguir, preparar o configurar**. Está verificada contra la consola por FTP (solo lectura) y contra los `.info` de libretro-core-info de los 74 cores instalados (2026-09-13); los cores son del port de 2020 y los `.info` actuales, así que algún nombre de BIOS puede diferir (ver `emu/RETROARCH/README.md`).
 
 **Quién lo hace:**
 
