@@ -67,7 +67,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 
 ## 2. Hoja de ruta
 
-Orden acordado el 2026-09-13. Cores, extensiones y BIOS están verificados contra los `.info` de los 74 cores instalados. El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola: **probar un juego antes de meter la colección entera**. Detalle de cada sistema en el `README.md` de su carpeta.
+Orden acordado el 2026-09-13. Cores, extensiones y BIOS salen de los `.info` de libretro-core-info (uno por cada uno de los 74 cores instalados); los cores son del port de 2020 y los `.info` actuales, así que pueden diferir en algún detalle (ver `emu/RETROARCH/README.md`). El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola: **probar un juego antes de meter la colección entera**. Detalle de cada sistema en el `README.md` de su carpeta.
 
 ### Tanda 1 — sin BIOS, deberían ir al 100%
 

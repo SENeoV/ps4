@@ -34,7 +34,9 @@ Diagnóstico que lo confirmó:
 
 74 archivos `.info`, uno por core instalado, de [libretro-core-info](https://github.com/libretro/libretro-core-info).
 
-`mupen64plus_libretro.info` es el `mupen64plus_next_libretro.info` de upstream renombrado: el core de PS4 se llama `mupen64plus_libretro_ps4.self` y RetroArch empareja core con `.info` **por nombre de archivo**.
+`mupen64plus_libretro.info` es una copia del `mupen64plus_next_libretro.info` de upstream: el core de PS4 se llama `mupen64plus_libretro_ps4.self` y RetroArch empareja core con `.info` **por nombre de archivo**. Ojo: el port trae `mupen64plus` y `mupen64plus_next` como dos cores distintos (el primero entró en R2, el segundo después), así que ese `.info` probablemente describe el core equivocado (el antiguo Mupen64Plus no lee `.ndd` ni `IPL.n64`). Se deja así porque N64 está aparcado; si se prueba, usar `mupen64plus_next`.
+
+Los `.info` son los actuales de libretro-core-info y los cores del port son de 2020: donde el core sigue en desarrollo (mGBA 0.8.1 en la consola frente a 0.10-dev en el `.info`) pueden diferir en extensiones, BIOS o versión.
 
 ## Cómo aplicarlo
 

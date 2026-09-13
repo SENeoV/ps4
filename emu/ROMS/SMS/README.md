@@ -1,8 +1,11 @@
 # SMS — Master System (1985)
 
-- **Emulador recomendado:** Genesis Plus GX
-- **Extensión de ROM:** `.sms`
-- **BIOS:** No
-- **Compatibilidad PS4 Pro:** 🟢 Excelente
+- **Estado:** En la PS4 — ✅ probado (*Indiana Jones and the Last Crusade*, ya con partida guardada)
+- **Cores instalados en la PS4:** `genesis_plus_gx` (recomendado y core de la lista), `picodrive`
+- **Extensiones:** `.sms`
+- **BIOS:** no necesita. `bios_E.sms`, `bios_U.sms`, `bios_J.sms` opcionales (arranque original): E y J ya subidas, U en el PC pendiente de subir
+- **ROMs:** 333 en `/data/ROMS/SMS/`
 
-**Notas:** Prioridad Nivel 1.
+**Notas:** Genesis Plus GX es el core de referencia para todo lo de 8 y 16 bits de Sega.
+
+_Cores, extensiones y BIOS según los `.info` de libretro-core-info (uno por core instalado, 2026-09-13). Los cores son del port R4 de 2020 y los `.info` son los actuales, así que en los cores que siguen en desarrollo (mGBA, VICE, ScummVM, PPSSPP, Flycast, atari800…) extensiones y BIOS pueden no coincidir con el core real; en los contrastados con el binario de la consola (stella2014, prosystem, gearboy, mednafen_wswan, mGBA) las extensiones coinciden. El rendimiento sale de informes de la comunidad y aún no se ha probado en esta consola._
