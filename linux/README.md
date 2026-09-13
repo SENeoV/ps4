@@ -146,6 +146,7 @@ La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace
 - **Backend OpenGL**, no Vulkan: Vulkan se cuelga en PS4 Pro con Mesa ≥ 22. Resolución interna 1x (nativa) para empezar; la GPU sobra y se puede subir a 2x, el límite es la CPU (8 Jaguar a 2,1 GHz). `mitigations=off` en `bootargs.txt` ayuda.
 - **Expectativa.** No hay informe de *Wind Waker* en PS4; la referencia es *Pikmin* a 50 fps en PS4 Pro con OpenGL (GBAtemp) y, en la guía, Cemu (Wii U, mucho más pesado) a 50-55 fps. *Wind Waker* es un juego ligero para Dolphin: lo previsible es velocidad completa con alguna bajada.
 - **Los juegos (🧑).** Dolphin lee `.iso`, `.gcm` y `.rvz` (RVZ es el formato comprimido de Dolphin, sin pérdida; *Wind Waker* ocupa 1,4 GB en ISO). La partición de Linux del pendrive es ext4 y Windows no la escribe, así que las ISO van en **otro USB en exFAT** (Linux lo lee) o se copian por red (Wi-Fi) una vez arrancado. Hace falta un hub USB para teclado y ratón: pendrive, USB de juegos y mando ocupan los tres puertos.
+- **Ya configurado por SSH (13-09):** `GFXBackend = OGL`, carpeta de juegos `/home/ps4/Juegos` con `Zelda-Wind-Waker-Europe.rvz`.
 - **Mando.** El DualShock 4 **por cable USB** funciona sin emparejar; por Bluetooth hay que emparejarlo en cada arranque de Linux. En Dolphin: *Controllers → Port 1 → Standard Controller*, dispositivo `evdev`/`SDL`, y asignar botones. Para Wii, *Emulated Wii Remote* con el mismo mando.
 - **Wii** funciona igual (mismo Dolphin), con el puntero del Wiimote mapeado al stick derecho. Menos cómodo, pero para juegos sin puntero va bien.
 
@@ -208,7 +209,16 @@ Lecciones:
 - El instalador borra el `bootargs.txt` al reparticionar: hay que recrearlo con `root=LABEL=psxitarch` (20:08, arranque directo a SDDM sin `resume-boot`).
 - La Pro Baikal no tiene Ethernet en Linux. El Wi-Fi MediaTek escanea bien con `iw dev wlan2 scan`, pero NetworkManager lista solo dos redes: conectar con `nmcli device wifi connect "RED" password "…" hidden yes`. Funcionó con el punto de acceso móvil del PC (`JFK-963`, red 192.168.137.x); el router Digi de casa, mejor por su SSID de 2,4 GHz (`DIGIFIBRA-938F`; el `-PLUS-` es 5 GHz). `hostname` e `ifconfig` no existen: `ip -4 a`.
 - `instalar.sh` (20:25): los 10 paquetes entran; el `ERROR` de `mkinitcpio` (`/boot/vmlinuz-linux`) es inofensivo, el kernel viene del pendrive. **Dolphin 2509 abre.**
-- El SSH de la distro solo escucha en socket local hasta hacer `sudo systemctl start sshd`.
+- El SSH de la distro solo escucha en socket local hasta hacer `sudo systemctl start sshd` (ya está `enabled`). Desde el PC entra `paramiko` con `ps4`/`ps4`; ojo con Git Bash, que convierte los argumentos que empiezan por `/` en rutas de Windows (`MSYS_NO_PATHCONV=1`).
+
+### 2026-09-13, noche — Payload Guest, ajustes por SSH y el juego en la consola
+
+- **Payload Guest** instalado y `/data/payloads/` con los 30 `.bin` de `pkg/payloads/`; el `meta.json` sin `icon` lo rompía y se quitó. Linux se arranca desde la consola eligiendo `linux-2048mb.bin`.
+- La IP de Linux en la red de casa fue **192.168.1.180** (Wi-Fi `DIGIFIBRA-PLUS-938F`, conectada con `hidden yes`); cambia con DHCP, se localiza por la MAC del Wi-Fi (`e8:9e:b4:9e:bd:6f`).
+- Por SSH: **autologin en LXDE** (`/etc/sddm.conf.d/autologin.conf`, `Session=LXDE`; las sesiones disponibles son `LXDE`, `openbox` y `plasmax11`), `Dolphin.ini` con `GFXBackend = OGL` e `ISOPath0 = /home/ps4/Juegos`, y ***Wind Waker* copiado** por SFTP como `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz` (SHA-1 igual al catálogo). SFTP no aceptó el nombre largo con comas y paréntesis.
+- Revisión del log de arranque (`journalctl -b -p warning`): ningún servicio fallido. Se arregló lo que hacía ruido: **ZRAM** (la distro lo configura pero el kernel `baikal_mt76` no trae el módulo: `dev-zram0.device` agotaba el tiempo cada 90 s y alargaba el arranque a 3:30; desactivado renombrando `/etc/systemd/zram-generator.conf`) y **dominio regulatorio** (`WIRELESS_REGDOM="ES"` en `/etc/conf.d/wireless-regdom`). Lo demás es normal en PS4 con 5.4: sin ACPI ni IOAPIC, `pci=biosirq`, `over-current` falso en los puertos USB (lo de Baikal), `ahci probe failed` (sin SATA, por eso no hay disco interno), systemd pidiendo kernel ≥ 5.7, y la partición ext4 sin journal ("mounting unchecked fs": apagar siempre desde el menú).
+- El disco interno de la PS4 aparece en Linux como `sdb` con sus 16 particiones cifradas. No tocar.
+- `pacman -S` funciona con red; `ifconfig`/`iwconfig`/`nslookup` no existen como paquetes (son `net-tools`, `wireless_tools`, `bind`); con `ip`, `iw` y `getent hosts` sobra.
 
 ## Problemas conocidos
 

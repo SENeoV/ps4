@@ -206,11 +206,13 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🎮 `instalar.sh` ejecutado: Dolphin 2509 abre (13-09)
 - [x] 🎮 Wi-Fi: conecta con `hidden yes` (NetworkManager no lista la red aunque `iw` la ve). Probado con el hotspot del PC
 - [x] 🤖 Payload Guest subido a `/data/pkg/` y los payloads a `/data/payloads/` (13-09): Linux se arranca desde la consola
-- [ ] 🎮 Instalar Payload Guest desde el Package Installer y arrancar Linux con él
+- [x] 🎮 Payload Guest instalado; Linux arranca desde la consola (13-09)
 - [x] 🧑 *Wind Waker* (Europe, RVZ, `GZLP01`, 870 MB) en `emu/ROMS/GC/` (13-09)
-- [ ] 🤖 Copiarlo a la PS4: por `scp` a `/home/ps4/Juegos/` con Linux arrancado, Wi-Fi y `sudo systemctl start sshd`, o por un USB exFAT
+- [x] 🤖 Copiado por SFTP a `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz`, SHA-1 verificado; Dolphin configurado con OpenGL y esa carpeta (13-09)
+- [x] 🤖 Autologin en LXDE, ZRAM desactivado (sin módulo en el 5.4) y `WIRELESS_REGDOM=ES`, por SSH (13-09)
 - [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
-- [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro); si va, se queda
+- [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro y trae ZRAM); si va, se queda y se reactiva el `zram-generator.conf`
+- [ ] 🧑 Apagar Linux siempre desde el menú (partición sin journal); algún día `e2fsck` en frío desde la rescue shell
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
 - [ ] 🎮 Dolphin con backend OpenGL y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware (necesita red o su paquete del AUR compilado)
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
