@@ -15,6 +15,7 @@ Documentos de estado, que hay que mantener al día cuando algo cambia:
 - `INSTALL.md`: mapeo de carpetas PC → PS4 y procedimiento de instalación por FTP.
 - `emu/ROMS/<SISTEMA>/README.md`: core, extensiones y BIOS de cada sistema. `emu/emuladores-ps4.md`: matriz global y sistemas descartados.
 - `docs/auditoria-2026-09-13.md`: qué afirmaciones de la documentación se verificaron, cuáles eran falsas y con qué fuente. Consultarlo antes de repetir una afirmación técnica sobre la consola o los cores.
+- `docs/historico/`: borradores antiguos, como el `init.md` original de ChatGPT. No usar como referencia: contradicen lo verificado.
 
 ## Comandos
 
@@ -71,7 +72,7 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ## pkg/: PKGs de homebrew, juegos y herramientas
 
-Está ignorada por git; sus archivos se catalogan como sistema `PKG` en `catalogo/PKG/`. Sirve para:
+Sus archivos no entran en git (`*.pkg` y `*.exe` están ignorados por extensión) y se catalogan como sistema `PKG` en `catalogo/PKG/`. Sirve para:
 
 - homebrew que se instala en la consola: se sube a `/data/pkg/` y se instala desde *Debug Settings → Package Installer*, igual que `emu/APPS`;
 - juegos y backups en fPKG;
@@ -80,11 +81,14 @@ Está ignorada por git; sus archivos se catalogan como sistema `PKG` en `catalog
 
 Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide con el Content ID del paquete (`PS4_CUSA01116_v2.32.pkg` contiene `CUSA01015`), así que el Content ID fiable es el `content-id` del `.ref`, que inventory.py lee de la cabecera del PKG.
 
-## ps4_cheats/: trucos
+## ps4_cheats/ y goldhen_cheats/: trucos
 
-Es un submódulo de `shadps4-emu/ps4_cheats`, pensado para el emulador shadPS4 de PC: trucos JSON en `CHEATS/` y parches XML en `PATCHES/`. Está en `.gitmodules`, pero también en `.gitignore`, y no está registrado en el índice (`git submodule status` lo marca con `-`). Su contenido no se edita.
+Dos submódulos con formatos parecidos pero destinos distintos:
 
-Por ahora solo se consulta. La idea es llevar trucos a GoldHEN en la consola, pero ese flujo aún no está definido. GoldHEN no usa este repo sino [GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository), con los trucos en `/user/data/GoldHEN/cheats/{json,shn,mc4}/` y nombre `{titleid}_{version}.{ext}`; antes de convertir o subir nada, confirmar que eso sigue vigente. En `pkg/` está el PS4 Cheats Manager (`CHTM00777`).
+- `goldhen_cheats/` es [GoldHEN/GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository), el repositorio oficial que lee el menú de trucos de GoldHEN en la consola. Archivos `{TITLEID}_{versión}.json`, `.shn` o `.mc4` en `json/`, `shn/` y `mc4/`; en la PS4 van a `/user/data/GoldHEN/cheats/json/`, `/shn/` y `/mc4/` (un formato por juego y versión). Se suben por FTP; solo sirven para juegos de PS4, no para lo emulado en RetroArch.
+- `ps4_cheats/` es `shadps4-emu/ps4_cheats`, trucos JSON y parches XML para el emulador shadPS4 de PC. Es un gitlink en el índice pero no está inicializado (`git submodule status` lo marca con `-`). Se conserva como histórico; no vale para GoldHEN.
+
+Ninguno de los dos se edita. En `pkg/` está el PS4 Cheats Manager (`CHTM00777`). Detalle en `emu/emuladores-ps4.md`, sección "Trucos".
 
 ## Git
 

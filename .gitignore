@@ -1,10 +1,10 @@
-/pkg
-/ps4_cheats
 __pycache__/
 *.pyc
 
 # Ningun PKG entra en el repo, este donde este (pesan cientos de MB / GBs)
 *.pkg
+# Instaladores de Windows (pkg/win/)
+*.exe
 
 # Comprimidos descargados (packs de ROMs, covers...) en cualquier ubicacion
 *.rar
