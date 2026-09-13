@@ -1,8 +1,8 @@
 # XBOX — Xbox / Xbox 360 (2001 / 2005)
 
-- **Emulador recomendado:** — (no viable)
-- **Extensión de ROM:** —
-- **BIOS:** —
-- **Compatibilidad PS4 Pro:** 🔴 No recomendable
+- **Estado:** No viable
+- **Core en la PS4:** ninguno
+- **Extensiones:** `.iso` / `.xiso` (xemu), `.iso` (Xenia)
+- **BIOS:** xemu necesita BIOS y MCPX de Xbox; Xenia no
 
-**Notas:** Aunque Xbox/Xbox 360 son x86 como PS4, no existe ningún port de Cxbx-Reloaded ni Xenia para orbis. Xenia además necesita mucha más potencia (recompilación JIT + GPU DX12/Vulkan avanzada) de la que ofrece la PS4.
+**Notas:** Aunque Xbox y PS4 son x86, no existe port de Cxbx-Reloaded, xemu ni Xenia para orbis. Bajo Linux, xemu (Xbox original) es posible en teoría, pero sin informes en PS4; Xenia (360) necesita mucha más potencia (JIT + GPU DX12/Vulkan avanzada) de la que da la PS4. Fuera de la hoja de ruta.

@@ -1,8 +1,8 @@
 # 3DS — Nintendo 3DS (2011)
 
-- **Emulador recomendado:** — (no viable)
-- **Extensión de ROM:** `.3ds / .cia`
-- **BIOS:** —
-- **Compatibilidad PS4 Pro:** 🔴 No recomendable
+- **Estado:** No viable
+- **Core en la PS4:** ninguno
+- **Extensiones:** `.3ds` `.cia` `.cci` (Azahar / Lime3DS)
+- **BIOS:** no necesita
 
-**Notas:** No hay opción práctica en PS4 Pro actualmente.
+**Notas:** No hay emulador de 3DS para el sistema de la PS4. Bajo Linux, Azahar (sucesor de Citra) existe y en teoría podría correr en el Jaguar, pero no hay ningún informe en PS4. Fuera de la hoja de ruta.

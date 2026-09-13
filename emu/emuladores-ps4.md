@@ -10,7 +10,8 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 - 🟢/🟡 Muy buena — algunos juegos pueden necesitar ajustes
 - 🟡 Buena/variable — depende bastante del juego/core
 - 🟠 Experimental — reportado lento; no montar la colección alrededor
-- 🔴 No viable — sin core en esta PS4 o sin emulador práctico
+- 🐧 Solo con Linux — no hay emulador en el sistema de la PS4, pero sí arrancando Linux (sin probar en esta consola)
+- 🔴 No viable — sin core en esta PS4 y sin emulador práctico ni siquiera en Linux
 - ❔ Sin datos de rendimiento en PS4
 - ⏸ Aplazado
 - ✅ Probado en esta consola
@@ -66,10 +67,10 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 | 45 | Sega NAOMI (arcade) | 1998 | flycast | `.zip` | `dc/naomi.zip` | 🟡 probar |
 | 46 | Sega Atomiswave (arcade) | 2003 | flycast | `.zip` | `dc/awbios.zip` | 🟡 probar |
 | 47 | Pokémon Mini | 2001 | — (pokemini no instalado) | `.min` | — | 🔴 |
-| 48 | GameCube | 2001 | — | `.iso/.gcm/.rvz` | — | 🔴 |
-| 49 | Wii | 2006 | — | `.iso/.wbfs/.rvz` | — | 🔴 |
-| 50 | PS Vita | 2011 | — | — | — | 🔴 |
-| 51 | PS3 | 2006 | — | — | — | 🔴 |
+| 48 | GameCube | 2001 | — (Dolphin, solo en Linux) | `.iso/.gcm/.rvz` | — | 🐧 |
+| 49 | Wii | 2006 | — (Dolphin, solo en Linux) | `.iso/.wbfs/.rvz` | — | 🐧 |
+| 50 | PS Vita | 2011 | — (Vita3K, solo en Linux) | — | firmware de Vita | 🐧 sin informes |
+| 51 | PS3 | 2006 | — (RPCS3, solo en Linux) | — | firmware de PS3 | 🐧 pocos juegos |
 | 52 | Xbox / Xbox 360 | 2001/2005 | — | — | — | 🔴 |
 | 53 | Nintendo Switch | 2017 | — | — | — | 🔴 |
 
@@ -87,17 +88,35 @@ La hoja de ruta con casillas está en [`PLAN.md`](../PLAN.md). Resumen:
 6. **Ordenadores:** C64, DOS, ScummVM.
 7. **Probar después:** Dreamcast, NAOMI, Atomiswave, Saturn, 3DO, PC-FX.
 8. **Aparcados:** N64 y DS, reportados lentos; PS2 para más adelante.
+9. **Solo con Linux, fuera de la hoja de ruta:** GameCube, Wii, PS3 y PS Vita.
 
-### Descartadas — no viables en esta PS4 (GoldHEN 12.52, sin Linux)
+### Solo con Linux — GameCube, Wii, PS3 y PS Vita
 
-Consolas más modernas que se preguntan a menudo, pero que **no** son una opción práctica hoy en este dispositivo concreto:
+Dentro del sistema de la PS4 no hay emulador para ninguna de estas: Dolphin necesita OpenGL 3.3 / GLES 3.0 / Vulkan y el port de RetroArch (orbis) solo llega a OpenGL ES 2; RPCS3 y Vita3K solo existen para Linux, Windows y macOS.
 
-- **GameCube / Wii** — Dolphin (el único emulador que las soporta) necesita OpenGL 3.0+ o Vulkan; el port de RetroArch para PS4 (orbis) solo llega a OpenGL ES2. No hay build funcional del core ni un standalone.
-- **PS Vita / PS3** — Vita3K y RPCS3 solo corren sobre Linux/Windows/macOS. En PS4 la única vía sería arrancar Linux, y eso exige además saltarse el hipervisor: el jailbreak público (PPPwn) llega a firmware 11.00, hay payloads de Linux documentados hasta 12.02, pero nada confirmado para 12.5x — con GoldHEN 12.52 esta consola no tiene Linux disponible hoy. RPCS3, además, exige mucha más CPU/GPU de la que da el Jaguar de PS4.
-- **Xbox / Xbox 360** — pese a ser x86 como PS4, no existe ningún port de Cxbx-Reloaded ni Xenia para orbis. Xenia necesita además mucha más potencia (recompilación JIT + GPU DX12/Vulkan avanzada).
-- **Nintendo Switch** — Yuzu/Ryujinx exigen mucha más CPU y una GPU con Vulkan avanzado de lo que ofrece PS4. Ningún proyecto lo intenta sobre orbis.
+Lo que sí hay es **Linux en esta consola**. En 12.52 está disponible: [ps4-linux-loader](https://github.com/ps4-linux/ps4-linux-loader) soporta de 5.05 a 13.52 y detecta la PS4 Pro, GoldHEN 2.4b18.9 arregló el arranque (kexec), y hay distribuciones recientes (Debian 13, Xubuntu 25.04, CachyOS, Manjaro, octubre de 2025) con kernel 6.6 y driver AMDGPU. Bajo Linux corren emuladores de PC, con el mismo hardware: 8 núcleos Jaguar a 2,1 GHz y una GPU tipo Polaris.
 
-Si en el futuro se actualiza el jailbreak (firmware más bajo con Linux disponible) o aparece un port nuevo, revisar esta sección.
+| Consola | Emulador en Linux | Informes en PS4 Pro |
+|---|---|---|
+| GameCube / Wii | Dolphin | Funciona; *Pikmin* a 50 fps en PS4 Pro. Con OpenGL: el backend Vulkan se cuelga en PS4 Pro con Mesa 22 o superior |
+| PS3 | RPCS3 | *Demon's Souls* y *Folklore* reportados jugables; los juegos que cargan las SPU van cortos de CPU |
+| PS Vita | Vita3K | Sin informes en PS4. El emulador sigue experimental incluso en PC |
+
+Lo que cuesta, y por lo que **no está en la hoja de ruta**:
+
+- Cada arranque de Linux exige GoldHEN cargado y luego el loader; al reiniciar vuelve el sistema de la PS4 intacto. No conviven: mientras está Linux no hay RetroArch ni PS1/PSP Classics.
+- Linux vive en un USB o disco externo, con teclado y ratón. Es un PC con Linux que hay que administrar.
+- Ninguno de estos informes está verificado en esta consola.
+
+Si algún día se quiere probar, es un proyecto aparte: distro de [ps4linux.com](https://ps4linux.com/) y loader, en un disco propio.
+
+### No viables
+
+- **Xbox / Xbox 360** — pese a ser x86 como PS4, no existe ningún port de Cxbx-Reloaded ni Xenia para orbis. En Linux, xemu (Xbox original) es posible en teoría, pero no hay informes en PS4; Xenia necesita mucha más potencia (JIT + GPU DX12/Vulkan avanzada).
+- **Nintendo Switch** — Yuzu/Ryujinx exigen mucha más CPU y una GPU con Vulkan avanzado de lo que ofrece PS4, también bajo Linux. Ningún proyecto lo intenta sobre orbis.
+- **Nintendo 3DS** — sin emulador en orbis. En Linux (Azahar/Lime3DS) sería posible en teoría, sin informes en PS4.
+
+Si aparece un port nuevo para orbis, revisar esta sección.
 
 **Sin core en esta PS4:** Neo Geo CD, Amiga, ZX Spectrum, Sharp X68000, CHIP-8 y Pokémon Mini tienen emulador en RetroArch, pero su core no está entre los 74 instalados.
 
@@ -139,7 +158,7 @@ Cada colección debe corresponder a la versión exacta del core que la ejecuta.
 
 Qué va a cada ruta de la consola (PKG, ROMs, BIOS, `.info` y partidas) está en [`INSTALL.md`](../INSTALL.md).
 
-**Nota:** no actualizar el firmware 12.52 solo para conseguir una versión más nueva de un emulador — la versión de firmware es una variable crítica en una consola con GoldHEN.
+**Nota:** no actualizar el firmware 12.52. Hay exploit público hasta 13.00; por encima no hay nada, y se perdería GoldHEN, RetroArch y Linux. Cómo se carga GoldHEN en 12.52, en [`INSTALL.md`](../INSTALL.md).
 
 ## Referencias
 
@@ -152,3 +171,6 @@ Qué va a cada ruta de la consola (PKG, ROMs, BIOS, `.info` y partidas) está en
 - [PS Classics fPKG Builder — GitHub](https://github.com/SvenGDK/PS-Classics-fPKG-Builder/releases)
 - [PS1 Classics Emulator Compatibility List — PSDevWiki](https://www.psdevwiki.com/ps4/PS1_Classics_Emulator_Compatibility_List)
 - [PSP Classics Emulator Compatibility List — PSDevWiki](https://www.psdevwiki.com/ps4/Template:PSP_Classics_Emulator_Compatibility_List)
+- [ps4-linux-loader — GitHub](https://github.com/ps4-linux/ps4-linux-loader)
+- [PS4Linux: distros y noticias](https://ps4linux.com/) · [Vulkan en PS4 Pro](https://ps4linux.com/ps4-pro-fix-vulkan-fix-crash/)
+- [Dolphin on PS4 Pro — GBAtemp](https://gbatemp.net/threads/dolphin-on-ps4-pro.495799/) · [Linux games on PS4 Pro — GBAtemp](https://gbatemp.net/threads/linux-games-on-ps4-pro.576294/)

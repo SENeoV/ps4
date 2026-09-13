@@ -1,8 +1,8 @@
 # SWITCH — Nintendo Switch (2017)
 
-- **Emulador recomendado:** — (no viable)
-- **Extensión de ROM:** —
-- **BIOS:** —
-- **Compatibilidad PS4 Pro:** 🔴 No recomendable
+- **Estado:** No viable
+- **Core en la PS4:** ninguno
+- **Extensiones:** `.nsp` `.xci` (Ryujinx)
+- **BIOS:** claves y firmware de Switch
 
-**Notas:** Yuzu/Ryujinx exigen mucha más CPU y una GPU con Vulkan avanzado (shaders, caché de shaders) de lo que ofrece PS4. No existe ningún proyecto que lo intente sobre orbis.
+**Notas:** Ryujinx exige mucha más CPU y una GPU con Vulkan avanzado de lo que ofrece la PS4, también bajo Linux. Ningún proyecto lo intenta sobre orbis. Fuera de la hoja de ruta.

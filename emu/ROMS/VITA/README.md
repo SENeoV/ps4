@@ -1,8 +1,8 @@
 # VITA — PS Vita (2011)
 
-- **Emulador recomendado:** — (no viable)
-- **Extensión de ROM:** —
-- **BIOS:** —
-- **Compatibilidad PS4 Pro:** 🔴 No recomendable
+- **Estado:** Solo con Linux — fuera de la hoja de ruta
+- **Core en la PS4:** ninguno. Vita3K solo existe para Linux, Windows, macOS y Android
+- **Extensiones:** `.vpk` o carpeta del juego descifrado (Vita3K)
+- **BIOS:** firmware de Vita (`PSVUPDAT.PUP`) y fuentes (`PSP2UPDAT.PUP`), que Vita3K instala
 
-**Notas:** Vita3K solo corre en Windows/Linux/macOS/Android. En PS4 solo sería viable arrancando Linux, y eso exige además un bypass del hipervisor: el jailbreak público (PPPwn) llega a firmware 11.00, y hay payloads de Linux documentados hasta 12.02, pero sin confirmación pública para 12.5x. En 12.52 (esta consola) no hay Linux disponible hoy.
+**Notas:** Vita3K sigue siendo experimental incluso en PC, y no hay ningún informe de uso en PS4 con Linux. Es la menos prometedora de las cuatro. Sin probar en esta consola. Detalle en [`../../emuladores-ps4.md`](../../emuladores-ps4.md#solo-con-linux--gamecube-wii-ps3-y-ps-vita).
