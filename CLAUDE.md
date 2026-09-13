@@ -57,8 +57,8 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ## La consola
 
-- PS4 Pro con GoldHEN 12.52. **No actualizar el firmware**: GoldHEN depende de esa versión exacta.
-- RetroArch es el port no oficial basado en 1.8.8 (`SSNE10000`), con los cores del Core Installer (`SSNE20000`). Core, extensiones y BIOS se verifican contra los `.info` de `emu/RETROARCH/info/`, que corresponden a los cores instalados. RetroArch empareja cada core con su `.info` por nombre de archivo; por eso `mupen64plus_libretro.info` está renombrado.
+- PS4 Pro con firmware 12.52 y GoldHEN. **No actualizar el firmware**: GoldHEN cubre de 5.05 a 13.00, y por encima de 13.00 hoy no hay exploit.
+- RetroArch es el port no oficial de OsirisX basado en 1.8.8 (`SSNE10000`, release R4 de 2020), con los cores del Core Installer (`SSNE20000`). Core, extensiones y BIOS se contrastan con los `.info` de `emu/RETROARCH/info/`, pero con una salvedad: hay un `.info` por core instalado, **pero son los del libretro actual, no los de los cores de 2020** (la consola muestra mGBA 0.8.1 y su `.info` dice 0.10-dev), así que extensiones y BIOS pueden no coincidir con el core real. RetroArch empareja cada core con su `.info` por nombre de archivo. `mupen64plus_libretro.info` es una copia del de Mupen64Plus-Next, pero el port trae `mupen64plus` y `mupen64plus_next` como cores distintos, así que probablemente describe el core equivocado; se deja como está.
 - No usar el *Online Updater* ni el *Core Updater* de RetroArch, porque apuntan a Bintray, que cerró. Todo se sube por FTP.
 - Las rutas distinguen mayúsculas (`/data/ROMS` ≠ `/data/roms`). Los nombres de archivo van sin tildes ni ñ: FileZilla los sube con otra codificación y dejan de coincidir con el PC y con sus partidas.
 - Los romsets de arcade tienen que ser exactamente de la versión del core (FB Alpha 2012, MAME 2003-Plus) y no se mezclan.
@@ -84,7 +84,7 @@ Las tiendas están en `pkg/stores/`. El nombre del archivo no siempre coincide c
 
 Es un submódulo de `shadps4-emu/ps4_cheats`, pensado para el emulador shadPS4 de PC: trucos JSON en `CHEATS/` y parches XML en `PATCHES/`. Está en `.gitmodules`, pero también en `.gitignore`, y no está registrado en el índice (`git submodule status` lo marca con `-`). Su contenido no se edita.
 
-Por ahora solo se consulta. La idea es llevar trucos a GoldHEN en la consola, pero ese flujo aún no está definido: antes de convertir o subir nada hay que verificar el formato y la ruta que espera GoldHEN. En `pkg/` está el PS4 Cheats Manager (`CHTM00777`).
+Por ahora solo se consulta. La idea es llevar trucos a GoldHEN en la consola, pero ese flujo aún no está definido. GoldHEN no usa este repo sino [GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository), con los trucos en `/user/data/GoldHEN/cheats/{json,shn,mc4}/` y nombre `{titleid}_{version}.{ext}`; antes de convertir o subir nada, confirmar que eso sigue vigente. En `pkg/` está el PS4 Cheats Manager (`CHTM00777`).
 
 ## Git
 
