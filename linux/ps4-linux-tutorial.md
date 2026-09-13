@@ -461,12 +461,12 @@ Here are the distros that we can't recommend anymore, as they have been supersee
 
 It may be useful to you if you want something other than Arch, or if you have a Baikal southbridge.
 
-If you want to take the risk, go to the [legacy page](legacy).
+If you want to take the risk, go to the [legacy page](#legacy).
 
 >[!NOTE]
 >Want to add more distros? Make an issue and your wish shall be granted.
 >
->Want to make your own? [Check this out!](distrodiy)
+>Want to make your own? [Check this out!](#distrodiy)
 
 </details>
 ## To the installation we go
@@ -734,7 +734,7 @@ Now that the storage is covered, here comes the moment of truth. You'll be sent 
 
 - If you have a disc in your console, remove it by running `eject /dev/sr0` or it'll corrupt the installation
 - Type `install-psxitarch.sh`
-	- If it fails, go to the [Installation Issues](#issues), or use the [alternative method](external-installation-manual).
+	- If it fails, go to the [Installation Issues](#issues), or use the [alternative method](#external-installation-manual).
 
 Hydrate yourself while you wait. It'll take a while.
 
@@ -971,7 +971,7 @@ Finally, install the driver packages:
 sudo pacman -Syu lib32-mesa-ps4 mesa-ps4 lib32-libdrm-ps4 libdrm-ps4 xf86-video-amdgpu-ps4
 ```
 
-You should now have up-to-date drivers. If you want to, you can also go to the [DIY section](distrodiy) and make them from the AUR or from scratch!
+You should now have up-to-date drivers. If you want to, you can also go to the [DIY section](#distrodiy) and make them from the AUR or from scratch!
 </details>
 
 <details><summary>Debian/Ubuntu based distros (WITH Mesa updates, WIP)</summary>
