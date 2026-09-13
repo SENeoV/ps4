@@ -6,3 +6,5 @@
 - **BIOS:** no necesita
 
 **Notas:** Arrancando Linux en esta PS4 (disponible en 12.52) Dolphin funciona: hay informes de *Pikmin* a 50 fps en PS4 Pro con OpenGL. Qué implica y cómo va el proyecto, en [`../../emuladores-ps4.md`](../../emuladores-ps4.md#solo-con-linux--gamecube-wii-ps3-y-ps-vita). Sin probar en esta consola.
+
+**Juegos (13-09-2026):** *The Legend of Zelda: The Wind Waker* (Europe, En/Fr/De/Es/It), `GZLP01`, en RVZ (870 MB; Dolphin lo lee sin descomprimir). Es el juego objetivo del proyecto Linux; cómo llega a la consola y cómo se lanza, en [`linux/README.md`](../../../linux/README.md#dolphin-gamecube-y-wii-el-objetivo).

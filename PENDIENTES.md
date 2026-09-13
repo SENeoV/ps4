@@ -207,7 +207,8 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🎮 Wi-Fi: conecta con `hidden yes` (NetworkManager no lista la red aunque `iw` la ve). Probado con el hotspot del PC
 - [x] 🤖 Payload Guest subido a `/data/pkg/` y los payloads a `/data/payloads/` (13-09): Linux se arranca desde la consola
 - [ ] 🎮 Instalar Payload Guest desde el Package Installer y arrancar Linux con él
-- [ ] 🧑 ISO de *Wind Waker* a `emu/ROMS/GC/` en el PC; se copia a la PS4 por `scp` (con `sudo systemctl start sshd` en Linux) o por un USB exFAT
+- [x] 🧑 *Wind Waker* (Europe, RVZ, `GZLP01`, 870 MB) en `emu/ROMS/GC/` (13-09)
+- [ ] 🤖 Copiarlo a la PS4: por `scp` a `/home/ps4/Juegos/` con Linux arrancado, Wi-Fi y `sudo systemctl start sshd`, o por un USB exFAT
 - [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
 - [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro); si va, se queda
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
