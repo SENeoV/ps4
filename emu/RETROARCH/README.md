@@ -95,7 +95,7 @@ Generadas con `python tools/retroarch_lists.py`, con la misma estructura JSON (v
 | `GG/` | `Sega - Game Gear` | genesis_plus_gx |
 | `MD/` | `Sega - Mega Drive - Genesis` | genesis_plus_gx |
 | `ATARI2600/` | `Atari - 2600` | stella2014 |
-| `ATARI7800/` | `Atari - 7800` | prosystem — sin lista mientras la carpeta esté vacía |
+| `ATARI7800/` | `Atari - 7800` | prosystem |
 | `PCE/` | `NEC - PC Engine - TurboGrafx 16` | mednafen_pce_fast |
 | `NGP/` | `SNK - Neo Geo Pocket` | mednafen_ngp |
 | `NGPC/` | `SNK - Neo Geo Pocket Color` | mednafen_ngp |
@@ -142,9 +142,14 @@ Comprobado en disco: cada carátula coincide exactamente con el nombre del juego
 | Atari Lynx | 136 | 121 (89%) | 94 (69%) | 15,1 MB |
 | 32X | 45 | 36 (80%) | 35 (78%) | 9,5 MB |
 | Virtual Boy | 31 | 30 (97%) | 31 (100%) | 11,9 MB |
-| **Total** | **6816** | **6079 (89%)** | **5389 (79%)** | **1396,1 MB** |
+| Atari 7800 | 170 | 170 (100%) | 11 (6%) | 3,2 MB |
+| **Total** | **6986** | **6249 (89%)** | **5400 (77%)** | **1399,2 MB** |
 
-A subir en total: bases de datos 14,1 MB + listas 2,2 MB + carátulas 1396,1 MB ≈ **1,4 GB**.
+A subir en total: bases de datos 14,1 MB + listas 2,3 MB + carátulas 1399,2 MB ≈ **1,4 GB**.
+
+Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su lista sale al 100% con nombre oficial, pero el servidor de libretro apenas tiene portadas de este sistema: solo 11.
+
+**Extensiones comprobadas contra los cores reales de la consola** (leídas de los propios `.self` por FTP): mgba, stella2014, gearboy y mednafen_wswan coinciden con su `.info`. Los `.info` actuales declaran alguna extensión de más que el core de 2020 no tiene (`cdf` en prosystem, `pcv2` en mednafen_wswan), pero ninguna se usa en las listas.
 
 - Los juegos **sin carátula aparecen igual** en su lista, con su nombre.
 - SNES tiene cifras bajas porque 87 de sus ROMs son traducciones, versiones parcheadas o volcados alterados que no están en la base de datos: no se pueden reconocer por CRC. En WonderSwan pasa lo mismo con las variantes `[o]`, `[b]` y `[f]` de la colección GoodWSx.

@@ -35,15 +35,15 @@ Rutas de la PS4: BIOS en `/data/retroarch/system/`, ROMs en `/data/ROMS/<SISTEMA
 Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md).
 
 - [x] 🤖 18 bases de datos `.rdb` de libretro-database, con formato comprobado frente a la versión de RetroArch 1.8.8
-- [x] 🤖 17 listas con 6816 juegos: los 8 sistemas ya subidos y los 9 de la Tanda 1 (Atari 7800 no tiene lista porque su carpeta está vacía). Cada juego lleva su core; 6079 (89%) aparecen con su nombre oficial y el resto con el nombre de su archivo
-- [x] 🤖 5389 carátulas (79%) del servidor oficial de libretro y de `emu/MEDIA/`, reducidas a 512 px
+- [x] 🤖 18 listas con 6986 juegos: los 8 sistemas ya subidos y los 10 de la Tanda 1. Cada juego lleva su core; 6249 (89%) aparecen con su nombre oficial y el resto con el nombre de su archivo
+- [x] 🤖 5400 carátulas (77%) del servidor oficial de libretro y de `emu/MEDIA/`, reducidas a 512 px
 - [ ] 🎮 **Antes de subir las listas, subir las ROMs de la Tanda 1** a `/data/ROMS/<SISTEMA>/`: sus listas apuntan ahí y, si no están, mostrarán juegos que no abren
 - [ ] 🎮 **Subir por FTP, unos 1,4 GB:**
   - `emu/RETROARCH/database/rdb/*.rdb` → `/data/retroarch/database/rdb/`
   - `emu/RETROARCH/playlists/*.lpl` → `/data/retroarch/playlists/`
   - las carpetas de `emu/RETROARCH/thumbnails/` → `/data/retroarch/thumbnails/`
-- [ ] 🎮 Reiniciar RetroArch y comprobar que aparecen las 17 listas con sus carátulas
-- [ ] 🧑 Opcional: 1427 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan y Atari 2600 (traducciones, variantes y versiones alteradas que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
+- [ ] 🎮 Reiniciar RetroArch y comprobar que aparecen las 18 listas con sus carátulas
+- [ ] 🧑 Opcional: 1586 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan, Atari 2600 y Atari 7800 (del 7800 el servidor de libretro apenas tiene portadas; del resto son traducciones y variantes que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
 
 ### BIOS opcionales
 
@@ -64,7 +64,7 @@ Copiar y jugar. Lo recomendable son los sets **No-Intro** de cada sistema, porqu
 | | Sistema | Carpeta | Formato | Core | En el PC |
 |---|---|---|---|---|--:|
 | [x] | Atari 2600 | `ATARI2600/` | `.a26`, `.bin` | stella2014 | 885 |
-| [ ] 🧑 | Atari 7800 | `ATARI7800/` | `.a78` | prosystem | **falta** |
+| [x] | Atari 7800 | `ATARI7800/` | `.a78` | prosystem | 170 |
 | [x] | PC Engine / TurboGrafx-16 | `PCE/` | `.pce` | mednafen_pce_fast | 210 |
 | [x] | Neo Geo Pocket | `NGP/` | `.ngp` | mednafen_ngp | 3 |
 | [x] | Neo Geo Pocket Color | `NGPC/` | `.ngc` | mednafen_ngp | 72 |
@@ -76,12 +76,12 @@ Copiar y jugar. Lo recomendable son los sets **No-Intro** de cada sistema, porqu
 
 Ordenado el 2026-09-13, con cada movimiento en `cleanup-2026-09-13.tsv`. Neo Geo Pocket y WonderSwan están separados por la cabecera de cada ROM, no por la extensión: muchas venían en la carpeta o con la extensión del otro sistema.
 
-- [ ] 🧑 **Atari 7800:** la carpeta sigue vacía
+- [x] **Atari 7800:** 2821 archivos de cinco colecciones superpuestas, reducidos a las **170 ROMs que reconoce la base de datos**. Las 1191 restantes (hacks, homebrew, versiones PAL y variantes) están en `EXTRAS/ATARI7800-variantes`
 - [x] `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. La otra variante que traía la colección (`lynxboot.bin`) no es la oficial
-- [ ] 🧑 Opcional: `7800 BIOS (U).rom`
+- [ ] 🧑 Opcional: `7800 BIOS (U).rom`. La que venía en la colección es *7800 DEV OS*, homebrew, y no está en `System.dat`
 - [ ] 🎮 Subir las carpetas de la Tanda 1 a `/data/ROMS/<SISTEMA>/` y `lynxboot.img` a `/data/retroarch/system/`
 - [ ] 🎮 Probar un juego de cada sistema. Lynx tiene 13 prototipos sin cabecera `LYNX` que podrían no arrancar
-- [ ] 🧑 Revisar lo apartado en `EXTRAS/`: 808 duplicados, 26 `.7z` de Virtual Boy que no se pudieron abrir para comprobarlos, BIOS descartadas, y el emulador OSwan y otros archivos que venían con las colecciones
+- [ ] 🧑 Revisar lo apartado en `EXTRAS/` (4727 archivos): duplicados, las variantes de Atari 7800, 26 `.7z` de Virtual Boy que no se pudieron abrir para comprobarlos, BIOS descartadas, y el emulador OSwan y otros archivos que venían con las colecciones. Nada de esto se ha borrado
 
 ---
 
@@ -225,4 +225,5 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 ## No hace falta conseguir
 
 - **Sin core en esta PS4:** Pokémon Mini, Amiga, ZX Spectrum, Neo Geo CD, Sharp X68000 y CHIP-8
-- **No viables:** 3DS, GameCube, Wii, PS Vita, PS3, Xbox / Xbox 360 y Switch. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md)
+- **Solo con Linux, fuera de la hoja de ruta:** GameCube, Wii, PS3 y PS Vita. Linux arranca en 12.52, pero es un proyecto aparte
+- **No viables:** 3DS, Xbox / Xbox 360 y Switch. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md)
