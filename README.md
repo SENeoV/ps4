@@ -16,7 +16,7 @@ Todo lo que rodea a una **PS4 Pro con firmware 12.52 y GoldHEN**: la colección 
 | [`INVENTORY.md`](INVENTORY.md) · [`catalogo/`](catalogo/) | Inventario y punteros por archivo, regenerados en cada commit |
 | [`CLAUDE.md`](CLAUDE.md) | Guía del repo para Claude Code |
 | [`docs/`](docs/) | Auditorías y documentos históricos |
-| [`linux/README.md`](linux/README.md) | Linux en esta PS4 (Baikal B1): qué hay preparado, qué falta y el procedimiento paso a paso. Guía general de la escena en [`linux/ps4-linux-tutorial.md`](linux/ps4-linux-tutorial.md) (copia de dionkill.github.io, en inglés) |
+| [`linux/README.md`](linux/README.md) | Linux en esta PS4 (Baikal B1): qué hay preparado, qué falta y el procedimiento paso a paso. Dolphin y *Wind Waker*, en [`linux/dolphin.md`](linux/dolphin.md). Guía general de la escena en [`linux/ps4-linux-tutorial.md`](linux/ps4-linux-tutorial.md) (copia de dionkill.github.io, en inglés) |
 
 ## Estructura
 

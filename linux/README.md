@@ -138,6 +138,8 @@ GoldHEN → payload **`linux-2048mb.bin`** → arranca la distro sola desde el p
 
 ## Dolphin (GameCube y Wii): el objetivo
 
+**Configuración actual, cambios recomendados, mando y Bluetooth: [`dolphin.md`](dolphin.md).**
+
 La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace falta y lo que cabe esperar:
 
 - **GPU activa antes que nada.** `glxinfo | grep renderer` → `AMD Liverpool`. Con `llvmpipe` Dolphin va a pocos fps y no hay nada que ajustar: es la distro (Mesa) o el kernel. Dolphin necesita OpenGL 3.3; Mesa 25.1 da OpenGL 4.6 en esta GPU.
@@ -147,7 +149,7 @@ La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace
 - **Expectativa.** No hay informe de *Wind Waker* en PS4; la referencia es *Pikmin* a 50 fps en PS4 Pro con OpenGL (GBAtemp) y, en la guía, Cemu (Wii U, mucho más pesado) a 50-55 fps. *Wind Waker* es un juego ligero para Dolphin: lo previsible es velocidad completa con alguna bajada.
 - **Los juegos (🧑).** Dolphin lee `.iso`, `.gcm` y `.rvz` (RVZ es el formato comprimido de Dolphin, sin pérdida; *Wind Waker* ocupa 1,4 GB en ISO). La partición de Linux del pendrive es ext4 y Windows no la escribe, así que las ISO van en **otro USB en exFAT** (Linux lo lee) o se copian por red (Wi-Fi) una vez arrancado. Hace falta un hub USB para teclado y ratón: pendrive, USB de juegos y mando ocupan los tres puertos.
 - **Ya configurado por SSH (13-09):** `GFXBackend = OGL`, carpeta de juegos `/home/ps4/Juegos` con `Zelda-Wind-Waker-Europe.rvz`.
-- **Mando.** El DualShock 4 **por cable USB** funciona sin emparejar; por Bluetooth hay que emparejarlo en cada arranque de Linux. En Dolphin: *Controllers → Port 1 → Standard Controller*, dispositivo `evdev`/`SDL`, y asignar botones. Para Wii, *Emulated Wii Remote* con el mismo mando.
+- **Mando.** DualShock 4 **por cable USB: mapeado y funcionando** (13-09; `SDL/0/PS4 Controller`). **Por Bluetooth aún no**: hay que emparejarlo desde Linux en cada arranque (procedimiento en `dolphin.md`). Para Wii, *Emulated Wii Remote* con el mismo mando.
 - **Wii** funciona igual (mismo Dolphin), con el puntero del Wiimote mapeado al stick derecho. Menos cómodo, pero para juegos sin puntero va bien.
 
 ## Otros emuladores en este Linux
@@ -226,6 +228,7 @@ Lecciones:
 - **CPU a 1,59 GHz**, no a 2,13: el kernel dice *"Unable to measure TSC frequency, assuming default"* (1594 MHz) y el *uptime* cuadra con el reloj real, así que la frecuencia es esa de verdad. Es el P-state que deja el loader antes del kexec y/o este kernel 5.4; pregunta abierta para `neocine-1.1` y los kernels de rmux.
 - **Temperatura: CPU a 71 °C jugando, con "high" en 70** (`sensors`, `k10temp`). En Baikal ningún kernel controla el ventilador: se queda como lo dejó el sistema de la PS4. Explica los apagones de la madrugada (protección térmica del Syscon). **Antes de lanzar Linux, lanzar `ps4-fan-threshold60.bin` en Payload Guest**: el umbral vive en el microcontrolador del ventilador y sobrevive al kexec.
 - Zona horaria puesta a `Europe/Madrid` (venía en UTC; la hora ya la sincroniza NTP).
+- **DualShock 4 mapeado por USB** en Dolphin; por Bluetooth no funciona todavía. Revisada la configuración de Dolphin y del juego (`Dolphin.ini`, `GFX.ini`, `GCPadNew.ini`, `sys/GameSettings/GZL.ini`) y recomendaciones en [`dolphin.md`](dolphin.md): ubershaders híbridos, V-Sync off, MSAA 4x, Z/L/R sin conflicto en el mando, 16:9 por código Gecko.
 
 ## Problemas conocidos
 
