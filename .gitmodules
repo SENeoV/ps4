@@ -1,3 +1,6 @@
 [submodule "ps4_cheats"]
 	path = ps4_cheats
 	url = https://github.com/shadps4-emu/ps4_cheats.git
+[submodule "goldhen_cheats"]
+	path = goldhen_cheats
+	url = https://github.com/GoldHEN/GoldHEN_Cheat_Repository.git

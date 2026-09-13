@@ -40,7 +40,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [ ] Herramientas de conversión a paquete en el PC, para PS1 y PSP Classics (tandas 4 y 5)
 - [ ] Homebrew Store instalado (opcional)
 - [x] Repo local `D:\ps4` inicializado en git
-- [x] `.gitmodules` para `ps4_cheats` configurado
+- [x] `.gitmodules`: `ps4_cheats` (trucos de shadPS4, histórico) y `goldhen_cheats` (repositorio oficial de trucos de GoldHEN, 2026-09-13)
 - [x] Guía `emu/emuladores-ps4.md` creada y corregida contra los cores instalados
 - [x] Estructura de carpetas `/emu` creada, Arcade separado en MAME / FB Alpha 2012 / NAOMI / Atomiswave
 - [x] Reestructurado en `APPS/` + `BIOS/` + `ROMS/`

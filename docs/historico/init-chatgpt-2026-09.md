@@ -1,3 +1,9 @@
+# Histórico — borrador inicial (respuesta de ChatGPT, septiembre de 2026)
+
+> **No usar como referencia.** Es la guía genérica con la que arrancó el proyecto, antes de verificar nada en la consola. Contradice la documentación vigente en muchos puntos: recomienda cores que no vienen en el Core Installer de PS4 (melonDS, Gambatte, Beetle PSX HW, PicoDrive para Neo Geo CD…), da por buenos N64, DS, Amiga, ZX Spectrum, Neo Geo CD y X68000, y habla de PPSSPP y Flycast standalone que no existen para PS4. Se conserva por el historial. La referencia actual es [`../../emu/emuladores-ps4.md`](../../emu/emuladores-ps4.md) y la auditoría que la corrigió, [`../auditoria-2026-09-13.md`](../auditoria-2026-09-13.md).
+
+---
+
 ### Leyenda
 
 * 🟢 **Excelente** — prácticamente sin problemas.

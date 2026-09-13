@@ -59,6 +59,7 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 
 - Rutas: `system`, `info`, `playlists`, `database/rdb`, `thumbnails`, `savefiles`, `savestates`, `cheats`, `config`, `downloads`, `assets`, `shaders`, `overlays`, `remaps`, `layouts`, `temp` cuelgan de `/data/retroarch/`; cores en `/data/self/retroarch/cores`; explorador en `/data/ROMS`; capturas en la carpeta del contenido. Coincide con `INSTALL.md` y `emu/RETROARCH/README.md`.
 - La barra de estado muestra `1.8.8 - mGBA (0.8.1 7ad318f5)`: el core instalado es **mGBA 0.8.1**, mientras `mgba_libretro.info` del repo declara `0.10-dev`. Prueba directa de que los `.info` son más nuevos que los cores.
+- Otra sesión extrajo de los `.self` de `/data/self/retroarch/cores/` (por FTP) las versiones y extensiones que declara cada binario: `prosystem 1.3e`, `gearboy 3.4.1`, `mednafen_wswan 0.9.35.1` y `stella2014 3.9.3` coinciden con sus `.info`; las extensiones coinciden en los cinco comprobados (mGBA incluido; el `.info` de prosystem añade `cdf` y el de wswan `pcv2`, siempre de más, nunca de menos). De `handy` no se pudo leer. Conclusión: el desfase afecta a los cores en desarrollo activo (mGBA y previsiblemente VICE, ScummVM, PPSSPP, Flycast, atari800), y a las listas `.lpl` no les afecta.
 
 ## No verificable desde aquí
 

@@ -169,7 +169,7 @@ Formato CD:
 
 ## P8 — Aparcados y más adelante
 
-- [ ] 🧑 **PS2:** copiar al PC las 5 ISO de `/data/ROMS/PS2` para que queden en el catálogo; conseguir la herramienta de PS2 Classics; convertir, instalar y borrar las ISO de la consola
+- [ ] 🧑 **PS2:** copiar al PC las 5 ISO de `/data/ROMS/PS2` para que queden en el catálogo; conseguir **PS2-FPKG** (Jabu) o **PS2 Classic GUI**; mirar cada juego en la [lista de compatibilidad de PS2 Classics](https://www.psdevwiki.com/ps4/PS2_Classics_Emulator_Compatibility_List); convertir, instalar y borrar las ISO de la consola
 - [ ] N64 y DS: no invertir en ellos por ahora, porque se reportan lentos. Si quieres probar: ROMs `.z64` o `.nds`; en DS, `bios7.bin`, `bios9.bin` y `firmware.bin` son opcionales
 
 ---

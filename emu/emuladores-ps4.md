@@ -76,6 +76,26 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 
 Todas las BIOS van en `/data/retroarch/system/`, respetando la subcarpeta cuando la hay (`dc/`, `PPSSPP/`…). La excepción es `neogeo.zip`, que va junto a las ROMs.
 
+### Otros cores instalados, sin carpeta en `ROMS/`
+
+El Core Installer trae cores para sistemas que no están en la tabla. Ninguno tiene carpeta ni está en la hoja de ruta; se listan para saber que existen:
+
+| Sistema | Core | ROM | BIOS |
+|---|---|---|---|
+| Atari ST / STE | `hatari` | `.st/.msa/.stx` | `tos.img` (obligatoria) |
+| Atari Jaguar | `virtualjaguar` | `.j64/.jag` | no (CD: `[BIOS] Atari Jaguar CD (World).j64`) |
+| Vectrex | `vecx` | `.vec/.bin` | no |
+| ColecoVision / SG-1000 / SVI | `bluemsx` | `.col/.sg` | `Databases/` y `Machines/` de blueMSX |
+| SG-1000 | `genesis_plus_gx` / `picodrive` | `.sg` | no |
+| Commodore VIC-20, Plus/4, PET, C128, CBM-II, SuperCPU | `vice_xvic`, `vice_xplus4`, `vice_xpet`, `vice_x128`, `vice_xcbm2`, `vice_xscpu64` | como C64 | integradas |
+| SuperGrafx | `mednafen_supergrafx` | `.sgx` (en `PCE/`) | no |
+| Doom | `prboom` | `.wad` | no (hace falta el IWAD del juego) |
+| Quake / Quake II | `tyrquake` / `vitaquake2` | `.pak` | no |
+| Java ME (móviles) | `squirreljme` | `.jar/.jad` | `squirreljme.jar` |
+| VMU de Dreamcast | `vemulator` | `.vms/.dci` | no |
+| Mr.Boom (Bomberman libre) | `mrboom` | sin ROM | no |
+| 2048 | `2048` | sin ROM | no |
+
 ## Orden de implantación
 
 La hoja de ruta con casillas está en [`PLAN.md`](../PLAN.md). Resumen:
@@ -134,6 +154,12 @@ La vía recomendada es **PSP Classics** con PSP-FPKG, que usa el emulador PSPHD 
 
 Alternativa en RetroArch: el core `ppsspp`, que necesita la carpeta `assets` **completa** de PPSSPP en `system/PPSSPP/` (no solo `ppge_atlas.zim`, que es lo único que nombra el `.info`). Sin JIT en este port, así que va lento.
 
+### PS2
+
+No hay core de PS2 en RetroArch para PS4. La vía es **PS2 Classics**: un paquete con el emulador oficial de Sony que Jabu extrajo de los PS2 Classics de PS4. Herramientas de PC: **PS2-FPKG** (Jabu; convierte `.iso`/`.bin` y permite elegir el emulador base y añadir configuración) y **PS2 Classic GUI**, que incorpora una comprobación de compatibilidad. Los emuladores base más usados son el de *Jak* (v2, el más compatible, con opción "intentar mejorar compatibilidad" y soporte de parches Lua) y el *Rogue*; la compatibilidad va juego a juego y está en la [lista de PSDevWiki](https://www.psdevwiki.com/ps4/PS2_Classics_Emulator_Compatibility_List). No necesita BIOS: el emulador la lleva dentro. Funciona desde firmware 5.05.
+
+Las 5 ISO de `/data/ROMS/PS2` de la consola no sirven ahí: RetroArch no las abre. Hay que bajarlas al PC, convertirlas y subir el paquete a `/data/pkg/`.
+
 ### Dreamcast
 
 Core `flycast`, con la BIOS en `system/dc/dc_boot.bin`. Hay informes contradictorios sobre su rendimiento en PS4: probar un juego antes de meter la colección. NAOMI y Atomiswave usan el mismo core, con `dc/naomi.zip` y `dc/awbios.zip`.
@@ -160,6 +186,15 @@ Qué va a cada ruta de la consola (PKG, ROMs, BIOS, `.info` y partidas) está en
 
 **Nota:** no actualizar el firmware 12.52. Hay exploit público hasta 13.00; por encima no hay nada, y se perdería GoldHEN, RetroArch y Linux. Cómo se carga GoldHEN en 12.52, en [`INSTALL.md`](../INSTALL.md).
 
+## Trucos
+
+Dos sistemas distintos, no intercambiables:
+
+- **GoldHEN (la consola):** menú de trucos integrado. Lee archivos `{TITLEID}_{versión}.json`, `.shn` o `.mc4` en `/user/data/GoldHEN/cheats/json/`, `/shn/` y `/mc4/` (un formato por juego y versión). El repositorio oficial es [GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository), submódulo `goldhen_cheats/` de este repo. Se suben por FTP. Sirve para juegos de PS4, no para lo que corre dentro de RetroArch.
+- **RetroArch:** trucos propios (`.cht`) en `/data/retroarch/cheats/`, para las ROMs emuladas. Se cargan desde el menú rápido del juego.
+
+El submódulo `ps4_cheats/` (shadps4-emu) es el repositorio de trucos de **shadPS4, el emulador de PS4 para PC**: mismo formato JSON, pero no es lo que lee GoldHEN. Se conserva como histórico.
+
 ## Referencias
 
 - [PS4 Emulators & Homebrew — ConsoleMods](https://consolemods.org/wiki/PS4%3AEmulators_and_Homebrew_Games)
@@ -171,6 +206,9 @@ Qué va a cada ruta de la consola (PKG, ROMs, BIOS, `.info` y partidas) está en
 - [PS Classics fPKG Builder — GitHub](https://github.com/SvenGDK/PS-Classics-fPKG-Builder/releases)
 - [PS1 Classics Emulator Compatibility List — PSDevWiki](https://www.psdevwiki.com/ps4/PS1_Classics_Emulator_Compatibility_List)
 - [PSP Classics Emulator Compatibility List — PSDevWiki](https://www.psdevwiki.com/ps4/Template:PSP_Classics_Emulator_Compatibility_List)
+- [PS2-FPKG — GameBrew](https://www.gamebrew.org/wiki/PS2-FPKG_PS4) · [PS2 Classics Emulator Compatibility List — PSDevWiki](https://www.psdevwiki.com/ps4/PS2_Classics_Emulator_Compatibility_List)
+- [PSX-FPKG — PSX-Place](https://www.psx-place.com/threads/psx-fpkg-by-jabu-a-tool-to-convert-ps1-psx-games-for-use-on-ps4.30498/) · [PS1HD, notas del emulador oficial](https://github.com/andshrew/PlayStation-PS1HD)
+- [GoldHEN_Cheat_Repository](https://github.com/GoldHEN/GoldHEN_Cheat_Repository) · [Menú de trucos de GoldHEN](https://github.com/GoldHEN/GoldHEN/blob/master/CHEATMENU.md)
 - [ps4-linux-loader — GitHub](https://github.com/ps4-linux/ps4-linux-loader)
 - [PS4Linux: distros y noticias](https://ps4linux.com/) · [Vulkan en PS4 Pro](https://ps4linux.com/ps4-pro-fix-vulkan-fix-crash/)
 - [Dolphin on PS4 Pro — GBAtemp](https://gbatemp.net/threads/dolphin-on-ps4-pro.495799/) · [Linux games on PS4 Pro — GBAtemp](https://gbatemp.net/threads/linux-games-on-ps4-pro.576294/)
