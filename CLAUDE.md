@@ -58,7 +58,7 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ## La consola
 
-- PS4 Pro con firmware 12.52, southbridge Baikal B1 y GoldHEN 2.4b18.10. **No actualizar el firmware**: GoldHEN cubre de 5.05 a 13.00, y por encima de 13.00 hoy no hay exploit.
+- PS4 Pro **CUH-7116B** con firmware 12.52, southbridge Baikal B1 y GoldHEN 2.4b18.10. **No actualizar el firmware**: GoldHEN cubre de 5.05 a 13.00, y por encima de 13.00 hoy no hay exploit.
 - RetroArch es el port no oficial de OsirisX basado en 1.8.8 (`SSNE10000`, release R4 de 2020), con los cores del Core Installer (`SSNE20000`). Core, extensiones y BIOS se contrastan con los `.info` de `emu/RETROARCH/info/`, pero con una salvedad: hay un `.info` por core instalado, **pero son los del libretro actual, no los de los cores de 2020** (la consola muestra mGBA 0.8.1 y su `.info` dice 0.10-dev), así que extensiones y BIOS pueden no coincidir con el core real. RetroArch empareja cada core con su `.info` por nombre de archivo. `mupen64plus_libretro.info` es una copia del de Mupen64Plus-Next, pero el port trae `mupen64plus` y `mupen64plus_next` como cores distintos, así que probablemente describe el core equivocado; se deja como está.
 - No usar el *Online Updater* ni el *Core Updater* de RetroArch, porque apuntan a Bintray, que cerró. Todo se sube por FTP.
 - Las rutas distinguen mayúsculas (`/data/ROMS` ≠ `/data/roms`). Los nombres de archivo van sin tildes ni ñ: FileZilla los sube con otra codificación y dejan de coincidir con el PC y con sus partidas.
@@ -88,7 +88,7 @@ Proyecto aparte de RetroArch, en marcha desde el 2026-09-13 y sin probar aún en
 - La consola es **Baikal B1** (leído en *Información del sistema* con GoldHEN): kernel **5.4.247** (el 7.x aún no soporta Baikal), distro con **Mesa ≤ 25.1** (con Mesa 26 no hay GPU) y **solo disco externo**. Repetir estas tres restricciones antes de proponer cualquier kernel o distro.
 - `linux/{loader,kernel,initramfs,distros}/` llevan los binarios, ignorados por git y catalogados como sistema `LINUX`. `linux/src/` son submódulos con el código fuente de loader, initramfs y `archlinux-on-ps4`; no se catalogan.
 - El initramfs que instala en USB es el de DionKill (`linux/initramfs/initramfs.cpio.gz`); su `install-psxitarch.sh` exige pendrive MBR ≥ 22 GB y la distro como `psxitarch.tar.gz` (gzip, no xz). El de feeRnt (`initramfs/feernt-1.0/`) solo instala en interno y no sirve aquí.
-- Linux no se sube por FTP: va en el pendrive. El payload del loader se envía al BinLoader de GoldHEN (puerto 9090). Ejecutarlo o tocar la consola sigue siendo decisión del usuario.
+- Linux no se sube por FTP: va en el pendrive. El payload del loader se envía al BinLoader de GoldHEN (puerto 9090) **sin sondear antes el puerto**: una conexión vacía apaga el BinLoader. Ejecutarlo o tocar la consola sigue siendo decisión del usuario. Los intentos y sus resultados se anotan en "Registro de pruebas" de `linux/README.md`.
 
 ## ps4_cheats/ y goldhen_cheats/: trucos
 

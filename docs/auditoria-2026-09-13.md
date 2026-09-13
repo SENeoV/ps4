@@ -61,7 +61,7 @@ Leyenda: 🔴 falso u obsoleto · 🟡 impreciso o sin base · ⚪ no verificabl
 
 ## Verificado en la consola (capturas de Ajustes → Carpeta, 13-09-2026 02:06)
 
-- *Información del sistema* (03:37): `HEN 12.52`, IP 192.168.1.201, **Southbridge Baikal B1 (0x30201)**, **GoldHEN v2.4b18.10**.
+- *Información del sistema* (03:37): `HEN 12.52`, IP 192.168.1.201, **Southbridge Baikal B1 (0x30201)**, **GoldHEN v2.4b18.10**. Etiqueta de la consola (06:17): **CUH-7116B**.
 
 - Rutas: `system`, `info`, `playlists`, `database/rdb`, `thumbnails`, `savefiles`, `savestates`, `cheats`, `config`, `downloads`, `assets`, `shaders`, `overlays`, `remaps`, `layouts`, `temp` cuelgan de `/data/retroarch/`; cores en `/data/self/retroarch/cores`; explorador en `/data/ROMS`; capturas en la carpeta del contenido. Coincide con `INSTALL.md` y `emu/RETROARCH/README.md`.
 - La barra de estado muestra `1.8.8 - mGBA (0.8.1 7ad318f5)`: el core instalado es **mGBA 0.8.1**, mientras `mgba_libretro.info` del repo declara `0.10-dev`. Prueba directa de que los `.info` son más nuevos que los cores.

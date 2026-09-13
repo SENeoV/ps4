@@ -6,15 +6,16 @@ Este documento cubre lo específico de **esta** consola y de **estos** archivos.
 
 ## Esta consola
 
-Leído en *Ajustes → Sistema → Información del sistema* con GoldHEN cargado (foto, 13-09-2026):
+Leído en *Ajustes → Sistema → Información del sistema* con GoldHEN cargado y en la etiqueta de la consola (fotos, 13-09-2026):
 
 | Dato | Valor |
 |---|---|
-| Modelo | PS4 Pro |
+| Modelo | **PS4 Pro CUH-7116B** (etiqueta; serie 7100, 1 TB). Aparece en la [tabla de sony-jaguar-devs](https://github.com/sony-jaguar-devs/ps4-linux#console-models-and-southbridge) como *Pro - Baikal B1*, kernel compatible 5.4.247 |
 | Firmware | 12.52 (`HEN 12.52`) |
 | **Southbridge** | **Baikal B1 (0x30201)** |
 | GoldHEN | v2.4b18.10 |
 | IP | 192.168.1.201 (cambia; confirmarla antes de conectar) |
+| Pantalla | Monitor Samsung 1080p por HDMI. La PS4 en 1080p, HDR y Deep Colour desactivados |
 
 Lo que implica ser **Baikal**, y además Pro, según la guía y los mantenedores del kernel (septiembre de 2026):
 
@@ -142,6 +143,25 @@ La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace
 - **Los juegos (🧑).** Dolphin lee `.iso`, `.gcm` y `.rvz` (RVZ es el formato comprimido de Dolphin, sin pérdida; *Wind Waker* ocupa 1,4 GB en ISO). La partición de Linux del pendrive es ext4 y Windows no la escribe, así que las ISO van en **otro USB en exFAT** (Linux lo lee) o se copian por red (Wi-Fi) una vez arrancado. Hace falta un hub USB para teclado y ratón: pendrive, USB de juegos y mando ocupan los tres puertos.
 - **Mando.** El DualShock 4 **por cable USB** funciona sin emparejar; por Bluetooth hay que emparejarlo en cada arranque de Linux. En Dolphin: *Controllers → Port 1 → Standard Controller*, dispositivo `evdev`/`SDL`, y asignar botones. Para Wii, *Emulated Wii Remote* con el mismo mando.
 - **Wii** funciona igual (mismo Dolphin), con el puntero del Wiimote mapeado al stick derecho. Menos cómodo, pero para juegos sin puntero va bien.
+
+## Registro de pruebas
+
+### 2026-09-13, madrugada — seis intentos, ninguno con imagen
+
+Pendrive Kingston DataTraveler 3.0 (MBR, FAT32) con `initramfs.cpio.gz` de DionKill y `psxitarch.tar.gz` (Arch Mesa 25.1). Payload `linux-1024mb.bin` enviado desde el PC al BinLoader (9090) con GoldHEN 2.4b18.10, disco de Poops fuera, teclado y ratón conectados.
+
+| Hora | Kernel | `bootargs.txt` | Resultado |
+|---|---|---|---|
+| 05:35 | 5.4.247 neocine-1.1 (Clang) | no | La PS4 deja de responder en red (el kexec se hace). Pantalla negra, LED azul/blanco parpadeando; apagar y encender el monitor y Ctrl+Alt+F2/F1 no cambian nada |
+| 05:45, 05:50, 05:59 | ídem | no | Igual. En el cuarto, LED apagado, consola encendida, monitor "sin señal"; al rato la consola se cae |
+| 06:07 | ídem | sí: línea por defecto + `drm.edid_firmware=edid/1920x1080.bin` | Sin señal |
+| 06:11 | 5.4.247 baikal_mt76 (09-2025, "possible fix for the No signal issue") | sí | Sin señal; la consola se apaga entera al poco |
+
+Lecciones:
+
+- El BinLoader de GoldHEN se cierra si recibe una conexión vacía (un `connect` de prueba); no sondear el puerto 9090, enviar directamente. El FTP (2121) sí se puede sondear.
+- Forzar el EDID no sirve con estos kernels: según el foro, [no usan el EDID del monitor](https://ps4linux.com/forums/d/388-baikal-ps4-slim-no-signal-after-loading-linux-payload) y sacan 1080p a 60 Hz fijo. En ese hilo (10-2025), un Baikal B1 con el mismo kernel y el mismo síntoma **funcionó al cambiar el monitor por una tele**; su monitor era un MSI a 100 Hz. Siguiente prueba: una tele.
+- Pendiente de aclarar si la consola se apaga por temperatura (sin control del ventilador en Baikal) o por un cuelgue del kernel: medir cuánto tarda y si el ventilador gira.
 
 ## Problemas conocidos
 

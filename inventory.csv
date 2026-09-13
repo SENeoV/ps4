@@ -3755,6 +3755,7 @@ LINUX,initramfs/feernt-1.0/initramfs.cpio.gz,6774838,6f7e0a42608be6f2383a08ac7d7
 LINUX,initramfs/feernt-1.0/ps4-linux-initramfs-1.0-src.zip,6802299,b90585ce93b5d82bb0de2f5dcb60dbe571bf6f46,,
 LINUX,initramfs/initramfs-dionkill.zip,12034713,b60fc7db522c4671a6cfd99024496ceeaba0a79c,,
 LINUX,initramfs/initramfs.cpio.gz,4102011,90f9b231d4819427cd5d4ea20006f6cde7562770,,
+LINUX,kernel/bzImage_5.4.247-baikal_mt76,9094144,c9768dd8cd894b89d1f5bbad0b2b0ee1a976cacc,,
 LINUX,kernel/bzImage_Clang,9180864,94eedea929e42f2e7378fc811e5564ab81b16e9d,,
 LINUX,kernel/bzImage_GCC-11,9872896,7e95c81700cebd687d0c097ece15d5dd5c056d3d,,
 LINUX,kernel/config_Clang,112559,ddaa19f40821885935d585484e674a43263a01fc,,
