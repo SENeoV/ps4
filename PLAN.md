@@ -161,6 +161,8 @@ El romset tiene que ser de la versión exacta del core.
 - [x] 🎮 Escritorio LXDE con GPU: `glxinfo` → `AMD Radeon Graphics (radeonsi, liverpool, ACO…)` (13-09). Plasma no arranca bien desde el pendrive
 - [x] 🎮 Dolphin 2509 y PPSSPP instalados sin red desde el pendrive (13-09); Payload Guest en la consola para arrancar Linux sin PC; *Wind Waker* copiado y Dolphin configurado por SSH
 - [x] 🎮 **Dolphin con *Wind Waker* a 30 fps (velocidad completa), backend Vulkan, resolución nativa (13-09, 23:40)**
+- [x] 🤖 *Wind Waker* USA (`GZLE01`) en `emu/ROMS/GC/` y prueba de texturas HD *Hypatia WWHD v2.0* preparada en `linux/texturas/GZL/` (14-09; 846 archivos, 404 MB de los 9,14 GB del pack)
+- [ ] 🎮 Subir el USA y las texturas a la consola, activarlas con anisotrópico 1x y medir el impacto ([`linux/dolphin.md`](linux/dolphin.md#texturas-hd-hypatia-wwhd-v20))
 - [ ] 🎮 RPCS3, con su firmware; comparar OpenGL frente a Vulkan en Dolphin; `ps4-fan-threshold60` antes de Linux
 - [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 

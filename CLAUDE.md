@@ -19,7 +19,7 @@ Documentos de estado, que hay que mantener al día cuando algo cambia:
 
 ## Comandos
 
-No hay build, tests ni linter: son scripts de Python 3 (3.10 en este PC, Windows) sin dependencias externas, salvo Pillow para las carátulas.
+No hay build, tests ni linter: son scripts de Python 3 (3.10 en este PC, Windows) sin dependencias externas, salvo Pillow para las carátulas y paramiko para `tools/ps4linux.py`.
 
 ```bash
 python tools/inventory.py                  # regenera inventory.csv, INVENTORY.md y catalogo/ (incremental por ruta + tamaño)
@@ -27,6 +27,8 @@ python tools/inventory.py --force          # recalcula todos los SHA-1
 python tools/retroarch_lists.py            # regenera las listas .lpl e imprime la cobertura por sistema
 python tools/retroarch_lists.py --thumbs   # además descarga o copia las carátulas que falten
 python tools/guard.py pre-commit           # la comprobación anti-binarios del hook (pre-push lee el stdin del hook)
+python tools/ps4linux.py ip                # con la PS4 en Linux: busca su IP por la MAC del Wi-Fi y prueba el SSH
+MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando" | --put local remoto   # SSH/SFTP a la PS4 en Linux (ps4/ps4)
 cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/   # instalar los hooks en un clon nuevo
 ```
 
@@ -89,7 +91,19 @@ Proyecto aparte de RetroArch, en marcha desde el 2026-09-13 y sin probar aún en
 - La consola es **Baikal B1** (leído en *Información del sistema* con GoldHEN): kernel **5.4.247** (el 7.x aún no soporta Baikal), distro con **Mesa ≤ 25.1** (con Mesa 26 no hay GPU) y **solo disco externo**. Repetir estas tres restricciones antes de proponer cualquier kernel o distro.
 - `linux/{loader,kernel,initramfs,distros}/` llevan los binarios, ignorados por git y catalogados como sistema `LINUX`. `linux/src/` son submódulos con el código fuente de loader, initramfs y `archlinux-on-ps4`; no se catalogan.
 - El initramfs que instala en USB es el de DionKill (`linux/initramfs/initramfs.cpio.gz`); su `install-psxitarch.sh` exige pendrive MBR ≥ 22 GB y la distro como `psxitarch.tar.gz` (gzip, no xz). El de feeRnt (`initramfs/feernt-1.0/`) solo instala en interno y no sirve aquí.
-- Linux no se sube por FTP: va en el pendrive. El payload del loader se envía al BinLoader de GoldHEN (puerto 9090) **sin sondear antes el puerto**: una conexión vacía apaga el BinLoader. Ejecutarlo o tocar la consola sigue siendo decisión del usuario. Los intentos y sus resultados se anotan en "Registro de pruebas" de `linux/README.md`.
+- Linux no se sube por FTP: va en el pendrive. Se arranca desde la consola con **Payload Guest** (`/data/payloads/`, `pkg/payloads/`); desde el PC, enviando el `.bin` al BinLoader de GoldHEN (puerto 9090) **sin sondear antes el puerto**: una conexión vacía apaga el BinLoader. Tocar la consola sigue siendo decisión del usuario. Los intentos y sus resultados se anotan en "Registro de pruebas" de `linux/README.md`; Dolphin, en `linux/dolphin.md`.
+
+**Reglas aprendidas el 13-09-2026, para no repetir errores:**
+
+- **Pantalla negra o "sin señal" tras el payload: la tele antes que nada.** Los kernels 5.4 de Baikal sacan 1080p60 fijo sin leer el EDID y el monitor Samsung no lo acepta; la tele LG sí. Forzar el EDID en `bootargs.txt` no sirve. Se perdieron seis intentos antes de probarlo.
+- **El pendrive va en un puerto frontal** (el loader solo mira `/mnt/usb0` y `/mnt/usb1`), y bien encajado (si no, USB 2.0).
+- **`bootargs.txt` tiene que llevar `root=LABEL=psxitarch`** o el initramfs se para en la rescue shell pidiendo `resume-boot`. El instalador lo borra al reparticionar.
+- **Antes de Linux, `ps4-fan-threshold60.bin`** en Payload Guest: en Baikal nadie mueve el ventilador y la CPU llega a 71 °C jugando; los apagones de la madrugada fueron eso.
+- Con la PS4 en Linux, `tools/ps4linux.py` (SSH, `ps4`/`ps4`; `sudo systemctl start sshd` ya está `enabled`). La IP cambia: buscarla por la MAC del Wi-Fi. **En Git Bash, `MSYS_NO_PATHCONV=1`** o cualquier argumento que empiece por `/` llega convertido a ruta de Windows (una copia por SFTP falló dos veces por esto).
+- **Dolphin reescribe sus `.ini` al cerrarse**: editarlos solo con Dolphin cerrado. Por SSH se maneja con `xdotool` (`DISPLAY=:0`): Shift+F1 guarda estado, Ctrl+Q en la ventana principal (hay dos) más Alt+Y en el diálogo *Confirm* lo cierra. Detalle en `linux/dolphin.md`.
+- **Payload Guest** solo lista `.bin` en la raíz de `/data/payloads/` y no lee subcarpetas; un `meta.json` sin `icon` lo rompe. Los nombres de paquete de Arch con `:` (epoch) no valen en FAT32 ni NTFS (Windows crea un flujo alternativo): renombrar.
+- **No fiarse de nombres ni de lo que diga una release sin leerla**: el `initramfs.cpio.gz` que había descargado Javi era el de feeRnt, que no instala en externo; el `psxitarch.tar.xz`, el rootfs de 7coil de 2022. Identificar cada archivo por tamaño y SHA-1 contra su origen, y leer las notas de la release.
+- **Hashear solo archivos estables**: un SHA-1 calculado mientras Chrome aún cerraba la descarga salió distinto del definitivo. Comprobar que tamaño y `mtime` no cambian antes de dar un hash por bueno.
 
 ## ps4_cheats/ y goldhen_cheats/: trucos
 

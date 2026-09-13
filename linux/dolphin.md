@@ -36,7 +36,7 @@ Lo que Dolphin impone al juego desde su `sys/GameSettings/GZL.ini` y que no hay 
 | **16:9 con el código Gecko** | *Propiedades del juego → Gecko Codes → 16:9 Widescreen*; y *Graphics → General → Aspect Ratio: Auto* | `Dolphin.ini [Core] EnableCheats = True`; `GameSettings/GZLP01.ini [Gecko_Enabled] $16:9 Widescreen` | Parche del juego, no el *Widescreen Hack* de Dolphin: sin recortes de geometría en los bordes |
 | *Remove Distance Blur* (opcional) | *Propiedades → AR Codes* | `GameSettings/GZLP01.ini [ActionReplay_Enabled] $Remove Distance Blur` | Quita el desenfoque de lejanía; cuestión de gusto |
 | `mitigations=off` | `bootargs.txt` del pendrive | al final de la línea | Algo de CPU (Spectre/Meltdown); la consola ya está abierta |
-| Texturas HD (*Hypatia WWHD v2.0*, `linux/texturas/`: el `.7z` de 1,9 GB catalogado y el árbol `GZL/` extraído, sin catalogar) | *Graphics → Advanced → Load Custom Textures*; van a `~/.local/share/dolphin-emu/Load/Textures/GZL/` en la PS4 | — | **No ahora**: desde un pendrive a USB 2.0 daría tirones al cargar y 1,9 GB de DDS piden el payload de 3-4 GB. Con SSD, sí |
+| Texturas HD (*Hypatia WWHD v2.0*) | *Graphics → Advanced → Load Custom Textures* | `GFX.ini [Settings] HiresTextures = True` | **Prueba parcial primero**: ver "Texturas HD" abajo. El pack entero son 9,1 GB y el pendrive va a USB 2.0 |
 
 No tocar: *Skip EFB Access*, *Store EFB Copies to Texture Only*, *VBI Skip* (el INI del juego los fija por necesidad), ni el reloj de CPU emulada.
 
@@ -98,3 +98,60 @@ mkdir -p GameSettings && printf '[Gecko_Enabled]\n$16:9 Widescreen\n' > GameSett
 ```
 
 y el `GCPadNew.ini` de arriba tal cual. Después, arrancar el juego una vez y esperar la compilación inicial de shaders (una barra al principio); las siguientes veces sale de la caché.
+
+## Texturas HD (*Hypatia WWHD v2.0*)
+
+Pack de texturas que rehace *Wind Waker* al aspecto del remaster de Wii U, en `.dds` con mipmaps. Archivo `Hypatia WWHD Mod v2.0 (DDS-Full).7z`, **1,94 GB comprimido**, en `linux/texturas/` (no se versiona; el `.7z` está catalogado, el árbol extraído no).
+
+El pack principal es la carpeta `GZL/`, **5.747 archivos y 9,14 GB** descomprimidos:
+
+| Carpeta | Archivos | Tamaño | Qué es |
+|---|---|---|---|
+| `Environments` | 2.010 | 8.159,9 MB | Suelos, paredes, mar, cielo. **El 87 % del pack** |
+| `HUD` | 2.534 | 627,6 MB | Menús, iconos, tipografías. **Solo en inglés** |
+| `Characters` | 758 | 380,5 MB | Link, Tetra, enemigos, NPC |
+| `Effects` | 175 | 140,1 MB | Fuego, humo, magia |
+| `Additions` | 182 | 28,0 MB | Añadidos del autor |
+| `Items` | 88 | 19,7 MB | Bombas, boomerang, hoja Deku, arco… |
+
+Aparte trae `-[Optional Textures]-` con variantes sueltas (boomerang de *A Link to the Past*, etc.) que se copian encima si se quieren.
+
+**Requisitos del readme del mod y cómo quedan aquí:**
+
+| Pide el mod | Estado |
+|---|---|
+| Dolphin 5.0-6199 o superior | ✅ tenemos 2509 |
+| *Load Custom Textures* activado | ⬜ `HiresTextures` ni siquiera está en `GFX.ini` (por defecto `False`) |
+| **Filtrado anisotrópico a 1x** | ⬜ ahora está en 16x (`MaxAnisotropy = 4`); hay que ponerlo a `0`. Con 16x el mod muestra costuras en los bordes de las texturas |
+| Versión **inglesa** del juego | ⬜ por eso se añade la copia USA (`GZLE01`); ver [`emu/ROMS/GC/README.md`](../emu/ROMS/GC/README.md) |
+| Copiar las carpetas dentro de una carpeta `GZL` | El nombre `GZL` es el prefijo del ID, así que **vale para `GZLE01` y para `GZLP01`**: las mismas texturas sirven a las dos versiones |
+
+Que el pack sea "solo inglés" afecta de verdad a `HUD` (textos y menús dibujados en las texturas): sobre la versión europea en español, el HUD saldría en inglés. `Characters`, `Items`, `Effects` y `Environments` no llevan texto y sirven igual en cualquier idioma.
+
+### Conjunto de prueba (extraído el 14-09-2026)
+
+Antes de mover 9 GB por Wi-Fi a un pendrive a USB 2.0, se prueba con lo que más se ve y menos pesa: **`Characters` + `Items`, 846 archivos y 404 MB**, en `linux/texturas/GZL/`. Si el rendimiento aguanta, se añade `Effects` (140 MB), luego `Environments` (8,2 GB, el que decidirá) y `HUD` solo sobre la versión USA.
+
+Sitio: el pendrive tiene **20 GB libres de 29** (`/dev/sda2`, 7,5 GB usados), así que cabe hasta el pack entero. Lo que no cabe es en RAM: 4,2 GB disponibles de 5,9, así que ***Prefetch Custom Textures* se queda desactivado** (cargaría todo el pack a RAM al arrancar). Con prefetch off Dolphin carga cada `.dds` cuando aparece, y ahí es donde el USB 2.0 puede dar tirones la primera vez que se entra a una zona.
+
+### Pasos para instalarlas
+
+Con **Dolphin cerrado** (reescribe los `.ini` al salir) y por SSH/SFTP a la IP de Linux (`ps4`/`ps4`):
+
+```sh
+# 1. Juego USA (desde el PC, por SFTP; sin comas ni paréntesis en el nombre)
+#    emu/ROMS/GC/Legend of Zelda, The - The Wind Waker (USA).rvz
+#    ->  /home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz
+
+# 2. Texturas: linux/texturas/GZL/  ->  ~/.local/share/dolphin-emu/Load/Textures/GZL/
+mkdir -p ~/.local/share/dolphin-emu/Load/Textures/GZL
+
+# 3. Activarlas y bajar el anisotrópico a 1x
+cd ~/.config/dolphin-emu
+sed -i 's/^MaxAnisotropy = .*/MaxAnisotropy = 0/' GFX.ini
+grep -q '^HiresTextures' GFX.ini || sed -i '/^\[Settings\]/a HiresTextures = True\nCacheHiresTextures = False' GFX.ini
+```
+
+En la interfaz es lo mismo: *Graphics → Enhancements → Anisotropic Filtering: 1x* y *Graphics → Advanced → Load Custom Textures* sí, *Prefetch Custom Textures* no.
+
+Para comprobar que las coge: *Graphics → Advanced → Enable API Validation Layers* no hace falta; basta mirar el registro (`~/.local/share/dolphin-emu/Logs/dolphin.log`) o, más simple, que Link se vea distinto. Si no cambia nada, casi siempre es que la carpeta no se llama exactamente `GZL` o que los `.dds` quedaron un nivel de más (`Load/Textures/GZL/GZL/...`).

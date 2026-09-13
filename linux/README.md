@@ -170,6 +170,33 @@ Mismo hardware para todos: 8 Jaguar a 2,1 GHz y una GPU con OpenGL 4.6 (Mesa 25.
 
 Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla de compatibilidad de juegos de PC.
 
+## Rutina de cada día
+
+1. GoldHEN (Poops), con el pendrive en un puerto **frontal**, teclado y mando por cable conectados, la **tele** como pantalla.
+2. Payload Guest → `ps4-fan-threshold60.bin` (ventilador) → `linux-2048mb.bin`.
+3. Entra solo en LXDE (autologin). Dolphin en el menú *Juegos*; *Wind Waker* en la lista.
+4. **Apagar desde el menú de LXDE**, nunca con el botón: la partición no tiene journal.
+
+Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`.
+
+## Errores de este proyecto y qué aprender de ellos
+
+| Qué pasó | Qué hacer la próxima vez |
+|---|---|
+| Seis lanzamientos sin señal (05:35–06:11) antes de probar otra pantalla; se probaron EDID forzado y otro kernel | Con kernels 5.4 de Baikal, **tele primero**: sacan 1080p60 fijo sin EDID y hay monitores que no lo aceptan. Está en el foro desde 2025 |
+| Sondeé el puerto 9090 con una conexión vacía y GoldHEN apagó el BinLoader; hubo que reactivarlo dos veces | No sondear 9090: enviar el payload y ya. El FTP (2121) sí se puede sondear |
+| Los apagones "de la nada" eran la protección térmica: 71 °C con el ventilador parado en Baikal | `ps4-fan-threshold60.bin` antes de Linux; `sensors` para vigilar |
+| El initramfs descargado no valía (solo interno) y el "psxitarch" era un rootfs de 2022 | Leer la release y verificar por SHA-1 cada archivo antes de usarlo; los nombres engañan |
+| El instalador borró el `bootargs.txt` y hubo que hacer `resume-boot` en cada arranque | `root=LABEL=psxitarch` en `bootargs.txt`, recreado tras instalar |
+| Pantalla negra al cambiar el pendrive al puerto trasero | Solo `/mnt/usb0` y `/mnt/usb1`: puertos frontales |
+| Plasma se quedaba en el splash desde el pendrive a USB 2.0 | LXDE (autologin); Plasma cuando haya SSD |
+| `meta.json` para Payload Guest sin `icon`: "No se pudo leer" | Sin `meta.json`, o con `icon` en cada entrada |
+| Dos copias por SFTP fallaron con *No such file*: Git Bash convertía `/home/ps4/...` en `C:/Program Files/Git/home/ps4/...` | `MSYS_NO_PATHCONV=1` con cualquier argumento que empiece por `/` |
+| Un SHA-1 calculado mientras Chrome aún cerraba la descarga salió mal | Hashear cuando tamaño y `mtime` llevan un rato sin cambiar |
+| `inventory.py` cataloga lo que encuentra: un clon de git a medias (hasheó un pack de 5 GB) y 759 texturas sueltas | Mirar el disco antes de commitear; `SKIP_DIRS` para árboles que no son binarios de referencia |
+| Estimé la instalación en 15-45 min y fueron 1 h 40 | Medir la posición en el tar antes de estimar; el pendrive escribe 30 archivos/s en librerías y 130/s en archivos pequeños |
+| `dolphin-emu-1:2509-1…` con `:` en el nombre desapareció en FAT32/NTFS | Renombrar los paquetes con epoch antes de copiarlos |
+
 ## Registro de pruebas
 
 ### 2026-09-13, madrugada — seis intentos, ninguno con imagen
