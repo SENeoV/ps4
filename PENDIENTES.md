@@ -47,7 +47,8 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 
 ### BIOS opcionales
 
-- [ ] 🧑 `bios_U.sms` en buen estado: la única que tienes está marcada `[b]`. Sin ella el juego arranca igual
+- [x] 🤖 `bios_U.sms`: la marcada `[b]` era buena (mismo SHA-1 que la europea, que es el que libretro espera para las dos). Creada en `emu/BIOS/` como copia de `bios_E.sms`
+- [ ] 🎮 Subir `emu/BIOS/bios_U.sms` a `/data/retroarch/system/`. Sin ella el juego arranca igual
 - [ ] 🧑 `gba_bios.bin`: opcional; mGBA funciona sin ella
 
 ### Copias de seguridad
@@ -123,7 +124,7 @@ Formato CD:
 ## P4 — Tanda 4: PS1, como PS1 Classics
 
 - [ ] 🧑 Tus discos de PS1 volcados en `.bin` + `.cue`. En juegos de varios discos, todos
-- [ ] 🧑 Herramienta de conversión en el PC: **PS1-FPKG** (Jabu) o **PS Classics fPKG Builder** (SvenGDK; funciona, pero su repositorio está archivado)
+- [ ] 🧑 Herramienta de conversión en el PC: **PSX-FPKG** (Jabu; `.bin/.cue` multi-bin e ISO, desde firmware 5.05) o **PS Classics fPKG Builder** (SvenGDK; solo `.bin`; funciona, pero su repositorio está archivado desde noviembre de 2025)
 - [ ] 🤖 Puedo verificar la versión vigente de la herramienta y dejar escritos los pasos exactos antes de que conviertas nada
 - [ ] 🧑 Opcional: imágenes de icono y fondo para cada juego
 - [ ] 🎮 Consultar cada juego en la [lista de compatibilidad de PS1 Classics](https://www.psdevwiki.com/ps4/PS1_Classics_Emulator_Compatibility_List), instalar el paquete desde `/data/pkg/` y probarlo
@@ -136,7 +137,7 @@ Formato CD:
 - [ ] 🧑 Tus juegos de PSP en `.iso`
 - [ ] 🧑 Herramienta **PSP-FPKG** (Jabu), que usa el emulador PSPHD de PS Plus
 - [ ] 🎮 Consultar cada juego en la [lista de compatibilidad de PSP Classics](https://www.psdevwiki.com/ps4/Template:PSP_Classics_Emulator_Compatibility_List) **antes** de convertirlo: la compatibilidad es mixta
-- [ ] 🤖 Solo para la vía alternativa en RetroArch: preparar la carpeta `PPSSPP/` con sus assets (`ppge_atlas.zim`…), que es libre y el core `ppsspp` exige, para subirla a `system/PPSSPP/`
+- [ ] 🤖 Solo para la vía alternativa en RetroArch: preparar la carpeta `assets` **completa** de PPSSPP (no solo `ppge_atlas.zim`), que es libre y el core `ppsspp` exige, para subirla a `system/PPSSPP/`
 
 ---
 
@@ -191,7 +192,7 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 
 | Archivo | Sistema | Ruta en la PS4 | Tanda | ¿Obligatoria? |
 |---|---|---|---|---|
-| `bios_U.sms` (en buen estado) | Master System | `system/` | P0 | no |
+| `bios_U.sms` (ya en el PC, falta subir) | Master System | `system/` | P0 | no |
 | `gba_bios.bin` | GBA | `system/` | P0 | no |
 | `7800 BIOS (U).rom` | Atari 7800 | `system/` | P1 | no |
 | `lynxboot.img` | Lynx | `system/` | P1 | no, con handy |
@@ -216,7 +217,7 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 2. ~~Carátulas desde `emu/MEDIA/` o desde libretro-thumbnails~~ — **hecho**, junto con las listas ya generadas
 3. Script de copia de seguridad de partidas por FTP
 4. Script de conversión a `.chd` con verificación
-5. Pasos verificados para PS1-FPKG y PSP-FPKG
+5. Pasos verificados para PSX-FPKG y PSP-FPKG
 6. Carpeta `PPSSPP/` de assets para el core de PSP
 7. Temas y datos de ScummVM, y carpetas de blueMSX
 8. Verificador de volcados contra los DAT de No-Intro y Redump

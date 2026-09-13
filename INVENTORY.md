@@ -4,7 +4,7 @@ Generado por `tools/inventory.py`, que se ejecuta solo en cada commit. Detalle e
 
 Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, que es el que se contrasta con los DAT de No-Intro/Redump.
 
-**Total: 7011 archivos**
+**Total: 7012 archivos**
 
 | Sistema | Archivos | Tamaño |
 |---|--:|--:|
@@ -12,7 +12,7 @@ Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, 
 | APPS | 6 | 1593.3 MB |
 | ATARI2600 | 885 | 5.3 MB |
 | ATARI7800 | 170 | 11.9 MB |
-| BIOS | 19 | 0.8 MB |
+| BIOS | 20 | 0.8 MB |
 | GB | 1542 | 346.0 MB |
 | GBA | 213 | 2117.9 MB |
 | GBC | 495 | 230.1 MB |
@@ -28,4 +28,4 @@ Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, 
 | VB | 31 | 11.2 MB |
 | WS | 214 | 349.6 MB |
 | WSC | 131 | 446.5 MB |
-| **TOTAL** | **7011** | **7490.9 MB** |
+| **TOTAL** | **7012** | **7490.9 MB** |

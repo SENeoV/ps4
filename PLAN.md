@@ -110,13 +110,13 @@ El romset tiene que ser de la versión exacta del core.
 
 | Sistema | Carpeta | Vía | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| PS1 | `PSX/` | Paquete con el emulador oficial de Sony. Alternativa en RetroArch: pcsx_rearmed + `scph5501.bin` | [ ] | [ ] |
+| PS1 | `PSX/` | PSX-FPKG: paquete con el emulador oficial de Sony. Alternativa en RetroArch: pcsx_rearmed + `scph5501.bin` | [ ] | [ ] |
 
 ### Tanda 5 — PSP, como PSP Classics
 
 | Sistema | Carpeta | Vía | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| PSP | `PSP/` | PSP-FPKG, revisando cada juego en la lista de compatibilidad. Alternativa: ppsspp + `PPSSPP/ppge_atlas.zim` | [ ] | [ ] |
+| PSP | `PSP/` | PSP-FPKG, revisando cada juego en la lista de compatibilidad. Alternativa: ppsspp + carpeta `assets` de PPSSPP en `system/PPSSPP/` | [ ] | [ ] |
 
 ### Ordenadores
 

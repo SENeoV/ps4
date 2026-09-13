@@ -34,7 +34,7 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 | 12 | Master System | 1985 | genesis_plus_gx | `.sms` | `bios_E/U/J.sms` (opcional) | 🟢 ✅ |
 | 13 | Game Gear | 1990 | genesis_plus_gx | `.gg` | `bios.gg` (opcional) | 🟢 |
 | 14 | Mega Drive / Genesis | 1988 | genesis_plus_gx / picodrive | `.md/.gen/.bin` | `bios_MD.bin` (opcional) | 🟢 |
-| 15 | Sega CD / Mega CD | 1991 | genesis_plus_gx / picodrive | `.chd/.cue` | `bios_CD_U/E/J.bin` | 🟢 |
+| 15 | Sega CD / Mega CD | 1991 | genesis_plus_gx / picodrive | `.chd/.cue` | `bios_CD_U/E/J.bin` (la J es otra revisión que la de libretro) | 🟢 |
 | 16 | 32X | 1994 | picodrive | `.32x` | No | 🟢 |
 | 17 | PC Engine / TurboGrafx-16 | 1987 | mednafen_pce_fast / mednafen_supergrafx | `.pce/.sgx` | No | 🟢 |
 | 18 | PC Engine CD | 1988 | mednafen_pce_fast | `.chd/.cue` | `syscard3.pce` | 🟢/🟡 |
@@ -54,7 +54,7 @@ Guía de referencia rápida para montar la retro-colección. ROMs y BIOS: origin
 | 32 | 3DO | 1993 | opera | `.chd/.cue/.iso` | `panafz10.bin` (u otra) | ❔ |
 | 33 | PS1 | 1994 | **PS1 Classics** / pcsx_rearmed / mednafen_psx | `.bin/.cue/.chd` | `scph5501.bin` | 🟢 como Classics · 🟡 RetroArch |
 | 34 | PS2 | 2000 | **PS2 Classics** (sin core) | `.iso` | — | ⏸ |
-| 35 | PSP | 2004 | **PSP Classics** / ppsspp | `.iso/.cso` | `PPSSPP/ppge_atlas.zim` (core) | 🟡 según juego |
+| 35 | PSP | 2004 | **PSP Classics** / ppsspp | `.iso/.cso` | carpeta `PPSSPP/` de assets (core) | 🟡 según juego |
 | 36 | MSX / MSX2 | 1983 | fmsx / bluemsx | `.rom/.dsk` | `MSX.ROM`, `MSX2.ROM`… (fmsx) | 🟢 |
 | 37 | PC-FX | 1994 | mednafen_pcfx | `.chd/.cue` | `pcfx.rom` | ❔ |
 | 38 | Sharp X68000 | 1987 | — (px68k no instalado) | `.dim` | — | 🔴 |
@@ -124,15 +124,15 @@ Si aparece un port nuevo para orbis, revisar esta sección.
 
 ### PS1
 
-La vía recomendada es **PS1 Classics**: el juego se convierte en el PC a un paquete que incluye el emulador oficial de Sony (`ps1hd`) y se instala como cualquier otro. Herramientas: PS1-FPKG (Jabu) o PS Classics fPKG Builder (SvenGDK), que admite `.bin` y cuyo repositorio está archivado desde noviembre de 2025. Hay lista de compatibilidad en PSDevWiki.
+La vía recomendada es **PS1 Classics**: el juego se convierte en el PC a un paquete que incluye el emulador oficial de Sony (`ps1hd`) y se instala como cualquier otro. Herramientas: **PSX-FPKG** (Jabu; `.bin/.cue` con varios `.bin`, e ISO; desde firmware 5.05) o PS Classics fPKG Builder (SvenGDK; solo `.bin`, repositorio archivado desde noviembre de 2025). Hay lista de compatibilidad en PSDevWiki.
 
-En RetroArch los cores instalados son `pcsx_rearmed` (más ligero, BIOS opcional) y `mednafen_psx` (BIOS obligatoria). *Beetle PSX HW* no está instalado. El 3D va limitado.
+En RetroArch los cores instalados son `pcsx_rearmed` (BIOS opcional) y `mednafen_psx` (BIOS obligatoria). *Beetle PSX HW* no está instalado. `pcsx_rearmed` solo tiene recompilador para x86-64 desde 2020 (Lightrec) y no está confirmado que el build de este port lo incluya; sin él va en intérprete y el 3D se arrastra.
 
 ### PSP
 
 La vía recomendada es **PSP Classics** con PSP-FPKG, que usa el emulador PSPHD de PS Plus. La compatibilidad es mixta: unos juegos van perfectos y otros tienen fallos, así que conviene consultar cada juego en la lista de PSDevWiki antes de convertirlo.
 
-Alternativa en RetroArch: el core `ppsspp`, que necesita su carpeta de assets en `system/PPSSPP/`.
+Alternativa en RetroArch: el core `ppsspp`, que necesita la carpeta `assets` **completa** de PPSSPP en `system/PPSSPP/` (no solo `ppge_atlas.zim`, que es lo único que nombra el `.info`). Sin JIT en este port, así que va lento.
 
 ### Dreamcast
 
