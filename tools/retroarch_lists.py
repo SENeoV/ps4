@@ -254,10 +254,13 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
     parser.add_argument("--thumbs", action="store_true")
+    parser.add_argument("--only", nargs="+", metavar="CARPETA", help="procesar solo estas carpetas de sistema, p. ej. --only ATARI7800")
     args = parser.parse_args()
 
     total = {"juegos": 0, "reconocidos": 0}
     for system_dir, (db, core) in SYSTEMS.items():
+        if args.only and system_dir not in args.only:
+            continue
         items, matched = build(system_dir, db, core)
         if not items:
             print(f"{system_dir:9} sin juegos o sin base de datos: no se genera lista", flush=True)

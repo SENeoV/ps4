@@ -1,0 +1,1371 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+  "default_core_name": "Atari - 7800 (ProSystem)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/ATARI7800/3D Asteroids (1987) (Atari) (Prototype-NTSC).a78",
+      "label": "3D Asteroids (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "2C985A3D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ace of Aces (1988) (Atari).a78",
+      "label": "Ace Of Aces (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E682C28F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ace of Aces (1988) (Atari) (PAL).a78",
+      "label": "Ace of Aces (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AA4752DC|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Alien Brigade (1990) (Atari) [!].a78",
+      "label": "Alien Brigade",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3CEF22CA|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Alien Brigade (1990) (Atari) (PAL).a78",
+      "label": "Alien Brigade (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0F24DDF1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Alpha Race for Atari 7800 (V20150920) (PD).a78",
+      "label": "Alpha Race (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BDECCE7F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Asteroids (1987) (Atari).a78",
+      "label": "Asteroids (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "EAC69CF0|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Asteroids Deluxe by Bob DeCrescenzo (V2007xxxxNTSC).a78",
+      "label": "Asteroids Deluxe (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "6E9B0BD8|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Asteroids Deluxe by Bob DeCrescenzo (V2007xxxxPAL).a78",
+      "label": "Asteroids Deluxe (World) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "93CA7C33|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Symbolic Debugger & Downloader (1988) (Atari).a78",
+      "label": "Atari 7800 Development Card (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3FBE74CE|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Atlas 7800 by Simone Serra (V20111023).a78",
+      "label": "Atlas (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "045FE06D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ballblazer (1987) (Atari-Lucasfilm).a78",
+      "label": "Ballblazer (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "44615260|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ballblazer (1987) (Atari-Lucasfilm) (PAL).a78",
+      "label": "Ballblazer (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "48F75A89|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Barnyard Blaster (1988) (Atari) (PAL) [!].a78",
+      "label": "Barnyard Blaster (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AC94BE39|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Barnyard Blaster (1988) (Atari) [!].a78",
+      "label": "Barnyard Blaster (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C086ED30|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pete Rose Baseball (1989) (Absolute) (PAL).a78",
+      "label": "Baseball (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A8189E81|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Basketbrawl (1990) (Atari).a78",
+      "label": "Basketbrawl",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "FD3AEC38|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Basketbrawl (1990) (Atari) (PAL).a78",
+      "label": "Basketbrawl (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E4E438A1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Beef Drop (Demo) (20070819).a78",
+      "label": "Beef Drop (NTSC) (Demo) (Aftermarket) (AtariAge)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BF3D234F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Bentley Bear's Crystal Quest (20151220).a78",
+      "label": "Bentley Bear's Crystal Quest (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0C7355D4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/bonQ by Ken Siders (V20070616).a78",
+      "label": "bonQ (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "CC71CAA1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Centipede (1987) (Atari).a78",
+      "label": "Centipede (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "5F94939E|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Centipede (1987) (Atari) (PAL).a78",
+      "label": "Centipede (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "CC7061E4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Choplifter (1987) (Atari).a78",
+      "label": "Choplifter! (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D3BA607F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Choplifter (1987) (Atari) (PAL).a78",
+      "label": "Choplifter! (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9F3A7A83|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Commando (1989) (Atari).a78",
+      "label": "Commando (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "81C6C079|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Commando (1989) (Atari) (PAL).a78",
+      "label": "Commando (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "2DC7CCC5|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Commando (1988) (Atari) (Prototype 4-29-88).a78",
+      "label": "Commando (USA) (Beta)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "048B2BD8|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Crack'ed (1988) (Atari).a78",
+      "label": "Crack'ed",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "61DCC763|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Crack'ed (1988) (Atari) (PAL).a78",
+      "label": "Crack'ed (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A2257DD0|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/CrazyBricks20160428_fixed.a78",
+      "label": "Crazy Bricks (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F8DAFBE6|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Crazy Otto by Bob DeCrescenzo (Hack) [a1].a78",
+      "label": "Crazy Otto (World) (v20100102) (Aftermarket) (PacManPlus)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "065D8651|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Crossbow (1988) (Atari).a78",
+      "label": "Crossbow",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A2678E2D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Crossbow (1988) (Atari) (PAL).a78",
+      "label": "Crossbow (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "08E6C2CC|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Dark Chambers (1988) (Atari).a78",
+      "label": "Dark Chambers",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "B5A87D19|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Dark Chambers (1988) (Atari) (PAL).a78",
+      "label": "Dark Chambers (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3FB402B1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Desert Falcon (1987) (Atari).a78",
+      "label": "Desert Falcon (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A6A62E78|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Desert Falcon (1987) (Atari) (PAL).a78",
+      "label": "Desert Falcon (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "5A117708|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Dig Dug (1987) (Atari).a78",
+      "label": "Dig Dug (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "8EAD573D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Dig Dug (1987) (Atari) (PAL).a78",
+      "label": "Dig Dug (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D0DF6F91|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Donkey Kong (1988) (Atari).a78",
+      "label": "Donkey Kong (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D7A55F95|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Donkey Kong (1988) (Atari) (PAL).a78",
+      "label": "Donkey Kong (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BF164AAD|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Donkey Kong Jr (1988) (Atari).a78",
+      "label": "Donkey Kong Junior (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "6E989686|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Donkey Kong Jr (1988) (Atari) (PAL).a78",
+      "label": "Donkey Kong Junior (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "CD5EB9CD|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Double Dragon (1989) (Activision) (PAL).a78",
+      "label": "Double Dragon (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3B1F47A2|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Double Dragon (1989) (Activision) [!].a78",
+      "label": "Double Dragon (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AA265865|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/DungeonStalker_Final.a78",
+      "label": "Dungeon Stalker (World) (1.245d)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "2BBF626F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/F-18 Hornet (1988) (Absolute) (PAL).a78",
+      "label": "F-18 Hornet (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "799F3F3D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/F-18 Hornet (1988) (Absolute) [!].a78",
+      "label": "F-18 Hornet (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "63D1C7C1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/F-18 Hornet (1988) (Absolute) [b2].a78",
+      "label": "F-18 Hornet [b2]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "78A02F88|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/FailSafe (2010)(NTSC).a78",
+      "label": "FailSafe (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D31EFE1B|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/FailSafe (2010)(PAl).a78",
+      "label": "FailSafe (World) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "75FD728A|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Fatal Run (1990) (Atari).a78",
+      "label": "Fatal Run",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "718232BB|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Fatal Run (1990) (Atari) (PAL).a78",
+      "label": "Fatal Run (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "8A840C36|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Fight Night (1988) (Atari).a78",
+      "label": "Fight Night",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "28E38BD7|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Fight Night (1988) (Atari) (PAL).a78",
+      "label": "Fight Night (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "4B75AD7A|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Flappy Bird (flappy) (2014.12.21 15.05) (flappy_beta).a78",
+      "label": "Flappy Bird (USA) (Aftermarket) (Matthias Lüdtke)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "59812261|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Food Fight (1987) (Atari).a78",
+      "label": "Food Fight (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "03EC1894|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Food Fight (1987) (Atari) (PAL).a78",
+      "label": "Food Fight (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "05B23D02|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Food Fight (1987) (Atari) (Prototype).a78",
+      "label": "Food Fight (USA) (Beta)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "47E94868|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Frenzy by Bob DeCrescenzo (V20131217final).a78",
+      "label": "Frenzy (World) (v1.06)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3EABB9DD|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Galaga (1987) (Atari).a78",
+      "label": "Galaga (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "CFFAA1B7|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Galaga (1987) (Atari) (PAL).a78",
+      "label": "Galaga (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "50C37611|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Gato (1987) (Atari) (Prototype).a78",
+      "label": "GATO (Proto) (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9FFF1924|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Hat Trick (1987) (Atari).a78",
+      "label": "Hat Trick (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "6247EFA8|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Hat Trick (1987) (Atari) (PAL).a78",
+      "label": "Hat Trick (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BF258A76|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ikari Warriors (1989) (Atari).a78",
+      "label": "Ikari Warriors",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AA0CFB30|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ikari Warriors (1989) (Atari) (PAL).a78",
+      "label": "Ikari Warriors (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9E43A69E|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Impossible Mission (1987) (Atari) (PAL).a78",
+      "label": "Impossible Mission (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "DC1F3987|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Impossible Mission (1987) (Atari) [!].a78",
+      "label": "Impossible Mission (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3B1F2F47|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Jinks (1989) (Atari).a78",
+      "label": "Jinks",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9571C998|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Jinks (1989) (Atari) (PAL).a78",
+      "label": "Jinks (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "7A2FA209|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Joust (1987) (Atari).a78",
+      "label": "Joust (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "FDA13F77|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Joust (1987) (Atari) (PAL).a78",
+      "label": "Joust (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9958FF37|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Jr. Pac-Man 7800 by Bob DeCrescenzo (V20120924PAL).a78",
+      "label": "Jr. Pac-Man (World) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "12F0CDD0|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/KC Munchkin (Alt Movement) (20170409).a78",
+      "label": "K.C. Munchkin (World) (v1.00)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "83CF579D|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Karateka (1987) (Atari).a78",
+      "label": "Karateka (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "7089A354|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Karateka (1987) (Atari) (PAL).a78",
+      "label": "Karateka (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "1FFA97DF|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Klax (1992) (Atari) (Prototype).a78",
+      "label": "Klax (Proto) (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0AE5C4D3|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Kung Fu Master (1989) (Absolute) [!].a78",
+      "label": "Kung-Fu Master",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "37816887|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Kung Fu Master (1989) (Absolute) (PAL).a78",
+      "label": "Kung-Fu Master (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "00B75654|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mario Brothers (1988) (Atari).a78",
+      "label": "Mario Bros. (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "4D072A3E|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mario Brothers (1988) (Atari) (PAL).a78",
+      "label": "Mario Bros. (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "04D779F4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mat Mania Challenge (1989) (Atari).a78",
+      "label": "Mat Mania Challenge (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "33BB15AC|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mat Mania Challenge (1989) (Atari) (PAL).a78",
+      "label": "Mat Mania Challenge (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "71B58DDB|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mean 18 Golf (1988) (Atari) [!].a78",
+      "label": "Mean 18 Ultimate Golf (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D22F4B02|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Mean 18 Golf (1988) (Atari) (PAL).a78",
+      "label": "Mean 18 Ultimate Golf (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D7F1D5A5|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Meltdown (1990) (Atari).a78",
+      "label": "Meltdown",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "14502302|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Meltdown (1990) (Atari) (PAL).a78",
+      "label": "Meltdown (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "3CE19444|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Meteor Shower by Bob DeCrescenzo (V2001xxxx).a78",
+      "label": "Meteor Shower (World) (v1.05)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "8052CCB3|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Meteor Shower by Bob DeCrescenzo (V2011xxxx_PAL).a78",
+      "label": "Meteor Shower (World) (v1.05) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F973EA31|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Midnight Mutants (1990) (Atari).a78",
+      "label": "Midnight Mutants",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E7157222|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Midnight Mutants (1990) (Atari) (PAL).a78",
+      "label": "Midnight Mutants (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F68C312A|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Missing in Action (Prototype-NTSC) (TNT Games).a78",
+      "label": "Missing In Action (Unknown) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C29973D4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Motor Psycho (1990) (Atari).a78",
+      "label": "Motor Psycho",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "FC414689|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Motor Psycho (1990) (Atari) (PAL).a78",
+      "label": "Motor Psycho (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AF9AC9D6|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ms. Pac-Man (1987) (Atari).a78",
+      "label": "Ms. Pac-Man (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "5EC9C910|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ms. Pac-Man (1987) (Atari) (PAL).a78",
+      "label": "Ms. Pac-Man (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9E186149|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ms. Pac-Man 320Mode (Hack).a78",
+      "label": "Ms. Pac-Man 320 (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A1FE2E34|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ms. Pac-Man 320Mode (Hack) (PAL).a78",
+      "label": "Ms. Pac-Man 320 (World) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "DFA80D2E|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ninja Golf (1990) (Atari).a78",
+      "label": "Ninja Golf",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9E5D3625|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Ninja Golf (1990) (Atari) (PAL).a78",
+      "label": "Ninja Golf (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0B070229|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/One-on-One Basketball (1987) (Atari).a78",
+      "label": "One-on-One Basketball (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "34646E22|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/One-on-One Basketball (1987) (Atari) (PAL).a78",
+      "label": "One-on-One Basketball (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "15C95320|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pac-Man Arcade by Bob DeCrescenzo (V20110810).a78",
+      "label": "Pac-Man 320 (World) (v1.05)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "1B317F72|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pac-Man Arcade by Bob DeCrescenzo (V20110810_PAL).a78",
+      "label": "Pac-Man 320 (World) (v1.05) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0694B7FE|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pac-Man 7800 by Bob DeCrescenzo (V1.0a).a78",
+      "label": "Pac-Man 7800 (USA) (v1.0a) (Bob DeCrescenzo)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "96159F91|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pete Rose Baseball (1989) (Absolute) [!].a78",
+      "label": "Pete Rose Baseball",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "ECECE40B|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pit Fighter (1992) (Atari) (Prototype) [a2].a78",
+      "label": "Pit Fighter (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F29E8142|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pit Fighter (1992) (Atari) (Prototype).a78",
+      "label": "Pit Fighter (Proto)[o]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "5C9AC595|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Planet Smashers (1990) (Atari).a78",
+      "label": "Planet Smashers",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "46342CD3|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Planet Smashers (1990) (Atari) (PAL).a78",
+      "label": "Planet Smashers (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E8929246|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Plutos (Tynesoft) (Prototype-NTSC).a78",
+      "label": "Plutos (Unknown) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9857C02B|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/poetiru.a78",
+      "label": "Poetiru (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "526B8EAC|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pole Position II (1987) (Atari).a78",
+      "label": "Pole Position II (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "4BF501CB|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Pole Position II (1987) (Atari) (PAL).a78",
+      "label": "Pole Position II (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9D44A452|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Rampage (1989) (Activision) [!].a78",
+      "label": "Rampage (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "39A316AA|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Rampart (19xx) (Atari) (Prototype-NTSC).a78",
+      "label": "Rampart (Unknown) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9113DC54|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/RealSports Baseball (1988) (Atari).a78",
+      "label": "RealSports Baseball",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F33BD4FD|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/RealSports Baseball (1988) (Atari) [o1].a78",
+      "label": "RealSports Baseball [o]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F5FDE147|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Rescue on Fractalus (1984) (Atari) (Prototype).a78",
+      "label": "Rescue on Fractalus (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9A74FBF2|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Rip-Off (2012)(NTSC).a78",
+      "label": "Rip-Off (World) (v1.05)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E14F228E|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Rip-Off (2012)(PAL).a78",
+      "label": "Rip-Off (World) (v1.05) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BB7DA3E7|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Robot Finds Kitten 7800 (V20050619) (PD).a78",
+      "label": "Robot Finds Kitten (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C1580BBA|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Robotron 2084 (1987) (Atari).a78",
+      "label": "Robotron - 2084 (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AB7BC9CE|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/pooper.bas.a78",
+      "label": "Roof Pooper (World) (v20161006) (Aftermarket) (frankodragon)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "772A4053|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Santa Simon by Matthias Luedtke (2006).a78",
+      "label": "Santa Simon (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "8689B7D1|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Scramble by Bob DeCrescenzo (V20120218headerfix).a78",
+      "label": "Scramble (World) (v1.14)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "79B068DF|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Scramble by Bob DeCrescenzo (V20120218headerfix_PAL).a78",
+      "label": "Scramble (World) (v1.14) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C98EDF0C|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Scrapyard Dog (1990) (Atari).a78",
+      "label": "Scrapyard Dog",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "DB61AE81|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Scrapyard Dog (1990) (Atari) (PAL).a78",
+      "label": "Scrapyard Dog (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "B435A5CB|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Sentinel (1991) (Atari) (PAL) [!].a78",
+      "label": "Sentinel (Europe)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "BA588FF0|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Sentinel (1988) (Atari) [!].a78",
+      "label": "Sentinel (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "51DF6E83|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/serpentine.20161029.a78",
+      "label": "Serpentine (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E2998530|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Shoot the UFO 2015 (20150328).a78",
+      "label": "Shoot the UFO 2015 (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "15EEAD4B|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Sirius (Tynesoft) (Prototype-NTSC).a78",
+      "label": "Sirius (Unknown) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9D3CD869|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Space Duel (VFinal_NTSC).a78",
+      "label": "Space Duel (World) (v1.09)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D795B3DA|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Space Duel (VFinal_PAL).a78",
+      "label": "Space Duel (World) (v1.09) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "36D212F9|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Space Invaders 7800 by Bob DeCrescenzo (VFinal_Fixed_NTSC).a78",
+      "label": "Space Invaders (World) (v2.01)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F2699E24|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Space Invaders 7800 by Bob DeCrescenzo (VFinal_Fixed_PAL).a78",
+      "label": "Space Invaders (World) (v2.01) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A78E5587|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Summer Games (1987) (Atari) [!].a78",
+      "label": "Summer Games (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "05D35694|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Circus Atari Age (NTSC) (Paddle) (POKEY 4000) (20170611).a78",
+      "label": "Super Circus AtariAge (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "EC839981|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Huey UH-IX (1989) (Atari).a78",
+      "label": "Super Huey UH-1X (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F1991B27|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Huey UH-IX (1989) (Atari) (PAL).a78",
+      "label": "Super Huey UH-1X (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "5E625072|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Pac-Man by Bob DeCrescenzo (V2008xxxx).a78",
+      "label": "Super Pac-Man (World) (v1.09)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "79E2BE17|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Pac-Man by Bob DeCrescenzo (V2008xxxx_PAL).a78",
+      "label": "Super Pac-Man (World) (v1.09) (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D1983466|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Skateboardin' (1989) (Absolute) [!].a78",
+      "label": "Super Skateboardin'",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "FAA12091|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Skateboardin' (1989) (Absolute) (PAL).a78",
+      "label": "Super Skateboardin' (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "B91C65C4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Super Stunt Cycle (V19881118).a78",
+      "label": "Super Stunt Cycle (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "0AB7B0A4|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tank Command (1988) (Froggo) [!].a78",
+      "label": "Tank Command",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9FFC9515|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tank Command (1988) (Froggo) [o1].a78",
+      "label": "Tank Command [o]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C9A2139C|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/salvo.bas20160910.a78",
+      "label": "TiME Salvo (USA) (Aftermarket) (Mike Saarna)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "99908716|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Title Match Pro Wrestling (1989) (Absolute) [!].a78",
+      "label": "Title Match Pro Wrestling",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "A5742A96|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Title Match Pro Wrestling (1989) (Absolute) (PAL).a78",
+      "label": "Title Match Pro Wrestling (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D0FF1A1A|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tomcat - The F-14 (1989) (Absolute) [!].a78",
+      "label": "Tomcat - The F-14 Fighter Simulator",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "AB48F361|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tomcat - The F-14 (1989) (Absolute) (PAL).a78",
+      "label": "Tomcat - The F-14 Fighter Simulator (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "957BF79C|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Touchdown Football (1988) (Atari).a78",
+      "label": "Touchdown Football",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "4162E98F|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tower Toppler (1988) (Atari) [!].a78",
+      "label": "Tower Toppler",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "F701BD43|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tower Toppler (1988) (Atari) (PAL).a78",
+      "label": "Tower Toppler (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "B9269ACB|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Tower Toppler (1988) (Atari) [o1].a78",
+      "label": "Tower Toppler [o]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "C915F181|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Wasp! Standard Edition by Mark Ball (PD).a78",
+      "label": "Wasp! (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "9B566F99|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Water Ski (1988) (Froggo).a78",
+      "label": "Water Ski",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "09A27634|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Water Ski (1988) (Froggo) [o1].a78",
+      "label": "Water Ski [o]",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "E4497285|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Winter Games (1987) (Atari) [!].a78",
+      "label": "Winter Games (USA)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "68DB3611|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Worm! by Mark Ball (V1.16_20100307).a78",
+      "label": "Worm! (World)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "D10FE951|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Xenophobe (1989) (Atari) [!].a78",
+      "label": "Xenophobe",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "96EE8584|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Xenophobe (1989) (Atari) (PAL).a78",
+      "label": "Xenophobe (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "73783E53|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Xevious (1987) (Atari).a78",
+      "label": "Xevious (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "44584FA2|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Xevious (1987) (Atari) (PAL).a78",
+      "label": "Xevious (PAL)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "42AAF1FF|crc",
+      "db_name": "Atari - 7800.lpl"
+    },
+    {
+      "path": "/data/ROMS/ATARI7800/Xevious (1987) (Atari) (Prototype).a78",
+      "label": "Xevious (USA) (Beta)",
+      "core_path": "/data/self/retroarch/cores/prosystem_libretro_ps4.self",
+      "core_name": "Atari - 7800 (ProSystem)",
+      "crc32": "6FD15498|crc",
+      "db_name": "Atari - 7800.lpl"
+    }
+  ]
+}
