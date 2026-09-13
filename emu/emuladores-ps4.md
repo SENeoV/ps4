@@ -128,7 +128,7 @@ Lo que cuesta, y por lo que **no está en la hoja de ruta**:
 - Linux vive en un USB o disco externo, con teclado y ratón. Es un PC con Linux que hay que administrar.
 - Ninguno de estos informes está verificado en esta consola.
 
-Si algún día se quiere probar, es un proyecto aparte: distro de [ps4linux.com](https://ps4linux.com/) y loader, en un disco propio.
+Si algún día se quiere probar, es un proyecto aparte: distro de [ps4linux.com](https://ps4linux.com/) y loader, en un disco propio. La guía paso a paso (requisitos, payloads, instalación interna o externa, distros recomendadas, problemas y compatibilidad de juegos) está copiada en [`../linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md).
 
 ### No viables
 
