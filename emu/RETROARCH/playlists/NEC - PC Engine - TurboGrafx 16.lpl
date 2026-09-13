@@ -1,0 +1,1691 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+  "default_core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/PCE/1943 Kai (Japan).pce",
+      "label": "1943 Kai (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FDE08D6D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Adventure Island (Japan).pce",
+      "label": "Adventure Island (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8E71D4F3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Aero Blasters (USA).pce",
+      "label": "Aero Blasters (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B03E0B32|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/After Burner II (Japan).pce",
+      "label": "After Burner II (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "CA72A828|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Air Zonk (USA).pce",
+      "label": "Air Zonk (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "933D5BCC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Alien Crush (USA).pce",
+      "label": "Alien Crush (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "EA488494|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Andre' Panza Kick Boxing (USA).pce",
+      "label": "Andre Panza Kick Boxing (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A980E0E9|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ankoku Densetsu (Japan).pce",
+      "label": "Ankoku Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "CACC06FB|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Aoi Blink (Japan).pce",
+      "label": "Aoi Blink (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "08A09B9A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Armed F (Japan).pce",
+      "label": "Armed F (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "20EF87FD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Atomic Robo-Kid Special (Japan).pce",
+      "label": "Atomic Robo-Kid Special (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "DD175EFD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ballistix (USA).pce",
+      "label": "Ballistix (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "420FA189|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bari Bari Densetsu (Japan).pce",
+      "label": "Bari Bari Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C267E25D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Barunba (Japan).pce",
+      "label": "Barunba (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4A3DF3CA|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Batman (Japan).pce",
+      "label": "Batman (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "106BB7B2|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Battle Lode Runner (Japan).pce",
+      "label": "Battle Lode Runner (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "59E44F45|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Battle Royale (USA).pce",
+      "label": "Battle Royale (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E70B01AF|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Blazing Lazers (USA).pce",
+      "label": "Blazing Lazers (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B4A1B0F6|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bloody Wolf (USA).pce",
+      "label": "Bloody Wolf (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "37BAF6BC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bomberman '93 (USA).pce",
+      "label": "Bomberman '93 (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "56171C1C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bomberman '93 (Japan) (Special Version).pce",
+      "label": "Bomberman '93 - Special Version (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "02309AA0|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bomberman '94 (Japan).pce",
+      "label": "Bomberman '94 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "05362516|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bomberman (USA).pce",
+      "label": "Bomberman (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "5F6F3C2A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bonk III - Bonk's Big Adventure (USA).pce",
+      "label": "Bonk 3 - Bonk's Big Adventure (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "5A3F76D8|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bonk's Adventure (USA).pce",
+      "label": "Bonk's Adventure (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "599EAD9B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bonk's Revenge (USA).pce",
+      "label": "Bonk's Revenge (USA) (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "14250F9A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bouken Danshaku Don - The Lost Sunheart (Japan).pce",
+      "label": "Bouken Danshaku Don - The Lost Sunheart (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8F4D9F94|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Boxyboy (USA).pce",
+      "label": "Boxyboy (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "605BE213|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Bravoman (USA).pce",
+      "label": "Bravoman (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "CCA08B02|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Break In (Japan).pce",
+      "label": "Break In (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C9D7426A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Burning Angels (Japan).pce",
+      "label": "Burning Angels (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D233C05A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Cadash (USA).pce",
+      "label": "Cadash (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BB0B3AEF|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Champion Wrestler (Japan).pce",
+      "label": "Champion Wrestler (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9EDC0AEA|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Champions Forever Boxing (USA).pce",
+      "label": "Champions Forever Boxing (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "15EE889A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Taito Chase H.Q. (USA).pce",
+      "label": "Chase H.Q. (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9298254C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Chew Man Fu (USA).pce",
+      "label": "Chew-Man-Fu (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8CD13E9A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Chibi Maruko-chan - Quiz de Piihyara (Japan).pce",
+      "label": "Chibi Maruko-chan - Quiz de Piihyara (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "951ED380|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/China Warrior (USA).pce",
+      "label": "China Warrior (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A2EE361D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Circus Lido (Japan).pce",
+      "label": "Circus Lido (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C3212C24|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/City Hunter (Japan).pce",
+      "label": "City Hunter (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "1A34411C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Columns (Japan).pce",
+      "label": "Columns (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "99F7A572|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Coryoon - Child of Dragon (Japan).pce",
+      "label": "Coryoon (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B4D29E3B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Cratermaze (USA).pce",
+      "label": "Cratermaze (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9033E83A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Cross Wiber - Cyber Combat Police (Japan).pce",
+      "label": "Cross Wiber - Cyber Combat Police (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2DF97BD0|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Cyber Dodge (Japan).pce",
+      "label": "Cyber Dodge (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C1139BD3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Cyber Core (USA).pce",
+      "label": "Cyber-Core (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4CFB6E3E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Daimakai Mura.pce",
+      "label": "Daimakai Mura",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B486A8ED|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Daisenpuu (Japan).pce",
+      "label": "Daisenpuu (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9107BCC8|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Darius Alpha (Japan).pce",
+      "label": "Darius Alpha (Japan) (En) (SG Enhanced)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B0BA689F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Darius Plus (Japan).pce",
+      "label": "Darius Plus (Japan) (En) (SG Enhanced)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BEBFE042|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Darkwing Duck (USA).pce",
+      "label": "Darkwing Duck (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4AC97606|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Davis Cup Tennis (USA).pce",
+      "label": "Davis Cup Tennis (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9EDAB596|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dead Moon (USA).pce",
+      "label": "Dead Moon (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F5D98B0B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Deep Blue (USA).pce",
+      "label": "Deep Blue (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "16B40B44|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Detana!! TwinBee (Japan).pce",
+      "label": "Detana!! TwinBee (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "5CF59D80|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Devil's Crush (USA).pce",
+      "label": "Devil's Crush (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "157B4492|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Die Hard (Japan).pce",
+      "label": "Die Hard (Japan) [T-En by Spinner 8 and friends]",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "91BE0DEC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Digital Champ (Japan).pce",
+      "label": "Digital Champ - Battle Boxing (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "17BA3032|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Don Doko Don! (Japan).pce",
+      "label": "Don Doko Don! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F42AA73E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Double Dungeons - W (USA).pce",
+      "label": "Double Dungeons (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4A1A8C60|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Download (Japan).pce",
+      "label": "Down Load (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "85101C20|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dragon Egg! (Japan).pce",
+      "label": "Dragon Egg! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "442405D5|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dragon Saber - After Story of Dragon Spirit (Japan).pce",
+      "label": "Dragon Saber (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "3219849C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dragon Spirit (USA).pce",
+      "label": "Dragon Spirit (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "086F148C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dragon's Curse (USA).pce",
+      "label": "Dragon's Curse (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "7D2C4B09|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Drop.Off (USA).pce",
+      "label": "Drop Off (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FEA27B32|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Dungeon Explorer (USA).pce",
+      "label": "Dungeon Explorer (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4FF01515|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Order of the Griffon (USA).pce",
+      "label": "Dungeons & Dragons - Order of the Griffon (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FAE0FC60|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Eternal City - Toshi Tensou Keikaku (Japan).pce",
+      "label": "Eternal City - Toshi Tensou Keikaku (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B18D102D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/F1 Circus '91 - World Championship (Japan).pce",
+      "label": "F1 Circus '91 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D7CFD70F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/F1 Circus '92 - The Speed of Sound (Japan).pce",
+      "label": "F1 Circus '92 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B268F2A2|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/F1 Circus (Japan).pce",
+      "label": "F1 Circus (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E14DEE08|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/F1 Triple Battle (Japan).pce",
+      "label": "F1 Triple Battle (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "13BF0409|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Falcon (USA).pce",
+      "label": "Falcon (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "0BC0A12B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Fantasy Zone (USA).pce",
+      "label": "Fantasy Zone (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E8C3573D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Fighting Run (Japan).pce",
+      "label": "Fighting Run (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "1828D2E5|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Final Blaster (Japan).pce",
+      "label": "Final Blaster (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C90971BA|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Final Lap Twin (USA).pce",
+      "label": "Final Lap Twin (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "26408EA3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Final Match Tennis (Japan).pce",
+      "label": "Final Match Tennis (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "560D2305|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Final Soldier (Japan).pce",
+      "label": "Final Soldier (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "AF2DD2AF|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Final Soldier (Japan) (Special Version).pce",
+      "label": "Final Soldier - Special Version (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "02A578C5|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Fire Pro Wrestling 3 - Legend Bout (Japan).pce",
+      "label": "Fire Pro Wrestling 3 - Legend Bout (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "534E8808|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Formation Soccer - Human Cup '90 (Japan).pce",
+      "label": "Formation Soccer - Human Cup '90 (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "85A1E7B6|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Formation Soccer - On J. League (Japan).pce",
+      "label": "Formation Soccer - On J.League (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "7146027C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Fushigi no Yume no Alice (Japan).pce",
+      "label": "Fushigi no Yume no Alice (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "12C4E6FD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Galaga '90 (USA).pce",
+      "label": "Galaga '90 (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2909DEC6|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Gekisha Boy (Japan).pce",
+      "label": "Gekisha Boy (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E8702D51|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Genji Tsuushin Agedama (Japan).pce",
+      "label": "Genji Tsuushin Agedama (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "AD450DFC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Genpei Toumaden (Japan).pce",
+      "label": "Genpei Toumaden (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B926C682|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ghost Manor (USA).pce",
+      "label": "Ghost Manor (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2DB4C1FD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Gokuraku! Chuuka Taisen (Japan).pce",
+      "label": "Gokuraku! Chuuka Taisen (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E749A22C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Gradius (Japan).pce",
+      "label": "Gradius (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "0517DA65|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Gunboat (USA).pce",
+      "label": "Gunboat (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F370B58E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Gunhed (Japan).pce",
+      "label": "Gunhed (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A17D4D7E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Hana Taaka Daka! (Japan).pce",
+      "label": "Hana Taaka Daka! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BA4D0DD4|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Hanii on the Road (Japan).pce",
+      "label": "Hanii on the Road (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9897FA86|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Hatris (Japan).pce",
+      "label": "Hatris (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "44E7DF53|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Heavy Unit (Japan).pce",
+      "label": "Heavy Unit (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "EB923DE5|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Hit the Ice - VHL - The Official Video Hockey League (USA).pce",
+      "label": "Hit the Ice - VHL - The Official Video Hockey League (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8B29C3AA|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Image Fight (Japan).pce",
+      "label": "ImageFight (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A80C565F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Impossamole (USA).pce",
+      "label": "Impossamole (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E2470F5F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/J.J. & Jeff (USA).pce",
+      "label": "J.J. & Jeff (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E01C5127|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Jack Nicklaus' Turbo Golf (USA).pce",
+      "label": "Jack Nicklaus' Turbo Golf (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "83384572|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Jackie Chan's Action Kung Fu (USA).pce",
+      "label": "Jackie Chan's Action Kung Fu (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "9D2F6193|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Jigoku Meguri (Japan).pce",
+      "label": "Jigoku Meguri (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "CC7D3EEB|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Jinmu Denshou (Japan).pce",
+      "label": "Jinmu Denshou (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C150637A|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Juuouki (Japan).pce",
+      "label": "Juuouki (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C8C7D63E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Kaizou Choujin Shubibinman (Japan).pce",
+      "label": "Kaizou Choujin Shubibinman (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A9084D6E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Keith Courage in Alpha Zones (USA).pce",
+      "label": "Keith Courage in Alpha Zones (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "474D7A72|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/KickBall (Japan).pce",
+      "label": "KickBall (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "7E3C367B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Kikikai-kai (Japan).pce",
+      "label": "Kiki Kaikai (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C0CB5ADD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/King of Casino (USA).pce",
+      "label": "King of Casino (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2F2E2240|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Klax (USA).pce",
+      "label": "Klax (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "0F1B59B4|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Knight Rider Special (Japan).pce",
+      "label": "Knight Rider Special (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C614116C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Kyuukyoku Tiger (Japan).pce",
+      "label": "Kyuukyoku Tiger (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "09509315|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Legend of Hero Tonma (USA).pce",
+      "label": "Legend of Hero Tonma (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "3C131486|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Legendary Axe II, The (USA).pce",
+      "label": "Legendary Axe II (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "220EBF91|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Legendary Axe, The (USA).pce",
+      "label": "Legendary Axe, The (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2D211007|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Maerchen Maze (Japan).pce",
+      "label": "Maerchen Maze (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A15A1F37|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Magical Chase (USA).pce",
+      "label": "Magical Chase (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "95CD2979|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Makai Prince Dorabocchan (Japan).pce",
+      "label": "Makai Prince Dorabocchan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B101B333|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Metal Stoker (Japan).pce",
+      "label": "Metal Stoker (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "25A02BEE|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Military Madness (USA).pce",
+      "label": "Military Madness (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "93F316F7|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Mizubaku Adventure (Japan).pce",
+      "label": "Mizubaku Daibouken (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B2EF558D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Moto Roader (USA).pce",
+      "label": "Moto Roader (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E2B0D544|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Moto Roader II (Japan).pce",
+      "label": "Moto Roader II (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "0B7F6E5F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Mr. Heli no Daibouken (Japan).pce",
+      "label": "Mr. Heli no Daibouken (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2CB92290|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Narazumono Sentou Butai - Bloody Wolf (Japan).pce",
+      "label": "Narazumono Sentou Butai - Bloody Wolf (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B01F70C2|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Nekketsu Koukou Dodgeball-bu - PC Bangai Hen (Japan).pce",
+      "label": "Nekketsu Koukou Dodgeball-bu - PC Bangai Hen (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "65FDB863|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Nekketsu Koukou Dodgeball-bu - Soccer PC Hen (Japan).pce",
+      "label": "Nekketsu Koukou Dodgeball-bu - PC Soccer Hen (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F2285C6D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Neutopia (USA).pce",
+      "label": "Neutopia (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A9A94E1B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Neutopia II (USA).pce",
+      "label": "Neutopia II (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C4ED4307|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/New Adventure Island (USA).pce",
+      "label": "New Adventure Island (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "756A1802|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/New Zealand Story, The (Japan).pce",
+      "label": "NewZealand Story, The (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8E4D75A8|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Night Creatures (USA).pce",
+      "label": "Night Creatures (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "C159761B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ninja Ryuuken Den (Japan) (En,Ja,Zh).pce",
+      "label": "Ninja Ryuuken Den (Japan) (En,Ja,Zh)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "67573BAC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ninja Spirit (USA).pce",
+      "label": "Ninja Spirit (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "DE8AF1C1|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ninja Warriors, The (Japan).pce",
+      "label": "Ninjawarriors, The (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "96E0CD9D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Obocchama-kun (Japan).pce",
+      "label": "Obocchama-kun (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4D3B0BC9|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Operation Wolf (Japan).pce",
+      "label": "Operation Wolf (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FF898F87|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Ordyne (USA).pce",
+      "label": "Ordyne (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E7BF2A74|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Out Live (Japan).pce",
+      "label": "Out Live (Japan) [T-En by Nebulous Translations]",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2F1CEE20|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Out Run (Japan).pce",
+      "label": "OutRun (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E203F223|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Override (Japan).pce",
+      "label": "Override (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "B74EC562|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/P-47 - The Freedom Fighter (Japan).pce",
+      "label": "P-47 - The Freedom Fighter (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "7632DB90|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Pac-Land (USA).pce",
+      "label": "Pac-Land (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D6E30CCD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Parasol Stars - The Story of Bubble Bobble III (USA).pce",
+      "label": "Parasol Stars - The Story of Bubble Bobble III (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E6458212|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Parodius Da! - Shinwa kara Owarai e (Japan).pce",
+      "label": "Parodius Da! - Shinwa kara Owarai e (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "647718F9|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/PC Denjin - Punkic Cyborgs (Japan).pce",
+      "label": "PC Denjin - Punkic Cyborgs (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "740491C2|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Power Golf (USA).pce",
+      "label": "Power Golf (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "ED1D3843|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Power Tennis (Japan).pce",
+      "label": "Power Tennis (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8DEF5AA1|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Psycho Chaser (Japan).pce",
+      "label": "Psycho Chaser (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "03883EE8|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Psychosis (USA).pce",
+      "label": "Psychosis (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "6CC10824|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Puzzle Boy (Japan).pce",
+      "label": "Puzzle Boy (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FAA6E187|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/R-Type (USA).pce",
+      "label": "R-Type (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "91CE5156|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/R-Type Part-2 (Japan).pce",
+      "label": "R-Type II (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F207ECAE|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Rabio Lepus Special (Japan).pce",
+      "label": "Rabio Lepus Special (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D8373DE6|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Racing Damashii (Japan).pce",
+      "label": "Racing Damashii (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "3E79734C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Raiden (USA).pce",
+      "label": "Raiden (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BC59C31E|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Rastan Saga II (Japan).pce",
+      "label": "Rastan Saga II (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "00C38E69|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Rock-On (Japan).pce",
+      "label": "Rock-On (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2FD65312|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Special Criminal Investigation (Japan).pce",
+      "label": "S.C.I. - Special Criminal Investigation (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "09A0BFCC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Salamander (Japan).pce",
+      "label": "Salamander (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FAECCE20|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Samurai-Ghost (USA).pce",
+      "label": "Samurai-Ghost (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "77A924B7|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Shinobi (Japan).pce",
+      "label": "Shinobi (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BC655CF3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Shockman (USA).pce",
+      "label": "Shockman (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2774462C|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/SideArms - Hyper Dyne (USA).pce",
+      "label": "SideArms (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D1993C9F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Silent Debuggers (USA).pce",
+      "label": "Silent Debuggers (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "FA7E5D66|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Sinistron (USA).pce",
+      "label": "Sinistron (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4F6E2DBD|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Soldier Blade (USA).pce",
+      "label": "Soldier Blade (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4BB68B13|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Somer Assault (USA).pce",
+      "label": "Somer Assault (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "8FCAF2E9|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Son Son II (Japan).pce",
+      "label": "Son Son II (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D7921DF2|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Sonic Spike - World Championship Beach Volleyball (USA).pce",
+      "label": "Sonic Spike - World Championship Beach Volleyball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F74E5EB3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Space Harrier (USA).pce",
+      "label": "Space Harrier (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "43B05EB8|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Space Invaders - Fukkatsu no Hi (Japan).pce",
+      "label": "Space Invaders - Fukkatsu no Hi (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "99496DB3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Spiral Wave (Japan).pce",
+      "label": "Spiral Wave (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A5290DD0|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Splatterhouse (USA).pce",
+      "label": "Splatterhouse (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D00CA74F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Street Fighter II' - Champion Edition (Japan).pce",
+      "label": "Street Fighter II' - Champion Edition (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D15CB6BB|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Strip Fighter II (Japan).pce",
+      "label": "Strip Fighter II (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "D6FC51CE|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Super Metal Crusher (Japan).pce",
+      "label": "Super Metal Crusher (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "56488B36|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Super Star Soldier (USA).pce",
+      "label": "Super Star Soldier (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "DB29486F|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Super Volleyball (USA).pce",
+      "label": "Super Volleyball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "245040B3|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Takin' It to the Hoop (USA).pce",
+      "label": "Takin' It to the Hoop (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "E9D51797|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/TaleSpin (USA).pce",
+      "label": "TaleSpin (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BAE9CECC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Tatsujin (Japan).pce",
+      "label": "Tatsujin (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A6088275|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Tenseiryuu - Saint Dragon (Japan).pce",
+      "label": "Tenseiryuu - Saint Dragon (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "2E278CCB|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Terra Cresta II - Mandoraa no Gyakushuu (Japan).pce",
+      "label": "Terra Cresta II - Mandoler no Gyakushuu (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "1B2D0077|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Thunder Blade (Japan).pce",
+      "label": "Thunder Blade (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "DDC3E809|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Tiger Road (USA).pce",
+      "label": "Tiger Road (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "985D492D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Time Cruise (USA).pce",
+      "label": "Time Cruise (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "02C39660|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Timeball (USA).pce",
+      "label": "Timeball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "5D395019|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Toilet Kids (Japan).pce",
+      "label": "Toilet Kids (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "53B7784B|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Tricky Kick (USA).pce",
+      "label": "Tricky Kick (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "48E6FD34|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Turrican (USA).pce",
+      "label": "Turrican (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "EB045EDF|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/TV Sports Basketball (USA).pce",
+      "label": "TV Sports Basketball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "EA54D653|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/TV Sports Football (USA).pce",
+      "label": "TV Sports Football (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "5E25B557|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/TV Sports Hockey (USA).pce",
+      "label": "TV Sports Hockey (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "97FE5BCF|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Valkyrie no Densetsu (Japan).pce",
+      "label": "Valkyrie no Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "1B778367|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Veigues - Tactical Gladiator (USA).pce",
+      "label": "Veigues - Tactical Gladiator (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "99D14FB7|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Victory Run (USA).pce",
+      "label": "Victory Run (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "85CBD045|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Vigilante (USA).pce",
+      "label": "Vigilante (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "79D49A0D|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Violent Soldier (Japan).pce",
+      "label": "Violent Soldier (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "1BC36B36|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/W-Ring - The Double Rings (Japan).pce",
+      "label": "W Ring - The Double Rings (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "BE990010|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/World Class Baseball (USA).pce",
+      "label": "World Class Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4186D0C0|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/World Court Tennis (USA).pce",
+      "label": "World Court Tennis (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A4457DF0|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/World Jockey (Japan).pce",
+      "label": "World Jockey (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "A9AB2954|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/World Sports Competition (USA).pce",
+      "label": "World Sports Competition (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "4B93F0AC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Xevious - Fardraut Saga (Japan).pce",
+      "label": "Xevious - Fardraut Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "F8F85EEC|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Yo, Bro (USA).pce",
+      "label": "Yo' Bro (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "3CA7DB48|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    },
+    {
+      "path": "/data/ROMS/PCE/Zero 4 Champ (Japan).pce",
+      "label": "Zero4 Champ (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_pce_fast_libretro_ps4.self",
+      "core_name": "NEC - PC Engine / CD (Beetle PCE FAST)",
+      "crc32": "EE156721|crc",
+      "db_name": "NEC - PC Engine - TurboGrafx 16.lpl"
+    }
+  ]
+}

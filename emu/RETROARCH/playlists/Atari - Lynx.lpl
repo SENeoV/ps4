@@ -1,0 +1,1099 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+  "default_core_name": "Atari - Lynx (Handy)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/LYNX/Alien.zip",
+      "label": "Alien (World) (v1.02)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "1F324A19|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Alien Vs. Predator (Prototype).lnx",
+      "label": "Alien vs Predator (Proto)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D6843E8E|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/A.P.B. (NA).lnx",
+      "label": "All Points Bulletin",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "68A0ACAB|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Awesome Golf (NA).lnx",
+      "label": "Awesome Golf",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2B90E818|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Baseball Heroes (1991).lnx",
+      "label": "Baseball Heroes (1991)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "400989EA|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Baseball Heroes (NA).lnx",
+      "label": "Baseball Heroes (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "BB5DE237|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Basketbrawl (1992) [a1].lnx",
+      "label": "Basketbrawl (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CF67513A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Basketbrawl (NA).lnx",
+      "label": "Basketbrawl (World) (Atari Lynx Collection 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A41B3D47|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Batman Returns (NA).lnx",
+      "label": "Batman Returns",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "68CD6DCB|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Battle Wheels (1993) (Beyond Games) [o1].lnx",
+      "label": "Battle Wheels",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "DB45D5C4|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Battle Wheels (NA).lnx",
+      "label": "Battle Wheels (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "57EFFF37|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Battlezone 2000 (NA).lnx",
+      "label": "Battlezone 2000",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "E3AF09CE|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Bill & Ted's Excellent Adventure (NA).lnx",
+      "label": "Bill & Ted's Excellent Adventure",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C91AFF8A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Block Out (1990) [o1].lnx",
+      "label": "Block Out",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "F2DA1756|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Block Out (NA).lnx",
+      "label": "Block Out (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C96E5BC6|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Blue Lightning (1989) [a1].lnx",
+      "label": "Blue Lightning",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0782722A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Blue Lightning (NA).lnx",
+      "label": "Blue Lightning (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "35AF173C|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Blue Lightning Demo (1989).lnx",
+      "label": "Blue Lightning (USA, Europe) (Demo)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "8543CC15|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Blue Lightning Demo (1989) [o1].lnx",
+      "label": "Blue Lightning Demo (1989) [o1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "6CE4B9B0|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Bubble Trouble (NA).lnx",
+      "label": "Bubble Trouble",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "F85D0806|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Bug's Lynx, A.zip",
+      "label": "Bug's Lynx, A",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "6484AD99|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/California Games (1991) [o1].lnx",
+      "label": "California Games (1991) [o1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D0FBDF8D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/California Games (NA).lnx",
+      "label": "California Games (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "DA7D96FD|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Checkered Flag (NA).lnx",
+      "label": "Checkered Flag",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "6687F846|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Chip's Challenge (1989) [o1].lnx",
+      "label": "Chip's Challenge (1989) [o1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "68CC0D1F|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Chip's Challenge (NA).lnx",
+      "label": "Chip's Challenge (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "F45F784A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Conquest of Zow (Prototype).lnx",
+      "label": "Conquest of Zow (Prototype)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "9CCFDCD0|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Crystal Mines 2 (Prototype).lnx",
+      "label": "Crystal Mines 2 (Prototype)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CB7E0472|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Crystal Mines II (1990) [o1].lnx",
+      "label": "Crystal Mines II",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "58FF6DB3|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Crystal Mines II (1990).lnx",
+      "label": "Crystal Mines II (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "AEC474C8|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Daemonsgate (Prototype).lnx",
+      "label": "Daemonsgate (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "9E6B7645|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Desert Strike - Return to the Gulf (NA).lnx",
+      "label": "Desert Strike - Return to the Gulf",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2EAAE973|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Dinolympics (NA).lnx",
+      "label": "Dinolympics",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0ED9EB06|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Dirty Larry - Renegade Cop (NA).lnx",
+      "label": "Dirty Larry - Renegade Cop",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C6017733|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Double Dragon (NA).lnx",
+      "label": "Double Dragon",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "BCB2E75A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Dracula - The Undead (NA).lnx",
+      "label": "Dracula - The Undead",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0F4B4071|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Dragnet (1995).lnx",
+      "label": "Dragnet (1995)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "755F3024|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Electrocop (1989) [o1].lnx",
+      "label": "Electrocop (1989) [o1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "88792A94|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Electrocop (NA).lnx",
+      "label": "Electrocop (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "765D742D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/European Soccer Challenge (1993) (Telegames) [o1].lnx",
+      "label": "European Soccer Challenge",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D25C3D35|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/European Soccer Challenge (NA).lnx",
+      "label": "European Soccer Challenge (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "8EC43452|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Eye of the Beholder (Prototype).lnx",
+      "label": "Eye of the Beholder (Proto)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A0010717|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Fat Bobby (NA).lnx",
+      "label": "Fat Bobby (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "03F4E2A7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Fidelity Ultimate Chess Challenge (1991) (Telegames) [o1].lnx",
+      "label": "Fidelity Ultimate Chess Challenge",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "27D2D190|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/The Fidelity Ultimate Chess Challenge (NA).lnx",
+      "label": "Fidelity Ultimate Chess Challenge (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "BD77D5F2|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Gates of Zendocon, The (1989) [o1].lnx",
+      "label": "Gates of Zendocon, The",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "42DFE400|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/The Gates of Zendocon (NA).lnx",
+      "label": "Gates of Zendocon, The (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D852DBA7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Gauntlet - The Third Encounter (1990) [o1].lnx",
+      "label": "Gauntlet - The Third Encounter",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C3497FB2|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Gauntlet - The Third Encounter (NA).lnx",
+      "label": "Gauntlet - The Third Encounter (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "8E0908E5|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Gordo 106 - The Mutated Lab Monkey (NA).lnx",
+      "label": "Gordo 106 - The Mutated Lab Monkey",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0671ACEA|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Hard Drivin' (1993) [o1].lnx",
+      "label": "Hard Drivin'",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2F20BAC7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Hard Drivin' (NA).lnx",
+      "label": "Hard Drivin' (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "9ADD0861|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Hockey (NA).lnx",
+      "label": "Hockey",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0904A4D9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Hydra (NA).lnx",
+      "label": "Hydra",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "8980A322|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ishido - The Way of the Stones (1991) [o1].lnx",
+      "label": "Ishido - The Way of the Stones (1991) [o1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "77DE9BDC|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ishido - The Way of the Stones (NA).lnx",
+      "label": "Ishido - The Way of the Stones (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "4AA0E0B9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Jimmy Conners Tennis (NA).lnx",
+      "label": "Jimmy Connors Tennis",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "FDD6536D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Joust (1993) (Williams) [o1].lnx",
+      "label": "Joust",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D7B28EF1|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Joust (NA).lnx",
+      "label": "Joust (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "85A2A177|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Klax (NA).lnx",
+      "label": "Klax",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "EC53A878|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Krazy Ace Minature Golf (NA).lnx",
+      "label": "Krazy Ace Minature Golf",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "96C5D9B9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Kung Food (NA).lnx",
+      "label": "Kung Food",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "3529D2D7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lemmings (NA).lnx",
+      "label": "Lemmings",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A77B6B64|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lexis (NA).lnx",
+      "label": "Lexis (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "E89999BC|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lode Runner (1996) (Kurt Olsen).lnx",
+      "label": "Lode Runner (World) (Proto 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "3469D418|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lode Runner (Prototype).lnx",
+      "label": "Lode Runner (World) (Proto 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "AE5AC8A9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Luchsenstein 3D.zip",
+      "label": "Luchsenstein 3D",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0A6B0562|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lynx Casino (NA).lnx",
+      "label": "Lynx Casino",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5539BAF4|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Lynx Diagnostic Cart V0.02 (1989).lnx",
+      "label": "Lynx II Production Test Program (USA)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "28ADA019|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Malibu Bikini Volleyball (NA).lnx",
+      "label": "Malibu Bikini Volleyball",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "ABA3E776|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Marble Madness (Prototype).lnx",
+      "label": "Marble Madness (World)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "86ACF2B7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ms. Pac-Man (1990) [a1].lnx",
+      "label": "Ms. Pac-Man (1990) [a1]",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D6EC0176|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ms. Pac-Man (NA).lnx",
+      "label": "Ms. Pac-Man (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A4D77DE9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/NFL Football (NA).lnx",
+      "label": "NFL Football",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C398359E|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ninja Gaiden (NA).lnx",
+      "label": "Ninja Gaiden",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5ADF25F0|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ninja Gaiden III - The Ancient Ship of Doom (NA).lnx",
+      "label": "Ninja Gaiden III - Ancient Ship of Doom",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CD2FFBCC|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Ouragan.zip",
+      "label": "Ouragan (World) (Demo 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "32AB3FAB|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Pac-Land (1991) [o1].lnx",
+      "label": "Pac-Land",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "635179BA|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Pac-Land (NA).lnx",
+      "label": "Pac-Land (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5B57126A|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Paperboy (1990) [o1].lnx",
+      "label": "Paperboy",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "B77F6C21|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Paperboy (NA).lnx",
+      "label": "Paperboy (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D6A4C70B|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Para Lemi! (Prototype).lnx",
+      "label": "Para Lemi! (Prototype)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CC96DF68|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Pinball Jam (NA).lnx",
+      "label": "Pinball Jam",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "8863C28D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Pit Fighter - The Ultimate Competition (NA).lnx",
+      "label": "Pit Fighter",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CBAF54F3|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Pong5 (Prototype).lnx",
+      "label": "Pong5 (Prototype)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "6ECC1D1E|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Power Factor (NA).lnx",
+      "label": "Power Factor",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5DB41679|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Puzzler 2000 (NA, Rev 43).lnx",
+      "label": "Puzzler 2000 (World) (Proto)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D7241881|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Qix (1991) (Telegames) [o1].lnx",
+      "label": "Qix",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "48E45BD2|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Qix (NA).lnx",
+      "label": "Qix (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5651E1A8|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Raiden (NA).lnx",
+      "label": "Raiden (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2702BA4F|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Rampage (NA).lnx",
+      "label": "Rampage",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "490033C9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Rampart (NA).lnx",
+      "label": "Rampart",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "ADAB7883|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Remnant - Planar Wars 3D (Prototype).lnx",
+      "label": "Remnant - Planar Wars (World) (Beta)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CFD1FD9C|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/RoadBlasters (NA).lnx",
+      "label": "Road Blasters",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "47F69051|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Road Riot 4WD (Beta) (1994).lnx",
+      "label": "Road Riot 4WD (USA) (Proto 4)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "69959A3B|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Robo-Squash (1990) [o1].lnx",
+      "label": "Robo Squash",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "168BE6B1|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Robo-Squash (NA).lnx",
+      "label": "Robo Squash (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "AEED3E7E|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Robotron 2084 (NA).lnx",
+      "label": "Robotron 2084 (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "7117E9F7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Rygar - Legendary Warrior (NA).lnx",
+      "label": "Rygar - Legendary Warrior",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "1DFCA564|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/S.T.U.N. Runner (NA).lnx",
+      "label": "S.T.U.N. Runner",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "4B3BF84F|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Scrapyard Dog (NA).lnx",
+      "label": "Scrapyard Dog",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CA0D1BDA|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Shadow of the Beast (NA).lnx",
+      "label": "Shadow of the Beast (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "D43A8430|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Shanghai (1990) [o1].lnx",
+      "label": "Shanghai",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2441A8B7|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Steel Talons (NA).lnx",
+      "label": "Steel Talons",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "AB814832|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Super Asteroids & Missile Command (1995) [o1].lnx",
+      "label": "Super Asteroids & Missile Command",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "F4B32067|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Super Asteroids and Missile Command (NA).lnx",
+      "label": "Super Asteroids & Missile Command (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "7D8A25D1|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Super Off-Road (NA).lnx",
+      "label": "Super Off Road",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C51B7A2F|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Super Skweek (NA).lnx",
+      "label": "Super Skweek",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "11B712F6|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Switchblade II (NA).lnx",
+      "label": "Switchblade II",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "63144491|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/T-Tris (NA).lnx",
+      "label": "T-Tris (World) (Pirate)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "2708643D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/T-Tris (1996) by Bastian Schick [a1].lnx",
+      "label": "T-Tris (World) (Pirate) (Alt)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A261FCBC|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/The Dungeon (Prototype, Rev 0.12).lnx",
+      "label": "The Dungeon (Prototype, Rev 0.12)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5B500D7C|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Tiny Lynx Adventure.zip",
+      "label": "Tiny Lynx Adventure (World)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "42E4C839|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Todd's Adventure in Slime World (1990) [o1].lnx",
+      "label": "Todd's Adventures - Slime World",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C1D05F3E|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Todd's Adventure in Slime World (NA).lnx",
+      "label": "Todd's Adventures - Slime World (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "39BF3C25|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Toki (NA).lnx",
+      "label": "Toki",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "52B94A6C|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Tournament Cyberball 2072 (NA).lnx",
+      "label": "Tournament Cyberball 2072",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "70D0C9BF|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Turbo Sub (1991) [a1].lnx",
+      "label": "Turbo Sub",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "9D4ED688|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Turbo Sub (NA).lnx",
+      "label": "Turbo Sub (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5247B5F3|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Viking Child (NA).lnx",
+      "label": "Viking Child",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "45969EB0|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Warbirds (1990) [o1].lnx",
+      "label": "Warbirds",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "78574D46|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Warbirds (NA).lnx",
+      "label": "Warbirds (Alt 2)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "A6AE2301|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/World Class Soccer (NA).lnx",
+      "label": "World Class Soccer",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "9D929F2C|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xenophobe (NA).lnx",
+      "label": "Xenophobe",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "BC1194F6|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xenophobe (1990) [a2].lnx",
+      "label": "Xenophobe (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CB179390|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xenophobe (1990) [a3].lnx",
+      "label": "Xenophobe (Alt 3)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0D9F4BDA|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xenophobe (1990) [a1].lnx",
+      "label": "Xenophobe (Alt 4)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "922A9DD0|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xump - The Final Run.zip",
+      "label": "Xump - The Final Run (World) (Retroguru) (Digital)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C3F9CCE3|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Xybots (NA).lnx",
+      "label": "Xybots",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "CAC9A246|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Zaku.zip",
+      "label": "Zaku (World)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "3D82E190|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Zarlor Mercenary (1990) [o1].lnx",
+      "label": "Zarlor Mercenary",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "5DAE45C2|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Zarlor Mercenary (NA).lnx",
+      "label": "Zarlor Mercenary (Alt 1)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "35BC4FF9|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Centipede (Prototype).lnx",
+      "label": "ZZZ-UNK-Centipede (U) (Beta)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "071A2E46|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Loopz (Prototype).lnx",
+      "label": "ZZZ-UNK-Loopz (U) (Beta) (v0.06)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "B6DBBB21|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Marlboro Go! (Prototype).lnx",
+      "label": "ZZZ-UNK-Marlboro Go! (E) (Beta)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "C4E3E89D|crc",
+      "db_name": "Atari - Lynx.lpl"
+    },
+    {
+      "path": "/data/ROMS/LYNX/Shanghai (NA).lnx",
+      "label": "ZZZ-UNK-Shanghai (UE)",
+      "core_path": "/data/self/retroarch/cores/handy_libretro_ps4.self",
+      "core_name": "Atari - Lynx (Handy)",
+      "crc32": "0928CB18|crc",
+      "db_name": "Atari - Lynx.lpl"
+    }
+  ]
+}

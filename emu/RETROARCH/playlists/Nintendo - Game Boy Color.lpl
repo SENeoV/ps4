@@ -1,0 +1,3971 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+  "default_core_name": "Nintendo - Game Boy / Color (Gearboy)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/GBC/007 - The World Is Not Enough (USA, Europe).zip",
+      "label": "007 - The World Is Not Enough (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E038E666|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/10-Pin Bowling (Europe).zip",
+      "label": "10-Pin Bowling (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5449CAC0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/102 Dalmatiens a la Rescousse, Les (France).zip",
+      "label": "102 Dalmatiens a la Rescousse, Les (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E84191A8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/1942 (USA, Europe).zip",
+      "label": "1942 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "87431672|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8CDAB77F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/4x4 World Trophy (Europe) (En,Fr,De,Es,It).zip",
+      "label": "4x4 World Trophy (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F62AD75E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/720 Degrees (USA, Europe).zip",
+      "label": "720 Degrees (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E633841F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Action Man - Search for Base X (USA, Europe).zip",
+      "label": "Action Man - Search for Base X (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1226499E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Adventures of the Smurfs, The (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Adventures of the Smurfs, The (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D0D3DFED|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Aladdin (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Aladdin (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "446573CD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Alfred's Adventure (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Alfred's Adventure (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6F9EF15E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Alice in Wonderland (Europe) (En,Fr,De,Es).zip",
+      "label": "Alice in Wonderland (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "85545D81|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Aliens - Thanatos Encounter (USA, Europe).zip",
+      "label": "Aliens - Thanatos Encounter (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BEC3C24B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/All Star Tennis 2000 (Europe).zip",
+      "label": "All Star Tennis 2000 (Europe) (AZTP) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "952B94E5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/All-Star Baseball 2000 (USA, Europe).zip",
+      "label": "All-Star Baseball 2000 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E17F59A5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7FF2042F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Animorphs (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Animorphs (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7FD46DA1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Antz (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Antz (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4839E0C1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Antz Racing (E) (Beta) (M6) [C][!].gbc",
+      "label": "Antz Racing (E) (Beta) (M6) [C][!]",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D14B7B15|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Antz Racing (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Antz Racing (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F625A959|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Antz World Sportz (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Antz World Sportz (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "67C7F85C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Armorines - Project S.W.A.R.M. (USA, Europe) (En,De).zip",
+      "label": "Armorines - Project S.W.A.R.M. (USA, Europe) (En,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EA3B9C73|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Army Men (USA, Europe) (En,Fr,De).zip",
+      "label": "Army Men (USA, Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "34411753|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Army Men - Sarge's Heroes 2 (USA, Europe) (En,Fr,De).zip",
+      "label": "Army Men - Sarge's Heroes 2 (USA, Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "71B857EA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Army Men 2 (USA, Europe) (En,Fr,De).zip",
+      "label": "Army Men 2 (USA, Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2272BACA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Asterix & Obelix (Europe) (En,Fr,De,Es).zip",
+      "label": "Asterix & Obelix (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6628CDEE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Asterix & Obelix vs Caesar (Europe) (En,Fr,De,Es,Nl).zip",
+      "label": "Asterix & Obelix Contre Cesar (Europe) (En,Fr,De,Es,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "71043D76|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Asterix - Search for Dogmatix (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Asterix - Sur la Trace D'Idefix (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "408DC5C6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Asteroids (USA, Europe).zip",
+      "label": "Asteroids (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "89D5D936|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Atlantis - The Lost Empire (Europe) (Fr,De,Nl).zip",
+      "label": "Atlantis - The Lost Empire (Europe) (Fr,De,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4E052510|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/ATV Racing (Europe) (Unl).zip",
+      "label": "ATV Racing (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7987D5CD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Austin Powers - Oh, Behave! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Austin Powers - Oh, Behave! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BF99F8CB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Austin Powers - Welcome to my Underground Lair! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Austin Powers - Welcome to My Underground Lair! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "693F50DA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Aventures de Buzz l'Eclair, Les (France).zip",
+      "label": "Aventures de Buzz l'Eclair, Les (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "841674B0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Azure Dreams (Europe) (En,Fr,De).zip",
+      "label": "Azure Dreams (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F9CCAB09|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Babe and Friends (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Babe and Friends (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B3681854|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Baby Felix - Halloween (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Baby Felix - Halloween (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7DED5C71|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Backgammon (Europe) (En,Fr,De,Es).zip",
+      "label": "Backgammon (Europe) (En,Fr,De,Es) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D33D6F7B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Barbie - Chasse au Tresor Sous-Marine (France).zip",
+      "label": "Barbie - Chasse au Tresor Sous-Marine (France) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4068E981|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Barbie - Fashion Pack Games (USA, Europe).zip",
+      "label": "Barbie - Fashion Pack Games (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "09EE93A8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Barbie - Pet Rescue (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Barbie - Pet Rescue (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "48E638CE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Barca Total 2000 (Europe) (En,Fr,De,Es,It,Nl,Ca).zip",
+      "label": "Barca Total 2000 (Europe) (En,Fr,De,Es,It,Nl,Ca)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CD15ED36|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bass Masters Classic (USA, Europe).zip",
+      "label": "Bass Masters Classic (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B70028E4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/New Batman Adventures, The - Chaos in Gotham (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Batman - Chaos in Gotham (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E025067B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Batman of the Future - Return of the Joker (Europe) (En,Fr,De).zip",
+      "label": "Batman of the Future - Return of the Joker (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F9D5B399|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Battleship (USA, Europe).zip",
+      "label": "Battleship (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8E6F8037|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/BattleTanx (Europe) (En,Fr,De).zip",
+      "label": "BattleTanx (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2FCECB70|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Beach'n Ball (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Beach'n Ball (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "82D1A721|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Beauty and the Beast - A Board Game Adventure (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Beauty and the Beast - A Board Game Adventure (Europe) (En,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E4C410F0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Billy Bob's Huntin' 'n' Fishin' (USA, Europe).zip",
+      "label": "Billy Bob's Huntin' 'n' Fishin' (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FA1E6853|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Black Bass - Lure Fishing (USA, Europe).zip",
+      "label": "Black Bass - Lure Fishing (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E44977DC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Blade (USA, Europe).zip",
+      "label": "Blade (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2DD5907F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Blaster Master - Enemy Below (USA, Europe) (SGB Enhanced).zip",
+      "label": "Blaster Master - Enemy Below (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2F91E17C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl).zip",
+      "label": "Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A4C6523D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bob the Builder - Fix it Fun! (Europe) (En,Fr,It).zip",
+      "label": "Bob the Builder - Fix it Fun! (Europe) (En,Fr,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A8EBD88B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bomberman Quest (Europe) (En,Fr,De).zip",
+      "label": "Bomberman Quest (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5A9B9AE6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Buffy the Vampire Slayer (USA, Europe).zip",
+      "label": "Buffy the Vampire Slayer (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5692E262|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bug's Life, A (Europe).zip",
+      "label": "Bug's Life, A (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DB93E0F6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bugs Bunny & Lola Bunny - Operation Carrots (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Bugs Bunny & Lola Bunny - Operation Carrot Patch (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F0CC407F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bugs Bunny - Crazy Castle 3 (USA, Europe).zip",
+      "label": "Bugs Bunny - Crazy Castle 3 (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7A2801FB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bugs Bunny et le Chateau des Catastrophes (France).zip",
+      "label": "Bugs Bunny et le Chateau des Catastrophes (France) (En)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6DA8E6EB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bust-A-Move 4 (USA, Europe).zip",
+      "label": "Bust-A-Move 4 (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8E818E6F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bust-A-Move Millennium (USA, Europe).zip",
+      "label": "Bust-A-Move Millennium (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F8DA0C4A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Buzz Lightyear of Star Command (USA, Europe).zip",
+      "label": "Buzz Lightyear of Star Command (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "84E29B87|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Caesars Palace II (USA, Europe).zip",
+      "label": "Caesars Palace II (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "351BA5EA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Cannon Fodder (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Cannon Fodder (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "824C3BF3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DA8D6283|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It).zip",
+      "label": "Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BB482ED7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Casper (Europe) (En,Fr,De).zip",
+      "label": "Casper (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6B9F155|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Caterpillar Construction Zone (USA, Europe).zip",
+      "label": "Caterpillar Construction Zone (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D20DC670|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Catwoman (Europe).zip",
+      "label": "Catwoman (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "41E78645|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Catz - Your Virtual Petz Palz (Europe).zip",
+      "label": "Catz (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "099D6555|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Centipede (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Centipede (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "255DB8BE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Championship Motocross 2001 featuring Ricky Carmichael (USA, Europe).zip",
+      "label": "Championship Motocross 2001 featuring Ricky Carmichael (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CBB336ED|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Chase H.Q. - Secret Police (Europe).zip",
+      "label": "Chase H.Q. - Secret Police (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CFDF816B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Chessmaster (USA, Europe).zip",
+      "label": "Chessmaster (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1C13DBB0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Chicken Run (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Chicken Run (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F8BD2A01|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Classic Bubble Bobble (Europe).zip",
+      "label": "Classic Bubble Bobble (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A0F66D87|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Colin McRae Rally (Europe).zip",
+      "label": "Colin McRae Rally (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E93AF9C8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Commander Keen (USA, Europe).zip",
+      "label": "Commander Keen (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4AF4CC9C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Conker's Pocket Tales (USA, Europe) (En,Fr,De).zip",
+      "label": "Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A50BE9A8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Cool Bricks (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Cool Bricks (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "04FE7790|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Cool Hand (Europe) (En,Fr,De).zip",
+      "label": "Cool Hand (Europe) (En,Fr,De) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6C91FB8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Crazy Bikers (Europe).zip",
+      "label": "Crazy Bikers (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "53E02B87|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Croc (USA, Europe).zip",
+      "label": "Croc (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4664A167|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Croc 2 (USA, Europe).zip",
+      "label": "Croc 2 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C1D60129|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Cross Country Racing (Europe) (En,Fr,De).zip",
+      "label": "Cross Country Racing (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B7B91FE9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Cubix - Robots for Everyone - Race 'n Robots (USA) (En,Fr,De,Es,It).zip",
+      "label": "Cubix - Robots for Everyone - Race 'n Robots (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9F883B0F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/CyberTiger (USA, Europe).zip",
+      "label": "CyberTiger (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E470CAFA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Daffy Duck - Fowl Play (USA, Europe).zip",
+      "label": "Daffy Duck - Fowl Play (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "45EBF09C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dave Mirra Freestyle BMX (USA, Europe).zip",
+      "label": "Dave Mirra Freestyle BMX (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2DF6E230|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/David Beckham Soccer (Europe) (En,Fr,De,Es,It).zip",
+      "label": "David Beckham Soccer (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "753BDCE4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Total Soccer 2000 (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "David O'Leary's Total Soccer 2000 (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C25EE35A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Deadly Skies (Europe) (En,Fr,De).zip",
+      "label": "Deadly Skies (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "402DE378|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Deja Vu I & II - The Casebooks of Ace Harding (Europe) (En,Fr).zip",
+      "label": "Deja Vu I & II - The Casebooks of Ace Harding (Europe) (En,Fr)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "71F798B5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Denki Blocks! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Denki Blocks! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "38F00974|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dexter's Laboratory - Robot Rampage (USA, Europe).zip",
+      "label": "Dexter's Laboratory - Robot Rampage (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D24D6601|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dinosaur (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Dinosaur (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0AA8D0CC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dinosaur'us (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Dinosaur'us (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F4609FE3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Diva Starz (France).zip",
+      "label": "Diva Starz (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FC1B36D1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dogz - Your Virtual Petz Palz (Europe).zip",
+      "label": "Dogz (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CE8DD179|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It).zip",
+      "label": "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4685909B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B1743477|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Doug - La Grande Aventure (France).zip",
+      "label": "Doug - La Grande Aventure (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A9E62F1A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Doug's Big Game (Europe).zip",
+      "label": "Doug's Big Game (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B6FFBCCA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dracula - Crazy Vampire (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Dracula - Crazy Vampire (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2F7AEF51|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dragon Ball Z - Les Guerriers Legendaires (France).zip",
+      "label": "Dragon Ball Z - Les Guerriers Legendaires (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C07E9438|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dragon Tales - Dragon Wings (Europe).zip",
+      "label": "Dragon Tales - Dragon Wings (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "137D7B45|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dragon Warrior Monsters (USA, Europe) (SGB Enhanced).zip",
+      "label": "Dragon Warrior Monsters (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E56C35B1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dragon's Lair (USA, Europe) (En,Ja,Fr,De,Es,Zh).zip",
+      "label": "Dragon's Lair (USA, Europe) (En,Ja,Fr,De,Es,Zh)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BF076CA5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Driver (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Driver (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E9E67403|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dropzone (Europe).zip",
+      "label": "Dropzone (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1E71B67E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Duke Nukem (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Duke Nukem (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FC3D1BB7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Dukes of Hazzard, The - Racing for Home (Europe) (En,Fr,De).zip",
+      "label": "Dukes of Hazzard, The - Racing for Home (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "21826ADC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/E.T. The Extra Terrestrial - Escape from Planet Earth (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "E.T. - The Extra-Terrestrial - Escape from Planet Earth (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B25F3DB5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/E.T. and the Cosmic Garden (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "E.T. - The Extra-Terrestrial and the Cosmic Garden (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8321A1B9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Earthworm Jim - Menace 2 the Galaxy (USA, Europe).zip",
+      "label": "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2E65DAAF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/ECW Hardcore Revolution (USA, Europe).zip",
+      "label": "ECW Hardcore Revolution (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "484EBA10|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Elevator Action EX (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Elevator Action EX (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2154763C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Emperor's New Groove, The (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Emperor's New Groove, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4CAA8CD0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/European Super League (Europe) (En,Fr,De,Es,It).zip",
+      "label": "European Super League (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5A0B7C72|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Evel Knievel (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Evel Knievel (Europe) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DFD6A908|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Extreme Ghostbusters (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "Extreme Ghostbusters (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CC777B98|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Extreme Sports with the Berenstain Bears (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5C0E7B44|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F-1 World Grand Prix (Europe) (En,Fr,De,Es).zip",
+      "label": "F-1 World Grand Prix (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8D9A9182|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F-18 Thunder Strike (USA, Europe).zip",
+      "label": "F-18 Thunder Strike (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "410FA858|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F.A. Premier League Stars 2001, The (Europe).zip",
+      "label": "F.A. Premier League Stars 2001, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5E3844FB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F1 Championship Season 2000 (Europe) (En,Fr,De,Es,It).zip",
+      "label": "F1 Championship Season 2000 (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5C10315E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F-1 Racing Championship (E) (M5) (Beta) [C][!].gbc",
+      "label": "F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E115DDB1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F1 Racing Championship (Europe) (En,Fr,De,Es,It).zip",
+      "label": "F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E115DDB1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/F1 World Grand Prix II for Game Boy Color (Europe) (En,Fr,De,Es).zip",
+      "label": "F1 World Grand Prix II for Game Boy Color (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EEF4A20B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/FIFA 2000 (USA, Europe) (SGB Enhanced).zip",
+      "label": "FIFA 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6BC2E8C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Fish Files, The (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Fish Files, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D6ABC1F8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Fix & Foxi - Episode 1 Lupo (Europe) (En,Fr,De).zip",
+      "label": "Fix & Foxi - Episode 1 - Lupo (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5DFC61E8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "ECCCD908|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Flipper & Lopaka (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da).zip",
+      "label": "Flipper & Lopaka (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "08B9E4AA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Force 21 (USA) (En,Fr,De).zip",
+      "label": "Force 21 (USA) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2DCD0A0A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Fort Boyard (Europe) (En,Fr,De,Es,It,Pt,Nl).zip",
+      "label": "Fort Boyard (Europe) (En,Fr,De,Es,It,Nl,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "06C8E50A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Freestyle Scooter (Europe).zip",
+      "label": "Freestyle Scooter (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EE79117D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Frogger (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Frogger (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B6BF0672|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Full Time Soccer & Hang Time Basketball (Europe) (Unl).zip",
+      "label": "Full Time Soccer & Hang Time Basketball (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0634C196|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Full Time Soccer (Europe) (Unl).zip",
+      "label": "Full Time Soccer (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B99BEDA2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Game & Watch Gallery 2 (USA, Europe) (SGB Enhanced).zip",
+      "label": "Game & Watch Gallery 2 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "969C8961|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Game & Watch Gallery 3 (USA, Europe) (SGB Enhanced).zip",
+      "label": "Game & Watch Gallery 3 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1AC625DA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Game Boy Color Promotional Demo (USA, Europe).zip",
+      "label": "Game Boy Color Promotional Demo (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F5E9AA8C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Games Frenzy (Europe) (En,Fr,De).zip",
+      "label": "Games Frenzy (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "308A4CCB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gex - Enter the Gecko (USA, Europe).zip",
+      "label": "Gex - Enter the Gecko (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DCCC7514|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gex 3 - Deep Cover Gecko (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Gex 3 - Deep Cover Gecko (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "025F305D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ghosts'n Goblins (USA, Europe).zip",
+      "label": "Ghosts'n Goblins (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "AE024C23|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gift (Europe).zip",
+      "label": "Gift (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1B0034E8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gobs of Games (USA) (En,Fr,De).zip",
+      "label": "Gobs of Games (USA) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2E61C391|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Godzilla - The Series (Europe) (En,Fr,De).zip",
+      "label": "Godzilla - The Series (Europe) (En,Fr,De) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2A073369|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Godzilla - The Series - Monster Wars (Europe) (En,Fr,De).zip",
+      "label": "Godzilla - The Series - Monster Wars (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A6007CE1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gold and Glory - The Road to El Dorado (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Gold and Glory - The Road to El Dorado (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B16F1752|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Grand Theft Auto (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Grand Theft Auto (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "25BA9231|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Grand Theft Auto 2 (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Grand Theft Auto 2 (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "AD563BD9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gremlins Unleashed (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "053BC315|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Gremlins Unleashed (E) (M6) (Beta) [C][!].gbc",
+      "label": "Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C38D52E7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Grinch, The (Europe) (En,Fr,De).zip",
+      "label": "Grinch, The (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9ED6059A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Halloween Racer (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "Halloween Racer (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "70F3B431|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "45BE9D9B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hang Time Basketball (Europe) (Unl).zip",
+      "label": "Hang Time Basketball (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3207B7D9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,Da).zip",
+      "label": "Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "136E9D0C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Harry Potter and the Sorcerer's Stone (USA, Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da,Fi).zip",
+      "label": "Harry Potter and the Sorcerer's Stone (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4FD8B7C5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Harvest Moon 2 GBC (Europe) (SGB Enhanced).zip",
+      "label": "Harvest Moon 2 GBC (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "160CA990|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Harvest Moon GB (Europe) (SGB Enhanced).zip",
+      "label": "Harvest Moon GB (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C8A6F68A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hello Kitty's Cube Frenzy (USA).zip",
+      "label": "Hello Kitty's Cube Frenzy (USA) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "937729F6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C0EDE71F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Heroes of Might and Magic (Europe) (En,Fr,De).zip",
+      "label": "Heroes of Might and Magic (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E0B9FD3B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Heroes of Might and Magic II (USA) (En,Fr,De).zip",
+      "label": "Heroes of Might and Magic II (USA) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "53156D4D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hexcite - The Shapes of Victory (USA, Europe).zip",
+      "label": "Hexcite - The Shapes of Victory (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "84084E5F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hollywood Pinball (Europe) (En,Fr,De,It).zip",
+      "label": "Hollywood Pinball (Europe) (En,Fr,De,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8BD1F635|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Holy Magic Century (Europe) (En,Fr,De).zip",
+      "label": "Holy Magic Century (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "ABD8CEAE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hot Wheels - Stunt Track Driver (USA, Europe) (SGB Enhanced).zip",
+      "label": "Hot Wheels - Stunt Track Driver (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "72A5E820|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da,Fi).zip",
+      "label": "Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "685CAFCC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hugo - The Evil Mirror (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da,Fi).zip",
+      "label": "Hugo - The Evil Mirror (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "24B76CD0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Hype - The Time Quest (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).zip",
+      "label": "Hype - The Time Quest (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "24846D65|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Indiana Jones and the Infernal Machine (USA, Europe) (En,Fr,De).zip",
+      "label": "Indiana Jones and the Infernal Machine (USA, Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7FFF1142|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Inspector Gadget - Operation Madkactus (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Inspector Gadget - Operation Madkactus (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3390B056|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/International Karate 2000 (Europe).zip",
+      "label": "International Karate 2000 (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "12E00808|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/International Superstar Soccer 2000 (Europe).zip",
+      "label": "International Superstar Soccer 2000 (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "57EA1EC8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/International Superstar Soccer '99 (Europe).zip",
+      "label": "International Superstar Soccer 99 (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1B76D115|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/International Track & Field (Europe) (En,Fr,De,It).zip",
+      "label": "International Track & Field (Europe) (En,Fr,De,It) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "327EC81F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/International Track & Field - Summer Games (Europe).zip",
+      "label": "International Track & Field - Summer Games (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D826C75F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Jeremy McGrath Supercross 2000 (USA, Europe).zip",
+      "label": "Jeremy McGrath Supercross 2000 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F0F9ABE6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Bear in the Big Blue House (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Jim Henson's Bear in the Big Blue House (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "48C99939|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Muppets, The (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Jim Henson's Muppets (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0FAFA3F2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Jimmy White's Cueball (Europe).zip",
+      "label": "Jimmy White's Cueball (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "27632F4F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Daikatana (Europe) (En,Fr,It).zip",
+      "label": "John Romero's Daikatana (Europe) (En,Fr,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D9062E49|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Jungle Book, The - Mowgli's Wild Adventure (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Jungle Book, The - Mowgli's Wild Adventure (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B609ECEA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Jurassic Boy 2 (World) (Rev 1) (Sachen) (No Copyright) (Unl).zip",
+      "label": "Jurassic Boy 2 (Taiwan) (En) (Rev 1) (Sachen)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A3BA0DB4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Karate Joe (Europe) (Unl).zip",
+      "label": "Karate Joe (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B8A54E29|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Keep the Balance (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Keep the Balance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B868E846|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Kirikou (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "Kirikou (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "783BC02D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Klax (USA, Europe).zip",
+      "label": "Klax (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7181CBD0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Klustar (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Klustar (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "577E1521|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Knockout Kings (USA, Europe).zip",
+      "label": "Knockout Kings (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A0D64934|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Konami GB Collection Vol.1 (Europe).zip",
+      "label": "Konami GB Collection Vol.1 (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "203F8727|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Konami GB Collection Vol.2 (Europe).zip",
+      "label": "Konami GB Collection Vol.2 (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A6499792|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Konami GB Collection Vol.3 (Europe).zip",
+      "label": "Konami GB Collection Vol.3 (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D4D6243D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Konami GB Collection Vol.4 (Europe).zip",
+      "label": "Konami GB Collection Vol.4 (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8800F1C9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Konami Winter Games (Europe).zip",
+      "label": "Konami Winter Games (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1C644040|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Land Before Time, The (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Land Before Time, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5A385226|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).zip",
+      "label": "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F90A3DAE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Le Mans 24 Hours (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Le Mans 24 Hours (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1B49D07D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Legend of the River King 2 (Europe) (SGB Enhanced).zip",
+      "label": "Legend of the River King 2 (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F24D010A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Legend of the River King GB (Europe) (SGB Enhanced).zip",
+      "label": "Legend of the River King GB (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "87EF9530|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Legend of Zelda, The - Link's Awakening DX (France) (Rev A) (SGB Enhanced).zip",
+      "label": "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4E2B75E7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Legend of Zelda, The - Oracle of Ages (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Legend of Zelda, The - Oracle of Ages (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5933E3FA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Zelda - Oracle of ages [E][GBC].gbc",
+      "label": "Legend of Zelda, The - Oracle of Ages (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5933E3FA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Legend of Zelda, The - Oracle of Seasons (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Legend of Zelda, The - Oracle of Seasons (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DBAC1357|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lego Alpha Team (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da).zip",
+      "label": "LEGO Alpha Team (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "690C0373|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lego Island 2 - The Brickster's Revenge (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da).zip",
+      "label": "LEGO Island 2 - The Brickster's Revenge (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "921ABB21|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lego Racers (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da).zip",
+      "label": "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0A109F13|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lego Stunt Rally (Europe) (En,Fr,De,Es,It,Pt,Nl,Sv,No,Da).zip",
+      "label": "LEGO Stunt Rally (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "05CC01FB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lion King, The - Simba's Mighty Adventure (USA, Europe).zip",
+      "label": "Lion King, The - Simba's Mighty Adventure (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D5B4B7BB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Little Mermaid II, The - Pinball Frenzy (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Little Mermaid II, The - Pinball Frenzy (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9FEC297E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/LNF Stars 2001 (France).zip",
+      "label": "LNF Stars 2001 (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F8BF3EE7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Logical (Europe).zip",
+      "label": "Logical (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5EEE76C4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes (Europe).zip",
+      "label": "Looney Tunes (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "76CF3E3A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes - Carrot Crazy (USA) (En,Fr,Es).zip",
+      "label": "Looney Tunes - Carrot Crazy (USA) (En,Fr,Es) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "11FB5617|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes - Twouble! (USA) (En,Fr,Es).zip",
+      "label": "Looney Tunes - Twouble! (USA) (En,Fr,Es) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "698D7BE4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5D85DFAD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes Collector - Martian Revenge! (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Looney Tunes Collector - Martian Revenge! (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "22952662|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Looney Tunes Racing (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Looney Tunes Racing (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7EFDCA8A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lucky Luke (Europe) (En,Fr,De,Es).zip",
+      "label": "Lucky Luke (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "412FB57C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lucky Luke - Desperado Train (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Lucky Luke - Desperado Train (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CE7F108A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Lufia - The Legend Returns (Europe) (En,De).zip",
+      "label": "Lufia - The Legend Returns (Europe) (En,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "470DCB1D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/M&M's Minis Madness (Europe).zip",
+      "label": "M&M's Minis Madness (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "60683BC4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Madden NFL 2000 (USA, Europe) (SGB Enhanced).zip",
+      "label": "Madden NFL 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "482944AA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Magical Drop (Europe) (En,Fr,De).zip",
+      "label": "Magical Drop (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EA9EE203|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0A421839|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv) (Rev A).zip",
+      "label": "Magical Tetris Challenge (Europe) (En,Fr,De,Es,It,Nl,Sv) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C82BE2F4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Marble Madness (USA, Europe).zip",
+      "label": "Marble Madness (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4EC78785|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mario Golf (Europe).zip",
+      "label": "Mario Golf (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A132417D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mario Tennis (Europe).zip",
+      "label": "Mario Tennis (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0510D601|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Marvin Strikes Back! (USA) (En,Fr,Es).zip",
+      "label": "Marvin Strikes Back! (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "11B4788C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mary-Kate & Ashley - Get a Clue! (USA, Europe).zip",
+      "label": "Mary-Kate & Ashley - Get a Clue! (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "46FAA730|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mary-Kate and Ashley - Crush Course (USA, Europe).zip",
+      "label": "Mary-Kate and Ashley - Crush Course (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "69DB3CD8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mary-Kate and Ashley - Pocket Planner (USA, Europe).zip",
+      "label": "Mary-Kate and Ashley - Pocket Planner (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "84A880B9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mary-Kate and Ashley - Winners Circle (USA, Europe).zip",
+      "label": "Mary-Kate and Ashley - Winners Circle (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "35D6DDCC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mask of Zorro, The (Europe).zip",
+      "label": "Mask of Zorro, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "909C870F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mat Hoffman's Pro BMX (USA, Europe).zip",
+      "label": "Mat Hoffman's Pro BMX (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "515C1459|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Matchbox Emergency Patrol (USA, Europe).zip",
+      "label": "Matchbox Emergency Patrol (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A3F23D7E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Maus, Die (Europe) (En,Fr,De,Es).zip",
+      "label": "Maus, Die (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E7BD4A49|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Maya the Bee & Her Friends (Europe) (En,Fr,De,Es).zip",
+      "label": "Maya the Bee & Her Friends (Europe) (En,Fr,De) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "983B1D26|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Maya the Bee - Garden Adventures (Europe) (En,Fr,De,Es).zip",
+      "label": "Maya the Bee - Garden Adventures (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "142B6EFB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mega Man Xtreme (USA, Europe).zip",
+      "label": "Mega Man Xtreme (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3A4D94D5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mega Man Xtreme 2 (USA, Europe).zip",
+      "label": "Mega Man Xtreme 2 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8FEDB6D8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Men in Black - The Series (USA, Europe).zip",
+      "label": "Men in Black - The Series (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "65B8B343|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Men in Black 2 - The Series (Europe) (En,Fr,De).zip",
+      "label": "Men in Black 2 - The Series (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CA675933|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Merlin (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Merlin (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C5290CEE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Metal Gear Solid (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Metal Gear Solid (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "16796957|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Metal Gear Solid [E].gb",
+      "label": "Metal Gear Solid (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "16796957|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mickey's Racing Adventure (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Mickey's Racing Adventure (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D5E845F4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mickey's Speedway USA (USA, Europe) (En,Fr,De,Es).zip",
+      "label": "Mickey's Speedway USA (USA, Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "11763934|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Micro Machines 1 and 2 - Twin Turbo (USA, Europe).zip",
+      "label": "Micro Machines 1 and 2 - Twin Turbo (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5DD337EB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Micro Machines V3 (USA, Europe).zip",
+      "label": "Micro Machines V3 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B8064453|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Micro Maniacs (Europe).zip",
+      "label": "Micro Maniacs (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E66E093B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Microsoft Puzzle Collection (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Microsoft - The 6 in 1 Puzzle Collection Entertainment Pack (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EE4CBA24|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Microsoft Entertainment Pack (Europe).zip",
+      "label": "Microsoft - The Best of Entertainment Pack (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0F02D708|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Microsoft Pinball Arcade (Europe).zip",
+      "label": "Microsoft Pinball Arcade (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4EB7DB14|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Arcade Hits - Joust & Defender (USA, Europe).zip",
+      "label": "Midway Presents Arcade Hits - Joust & Defender (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4C1ECECB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Arcade Hits - Moon Patrol & Spy Hunter (USA, Europe).zip",
+      "label": "Midway Presents Arcade Hits - Moon Patrol & Spy Hunter (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F40199C9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Missile Command (Europe).zip",
+      "label": "Missile Command (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "18216E26|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mission Impossible (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Mission - Impossible (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0AF32BAA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Monkey Puncher (Europe).zip",
+      "label": "Monkey Puncher (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BC1809CE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Monsters, Inc. (Europe) (En,Fr,It).zip",
+      "label": "Monsters, Inc. (Europe) (En,Fr,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "712D40A5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Montezuma's Return! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Montezuma's Return! (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "659693DE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Moomin's Tale (Europe) (En,Fr,De).zip",
+      "label": "Moomin's Tale (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "45543BA2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Moorhen 3 - The Chicken Chase! (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Moorhuhn 3 - ...Es Gibt Huhn! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B7C1025B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mortal Kombat 4 (USA, Europe) (SGB Enhanced).zip",
+      "label": "Mortal Kombat 4 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4EB71448|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mr. Driller (Europe).zip",
+      "label": "Mr. Driller (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BDF9B05C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mr Nutz (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Mr. Nutz (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4E37C741|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ms. Pac-Man - Special Colour Edition (Europe).zip",
+      "label": "Ms. Pac-Man - Special Colour Edition (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F2335DA9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/MTV Sports - Pure Ride (USA, Europe).zip",
+      "label": "MTV Sports - Pure Ride (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B7B2354B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/MTV Sports - Skateboarding featuring Andy MacDonald (USA, Europe).zip",
+      "label": "MTV Sports - Skateboarding Featuring Andy MacDonald (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "744561F3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/MTV Sports - T.J. Lavin's Ultimate BMX (USA, Europe).zip",
+      "label": "MTV Sports - T.J. Lavin's Ultimate BMX (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "904663AF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mummy Returns, The (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Mummy Returns, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "64052B9B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Mummy, The (Europe) (En,Fr,De).zip",
+      "label": "Mummy, The (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "84FC838A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NASCAR 2000 (USA, Europe).zip",
+      "label": "NASCAR 2000 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "54D90A4C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Nations, The - Land of Legends (Europe) (En,De).zip",
+      "label": "Nations, The - Land of Legends (Europe) (En,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8C195F49|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NBA In the Zone 2000 (Europe).zip",
+      "label": "NBA in the Zone 2000 (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6AF6D07|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NBA Jam 2001 (USA, Europe).zip",
+      "label": "NBA Jam 2001 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3AA75F1C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NBA Jam '99 (USA, Europe).zip",
+      "label": "NBA Jam 99 (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "84BE0EED|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NBA Pro '99 (Europe).zip",
+      "label": "NBA Pro 99 (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "748564AE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/New Addams Family Series, The (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "New Addams Family Series, The (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FBB97680|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/New Adventures of Mary-Kate & Ashley, The (USA, Europe).zip",
+      "label": "New Adventures of Mary-Kate & Ashley, The (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DCA4474E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NFL Blitz (USA, Europe) (Rev A).zip",
+      "label": "NFL Blitz (USA, Europe) (Rev 1) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "107D734B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/NHL 2000 (USA, Europe) (SGB Enhanced).zip",
+      "label": "NHL 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BB625129|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/No Fear - Downhill Mountain Biking (Europe).zip",
+      "label": "No Fear - Downhill Mountain Biking (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0F69F574|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Noddy and the Birthday Party (Europe) (En,Fr,De,Es).zip",
+      "label": "Noddy and the Birthday Party (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "845B4E44|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/N.Y. Race (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "NYR - New York Race (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "62F560D8|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Oddworld Adventures II (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Oddworld Adventures 2 (USA) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5C260D5A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pac-Man - Special Colour Edition (Europe).zip",
+      "label": "Pac-Man - Special Colour Edition (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F565647F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Painter (Europe) (Unl).zip",
+      "label": "Painter (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F4801F21|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Paperboy (USA, Europe).zip",
+      "label": "Paperboy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C0A98305|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Papyrus (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Papyrus (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DA3A3278|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Perfect Dark (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0601BEF6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pitfall - Beyond the Jungle (USA, Europe).zip",
+      "label": "Pitfall - Beyond the Jungle (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F911BB5D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Planet of the Apes (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Planet of the Apes (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A92DCB79|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Player Manager 2001 (Europe) (En,Fr).zip",
+      "label": "Player Manager 2001 (Europe) (En,Fr)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "375C35E0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Bomberman (USA, Europe).zip",
+      "label": "Pocket Bomberman (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FA2A66E9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Music (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Pocket Music (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1BFB531E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Racing (Europe).zip",
+      "label": "Pocket Racing (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FBF97372|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Smash Out & Race Time (Europe) (Unl).zip",
+      "label": "Pocket Smash Out & Race Time (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0AD5B775|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Smash Out (Europe) (Unl).zip",
+      "label": "Pocket Smash Out (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CBD14276|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pocket Soccer (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "Pocket Soccer (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E8F5824F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Cristal [E][GBC].gbc",
+      "label": "Pokemon - Edicion Cristal (Spain)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FF0A6F8A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Oro [E][GBC].gbc",
+      "label": "Pokemon - Edicion Oro (Spain) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3434A92B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Plata [E][GBC].gbc",
+      "label": "Pokemon - Edicion Plata (Spain) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1D9FAAC5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon - Version Argent (France) (SGB Enhanced).zip",
+      "label": "Pokemon - Version Argent (France) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E0C216EA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon - Version Cristal (France).zip",
+      "label": "Pokemon - Version Cristal (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "878B2AA7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon - Version Or (France) (SGB Enhanced).zip",
+      "label": "Pokemon - Version Or (France) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "37A70702|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Pinball (Europe) (En,Fr,De,Es,It) (Rumble Version) (SGB Enhanced).zip",
+      "label": "Pokemon Pinball (Europe) (En,Fr,De,Es,It) (Rumble Version) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "39C432A4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Puzzle Challenge (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Pokemon Puzzle Challenge (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8206B1CE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pokemon Trading Card Game (Europe) (En,Fr,De) (SGB Enhanced).zip",
+      "label": "Pokemon Trading Card Game (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4523376E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pong - The Next Level (USA, Europe).zip",
+      "label": "Pong - The Next Level (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "476BD39D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pooh and Tigger's Hunny Safari (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Pooh and Tigger's Hunny Safari (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8505D139|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pop'n Pop (Europe).zip",
+      "label": "Pop'n Pop (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FC67F7E4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Power Quest (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Power Quest (Europe) (En-US,En-GB,Fr,De,Es,It) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "30E1E567|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Powerpuff Girls, The - Bulle Contre Lui (France).zip",
+      "label": "Powerpuff Girls, The - Bulle Contre Lui (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7085270C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Powerpuff Girls, The - L'Affreux Mojo Jojo (France).zip",
+      "label": "Powerpuff Girls, The - L'Affreux Mojo Jojo (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "256D166F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Powerpuff Girls, The - Panique A Townsville (France).zip",
+      "label": "Powerpuff Girls, The - Panique a Townsville (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "79A417DB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Prince Naseem Boxing (Europe) (En,Fr,De).zip",
+      "label": "Prince Naseem Boxing (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "91DEF753|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Prince of Persia (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6BEC6D1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pro Foot (France) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Pro Foot (France) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A9905932|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Pro Pool (Europe) (En,Fr,De).zip",
+      "label": "Pro Pool (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "21A4DA64|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Puchi Carat (Europe).zip",
+      "label": "Puchi Carat (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A9A89DDA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Puzzled (Europe) (En,Fr,De).zip",
+      "label": "Puzzled (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "15B44D68|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Qix Adventure (Europe).zip",
+      "label": "Qix Adventure (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D729DB40|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Quest for Camelot (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Quest for Camelot (Europe) (En,Fr,De,Es,It,Nl) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CE55A4DE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/R-Type DX (USA, Europe).zip",
+      "label": "R-Type DX (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FC1D4089|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Race Time (Europe) (Unl).zip",
+      "label": "Race Time (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "599C867D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Radikal Bikers (Europe) (En,Fr,De,Es) (Proto).zip",
+      "label": "Radikal Bikers (Europe) (En,Fr,De,Es) (Proto)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "81E25D37|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rainbow Islands (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Rainbow Islands (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6DECC6B3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rampage - World Tour (USA, Europe).zip",
+      "label": "Rampage - World Tour (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B029017F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rampage 2 - Universal Tour (USA, Europe).zip",
+      "label": "Rampage 2 - Universal Tour (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "20B86F1E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rayman (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Rayman (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C430A89A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Rayman 2 Forever (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "250015D4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Razmoket a Paris, Les - Le Film (France).zip",
+      "label": "Razmoket a Paris, Les - Le Film (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "094494E9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Razmoket, Les - 100% Angelica (France).zip",
+      "label": "Razmoket, Les - 100% Angelica (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1D66CB29|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Razmoket, Les - Voyage dans le Temps (France).zip",
+      "label": "Razmoket, Les - Voyage dans le Temps (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2F8FEF3F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ready 2 Rumble Boxing (Europe).zip",
+      "label": "Ready 2 Rumble Boxing (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BEA36BF9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Reservoir Rat (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Reservoir Rat (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "22621803|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Resident Evil (Unknown) (Proto).zip",
+      "label": "Resident Evil (World) (Proto 2)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "53F7BBA1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Resident Evil Gaiden (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Resident Evil Gaiden (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F85C3F2C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Return of the Ninja (Europe).zip",
+      "label": "Return of the Ninja (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8E04849A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rhino Rumble (USA, Europe).zip",
+      "label": "Rhino Rumble (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "73160E05|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rip-Tide Racer (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Rip-Tide Racer (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "AB8C3A31|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Road Champs - BXS Stunt Biking (USA, Europe).zip",
+      "label": "Road Champs - BXS Stunt Biking (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "98C59706|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Road Rash (USA, Europe).zip",
+      "label": "Road Rash (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "11025EEB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Roadsters Trophy (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Roadsters (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "717B3525|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Robin Hood (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Robin Hood (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D4F84329|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/RoboCop (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "RoboCop (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6C6423E2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Robot Wars - Metal Mayhem (Europe) (En,Fr,De,It,Nl,Sv).zip",
+      "label": "Robot Wars - Metal Mayhem (Europe) (En,Fr,De,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E99BDEE6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rocket Power - La Glisse de l'Extreme (France).zip",
+      "label": "Rocket Power - La Glisse de l'Extreme (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C9A7AA7B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Roi Lion, Les - Les Adventures de Simba (France).zip",
+      "label": "Roi Lion, Le - La Formidable Aventure de Simba (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6467FBA0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Roland Garros French Open (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Roland Garros French Open (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "10DBDE7C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ronaldo V-Football (Europe) (En,Fr,De,Es,It,Pt,Nl).zip",
+      "label": "Ronaldo V-Football (Europe) (En,Fr,De,Es,It,Nl,Pt) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A856C066|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Roswell Conspiracies - Aliens, Myths & Legends (Europe) (En,Fr,De).zip",
+      "label": "Roswell Conspiracies - Aliens, Myths & Legends (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "49101556|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rox (USA, Europe).zip",
+      "label": "Rox (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2E944775|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rugrats - Time Travelers (USA, Europe).zip",
+      "label": "Rugrats - Time Travelers (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9C743F03|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rugrats - Totally Angelica (USA, Europe).zip",
+      "label": "Rugrats - Totally Angelica (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FC6195EF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rugrats in Paris - The Movie (USA, Europe).zip",
+      "label": "Rugrats in Paris - The Movie (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8B195237|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Rugrats Movie, The (Europe) (SGB Enhanced).zip",
+      "label": "Rugrats Movie, The (Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B4091600|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Power Rangers - Lightspeed Rescue (USA, Europe).zip",
+      "label": "Saban's Power Rangers - Lightspeed Rescue (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "99869172|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Power Rangers - Time Force (USA, Europe).zip",
+      "label": "Saban's Power Rangers - Time Force (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "17E51443|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sabrina - The Animated Series - Spooked! (USA, Europe).zip",
+      "label": "Sabrina - The Animated Series - Spooked! (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2CF48188|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sabrina - The Animated Series - Zapped! (Europe) (En,Fr,De).zip",
+      "label": "Sabrina - The Animated Series - Zapped! (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "818F3AF6|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/San Francisco Rush 2049 (USA, Europe).zip",
+      "label": "San Francisco Rush 2049 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EF368F16|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Santa Claus Junior (Europe).zip",
+      "label": "Santa Claus Junior (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A744DF64|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Scooby-Doo! - Classic Creep Capers (USA, Europe).zip",
+      "label": "Scooby-Doo! - Classic Creep Capers (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E3704755|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Scrabble (Europe).zip",
+      "label": "Scrabble (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "998657B7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Elmo's 123s (Europe).zip",
+      "label": "Sesame Street - Elmo's 123s (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3BF7FCD4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Elmo's ABCs (Europe).zip",
+      "label": "Sesame Street - Elmo's ABCs (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "20158FBC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Adventures of Elmo in Grouchland, The (Europe).zip",
+      "label": "Sesame Street - The Adventures of Elmo in Grouchland (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "41228EE7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sesame Street Sports (Europe).zip",
+      "label": "Sesame Street Sports (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "55BE1A6E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sewing Machine Operation Software (USA) (En,Fr,Es).zip",
+      "label": "Sewing Machine Operation Software (USA) (En,Fr,Es) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E42FD7C4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sgt. Rock - On the Frontline (USA).zip",
+      "label": "Sgt. Rock - On the Frontline (USA)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "521A2F77|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Shadowgate Classic (USA, Europe) (En,Fr,De,Es,Sv) (Rev A).zip",
+      "label": "Shadowgate Classic (Europe) (En,Fr,De,Es,Sv) (Rev 1) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D337F450|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Shamus (USA, Europe).zip",
+      "label": "Shamus (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EFB9196D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Shanghai Pocket (USA, Europe) (Rev A).zip",
+      "label": "Shanghai Pocket (Europe) (Rev 1) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D8FAC36C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Barbie - Shelly Club (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Shelly Club (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "767CAA42|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Shrek - Fairy Tale Freakdown (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "387E6459|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Simpsons, The - Night of the Living Treehouse of Horror (USA, Europe).zip",
+      "label": "Simpsons, The - Night of the Living Treehouse of Horror (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EBAF4888|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Smurfs Nightmare, The (Europe) (En,Fr,De,Es).zip",
+      "label": "Smurfs Nightmare, The (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6F97B043|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8C2D9B43|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Snow White and the Seven Dwarfs (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).zip",
+      "label": "Snow White and the Seven Dwarfs (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C9C68471|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/SnowCross (Europe) (En,Fr,De,Es,It,Pt).zip",
+      "label": "SnowCross (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4BA47DBC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Soccer Manager (Europe) (En,Fr,De,Es).zip",
+      "label": "Soccer Manager (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "237ECEF9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Space Invaders (USA, Europe).zip",
+      "label": "Space Invaders (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DAB7460C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Space Invasion & Karate Joe (Europe) (Unl).zip",
+      "label": "Space Invasion & Karate Joe (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6A184C55|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Space Invasion & Painter (Europe) (Unl).zip",
+      "label": "Space Invasion & Painter (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "BD4C1065|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Space Invasion (Europe) (Unl).zip",
+      "label": "Space Invasion (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2B2D9868|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Spacestation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Spacestation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "63353C0F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Speedy Gonzales - Aztec Adventure (USA, Europe).zip",
+      "label": "Speedy Gonzales - Aztec Adventure (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "AE82AFA4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Spider-Man (France).zip",
+      "label": "Spider-Man (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F6334DC5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Spider-Man 2 - The Sinister Six (USA, Europe).zip",
+      "label": "Spider-Man 2 - The Sinister Six (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A7FAACCF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Spirou Robbedoes - The Robot Invasion (Europe) (En,Fr,De,Es,It,Nl,Da).zip",
+      "label": "Spirou - The Robot Invasion (Europe) (En,Fr,De,Es,It,Nl,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3E9BC90B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe).zip",
+      "label": "SpongeBob SquarePants - Legend of the Lost Spatula (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "81230564|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Spy vs. Spy (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Spy vs Spy (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "713C6C17|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Yoda Stories (USA, Europe).zip",
+      "label": "Star Wars - Yoda Stories (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6314DA32|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Star Wars Episode I - Obi-Wan's Adventures (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Star Wars Episode I - Obi-Wan's Adventures (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E584DFC2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Star Wars Episode I - Racer (USA, Europe).zip",
+      "label": "Star Wars Episode I - Racer (USA, Europe) (Rumble Version)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0EBC5758|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Stranded Kids (Europe) (En,Fr,De).zip",
+      "label": "Stranded Kids (Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "816A4D94|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Street Fighter Alpha - Warriors' Dreams (Europe).zip",
+      "label": "Street Fighter Alpha - Warriors' Dreams (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "28A3AB3A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Stuart Little - The Journey Home (Europe) (Fr,De).zip",
+      "label": "Stuart Little - The Journey Home (Europe) (Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "ACB08666|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Super Breakout! (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Super Breakout (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6833923D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Super Mario Bros. Deluxe (USA, Europe) (Rev B).zip",
+      "label": "Super Mario Bros. Deluxe (Europe) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "62BBAE83|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Supercross Freestyle (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Supercross Freestyle (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4D3E0F51|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Supreme Snowboarding (Europe) (En,Fr,De).zip",
+      "label": "Supreme Snowboarding (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "53B1E661|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Suzuki Alstare Extreme Racing (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Suzuki Alstare Extreme Racing (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0F7264BA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/SWIV (Europe) (En,Fr,De,Es,It).zip",
+      "label": "SWiV (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "44D30B7A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Sylvester and Tweety - Breakfast on the Run (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Sylvester & Tweety - Breakfast on the Run (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6BB3B0DC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tarzan (France).zip",
+      "label": "Tarzan (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C503AFBB|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tazmanian Devil - Munching Madness (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Tasmanian Devil - Munching Madness (Europe) (En,Fr,De,Es,It) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "683752A0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Taxi 2 (France).zip",
+      "label": "Taxi 2 (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0FD9FFF0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Taxi 3 (France).zip",
+      "label": "Taxi 3 (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2838996F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tech Deck Skateboarding (USA, Europe).zip",
+      "label": "Tech Deck Skateboarding (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "C07EBE70|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Test Drive 6 (Europe) (En,Fr,De,Es,It) (Destinations Toutes Sensations).zip",
+      "label": "Test Drive 6 (Europe) (En,Fr,De,Es,It) (Sample) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2F179045|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Test Drive Le Mans (USA) (En,Fr,Es).zip",
+      "label": "Test Drive Le Mans (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E6D6AC8F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tetris DX (World) (SGB Enhanced).zip",
+      "label": "Tetris DX (World) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "69989152|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Three Lions (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Three Lions (United Kingdom) (En,Fr,De,Es,It,Nl,Sv) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1CBEA1AA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Thunder Blast Man (Europe) (1B-003, Sachen) (Unl).zip",
+      "label": "Thunder Blast Man (Europe) (Sachen)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1A719EAD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Thunderbirds (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Thunderbirds (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "36536324|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tiger Woods PGA Tour 2000 (USA, Europe).zip",
+      "label": "Tiger Woods PGA Tour 2000 (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A6DFB1D9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Adventures of Tintin, The - Prisoners of the Sun (Europe) (En,Fr,De).zip",
+      "label": "Tintin - Le Temple Du Soleil (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B2205D49|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tintin in Tibet (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "Tintin au Tibet (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6832F38A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tiny Toon Adventures - Buster Saves the Day (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Tiny Toon Adventures - Buster Saves the Day (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7AA371ED|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tiny Toon Adventures - Dizzy's Candy Quest (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Tiny Toon Adventures - Dizzy's Candy Quest (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5A0D41AA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Titi - Le Tour du Monde en 80 Chats (France).zip",
+      "label": "Titi - Le Tour du Monde en 80 Chats (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CE55ED18|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Titus the Fox to Marrakech and Back (Europe).zip",
+      "label": "Titus the Fox (Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2F9F19DE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/TOCA Touring Car Championship (USA, Europe).zip",
+      "label": "TOCA Touring Car Championship (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B509892B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Toki Tori (USA, Europe) (En,Ja,Fr,De,Es).zip",
+      "label": "Toki Tori (USA, Europe) (En,Ja,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "0A0F9289|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tom & Jerry (USA, Europe).zip",
+      "label": "Tom and Jerry (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B97C0BD9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tom and Jerry - Mousehunt (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Tom and Jerry - Mousehunt (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3E17D04A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tom and Jerry in Mouse Attacks! (Europe) (En,Fr,De,Es,It,Nl,Da).zip",
+      "label": "Tom and Jerry in - Mouse Attacks! (Europe) (En,Fr,De,Es,It,Nl,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9D9C84F4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tom Clancy's Rainbow Six (USA, Europe) (En,Fr,De).zip",
+      "label": "Tom Clancy's Rainbow Six (USA, Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E72F2683|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tomb Raider (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "Tomb Raider (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2988FC78|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tomb Raider (UE) (M5) (Beta) [C][!].gbc",
+      "label": "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "58590868|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tomb Raider - Curse of the Sword (USA, Europe).zip",
+      "label": "Tomb Raider - Curse of the Sword (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "02C1035A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tonic Trouble (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Tonic Trouble (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "A8628F7A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tonka Raceway (Europe).zip",
+      "label": "Tonka Raceway (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E108B2C2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tony Hawk's Pro Skater (USA, Europe).zip",
+      "label": "Tony Hawk's Pro Skater (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "8D8BB5C4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Toonsylvania (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Toonsylvania (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6573B88F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tootuff (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Tootuff (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1972CBF7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Top Gear Rally (Europe).zip",
+      "label": "Top Gear Rally (Europe) (Rumble Version)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "337E5DD3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Top Gear Rally 2 (Europe).zip",
+      "label": "Top Gear Rally 2 (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "017773CD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Towers - Lord Baniff's Deceit (USA, Europe).zip",
+      "label": "Towers - Lord Baniff's Deceit (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7B9B2468|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Toy Story 2 (USA, Europe).zip",
+      "label": "Toy Story 2 (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "47AECB95|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Toy Story Racer (Europe) (En,Fr,De).zip",
+      "label": "Toy Story Racer (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F660ED94|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Trick Boarder (Europe).zip",
+      "label": "Trick Boarder (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EFE3FC64|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Triple Play 2001 (USA, Europe).zip",
+      "label": "Triple Play 2001 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "74E04C07|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Turok - Rage Wars (USA, Europe) (En,Fr,De,Es).zip",
+      "label": "Turok - Rage Wars (USA, Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "786B5AB4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es).zip",
+      "label": "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6EDA6A3A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Turok 3 - Shadow of Oblivion (USA, Europe) (En,Fr,De,Es).zip",
+      "label": "Turok 3 - Shadow of Oblivion (USA, Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6D48765E|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tweenies - Doodles' Bones (Europe) (En,De,Es,It).zip",
+      "label": "Tweenies - Doodles' Bones (Europe) (En,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9306EDD0|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Tweety's High-Flying Adventure (Europe) (En,Fr,De).zip",
+      "label": "Tweety's High-Flying Adventure (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "7361D6BC|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/UEFA 2000 (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "UEFA 2000 (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4B314D4B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ultimate Fighting Championship (Europe).zip",
+      "label": "Ultimate Fighting Championship (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "92A5A1AD|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ultimate Paint Ball (USA, Europe).zip",
+      "label": "Ultimate Paintball (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6DCFDFE2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Ultimate Surfing (Europe).zip",
+      "label": "Ultimate Surfing (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B3398A9B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Uno (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Uno (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "70760CCE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/V-Rally - Championship Edition (Europe) (En,Fr,De,Es).zip",
+      "label": "V-Rally - Championship Edition (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1312B3F7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Vegas Games (Europe) (En,Fr,De).zip",
+      "label": "Vegas Games (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "81B2BB8D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/VIP (USA, Europe) (En,Fr,De,Es,It).zip",
+      "label": "VIP (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "DBDD6D85|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Visiteurs, Les (France).zip",
+      "label": "Visiteurs, Les (France) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D843F898|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wacky Races (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Wacky Races (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "37EA6093|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Walt Disney World Quest - Magical Racing Tour (Europe) (Fr,De,Es).zip",
+      "label": "Walt Disney World Quest - Magical Racing Tour (Europe) (Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E54B22B9|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wario Land 3 (World) (En,Ja).zip",
+      "label": "Wario Land 3 (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "480D0259|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wario Land II (USA, Europe) (SGB Enhanced).zip",
+      "label": "Wario Land II (USA, Europe) (SGB Enhanced) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "047BDF80|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Warriors of Might and Magic (USA) (En,Fr,De).zip",
+      "label": "Warriors of Might and Magic (USA) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EF9F5BEA|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/WCW Mayhem (USA, Europe).zip",
+      "label": "WCW Mayhem (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9F8620D1|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/World Destruction League - Thunder Tanks (USA) (En,Fr,De).zip",
+      "label": "WDL - World Destruction League - Thunder Tanks (USA) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1A0BF4D7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wendy - Every Witch Way (USA, Europe).zip",
+      "label": "Wendy - Every Witch Way (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "4AC6907B|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wetrix GB (Europe) (En,Fr,De).zip",
+      "label": "Wetrix (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "9CBFAA3D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Wings of Fury (Europe) (En,Fr,De).zip",
+      "label": "Wings of Fury (Europe) (En,Fr,De) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6D59104F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da).zip",
+      "label": "Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "1DB0840C|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Woody Woodpecker (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Woody Woodpecker (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "2612F8C4|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Woody Woodpecker Racing (Europe).zip",
+      "label": "Woody Woodpecker Racing (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "B0F43498|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CB04F34D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Worms Armageddon [E][GBC].gbc",
+      "label": "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "CB04F34D|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/WWF Attitude (USA, Europe).zip",
+      "label": "WWF Attitude (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D5FDF68A|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/WWF Betrayal (USA, Europe).zip",
+      "label": "WWF Betrayal (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "6C28BCB5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/WWF WrestleMania 2000 (USA, Europe).zip",
+      "label": "WWF WrestleMania 2000 (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "FCBA12AE|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/X-Men - Mutant Academy (USA, Europe).zip",
+      "label": "X-Men - Mutant Academy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "EC6278A3|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/X-Men - Mutant Wars (USA, Europe).zip",
+      "label": "X-Men - Mutant Wars (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "921999E2|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/X-Men - Wolverine's Rage (Europe).zip",
+      "label": "X-Men - Wolverine's Rage (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "83AD5B99|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Xena - Warrior Princess (USA, Europe) (En,Fr,De,Es,It,Nl).zip",
+      "label": "Xena - Warrior Princess (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "F0DE3CE7|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Xtreme Wheels (Europe).zip",
+      "label": "Xtreme Wheels (Europe)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E101246F|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Yars' Revenge (USA, Europe).zip",
+      "label": "Yars' Revenge (USA, Europe) (GB Compatible)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "D6A26444|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Yu-Gi-Oh! - Duel des Tenebres (France).zip",
+      "label": "Yu-Gi-Oh! - Duel des Tenebres (France)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "5B72BAB5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Zelda DX [E][GBC].gbc",
+      "label": "Zelda DX [E][GBC]",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "3B82BEEF|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBC/Zidane Football Generation (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Zidane - Football Generation (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/gearboy_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy / Color (Gearboy)",
+      "crc32": "E96DBFB5|crc",
+      "db_name": "Nintendo - Game Boy Color.lpl"
+    }
+  ]
+}

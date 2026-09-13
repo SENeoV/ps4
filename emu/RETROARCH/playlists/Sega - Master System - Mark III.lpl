@@ -1,0 +1,2675 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+  "default_core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/SMS/Ace of Aces (Europe).sms",
+      "label": "Ace of Aces (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "887D9F6B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Action Fighter (USA, Europe) (Rev 2).sms",
+      "label": "Action Fighter (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3658F3E0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Addams Family, The (Europe).sms",
+      "label": "Addams Family, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "72420F38|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Aerial Assault (Europe).sms",
+      "label": "Aerial Assault (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ECF491CF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/After Burner (UE) [!].sms",
+      "label": "After Burner (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1C951F8E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Air Rescue (E) [!].sms",
+      "label": "Air Rescue (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8B43D21D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Aladdin (E) [!].sms",
+      "label": "Aladdin (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C8718D40|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alex Kidd in High Tech World (UE) [!].sms",
+      "label": "Alex Kidd - High-Tech World (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "013C0A94|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alex Kidd - The Lost Stars (UE) [!].sms",
+      "label": "Alex Kidd - The Lost Stars (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C13896D5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alex Kidd in Miracle World (UE) (V1.1) [!].sms",
+      "label": "Alex Kidd in Miracle World (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AED9AAC4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alex Kidd in Shinobi World (UE) [!].sms",
+      "label": "Alex Kidd in Shinobi World (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D2417ED7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/ALF (U) [!].sms",
+      "label": "Alf (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "82038AD4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alien 3 (E) [!].sms",
+      "label": "Alien 3 (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B618B144|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alien Storm (E) [!].sms",
+      "label": "Alien Storm (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7F30F793|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alien Syndrome (UE) [!].sms",
+      "label": "Alien Syndrome (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5CBFE997|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Altered Beast (UE) [!].sms",
+      "label": "Altered Beast (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BBA2FE98|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/American Baseball (JE) [!].sms",
+      "label": "American Baseball (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7B27202F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/American Pro Football (E) [!].sms",
+      "label": "American Pro Football (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3727D8B2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Andre Agassi Tennis (E) [!].sms",
+      "label": "Andre Agassi Tennis (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F499034D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Arcade Smash Hits (E) [!].sms",
+      "label": "Arcade Smash Hits (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E4163163|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Argos no Juujiken (J) [!].sms",
+      "label": "Argos no Juujiken (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BAE75805|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ariel - The Little Mermaid (B).sms",
+      "label": "Ariel - The Little Mermaid (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F4B3A7BD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Assault City - Pad Version (E) [!].sms",
+      "label": "Assault City (Europe) (Joypad)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0BD8DA96|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Asterix (E) (V1.1).sms",
+      "label": "Asterix (Europe, Brazil) (En,Fr) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8C9D5BE8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Asterix and the Great Rescue (E) [!].sms",
+      "label": "Asterix and the Great Rescue (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F9B7D26B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Asterix and the Secret Mission (E) [!].sms",
+      "label": "Asterix and the Secret Mission (Europe, Brazil) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DEF9B14E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Astro Warrior & Pit Pot (E) [!].sms",
+      "label": "Astro Warrior & Pit Pot (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "69EFD483|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Astro Warrior (U) [!].sms",
+      "label": "Astro Warrior (Japan, USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "299CBB74|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ayrton Senna's Super Monaco GP II (E) [!].sms",
+      "label": "Ayrton Senna's Super Monaco GP II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E890331D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Aztec Adventure - The Golden Road to Paradise (UE) [!].sms",
+      "label": "Aztec Adventure (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FF614EB3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Back to the Future Part II (UE) [!].sms",
+      "label": "Back to the Future Part II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E5FF50D8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Back to the Future Part III (UE) [!].sms",
+      "label": "Back to the Future Part III (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2D48C1D3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Baku Baku Animals (B) [!].sms",
+      "label": "Baku Baku (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "35D84DC2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bank Panic (E) [!].sms",
+      "label": "Bank Panic (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "655FB1F4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Basket Ball Nightmare (E) [!].sms",
+      "label": "Basketball Nightmare (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0DF8597F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Batman Returns (UE) [!].sms",
+      "label": "Batman Returns (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B154EC38|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Battle Out Run (E) [!].sms",
+      "label": "Battle Out Run (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C19430CE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Battlemaniacs (B) [!].sms",
+      "label": "Battlemaniacs (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1CBB7BF1|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Black Belt (UE) [!].sms",
+      "label": "Black Belt (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA3A2F57|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Blade Eagle 3D (UE) [!].sms",
+      "label": "Blade Eagle 3-D (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8ECD201C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Alex Kidd - BMX Trial (J) [!].sms",
+      "label": "BMX Trial - Alex Kidd (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F9DBB533|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bomber Raid (UE) [!].sms",
+      "label": "Bomber Raid (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3084CF11|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bonanza Bros (E) [!].sms",
+      "label": "Bonanza Bros. (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CAEA8002|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bonkers Wax Up! (UE) [!].sms",
+      "label": "Bonkers Wax Up! (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B3768A7A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bram Stoker's Dracula (E) [!].sms",
+      "label": "Bram Stoker's Dracula (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1B10A951|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Bubble Bobble (E) [!].sms",
+      "label": "Bubble Bobble (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E843BA7E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Buggy Run (E) [!].sms",
+      "label": "Buggy Run (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B0FC4577|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/California Games (UE) [!].sms",
+      "label": "California Games (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AC6009A7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/California Games II (E) [!].sms",
+      "label": "California Games II (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C0E25D62|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Captain Silver (E) [!].sms",
+      "label": "Captain Silver (Japan, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A4852757|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Casino Games (UE) [!].sms",
+      "label": "Casino Games (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3CFF6E80|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Castelo Ra Tin Bum (B) [!].sms",
+      "label": "Castelo Ra-Tim-Bum (Brazil)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "31FFD7C3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Castle of Illusion Starring Mickey Mouse (U) (V1.1) [!].sms",
+      "label": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "953F42E1|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Champions of Europe (E) [!].sms",
+      "label": "Champions of Europe (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "23163A12|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Championship Hockey (E) [!].sms",
+      "label": "Championship Hockey (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7E5839A0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cheese Cat-astrophe (E) [!].sms",
+      "label": "Cheese Cat-astrophe Starring Speedy Gonzales (Europe, Brazil) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "46340C41|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Choplifter (UE) [!].sms",
+      "label": "Choplifter (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4A21C15F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Chuck Rock (E) [!].sms",
+      "label": "Chuck Rock (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DD0E2927|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Chuck Rock II - Son of Chuck (E) [!].sms",
+      "label": "Chuck Rock II - Son of Chuck (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C30E690A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cloud Master (UE) [!].sms",
+      "label": "Cloud Master (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E7F62E6D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Columns (UE) [!].sms",
+      "label": "Columns (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "665FDA92|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Machine Gun Joe (J) [!].sms",
+      "label": "Comical Machine Gun Joe (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9D549E08|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cool Spot (E) [!].sms",
+      "label": "Cool Spot (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "13AC9023|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cosmic Spacehead (E) [!].sms",
+      "label": "Cosmic Spacehead (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "29822980|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cyber Shinobi (UE) [!].sms",
+      "label": "Cyber Shinobi, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1350E4F8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Cyborg Hunter (UE) [!].sms",
+      "label": "Cyborg Hunter (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "908E7524|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Daffy Duck in Hollywood (E) [!].sms",
+      "label": "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "71ABEF27|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Danan the Jungle Fighter (E) [!].sms",
+      "label": "Danan - The Jungle Fighter (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AE4A28D7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dead Angle (UE) [!].sms",
+      "label": "Dead Angle (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E2F7193E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Deep Duck Trouble (E) [!].sms",
+      "label": "Deep Duck Trouble Starring Donald Duck (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "42FC3A6E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Desert Speedtrap - Starring Road Runner and Wile E. Coyote (E) (M5).sms",
+      "label": "Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B137007A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Desert Strike (UE) [!].sms",
+      "label": "Desert Strike (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6C1433F9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dick Tracy (USA, Europe).sms",
+      "label": "Dick Tracy (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6FAB48D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Digger Chan (Aypok).sms",
+      "label": "Digger Chan (World) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C4CA6878|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dinobasher - Starring Bignose the Caveman (Prototype) [!].sms",
+      "label": "Dinobasher Starring Bignose the Caveman (Europe) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EA5C3A6F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Double Dragon (World).sms",
+      "label": "Double Dragon (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A55D89F3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Double Hawk (Europe).sms",
+      "label": "Double Hawk (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8370F6CD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dr. Robotnik's Mean Bean Machine (Europe).sms",
+      "label": "Dr. Robotnik's Mean Bean Machine (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6C696221|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dragon - The Bruce Lee Story (Europe).sms",
+      "label": "Dragon - The Bruce Lee Story (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C88A5064|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dragon Crystal (Europe).sms",
+      "label": "Dragon Crystal (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9549FCE4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dynamite Duke (Europe).sms",
+      "label": "Dynamite Duke (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "07306947|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dynamite Dux (Europe).sms",
+      "label": "Dynamite Dux (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0E1CC1E0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Dynamite Headdy (B) [!].sms",
+      "label": "Dynamite Headdy (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7DB5B0FA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/E-SWAT - City Under Siege (USA, Europe) (Hard Version).sms",
+      "label": "E-SWAT (USA, Europe, Brazil) (En) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C10FCE39|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Earthworm Jim (B) [!].sms",
+      "label": "Earthworm Jim (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C4D5EFC5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ecco the Dolphin - Tides of Time (B).sms",
+      "label": "Ecco - The Tides of Time (Brazil)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7C28703A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ecco the Dolphin (Europe).sms",
+      "label": "Ecco the Dolphin (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6687FAB9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Enduro Racer (UE) [!].sms",
+      "label": "Enduro Racer (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00E73541|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Enduro Racer (USA, Europe).sms",
+      "label": "Enduro Racer (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00E73541|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/F-16 Fighting Falcon (USA).sms",
+      "label": "F-16 Fighting Falcon (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "184C23B7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/F1 (Europe).sms",
+      "label": "F1 (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC788661|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/F1 Championship (E) [!].sms",
+      "label": "F1 (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC788661|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fantastic Dizzy (Europe) (En,Fr,De,Es,It).sms",
+      "label": "Fantastic Dizzy (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B9664AE1|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fantasy Zone (World) (v1.2).sms",
+      "label": "Fantasy Zone (World) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "65D7E4E0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fantasy Zone - The Maze (USA, Europe).sms",
+      "label": "Fantasy Zone - The Maze (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D29889AD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fantasy Zone II - The Tears of Opa-Opa (USA, Europe).sms",
+      "label": "Fantasy Zone II (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B8B141F9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ferias Frustradas do Picapau (B).sms",
+      "label": "Ferias Frustradas do Pica Pau (Brazil)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BF6C2E37|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/FIFA International Soccer (B) [!].sms",
+      "label": "FIFA International Soccer (Brazil) (En,Es,Pt)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9BB3B5F9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fire & Forget II (Europe).sms",
+      "label": "Fire & Forget II (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6AD7B1D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fire & Ice (B) [!].sms",
+      "label": "Fire & Ice (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8B24A640|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Flash, The (Europe).sms",
+      "label": "Flash, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BE31D63F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Flintstones, The (Europe).sms",
+      "label": "Flintstones, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CA5C78A5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Forgotten Worlds (Europe).sms",
+      "label": "Forgotten Worlds (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "38C53916|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Fushigi no Oshiro Pit Pot (J) [!].sms",
+      "label": "Fushigi no Oshiro Pit Pot (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E6795C53|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/G-LOC Air Battle (Europe).sms",
+      "label": "G-LOC - Air Battle (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "05CDC24E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Gain Ground (Europe).sms",
+      "label": "Gain Ground (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3EC5E627|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Galactic Protector (UE) [!].sms",
+      "label": "Galactic Protector (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A6FA42D0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Galaxy Force (E) [!].sms",
+      "label": "Galaxy Force (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A4AC35D8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Gangster Town (USA, Europe).sms",
+      "label": "Gangster Town (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5FC74D2A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Gauntlet (Europe).sms",
+      "label": "Gauntlet (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D9190956|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/George Foreman's KO Boxing (Europe).sms",
+      "label": "George Foreman's KO Boxing (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A64898CE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ghost House (USA, Europe).sms",
+      "label": "Ghost House (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F1F8FF2D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ghostbusters (USA, Europe).sms",
+      "label": "Ghostbusters (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1DDC3059|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ghouls'n Ghosts (USA, Europe).sms",
+      "label": "Ghouls'n Ghosts (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7A92EBA6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Global Defense (USA, Europe).sms",
+      "label": "Global Defense (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B746A6F5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mick & Mack as the Global Gladiators (Europe).sms",
+      "label": "Global Gladiators (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B67CEB76|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Golden Axe (USA, Europe).sms",
+      "label": "Golden Axe (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C08132FB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Golden Axe Warrior (USA, Europe).sms",
+      "label": "Golden Axe Warrior (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C7DED988|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Golfamania (Europe).sms",
+      "label": "Golfamania (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "48651325|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Golvellius (USA, Europe).sms",
+      "label": "Golvellius - Valley of Doom (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A51376FE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/GP Rider (Europe).sms",
+      "label": "GP Rider (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC2DA554|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Baseball (USA, Europe).sms",
+      "label": "Great Baseball (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "10ED6B57|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Football (World).sms",
+      "label": "Great Football (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2055825F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Golf (World).sms",
+      "label": "Great Golf (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "98E4AE4A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Ice Hockey (Japan, USA).sms",
+      "label": "Great Ice Hockey",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0CB7E21F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Soccer (Europe).sms",
+      "label": "Great Soccer (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0ED170C9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Great Volleyball (USA, Europe).sms",
+      "label": "Great Volleyball (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8D43EA95|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Hang-On & Astro Warrior (USA).sms",
+      "label": "Hang On & Astro Warrior (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1C5059F0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Hang-On & Safari Hunt (USA).sms",
+      "label": "Hang On & Safari Hunt (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E167A561|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Hang-On (Europe).sms",
+      "label": "Hang On (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "071B045E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Heavyweight Champ (Europe).sms",
+      "label": "Heavyweight Champ (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FDAB876A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Heroes of the Lance (Europe).sms",
+      "label": "Heroes of the Lance (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CDE13FFB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/High School! Kimengumi (J) [!].sms",
+      "label": "High School! Kimengumi (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9EB1AA4F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Home Alone (Europe).sms",
+      "label": "Home Alone (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C9DBF936|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Hook (Prototype) [!].sms",
+      "label": "Hook (Europe) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9CED34A7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Hoshi wo Sagasite... (J) [!].sms",
+      "label": "Hoshi wo Sagashite... (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "955A009E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Impossible Mission (Europe).sms",
+      "label": "Impossible Mission (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "64D6AF3B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Incredible Crash Dummies, The (Europe).sms",
+      "label": "Incredible Crash Dummies, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B4584DDE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Incredible Hulk, The (Europe).sms",
+      "label": "Incredible Hulk, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BE9A7071|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Indiana Jones and the Last Crusade (Europe).sms",
+      "label": "Indiana Jones and the Last Crusade (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8AEB574B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/James 'Buster' Douglas Knockout Boxing (USA).sms",
+      "label": "James 'Buster' Douglas Knockout Boxing (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6A664405|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/James Bond 007 - The Duel (Europe).sms",
+      "label": "James Bond 007 - The Duel (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8D23587F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/James Pond 2 - Codename RoboCod (Europe).sms",
+      "label": "James Pond 2 - Codename RoboCod (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "102D5FEA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Joe Montana Football (USA, Europe).sms",
+      "label": "Joe Montana Football (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0A9089E5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Jungle Book, The (Europe).sms",
+      "label": "Jungle Book, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "695A9A15|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Jurassic Park (Europe).sms",
+      "label": "Jurassic Park (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0667ED9F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Kenseiden (USA, Europe).sms",
+      "label": "Kenseiden (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "516ED32E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/King's Quest - Quest for the Crown (USA).sms",
+      "label": "King's Quest - Quest for the Crown (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F8D33BC4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Klax (Europe).sms",
+      "label": "KLAX (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2B435FD6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Krusty's Fun House (Europe).sms",
+      "label": "Krusty's Fun House (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "64A585EB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Kung Fu Kid (USA, Europe).sms",
+      "label": "Kung Fu Kid (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1E949D1F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Land of Illusion Starring Mickey Mouse (Europe).sms",
+      "label": "Land of Illusion Starring Mickey Mouse (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "24E97200|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Laser Ghost (Europe).sms",
+      "label": "Laser Ghost (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0CA95637|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Legend of Illusion Starring Mickey Mouse (U) [!].sms",
+      "label": "Legend of Illusion Starring Mickey Mouse (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6350E649|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Lemmings (Europe).sms",
+      "label": "Lemmings (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F369B2D8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Line of Fire (Europe).sms",
+      "label": "Line of Fire (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CB09F355|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Lion King, The (Europe).sms",
+      "label": "Lion King, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C352C7EB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Lord of the Sword (USA, Europe).sms",
+      "label": "Lord of the Sword (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E8511B08|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Loletta no Syouzou (J) [!].sms",
+      "label": "Loretta no Shouzou - Sherlock Holmes (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "323F357F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Lucky Dime Caper Starring Donald Duck, The (Europe).sms",
+      "label": "Lucky Dime Caper Starring Donald Duck, The (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A1710F13|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mahjong Sengoku Jidai (J) [!].sms",
+      "label": "Mahjong Sengoku Jidai (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BCFBFC67|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Marble Madness (Europe).sms",
+      "label": "Marble Madness (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BF6F3E5F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Marksman Shooting & Trap Shooting & Safari Hunt (Europe).sms",
+      "label": "Marksman Shooting & Trap Shooting & Safari Hunt (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E8215C2E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Trap Shooting - Marksman Shooting - Safari Hunt (UE) [!].sms",
+      "label": "Marksman Shooting & Trap Shooting & Safari Hunt (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E8215C2E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Marksman Shooting & Trap Shooting (USA).sms",
+      "label": "Marksman Shooting & Trap Shooting (USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E8EA842C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Master of Darkness (Europe).sms",
+      "label": "Master of Darkness (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "96FB4D4B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Masters of Combat (Europe).sms",
+      "label": "Masters of Combat (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "93141463|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Maze Hunter 3-D (USA, Europe).sms",
+      "label": "Maze Hunter 3-D (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "31B8040B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Megumi Rescue (J) [!].sms",
+      "label": "Megumi Rescue (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "29BC7FAD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mercs (Europe).sms",
+      "label": "Mercs (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D7416B83|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Michael Jackson's Moonwalker (USA, Europe).sms",
+      "label": "Michael Jackson's Moonwalker (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "56CC906B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mickey's Ultimate Challenge (B) [!].sms",
+      "label": "Mickey's Ultimate Challenge (Brazil)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "25051DD5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Micro Machines (Europe).sms",
+      "label": "Micro Machines (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A577CE46|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Miracle Warriors - Seal of the Dark Lord (USA, Europe).sms",
+      "label": "Miracle Warriors - Seal of The Dark Lord (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0E333B6E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Missile Defense 3-D (USA, Europe).sms",
+      "label": "Missile Defense 3-D (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FBE5CFBB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Monopoly (E) [!].sms",
+      "label": "Monopoly (USA, Europe) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "026D94A4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Montezuma's Revenge (U) [!].sms",
+      "label": "Montezuma's Revenge Featuring Panama Joe (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "82FDA895|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Montezuma's Revenge Featuring Panama Joe (USA).sms",
+      "label": "Montezuma's Revenge Featuring Panama Joe (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "82FDA895|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mortal Kombat (Europe).sms",
+      "label": "Mortal Kombat (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "302DC686|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mortal Kombat 3 (E) [!].sms",
+      "label": "Mortal Kombat 3 (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "395AE757|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Mortal Kombat II (Europe).sms",
+      "label": "Mortal Kombat II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2663BF18|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ms. Pac-Man (Europe).sms",
+      "label": "Ms. Pac-Man (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3CD816C6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/My Hero (USA, Europe).sms",
+      "label": "My Hero (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "62F0C23D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Nekyuu Kousien (J) [!].sms",
+      "label": "Nekkyuu Koushien (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5B5F9106|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/New Zealand Story, The (Europe).sms",
+      "label": "NewZealand Story, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C660FF34|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ninja Gaiden (Europe).sms",
+      "label": "Ninja Gaiden (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1B1D8CC2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ninja, The (USA, Europe).sms",
+      "label": "Ninja, The (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "66A15BD9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "label": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6A5A1E39|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Operation Wolf (Europe).sms",
+      "label": "Operation Wolf (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "205CAAE8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ottifants, The (Europe) (En,Fr,De,Es,It).sms",
+      "label": "Ottifants, The (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "82EF2A7D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Out Run (World).sms",
+      "label": "OutRun (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5589D8D2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Out Run 3-D (Europe).sms",
+      "label": "OutRun 3-D (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D6F43DDA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Out Run Europa (Europe).sms",
+      "label": "OutRun Europa (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3932ADBC|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pac-Mania (Europe).sms",
+      "label": "Pac-Mania (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BE57A9A5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Paperboy (E) [!].sms",
+      "label": "Paperboy (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "294E0759|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Parlour Games (USA, Europe).sms",
+      "label": "Parlour Games (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E030E66C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pat Riley Basketball (Prototype) [!].sms",
+      "label": "Pat Riley Basketball (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9AEFE664|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Penguin Land (USA, Europe).sms",
+      "label": "Penguin Land (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F97E9875|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/PGA Tour Golf (Europe).sms",
+      "label": "PGA Tour Golf (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "95B9EA95|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Phantasy Star (USA, Europe) (v1.3).sms",
+      "label": "Phantasy Star (USA, Europe) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00BEF1D7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pit Fighter (Europe).sms",
+      "label": "Pit-Fighter (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B840A446|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pong Master 4k.sms",
+      "label": "Pong Master 4k",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F87D50FD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Populous (Europe).sms",
+      "label": "Populous (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C7A1FDEF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Poseidon Wars 3-D (USA, Europe).sms",
+      "label": "Poseidon Wars 3-D (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ABD48AD2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Power Strike (USA, Europe).sms",
+      "label": "Power Strike (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4077EFD9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Power Strike II (Europe).sms",
+      "label": "Power Strike II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A109A6FE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Predator 2 (Europe).sms",
+      "label": "Predator 2 (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0047B615|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Prince of Persia (Europe).sms",
+      "label": "Prince of Persia (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7704287D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pro Wrestling (USA, Europe).sms",
+      "label": "Pro Wrestling (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FBDE42D3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Pro Yakyuu Pennant Race, The (J) [!].sms",
+      "label": "Pro Yakyuu, The - Pennant Race (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA9BE8F0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Promocao Especial M.System III Compact (B) [!].sms",
+      "label": "Promocao Especial M.System III Compact (B) [!]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "30AF0233|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Psychic World (Europe).sms",
+      "label": "Psychic World (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5C0B1F0F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Psycho Fox (USA, Europe).sms",
+      "label": "Psycho Fox (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "97993479|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Putt & Putter (Europe).sms",
+      "label": "Putt & Putter (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "357D4F78|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Quartet (USA, Europe).sms",
+      "label": "Quartet (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E0F34FA6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ren & Stimpy - Quest for the Shaven Yak, The (B) [!].sms",
+      "label": "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F42E145C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/R-Type (World).sms",
+      "label": "R-Type (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BB54B6B0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/R.C. Grand Prix (USA, Europe).sms",
+      "label": "R.C. Grand Prix (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "54316FEA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rainbow Islands - The Story of Bubble Bobble 2 (Europe).sms",
+      "label": "Rainbow Islands (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C172A22C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rambo - First Blood Part II (USA).sms",
+      "label": "Rambo - First Blood Part II (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BBDA65F0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rambo III (USA, Europe).sms",
+      "label": "Rambo III (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA5A7013|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rampage (USA, Europe).sms",
+      "label": "Rampage (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "42FC47EE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rampart (Europe).sms",
+      "label": "Rampart (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "426E5C8A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rastan (USA, Europe).sms",
+      "label": "Rastan (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C547EB1B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Reggie Jackson Baseball (USA).sms",
+      "label": "Reggie Jackson Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6D94BB0E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Renegade (Europe).sms",
+      "label": "Renegade (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3BE7F641|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rescue Mission (USA, Europe).sms",
+      "label": "Rescue Mission (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "79AC8E7F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Road Rash (Europe).sms",
+      "label": "Road Rash (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B876FC74|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/RoboCop 3 (Europe).sms",
+      "label": "RoboCop 3 (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9F951756|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/RoboCop versus The Terminator (Europe).sms",
+      "label": "RoboCop Versus The Terminator (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8212B754|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Rocky (World).sms",
+      "label": "Rocky (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1BCC7BE3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Running Battle (Europe).sms",
+      "label": "Running Battle (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1FDAE719|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sagaia (Europe).sms",
+      "label": "Sagaia (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "66388128|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Satellite 7 (J) [!].sms",
+      "label": "Satellite 7 (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "16249E19|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Smurfs Travel the World, The (E) (M4) [!].sms",
+      "label": "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "97E5BB7D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Scramble Spirits (Europe).sms",
+      "label": "Scramble Spirits (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9A8B28EC|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Secret Commando (E) [!].sms",
+      "label": "Secret Command (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00529114|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sega Chess (Europe).sms",
+      "label": "Sega Chess (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A8061AEF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sega World Tournament Golf (Europe).sms",
+      "label": "Sega World Tournament Golf (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "296879DD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sensible Soccer (Europe).sms",
+      "label": "Sensible Soccer (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F8176918|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Shadow Dancer (Europe).sms",
+      "label": "Shadow Dancer - The Secret of Shinobi (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3793C01A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Shadow of the Beast (Europe).sms",
+      "label": "Shadow of the Beast (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1575581D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Shanghai (USA, Europe).sms",
+      "label": "Shanghai (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AAB67EC3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Shinobi (USA, Europe).sms",
+      "label": "Shinobi (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0C6FAC4E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Shooting Gallery (USA, Europe).sms",
+      "label": "Shooting Gallery (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4B051022|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Simpsons, The - Bart vs. the Space Mutants (Europe).sms",
+      "label": "Simpsons, The - Bart vs. The Space Mutants (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D1CC08EE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Simpsons, The - Bart vs. the World (Europe).sms",
+      "label": "Simpsons, The - Bart vs. The World (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6B2370A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sitio do Picapau Amarelo (B) [!].sms",
+      "label": "Sitio do Picapau Amarelo (Brazil)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ABDF3923|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Slap Shot (E) [!].sms",
+      "label": "Slap Shot (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C93BD0E9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Smurfs, The (Europe) (En,Fr,De,Es).sms",
+      "label": "Smurfs, The (Europe, Brazil) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3E63768A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Solomon no Kagi - Oujo Rihita no Namida (J) [!].sms",
+      "label": "Solomon no Kagi - Oujo Rihita no Namida (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "11645549|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sonic Blast (B) [!].sms",
+      "label": "Sonic Blast (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "96B3F29E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sonic Chaos (Europe).sms",
+      "label": "Sonic Chaos (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AEDF3BDF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sonic Spinball (Europe).sms",
+      "label": "Sonic Spinball (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "11C1BC8A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sonic The Hedgehog (USA, Europe).sms",
+      "label": "Sonic The Hedgehog (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B519E833|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sonic The Hedgehog 2 (UE) (V2.2).sms",
+      "label": "Sonic The Hedgehog 2 (Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D6F2BFCA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Space Gun (Europe).sms",
+      "label": "Space Gun (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A908CFF5|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Space Harrier (USA, Europe).sms",
+      "label": "Space Harrier (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CA1D3752|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Space Harrier 3-D (USA, Europe).sms",
+      "label": "Space Harrier 3-D (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6BD5C2BF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Special Criminal Investigation (Europe).sms",
+      "label": "Special Criminal Investigation (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FA8E4CA0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Speedball (Europe) (Virgin).sms",
+      "label": "Speedball (Europe) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5CCC1A65|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Speedball 2 (Europe).sms",
+      "label": "Speedball 2 (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0C7366A0|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/SpellCaster (USA, Europe).sms",
+      "label": "SpellCaster (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4752CAE7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Spider-Man vs. The Kingpin (USA, Europe).sms",
+      "label": "Spider-Man (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "908FF25C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Spider-Man - Return of the Sinister Six (Europe).sms",
+      "label": "Spider-Man - Return of the Sinister Six (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EBE45388|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sports Pad Football (USA).sms",
+      "label": "Sports Pad Football (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E42E4998|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Spy vs. Spy (USA, Europe).sms",
+      "label": "Spy vs Spy (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "78D7FAAB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Star Wars (Europe).sms",
+      "label": "Star Wars (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D4B8F66D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Street Fighter 2 (B) [!].sms",
+      "label": "Street Fighter II' (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0F8287EC|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Streets of Rage (Europe).sms",
+      "label": "Streets of Rage (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4AB3790F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Streets of Rage II (Europe).sms",
+      "label": "Streets of Rage II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "04E9C089|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Strider (USA, Europe).sms",
+      "label": "Strider (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9802ED31|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Strider II (Europe).sms",
+      "label": "Strider II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B8F0915A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Submarine Attack (Europe).sms",
+      "label": "Submarine Attack (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D8F2F1B9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Sukeban Deka 2 (J) [!].sms",
+      "label": "Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B13DF647|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Summer Games (Europe).sms",
+      "label": "Summer Games (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8DA5C93F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Kick Off (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "label": "Super Kick Off (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "406AA0C2|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Monaco GP (USA).sms",
+      "label": "Super Monaco GP (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3EF12BAA|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Off Road (Europe).sms",
+      "label": "Super Off Road (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "54F68C2A|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Racing (J) [!].sms",
+      "label": "Super Racing (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7E0EF8CB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Smash T.V. (Europe).sms",
+      "label": "Super Smash T.V. (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E0B1AFF8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Space Invaders (Europe).sms",
+      "label": "Super Space Invaders (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1D6244EE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Super Tennis (USA, Europe).sms",
+      "label": "Super Tennis (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "914514E3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Superman - The Man of Steel (Europe).sms",
+      "label": "Superman - The Man of Steel (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6F9AC98F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/T2 - The Arcade Game (Europe).sms",
+      "label": "T2 - The Arcade Game (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "93CA8152|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Terminator 2 - The Arcade Game (E) [!].sms",
+      "label": "T2 - The Arcade Game (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "93CA8152|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Taito Chase H.Q. (Europe).sms",
+      "label": "Taito Chase H.Q. (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "85CFC9C9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Taz in Escape From Mars (B) [!].sms",
+      "label": "Taz in Escape from Mars (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "11CE074C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Taz-Mania (Europe).sms",
+      "label": "Taz-Mania (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7CC3E837|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Tecmo World Cup '92 (Prototype for '93) [!].sms",
+      "label": "Tecmo World Cup '92 (Europe) (Beta)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "96E75F48|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Tecmo World Cup '93 (Europe).sms",
+      "label": "Tecmo World Cup '93 (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5A1C3DDE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Teddy Boy (USA, Europe).sms",
+      "label": "Teddy Boy (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2728FAA3|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Tennis Ace (Europe).sms",
+      "label": "Tennis Ace (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1A390B93|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Tensai Bakabon (J) [!].sms",
+      "label": "Tensai Bakabon (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8132AB2C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Terminator 2 - Judgment Day (Europe).sms",
+      "label": "Terminator 2 - Judgment Day (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AC56104F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Terminator, The (Europe).sms",
+      "label": "Terminator, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EDC5C012|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Thunder Blade (USA, Europe).sms",
+      "label": "Thunder Blade (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AE920E4B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Time Soldiers (USA, Europe).sms",
+      "label": "Time Soldiers (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "51BD14BE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Tom and Jerry - The Movie (Europe).sms",
+      "label": "Tom and Jerry - The Movie (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BF7B7285|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/TransBot (USA, Europe).sms",
+      "label": "TransBot (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4BC42857|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es).sms",
+      "label": "Trivial Pursuit - Genus Edition (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E5374022|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ultima IV - Quest of the Avatar (Europe).sms",
+      "label": "Ultima IV - Quest of the Avatar (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B52D60C8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ultimate Soccer (Europe) (En,Fr,De,Es,It).sms",
+      "label": "Ultimate Soccer (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "15668CA4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Vampire (E) [!].sms",
+      "label": "Vampire (Europe, Brazil) (En) (Beta)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "20F40CAE|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Vigilante (USA, Europe).sms",
+      "label": "Vigilante (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DFB0B161|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Virtua Fighter Animation (J) [!].sms",
+      "label": "Virtua Fighter Animation (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "57F1545B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Walter Payton Football (USA).sms",
+      "label": "Walter Payton Football (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3D55759B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wanted (USA, Europe).sms",
+      "label": "Wanted (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5359762D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Where in the World is Carmen Sandiego (USA).sms",
+      "label": "Where in the World is Carmen Sandiego (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "428B1E7C|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wimbledon (Europe).sms",
+      "label": "Wimbledon (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "912D92AF|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wimbledon II (Europe).sms",
+      "label": "Wimbledon II (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7F3AFE58|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sms",
+      "label": "Winter Olympics (Europe) (En,Fr,De,Es,It,Pt,Sv,No)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A20290B6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wolfchild (Europe).sms",
+      "label": "Wolfchild (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1F8EFA1D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wonder Boy (USA, Europe).sms",
+      "label": "Wonder Boy (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "73705C02|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wonder Boy III - The Dragon's Trap (USA, Europe).sms",
+      "label": "Wonder Boy III - The Dragon's Trap (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "679E1676|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wonder Boy in Monster Land (USA, Europe).sms",
+      "label": "Wonder Boy in Monster Land (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8CBEF0C1|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Wonder Boy in Monster World (Europe).sms",
+      "label": "Wonder Boy in Monster World (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7D7CE80B|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Woody Pop (J) [!].sms",
+      "label": "Woody Pop - Shinjinrui no Block Kuzushi (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "315917D4|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Class Leader Board (Europe).sms",
+      "label": "World Class Leaderboard (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C9A449B7|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Cup Italia '90 (Europe).sms",
+      "label": "World Cup Italia '90 (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6E1AD6FD|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms",
+      "label": "World Cup USA 94 (Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A6BF8F9E|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Games (Europe).sms",
+      "label": "World Games (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A2A60BC8|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Grand Prix (E) [!].sms",
+      "label": "World Grand Prix (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4AAAD0D6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/World Soccer (E) [!].sms",
+      "label": "World Soccer (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "72112B75|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/WWF Wrestlemania - Steel Cage Challenge (Europe).sms",
+      "label": "WWF Wrestlemania - Steel Cage Challenge (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2DB21448|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/X-Men - Mojo World (B) [!].sms",
+      "label": "X-Men - Mojo World (Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3E1387F6|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Xenon 2 - Megablast (Europe) (Virgin).sms",
+      "label": "Xenon 2 - Megablast (Europe) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC726C0D|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Ys - The Vanished Omens (USA, Europe).sms",
+      "label": "Ys - The Vanished Omens (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B33E2827|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Zaxxon 3-D (World).sms",
+      "label": "Zaxxon 3-D (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A3EF13CB|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Zillion (Europe) (v1.2).sms",
+      "label": "Zillion (Europe, Brazil) (En) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7BA54510|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Zillion II - The Tri Formation (World).sms",
+      "label": "Zillion II - The Tri Formation (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2F2E3BC9|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Zool (E) [!].sms",
+      "label": "Zool - Ninja of the 'Nth' Dimension (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9D9D0A5F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    },
+    {
+      "path": "/data/ROMS/SMS/Zool - Ninja of the 'Nth' Dimension (Europe).sms",
+      "label": "Zool - Ninja of the 'Nth' Dimension (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9D9D0A5F|crc",
+      "db_name": "Sega - Master System - Mark III.lpl"
+    }
+  ]
+}

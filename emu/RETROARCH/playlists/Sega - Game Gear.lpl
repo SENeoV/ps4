@@ -1,0 +1,2995 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+  "default_core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/GG/5 in 1 Funpak (U) [!].gg",
+      "label": "5 in One FunPak (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F85A8CE8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Aah! Harimanada (J).gg",
+      "label": "Aa Harimanada (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1D17D2A0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Addams Family, The (U) [!].gg",
+      "label": "Addams Family, The (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1D01F999|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Adventures of Batman & Robin, The (U) [!].gg",
+      "label": "Adventures of Batman & Robin, The (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BB4F23FF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Aerial Assault (JU) (V1.1) [!].gg",
+      "label": "Aerial Assault (World) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "04FE6DDE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Aladdin (U) [!].gg",
+      "label": "Aladdin (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7A41C1DC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Alien 3 (U) [!].gg",
+      "label": "Alien 3 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "11A68C08|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Alien Syndrome (J).gg",
+      "label": "Alien Syndrome (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FFE4ED47|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Andre Agassi Tennis (U) [!].gg",
+      "label": "Andre Agassi Tennis (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "46C9FA3E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Arcade Classics (U) [!].gg",
+      "label": "Arcade Classics (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3DECA813|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Arch Rivals (U) [!].gg",
+      "label": "Arch Rivals - The Arcade Game (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F0204191|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Drop Zone (U) [!].gg",
+      "label": "Archer Maclean's Dropzone (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "152F0DCC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Arena - Maze of Death (U) [!].gg",
+      "label": "Arena (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7CB3FACF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ariel - The Little Mermaid (U) [!].gg",
+      "label": "Ariel - The Little Mermaid (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "97E3A18C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Arliel - Crystal Densetsu (J).gg",
+      "label": "Arliel - Crystal Densetsu (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "35FA3F68|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Asterix and the Great Rescue (E) (M5) [!].gg",
+      "label": "Asterix and the Great Rescue (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "328C5CC8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ax Battler - A Legend of Golden Axe (U) (V2.4) [!].gg",
+      "label": "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "663BCF8A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ayrton Senna's Super Monaco GP II (U) [!].gg",
+      "label": "Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1D1B1DD3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Baku Baku Animal - Sekai Shiikugakari Senshu-ken (J) [!].gg",
+      "label": "Baku Baku (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "10AC9374|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Baku Baku Animal (U).gg",
+      "label": "Baku Baku (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8D8BFDC4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Batman Forever (U) [!].gg",
+      "label": "Batman Forever (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "618B19E2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Batman Returns (U) [!].gg",
+      "label": "Batman Returns (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7AC4A3CA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Batter Up (U) [!].gg",
+      "label": "Batter Up (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "16448209|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Battleship (U) [!].gg",
+      "label": "Battleship - The Classic Naval Combat Game (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FDDD8CD9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Battletoads (U) [!].gg",
+      "label": "Battletoads (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "817CC0CA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Beavis and Butt-head (U) [!].gg",
+      "label": "Beavis and Butt-Head (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A6BF865E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Berenstain Bears', The - Camping Adventure (U) [!].gg",
+      "label": "Berenstain Bears' Camping Adventure, The (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A4BB9FFB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Berlin no Kabe (J).gg",
+      "label": "Berlin no Kabe (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "325B1797|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bishoujo Senshi Sailor Moon S (J).gg",
+      "label": "Bishoujo Senshi Sailor Moon S (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FE7374D2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bonkers Wax Up! (U) [!].gg",
+      "label": "Bonkers Wax Up! (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BFCEBA5F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bram Stoker's Dracula (U) [!].gg",
+      "label": "Bram Stoker's Dracula (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "69EBE5FA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bubble Bobble (U) [!].gg",
+      "label": "Bubble Bobble (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FBA338C5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bugs Bunny in Double Trouble (U) [!].gg",
+      "label": "Bugs Bunny in Double Trouble (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5C34D9CD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Bust-A-Move (U) [!].gg",
+      "label": "Bust-A-Move (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C90F29EF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Buster Ball (J).gg",
+      "label": "Buster Ball (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7CB079D0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Buster Fight (J).gg",
+      "label": "Buster Fight (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A72A1753|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Caesar's Palace (U) [!].gg",
+      "label": "Caesars Palace (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C53B60B8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Captain America and the Avengers (U) [!].gg",
+      "label": "Captain America and the Avengers (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5675DFDD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Car Licence (J).gg",
+      "label": "Car Licence (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6A697F8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Casino Funpak (U) [!].gg",
+      "label": "Casino FunPak (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2B732056|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Castle of Illusion starring Mickey Mouse (UE) [!].gg",
+      "label": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "59840FD6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chakan (U) [!].gg",
+      "label": "Chakan (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DFC7ADC8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chase H.Q. (J) [S][!].gg",
+      "label": "Chase H.Q. (Japan)[h]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "44FBE8F6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chessmaster, The (U) [!].gg",
+      "label": "Chessmaster, The (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA811BA6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chicago Syndicate (U) [!].gg",
+      "label": "Chicago Syndicate (USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6B0FCEC3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Choplifter III (U) [!].gg",
+      "label": "Choplifter III (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C2E8A692|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chuck Rock (U) [!].gg",
+      "label": "Chuck Rock (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "191B1ED8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Chuck Rock II - Son of Chuck (E) [!].gg",
+      "label": "Chuck Rock II - Son of Chuck (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "656708BF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Cliffhanger (U) [!].gg",
+      "label": "Cliffhanger (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BF75B153|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Clutch Hitter (U) [!].gg",
+      "label": "Clutch Hitter (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D228A467|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Columns (U) [!].gg",
+      "label": "Columns (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "83FA26D9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Cool Spot (U) [!].gg",
+      "label": "Cool Spot (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2C758FC8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Cosmic Spacehead (E) (M4) [!].gg",
+      "label": "Cosmic Spacehead (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6CAA625B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Crayon Shin-Chan - Taiketsu! Tankam Panic!! (J).gg",
+      "label": "Crayon Shin-chan - Taiketsu! Kantam Panic!! (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "03D28EAB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Crystal Warriors (U) [!].gg",
+      "label": "Crystal Warriors (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "529C864E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Cutthroat Island (U) [!].gg",
+      "label": "CutThroat Island (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6A24E47E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Daffy Duck in Hollywood (E) (M5) [!].gg",
+      "label": "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AAE268FC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Deep Duck Trouble Starring Donald Duck (U) [!].gg",
+      "label": "Deep Duck Trouble Starring Donald Duck (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5A136D7E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Defenders of Oasis (U) [!].gg",
+      "label": "Defenders of Oasis (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E2791CC1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Desert Speedtrap - Starring Road Runner and Wile E. Coyote (E) (M5) [!].gg",
+      "label": "Desert Speedtrap Starring Road Runner and Wile E. Coyote (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC808026|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Desert Strike - Return to the Gulf (U) [!].gg",
+      "label": "Desert Strike - Return to the Gulf (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6C400DA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Devilish (U) [!].gg",
+      "label": "Devilish (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C01293B0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ronald in the Magical World (JU).gg",
+      "label": "Donald no Magical World (Japan) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "87B8B612|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GG Doraemon - Nora no Suke no Yabou (J).gg",
+      "label": "Doraemon - Noranosuke no Yabou (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9A8B2C16|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Doraemon - Waku Waku Pocket Paradise (J) [!].gg",
+      "label": "Doraemon - Waku Waku Pocket Paradise (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "733292A6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Double Dragon (U) [!].gg",
+      "label": "Double Dragon (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1307A290|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Dr. Robotnik's Mean Bean Machine (U) [!].gg",
+      "label": "Dr. Robotnik's Mean Bean Machine (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3C2D4F48|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Dragon - The Bruce Lee Story (E) [!].gg",
+      "label": "Dragon - The Bruce Lee Story (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "19E1CF2B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Dragon Crystal (U) [!].gg",
+      "label": "Dragon Crystal (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0EF2ED93|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Dunk Kid's (J).gg",
+      "label": "Dunk Kids (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "77ED48F5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Dynamite Headdy (U).gg",
+      "label": "Dynamite Headdy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "610FF95C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Earthworm Jim (U) [!].gg",
+      "label": "Earthworm Jim (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5D3F23A9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ecco - The Tides of Time (U) [!].gg",
+      "label": "Ecco - The Tides of Time (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E2F3B203|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ecco the Dolphin (U) [!].gg",
+      "label": "Ecco the Dolphin (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "866C7113|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ecco II - The Tides of Time (J) [!].gg",
+      "label": "Ecco the Dolphin II (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BA9CEF4F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ernie Els Golf (E).gg",
+      "label": "Ernie Els Golf (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5E53C7F7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Eternal Legend (J) [!].gg",
+      "label": "Eternal Legend (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "04302BBD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Evander Holyfield's 'Real Deal' Boxing (U) [!].gg",
+      "label": "Evander Holyfield's 'Real Deal' Boxing (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "36AAF536|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Excellent Dizzy Collection, The (E) [S][!].gg",
+      "label": "Excellent Dizzy Collection, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AA140C9C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/F-15 Strike Eagle (U) [!].gg",
+      "label": "F-15 Strike Eagle (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8BDB0806|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/F-1 (E) [!].gg",
+      "label": "F1 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D0A93E00|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Faceball 2000 (J) [!].gg",
+      "label": "Faceball 2000 (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AAF6F87D|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Factory Panic (U) [!].gg",
+      "label": "Factory Panic (Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "59E3BE92|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Fantastic Dizzy (U) [S][!].gg",
+      "label": "Fantastic Dizzy (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C888222B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Fantasy Zone Gear (JU) [!].gg",
+      "label": "Fantasy Zone (Japan, Europe) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D69097E8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Fatal Fury Special (U) [!].gg",
+      "label": "Fatal Fury Special (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "449787E2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/FIFA International Soccer (UE) (M4) [!].gg",
+      "label": "FIFA International Soccer (USA, Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E632A3A2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/FIFA Soccer 96 (UE) (M4) [!].gg",
+      "label": "FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C379DE95|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Foreman for Real (U) [!].gg",
+      "label": "Foreman for Real (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D46D5685|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Frank Thomas Big Hurt Baseball (U) [!].gg",
+      "label": "Frank Thomas Big Hurt Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C443C35C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Fred Couples Golf (U) [!].gg",
+      "label": "Fred Couples Golf (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "46F40B9F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Frogger (Prototype) [!].gg",
+      "label": "Frogger (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "02BBF994|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/From TV Animation - Slam Dunk - Shouri heno Starting 5 (J) [!].gg",
+      "label": "From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "751DAD4C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/G-LOC Air Battle (J) (V1.1).gg",
+      "label": "G-LOC - Air Battle (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "33237F50|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Galaga '91 (J).gg",
+      "label": "Galaga '91 (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0593BA24|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gamble Panic (J).gg",
+      "label": "Gamble Panic (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "09534742|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gambler Jikochuushin Ha (J).gg",
+      "label": "Gambler Jiko Chuushinha (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "423803A7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ganbare Gorby! (J).gg",
+      "label": "Ganbare Gorby! (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A1F2F4A1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Garfield - Caught in the Act (U) [!].gg",
+      "label": "Garfield - Caught in the Act (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CD53F3AF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gear Stadium (J).gg",
+      "label": "Gear Stadium (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0E300223|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gear Stadium Heiseiban (J) [!].gg",
+      "label": "Gear Stadium Heiseiban (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A0530664|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gear Works (U) [!].gg",
+      "label": "Gear Works (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E9A2EFB4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/George Foreman's KO Boxing (U) [!].gg",
+      "label": "George Foreman's KO Boxing (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "58B44585|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GG Aleste (J).gg",
+      "label": "GG Aleste (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1B80A75B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GG Portrait - Pai Chan (J) [!].gg",
+      "label": "GG Portrait - Pai Chan (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "695CC120|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GG Portrait - Yuuki Akira (J) [!].gg",
+      "label": "GG Portrait - Yuuki Akira (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "51159F8F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mick & Mack as the Global Gladiators (U) [!].gg",
+      "label": "Global Gladiators (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D2B6021E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Godzilla - Kaiju Dai Shingeki (J) [!].gg",
+      "label": "Gojira - Kaijuu Daishingeki (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4CF97801|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GP Rider (U) [!].gg",
+      "label": "GP Rider (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "876E9B72|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Greendog (U).gg",
+      "label": "Greendog - The Beached Surfer Dude! (USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F27925B0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Griffin (J).gg",
+      "label": "Griffin (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A93E8B0F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Gunstar Heroes (J).gg",
+      "label": "Gunstar Heroes (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C3C52767|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Halley Wars (U) [!].gg",
+      "label": "Halley Wars (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7E9DEA46|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Head Buster (J) [T+Eng.99_Chris Covell].gg",
+      "label": "Head Buster (Japan) (En,Ja)[tr en Chris Covell][v0.99]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8ED94C2B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Home Alone (U) [!].gg",
+      "label": "Home Alone (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DDE29F74|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Honoo no Doukyuuji - Dodge Danpei (J).gg",
+      "label": "Honoo no Toukyuuji - Dodge Danpei (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DFA805A0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Hook (U) [!].gg",
+      "label": "Hook (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F53CED2E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Hurricanes (U) [!].gg",
+      "label": "Hurricanes (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0A25EEC5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Hyokkori Hyoutan Jima (J).gg",
+      "label": "Hyokkori Hyoutan-jima - Hyoutan-jima no Daikoukai (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "42389270|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Hyper Chou Pro Yakyuu '92 (J) [!].gg",
+      "label": "Hyper Pro Yakyuu '92 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "056CAE74|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/In the Wake of Vampire (J).gg",
+      "label": "In the Wake of Vampire (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DAB0F265|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Incredible Crash Dummies, The (U).gg",
+      "label": "Incredible Crash Dummies, The (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "087FC247|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Incredible Hulk, The (U) [!].gg",
+      "label": "Incredible Hulk, The (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D7055F88|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Indiana Jones and the Last Crusade (U).gg",
+      "label": "Indiana Jones and the Last Crusade (U)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8C048325|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Iron Man X-O Manowar in Heavy Metal (U).gg",
+      "label": "Iron Man X-O Manowar in Heavy Metal",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8927B69B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Itchy & Scratchy Game, The (U) [!].gg",
+      "label": "Itchy & Scratchy Game, The (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "44E7E2DA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/J.League Soccer - Dream Eleven (J) [!].gg",
+      "label": "J.League Soccer - Dream Eleven (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ABDDF0EB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/James Bond 007 - The Duel (U) [!].gg",
+      "label": "James Bond 007 - The Duel (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "881A4524|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/James Pond 3 - Operation Starfish (U) [!].gg",
+      "label": "James Pond 3 - Operation Starfi5h (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "68BB7F71|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/James Pond II - Codename RoboCod (U) [!].gg",
+      "label": "James Pond II - Codename RoboCod (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9FB5C155|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Jeopardy! (U) [!].gg",
+      "label": "Jeopardy! (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D7820C21|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Jeopardy! - Sports Edition (U) [!].gg",
+      "label": "Jeopardy! - Sports Edition (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2DD850B7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Joe Montana's Football (JU) [!].gg",
+      "label": "Joe Montana Football (Japan, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4A98678B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Strider Returns (U) [!].gg",
+      "label": "Journey from Darkness - Strider Returns (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1EBFA5CA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Judge Dredd (U) [!].gg",
+      "label": "Judge Dredd (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "04D23FC4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Junction (U).gg",
+      "label": "Junction (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A8EF36A7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Jungle Book, The (U) (Mar 1994) [!].gg",
+      "label": "Jungle Book, The (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "30C09F31|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Jurassic Park (UE) [!].gg",
+      "label": "Jurassic Park (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BD6F2321|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kaitou Saint Tail (J).gg",
+      "label": "Kaitou Saint Tail (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "937FD52B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kawasaki Superbike Challenge (U) [!].gg",
+      "label": "Kawasaki Superbike Challenge (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "23F9150A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kenyuu Densetsu Yaiba (J).gg",
+      "label": "Kenyuu Densetsu Yaiba (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D9CE3F4C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kick & Rush (J).gg",
+      "label": "Kick & Rush (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FD14CE00|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kinetic Connection (J).gg",
+      "label": "Kinetic Connection (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4AF7F2AA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kishin Douji Zenki (J).gg",
+      "label": "Kishin Douji Zenki (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7D622BDD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Klax (U) [!].gg",
+      "label": "KLAX (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9B40FC8E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Simpsons, The - Krusty's Fun House (U) [!].gg",
+      "label": "Krusty's Fun House (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D01E784F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kuni-chan no Game Tengoku (J).gg",
+      "label": "Kuni-chan no Game Tengoku (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "398F2358|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Kuni-chan no Game Tengoku Part 2 (J).gg",
+      "label": "Kuni-chan no Game Tengoku Part 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F3774C65|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Land of Illusion Starring Mickey Mouse (U) [!].gg",
+      "label": "Land of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "52DBF3E1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Last Action Hero (U) [!].gg",
+      "label": "Last Action Hero (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2D367C43|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Legend of Illusion Starring Mickey Mouse (U) [!].gg",
+      "label": "Legend of Illusion Starring Mickey Mouse (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CE5AD8B7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Lemmings (U) [!].gg",
+      "label": "Lemmings (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0FDE7BAA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Lion King, The (E) [!].gg",
+      "label": "Lion King, The (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0CD9C20B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Lost World, The - Jurassic Park (U).gg",
+      "label": "Lost World, The - Jurassic Park (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8D1597F5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Lucky Dime Caper, The Starring Donald Duck (U) [!].gg",
+      "label": "Lucky Dime Caper Starring Donald Duck, The (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "07A7815A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Lunar - Sanposuru Gakuen (J) [T-Eng].gg",
+      "label": "Lunar - Sanposuru Gakuen (Japan)[tr en](Alt 2)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EAF5732A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madden NFL '96 (U) [!].gg",
+      "label": "Madden 96 [b2]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "75E273EB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madden NFL '95 (U) [!].gg",
+      "label": "Madden NFL 95 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "75C71EBF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madou Monogatari A - Doki Doki - Bake Shon (J).gg",
+      "label": "Madou Monogatari A - Dokidoki Vacation (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7EC95282|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madou Monogatari I (J).gg",
+      "label": "Madou Monogatari I - 3tsu no Madoukyuu (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "00C34D94|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madou Monogatari II - Aruru 16-sai (J).gg",
+      "label": "Madou Monogatari II - Arle 16-Sai (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "12EB2287|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Madou Monogatari III - Kyukyoku Joo-sama (J).gg",
+      "label": "Madou Monogatari III - Kyuukyoku Joou-sama (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0A634D79|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Magic Knight Rayearth (J) [!].gg",
+      "label": "Magic Knight Rayearth (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8F82A6B9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Magic Knight Rayearth 2 - Making of Magic Knight (J) [!].gg",
+      "label": "Magic Knight Rayearth 2 - Making of Magic Knight (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1C2C2B04|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Magical Puzzle Popils (J).gg",
+      "label": "Magical Puzzle Popils (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CF6D7BC5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Magical Taruruuto-kun (J).gg",
+      "label": "Magical Taruruuto-kun (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6E1CC23C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Majors Pro Baseball, The (U) [!].gg",
+      "label": "Majors, The - Pro Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "36EBCD6D|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/S.S. Lucifer - Man Overboard! (U) [!].gg",
+      "label": "Man Overboard! (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D9A7F170|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mappy (J).gg",
+      "label": "Mappy (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "01D2DD2A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Marble Madness (U).gg",
+      "label": "Marble Madness (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9559E339|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Marko's Magic Football (U) [!].gg",
+      "label": "Marko's Magic Football (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "22C418BF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Megaman (U) [!].gg",
+      "label": "Mega Man (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1ACE93AF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Megami Tensei Gaiden - Last Bible (J).gg",
+      "label": "Megami Tensei Gaiden - Last Bible (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2E4EC17B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Megami Tensei Gaiden - Last Bible Special (J).gg",
+      "label": "Megami Tensei Gaiden - Last Bible Special (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4EC30806|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mickey's Ultimate Challenge (U).gg",
+      "label": "Mickey's Ultimate Challenge (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ECCF7A4F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Micro Machines (E).gg",
+      "label": "Micro Machines (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F7C524F6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Micro Machines 2 - Turbo Tournament (E).gg",
+      "label": "Micro Machines 2 - Turbo Tournament (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DBE8895C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mighty Morphin Power Rangers (U) [!].gg",
+      "label": "Mighty Morphin Power Rangers (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9289DFCC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mighty Morphin Power Rangers - The Movie (U) [!].gg",
+      "label": "Mighty Morphin Power Rangers - The Movie (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B47C19E5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/MLBPA Baseball (U) [!].gg",
+      "label": "MLBPA Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1ECF07B4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Moldorian (J) [!].gg",
+      "label": "Moldorian - Hikari to Yami no Sister (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4D5D15FB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Monster Truck Wars (U) [!].gg",
+      "label": "Monster Truck Wars (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "453C5CEC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Monster World II - Dragon no Wana (J).gg",
+      "label": "Monster World II - Dragon no Wana (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EA89E0E7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mortal Kombat (U) [!].gg",
+      "label": "Mortal Kombat (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "07494F2A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mortal Kombat 3 (U) [!].gg",
+      "label": "Mortal Kombat 3 (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C2BE62BB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Mortal Kombat II (U) [!].gg",
+      "label": "Mortal Kombat II (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4B304E0F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ms. Pac-Man (U) [!].gg",
+      "label": "Ms. Pac-Man (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5EE88BD5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Nazo Puyo (J) [!].gg",
+      "label": "Nazo Puyo (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BCCE5FD4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Nazo Puyo Aruru no Ru (J).gg",
+      "label": "Nazo Puyo - Arle no Roux (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "54AB42A4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Nazo Puyo 2 (J) [!].gg",
+      "label": "Nazo Puyo 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "73939DE4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NBA Action (U) [!].gg",
+      "label": "NBA Action Starring David Robinson (USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "19030108|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NBA Jam (U) (V1.1) [!].gg",
+      "label": "NBA Jam (USA) (Rev 1) (Putative Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "820FA4AB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NBA Jam Tournament Edition (U) [!].gg",
+      "label": "NBA Jam - Tournament Edition (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "86C32E5B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Neko Daisuki! (J).gg",
+      "label": "Neko Daisuki! (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3679BE80|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NFL '95 (U) [!].gg",
+      "label": "NFL '95 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DC5B0407|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NFL Quarterback Club (U) [!].gg",
+      "label": "NFL Quarterback Club (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "61785ED5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NFL Quarterback Club '96 (U) [!].gg",
+      "label": "NFL Quarterback Club 96 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C348E53A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NHL All-Star Hockey (U) [!].gg",
+      "label": "NHL All-Star Hockey (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4680C7AA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/NHL Hockey (U) [!].gg",
+      "label": "NHL Hockey (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "658713A5|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ninja Gaiden (U) [!].gg",
+      "label": "Ninja Gaiden (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C578756B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ninku (J) [!].gg",
+      "label": "Ninku (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C3056E15|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ninku 2 - Tenkuryu-e no Michi (J) [!].gg",
+      "label": "Ninku 2 - Tenkuuryuu-e no Michi (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "06247DD2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ninku Gaiden - Hiroyuki Daikatsugeki (J).gg",
+      "label": "Ninku Gaiden - Hiroyuki Daikatsugeki (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9140F239|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Nomo's World Series Baseball (J).gg",
+      "label": "Nomo Hideo no World Series Baseball (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4ED45BDA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Olympic Gold - Barcelona '92 (E) (M8) [S][!].gg",
+      "label": "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1D93246E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ottifants, The (E).gg",
+      "label": "Ottifants, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1E673168|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/OutRun (JU).gg",
+      "label": "OutRun (Japan, Korea) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D58CB27C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/OutRun Europa (U) [S][!].gg",
+      "label": "OutRun Europa (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F037EC00|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pac-Attack (U) [!].gg",
+      "label": "Pac-Attack (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9273EE2C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pac-In-Time (Prototype) [!].gg",
+      "label": "Pac-in-Time (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "64C28E20|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pac-Man (J) (Partial GG2SMS by Chris Covell).gg",
+      "label": "Pac-Man (J) (Partial GG2SMS by Chris Covell)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C945F35B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pac-Man (USA, Europe).gg",
+      "label": "Pac-Man (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A16C5E58|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Panzer Dragoon Mini (J) [!].gg",
+      "label": "Panzer Dragoon Mini (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E9783CEA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Paperboy (U).gg",
+      "label": "Paperboy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F54B6803|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Paperboy 2 (U) [!].gg",
+      "label": "Paperboy 2 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8B2C454B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pengo (U) [!].gg",
+      "label": "Pengo (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0DA23CC1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pet Club Inu Daisuki! (J).gg",
+      "label": "Pet Club - Inu Daisuki! (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B42D8430|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pete Sampras Tennis (E) [!].gg",
+      "label": "Pete Sampras Tennis (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C1756BEE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/PGA Tour 96 (U) [!].gg",
+      "label": "PGA Tour 96 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "542B6D8E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/PGA Tour Golf (U) (V1.1) [!].gg",
+      "label": "PGA Tour Golf (USA) (Rev 1) (Putative Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1C77D996|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/PGA Tour Golf II (U) [!].gg",
+      "label": "PGA Tour Golf II (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4A8AC851|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Phantasy Star Adventure (J) [T+Eng1.01_AGTP].gg",
+      "label": "Phantasy Star Adventure (Japan)[tr en AGTP][v1.01]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CF1A8C1B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Phantasy Star Gaiden (J) [!].gg",
+      "label": "Phantasy Star Gaiden (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A942514A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Phantom 2040 (U) [!].gg",
+      "label": "Phantom 2040 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "281B1C3A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pinball Dreams (U) [!].gg",
+      "label": "Pinball Dreams (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "635C483A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pocket Jansou (J).gg",
+      "label": "Pocket Jansou (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CC90C723|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Poker Faced Paul's Blackjack (U) [!].gg",
+      "label": "Poker Face Paul's Blackjack (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "89D34067|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Poker Faced Paul's Gin (U) [!].gg",
+      "label": "Poker Face Paul's Gin (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "AFD61B89|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Poker Faced Paul's Poker (U) [!].gg",
+      "label": "Poker Face Paul's Poker (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E783DAF8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Poker Faced Paul's Solitaire (U) [!].gg",
+      "label": "Poker Face Paul's Solitaire (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0E9B0C0A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pop Breaker (J).gg",
+      "label": "Pop Breaker (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "71DEBA5A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Popeye's Beach Volleyball (J).gg",
+      "label": "Popeye no Beach Volleyball (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3EF66810|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Power Strike II (U).gg",
+      "label": "Power Strike II (Japan, Europe) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "09DE1528|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Predator 2 (U) [S][!].gg",
+      "label": "Predator 2 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E5F789B9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Primal Rage (U) [!].gg",
+      "label": "Primal Rage (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2A34B5C7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Prince of Persia (E) [S][!].gg",
+      "label": "Prince of Persia (USA, Europe) (Beta)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "45F058D6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pro Yakyuu '91, The (J).gg",
+      "label": "Pro Yakyuu '91, The (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6D3A10D3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Pro Yakyuu GG League '94 (J).gg",
+      "label": "Pro Yakyuu GG League '94 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A1A19135|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Psychic World (U) [!].gg",
+      "label": "Psychic World (USA, Europe, Brazil) (En) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "73779B22|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Putt & Putter (U) [!].gg",
+      "label": "Putt & Putter (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "ECC301DD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Puzlow Kids (J).gg",
+      "label": "Puyo Puyo (Japan) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D173A06F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Puyo Puyo 2 (J) [!].gg",
+      "label": "Puyo Puyo Tsuu (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3AB2393B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ichidant~R GG - Puzzle & Action (J).gg",
+      "label": "Puzzle & Action - Ichidanto-R (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9F64C2BB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tanto-R (J).gg",
+      "label": "Puzzle & Action - Tanto-R (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "09151743|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Puzzle Bobble (J).gg",
+      "label": "Puzzle Bobble (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8E54EE04|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ren & Stimpy - Quest for the Shaven Yak, The (U) [!].gg",
+      "label": "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6C451EE1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Quiz Gear Fight!!, The (J).gg",
+      "label": "Quiz Gear Fight!!, The (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "736CDB76|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/R.B.I. Baseball '94 (U) [!].gg",
+      "label": "R.B.I. Baseball '94 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6DC3295E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/R.C. Grand Prix (U) [S][!].gg",
+      "label": "R.C. Grand Prix (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "56201996|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Rastan Saga (J) [S].gg",
+      "label": "Rastan Saga (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9C76FB3A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Revenge of Drancon (U) [!].gg",
+      "label": "Revenge of Drancon (USA, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "03E9C607|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Riddick Bowe Boxing (U) [!].gg",
+      "label": "Riddick Bowe Boxing (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "38D8EC56|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Rise of the Robots (U) [!].gg",
+      "label": "Rise of the Robots (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "100B77B2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ristar the Shooting Star (U) [!].gg",
+      "label": "Ristar (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EFE65B3B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Road Rash (U).gg",
+      "label": "Road Rash (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "96045F76|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Robocop 3 (U) [!].gg",
+      "label": "RoboCop 3 (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "069A0704|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Robocop versus The Terminator (U) [!].gg",
+      "label": "RoboCop Versus The Terminator (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4AB7FA4E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Royal Stone (J).gg",
+      "label": "Royal Stone - Hirakareshi Toki no Tobira (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "445D7CD2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ryu Kyu (J).gg",
+      "label": "Ryuukyuu (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "95EFD52B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Samurai Shodown (U) [!].gg",
+      "label": "Samurai Shodown (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "98171DEB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Samurai Spirits (J).gg",
+      "label": "Samurai Spirits (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "93FD73DC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Coca Cola Kid (J) [!].gg",
+      "label": "Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C7598B81|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Scratch Golf (JU) [!].gg",
+      "label": "Scratch Golf (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EC0F2C72|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/SD Gundam - Winner's History (J) [T+Eng].gg",
+      "label": "SD Gundam - Winner's History (Japan)[tr en Gaijin][v0.99]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D9A69E9E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sega Game Pack 4 in 1 (U) [!].gg",
+      "label": "Sega Game Pack 4 in 1 (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0924D2EC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sensible Soccer (E).gg",
+      "label": "Sensible Soccer - European Champions (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5B68DA75|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shadam Crusader (J) [!].gg",
+      "label": "Shadam Crusader - Harukanaru Oukoku (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "09F9ED60|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shanghai II (J).gg",
+      "label": "Shanghai II (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2AE8C75F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shaq Fu (U) [!].gg",
+      "label": "Shaq Fu (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6FCB8AB0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shikinjou (J).gg",
+      "label": "Shikinjou (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9C5C7F53|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shining Force II - The Sword of Hajya (U) [!].gg",
+      "label": "Shining Force - The Sword of Hajya (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A6CA6FA9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shining Force Gaiden (J) [!].gg",
+      "label": "Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4D1F4699|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shining Force Gaiden - Final Conflict (J) [T+Eng29Nov2005_SFC].gg",
+      "label": "Shining Force Gaiden - Final Conflict (Japan)[tr en Shining Force Central][2005-11-29]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "23465DFB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shining Force Gaiden II (J).gg",
+      "label": "Shining Force Gaiden II - Jashin no Kakusei (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "30374681|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/GG Shinobi (E) [!].gg",
+      "label": "Shinobi (World) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "30F1C984|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Shinobi II - The Silent Fury (U) [!].gg",
+      "label": "Shinobi II - The Silent Fury (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6201C694|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Side Pocket (U).gg",
+      "label": "Side Pocket (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "6A603EED|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Simpsons, The - Bart vs. The Space Mutants (U) [!].gg",
+      "label": "Simpsons, The - Bart vs. the Space Mutants (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C0009274|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Simpsons, The - Bart vs. The World (U) [!].gg",
+      "label": "Simpsons, The - Bart vs. the World (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA7BD5C7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Simpsons, The - Bartman Meets Radioactive Man (U) [!].gg",
+      "label": "Simpsons, The - Bartman Meets Radioactive Man (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FFA447A9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Skweek (J) [!].gg",
+      "label": "Skweek (J) [!]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "786DD67B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Slider (U).gg",
+      "label": "Slider (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4DC6F555|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Smurfs, The (E) [!].gg",
+      "label": "Smurfs, The (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "354E1CBD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Solitaire Funpak (U) [!].gg",
+      "label": "Solitaire FunPak (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F6F24B75|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Solitaire Poker (U) [!].gg",
+      "label": "Solitaire Poker (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "06F2FC46|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic & Tails (J) [!].gg",
+      "label": "Sonic & Tails (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8AC0DADE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic & Tails 2 (J).gg",
+      "label": "Sonic & Tails 2 (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "496BCE64|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Blast (U) [!].gg",
+      "label": "Sonic Blast (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "031B9DA9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Chaos (U) [!].gg",
+      "label": "Sonic Chaos (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "663F2ABB|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Drift (J).gg",
+      "label": "Sonic Drift (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "68F0A776|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Drift 2 (J) [!].gg",
+      "label": "Sonic Drift 2 (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D6E8A305|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Labyrinth (U) [!].gg",
+      "label": "Sonic Labyrinth (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5550173B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic Spinball (U) [!].gg",
+      "label": "Sonic Spinball (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A9210434|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic The Hedgehog (U) (V1.1) [!].gg",
+      "label": "Sonic The Hedgehog (World) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D163356E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic The Hedgehog - Triple Trouble (U) [!].gg",
+      "label": "Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D23A2A93|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sonic The Hedgehog 2 (U) [!].gg",
+      "label": "Sonic The Hedgehog 2 (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "95A18EC7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Soukoban (J).gg",
+      "label": "Soukoban (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0F3E3840|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Space Harrier (JU) [!].gg",
+      "label": "Space Harrier (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "600C15B3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Spider-Man vs. The Kingpin (U) [!].gg",
+      "label": "Spider-Man (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2651024E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Spider-Man - Return of the Sinister Six (U).gg",
+      "label": "Spider-Man - Return of the Sinister Six (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BC240779|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Spider-Man and the X-Men in Arcade's Revenge (U) [!].gg",
+      "label": "Spider-Man - X-Men - Arcade's Revenge (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "742A372B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sports Illustrated Championship Football & Baseball (U) [!].gg",
+      "label": "Sports Illustrated - Championship Football & Baseball",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DE25E2D8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sports Trivia (U) [!].gg",
+      "label": "Sports Trivia (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A7AF7CA9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sports Trivia - Championship Edition (U).gg",
+      "label": "Sports Trivia - Championship Edition (USA) (Beta 28)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5B5DE94D|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Star Trek TNG - Advanced Holodeck Tutorial (U) [!].gg",
+      "label": "Star Trek - The Next Generation - The Advanced Holodeck Tutorial (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "80156323|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Star Trek Generations - Beyond the Nexus (U) [!].gg",
+      "label": "Star Trek Generations - Beyond the Nexus (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "087FC5F0|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Star Wars (U) [!].gg",
+      "label": "Star Wars (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0228769C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Stargate (U).gg",
+      "label": "Stargate (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FC7C64E4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Streets of Rage (U) [!].gg",
+      "label": "Streets of Rage (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3D8BCF1D|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Streets of Rage II (U) [!].gg",
+      "label": "Streets of Rage 2 (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "0B618409|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Battletank (U) [!].gg",
+      "label": "Super Battletank (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "73D6745A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Columns (U) [!].gg",
+      "label": "Super Columns (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8BA43AF3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Golf (J).gg",
+      "label": "Super Golf (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "528CBBCE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Kick Off (J) [S][!].gg",
+      "label": "Super Kick Off (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "10DBBEF4|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Monaco GP (U) [!].gg",
+      "label": "Super Monaco GP (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "FCF12547|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Off-Road (U).gg",
+      "label": "Super Off-Road (U)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "2E217FAE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Smash T.V. (U) [!].gg",
+      "label": "Super Smash T.V. (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1006E4E3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Space Invaders (U) [!].gg",
+      "label": "Super Space Invaders (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DFE38E24|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Super Return of the Jedi (U) [!].gg",
+      "label": "Super Star Wars - Return of the Jedi (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "4A38B6B6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Superman (U) [!].gg",
+      "label": "Superman - The Man of Steel (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "73DF5A15|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Surf Ninjas (U) [!].gg",
+      "label": "Surf Ninjas (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "284482A8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Sylvan Tale (J) [!].gg",
+      "label": "Sylvan Tale (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "45EF2062|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/T2 - The Arcade Game (U) [!].gg",
+      "label": "T2 - The Arcade Game (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9479C83A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tails' Adventures (U) [!].gg",
+      "label": "Tails Adventure (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5BB6E5D6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tails' Sky Patrol (J) [!].gg",
+      "label": "Tails' Skypatrol (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "88618AFA|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Taisen Mahjong HaoPai (J).gg",
+      "label": "Taisen Mahjong HaoPai (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CF9C607C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Taisen Mahjong HaoPai 2 (J).gg",
+      "label": "Taisen Mahjong HaoPai 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "20527530|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Taisen-gata Daisenryaku G (J).gg",
+      "label": "Taisen-gata Daisenryaku G (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7B7717B8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tale Spin (U) [!].gg",
+      "label": "TaleSpin (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "F1732FFE|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tama & Friends - 3choume Kouen - Tamalympics (J).gg",
+      "label": "Tama & Friends - 3 Choume Kouen Tamalympic (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DD1D2EBF|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/House of Tarot (J) [!].gg",
+      "label": "Tarot no Yakata (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "57834C03|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Taz in Escape from Mars (U) [!].gg",
+      "label": "Taz in Escape from Mars (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EEBAD66B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Taz-Mania - The Search for the Lost Seabirds (U) [!].gg",
+      "label": "Taz-Mania (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "36040C24|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tempo Jr. (U) [!].gg",
+      "label": "Tempo Jr. (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DE466796|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Cup Soccer (U) [!].gg",
+      "label": "Tengen World Cup Soccer (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DD6D2E34|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Terminator 2 - Judgment Day (U).gg",
+      "label": "Terminator 2 - Judgment Day (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1BD15773|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Terminator, The (U) [!].gg",
+      "label": "Terminator, The (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C029A5FD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tesserae (U) [!].gg",
+      "label": "Tesserae Rev 1",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CA0E11CC|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tintin au Tibet (E) [!].gg",
+      "label": "Tintin in Tibet (Europe) (En,Fr,De,Es,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "969CF389|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Tom and Jerry - The Movie (U) [!].gg",
+      "label": "Tom and Jerry - The Movie (USA, Europe) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5CD33FF2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Torarete Tamaruka! (J).gg",
+      "label": "Torarete Tamaruka (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5BCF9B97|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/True Lies (U).gg",
+      "label": "True Lies (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "5173B02A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Ultimate Soccer (E).gg",
+      "label": "Ultimate Soccer (Japan, Europe, Brazil) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "820965A3|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Urban Strike (U) [!].gg",
+      "label": "Urban Strike (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "185E9FC1|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Vampire - Master of Darkness (U) [!].gg",
+      "label": "Vampire - Master of Darkness (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "7EC64025|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Virtua Fighter Animation (U) [!].gg",
+      "label": "Virtua Fighter Animation (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D431C452|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Virtua Fighter Mini (J) [!].gg",
+      "label": "Virtua Fighter Mini (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C05657F8|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/VR Troopers (U) [!].gg",
+      "label": "VR Troopers (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B0F22745|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wagyan Land (J).gg",
+      "label": "Wagyan Land (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "29E697B2|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wheel of Fortune (U) [!].gg",
+      "label": "Wheel of Fortune (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E91CDB2A|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wimbledon (U) [!].gg",
+      "label": "Wimbledon (World)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "CE1108FD|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Winter Olympics - Lillehammer '94 (U) [!].gg",
+      "label": "Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D15D335B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wizard Pinball (U) [!].gg",
+      "label": "Wizard Pinball (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "9E03F96C|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wolfchild (U) [!].gg",
+      "label": "Wolfchild (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "840A8F8E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wonder Boy (E) [!].gg",
+      "label": "Wonder Boy (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "EA2DD3A7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Wonder Boy - The Dragon's Trap (E) [!].gg",
+      "label": "Wonder Boy - The Dragon's Trap (Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "A74C97A7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Woody Pop (U) (V1.1) [!].gg",
+      "label": "Woody Pop (USA, Europe, Brazil) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B74F3A4F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Class Leader Golf (U) [!].gg",
+      "label": "World Class Leaderboard (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "868FE528|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Cup 94 (U) [!].gg",
+      "label": "World Cup USA 94 (USA, Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "D2BB3690|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Derby (J).gg",
+      "label": "World Derby (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "1E81861F|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Series Baseball '95 (U) [!].gg",
+      "label": "World Series Baseball '95 (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "578A8A38|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/World Series Baseball (U) (V1.1) [!].gg",
+      "label": "World Series Baseball (USA) (Rev A)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "BB38CFD7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/WWF Raw (U) [!].gg",
+      "label": "WWF Raw (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "8DC68D92|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/WWF Steel Cage Challenge (U) [S][!].gg",
+      "label": "WWF Wrestlemania - Steel Cage Challenge (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DA8E95A9|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/X-Men (U) [!].gg",
+      "label": "X-Men (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "567A5EE6|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/X-Men - Gamemaster's Legacy (U) [!].gg",
+      "label": "X-Men - Gamemaster's Legacy (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C169C344|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/X-Men - Mojo World (U) [!].gg",
+      "label": "X-Men - Mojo World (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "C2CBA9D7|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Yogi Bear in Yogi Bear's Goldrush (Prototype) [!].gg",
+      "label": "Yogi Bear in Yogi Bear's Goldrush (Europe) (Proto)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "E678F264|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Yuu Yuu Hakusho (J).gg",
+      "label": "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "88EBBF9E|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Yuu Yuu Hakusho II (J) [T+Eng].gg",
+      "label": "Yuu Yuu Hakusho II (Japan) (En,Ja)[tr en Gaijin][v1.0]",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "DCBF3355|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Zan Gear (J).gg",
+      "label": "Zan Gear (Japan)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "141AAF96|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Zool (U) [!].gg",
+      "label": "Zool - Ninja of the 'Nth' Dimension (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "B287C695|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    },
+    {
+      "path": "/data/ROMS/GG/Zoop (U) [!].gg",
+      "label": "Zoop (USA)",
+      "core_path": "/data/self/retroarch/cores/genesis_plus_gx_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD (Genesis Plus GX)",
+      "crc32": "3247FF8B|crc",
+      "db_name": "Sega - Game Gear.lpl"
+    }
+  ]
+}

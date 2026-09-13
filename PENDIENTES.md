@@ -26,17 +26,24 @@ Rutas de la PS4: BIOS en `/data/retroarch/system/`, ROMs en `/data/ROMS/<SISTEMA
 
 - [ ] 🎮 **Autoguardado de partidas.** *Ajustes → Guardado → Intervalo de autoguardado de SaveRAM* = 10 s. Ahora no está definido: la partida solo se escribe al cerrar el juego, y si sales con el botón PS o se cuelga, se pierde
 - [ ] 🎮 **Atajos de mando.** Ahora solo hay Start+Select para el menú. Asignar en *Ajustes → Entrada → Atajos* una tecla para habilitar atajos, y botones para guardar estado, cargar estado, avance rápido y salir del juego
-- [ ] 🎮 **Core de GBA:** los juegos se abren con `mednafen_gba`. Cargar con **mGBA** y fijarlo como core por defecto del sistema. Las partidas `.srm` sirven igual
+- [ ] 🎮 **Core de GBA:** los juegos se abren con `mednafen_gba`. Cargar con **mGBA** y fijarlo como core por defecto del sistema. Las partidas `.srm` sirven igual. Si usas la lista de GBA ya generada, esta ya abre cada juego con mGBA
 - [ ] 🎮 **Shaders:** están activados (`video_shader_enable = true`). Si algún juego va a tirones, desactivarlos es lo primero que hay que probar
 - [ ] 🎮 **No usar el *Online Updater* ni el *Core Updater* de RetroArch:** apuntan a Bintray, que cerró. Todo se sube por FTP
 
 ### Listas de juegos y carátulas
 
-Ahora no hay ninguna lista, y la base de datos de RetroArch (`database/rdb`) está vacía, así que *Escanear directorio* no reconocerá los juegos.
+Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md).
 
-- [ ] 🤖 Preparar los `.rdb` de [libretro-database](https://github.com/libretro/libretro-database) para cada sistema y subirlos a `/data/retroarch/database/rdb/`
-- [ ] 🎮 Crear una lista por sistema: *Importar contenido → Escanear directorio* sobre `/data/ROMS/<SISTEMA>`. Sin los `.rdb`, usar *Escaneo manual* si tu versión lo muestra
-- [ ] 🤖 Carátulas: `thumbnails/` está vacía. Se pueden montar con los 1555 PNG de `emu/MEDIA/` o con los packs libres de libretro-thumbnails, con el nombre de cada lista
+- [x] 🤖 18 bases de datos `.rdb` de libretro-database, con formato comprobado frente a la versión de RetroArch 1.8.8
+- [x] 🤖 17 listas con 6816 juegos: los 8 sistemas ya subidos y los 9 de la Tanda 1 (Atari 7800 no tiene lista porque su carpeta está vacía). Cada juego lleva su core; 6079 (89%) aparecen con su nombre oficial y el resto con el nombre de su archivo
+- [x] 🤖 5389 carátulas (79%) del servidor oficial de libretro y de `emu/MEDIA/`, reducidas a 512 px
+- [ ] 🎮 **Antes de subir las listas, subir las ROMs de la Tanda 1** a `/data/ROMS/<SISTEMA>/`: sus listas apuntan ahí y, si no están, mostrarán juegos que no abren
+- [ ] 🎮 **Subir por FTP, unos 1,4 GB:**
+  - `emu/RETROARCH/database/rdb/*.rdb` → `/data/retroarch/database/rdb/`
+  - `emu/RETROARCH/playlists/*.lpl` → `/data/retroarch/playlists/`
+  - las carpetas de `emu/RETROARCH/thumbnails/` → `/data/retroarch/thumbnails/`
+- [ ] 🎮 Reiniciar RetroArch y comprobar que aparecen las 17 listas con sus carátulas
+- [ ] 🧑 Opcional: 1427 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan y Atari 2600 (traducciones, variantes y versiones alteradas que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
 
 ### BIOS opcionales
 
@@ -54,20 +61,27 @@ Ahora no hay ninguna lista, y la base de datos de RetroArch (`database/rdb`) est
 
 Copiar y jugar. Lo recomendable son los sets **No-Intro** de cada sistema, porque sus hashes se pueden verificar con el catálogo.
 
-| | Sistema | Carpeta | Formato | Core |
-|---|---|---|---|---|
-| [ ] 🧑 | Atari 2600 | `ATARI2600/` | `.a26` | stella2014 |
-| [ ] 🧑 | Atari 7800 | `ATARI7800/` | `.a78` | prosystem |
-| [ ] 🧑 | PC Engine / TurboGrafx-16 | `PCE/` | `.pce` (`.sgx` para SuperGrafx) | mednafen_pce_fast |
-| [ ] 🧑 | Neo Geo Pocket | `NGP/` | `.ngp` | mednafen_ngp |
-| [ ] 🧑 | Neo Geo Pocket Color | `NGPC/` | `.ngc` | mednafen_ngp |
-| [ ] 🧑 | WonderSwan | `WS/` | `.ws` | mednafen_wswan |
-| [ ] 🧑 | WonderSwan Color | `WSC/` | `.wsc` | mednafen_wswan |
-| [ ] 🧑 | Atari Lynx | `LYNX/` | `.lnx` | handy |
-| [ ] 🧑 | Sega 32X | `32X/` | `.32x` | picodrive |
-| [ ] 🧑 | Virtual Boy | `VB/` | `.vb` | mednafen_vb |
+| | Sistema | Carpeta | Formato | Core | En el PC |
+|---|---|---|---|---|--:|
+| [x] | Atari 2600 | `ATARI2600/` | `.a26`, `.bin` | stella2014 | 885 |
+| [ ] 🧑 | Atari 7800 | `ATARI7800/` | `.a78` | prosystem | **falta** |
+| [x] | PC Engine / TurboGrafx-16 | `PCE/` | `.pce` | mednafen_pce_fast | 210 |
+| [x] | Neo Geo Pocket | `NGP/` | `.ngp` | mednafen_ngp | 3 |
+| [x] | Neo Geo Pocket Color | `NGPC/` | `.ngc` | mednafen_ngp | 72 |
+| [x] | WonderSwan | `WS/` | `.ws` | mednafen_wswan | 214 |
+| [x] | WonderSwan Color | `WSC/` | `.wsc` | mednafen_wswan | 131 |
+| [x] | Atari Lynx | `LYNX/` | `.lnx` | handy | 136 |
+| [x] | Sega 32X | `32X/` | `.32x` | picodrive | 45 |
+| [x] | Virtual Boy | `VB/` | `.vb` (en zip) | mednafen_vb | 31 |
 
-Opcionales: 🧑 `lynxboot.img` (handy no la exige) y 🧑 `7800 BIOS (U).rom`.
+Ordenado el 2026-09-13, con cada movimiento en `cleanup-2026-09-13.tsv`. Neo Geo Pocket y WonderSwan están separados por la cabecera de cada ROM, no por la extensión: muchas venían en la carpeta o con la extensión del otro sistema.
+
+- [ ] 🧑 **Atari 7800:** la carpeta sigue vacía
+- [x] `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. La otra variante que traía la colección (`lynxboot.bin`) no es la oficial
+- [ ] 🧑 Opcional: `7800 BIOS (U).rom`
+- [ ] 🎮 Subir las carpetas de la Tanda 1 a `/data/ROMS/<SISTEMA>/` y `lynxboot.img` a `/data/retroarch/system/`
+- [ ] 🎮 Probar un juego de cada sistema. Lynx tiene 13 prototipos sin cabecera `LYNX` que podrían no arrancar
+- [ ] 🧑 Revisar lo apartado en `EXTRAS/`: 808 duplicados, 26 `.7z` de Virtual Boy que no se pudieron abrir para comprobarlos, BIOS descartadas, y el emulador OSwan y otros archivos que venían con las colecciones
 
 ---
 
@@ -163,9 +177,9 @@ Formato CD:
 
 - [ ] 🧑 Decidir si se borran `EXTRAS/MD-duplicados/` (676) y `EXTRAS/MD-malos/` (6)
 - [ ] 🧑 Decidir si `ROMS/NES/Datach - Battle Rush….sav` va a `SAVES/`
-- [ ] 🧑 Quitar `gamelist.xml` y `systeminfo.txt` de `ROMS/GBC` y `ROMS/GBA`
+- [ ] 🧑 Quitar `gamelist.xml` y `systeminfo.txt` de `ROMS/GBC` y `ROMS/GBA`, y `Lisezmoi.txt` de `ROMS/NES`
 - [ ] 🧑 Decidir qué hacer con el `.rar` de 4,4 GB de la raíz del repo
-- [ ] 🧑 Comprobar el espacio libre en la PS4 antes de las tandas 4 y 5: los paquetes de PS1 y PSP ocupan GB
+- [ ] 🧑 Comprobar el espacio libre en la PS4 antes de subir las carátulas (1,4 GB) y antes de las tandas 4 y 5: los paquetes de PS1 y PSP ocupan GB
 - [ ] 🧑 Descargar los DAT de **No-Intro** y **Redump** (gratuitos)
 - [ ] 🤖 Hacer un verificador que cruce esos DAT con el `rom-sha1` del catálogo y marque cada volcado como bueno, malo o desconocido
 
@@ -198,10 +212,8 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 
 ## Lo que puedo preparar yo (🤖)
 
-Solo tienes que pedirlo:
-
-1. Bases de datos `.rdb` para crear listas de juegos
-2. Carátulas desde `emu/MEDIA/` o desde libretro-thumbnails
+1. ~~Bases de datos `.rdb` para crear listas de juegos~~ — **hecho**
+2. ~~Carátulas desde `emu/MEDIA/` o desde libretro-thumbnails~~ — **hecho**, junto con las listas ya generadas
 3. Script de copia de seguridad de partidas por FTP
 4. Script de conversión a `.chd` con verificación
 5. Pasos verificados para PS1-FPKG y PSP-FPKG

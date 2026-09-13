@@ -1,0 +1,35 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+  "default_core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/NGP/Cool Cool Jam (NA Prototype).ngc",
+      "label": "Cool Cool Jam (NA Prototype)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "4D8D27F0|crc",
+      "db_name": "SNK - Neo Geo Pocket.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGP/King of Fighters R-1 (JP).ngp",
+      "label": "King of Fighters R-1 - Pocket Fighting Series (Japan, Europe) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "DCEB7E11|crc",
+      "db_name": "SNK - Neo Geo Pocket.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGP/Samurai Shodown! (JP).ngp",
+      "label": "Samurai Shodown! - Pocket Fighting Series (Japan, Europe) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "32E4696A|crc",
+      "db_name": "SNK - Neo Geo Pocket.lpl"
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+  "default_core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/NGPC/Baseball Stars Color.zip",
+      "label": "Baseball Stars Color",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "FFA7E88D|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Baseball Stars Color (NA).ngc",
+      "label": "Baseball Stars Color - Pocket Sports Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "D1434DF5|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Big Bang Pro Wrestling (JP).ngc",
+      "label": "Big Bang Pro Wrestling (JP)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "B783C372|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Biomotor Unitron (NA).ngc",
+      "label": "Biomotor Unitron (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "3807DF4F|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Bust-A-Move Pocket.zip",
+      "label": "Bust-A-Move Pocket",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "85FE6AE3|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Bust-a-Move Pocket (NA).ngc",
+      "label": "Bust-A-Move Pocket (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "B073D601|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Cool Boarders Pocket (JP).ngc",
+      "label": "Cool Boarders Pocket (JP)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "833F9C22|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Crush Roller (NA).ngc",
+      "label": "Crush Roller (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "F20FF9F2|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Dark Arms - Beast Buster 1999.zip",
+      "label": "Dark Arms - Beast Buster 1999",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "6F353F34|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Dark Arms - Beast Buster 1999 (NA).ngc",
+      "label": "Dark Arms - Beast Buster 1999 (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "77CAA548|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Delta Warp (JP).ngc",
+      "label": "Delta Warp (JP)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "ADD4FDFF|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (English Translated, Rev 1).ngc",
+      "label": "Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (English Translated, Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "165FE891|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Dive Alert - Becky's Version (NA).ngc",
+      "label": "Dive Alert - Becky's Version (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "83DB5772|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Dive Alert - Matt's Version (NA).ngc",
+      "label": "Dive Alert - Matt's Version (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "EF75081B|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Dynamite Slugger (JP).ngc",
+      "label": "Dynamite Slugger (Japan, Europe) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "7F1779CD|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Evolution - Eternal Dungeons (EU).ngc",
+      "label": "Evolution - Eternal Dungeons (Europe) (vA1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "BE47E531|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Fantastic Night Dreams - Cotton (EU).ngc",
+      "label": "Fantastic Night Dreams - Cotton (Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "1BF412F5|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Faselei! (NA).ngc",
+      "label": "Faselei! (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "E705E30E|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Fatal Fury - First Contact.zip",
+      "label": "Fatal Fury - First Contact",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "A9119B5A|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Fatal Fury F-Contact (NA).ngc",
+      "label": "Fatal Fury - First Contact - Pocket Fighting Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "E7E5D6E8|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Ganbare Neo Poke-kun (JP).ngc",
+      "label": "Ganbare Neo Poke-kun (Kari) (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "6DF986A3|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/King of Fighters R-2 (NA).ngc",
+      "label": "King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "9BC63F27|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/King of Fighters R-2, The.zip",
+      "label": "King of Fighters R-2, The",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "47E490A2|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Magical Drop Pocket (NA).ngc",
+      "label": "Magical Drop Pocket (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "7712F82D|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Metal Slug - 1st Mission.zip",
+      "label": "Metal Slug - 1st Mission",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "4FF91807|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Metal Slug - 1st Mission (NA).ngc",
+      "label": "Metal Slug - 1st Mission (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "D29EC1BA|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Metal Slug - 2nd Mission.zip",
+      "label": "Metal Slug - 2nd Mission",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "AC549144|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Metal Slug - 2nd Mission (NA).ngc",
+      "label": "Metal Slug - 2nd Mission (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "18E692A5|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo 21 (NA).ngc",
+      "label": "Neo 21 - Pocket Casino Series (World)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "95C38985|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Baccarat (JP, Rev 16).ngc",
+      "label": "Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "22AAB454|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Cherry Master Color (NA).ngc",
+      "label": "Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "2F6EB991|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Dragon's Wild (NA, Rev 13).ngc",
+      "label": "Neo Dragon's Wild - Pocket Casino Series (World) (En,Ja) (v13)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "5D028C99|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Mystery Bonus (NA).ngc",
+      "label": "Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "E79DC5B3|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Poke Pro Yakyuu (JP, Rev 32).ngc",
+      "label": "Neo Poke Pro Yakyuu (Japan) (v32)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "C624388F|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Turf Masters.zip",
+      "label": "Neo Turf Masters",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "317A66D2|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Turf Masters (NA).ngc",
+      "label": "Neo Turf Masters - Pocket Sports Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "E0E853DD|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Neo Geo Cup '98 Plus Color (NA).ngc",
+      "label": "NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "C0DA4FE9|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Nige-ron-pa (English Translated, Rev 0.9).ngc",
+      "label": "Nige-ron-pa (Japan) [T-En by Loic]",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "6672D6E6|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Oekaki Puzzle (JP).ngc",
+      "label": "Oekaki Puzzle (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "A9118E82|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pac-Man (NA).ngc",
+      "label": "Pac-Man (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "21E8CC15|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Porcano 2 (JP).ngc",
+      "label": "Pachi-Slot Aruze Oukoku - Porcano 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "96DDFBE3|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Azteca (JP, Rev 6).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "C9B55E6B|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Dekahel (JP).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "346F3C46|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (JP).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "1EA69DB1|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - E-Cup (JP, Rev 4).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "0A7C32DF|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Ohanabi (JP).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "8A88C50F|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (JP, Rev 4).ngc",
+      "label": "Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "A54EC305|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pachinko Hisshou Guide - Pocket Parlor (JP).ngc",
+      "label": "Pachinko Hisshou Guide - Pocket Parlor (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "543DC257|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Picture Puzzle.zip",
+      "label": "Picture Puzzle",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "67E6DC56|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Picture Puzzle (EU).ngc",
+      "label": "Picture Puzzle (Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "6F2D35E6|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pocket Reversi (EU, Rev A1).ngc",
+      "label": "Pocket Reversi (Europe) (vA1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "22C07C25|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pocket Tennis Color.zip",
+      "label": "Pocket Tennis Color",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "D8590B96|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Pocket Tennis Color (NA).ngc",
+      "label": "Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "E0B9AA22|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Puyo Pop (NA, Rev 6).ngc",
+      "label": "Puyo Pop (NA, Rev 6)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "5C649D1E|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Puzzle Link.zip",
+      "label": "Puzzle Link",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "FE95938C|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Puzzle Link (NA).ngc",
+      "label": "Puzzle Link (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "8D0610AC|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Puzzle Link 2 (NA).ngc",
+      "label": "Puzzle Link 2 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "BA9CA21C|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Rockman - Battle & Fighters (English Translated,  Rev 1).ngc",
+      "label": "Rockman - Battle & Fighters (English Translated,  Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "9322629E|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Rockman Battle & Fighters.zip",
+      "label": "Rockman - Battle & Fighters (Japan) [T-En by marc_max]",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "65985356|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Samurai Shodown! 2.zip",
+      "label": "Samurai Shodown! 2",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "4F7FB156|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Samurai Shodown! 2 (NA).ngc",
+      "label": "Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "58A62FB2|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Shanghai Mini (NA).ngc",
+      "label": "Shanghai Mini (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "90732D53|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK Gals' Fighters (NA).ngc",
+      "label": "SNK Gals' Fighters (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "B02C2BE7|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK Vs. Capcom - Card Fighters 2 - Expand Edition (English Translated, Rev 1-25-17).ngc",
+      "label": "SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan) [T-En by Raohmaru]",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "0CC88D96|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK Vs. Capcom - Card Fighters' Clash - Capcom Version (NA).ngc",
+      "label": "SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "80CE137B|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK Vs. Capcom - Card Fighters' Clash - SNK Version (NA).ngc",
+      "label": "SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "94B63A97|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK vs. Capcom - The Match of the Millennium.zip",
+      "label": "SNK vs. Capcom - The Match of the Millennium",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "B173030A|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/SNK Vs. Capcom - The Match of the Millennium (NA).ngc",
+      "label": "SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "682A7A7B|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Sonic the Hedgehog - Pocket Adventure (NA).ngc",
+      "label": "Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "8BD22145|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Sonic the Hedgehog Pocket Adventure.zip",
+      "label": "Sonic the Hedgehog Pocket Adventure",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "356F0849|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/The Last Blade - Beyond the Destiny (NA).ngc",
+      "label": "The Last Blade - Beyond the Destiny (NA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "94FCFD1E|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    },
+    {
+      "path": "/data/ROMS/NGPC/Wrestling Madness (Prototype).ngc",
+      "label": "Wrestling Madness (Japan) (En) (Beta)",
+      "core_path": "/data/self/retroarch/cores/mednafen_ngp_libretro_ps4.self",
+      "core_name": "SNK - Neo Geo Pocket / Color (Beetle NeoPop)",
+      "crc32": "16B0BE9B|crc",
+      "db_name": "SNK - Neo Geo Pocket Color.lpl"
+    }
+  ]
+}

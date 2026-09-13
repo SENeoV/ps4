@@ -1,0 +1,1723 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+  "default_core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/WS/Anchor Field Z (J) [M][f1].ws",
+      "label": "Anchor Field Z (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D022F6FD|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Anchor Field Z (J) [M].ws",
+      "label": "Anchorz Field (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "425EB893|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Armored Unit (J) [M].ws",
+      "label": "Armored Unit (J) [M]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "C11639AF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Armored Unit (J) [M][f1].ws",
+      "label": "Armored Unit (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1B73DF20|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Armored Unit (J) [M][o1].ws",
+      "label": "Armored Unit (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "04366D92|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Bakusou Dekatora Densetsu (J) [M][!].ws",
+      "label": "Bakusou Dekotora Densetsu for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "392DD813|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Beat Mania (J) [M][!].ws",
+      "label": "beatmania for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "324622C9|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Buffers Evolution (J) [M][f1].ws",
+      "label": "Buffers Evolution (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "122591F1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Buffers Evolution (J) [M].ws",
+      "label": "Buffers Evolution (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B25A0635|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Card Captor Sakura - Sakura to Fushigi na Clow Card (J) [M][!].ws",
+      "label": "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7F3A14C0|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Chaos Gear - Michibi Kareshi Mono (J) [M][!].ws",
+      "label": "Chaos Gear - Michibikareshi Mono (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "27B3CC18|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Chocobo no Fushigi na Dungeon (J) [M].ws",
+      "label": "Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "CCAA4853|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Chou Aniki - Otoko no Tamafuda (J) [M].ws",
+      "label": "Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7FFF2520|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Cho Denki Card Battle Yofu Makai Kikuchi Shugo (J) [M][!].ws",
+      "label": "Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "56E2C069|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Clock Tower (J) [M][!].ws",
+      "label": "Clock Tower (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A9936941|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Clock Tower (J) [M][o1].ws",
+      "label": "Clock Tower for WonderSwan (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4E8909D1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Crazy Climber (J) [M][!].ws",
+      "label": "Crazy Climber (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "C995274B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Crazy Climber (J) [M][o1].ws",
+      "label": "Crazy Climber (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "0CB57376|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/D's Garage 21 Koubo Game - Tane wo Maku Tori (J) [M][!].ws",
+      "label": "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B1CAEC06|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/D's Garage 21 Koubo Game - Tane wo Maku Tori (J) [M][f1].ws",
+      "label": "D's Garage 21 Koubo Game - Tane wo Maku Tori (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "EBA41A7F|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Densha de Go! (J) [M].ws",
+      "label": "Densha de Go! (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B62E5DD0|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Densha de Go! 2 (J) [M].ws",
+      "label": "Densha de Go! 2 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AF9D8F42|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/DIASWAN by Orion_ (PD).wsc",
+      "label": "DIASWAN by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AB39E1B0|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Dicing Knight Period (J) [o1].wsc",
+      "label": "Dicing Knight Period (J) [o1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1887389C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Dicing Knight Period (J) [o1][T+Eng1.0_AGTP].wsc",
+      "label": "Dicing Knight Period (J) [o1][T+Eng1.0_AGTP]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "56F4E554|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Dicing Knight Period (J) [T+Eng1.0_AGTP].wsc",
+      "label": "Dicing Knight Period (J) [T+Eng1.0_AGTP]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9CFE14F8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Dicing Knight. (Japan).wsc",
+      "label": "Dicing Knight. (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D28DC930|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Digital Monsters (A) [M].ws",
+      "label": "Digimon - Ver. WonderSwan (Hong Kong) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "94EA6FFC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure - Anode Tamer (J) [M].ws",
+      "label": "Digimon Adventure - Anode Tamer (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6E9DD148|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure - Cathode Tamer (J) [M].ws",
+      "label": "Digimon Adventure - Cathode Tamer (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "42AD238B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure 02 - D1 Tamers (J) [b1].wsc",
+      "label": "Digimon Adventure 02 - D1 Tamers (J) [b1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "55CC2128|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure 02 - Tag Tamers (J) [M][T+Eng0.35_PmHacks].ws",
+      "label": "Digimon Adventure 02 - Tag Tamers (J) [M][T+Eng0.35_PmHacks]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "66DCEF91|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure 02 - Tag Tamers (J) [M][T+Ger0.2_DigitalZeroDomain].ws",
+      "label": "Digimon Adventure 02 - Tag Tamers (J) [M][T+Ger0.2_DigitalZeroDomain]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F100DFBF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Adventure 02 - Tag Tamers (J) [M][!].ws",
+      "label": "Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6EDEDAF8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Digital Monsters - Anode & Cathode Tamer - Veedramon Version (A) [M][!].ws",
+      "label": "Digimon Digital Monsters - Anode & Cathode Tamer - Veedramon Version (A) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "77689273|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Tamers - Battle Spirit (J) [M][!].ws",
+      "label": "Digimon Tamers - Battle Spirit (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "C927BFCB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Tamers - Battle Spirit Ver. 1.5 (Japan).wsc",
+      "label": "Digimon Tamers - Battle Spirit Ver. 1.5 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6CAAD4A2|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Tamers - Digimon Medley (J) [f1].ws",
+      "label": "Digimon Tamers - Digimon Medley (J) [f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "224F688A|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Tamers - Digimon Medley (Japan).wsc",
+      "label": "Digimon Tamers - Digimon Medley (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "FA92418D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digimon Digital Monsters (J) [M].ws",
+      "label": "Digital Monster - Ver. WonderSwan (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AB59DE2E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Digital Partner (J) [M][!].ws",
+      "label": "Digital Partner (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B5E675AE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Display a Picture Sample 2 by Tharo Herberg (PD).wsc",
+      "label": "Display a Picture Sample 2 by Tharo Herberg (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "48B9B16D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Display a Picture Sample by Tharo Herberg (PD).wsc",
+      "label": "Display a Picture Sample by Tharo Herberg (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "89AC9E1E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Display a Picture Sample by Tharo Herberg (PD) [a1].wsc",
+      "label": "Display a Picture Sample by Tharo Herberg (PD) [a1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "5B7FB3FE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Dokodemo Hamster (J) [M][!].ws",
+      "label": "Dokodemo Hamster (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "89E7D950|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Engacho! (J) [M][f1].ws",
+      "label": "Engacho! (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "3DCB48BD|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Engacho! (J) [M][!].ws",
+      "label": "Engacho! for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4E467626|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fantaisie Impromptu by Chopin - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Fantaisie Impromptu by Chopin - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "0080671D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fantaisie Impromptu by Chopin - Arranged by Atsushi Watanabe (PD) [C][a1].wsc",
+      "label": "Fantaisie Impromptu by Chopin - Arranged by Atsushi Watanabe (PD) [C][a1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B082D799|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fever Sankyo - Koushiki Pachinko Simulation (J) [M].ws",
+      "label": "Fever - Sankyo Koushiki Pachinko Simulation for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8922DD0B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fever Sankyo - Koushiki Pachinko Simulation (J) [M][f1].ws",
+      "label": "Fever Sankyo - Koushiki Pachinko Simulation (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A83EABFD|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Final Fantasy (J) [T+Eng0.91_Kalas].ws",
+      "label": "Final Fantasy (J) [T+Eng0.91_Kalas]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "DF94A149|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Final Fantasy (Japan).wsc",
+      "label": "Final Fantasy (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B7243E88|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Final Lap 2000 (J) [M][f1].ws",
+      "label": "Final Lap 2000 (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "459AFB1D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Final Lap 2000 (J) [M][!].ws",
+      "label": "Final Lap 2000 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "CE2F1A1D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fire Pro Wrestling (J) [M].ws",
+      "label": "Fire Pro Wrestling for WonderSwan (Japan) (Rev 5)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F246A68E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Fishing Freaks - Bass Rise (J) [M].ws",
+      "label": "Fishing Freaks - Bass Rise for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A1FB16FC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/From TV Animation - One Piece - Mezase Kaizoku Ou (J) [M][f1].ws",
+      "label": "From TV Animation - One Piece - Mezase Kaizoku Ou (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "BE3DDE09|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/From TV Animation - One Piece - Mezase Kaizoku Ou (J) [M].ws",
+      "label": "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F2E362B8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ganso Jajamaru Kun (J) [M][!].ws",
+      "label": "Ganso Jajamaru-kun (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A193458C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Glocal Hexcite (J) [M][!].ws",
+      "label": "Glocal Hexcite (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8FCD6D2C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Glocal Hexcite (J) [M][o1].ws",
+      "label": "Glocal Hexcite (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4AED3911|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Gomoku Narabe & Reversi Touryuumon (J) [M].ws",
+      "label": "Gomoku Narabe & Reversi Touryuumon (J) [M]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6CD1411E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Gorakuoh TANGO! (J) [M].ws",
+      "label": "Goraku Ou Tango! (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "00137E86|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Gorakuoh TANGO! (J) [M][f1].ws",
+      "label": "Gorakuoh TANGO! (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1485AB1D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Guilty Gear Petit (Japan).wsc",
+      "label": "Guilty Gear Petit (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9750BC2A|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/GunPey (J) [M][f1].ws",
+      "label": "GunPey (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "55DF2CBB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/GunPey (J) [M].ws",
+      "label": "GunPey (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A1656BBB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Hanafuda Shiyou Yo (J) [M][!].ws",
+      "label": "Hanafuda Shiyou Yo (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8E027330|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Hanafuda Shiyou Yo (J) [M][o1].ws",
+      "label": "Hanafuda Shiyouyo (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4B22270D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Harobots (J) [M][!].ws",
+      "label": "Harobots (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AA525C04|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Hataraku Chocobo (Japan).wsc",
+      "label": "Hataraku Chocobo (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7A29E9A6|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Hunter X Hunter - Ichi O Tsugu Mono (J) [M][f1].ws",
+      "label": "Hunter X Hunter - Ichi O Tsugu Mono (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "088DB40C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Hunter X Hunter - Ichi O Tsugu Mono (J) [M][!].ws",
+      "label": "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "70AA800E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Itou Jun Ni Uzumaki Noroi Simulation (J) [M][f1].ws",
+      "label": "Itou Jun Ni Uzumaki Noroi Simulation (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "700F4C84|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Judgement Silversword - Rebirth Edition (J) (REV.SC21) [o1].wsc",
+      "label": "Judgement Silversword - Rebirth Edition (J) (REV.SC21) [o1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "85C4C9A1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Judgement Silversword - Rebirth Edition (J) [o1].wsc",
+      "label": "Judgement Silversword - Rebirth Edition (J) [o1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AA13E9DE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Judgement Silversword - Rebirth Edition (Japan) (Rev 4321).wsc",
+      "label": "Judgement Silversword - Rebirth Edition (Japan) (Rev 4321)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "60191872|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).wsc",
+      "label": "Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4FCE380D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kakuto Ryori Densetsu Bistro Recipe - Wonder Battle Hen (J) [M].ws",
+      "label": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4D103236|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kaze no Klonoa - Moonlight Museum (J) [M][t1].ws",
+      "label": "Kaze no Klonoa - Moonlight Museum (J) [M][t1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "411DA7A4|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kaze no Klonoa - Moonlight Museum (J) [M].ws",
+      "label": "Kaze no Klonoa - Moonlight Museum (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "80C6EF12|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Keiba Yosou Shien Shinkaron (J) [M][!].ws",
+      "label": "Keiba Yosou Shien Shinkaron (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "945FC213|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Keiba Yosou Shien Shinkaron (J) [M][o1].ws",
+      "label": "Keiba Yosou Shien Soft - Yosou Shinkaron (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "517F962E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kiss Yori... - Seaside Serenade (J) [M].ws",
+      "label": "Kiss Yori... - Seaside Serenade (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "3B4C60C6|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kosodate Quiz Doko de mo My Angel (J) [!].wsc",
+      "label": "Kosodate Quiz - Dokodemo My Angel (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4C48624C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Kyoso Uma Ikusei Simulation Keiba (J) [M].ws",
+      "label": "Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "ECFBCB1D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Langrisser Millenium WS - The Last Century (J) [M][!].ws",
+      "label": "Langrisser Millennium WS - The Last Century (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9E0854E2|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/LastStand (J) [M].ws",
+      "label": "Last Stand (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "CCCAF8A1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Little Fugue in G Minor by JS Bach - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Little Fugue in G Minor by JS Bach - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "420B438F|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Lode Runner (J) [M][!].ws",
+      "label": "Lode Runner (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E407CABF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Lode Runner (J) [M][o1].ws",
+      "label": "Lode Runner for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "21279E82|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Choujikuu Yousai Macross - True Love Song (J) [M][!].ws",
+      "label": "Macross - True Love Song (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "62D419CD|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Magical Drop (J) [M][b1].ws",
+      "label": "Magical Drop (J) [M][b1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B096AE0A|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Magical Drop (J) [M][!].ws",
+      "label": "Magical Drop for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "637ADA93|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Mahjong Touryuumon (J) [M][!].ws",
+      "label": "Mahjong Touryuumon (Japan) (Rev 3)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E7E7FD4C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Makaimura (J) [M][t1].ws",
+      "label": "Makaimura (J) [M][t1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B6EE35C8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Makaimura (J) [M].ws",
+      "label": "Makaimura for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "00B31FBB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Medarot - Perfect Edition Kabuto Version (J) [M][!].ws",
+      "label": "Medarot Perfect Edition - Kabuto Version (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "12FB8B28|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Medarot - Perfect Edition Kuwagata Version (J) [M][!].ws",
+      "label": "Medarot Perfect Edition - Kuwagata Version (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "2B40745D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Meitantei Conan - Majutsushi no Chousenjou! (J) [M][!].ws",
+      "label": "Meitantei Conan - Majutsushi no Chousenjou! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "92FBF7FB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (J) [M].ws",
+      "label": "Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E226863B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Meitantei Conan - Yuugure no Koujo (Japan).wsc",
+      "label": "Meitantei Conan - Yuugure no Koujo (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9F6E3F8D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Meta Communication Therapy nee Kiite! (J) [M][!].ws",
+      "label": "Metakomi Theraphy - Nee Kiite! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A3EAD689|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Mingle Magnet (J) [M].ws",
+      "label": "Mingle Magnet (Japan) (En,Ja) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9BAAC7BB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Mobile Suit Gundam MSVS (J) [M][!].ws",
+      "label": "Mobile Suit Gundam MSVS (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "53B9FEF8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Wondergate (J) [!].wsc",
+      "label": "MobileWonderGate (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "80DE367D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Moero !! Pro Yakyu Rookies (J) [M].ws",
+      "label": "Moero!! Pro Yakyuu Rookies (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "EB995E86|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Morita Shogi (J) [M][!].ws",
+      "label": "Morita Shogi (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B159C30D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Morita Shogi (J) [M][o1].ws",
+      "label": "Morita Shougi for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D675C265|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nazo Ou Pocket (J) [M][f1].ws",
+      "label": "Nazo Ou Pocket (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8D176482|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nazo Ou Pocket (J) [M].ws",
+      "label": "Nazo Ou Pocket (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4ED8820C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Neon Genesis Evangelion Shito Ikusei (J) [M][!].ws",
+      "label": "Neon Genesis Evangelion - Shito Ikusei (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "BF8D9212|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nice On (J) [M][f1].ws",
+      "label": "Nice On (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7638A3DB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nice On (J) [M][!].ws",
+      "label": "Nice On (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B5DBCF12|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tetsuman (J) [M][!].ws",
+      "label": "Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "44B3E67C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nobunaga no Yabo (J) [M][!].ws",
+      "label": "Nobunaga no Yabo (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "C1734309|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Nobunaga no Yabo (J) [M][o1].ws",
+      "label": "Nobunaga no Yabou for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "04531734|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ouchan no Oekaki Logic (J) [M].ws",
+      "label": "Ou-chan no Oekaki Logic (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "631BD97A|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ouchan no Oekaki Logic (J) [M][f1].ws",
+      "label": "Ouchan no Oekaki Logic (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A16D1D16|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Pocket Fighter (J) [M].ws",
+      "label": "Pocket Fighter (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "35361250|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Pro Mahjong Kiwame (J) [M][!].ws",
+      "label": "Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "90F7E6D6|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Puyo Puyo Tsu (J) [M][!].ws",
+      "label": "Puyo Puyo Tsuu (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "5A41A7BA|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Puzzle Bobble (J) [M].ws",
+      "label": "Puzzle Bobble (J) [M]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "302499B9|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Puzzle Bobble (J) [M][f1].ws",
+      "label": "Puzzle Bobble (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6A05C838|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Rainbow Islands - Putty's Party (J) [M].ws",
+      "label": "Rainbow Islands - Putty's Party (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8F8608AD|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Raku Jongg (J) [f1].ws",
+      "label": "Raku Jongg (J) [f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "76309525|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Raku Jongg (Japan).wsc",
+      "label": "Raku Jongg (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "FE4FF701|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Rekishi Simulation Sangokushi II (J) [M].ws",
+      "label": "Rekishi Simulation Sangokushi II (J) [M]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "812B720D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ring Infinity (J) [M][f1].ws",
+      "label": "Ring Infinity (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AC8DB6A3|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ring Infinity (J) [M][!].ws",
+      "label": "Ring Infinity (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "14ADBD4B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Robot Works (A) [M].ws",
+      "label": "Robot Works (Hong Kong) (En,Ja) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "BE6BE690|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Robot Works (J) [M][!].ws",
+      "label": "Robot Works (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6ADF0E32|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Rockman & Forte - Mirai Kara no Chousen Sha (J) [M][t1].ws",
+      "label": "Rockman & Forte - Mirai Kara no Chousen Sha (J) [M][t1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4288FCA5|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Rockman & Forte - Mirai Kara no Chousen Sha (J) [M][!].ws",
+      "label": "Rockman & Forte - Mirai Kara no Chousensha (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "CD206A9E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/RUN=DIM - Return to Earth (Japan).wsc",
+      "label": "RUN=DIM - Return to Earth (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "15C4552E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Sangokushi (J) [M].ws",
+      "label": "Sangokushi for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E385EE88|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/SD Gundam - Emotional Jam (J) [M][!].ws",
+      "label": "SD Gundam - Emotional Jam (Japan) (Rev 3)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "AE83F873|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/SD Gundam G Generation - Gather Beat (J) [M].ws",
+      "label": "SD Gundam G Generation - Gather Beat (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E4EB3AB1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/SD Gundam Gashapon Senki - Episode 1 (J) [M][!].ws",
+      "label": "SD Gundam Gashapon Senki - Episode 1 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "21EB4C59|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Senkaiden - TV Animation Senkaiden Houshin Engi Yori (J) [M].ws",
+      "label": "Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "07A3DD46|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Sennou Millenium (J) [M][f1].ws",
+      "label": "Sennou Millenium (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "3EF0B0C4|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Sennou Millenium (J) [M][!].ws",
+      "label": "Sennou Millennium (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "301436AC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Shanghai Pocket (J) [M].ws",
+      "label": "Shanghai Pocket (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1C489351|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Shin Nihon Pro Wrestling Toukon Retsuden (J) [M].ws",
+      "label": "Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "5B76F901|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Shin Nihon Pro Wrestling Toukon Retsuden (J) [M][f1].ws",
+      "label": "Shin Nihon Pro Wrestling Toukon Retsuden (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6021D9CC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Shogi Touryuumon (J) [M][!].ws",
+      "label": "Shogi Touryuumon (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "FFF1C0D6|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Shogi Touryuumon (J) [M][o1].ws",
+      "label": "Shougi Touryuumon (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "3AD194EB|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Side Pocket (J) [M][!].ws",
+      "label": "Side Pocket for WonderSwan (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8655269E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Slither Link (J) [M][!].ws",
+      "label": "Slither Link (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F00A0330|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Slither Link (J) [M][f1].ws",
+      "label": "Slither Link (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F6E6FCEE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Slither Link (J) [M][o1][f1].ws",
+      "label": "Slither Link (J) [M][o1][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "EAF7F3D9|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Slither Link (J) [M][o1].ws",
+      "label": "Slither Link (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "352A570D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Soccer Yarou! - Challenge the World (J) [M].ws",
+      "label": "Soccer Yarou! - Challenge the World (J) [M]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D7438E58|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Soccer Yarou! - Challenge the World (J) [M][a1].ws",
+      "label": "Soccer Yarou! - Challenge the World (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1263DA65|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Sorobang (Japan).wsc",
+      "label": "Sorobang (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "0E467D97|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Sotsugyou (J) [M].ws",
+      "label": "Sotsugyou for WonderSwan (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F016DFE1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Space Invaders (J) [M][!].ws",
+      "label": "Space Invaders (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8D83014F|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan).wsc",
+      "label": "Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "9874E9A2|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Super Robot Taisen Compact (J) [M][!].ws",
+      "label": "Super Robot Taisen Compact (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7021D54F|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Super Robot Taisen Compact 2 - Dai Ichibu - Chijou Gekidou Hen (J) [M].ws",
+      "label": "Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "782877BC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Super Robot Taisen Compact 2 - Dai Nibu - Uchuu Gekishin Hen (J) [M][!].ws",
+      "label": "Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "ECBB46DE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Super Robot Taisen Compact 2 - Dai Sanbu - Ginga Kessen Hen (J) [M].ws",
+      "label": "Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "0B0F8981|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Taikyoku Igo Heisei Kiin (J) [!].wsc",
+      "label": "Taikyoku Igo Heisei Kiin (J) [!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "50B7A742|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tanjou - Debut (J) [M][!].ws",
+      "label": "Tanjou Debut for WonderSwan (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8B74F59A|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tare Pan no Gunpei (J) [M][f1].ws",
+      "label": "Tare Pan no Gunpei (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D387C363|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tare Pan no Gunpei (J) [M][f2].ws",
+      "label": "Tare Pan no Gunpei (J) [M][f2]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "2FCF1443|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tare Pan no Gunpei (J) [M][!].ws",
+      "label": "Tare Panda no GunPey (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A5643AA3|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tekken Card Challenge (J) [M][!].ws",
+      "label": "Tekken Card Challenge (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E7C608E5|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Terrors (J) [M].ws",
+      "label": "Terrors (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "EF5B6B82|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tetsujin 28 Gou (J) [M][f1].ws",
+      "label": "Tetsujin 28 Gou (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "82A07866|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tetsujin 28 Gou (J) [M].ws",
+      "label": "Tetsujin 28 Gou (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "6F304DCA|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Bokan Densetsu Buta Mo O Daterya Doronbou (J) [M].ws",
+      "label": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7DA6ACB9|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Tokyo Majin Gakuen Fuju Fuuroku (J) [M][!].ws",
+      "label": "Tokyo Majin Gakuen - Fuju Houroku (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "91117D1B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Trump Collection Bottom Up Teki Trump Seikatsu (J) [M][o1].ws",
+      "label": "Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "C283EC5F|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Trump Collection 2 (J) [!].ws",
+      "label": "Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "64AAF392|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Trump Collection Bottom Up Teki Trump Seikatsu (J) [M][!].ws",
+      "label": "Trump Collection Bottom Up Teki Trump Seikatsu (J) [M][!]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "07A3B862|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Uchuu Senkan Yamato (J) [b1].ws",
+      "label": "Uchuu Senkan Yamato (J) [b1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D56B4FD8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Uchuu Senkan Yamato (Japan).wsc",
+      "label": "Uchuu Senkan Yamato (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "5793BDDA|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Umizuri Ni Ikou (J) [M][!].ws",
+      "label": "Umizuri ni Ikou! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "86B56511|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Uzumaki - Denshi Kaiki Hen (J) [M][f1].ws",
+      "label": "Uzumaki - Denshi Kaiki Hen (J) [M][f1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "89CBAA7C|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Uzumaki - Denshi Kaiki Hen (J) [M][!].ws",
+      "label": "Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "812020EF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Itou Jun Ni Uzumaki Noroi Simulation (J) [M][!].ws",
+      "label": "Uzumaki - Noroi Simulation (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "CA3F0B00|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Vaitz Blade (J) [M][!].ws",
+      "label": "Vaitz Blade (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8FC9E145|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Walking Dudes Demo V1 by Zalas (PD).ws",
+      "label": "Walking Dudes Demo V1 by Zalas (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A1FA7EFF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Wasabi Produce - Street Dancer (J) [M][!].ws",
+      "label": "Wasabi Produce - Street Dancer (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1860B655|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Wonder Stadium '99 (J) [M].ws",
+      "label": "Wonder Stadium '99 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "E252919D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Wonder Stadium (J) [M].ws",
+      "label": "Wonder Stadium (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "23BC0309|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WonderProject First Demo by Orion_ (PD).wsc",
+      "label": "WonderProject First Demo by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "FDC25231|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WonderProject First Demo by Orion_ (PD) [b1].wsc",
+      "label": "WonderProject First Demo by Orion_ (PD) [b1]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "ACC7BF38|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WonderSwan Handy Sonar (J) [M].ws",
+      "label": "WonderSwan Handy Sonar (Japan) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "2AB9852D|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WonderSwan Register Diagnostic by Zalas (PD).ws",
+      "label": "WonderSwan Register Diagnostic by Zalas (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7E0D787B|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WWWLib - BG1 & BG2 & Sprite Test by Orion_ (PD).wsc",
+      "label": "WWWLib - BG1 & BG2 & Sprite Test by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "BF8E0EBC|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WWWLib - Full Maptest by Orion_ (PD).wsc",
+      "label": "WWWLib - Full Maptest by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "47623CD8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WWWLib - TestJB by Orion_ (PD).wsc",
+      "label": "WWWLib - TestJB by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8EBF3DC4|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WWWLib - TestJB16 by Orion_ (PD).wsc",
+      "label": "WWWLib - TestJB16 by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1326DA29|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/WWWLib - TestJB4 by Orion_ (PD).wsc",
+      "label": "WWWLib - TestJB4 by Orion_ (PD)",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "F8554C49|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Boss Out - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Boss Out - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "5C157BD6|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Devil's Step - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Devil's Step - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "15522558|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Final Battle - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Final Battle - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "752DEB23|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - First Step Towards Wars - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - First Step Towards Wars - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "B4131249|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Fly with Me - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Fly with Me - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "1F7E4629|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Fountain of Love - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Fountain of Love - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "BBEC8FF7|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Holders of Power - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Holders of Power - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "97F502EF|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - In the Memory - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - In the Memory - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "D5497A19|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Lucky - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Lucky - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "437948B1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Open Your Heart - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Open Your Heart - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8558F7C8|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Palace - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Palace - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "95CC47F3|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Palace of Destruction - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Palace of Destruction - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "DDAB15A1|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Rest in Peace - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Rest in Peace - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "7A4D54CE|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Tears of Sylph - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Tears of Sylph - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "8619D635|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - Tension - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - Tension - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "4B96AC3E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - The Last Moment of the Dark - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - The Last Moment of the Dark - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "2939DA2E|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    },
+    {
+      "path": "/data/ROMS/WS/Ys 1 - The Syonin - Arranged by Atsushi Watanabe (PD) [C].wsc",
+      "label": "Ys 1 - The Syonin - Arranged by Atsushi Watanabe (PD) [C]",
+      "core_path": "/data/self/retroarch/cores/mednafen_wswan_libretro_ps4.self",
+      "core_name": "Bandai - WonderSwan/Color (Beetle Wonderswan)",
+      "crc32": "A2E3BC80|crc",
+      "db_name": "Bandai - WonderSwan.lpl"
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+  "default_core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/32X/After Burner Complete ~ After Burner (Japan, USA).32x",
+      "label": "After Burner Complete (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "204044C4|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Amazing Spider-Man, The - Web of Fire (USA).32x",
+      "label": "Amazing Spider-Man, The - Web of Fire (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "29DCE257|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/BC Racers (USA).32x",
+      "label": "BC Racers (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "936C3D27|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Blackthorne (USA).32x",
+      "label": "Blackthorne (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "D1A60A47|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Brutal Unleashed - Above the Claw (USA).32x",
+      "label": "Brutal - Above the Claw (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "7A72C939|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Cyber Brawl ~ Cosmic Carnage (Japan, USA).32x",
+      "label": "Cosmic Carnage (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "7C7BE6A2|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Darxide (Europe) (En,Fr,De,Es).32x",
+      "label": "Darxide (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "22D7C906|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom (Doom II Maps).zip",
+      "label": "Doom (Doom II Maps)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "E0D57485|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom (Japan, USA).32x",
+      "label": "Doom (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "208332FD|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom (Ultimate Doom Maps).zip",
+      "label": "Doom (Ultimate Doom Maps)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "B8D7E2A3|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom - Resurrection (Europe) (Hack).32x",
+      "label": "Doom - Resurrection (Europe) (Hack)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "C7D37F52|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom 32X - Delta Edition (Episode 1).zip",
+      "label": "Doom 32X - Delta Edition (Episode 1)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "2DCD944D|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom 32X - Delta Edition (Episode 2).zip",
+      "label": "Doom 32X - Delta Edition (Episode 2)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "157CAEAB|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Doom 32X - Delta Edition (Episode 3).zip",
+      "label": "Doom 32X - Delta Edition (Episode 3)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "8E1AC721|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/FIFA Soccer '96 (Europe) (En,Fr,De,Es,It,Sv).32x",
+      "label": "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "FB14A7C8|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA).32x",
+      "label": "Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "D3D0A2FE|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Chaotix ~ Knuckles' Chaotix (Japan, USA).32x",
+      "label": "Knuckles' Chaotix (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "D0B0B842|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Kolibri (USA, Europe).32x",
+      "label": "Kolibri (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "20CA53EF|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Metal Head (Japan, USA) (En,Ja).32x",
+      "label": "Metal Head (Japan, USA) (En,Ja)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "EF5553FF|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Mortal Kombat II (Japan, USA).32x",
+      "label": "Mortal Kombat II (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "773C0A85|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Mortal Kombat II - Ultimate Edition.zip",
+      "label": "Mortal Kombat II - Ultimate Edition",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "E97720B9|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Motocross Championship (USA).32x",
+      "label": "Motocross Championship (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "A21C5761|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/NBA Jam - Tournament Edition (World).32x",
+      "label": "NBA Jam - Tournament Edition (World)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "6B7994AA|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/NFL Quarterback Club (World).32x",
+      "label": "NFL Quarterback Club (World)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "0BC7018D|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Pinochio (Proto) (US)(Color Restoration v1.0).32x",
+      "label": "Pinochio (Proto) (US)(Color Restoration v1.0)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "522D9C54|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Pitfall - The Mayan Adventure (USA).32x",
+      "label": "Pitfall - The Mayan Adventure (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "F9126F15|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Primal Rage (USA, Europe).32x",
+      "label": "Primal Rage (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "E78A4D28|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/RBI Baseball '95 (USA).32x",
+      "label": "RBI Baseball '95 (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "FF795FDC|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Sangokushi IV (Japan).32x",
+      "label": "Sangokushi IV (Japan)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "E4DE7625|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Sonic in Chaotix.zip",
+      "label": "Sonic in Chaotix",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "6E99C291|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Soulstar X (USA) (Proto).32x",
+      "label": "Soulstar X (USA) (Proto)[T-11505B-50]",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "6472BAE4|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Space Harrier (Japan, USA).32x",
+      "label": "Space Harrier (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "86E7F989|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Star Trek Starfleet Academy - Starship Bridge Simulator (USA).32x",
+      "label": "Star Trek - Starfleet Academy - Starship Bridge Simulator (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "DD9708B9|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Star Wars Arcade (USA).32x",
+      "label": "Star Wars Arcade (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "2F16B44A|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Shadow Squadron ~ Stellar Assault (USA, Europe).32x",
+      "label": "Stellar Assault (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "60C49E4D|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/T-Mek (USA, Europe).32x",
+      "label": "T-MEK (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "66D2C48F|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Tempo (Japan, USA).32x",
+      "label": "Tempo (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "14E5C575|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Toughman Contest (USA, Europe).32x",
+      "label": "Toughman Contest (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "14EAC7A6|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Virtua Fighter (Japan, USA).32x",
+      "label": "Virtua Fighter (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "B5DE9626|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Virtua Racing Deluxe (USA).32x",
+      "label": "Virtua Racing Deluxe (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "7896B62E|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/World Series Baseball Starring Deion Sanders (USA).32x",
+      "label": "World Series Baseball Starring Deion Sanders (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "6DE1BC75|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/WWF Raw (World).32x",
+      "label": "WWF Raw (World)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "8EB7CD2C|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/WWF WrestleMania - The Arcade Game (USA).32x",
+      "label": "WWF WrestleMania - The Arcade Game (USA)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "61833503|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/X-Men (USA) (Proto).32x",
+      "label": "X-Men (USA) (Proto)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "D61FEBC0|crc",
+      "db_name": "Sega - 32X.lpl"
+    },
+    {
+      "path": "/data/ROMS/32X/Parasquad ~ Zaxxon's Motherbase 2000 (Japan, USA).32x",
+      "label": "Zaxxon's Motherbase 2000 (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/picodrive_libretro_ps4.self",
+      "core_name": "Sega - MS/GG/MD/CD/32X (PicoDrive)",
+      "crc32": "447D44BE|crc",
+      "db_name": "Sega - 32X.lpl"
+    }
+  ]
+}

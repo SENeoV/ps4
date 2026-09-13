@@ -12,6 +12,9 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 | `emu/BIOS/*` | `/data/retroarch/system/` | **Ruta obligatoria.** Es la carpeta "system" de RetroArch |
 | `emu/ROMS/<SISTEMA>/` | `/data/ROMS/<SISTEMA>/` | RetroArch puede navegar a cualquier ruta; `/data/ROMS` mantiene el mismo esquema que el PC |
 | `emu/RETROARCH/info/*.info` | `/data/retroarch/info/` | Sin ellos RetroArch no reconoce extensiones ni elige el core solo |
+| `emu/RETROARCH/playlists/*.lpl` | `/data/retroarch/playlists/` | Listas de juegos ya generadas, cada juego con su nombre y su core. Se regeneran con `python tools/retroarch_lists.py` |
+| `emu/RETROARCH/database/rdb/*.rdb` | `/data/retroarch/database/rdb/` | Bases de datos de libretro: permiten a RetroArch reconocer juegos al escanear |
+| `emu/RETROARCH/thumbnails/<lista>/` | `/data/retroarch/thumbnails/<lista>/` | Carátulas. La carpeta de cada sistema tiene que llamarse igual que su lista |
 | `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
 | `emu/MEDIA/`, `emu/EXTRAS/` | — | **No se suben.** Carátulas y archivos que no son juegos |
 

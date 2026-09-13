@@ -1,0 +1,259 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+  "default_core_name": "Nintendo - Virtual Boy (Beetle VB)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/VB/3-D Tetris (USA).zip",
+      "label": "3-D Tetris (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "BB71B522|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Bound High (Japan) (En) (Proto).zip",
+      "label": "Bound High (Japan) (En) (Proto)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "E81A3703|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Galactic Pinball (Japan, USA).zip",
+      "label": "Galactic Pinball (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "C9710A36|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Golf (USA).zip",
+      "label": "Golf (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "2199AF41|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Innsmouth no Yakata (Japan).zip",
+      "label": "Innsmouth no Yakata (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "83CB6A00|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Jack Bros. (USA).zip",
+      "label": "Jack Bros. (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "A44DE03C|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Jack Bros. no Meiro de Hiihoo! (Japan).zip",
+      "label": "Jack Bros. no Meiro de Hiihoo! (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "CAB61E8B|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Mario Clash (Japan, USA).zip",
+      "label": "Mario Clash (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "A47DE78C|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Mario's Tennis (Japan, USA).zip",
+      "label": "Mario's Tennis (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "7CE7460D|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Nester's Funky Bowling (USA).zip",
+      "label": "Nester's Funky Bowling (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "DF4D56B4|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Niko-chan Battle (Japan) (Proto).zip",
+      "label": "Niko-chan Battle (Japan) (Proto)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "F3CD40DD|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Panic Bomber (USA).zip",
+      "label": "Panic Bomber (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "19BB2DFB|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Red Alarm (Japan).zip",
+      "label": "Red Alarm (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "7E85C45D|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Red Alarm (USA).zip",
+      "label": "Red Alarm (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "AA10A7B4|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/SD Gundam - Dimension War (Japan).zip",
+      "label": "SD Gundam - Dimension War (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "44788197|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Space Invaders - Virtual Collection (Japan).zip",
+      "label": "Space Invaders - Virtual Collection (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "FA44402D|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Space Pinball (Japan) (En) (Proto).zip",
+      "label": "Space Pinball (Japan) (En) (Proto)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "44C2B723|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Space Squash (Japan).zip",
+      "label": "Space Squash (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "60895693|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/T&E Virtual Golf (Japan).zip",
+      "label": "T&E Virtual Golf (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "6BA07915|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Teleroboxer (Japan, USA).zip",
+      "label": "Teleroboxer (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "36103000|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Tobidase! Panibon (Japan).zip",
+      "label": "Tobidase! Panibon (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "40498F5E|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/V-Tetris (Japan).zip",
+      "label": "V-Tetris (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "3CCB67AE|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Vertical Force (Japan).zip",
+      "label": "Vertical Force (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "9E9B8B92|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Vertical Force (USA).zip",
+      "label": "Vertical Force (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "4C32BA5E|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual Bowling (Japan).zip",
+      "label": "Virtual Bowling (Japan) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "20688279|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual Boy Wario Land (Japan, USA).zip",
+      "label": "Virtual Boy Wario Land (Japan, USA) (En)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "133E9372|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual Fishing (Japan).zip",
+      "label": "Virtual Fishing (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "526CC969|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual Lab (Japan).zip",
+      "label": "Virtual Lab (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "8989FE0A|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual League Baseball (USA).zip",
+      "label": "Virtual League Baseball (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "736B40D6|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Virtual Pro Yakyuu '95 (Japan).zip",
+      "label": "Virtual Pro Yakyuu '95 (Japan)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "9BA8BB5E|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    },
+    {
+      "path": "/data/ROMS/VB/Waterworld (USA).zip",
+      "label": "Waterworld (USA)",
+      "core_path": "/data/self/retroarch/cores/mednafen_vb_libretro_ps4.self",
+      "core_name": "Nintendo - Virtual Boy (Beetle VB)",
+      "crc32": "82A95E51|crc",
+      "db_name": "Nintendo - Virtual Boy.lpl"
+    }
+  ]
+}

@@ -49,6 +49,8 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] `tools/guard.py` + hooks pre-commit/pre-push — ningún binario puede llegar a GitHub
 - [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas, nombres con tildes pasados a ASCII
 - [x] Revisión de consolas restantes y hoja de ruta (2026-09-13)
+- [x] Bases de datos, listas y carátulas de 17 sistemas preparadas en `emu/RETROARCH/` con `tools/retroarch_lists.py`
+- [ ] Subir bases de datos, listas y carátulas a la consola (unos 1,4 GB; ver `emu/RETROARCH/README.md`), después de subir las ROMs de la Tanda 1
 
 ## 1. Hecho — en la PS4
 
@@ -71,16 +73,18 @@ Orden acordado el 2026-09-13. Cores, extensiones y BIOS están verificados contr
 
 | Sistema | Carpeta | Core | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| Atari 2600 | `ATARI2600/` | stella2014 | [ ] | [ ] |
-| Atari 7800 | `ATARI7800/` | prosystem | [ ] | [ ] |
-| PC Engine | `PCE/` | mednafen_pce_fast | [ ] | [ ] |
-| Neo Geo Pocket | `NGP/` | mednafen_ngp | [ ] | [ ] |
-| Neo Geo Pocket Color | `NGPC/` | mednafen_ngp | [ ] | [ ] |
-| WonderSwan | `WS/` | mednafen_wswan | [ ] | [ ] |
-| WonderSwan Color | `WSC/` | mednafen_wswan | [ ] | [ ] |
-| Atari Lynx | `LYNX/` | handy | [ ] | [ ] |
-| 32X | `32X/` | picodrive | [ ] | [ ] |
-| Virtual Boy | `VB/` | mednafen_vb | [ ] | [ ] |
+| Atari 2600 | `ATARI2600/` | stella2014 | [x] 885 | [ ] |
+| Atari 7800 | `ATARI7800/` | prosystem | [ ] **falta** | [ ] |
+| PC Engine | `PCE/` | mednafen_pce_fast | [x] 210 | [ ] |
+| Neo Geo Pocket | `NGP/` | mednafen_ngp | [x] 3 | [ ] |
+| Neo Geo Pocket Color | `NGPC/` | mednafen_ngp | [x] 72 | [ ] |
+| WonderSwan | `WS/` | mednafen_wswan | [x] 214 | [ ] |
+| WonderSwan Color | `WSC/` | mednafen_wswan | [x] 131 | [ ] |
+| Atari Lynx | `LYNX/` | handy | [x] 136 | [ ] |
+| 32X | `32X/` | picodrive | [x] 45 | [ ] |
+| Virtual Boy | `VB/` | mednafen_vb | [x] 31 | [ ] |
+
+ROMs copiadas y ordenadas el 2026-09-13 (registro en `cleanup-2026-09-13.tsv`): Neo Geo Pocket y WonderSwan separados por cabecera, duplicados, carátulas y archivos que no son juegos apartados. `lynxboot.img` verificada con `System.dat` de libretro y copiada a `emu/BIOS/`. Falta subirlo todo a la consola.
 
 ### Tanda 2 — arcade
 

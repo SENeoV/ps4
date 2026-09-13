@@ -1,0 +1,1323 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+  "default_core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/SNES/ActRaiser 2.smc",
+      "label": "Act Raiser 2 (USA)[tr es Champi]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F6156978|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Addams Family Values.smc",
+      "label": "Addams Family Values (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "C80D32FC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Addams Family.smc",
+      "label": "Addams Family, The (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "5F358234|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Adventures of Dr. Franken, (E).smc",
+      "label": "Adventures of Dr. Franken, The (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "E4925F15|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Adventures of Kid Kleets.smc",
+      "label": "Adventures of Kid Kleets, The (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "1664AE48|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Aero Fighters.smc",
+      "label": "Aero Fighters (USA)[tr es Duncan]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0ACEB36F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Aladdin.smc",
+      "label": "Aladdin (USA)[tr es Gogito]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A785C40B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Alien 3.smc",
+      "label": "Alien 3 (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "822EAEB1|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Arcana.smc",
+      "label": "Arcana (USA)[tr es Sinister]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "000E60D2|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Arkanoid - doh it again.smc",
+      "label": "Arkanoid - Doh It Again (Japan)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "B9547E0C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Asterix 2.smc",
+      "label": "Asterix & Obelix (Europe)[t +8 Cyber Force]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "165DCFDC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Asterix.smc",
+      "label": "Asterix (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "5DDEDC28|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Bastard - ankoku no hakaishin.smc",
+      "label": "Bastard - ankoku no hakaishin",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4DE589FF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Battletoads & Double Dragon - The Ultimate Team.smc",
+      "label": "Battletoads Double Dragon - The Ultimate Team (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4F05C7DE|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Battletoads in Battlemaniacs.smc",
+      "label": "Battletoads in Battlemaniacs (USA) (Beta)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AE679A7F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Bio Metal.smc",
+      "label": "Bio Metal (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F46DED0E|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Blacktorne.smc",
+      "label": "Blacktorne",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "93F67CE5|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Brain Lord.smc",
+      "label": "Brain Lord",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "8327C3CD|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Brandish.smc",
+      "label": "Brandish",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AC435B31|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Brandish 2 - The Planet Buster.smc",
+      "label": "Brandish 2 - The Planet Buster",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "E60DFDD8|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Breat Of Fire.smc",
+      "label": "Breath of Fire (USA)[tr es](Alt 4)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4E55A8B8|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Breath of Fire 2.smc",
+      "label": "Breath of Fire II (USA)[tr es](Alt 2)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "EAF4CAB5|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/BS Radical Dreamers (J) [f1].smc",
+      "label": "BS Radical Dreamers (J) [f1]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "BD60696F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Captain Commando.smc",
+      "label": "Captain Commando (Europe)[tr es Billbest]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "8BD245DF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Captain Novolin.smc",
+      "label": "Captain Novolin (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "9FD460A4|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Chavez Boxing.smc",
+      "label": "Chavez (USA) (Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A9D604EA|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Chavez Boxing 2.smc",
+      "label": "Chavez II (USA) (Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "86981887|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Chrono Trigger.smc",
+      "label": "Chrono Trigger (USA)[tr es](Alt 3)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F2178B91|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Cliffhanger.smc",
+      "label": "Cliffhanger",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0E0CD60F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Clock Tower.smc",
+      "label": "Clock Tower",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "C12BB119|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Clock Tower (J) V2 By Zerel96.smc",
+      "label": "Clock Tower (J) V2 By Zerel96",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D5556AEF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Crystal Beans From Dungeon Explorer (J).smc",
+      "label": "Crystal Beans From Dungeon Explorer (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "8D542B04|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Cybernator.smc",
+      "label": "Cybernator",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "5A19700C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The  Death and Return of Superman.smc",
+      "label": "Death and Return of Superman, The (USA)[tr es](Alt 2)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "2DF06D29|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Demon's Crest.smc",
+      "label": "Demon's Crest",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "3F328F48|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Donkey Kong Contry.FIG",
+      "label": "Donkey Kong Contry",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4C3EE7E2|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Dossun! Ganseki Battle (J).smc",
+      "label": "Dossun! Ganseki Battle (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F95400CE|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Dragon - The Bruce Lee Story.smc",
+      "label": "Dragon - The Bruce Lee Story",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "E430ED2C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Dragon Ball Z - Hyper Dimension.smc",
+      "label": "Dragon Ball Z - Hyper Dimension (Japan)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "77E63867|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/dragon ball z - super butoden.smc",
+      "label": "Dragon Ball Z - Super Butouden (France)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "9D0F4EA5|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/dragon ball z - super saiya densetsu.smc",
+      "label": "Dragon Ball Z - Super Saiya Densetsu Rev 1 (Japan)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "89F81BFC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Dragon Ball Z - Ultime Menace.smc",
+      "label": "Dragon Ball Z - Ultime Menace (France)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "515B0773|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/E.V.O. Search for Eden.smc",
+      "label": "E.V.O. Search for Eden",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6BFA914B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Earthbound.smc",
+      "label": "EarthBound (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "C64CC75D|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Equinox (E) [!].smc",
+      "label": "Equinox (E) [!]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "B6407C22|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/FIFA 97 - Gold Edition.smc",
+      "label": "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "9CDBB2F8|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fantasy - Mystic Quest.smc",
+      "label": "Final Fantasy - Mystic Quest",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D5EC0E1C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fantasy II.smc",
+      "label": "Final Fantasy II",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D07BE94F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fantasy III.smc",
+      "label": "Final Fantasy III",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "357FC277|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fantasy IV.smc",
+      "label": "Final Fantasy IV (Japan)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "788F7636|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fantasy V.smc",
+      "label": "Final Fantasy V (Japan)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4B81EA73|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fight 1.smc",
+      "label": "Final Fight (Europe)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "DA104362|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fight 2.smc",
+      "label": "Final Fight 2 (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "40E20E9A|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Final Fight 3.smc",
+      "label": "Final Fight 3 (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F59D6FB2|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Fire Strike.smc",
+      "label": "Fire Strike",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "13F2D414|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Flashback (E) (M2) [T+Spa1.0_MMM].smc",
+      "label": "Flashback (E) (M2) [T+Spa1.0_MMM]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "512CCD57|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Flintstones, The - Movie Edition.smc",
+      "label": "Flintstones, The (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "3E7B51E0|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Ganpuru - Gunman's Proof (J).smc",
+      "label": "Ganpuru - Gunman's Proof (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "BA33F0A6|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Harvest Moon.SWC",
+      "label": "Harvest Moon (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AD4DF871|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Holy Umbrella - Dondera no Mubo!! (J).smc",
+      "label": "Holy Umbrella - Dondera no Mubo!! (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "626A5A94|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The  Hunt for Red October.smc",
+      "label": "Hunt for Red October, The (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "05BAF7B6|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Hyper V-Ball.smc",
+      "label": "Hyper V-Ball",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "193F9477|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Illusion of Time.smc",
+      "label": "Illusion of Time (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7C305DC8|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Inspector Gadget.smc",
+      "label": "Inspector Gadget (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F782FD04|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Jetsons, The - Invasion of the Planet Pirates.smc",
+      "label": "Jetsons, The - Invasion of the Planet Pirates (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CC9A7501|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Jikkyou World Soccer 2 - Fighting Eleven.smc",
+      "label": "Jikkyou World Soccer 2 - Fighting Eleven",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CD9EA0BC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Joe & Mac.smc",
+      "label": "Joe & Mac (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "08F1191D|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/JRR Tolkien's The Lord of the Rings - Volume 1.smc",
+      "label": "JRR Tolkien's The Lord of the Rings - Volume 1",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F90B9024|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Jurassic Park Part 2 - The Chaos Continues.smc",
+      "label": "Jurassic Park Part 2 - The Chaos Continues (Europe)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "1DA7492B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Kuusou Kagaku Sekai Gulliver Boy.smc",
+      "label": "Kuusou Kagaku Sekai Gulliver Boy",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "B982225C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Legend of Zelda, The - A Link to the Past.smc",
+      "label": "Legend of Zelda, The - A Link to the Past (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "16E06E27|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The  Lion King.smc",
+      "label": "Lion King, The (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "82B17B52|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The  Lost Vikings.smc",
+      "label": "Lost Vikings, The (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6E8A1081|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Lucky Luke.sfc",
+      "label": "Lucky Luke (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7E2C7143|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Lufia & The Fortress of Doom.SMC",
+      "label": "Lufia & The Fortress of Doom",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "9ADACB69|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Lufia II - Rise of the Sinistrals.smc",
+      "label": "Lufia II - Rise of the Sinistrals",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A0AB4B5C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Magic Knight Rayearth.smc",
+      "label": "Magic Knight Rayearth (Japan)[tr es](Alt 2)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CAE7740E|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Magical Pop'n (J).smc",
+      "label": "Magical Pop'n (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "3A649BC6|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Magical Quest Starring Mickey Mouse.smc",
+      "label": "Magical Quest Starring Mickey Mouse, The (USA) (Beta)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "BA50B79F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Marvel Super Heroes - War of the Gems.smc",
+      "label": "Marvel Super Heroes - War of the Gems",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "9D065F3B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Mask.smc",
+      "label": "Mask, The (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AF209A61|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Mechwarrior.smc",
+      "label": "MechWarrior (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D713A74F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Mega Man VII.smc",
+      "label": "Mega Man VII (USA)[tr es](Alt 2)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CD277DCF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Mega Man X.smc",
+      "label": "Mega Man X (USA)[tr es](Alt 3)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6B4C2850|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Mega Man X 2.smc",
+      "label": "Mega Man X 2",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CE399DB8|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Mega Man X 3.smc",
+      "label": "Mega Man X 3",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AC4DA4D3|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Monstania (J).smc",
+      "label": "Monstania (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "73B140D1|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Ninja Gaiden Trilogy.smc",
+      "label": "Ninja Gaiden Trilogy (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "B7CD6139|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Out of This World.smc",
+      "label": "Out of This World (USA)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "5F40A869|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Paladin's Quest.smc",
+      "label": "Paladin's Quest",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F629CCA6|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Paperboy 2.smc",
+      "label": "Paperboy 2",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "37EFE3A9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Plashback.smc",
+      "label": "Plashback",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4005CBDD|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Plok!.smc",
+      "label": "Plok!",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D601FF35|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Power Drive.smc",
+      "label": "Power Drive (Europe) (En,Fr,De,Es,Pt)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0BFDCA70|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Prehistorik Man.smc",
+      "label": "Prehistorik Man (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CB4F87BB|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Prince of Persia.smc",
+      "label": "Prince of Persia (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D30FF8CA|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Prince of Persia 2 - The Shadow & The Flame.smc",
+      "label": "Prince of Persia 2 - The Shadow & The Flame",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D4A0650E|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Ranma Nibun no Ichi - Akanekodan no Hihou.smc",
+      "label": "Ranma Nibun no Ichi - Akanekodan no Hihou",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AB4E4151|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Ranma Nibunnoichi - Akanekodan Teki Hihou (J) [!].smc",
+      "label": "Ranma Nibunnoichi - Akanekodan Teki Hihou (J) [!]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7111B72D|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Rockman & Forte.smc",
+      "label": "Rockman & Forte",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7CFB5FD0|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Rocko's Modern Life - Spunky's Dangerous Day.smc",
+      "label": "Rocko's Modern Life - Spunky's Dangerous Day",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "1D245696|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Romancing SaGa 3.smc",
+      "label": "Romancing SaGa 3",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A3D21B88|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Rudra no Hihou (J).smc",
+      "label": "Rudra no Hihou (J)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A097D8B5|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/SD Kidou Senshi Gundam 2.smc",
+      "label": "SD Kidou Senshi Gundam 2",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "1ED46EEF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Secret of Evermore.smc",
+      "label": "Secret of Evermore (Spain) (Rev 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7BFE934F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Secret of Mana.smc",
+      "label": "Secret of Mana (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "3DB4433C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Secret of the Stars.smc",
+      "label": "Secret of the Stars (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "51AAB1BC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Seiken Densetsu 3.smc",
+      "label": "Seiken Densetsu 3",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "474F1E94|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Shin Megami Tensei.smc",
+      "label": "Shin Megami Tensei",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D39B10F3|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Shin Megami Tensei II.smc",
+      "label": "Shin Megami Tensei II",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "07CF7DC9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Side Pocket.smc",
+      "label": "Side Pocket",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "F5AE137D|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Sim City.smc",
+      "label": "Sim City",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "57592EBA|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Sky Blazer.smc",
+      "label": "Sky Blazer",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6519D014|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Smurfs 2.smc",
+      "label": "Smurfs Travel the World, The (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "22947169|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The  Smurfs.smc",
+      "label": "Smurfs, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "2AE148D6|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Soul Blazer.smc",
+      "label": "Soul Blazer",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "2133F708|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Space Megaforce.smc",
+      "label": "Space Megaforce",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "03AC56CB|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Speedy Gonzales - Los Gatos Bandidos.smc",
+      "label": "Speedy Gonzales in Los Gatos Bandidos Rev 1 (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "83F0FD18|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Spider-Man & Venom - Maximum Carnage.smc",
+      "label": "Spider-Man & Venom - Maximum Carnage",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "252C4841|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Star Fox 2 Beta.smc",
+      "label": "Star Fox 2 Beta",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "27FAC5E0|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Star Fox 2 V2 por Darkchaosblast y Frandyer.smc",
+      "label": "Star Fox 2 V2 por Darkchaosblast y Frandyer",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "EB1E0923|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Star Fox.smc",
+      "label": "Star Fox Rev 0 (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "349848FB|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Street Fighter II - The World Warrior.smc",
+      "label": "Street Fighter II - The World Warrior (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "8373F990|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Street Fighter II The New Challangers.fig",
+      "label": "Street Fighter II The New Challangers",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A9841E6F|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Aleste.smc",
+      "label": "Super Aleste",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "4CFEF673|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Battletank 2.sfc",
+      "label": "Super Battletank 2 (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D3802A47|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Castlevania IV.smc",
+      "label": "Super Castlevania IV",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "3621475C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Descentralizado 95.smc",
+      "label": "Super Descentralizado 95",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D87658B7|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Mario All-Stars.smc",
+      "label": "Super Mario All-Stars (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "CC0732D3|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Mario RPG - Legend of the Seven Stars.smc",
+      "label": "Super Mario RPG - Legend of the Seven Stars",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "60DA4061|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Mario World.smc",
+      "label": "Super Mario World",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "417FB4DF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Mario World - Mario in midgard.SMC",
+      "label": "Super Mario World - Mario in midgard",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D4C40F40|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Mario World 2 - Yoshi's Island.smc",
+      "label": "Super Mario World 2 - Yoshi's Island",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "AD3666F9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Metroid.smc",
+      "label": "Super Metroid",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0ECBE3F9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Morph.smc",
+      "label": "Super Morph",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0F2FD265|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Pac-Man.smc",
+      "label": "Super Pac-Man",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D1FC77D9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Pang.smc",
+      "label": "Super Pang",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "83739650|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super R-Type.smc",
+      "label": "Super R-Type (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "84DE3E37|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super Soccer.smc",
+      "label": "Super Soccer",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "ADA6D48E|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Super SWIV.smc",
+      "label": "Super SWIV",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "44BF3BB7|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tactics Ogre - Let Us Cling Together (J) (V1.2).smc",
+      "label": "Tactics Ogre - Let Us Cling Together (J) (V1.2)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "8005893C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tales of Phantasia.smc",
+      "label": "Tales of Phantasia (Japan)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "E4C2D279|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Teenage Mutant Ninja Turtles IV - Turtles in Time.smc",
+      "label": "Teenage Mutant Ninja Turtles IV - Turtles in Time",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "FAD4E95B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tenchi Muyou! Game Hen.smc",
+      "label": "Tenchi Muyou! Game Hen",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "D0C805A7|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Terra Nigma.SMC",
+      "label": "Terranigma (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "00E61534|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tetris Attack.smc",
+      "label": "Tetris Attack",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "610C3767|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Chessmaster.smc",
+      "label": "The Chessmaster",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7A30B4CE|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Legend of The Mystical Ninja.smc",
+      "label": "The Legend of The Mystical Ninja",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6529AE14|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Adventures of Tintin, The - Prisoners of the Sun.smc",
+      "label": "Tintin - Prisoners of the Sun (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A94A47BE|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tiny Toon Adventures - Buster Busts Loose.smc",
+      "label": "Tiny Toon Adventures - Buster Busts Loose! (Spain)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "EEB4180C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Tom & Jerry.smc",
+      "label": "Tom & Jerry",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6D42D8C9|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/True Lies.smc",
+      "label": "True Lies",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6B9CFCE2|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/The Twisted Tales of Spike McFang.smc",
+      "label": "Twisted Tales of Spike McFang, The (USA)[tr es]",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A46B433C|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/U.N. Squadron.smc",
+      "label": "U.N. Squadron (USA)[tr es](Alt 1)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "58B879AF|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Uni Racers.smc",
+      "label": "Uni Racers",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "11CDCD56|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Vortex.sfc",
+      "label": "Vortex (USA) (En,Es)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "31B1AD00|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Where in the World is Carmen Sandiego.sfc",
+      "label": "Where in the World Is Carmen Sandiego (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "B7A66353|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Carmen Sandiego - Where in Time.smc",
+      "label": "Where in Time Is Carmen Sandiego (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "1712018B|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Whirlo.smc",
+      "label": "Whirlo",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "7E72E665|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Wolfenstein 3D.smc",
+      "label": "Wolfenstein 3D",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "898EBA03|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Worms.smc",
+      "label": "Worms",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "A2825B25|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/WWF Raw.smc",
+      "label": "WWF Raw",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "BFC77BFE|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/X-Men - Mutant Apocalypse.smc",
+      "label": "X-Men - Mutant Apocalypse",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "0AC39EDC|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    },
+    {
+      "path": "/data/ROMS/SNES/Ys III - Wanderers from Ys.smc",
+      "label": "Ys III - Wanderers from Ys",
+      "core_path": "/data/self/retroarch/cores/snes9x2010_libretro_ps4.self",
+      "core_name": "Nintendo - SNES / SFC (Snes9x 2010)",
+      "crc32": "6BB9FB76|crc",
+      "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+    }
+  ]
+}

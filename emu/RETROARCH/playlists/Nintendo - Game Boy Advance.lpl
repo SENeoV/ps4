@@ -1,0 +1,1715 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+  "default_core_name": "Nintendo - Game Boy Advance (mGBA)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/GBA/2 Game Pack! - Uno & Skip-Bo (Europe) (En,Fr,De,Es,It).gba",
+      "label": "2 Game Pack! - Uno & Skip-Bo (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E2018633|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/2 Game Pack! - Uno & Skip-Bo (Europe) (En,Fr,De,Es,It).zip",
+      "label": "2 Game Pack! - Uno & Skip-Bo (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E2018633|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Buscando a Nemo + Buscando a Nemo -  The Contuining Adventures [E].gba",
+      "label": "2 Games in 1 - Finding Nemo + Finding Nemo - The Continuing Adventures (Europe) (Es,It+En,Es,It,Sv,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "73444273|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Fifa Word Cup Germany 2006 [E].gba",
+      "label": "2006 FIFA World Cup - Germany 2006 (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "50AB4544|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Advance Wars [E].gba",
+      "label": "Advance Wars (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "66FB29E9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Advance Wars 2 [E].gba",
+      "label": "Advance Wars 2 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7C056CB8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Alien Hominid [E].gba",
+      "label": "Alien Hominid (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DFF47236|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Animaniacs - Lights, Camera, Action! [E].gba",
+      "label": "Animaniacs - Lights, Camera, Action! (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "840D11C1|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Army Men - Operation Green [E].gba",
+      "label": "Army Men - Operation Green (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6D174E28|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Army Men Advance [E].gba",
+      "label": "Army Men Advance (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "9A4A509F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Astroboy - Omega Factor [E].gba",
+      "label": "Astro Boy - Omega Factor (Europe) (En,Ja,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "1E2E8937|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Banjo Kazooie - Grunty's Revenge [E].gba",
+      "label": "Banjo-Kazooie - La Venganza de Grunty (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "32544634|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Banjo Pilot [E].gba",
+      "label": "Banjo-Pilot (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B98DE3A4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Batman Begins [E].gba",
+      "label": "Batman Begins (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "83C90106|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Beyblade G-Revolution [E].gba",
+      "label": "Beyblade G-Revolution [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "730FB318|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Beyblade V-Force - Ultimate Blader Jam [E].gba",
+      "label": "Beyblade V-Force - Ultimate Blader Jam (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "02CF5E5C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Boktai - The sun is in your hand [E].gba",
+      "label": "Boktai - The sun is in your hand [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "0CC04A12|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Boktai 2 - Solar Boy Django [E].gba",
+      "label": "Boktai 2 - Solar Boy Django [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "27FC209E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Breath of Fire [E].gba",
+      "label": "Breath of Fire [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "981427CD|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Broken Sword [E].gba",
+      "label": "Broken Sword - The Shadow of the Templars (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "3278CE51|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Bruce Lee - Return Of The Legend [E].gba",
+      "label": "Bruce Lee - Return of the Legend (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B5FF39DC|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Carrera Power [E].gba",
+      "label": "Carrera Power [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E88A38F4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Castlevania - Harmony Of Dissonance [E].gba",
+      "label": "Castlevania - Harmony of Dissonance (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "521B3091|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Castlevania Aria of Sorrow [E].gba",
+      "label": "Castlevania Aria of Sorrow [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D84E8B74|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Catwoman [E].gba",
+      "label": "Catwoman (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "1ADB373D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Charlie And The Chocolate Factory [E].gba",
+      "label": "Charlie and the Chocolate Factory (Europe) (En,Fr,Es,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2B3FCC74|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Chessmaster [E].gba",
+      "label": "Chessmaster (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "27E7FD09|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Narnia - El leon la bruja y el armario [E].gba",
+      "label": "Chronicles of Narnia, The - The Lion, the Witch and the Wardrobe (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7E198522|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Chu Chu Rocket [E].gba",
+      "label": "ChuChu Rocket! (USA) (En,Ja,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "057FB1B6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/CIMA The Enemy [E].gba",
+      "label": "CIMA The Enemy [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "35E66BA8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Columns Crown [E].gba",
+      "label": "Columns Crown (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "330A0975|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Comix Zone [E].gba",
+      "label": "Comix Zone (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "9F30002F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crash Bandicoot 2 N-Tranced [E].gba",
+      "label": "Crash Bandicoot 2 - N-Tranced (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "0F1D06A0|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crash Bandicoot - Fusion [E].gba",
+      "label": "Crash Bandicoot Fusion (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F24C8E77|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crash Bandicoot Fusion [E].gba",
+      "label": "Crash Bandicoot Fusion (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F24C8E77|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crash Bandicoot XS [E].gba",
+      "label": "Crash Bandicoot XS (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CCFD654F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crash Nitro Kart [E].gba",
+      "label": "Crash Nitro Kart [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D5BB1C0F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Crazy Taxi - Catch a Ride [E].gba",
+      "label": "Crazy Taxi - Catch a Ride (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4AEBD704|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Creatures [E].gba",
+      "label": "Creatures (Europe) (En,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4F18F57E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/CT Special Forces 2 - Back To Hell [E].gba",
+      "label": "CT Special Forces - Back to Hell (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "863CBF31|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/CT Special Forces 3 - Bio Terror [E].gba",
+      "label": "CT Special Forces 3 - Bioterror (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7DC40EDA|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/CT Special Forces [E].gba",
+      "label": "CT Special Forces [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F56B0A14|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Daredevil [E].gba",
+      "label": "Daredevil (Europe) (En,Fr,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "41A9B849|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/David Beckham Soccer [E].gba",
+      "label": "David Beckham Soccer (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E9A34F49|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Denki Blocks [E].gba",
+      "label": "Denki Blocks [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "238CDFAD|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Dexter's Lab - Deesaster Strikes [E].gba",
+      "label": "Dexter's Laboratory - Deesaster Strikes! (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E948D412|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Digimon - Battle Spirit [E].gba",
+      "label": "Digimon - Battle Spirit (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "EA5FC3DA|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Digimon - Battle Spirit 2 [E].gba",
+      "label": "Digimon - Battle Spirit 2 (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C4C246EF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Digimon Racing [E].gba",
+      "label": "Digimon Racing (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4F1B0157|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Donkey Kong - King of Swing [E].gba",
+      "label": "DK - King of Swing (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F93B73D9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Donald Duck Advance [E].gba",
+      "label": "Donald Duck Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4C086A5E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Donkey Kong Country 1  [E].gba",
+      "label": "Donkey Kong Country (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "41D277FE|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Donkey Kong Country 2  [E].gba",
+      "label": "Donkey Kong Country 2 (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "AEF11223|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Donkey Kong Country 3  [E].gba",
+      "label": "Donkey Kong Country 3 (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "708A6168|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Dragon Ball Z - Advance adventure  [E].gba",
+      "label": "Dragon Ball - Advanced Adventure (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6C135820|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Dragon Ball Z - Supersonic Warriors [E].gba",
+      "label": "Dragon Ball Z - Supersonic Warriors (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B4D9572C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Dragon Ball Z - The Legacy of Goku II [E].gba",
+      "label": "Dragon Ball Z - The Legacy of Goku II [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "5DA5F35F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/DragonBall Z Taiketsu [E].gba",
+      "label": "DragonBall Z Taiketsu [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2A7589D2|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Driven [E].gba",
+      "label": "Driven [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A4F49107|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Driver 2 Advance [E].gba",
+      "label": "Driver 2 Advance [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7914657E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Duel Masters - Kaijudo showdown [E].gba",
+      "label": "Duel Masters - Kaijudo Showdown (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "52E0AA95|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Dynasty Warriors Advance [E].gba",
+      "label": "Dynasty Warriors Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "74CDB37A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Ecks vs Sever [E].gba",
+      "label": "Ecks vs Sever [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "05D11E16|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Eragon [E].gba",
+      "label": "Eragon (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "BB05A63F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/European Super League [E].gba",
+      "label": "European Super League (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "748AD738|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Extreme Ghostbusters - Code Ecto-1 [E].gba",
+      "label": "Extreme Ghostbusters - Code Ecto-1 (Europe) (En,Fr,De,Es,It,Pt)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "88CC876C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/FIFA 06 [E].gba",
+      "label": "FIFA Soccer 06 (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "BE4C3CB1|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/FIFA 2005 [E].gba",
+      "label": "FIFA Soccer 2005 (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DA90F396|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Final Fantasy I y II [E].gba",
+      "label": "Final Fantasy I & II - Dawn of Souls (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7C9854C6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Final Fantasy Tactics [E].gba",
+      "label": "Final Fantasy Tactics Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "BA5DE047|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Final Fantasy V Advance [E].gba",
+      "label": "Final Fantasy V Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7197117E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Final Fantasy VI Advance [E].gba",
+      "label": "Final Fantasy VI Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D15DEBA5|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Fire Emblem - Fuuin no Tsurugi [E].gba",
+      "label": "Fire Emblem - Fuuin no Tsurugi [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D175ADED|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Fire Emblem - The Sacred Stones [E].gba",
+      "label": "Fire Emblem - The Sacred Stones (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B3005195|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Froggers Adventures - Temple of the Frog [E].gba",
+      "label": "Frogger's Adventures - Temple of the Frog (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2EB9EEE6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Gekido [E].gba",
+      "label": "Gekido Advance - Kintaro's Revenge (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2FB5B819|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Ghost Rider [E].gba",
+      "label": "Ghost Rider (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CF190F2E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/GO! Go! Beckham [E].gba",
+      "label": "GO! Go! Beckham [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2DCD2B4E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Golden Sun 1 [E].gba",
+      "label": "Golden Sun (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C63008D6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Golden Sun 2 - La edad perdida [E].gba",
+      "label": "Golden Sun - La Edad Perdida (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "EE38BA94|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Grand Theft Auto Advance [E].gba",
+      "label": "Grand Theft Auto (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4189E07F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Guilty Gear X [E].gba",
+      "label": "Guilty Gear X - Advance Edition (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "BA95861D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Gunstar Future Heroes [E].gba",
+      "label": "Gunstar Future Heroes (Europe) (En,Ja,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8C541D13|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Harry Potter II - Camara Secreta [E].gba",
+      "label": "Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "342816DB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Harry Potter V - La Orden del Fenix [E].gba",
+      "label": "Harry Potter and the Order of the Phoenix (USA, Europe) (En,Fr,De,Es,It,Nl,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "302B8B3D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Harry Potter III - El Pricioner de Azkabam [E].gba",
+      "label": "Harry Potter and the Prisoner of Azkaban (USA, Europe) (En,Fr,De,Es,It,Nl,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C0BCCAAD|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Harry Potter I - Piedra Filosofal [E].gba",
+      "label": "Harry Potter and the Sorcerer's Stone (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F755065C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Harry Potter IV - El Caliz del Fuego [E].gba",
+      "label": "Harry Potter IV - El Caliz del Fuego [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "35785B15|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/High Heat Baseball 2002 [E].gba",
+      "label": "High Heat Baseball 2002 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "0ADBEBE7|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Lord of the Rings - The Hobbit [E].gba",
+      "label": "Hobbit, The - The Prelude to the Lord of the Rings (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "EACDFE0F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Ice Age [E].gba",
+      "label": "Ice Age (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "10179D72|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Incredible Hulk [E].gba",
+      "label": "Incredible Hulk, The (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7E00422C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Inspector Gadget [E].gba",
+      "label": "Inspector Gadget [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "520C4C6A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Inspector Gadget Racing [E].gba",
+      "label": "Inspector Gadget Racing (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B0D1C070|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Jurassic Park 3 - Island Attack [E].gba",
+      "label": "Jurassic Park 3 - Island Attack [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6B72BD12|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Jurassic Park 3 - Park Builder [E].gba",
+      "label": "Jurassic Park III - Park Builder (USA)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "EDDDCF19|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Jurassic Park 3 - DNA Factor [E].gba",
+      "label": "Jurassic Park III - The DNA Factor (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FE89C986|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Justice League - Injustice For All [E].gba",
+      "label": "Justice League - Injustice for All (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D71C4382|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Justice League Heroes - The Flash [E].gba",
+      "label": "Justice League Heroes - The Flash (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "ACB22FFF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Kao The Kangaroo [E].gba",
+      "label": "KAO the Kangaroo (USA) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F6667B3E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Kingdom Hearts - Chain of Memories [E].gba",
+      "label": "Kingdom Hearts - Chain of Memories (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "772D97FB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Kirby & The Amazing Mirror [E].gba",
+      "label": "Kirby & The Amazing Mirror (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4F07C618|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Klonoa - Empire of Dreams [E].gba",
+      "label": "Klonoa - Empire of Dreams [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B9743FBF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Konami Collector's Series - Arcade Classics [E].gba",
+      "label": "Konami Collector's Series - Arcade Classics (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6A8BE56F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/King Kong - The 8th Wonder Of The World [E].gba",
+      "label": "Kong - The 8th Wonder of the World (USA) (En,Fr,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "06079C42|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Legend of Zelda, The - The Minish Cap (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Legend of Zelda, The - The Minish Cap (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E8637292|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Zelda - The Minish Cap [E].gba",
+      "label": "Legend of Zelda, The - The Minish Cap (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E8637292|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Lord of the Rings - The Fellowship of the Ring [E].gba",
+      "label": "Lord of the Rings, The - The Fellowship of the Ring (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2380B93A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Lord of the Rings - The Return Of The King [E].gba",
+      "label": "Lord of the Rings, The - The Return of the King (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7590EBFA|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Lord of the Rings - The Third Age [E].gba",
+      "label": "Lord of the Rings, The - The Third Age (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2DEF3656|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Lord Of The Rings - The Two Towers [E].gba",
+      "label": "Lord of the Rings, The - The Two Towers (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A1E3BF33|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Lucky Luke - Wanted! [E].gba",
+      "label": "Lucky Luke - Wanted! (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F12F29A9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario & Luigi Superstar Saga [E].gba",
+      "label": "Mario & Luigi - Superstar Saga (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "170CC574|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario Golf - Advance Tour [E].gba",
+      "label": "Mario Golf - Advance Tour (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C35DD9F8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario Kart - Super Circuit [E].gba",
+      "label": "Mario Kart - Super Circuit (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "20025842|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario Party Advance [E].gba",
+      "label": "Mario Party Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C8C889E2|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario Tennis Power Tour [E].gba",
+      "label": "Mario Tennis - Power Tour (USA, Australia) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DA192D29|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mario vs. Donkey Kong (Europe) (En,Fr,De,Es,It).zip",
+      "label": "Mario vs. Donkey Kong (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CA030D61|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Medabots AX - Metabee Version [E].gba",
+      "label": "Medabots AX - Metabee Ver. (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "5F1E5A48|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Medabots AX - Rokusho Version [E].gba",
+      "label": "Medabots AX - Rokusho Ver. (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F5801BD8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Megaman Zero 1 [E].gba",
+      "label": "Megaman Zero 1 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D7904398|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Megaman Zero 2 [E].gba",
+      "label": "Megaman Zero 2 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "ECCBA16F|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/MegaMan Zero 3 [E].gba",
+      "label": "MegaMan Zero 3 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4D75F0E6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/MegaMan Zero 4 [E].gba",
+      "label": "MegaMan Zero 4 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4B98C187|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Metal Slug Advance [E].gba",
+      "label": "Metal Slug Advance (Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "3806F4AE|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Metroid - Zero Mission [E].gba",
+      "label": "Metroid - Zero Mission (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F1D92E63|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Metroid Fusion [E].gba",
+      "label": "Metroid Fusion (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "974E46AB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Mission Impossible - Operation Surma [E].gba",
+      "label": "Mission Impossible - Operation Surma [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "67C07A24|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Monster House [E].gba",
+      "label": "Monster House (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "21C84334|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Motoracer Advance [E].gba",
+      "label": "Motoracer Advance [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C6D8734D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Naruto- Ninja council 2 [E].gba",
+      "label": "Naruto- Ninja council 2 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C14C5904|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Need for Speed Carbon - Own The City [E].gba",
+      "label": "Need for Speed - Carbon - Own the City (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "F4C0D140|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Need for Speed - Most Wanted [E].gba",
+      "label": "Need for Speed - Most Wanted (USA, Europe) (En,Fr,De,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "EA15A16E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Need for Speed Underground 2 [E].gba",
+      "label": "Need for Speed - Underground 2 (USA, Europe) (En,Fr,De,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "9A0C5090|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/No Rules - Get Phat [E].gba",
+      "label": "No Rules - Get Phat [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "AC1A8AF7|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Phalanx - The Enforce Fighter A-144 [E].gba",
+      "label": "Phalanx (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DFCFE06C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pinball Advance [E].gba",
+      "label": "Pinball Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "39479369|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Piratas del Caribe - El cofre del hombre muerto [E].gba",
+      "label": "Pirates of the Caribbean - Dead Man's Chest (USA, Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D1A67BE8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Planet Monsters [E].gba",
+      "label": "Planet Monsters [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A0A92BD2|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Planet of the Apes [E].gba",
+      "label": "Planet of the Apes (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6E378BF3|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Esmeralda [E].gba",
+      "label": "Pokemon - Edicion Esmeralda (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8C4D3108|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Rojo fuego [E].gba",
+      "label": "Pokemon - Edicion Rojo Fuego (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "9F08064E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Verde hoja [E].gba",
+      "label": "Pokemon - Edicion Verde Hoja (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2CA11D59|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Mundo misterioso [E].gba",
+      "label": "Pokemon Mystery Dungeon - Red Rescue Team (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C1D18FE4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Pinball RZ [E].gba",
+      "label": "Pokemon Pinball - Ruby & Sapphire (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A53AC14B|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Rubi [E].gba",
+      "label": "Pokemon Rubi [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "429D5C3D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Pokemon Zafiro [E].gba",
+      "label": "Pokemon Zafiro [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "5F35977E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Prince of Persia - The Sands of Time [E].gba",
+      "label": "Prince of Persia - The Sands of Time [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6EADEB17|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Puyo Pop Fever [E].gba",
+      "label": "Puyo Pop Fever (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6E5880ED|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Quieres Ser Millonario [E].gba",
+      "label": "Quiere Ser Millonario (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "43514D44|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Racing Gears Advance [E].gba",
+      "label": "Racing Gears Advance (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "49A88E52|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rayman 10th Anniversary - Rayman Advance + Rayman 3 [E].gba",
+      "label": "Rayman - 10th Anniversary (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "437E95B9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rayman - Hoodlums Revenge [E].gba",
+      "label": "Rayman - Hoodlums' Revenge (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C221C419|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rayman Raving Rabbids [E].gba",
+      "label": "Rayman - Raving Rabbids (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "9914DA23|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/RayMan Advance [E].gba",
+      "label": "Rayman Advance (Europe) (En,Fr,De,Es,It) (Beta)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4B1B4E02|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rebelstar Tactical Command [E].gba",
+      "label": "Rebelstar - Tactical Command (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E448C5D4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Reign Of Fire [E].gba",
+      "label": "Reign of Fire (USA) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "B48F8D57|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Robot Wars - Advanced Destruction [E].gba",
+      "label": "Robot Wars - Advanced Destruction (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CF8231BE|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Robotech - The Macross Saga [E].gba",
+      "label": "Robotech - The Macross Saga (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "325A6596|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Robots [E].gba",
+      "label": "Robots (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2ACBDB64|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rocky [E].gba",
+      "label": "Rocky [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4F9B1E6E|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shark Tale (Europe) (Fr,De,Es).zip",
+      "label": "Shark Tale (Europe) (Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DF2518E9|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shinchan Aventuras en Cineland [E].gba",
+      "label": "Shin chan - Aventuras en Cineland (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "769A7666|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shinchan contra los munecos de Shock Gan [E].gba",
+      "label": "Shin chan contra los Munecos de Shock Gahn (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FD47A2FE|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shining Force [E].gba",
+      "label": "Shining Force - Resurrection of the Dark Dragon (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "07B06994|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shining Soul [E].gba",
+      "label": "Shining Soul (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "74B5D069|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shining Soul II [E].gba",
+      "label": "Shining Soul II (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "55E503C1|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shrek - Smash N' Crash Racing [E].gba",
+      "label": "Shrek - Smash n' Crash Racing (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A45857C4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shrek - Super Slam [E].gba",
+      "label": "Shrek - Super Slam (USA)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E2EC9EED|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Shrek - Swamp Kart [E].gba",
+      "label": "Shrek - Swamp Kart Speedway (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "91483D87|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Los Sims 2 [E].gba",
+      "label": "Sims 2, The (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8B1BC7DF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Los Sims - Bustin' Out [E].gba",
+      "label": "Sims, The - Bustin' Out (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "ABAF519C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Sonic Advance 2 [E].gba",
+      "label": "Sonic Advance 2 (Japan) (En,Ja,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "513804FF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Sonic Battle [E].gba",
+      "label": "Sonic Battle (Europe) (En,Ja,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D0F65125|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Spider-Man Battle for New York [E].gba",
+      "label": "Spider-Man - Battle for New York (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "AD2C404C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Spiderman 3 [E].gba",
+      "label": "Spider-Man 3 (Spain)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "E6251FD3|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En,Fr,De).zip",
+      "label": "SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En,Fr,De)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "DE4A85C0|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).zip",
+      "label": "SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "7580FBD6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob SquarePants - Lights, Camera, Pants! (Europe) (En,Fr,De,Es,It,Nl,Sv).zip",
+      "label": "SpongeBob SquarePants - Lights, Camera, Pants! (Europe) (En,Fr,De,Es,It,Nl,Sv)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C189013D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob SquarePants - Revenge of the Flying Dutchman (USA, Europe).zip",
+      "label": "SpongeBob SquarePants - Revenge of the Flying Dutchman (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "30D6C979|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob SquarePants - SuperSponge (USA, Europe).zip",
+      "label": "SpongeBob SquarePants - SuperSponge (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "98AD67E6|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/SpongeBob's Atlantis SquarePantis (USA).zip",
+      "label": "SpongeBob's Atlantis SquarePantis (USA)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "190B1653|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Spyro - Season of Ice [E].gba",
+      "label": "Spyro - Season of Ice (USA)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "2F2389D2|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Spyro Fusion [E].gba",
+      "label": "Spyro Fusion [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "331B8286|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Star Wars Episode II - Attack of the Clones [E].gba",
+      "label": "Star Wars - Episode II - Attack of the Clones (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C492C46D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Star Wars Episode III - Revenge of the Sith [E].gba",
+      "label": "Star Wars - Episode III - Revenge of the Sith (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FD49236B|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Star Wars - The new droid army [E].gba",
+      "label": "Star Wars - The New Droid Army (Europe) (En,Fr,De,Es)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "677854AF|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Star Wars Trilogy - Apprentice of the Force [E].gba",
+      "label": "Star Wars Trilogy - Apprentice of the Force (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C9F0C492|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Super Bust-A-Move [E].gba",
+      "label": "Super Bust-A-Move (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6BFD2915|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Super Mario Advance 3 - Yoshi's Island [E].gba",
+      "label": "Super Mario Advance 3 - Yoshi's Island (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "639E9D3B|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Super Monkey Ball Jr [E].gba",
+      "label": "Super Monkey Ball Jr. (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D75DA09D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Sword of Mana [E].gba",
+      "label": "Sword of Mana (Europe) (Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "11A0AF49|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Tales of Phantasia [E].gba",
+      "label": "Tales of Phantasia (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FA172A4A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Teenage Mutant Ninja Turtles [E].gba",
+      "label": "Teenage Mutant Ninja Turtles [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8BE170C4|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/The Powerpuff Girls - Mojo Jojo A-Go-Go [E].gba",
+      "label": "The Powerpuff Girls - Mojo Jojo A-Go-Go [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "A30390B8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Tom and Jerry - The Magic Ring [E].gba",
+      "label": "Tom and Jerry - The Magic Ring [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "0407AAE3|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Rainbow Six - Rogue Spear [E].gba",
+      "label": "Tom Clancy's Rainbow Six - Rogue Spear (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "6863CE1A|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Tony Hawks Downhill Jam [E].gba",
+      "label": "Tony Hawk's Downhill Jam (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "4A975F48|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Top Gear Rally [E].gba",
+      "label": "Top Gear Rally (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "86AD4007|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Total Soccer de Steven Gerrard 2002 [E].gba",
+      "label": "Total Soccer de Steven Gerrard 2002 [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FF8A02A8|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Total Soccer Manager [E].gba",
+      "label": "Total Soccer Manager (Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "92F99295|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Los Sims en la ciudad [E].gba",
+      "label": "Urbz, The - Sims in the City (USA, Europe) (En,Fr,De,Es,It,Nl)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "8B3330BB|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/V-Rally 3 [E].gba",
+      "label": "V-Rally 3 (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "02D20287|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Wario Land 4 (USA, Europe).gba",
+      "label": "Wario Land 4 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D6141609|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Wario Land 4 (USA, Europe).zip",
+      "label": "Wario Land 4 (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D6141609|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Worms Blast [E].gba",
+      "label": "Worms Blast (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "5223F5AA|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/X-Men - The Official Game [E].gba",
+      "label": "X-Men - The Official Game (Europe) (En,Fr,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "34BE6923|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Yoshi's Universal Gravitation [E].gba",
+      "label": "Yoshi's Universal Gravitation (Europe)[h]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "FEC0B371|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Yu Yu Hakusho - Ghostfiles - Tournament Tactics [E].gba",
+      "label": "Yu Yu Hakusho - Ghostfiles - Tournament Tactics (USA, Europe)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "AEF6B7CC|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Yu-Gi-Oh! Destiny Board Traveler [E].gba",
+      "label": "Yu-Gi-Oh! - Destiny Board Traveler (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "AE1A8E9D|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Yi-Gi-Oh! - Las cartas sagradas [E].gba",
+      "label": "Yu-Gi-Oh! - The Sacred Cards (Europe) (En,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "D19DB37C|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Yu-Gi-Oh! - Ultimate Masters Edition [E].gba",
+      "label": "Yu-Gi-Oh! - Ultimate Masters Edition - World Championship Tournament 2006 (Europe) (En,Ja,Fr,De,Es,It)",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "CEDE4060|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    },
+    {
+      "path": "/data/ROMS/GBA/Zelda - A Link To The Past [E].gba",
+      "label": "Zelda - A Link To The Past [E]",
+      "core_path": "/data/self/retroarch/cores/mgba_libretro_ps4.self",
+      "core_name": "Nintendo - Game Boy Advance (mGBA)",
+      "crc32": "C72F6AE3|crc",
+      "db_name": "Nintendo - Game Boy Advance.lpl"
+    }
+  ]
+}
