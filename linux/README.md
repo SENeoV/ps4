@@ -15,7 +15,7 @@ Leído en *Ajustes → Sistema → Información del sistema* con GoldHEN cargado
 | **Southbridge** | **Baikal B1 (0x30201)** |
 | GoldHEN | v2.4b18.10 |
 | IP | 192.168.1.201 (cambia; confirmarla antes de conectar) |
-| Pantalla | Monitor Samsung 1080p por HDMI. La PS4 en 1080p, HDR y Deep Colour desactivados |
+| Pantalla | **Tele LG por HDMI.** El monitor Samsung de 22" 1080p no recibe señal con los kernels 5.4 (sacan 1080p60 fijo sin leer el EDID); la tele sí. La PS4 en 1080p, HDR y Deep Colour desactivados |
 
 Lo que implica ser **Baikal**, y además Pro, según la guía y los mantenedores del kernel (septiembre de 2026):
 
@@ -88,7 +88,8 @@ Cuando rmux publique el kernel 7.x para Baikal, la distro a usar pasa a ser [Cac
   (`E:` es el pendrive; salen unos 2,5 GB y tarda unos minutos. Para la prueba con la de 7coil, el mismo comando con su archivo. Si una distro ya es `.tar.gz`, solo renombrar.)
 
 - **Preparado el 2026-09-13** (Kingston DataTraveler 3.0, 30,9 GB, etiqueta `PS4LINUX`): `bzImage` y `initramfs.cpio.gz` con el mismo SHA-1 que el catálogo, y `psxitarch.tar.gz` de 2.729.779.909 bytes recomprimido desde el Arch Mesa 25.1 (`gzip -t` correcto, 6.630.072.320 bytes descomprimidos, los mismos que el `.xz`).
-- Sin `bootargs.txt` ni `vram.txt`: el kernel 5.4.247 ya pone 1920x1080 a 60 Hz y la VRAM la fija el payload elegido. Solo si hace falta, `bootargs.txt` junto al `bzImage` (ver "Problemas").
+- **`bootargs.txt` sí hace falta**, por el initramfs: sin `root=LABEL=psxitarch` cae siempre en la rescue shell pidiendo `resume-boot`. Línea completa: `panic=0 clocksource=tsc consoleblank=0 net.ifnames=0 radeon.dpm=0 amdgpu.dpm=0 drm.debug=0 console=tty0 video=HDMI-A-1:1920x1080@60 drm.edid_firmware=edid/1920x1080.bin root=LABEL=psxitarch`.
+- Sin `vram.txt`: el kernel 5.4.247 ya pone 1920x1080 a 60 Hz y la VRAM la fija el payload elegido. Solo si hace falta, `bootargs.txt` junto al `bzImage` (ver "Problemas").
 
 ### 2. Preparar la consola
 
@@ -144,6 +145,24 @@ La meta del proyecto es jugar a GameCube (*Wind Waker*) con Dolphin. Lo que hace
 - **Mando.** El DualShock 4 **por cable USB** funciona sin emparejar; por Bluetooth hay que emparejarlo en cada arranque de Linux. En Dolphin: *Controllers → Port 1 → Standard Controller*, dispositivo `evdev`/`SDL`, y asignar botones. Para Wii, *Emulated Wii Remote* con el mismo mando.
 - **Wii** funciona igual (mismo Dolphin), con el puntero del Wiimote mapeado al stick derecho. Menos cómodo, pero para juegos sin puntero va bien.
 
+## Otros emuladores en este Linux
+
+Mismo hardware para todos: 8 Jaguar a 2,1 GHz y una GPU con OpenGL 4.6 (Mesa 25.1). Vulkan da problemas en Pro: **backend OpenGL** siempre que se pueda elegir. Todo por `pacman` o AUR (`yay`), **nunca por Flatpak**: el Flatpak trae su propia Mesa 26 y con el kernel 5.4 va por software. Y antes de instalar nada, `IgnorePkg` para Mesa (sección Dolphin).
+
+| Emulador | Sistema | Expectativa en esta Pro | Instalación |
+|---|---|---|---|
+| Dolphin | GameCube, Wii | Buena (*Pikmin* a 50 fps reportado) | `pacman -S dolphin-emu` |
+| PPSSPP | PSP | Muy buena | `pacman -S ppsspp` |
+| PCSX2 | PS2 | Correcta en muchos juegos; la PS4 ya tiene PS2 Classics nativo, así que solo para lo que ahí no funcione | `pacman -S pcsx2` |
+| RetroArch | retro | Como en la PS4, pero con los cores que al port de 2020 le faltan (Pokémon Mini, Amiga, Spectrum, Neo Geo CD, X68000) y N64 con OpenGL | `pacman -S retroarch` + cores |
+| Cemu | Wii U | Según la guía, *Super Mario 3D World* a 50-55 fps con ajustes | AUR `cemu-bin` |
+| RPCS3 | PS3 | Justa: *Demon's Souls* y *Folklore* jugables; lo que exprime las SPU se arrastra. Necesita el firmware de PS3 (🧑) | AUR `rpcs3-bin` |
+| Azahar | 3DS | Sin informes en PS4; la guía pone 3DS en "Low" | AUR |
+| Yuzu / Ryujinx | Switch | No: 8-20 fps según la guía | — |
+| xemu | Xbox | Solo en teoría, sin informes | AUR |
+
+Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla de compatibilidad de juegos de PC.
+
 ## Registro de pruebas
 
 ### 2026-09-13, madrugada — seis intentos, ninguno con imagen
@@ -162,6 +181,25 @@ Lecciones:
 - El BinLoader de GoldHEN se cierra si recibe una conexión vacía (un `connect` de prueba); no sondear el puerto 9090, enviar directamente. El FTP (2121) sí se puede sondear.
 - Forzar el EDID no sirve con estos kernels: según el foro, [no usan el EDID del monitor](https://ps4linux.com/forums/d/388-baikal-ps4-slim-no-signal-after-loading-linux-payload) y sacan 1080p a 60 Hz fijo. En ese hilo (10-2025), un Baikal B1 con el mismo kernel y el mismo síntoma **funcionó al cambiar el monitor por una tele**; su monitor era un MSI a 100 Hz. Siguiente prueba: una tele.
 - Pendiente de aclarar si la consola se apaga por temperatura (sin control del ventilador en Baikal) o por un cuelgue del kernel: medir cuánto tarda y si el ventilador gira.
+
+### 2026-09-13, tarde — con la tele funciona; instalado y con GPU
+
+| Hora | Qué | Resultado |
+|---|---|---|
+| 16:25 | Tele LG en vez del monitor. Kernel `5.4.247 baikal_mt76`, `bootargs.txt` con EDID forzado, payload v25 de 1 GB | **Rescue shell en pantalla** a la primera. Era el monitor |
+| 16:35 | `install-psxitarch.sh` | Encuentra `/dev/sda` (29 GB), copia a RAM, particiona, extrae. **1 h 40 min** para 249.000 archivos: 30/s en las librerías grandes, 130/s en los pequeños. El pendrive iba a **USB 2.0** (`480` en `/sys/bus/usb/devices/*/speed`): no entraba del todo en el puerto frontal |
+| 18:17 | Fin de la instalación | `Psxitarch linux installed with success!`, pero el `switch_root` final del script falla ("PID must be 1") y vuelve a la rescue shell. `resume-boot` arranca la distro |
+| 18:21 | Payload de 2 GB, arranque normal | Vuelve a caer en la rescue shell (*"root" variable is empty*): falta `root=LABEL=psxitarch` en `bootargs.txt`. Con `resume-boot` arranca. Pendiente añadirlo |
+| 18:25 | Login en SDDM, sesión Plasma (Wayland) | Negro con cursor |
+| 18:40 | Sesión Plasma (X11) | Se queda en el splash de KDE más de 3 minutos (pendrive a USB 2.0) |
+| 18:45 | Sesión **LXDE** | Escritorio en segundos. `glxinfo`: **`AMD Radeon Graphics (radeonsi, liverpool, ACO, DRM 3.35, 5.4.247-DFAUS-blkscrn_Fix_mt7668_hdmia)`** — aceleración GPU real |
+
+Lecciones:
+
+- El kernel 5.4.247 `baikal_mt76` + loader v25 + distro Arch Mesa 25.1 funcionan en esta CUH-7116B. El `neocine-1.1` queda por probar con la tele.
+- El teclado es US: la `|` es Shift + `\` (encima de Intro). En la rescue shell no hay distribución española.
+- `glxinfo` solo funciona dentro del escritorio; en una consola de texto da *unable to open display*.
+- Plasma 6 en un pendrive a USB 2.0 no es viable; LXDE sí. Para Dolphin da igual el escritorio.
 
 ## Problemas conocidos
 

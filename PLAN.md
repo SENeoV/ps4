@@ -156,9 +156,9 @@ El romset tiene que ser de la versión exacta del core.
 - [x] 🤖 Loader v25, kernel 5.4.247 (Baikal) e initramfs externo, verificados y catalogados
 - [x] 🧑 Distro con Mesa ≤ 25.1 en `linux/distros/`: Arch de marzo de 2026 con KDE y Mesa 25.1.0-devel, verificada (2026-09-13)
 - [x] 🤖 Pendrive Kingston DataTraveler 3.0 de 30,9 GB preparado el 2026-09-13: MBR, FAT32 `PS4LINUX`, con `bzImage`, `initramfs.cpio.gz` (SHA-1 comprobados) y `psxitarch.tar.gz` (2,73 GB, `gzip -t` correcto)
-- [ ] 🎮 Llega a la rescue shell con el payload de 1 GB — **6 intentos el 13-09 sin señal de vídeo** en el monitor Samsung; probar con una tele (registro en `linux/README.md`)
-- [ ] 🎮 `install-psxitarch.sh` instala y arranca la distro
-- [ ] 🎮 Escritorio con GPU (`glxinfo`: `AMD Liverpool`, no `llvmpipe`)
+- [x] 🎮 Llega a la rescue shell con el payload de 1 GB — 6 intentos sin señal en el monitor Samsung; **con una tele, a la primera** (13-09, registro en `linux/README.md`)
+- [x] 🎮 `install-psxitarch.sh` instala (1 h 40 min en pendrive a USB 2.0) y la distro arranca (13-09)
+- [x] 🎮 Escritorio LXDE con GPU: `glxinfo` → `AMD Radeon Graphics (radeonsi, liverpool, ACO…)` (13-09). Plasma no arranca bien desde el pendrive
 - [ ] 🎮 Dolphin con *Wind Waker* a velocidad completa (OpenGL, resolución nativa); después RPCS3
 - [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 

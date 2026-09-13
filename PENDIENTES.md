@@ -199,9 +199,11 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🧑 **La distro:** Arch de marzo de 2026 con KDE Plasma 6.6 y Mesa 25.1.0-devel, bajada de Mega el 2026-09-13, íntegra (`xz -t`) y catalogada como `linux/distros/ps4linux-arch-mesa25.1-2026-03-09.tar.xz`
 - [x] 🤖 **Pendrive preparado** (2026-09-13): Kingston DataTraveler 3.0 de 30,9 GB, reparticionado de GPT a MBR, FAT32 `PS4LINUX`, con `bzImage`, `initramfs.cpio.gz` y `psxitarch.tar.gz` (2,73 GB, verificado)
 - [ ] 🧑 Teclado y ratón USB para la consola
-- [ ] 🎮 Con GoldHEN cargado, BinLoader activado y el disco de Poops fuera: enviar `linux-1024mb.bin` al puerto 9090 y llegar a la rescue shell
-- [ ] 🎮 `install-psxitarch.sh`, esperar, y que arranque la distro. En arranques siguientes, payload de 2 GB
-- [ ] 🎮 Comprobar la GPU (`glxinfo | grep renderer` → `AMD Liverpool`) y anotar en `linux/README.md` qué ha pasado: pantalla, Wi-Fi/Ethernet, mando
+- [x] 🎮 Rescue shell, instalación y arranque de la distro (13-09): **solo con la tele**, el monitor Samsung no recibe señal
+- [x] 🎮 GPU comprobada: `radeonsi, liverpool, ACO` en LXDE (13-09)
+- [ ] 🤖 Añadir `root=LABEL=psxitarch` al `bootargs.txt` del pendrive para que arranque sin `resume-boot`
+- [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
+- [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro); si va, se queda
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
 - [ ] 🎮 `IgnorePkg` para Mesa en `pacman.conf`, `pacman -Syu dolphin-emu`, backend OpenGL, y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
