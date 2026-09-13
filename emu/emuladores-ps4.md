@@ -118,7 +118,7 @@ Lo que sí hay es **Linux en esta consola**. En 12.52 está disponible: [ps4-lin
 
 | Consola | Emulador en Linux | Informes en PS4 Pro |
 |---|---|---|
-| GameCube / Wii | Dolphin | Funciona; *Pikmin* a 50 fps en PS4 Pro. Con OpenGL: el backend Vulkan se cuelga en PS4 Pro con Mesa 22 o superior |
+| GameCube / Wii | Dolphin | **Probado en esta consola (13-09-2026): *Wind Waker* a 30 fps, velocidad completa, con Vulkan (Mesa 25.1)**. Informes: *Pikmin* a 50 fps en PS4 Pro. El cuelgue de Vulkan en Pro era con Mesa 22 |
 | PS3 | RPCS3 | *Demon's Souls* y *Folklore* reportados jugables; los juegos que cargan las SPU van cortos de CPU |
 | PS Vita | Vita3K | Sin informes en PS4. El emulador sigue experimental incluso en PC |
 
@@ -126,7 +126,7 @@ Lo que cuesta, y por lo que es **un proyecto aparte** (preparado en [`linux/`](.
 
 - Cada arranque de Linux exige GoldHEN cargado y luego el loader; al reiniciar vuelve el sistema de la PS4 intacto. No conviven: mientras está Linux no hay RetroArch ni PS1/PSP Classics.
 - Linux vive en un pendrive o disco externo (en Baikal no hay otra opción), con teclado y ratón. Es un PC con Linux que hay que administrar, y con un kernel 5.4 que no se puede actualizar a la ligera.
-- Ninguno de estos informes está verificado en esta consola; los de Dolphin y RPCS3 son de Pros con Belize y kernels más nuevos.
+- Dolphin sí está verificado en esta consola (*Wind Waker*, 13-09-2026); RPCS3 y Vita3K, no.
 
 Qué hay preparado, qué falta y el procedimiento, en [`linux/README.md`](../linux/README.md); la guía general de la escena, en [`linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md). La guía paso a paso (requisitos, payloads, instalación interna o externa, distros recomendadas, problemas y compatibilidad de juegos) está copiada en [`../linux/ps4-linux-tutorial.md`](../linux/ps4-linux-tutorial.md).
 

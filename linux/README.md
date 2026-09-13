@@ -220,6 +220,13 @@ Lecciones:
 - El disco interno de la PS4 aparece en Linux como `sdb` con sus 16 particiones cifradas. No tocar.
 - `pacman -S` funciona con red; `ifconfig`/`iwconfig`/`nslookup` no existen como paquetes (son `net-tools`, `wireless_tools`, `bind`); con `ip`, `iw` y `getent hosts` sobra.
 
+### 2026-09-13, 23:40 — *Wind Waker* jugable
+
+- **Dolphin 2509 con *Wind Waker* (GZLP01) a 30 fps** (velocidad completa: el juego es de 30 nativos) en menús y juego; 23-24 fps en alguna cinemática. Backend **Vulkan** (`JIT64 DC | Vulkan | HLE`): Dolphin lo eligió (o Javi) por encima del `OGL` del `Dolphin.ini`, y funciona; el aviso de la escena de que Vulkan se cuelga en Pro era de Mesa 22. OpenGL queda por comparar.
+- **CPU a 1,59 GHz**, no a 2,13: el kernel dice *"Unable to measure TSC frequency, assuming default"* (1594 MHz) y el *uptime* cuadra con el reloj real, así que la frecuencia es esa de verdad. Es el P-state que deja el loader antes del kexec y/o este kernel 5.4; pregunta abierta para `neocine-1.1` y los kernels de rmux.
+- **Temperatura: CPU a 71 °C jugando, con "high" en 70** (`sensors`, `k10temp`). En Baikal ningún kernel controla el ventilador: se queda como lo dejó el sistema de la PS4. Explica los apagones de la madrugada (protección térmica del Syscon). **Antes de lanzar Linux, lanzar `ps4-fan-threshold60.bin` en Payload Guest**: el umbral vive en el microcontrolador del ventilador y sobrevive al kexec.
+- Zona horaria puesta a `Europe/Madrid` (venía en UTC; la hora ya la sincroniza NTP).
+
 ## Problemas conocidos
 
 | Síntoma | Qué hacer |

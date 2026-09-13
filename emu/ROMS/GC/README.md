@@ -1,6 +1,6 @@
 # GC — GameCube (2001)
 
-- **Estado:** Solo con Linux — proyecto aparte en marcha ([`linux/`](../../../linux/README.md)), sin probar
+- **Estado:** Solo con Linux — **funciona**: *Wind Waker* a 30 fps en Dolphin 2509 el 13-09-2026 ([`linux/`](../../../linux/README.md))
 - **Core en la PS4:** ninguno. Dolphin necesita OpenGL 3.3 / GLES 3.0 / Vulkan y el port de RetroArch para PS4 solo llega a OpenGL ES 2
 - **Extensiones:** `.iso` `.gcm` `.rvz` (Dolphin)
 - **BIOS:** no necesita

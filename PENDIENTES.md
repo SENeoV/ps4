@@ -214,7 +214,11 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro y trae ZRAM); si va, se queda y se reactiva el `zram-generator.conf`
 - [ ] 🧑 Apagar Linux siempre desde el menú (partición sin journal); algún día `e2fsck` en frío desde la rescue shell
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
-- [ ] 🎮 Dolphin con backend OpenGL y *Wind Waker* a velocidad completa (sección "Dolphin" de `linux/README.md`). Después RPCS3, con su firmware (necesita red o su paquete del AUR compilado)
+- [x] 🎮 ***Wind Waker* a 30 fps en Dolphin 2509** (Vulkan), 13-09 a las 23:40
+- [ ] 🎮 Lanzar `ps4-fan-threshold60.bin` antes de Linux en cada arranque: la CPU va a 71 °C jugando y en Baikal nadie mueve el ventilador
+- [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena); mando DualShock 4 por cable y mapeo en Dolphin
+- [ ] 🤖 Averiguar por qué la CPU va a 1,59 GHz en vez de 2,13 (P-state del loader / kernel 5.4) y si `neocine-1.1` o rmux lo cambian
+- [ ] 🎮 RPCS3, con su firmware (AUR, con red)
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
 
 ---
