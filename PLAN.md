@@ -49,7 +49,7 @@ Se regeneran solos en cada commit con el hook `tools/hooks/pre-commit`. A mano: 
 - [x] `tools/guard.py` + hooks pre-commit/pre-push — ningún binario puede llegar a GitHub
 - [x] Limpieza 2026-09-12 (registro en `cleanup-2026-09-12.tsv`): MD deduplicado, ROMs mal colocadas movidas, BIOS de trucos, carátulas y partidas apartadas, nombres con tildes pasados a ASCII
 - [x] Revisión de consolas restantes y hoja de ruta (2026-09-13)
-- [x] Bases de datos, listas y carátulas de 17 sistemas preparadas en `emu/RETROARCH/` con `tools/retroarch_lists.py`
+- [x] Bases de datos, listas y carátulas de 18 sistemas preparadas en `emu/RETROARCH/` con `tools/retroarch_lists.py`
 - [ ] Subir bases de datos, listas y carátulas a la consola (unos 1,4 GB; ver `emu/RETROARCH/README.md`), después de subir las ROMs de la Tanda 1
 
 ## 1. Hecho — en la PS4
@@ -74,7 +74,7 @@ Orden acordado el 2026-09-13. Cores, extensiones y BIOS están verificados contr
 | Sistema | Carpeta | Core | ROMs | Probado en PS4 |
 |---|---|---|---|---|
 | Atari 2600 | `ATARI2600/` | stella2014 | [x] 885 | [ ] |
-| Atari 7800 | `ATARI7800/` | prosystem | [ ] **falta** | [ ] |
+| Atari 7800 | `ATARI7800/` | prosystem | [x] 170 | [ ] |
 | PC Engine | `PCE/` | mednafen_pce_fast | [x] 210 | [ ] |
 | Neo Geo Pocket | `NGP/` | mednafen_ngp | [x] 3 | [ ] |
 | Neo Geo Pocket Color | `NGPC/` | mednafen_ngp | [x] 72 | [ ] |
@@ -149,9 +149,13 @@ El romset tiene que ser de la versión exacta del core.
 
 `POKEMINI/` (pokemini), `AMIGA/` (puae), `ZXSPECTRUM/` (fuse), `NEOGEOCD/` (neocd), `X68000/` (px68k) y `CHIP8/`. Ninguno de esos cores está entre los 74 instalados.
 
+### Solo con Linux — fuera de la hoja de ruta
+
+`GC/`, `WII/`, `PS3/` y `VITA/`: no hay emulador en el sistema de la PS4, pero Linux sí arranca en 12.52 y ahí corren Dolphin y RPCS3 (con informes en PS4 Pro) y Vita3K (sin informes). Es un proyecto aparte, no planificado. Detalle en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).
+
 ### No viables
 
-`3DS/`, `GC/`, `WII/`, `VITA/`, `PS3/`, `XBOX/` y `SWITCH/`. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).
+`3DS/`, `XBOX/` y `SWITCH/`. Motivos en [`emu/emuladores-ps4.md`](emu/emuladores-ps4.md).
 
 ## 3. Rutina al añadir un sistema nuevo
 
