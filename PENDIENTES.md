@@ -223,7 +223,7 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🤖 USA copiado a `emu/ROMS/GC/` con SHA-1 verificado; conjunto de prueba de texturas (`Characters` + `Items`, 846 archivos, 404 MB) extraído en `linux/texturas/GZL/` (14-09)
 - [x] 🤖 Subidos por SFTP el USA (`/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz`) y `GZL/` a `~/.local/share/dolphin-emu/Load/Textures/`, con Dolphin cerrado y copia de la config (14-09)
 - [x] 🤖 `GameSettings/GZLE01.ini`: texturas activadas, anisotrópico **1x** y *Prefetch* **no**, solo en el USA; 16:9 y sin desenfoque como el europeo (14-09)
-- [ ] 🤖 Esperar a que el pendrive termine de escribir (extracción y `sync`, ~2 h a 150 KB/s el 14-09): **no apagar Linux hasta entonces**
+- [x] 🤖 Pendrive terminó de escribir el 14-09: `tar` de 00:30 a 01:11 y `sync` hasta las 02:11 (1 h 40 min para ~1,3 GB)
 - [ ] 🎮 Arrancar el USA y comprobar que Link y los objetos salen en HD, y los fps con las texturas
 - [ ] 🧑 Pendrive o SSD con buena escritura sostenida: el Kingston DataTraveler 3.0 escribe a ~150 KB/s y el pack completo de texturas tardaría unas 17 h
 - [x] 🧑 Originales de Descargas borrados tras verificar las copias del repo (14-09)

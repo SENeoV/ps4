@@ -161,7 +161,8 @@ Para comprobar que las coge basta con que Link se vea distinto (o mirar `~/.loca
 - Partida europea guardada antes de cerrar (Shift+F1 → `StateSaves/GZLP01.s01`, 00:15) y Dolphin cerrado con Ctrl+Q. El segundo `xdotool` dio `BadWindow` porque la ventana ya se había cerrado: no es un error.
 - Copia previa de la configuración en `~/.config/dolphin-emu.bak-2026-09-14`.
 - `Legend of Zelda, The - The Wind Waker (USA).rvz` subido como `/home/ps4/Juegos/Zelda-Wind-Waker-USA.rvz`.
-- Juego y `.tar` del conjunto de prueba (`Characters` + `Items`) verificados en la consola por SHA-1; el `.tar` se extrae en `~/.local/share/dolphin-emu/Load/Textures/GZL/`.
+- Juego y `.tar` del conjunto de prueba (`Characters` + `Items`) verificados en la consola por SHA-1; el `.tar` se extrajo en `~/.local/share/dolphin-emu/Load/Textures/GZL/` y se borró.
+- **Verificado en el pendrive tras el `sync`, con la caché vaciada** (02:15): `.rvz` USA con el SHA-1 del catálogo, y `GZL/` con 846 archivos, 419.597.016 B y el mismo hash conjunto que en el PC (`6961f340…`: SHA-1 de la lista de SHA-1 de cada archivo, ordenados por ruta con `LC_ALL=C`; se compara solo la columna del hash, porque el `sha1sum` de Git Bash pone `*` delante de la ruta y el de Linux no).
 
 **El pendrive escribe a ~150 KB/s sostenidos** (medido en `/sys/block/sda/stat`, sin errores USB en `dmesg`, enlace a 480 Mb/s). Por SFTP los primeros ~700 MB llegan a 7-8 MB/s porque van a la caché de RAM; al llenarse (`Dirty` ≈ 1 GB) todo se frena al ritmo real del pendrive, y el `tar` extrae un archivo por minuto. Consecuencias:
 
@@ -170,6 +171,10 @@ Para comprobar que las coge basta con que Link se vea distinto (o mirar `~/.loca
 - No subir un `.tar` para extraerlo allí: duplica lo que hay que escribir. Mejor archivo a archivo, o subirlo a un USB aparte.
 - **El pack entero (9,1 GB) a 150 KB/s son unas 17 horas de escritura**: con este pendrive no es viable. Hace falta un SSD o un pendrive con buena escritura sostenida.
 - El `install-psxitarch.sh` de 1 h 40 min del 13-09 fue esto mismo.
+
+Tiempos reales del 14-09: subida por SFTP del juego y del `.tar` hasta las 00:30; `tar` hasta las 01:11 (846 archivos, con `Dirty` clavado en ~990 MB todo el rato); `sync` hasta las 02:11. **Una hora y cuarenta minutos para ~1,3 GB.** Para esperar sin que se corte la sesión SSH, un script con `setsid nohup` que registra `dds` y `Dirty` cada minuto y hace el `sync` al final.
+
+**La lectura, en cambio, va bien: 13 MiB/s** (SHA-1 del `.rvz` USA con la caché vaciada, `echo 1 > /proc/sys/vm/drop_caches`: 823 MiB en 61 s). Eso es lo que cuenta al jugar: un `.dds` de personaje, de 0,5 MB de media, se lee en unas centésimas. El pendrive es malo para copiar cosas, no necesariamente para cargar texturas.
 - **Todo por juego, sin tocar la configuración global ni la versión europea**: `GameSettings/GZLE01.ini` activa las texturas y el anisotrópico a 1x solo en el USA, y copia del europeo el 16:9 y el desenfoque:
 
 ```ini
