@@ -14,7 +14,8 @@ JUEGOS="$HOME/Juegos"
 mkdir -p "$DEST" "$MENU"
 
 # Nombres de .desktop que instala cada programa, según la distro
-PROGRAMAS="dolphin-emu org.DolphinEmu.dolphin-emu PPSSPPSDL PPSSPPQt ppsspp org.ppsspp.PPSSPP rpcs3 net.rpcs3.RPCS3 \
+# Nombres de .desktop que instala cada programa, según la distro (de PPSSPP solo la variante SDL: la Qt es la misma app)
+PROGRAMAS="dolphin-emu org.DolphinEmu.dolphin-emu PPSSPPSDL ppsspp org.ppsspp.PPSSPP rpcs3 net.rpcs3.RPCS3 \
 retroarch firefox chromium pcmanfm lxterminal xterm htop"
 
 for base in $PROGRAMAS; do

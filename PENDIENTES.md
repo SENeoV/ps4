@@ -234,6 +234,7 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🎮 ***Wind Waker* a 30 fps en Dolphin 2509** (Vulkan), 13-09 a las 23:40
 - [ ] 🎮 Lanzar `ps4-fan-threshold60.bin` antes de Linux en cada arranque: la CPU va a 71 °C jugando y en Baikal nadie mueve el ventilador
 - [x] 🎮 DualShock 4 por cable mapeado en Dolphin (13-09); por Bluetooth pendiente (emparejar desde Linux, `linux/dolphin.md`)
+- [x] 🤖 Escritorio de LXDE con accesos directos (15-09, `linux/escritorio/`): Dolphin, PPSSPP, Firefox, terminal, archivos, htop, un icono por juego de `~/Juegos` que abre Dolphin directo, la carpeta de juegos y *Apagar Linux*. Al añadir juegos, `sh ~/escritorio/instalar.sh` en la consola
 - [x] 🤖 Aplicados por SSH los cambios de `linux/dolphin.md` con copia previa (13-09, 23:58)
 - [ ] 🎮 Comprobar con la nueva configuración: fps en la cinemática del barco y mando (Z=R1, L=L2, R=R2, cámara). El 16:9 sin barras ya está comprobado en el USA (14-09)
 - [x] 🧑 *Wind Waker* (USA, RVZ, `GZLE01`, 863 MB) y el pack de texturas *Hypatia WWHD v2.0* descargados (14-09)
