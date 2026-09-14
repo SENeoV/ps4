@@ -28,7 +28,7 @@ ROOTS = {
 # Subcarpetas (relativas a la raíz, con comodines de fnmatch) que no se catalogan: linux/src/ son submódulos con código
 # fuente, y los packs de texturas extraídos en linux/texturas/ son decenas de miles de .dds; de ellos se cataloga el .7z.
 # Igual con los juegos de DOS y ScummVM descomprimidos en emu/ROMS: se cataloga su zip original en emu/ORIGINALES/DOS/
-SKIP_DIRS = {"LINUX": {"src", "texturas/GZL"}, "ROMS": {"DOS/*", "SCUMMVM/*"}}
+SKIP_DIRS = {"LINUX": {"src", "texturas/GZL", "cpu"}, "ROMS": {"DOS/*", "SCUMMVM/*"}}  # linux/cpu se versiona entero
 FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1", "content_id"]
 
 
