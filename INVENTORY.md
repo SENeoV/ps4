@@ -4,15 +4,18 @@ Generado por `tools/inventory.py`, que se ejecuta solo en cada commit. Detalle e
 
 Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, que es el que se contrasta con los DAT de No-Intro/Redump. En los `.pkg`, `content_id` es el Content ID leído de la cabecera.
 
-**Total: 7098 archivos**
+**Total: 31808 archivos**
 
 | Sistema | Archivos | Tamaño |
 |---|--:|--:|
 | 32X | 45 | 131.9 MB |
 | APPS | 6 | 1593.3 MB |
+| ARCADE | 2514 | 3864.1 MB |
 | ATARI2600 | 885 | 5.3 MB |
 | ATARI7800 | 170 | 11.9 MB |
 | BIOS | 20 | 0.8 MB |
+| C64 | 19959 | 1037.1 MB |
+| DOS | 956 | 0.2 MB |
 | GB | 1542 | 346.0 MB |
 | GBA | 213 | 2117.9 MB |
 | GBC | 495 | 230.1 MB |
@@ -21,9 +24,11 @@ Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, 
 | LINUX | 33 | 5002.6 MB |
 | LYNX | 136 | 27.7 MB |
 | MD | 1337 | 1416.1 MB |
+| NEOGEO | 285 | 4392.4 MB |
 | NES | 632 | 121.8 MB |
 | NGP | 3 | 6.0 MB |
 | NGPC | 72 | 91.9 MB |
+| ORIGINALES | 996 | 2950.9 MB |
 | PCE | 210 | 88.8 MB |
 | PKG | 51 | 2232.1 MB |
 | SMS | 333 | 88.0 MB |
@@ -31,4 +36,4 @@ Hash: **SHA-1**. En los `.zip`, la columna `rom_sha1` es el de la ROM interior, 
 | VB | 31 | 11.2 MB |
 | WS | 214 | 349.6 MB |
 | WSC | 131 | 446.5 MB |
-| **TOTAL** | **7098** | **16378.6 MB** |
+| **TOTAL** | **31808** | **28623.3 MB** |

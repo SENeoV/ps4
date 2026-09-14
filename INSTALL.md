@@ -16,7 +16,11 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 | `emu/RETROARCH/database/rdb/*.rdb` | `/data/retroarch/database/rdb/` | Bases de datos de libretro: permiten a RetroArch reconocer juegos al escanear |
 | `emu/RETROARCH/thumbnails/<lista>/` | `/data/retroarch/thumbnails/<lista>/` | Carátulas. La carpeta de cada sistema tiene que llamarse igual que su lista |
 | `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
-| `emu/MEDIA/`, `emu/EXTRAS/` | — | **No se suben.** Carátulas y archivos que no son juegos |
+| `emu/ROMS/ARCADE/FBNEO/` y sus `CPS1/`, `CPS2/`, `CPS3/`; `emu/ROMS/NEOGEO/` | `/data/ROMS/...` con la misma ruta | Cada carpeta es de un core. El padre de cada clon y la BIOS de placa (`neogeo.zip`, `pgm.zip`) van en la misma carpeta que el juego |
+| `emu/ROMS/DOS/` | `/data/ROMS/DOS/` | Las carpetas de juego y sus `.conf`. Cada `.conf` monta `/data/ROMS/DOS/<Juego>`, así que en otra ruta no arranca |
+| `emu/ROMS/SCUMMVM/` | `/data/ROMS/SCUMMVM/` | Cada juego en su carpeta, con su `.scummvm` dentro |
+| `emu/MEDIA/`, `emu/EXTRAS/`, `emu/ORIGINALES/` | — | **No se suben.** Carátulas, archivos que no son juegos y los zips originales de lo que va descomprimido |
+| `emu/RETROARCH/database/dat/` | — | **No se sube.** DAT de FB Alpha 2012 para `tools/fba2012.py` |
 | `linux/` | Pendrive USB (no FTP) | Linux: `bzImage`, `initramfs.cpio.gz` y la distro van en un pendrive FAT32, y el payload se envía al BinLoader de GoldHEN (puerto 9090). Procedimiento en [`linux/README.md`](linux/README.md) |
 
 La carpeta `/data/retroarch/` no existirá hasta que RetroArch se haya ejecutado al menos una vez.

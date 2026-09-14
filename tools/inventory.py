@@ -4,6 +4,7 @@
 #   python tools/inventory.py --force   recalcula todo
 
 import csv
+import fnmatch
 import hashlib
 import os
 import sys
@@ -20,12 +21,14 @@ ROOTS = {
     "ROMS": os.path.join(EMU, "ROMS"),
     "BIOS": os.path.join(EMU, "BIOS"),
     "APPS": os.path.join(EMU, "APPS"),
+    "ORIGINALES": os.path.join(EMU, "ORIGINALES"),
     "PKG": os.path.join(REPO, "pkg"),
     "LINUX": os.path.join(REPO, "linux"),
 }
-# Subcarpetas (relativas a la raíz) que no se catalogan: linux/src/ son submódulos con código fuente, y los packs
-# de texturas extraídos en linux/texturas/ son decenas de miles de .dds; de ellos se cataloga el .7z, no cada textura
-SKIP_DIRS = {"LINUX": {"src", "texturas/GZL"}}
+# Subcarpetas (relativas a la raíz, con comodines de fnmatch) que no se catalogan: linux/src/ son submódulos con código
+# fuente, y los packs de texturas extraídos en linux/texturas/ son decenas de miles de .dds; de ellos se cataloga el .7z.
+# Igual con los juegos de DOS y ScummVM descomprimidos en emu/ROMS: se cataloga su zip original en emu/ORIGINALES/DOS/
+SKIP_DIRS = {"LINUX": {"src", "texturas/GZL"}, "ROMS": {"DOS/*", "SCUMMVM/*"}}
 FIELDS = ["system", "file", "bytes", "sha1", "rom_sha1", "content_id"]
 
 
@@ -81,7 +84,7 @@ def scan():
         skip = SKIP_DIRS.get(root, set())
         for dirpath, dirs, names in os.walk(base):
             here = os.path.relpath(dirpath, base).replace(os.sep, "/")
-            dirs[:] = [d for d in dirs if d != ".git" and (d if here == "." else f"{here}/{d}") not in skip]
+            dirs[:] = [d for d in dirs if d != ".git" and not any(fnmatch.fnmatch(d if here == "." else f"{here}/{d}", p) for p in skip)]
             for name in names:
                 if name.lower().endswith(".md"):
                     continue

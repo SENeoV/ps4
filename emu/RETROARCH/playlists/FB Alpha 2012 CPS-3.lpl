@@ -1,0 +1,267 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+  "default_core_name": "Arcade (FB Alpha 2012 CPS-3)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojobaner1.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Euro 990913, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojobane.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Euro 990927, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojobar1.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990913)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojobanr1.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990913, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojoba.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojoban.zip",
+      "label": "JoJo's Bizarre Adventure: Heritage for the Future / JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojonr2.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Asia 981202, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojonr1.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Asia 990108, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojon.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Asia 990128, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojojr2.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Japan 981202)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojojr1.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Japan 990108)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojoj.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (Japan 990128)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojor2.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (USA 981202)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojor1.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (USA 990108)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/jojo.zip",
+      "label": "JoJo's Venture / JoJo no Kimyou na Bouken (USA 990128)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/redearthr1.zip",
+      "label": "Red Earth / War-Zard (Euro 961023)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/redearth.zip",
+      "label": "Red Earth / War-Zard (Euro 961121)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii2n.zip",
+      "label": "Street Fighter III 2nd Impact: Giant Attack (Asia 970930, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii2j.zip",
+      "label": "Street Fighter III 2nd Impact: Giant Attack (Japan 970930)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii2.zip",
+      "label": "Street Fighter III 2nd Impact: Giant Attack (USA 970930)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3r1.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (Euro 990512)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3nr1.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990512, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3n.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (Japan 990608, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3ur1.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (USA 990512)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii3u.zip",
+      "label": "Street Fighter III 3rd Strike: Fight for the Future (USA 990608)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiiin.zip",
+      "label": "Street Fighter III: New Generation (Asia 970204, NO CD)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiiih.zip",
+      "label": "Street Fighter III: New Generation (Hispanic 970204)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiiij.zip",
+      "label": "Street Fighter III: New Generation (Japan 970204)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/sfiii.zip",
+      "label": "Street Fighter III: New Generation (USA 970204)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/warzardr1.zip",
+      "label": "War-Zard / Red Earth (Japan 961023)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS3/warzard.zip",
+      "label": "War-Zard / Red Earth (Japan 961121)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps3_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-3)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-3.lpl"
+    }
+  ]
+}

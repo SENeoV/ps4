@@ -26,6 +26,10 @@ python tools/inventory.py                  # regenera inventory.csv, INVENTORY.m
 python tools/inventory.py --force          # recalcula todos los SHA-1
 python tools/retroarch_lists.py            # regenera las listas .lpl e imprime la cobertura por sistema
 python tools/retroarch_lists.py --thumbs   # además descarga o copia las carátulas que falten
+python tools/fba2012.py dat                # DAT de los 5 cores FB Alpha 2012 sacados de su código fuente (commits de 2020)
+python tools/fba2012.py verificar CARPETA  # zip a zip: con qué core arranca, qué ROMs le faltan y a qué carpeta va
+python tools/fba2012.py listas             # verifica las carpetas de arcade y regenera sus 5 listas
+python tools/dos.py CARPETA [--hacer]      # juegos de DOS: descomprime, crea el .conf (o .scummvm) y guarda el zip en ORIGINALES
 python tools/guard.py pre-commit           # la comprobación anti-binarios del hook (pre-push lee el stdin del hook)
 python tools/ps4linux.py ip                # con la PS4 en Linux: busca su IP por la MAC del Wi-Fi y prueba el SSH
 MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando" | --put local remoto   # SSH/SFTP a la PS4 en Linux (ps4/ps4)
@@ -36,13 +40,16 @@ cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/   # instalar los hook
 
 ### emu/: la colección, que no se copia tal cual a la consola
 
-Cada subcarpeta tiene su propio destino en la PS4 (tabla completa en `INSTALL.md`): `APPS/*.pkg` → `/data/pkg/`, `BIOS/` → `/data/retroarch/system/`, `ROMS/<SISTEMA>/` → `/data/ROMS/<SISTEMA>/`, `RETROARCH/{info,playlists,database/rdb,thumbnails}` → `/data/retroarch/...` y `SAVES/` → `/data/retroarch/savefiles/`. `MEDIA/` (carátulas originales) y `EXTRAS/` (duplicados, volcados malos, archivos que no son juegos) no se suben.
+Cada subcarpeta tiene su propio destino en la PS4 (tabla completa en `INSTALL.md`): `APPS/*.pkg` → `/data/pkg/`, `BIOS/` → `/data/retroarch/system/`, `ROMS/<SISTEMA>/` → `/data/ROMS/<SISTEMA>/`, `RETROARCH/{info,playlists,database/rdb,thumbnails}` → `/data/retroarch/...` y `SAVES/` → `/data/retroarch/savefiles/`. `MEDIA/` (carátulas originales), `EXTRAS/` (duplicados, volcados malos, archivos que no son juegos) y `ORIGINALES/` (el zip original de lo que va descomprimido, hoy DOS y ScummVM; se cataloga) no se suben.
+
+- **Arcade (FB Alpha 2012):** una carpeta por core (`ARCADE/FBNEO/` general, `FBNEO/CPS1/`, `CPS2/`, `CPS3/` y `NEOGEO/`). El padre de un clon y la BIOS de placa tienen que estar en la misma carpeta que el juego, porque el core solo busca ahí. El set es v0.2.97.24, verificado zip a zip con `tools/fba2012.py` contra los DAT de los cores (v0.2.97.28/29), que quedan en `emu/RETROARCH/database/dat/` sin versionar.
+- **DOS:** cada juego descomprimido en `DOS/<Juego>/` y arrancado con `DOS/<Juego>.conf`, que monta la ruta absoluta `/data/ROMS/DOS/<Juego>`. El programa lo elige un heurístico, y los no seguros están en `DOS/LANZADORES.md`. Las aventuras que ScummVM ejecuta van a `SCUMMVM/<Juego>/` con un `.scummvm` que contiene el id del juego.
 
 `.gitignore` ignora `emu/**` excepto los directorios, los `*.md`, `emu/RETROARCH/info/*.info` y `emu/RETROARCH/playlists/*.lpl`. Las `.rdb` y las carátulas se quedan solo en local. `linux/**` sigue la misma regla (directorios y `*.md`).
 
 ### Catálogo por referencia (inventory.py, guard.py y hooks)
 
-- `tools/inventory.py` recorre las raíces de `ROOTS` (`emu/ROMS`, con un sistema por subcarpeta; `emu/BIOS`, `emu/APPS`, `pkg/` y `linux/`, que son un sistema cada una; `SKIP_DIRS`, con rutas relativas a la raíz, salta `linux/src/`, el pack de texturas extraído en `linux/texturas/GZL/` y cualquier `.git`) y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref` (`pkg/` va bajo `catalogo/PKG/`, `linux/` bajo `catalogo/LINUX/`). Cada uno guarda `sha1`, `size` y, según el tipo, `rom-sha1` de la ROM interior en los zip de un solo archivo (el hash que se cruza con los DAT de No-Intro/Redump) o `content-id` leído de la cabecera en los `.pkg`. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
+- `tools/inventory.py` recorre las raíces de `ROOTS` (`emu/ROMS`, con un sistema por subcarpeta; `emu/BIOS`, `emu/APPS`, `emu/ORIGINALES`, `pkg/` y `linux/`, que son un sistema cada una; `SKIP_DIRS`, con rutas relativas a la raíz y comodines de `fnmatch`, salta `linux/src/`, el pack de texturas extraído en `linux/texturas/GZL/`, las carpetas de juego descomprimidas `ROMS/DOS/*` y `ROMS/SCUMMVM/*`, y cualquier `.git`) y escribe en `catalogo/` un `.ref` por archivo, con la misma ruta más `.ref` (`pkg/` va bajo `catalogo/PKG/`, `linux/` bajo `catalogo/LINUX/`). Cada uno guarda `sha1`, `size` y, según el tipo, `rom-sha1` de la ROM interior en los zip de un solo archivo (el hash que se cruza con los DAT de No-Intro/Redump) o `content-id` leído de la cabecera en los `.pkg`. Borra los `.ref` huérfanos. Los `.ref`, `inventory.csv` e `INVENTORY.md` no se editan a mano.
 - El hook `pre-commit` ejecuta inventory.py, hace `git add -A catalogo inventory.csv INVENTORY.md` y llama a guard.py. Por eso **cualquier commit arrastra los cambios del catálogo** que haya pendientes en `emu/`, `pkg/` o `linux/`, y tarda si hay muchas ROMs nuevas que hashear (o una distro de 2 GB).
 - `tools/guard.py` bloquea, en pre-commit y en pre-push, cualquier archivo añadido o modificado que git detecte como binario o que pese más de 5 MB. Los hooks no se saltan.
 
@@ -53,10 +60,12 @@ Cada subcarpeta tiene su propio destino en la PS4 (tabla completa en `INSTALL.md
 - Las rutas de las `.lpl` son las de la consola, no las del PC: `/data/ROMS/...` y `/data/self/retroarch/cores/<core>_libretro_ps4.self`. Formato JSON 1.4, el mismo del historial de la consola.
 - Las carátulas van a `thumbnails/<lista>/Named_Boxarts/` con el nombre oficial saneado. Si el servidor de libretro no la tiene, se usa `emu/MEDIA/<SISTEMA>/<rom>.png`.
 - Salta `README.md` a propósito, porque Genesis Plus GX acepta la extensión `.md`.
+- Opciones de `SYSTEMS`: `rdb`, si la base de datos no se llama como la lista (C64/PRG), y `recursive`, para leer subcarpetas (C64/PRG por letras, ScummVM). Un `.m3u` sustituye en la lista a sus discos, que no salen sueltos. La lista de DOS son los `.conf` de la raíz de `DOS/`.
+- Las listas de arcade no salen de aquí sino de `tools/fba2012.py listas`: en arcade manda el romset y el nombre sale del DAT del core.
 
 ### Reorganizaciones: cleanup-YYYY-MM-DD.tsv
 
-Cada reorganización de la colección se registra movimiento a movimiento en `cleanup-<fecha>.tsv`, con las columnas `accion`, `origen`, `destino` y `motivo`. Hasta ahora no se ha borrado nada: los duplicados, los volcados malos y lo que no es un juego se apartan a `emu/EXTRAS/`, y las carátulas a `emu/MEDIA/`. Borrar lo apartado lo decide el usuario (ver P9 en `PENDIENTES.md`).
+Cada reorganización de la colección se registra movimiento a movimiento en `cleanup-<fecha>.tsv`, con las columnas `accion`, `origen`, `destino` y `motivo`. Si el registro pasa de 5 MB hay que partirlo por áreas (`cleanup-<fecha>-<área>.tsv`, como el del 14-09), porque `guard.py` no deja pasar archivos mayores. Hasta ahora no se ha borrado nada: los duplicados, los volcados malos y lo que no es un juego se apartan a `emu/EXTRAS/`, y las carátulas a `emu/MEDIA/`. Borrar lo apartado lo decide el usuario (ver P9 en `PENDIENTES.md`).
 
 ## La consola
 

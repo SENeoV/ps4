@@ -1,0 +1,2283 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+  "default_core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/NEOGEO/2020bb.zip",
+      "label": "2020 Super Baseball (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/2020bba.zip",
+      "label": "2020 Super Baseball (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/2020bbh.zip",
+      "label": "2020 Super Baseball (set 3)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/3countb.zip",
+      "label": "3 Count Bout / Fire Suplex (NGM-043)(NGH-043)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/4play.zip",
+      "label": "4 player input test",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sonicwi2.zip",
+      "label": "Aero Fighters 2 / Sonic Wings 2",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sonicwi3.zip",
+      "label": "Aero Fighters 3 / Sonic Wings 3",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aodk.zip",
+      "label": "Aggressors of Dark Kombat / Tsuukai GANGAN Koushinkyoku (ADM-008)(ADH-008)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/alpham2.zip",
+      "label": "Alpha Mission II / ASO II - Last Guardian (NGM-007)(NGH-007)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/alpham2p.zip",
+      "label": "Alpha Mission II / ASO II - Last Guardian (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/androdun.zip",
+      "label": "Andro Dunos (NGM-049)(NGH-049)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aof.zip",
+      "label": "Art of Fighting / Ryuuko no Ken (NGM-044)(NGH-044)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aof2a.zip",
+      "label": "Art of Fighting 2 / Ryuuko no Ken 2 (NGH-056)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aof2.zip",
+      "label": "Art of Fighting 2 / Ryuuko no Ken 2 (NGM-056)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aof3k.zip",
+      "label": "Art of Fighting 3 - The Path of the Warrior (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/aof3.zip",
+      "label": "Art of Fighting 3 - The Path of the Warrior / Art of Fighting - Ryuuko no Ken Gaiden",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bakatono.zip",
+      "label": "Bakatonosama Mahjong Manyuuki (MOM-002)(MOH-002)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bangbead.zip",
+      "label": "Bang Bead",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bangbedp.zip",
+      "label": "Bang Bead (Prototype?)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bstars2.zip",
+      "label": "Baseball Stars 2",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bstarsh.zip",
+      "label": "Baseball Stars Professional (NGH-002)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bstars.zip",
+      "label": "Baseball Stars Professional (NGM-002)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/flipshot.zip",
+      "label": "Battle Flip Shot",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/blazstar.zip",
+      "label": "Blazing Star",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/bjourney.zip",
+      "label": "Blue's Journey / Raguy (ALM-001)(ALH-001)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/breakers.zip",
+      "label": "Breakers",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/breakrev.zip",
+      "label": "Breakers Revenge",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/burningfh.zip",
+      "label": "Burning Fight (NGH-018)(US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/burningf.zip",
+      "label": "Burning Fight (NGM-018)(NGH-018)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/burningfp.zip",
+      "label": "Burning Fight (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ctomaday.zip",
+      "label": "Captain Tomaday",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neodemo.zip",
+      "label": "Chaos Demo (Neo Geo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/marukodq.zip",
+      "label": "Chibi Marukochan Deluxe Quiz",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/cndi.zip",
+      "label": "Chip n Dale (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ironclad.zip",
+      "label": "Choutetsu Brikin'ger - Iron clad (Prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ironclado.zip",
+      "label": "Choutetsu Brikin'ger - Iron clad (Prototype, older)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/cnbe.zip",
+      "label": "Codename - Blut Engel (2006-01-19)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/columnsn.zip",
+      "label": "Columns (Neo Geo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/crsword.zip",
+      "label": "Crossed Swords (ALM-002)(ALH-002)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/cthd2003.zip",
+      "label": "Crouching Tiger Hidden Dragon 2003 (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/cthd2k3a.zip",
+      "label": "Crouching Tiger Hidden Dragon 2003 (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ct2k3sp.zip",
+      "label": "Crouching Tiger Hidden Dragon 2003 Super Plus",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ct2k3sa.zip",
+      "label": "Crouching Tiger Hidden Dragon 2003 Super Plus alternate",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/cyberlip.zip",
+      "label": "Cyber-Lip (NGM-010)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/dwi.zip",
+      "label": "DarkWing Duck (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/diggerma.zip",
+      "label": "Digger Man",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/doubledr.zip",
+      "label": "Double Dragon (Neo-Geo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ducki.zip",
+      "label": "Duck Tales (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/eightman.zip",
+      "label": "Eight Man (NGM-025)(NGH-025)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kabukikl.zip",
+      "label": "Far East of Eden - Kabuki Klash / Tengai Makyou - Shin Den",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fatfury1.zip",
+      "label": "Fatal Fury - King of Fighters / Garou Densetsu - shukumei no tatakai (NGM-033)(NGH-033)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fatfury2.zip",
+      "label": "Fatal Fury 2 / Garou Densetsu 2 - arata-naru tatakai (NGM-047)(NGH-047)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fatfury3.zip",
+      "label": "Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - haruka-naru tatakai (NGM-069)(NGH-069)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fatfursp.zip",
+      "label": "Fatal Fury Special / Garou Densetsu Special (set 1)(NGM-058)(NGH-058)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fatfurspa.zip",
+      "label": "Fatal Fury Special / Garou Densetsu Special (set 2)(NGM-058)(NGH-058)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fightfev.zip",
+      "label": "Fight Fever (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fightfeva.zip",
+      "label": "Fight Fever (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fswords.zip",
+      "label": "Fighters Swords (Korean release of Samurai Shodown III)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fbfrenzy.zip",
+      "label": "Football Frenzy (NGM-034)(NGH-034)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ngfrog.zip",
+      "label": "Frog Feast (Neo Geo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/galaxyfg.zip",
+      "label": "Galaxy Fight - Universal Warriors",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ganryu.zip",
+      "label": "Ganryu / Musashi Ganryuki",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/garoubl.zip",
+      "label": "Garou - Mark of the Wolves (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/garou.zip",
+      "label": "Garou - Mark of the Wolves (NGM-2530)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/garoup.zip",
+      "label": "Garou - Mark of the Wolves (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ghostbi.zip",
+      "label": "Ghost Busters (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/gpilotsh.zip",
+      "label": "Ghost Pilots (NGH-020)(US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/gpilots.zip",
+      "label": "Ghost Pilots (NGM-020)(NGH-020)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ghostlop.zip",
+      "label": "Ghostlop (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/goalx3.zip",
+      "label": "Goal! Goal! Goal!",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/gururin.zip",
+      "label": "Gururin",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/fr2ch.zip",
+      "label": "Idol Mahjong - final romance 2 (CD to MVS Conversion)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/jockeygp.zip",
+      "label": "Jockey Grand Prix (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/jockeygpa.zip",
+      "label": "Jockey Grand Prix (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ltorb1.zip",
+      "label": "Jonas Indiana and the Lost Temple of RA (20050717)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/janshin.zip",
+      "label": "Jyanshin Densetsu - Quest of Jongmaster",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/karnovr.zip",
+      "label": "Karnov's Revenge / Fighter's History Dynamite",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kog.zip",
+      "label": "King of Gladiator (The King of Fighters '97 bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kotm.zip",
+      "label": "King of the Monsters (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kotmh.zip",
+      "label": "King of the Monsters (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kotm2.zip",
+      "label": "King of the Monsters 2 - The Next Thing (NGM-039)(NGH-039)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kotm2p.zip",
+      "label": "King of the Monsters 2 - The Next Thing (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kizuna.zip",
+      "label": "Kizuna Encounter - Super Tag Battle / Fu'un Super Tag Battle",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lans2004.zip",
+      "label": "Lansquenet 2004 (Shock Troopers - 2nd Squad bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lhcdb.zip",
+      "label": "Last Hope CD Beta (Neo CD conversion)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lresort.zip",
+      "label": "Last Resort",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lbowling.zip",
+      "label": "League Bowling (NGM-019)(NGH-019)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/legendos.zip",
+      "label": "Legend of Success Joe / Ashitano Joe Densetsu",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/magdrop2.zip",
+      "label": "Magical Drop II",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/magdrop3.zip",
+      "label": "Magical Drop III",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/maglordh.zip",
+      "label": "Magician Lord (NGH-005)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/maglord.zip",
+      "label": "Magician Lord (NGM-005)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mahretsu.zip",
+      "label": "Mahjong Kyo Retsuden (NGM-004)(NGH-004)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/matrimbl.zip",
+      "label": "Matrimelee / Shin Gouketsuji Ichizoku Toukon (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/matrim.zip",
+      "label": "Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug.zip",
+      "label": "Metal Slug - Super Vehicle-001",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug2.zip",
+      "label": "Metal Slug 2 - Super Vehicle-001/II (NGM-2410) (NGH-2410)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug3h.zip",
+      "label": "Metal Slug 3 (NGH-2560)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug3.zip",
+      "label": "Metal Slug 3 (NGM-2560)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug4h.zip",
+      "label": "Metal Slug 4 (NGH-2630)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug4.zip",
+      "label": "Metal Slug 4 (NGM-2630)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ms4plus.zip",
+      "label": "Metal Slug 4 Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug5b.zip",
+      "label": "Metal Slug 5 (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ms5pcb.zip",
+      "label": "Metal Slug 5 (JAMMA PCB)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug5h.zip",
+      "label": "Metal Slug 5 (NGH-2680)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug5.zip",
+      "label": "Metal Slug 5 (NGM-2680)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ms5plus.zip",
+      "label": "Metal Slug 5 Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslug3b6.zip",
+      "label": "Metal Slug 6 (Metal Slug 3 bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mslugx.zip",
+      "label": "Metal Slug X - Super Vehicle-001 (NGM-2500)(NGH-2500)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/minasan.zip",
+      "label": "Minasanno Okagesamadesu! Daisugorokutaikai (MOM-001)(MOH-001)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/miexchng.zip",
+      "label": "Money Puzzle Exchanger / Money Idol Exchanger",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mutnat.zip",
+      "label": "Mutation Nation (NGM-014)(NGH-014)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/nam1975.zip",
+      "label": "NAM-1975 (NGM-001)(NGH-001)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neo2500.zip",
+      "label": "Neo 2500 Demo",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neobombe.zip",
+      "label": "Neo Bomberman",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neodrift.zip",
+      "label": "Neo Drift Out - New Technology",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neomrdo.zip",
+      "label": "Neo Mr. Do!",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neonopon.zip",
+      "label": "Neo No Panepon (beta)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neoponga.zip",
+      "label": "Neo Pong (ver 1.0)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neopong.zip",
+      "label": "Neo Pong (ver 1.1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/syscheck.zip",
+      "label": "Neo System Check (ver 1.0b)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/turfmast.zip",
+      "label": "Neo Turf Masters / Big Tournament Golf",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/neocup98.zip",
+      "label": "Neo-Geo Cup '98 - The Road to the Victory",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ngem2k.zip",
+      "label": "NGEM2K (beta 2006-01-18)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/nitd.zip",
+      "label": "Nightmare in the Dark",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/nitdbl.zip",
+      "label": "Nightmare in the Dark (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ncombath.zip",
+      "label": "Ninja Combat (NGH-009)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ncombat.zip",
+      "label": "Ninja Combat (NGM-009)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ncommand.zip",
+      "label": "Ninja Commando",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ninjamas.zip",
+      "label": "Ninja Master's - haoh-ninpo-cho",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/overtop.zip",
+      "label": "Over Top",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho4k.zip",
+      "label": "Pae Wang Jeon Seol / Legend of a Warrior (Korean censored Samurai Shodown IV)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/panicbom.zip",
+      "label": "Panic Bomber",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pgoal.zip",
+      "label": "Pleasure Goal / Futsal - 5 on 5 Mini Soccer (NGM-219)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pnyaa.zip",
+      "label": "Pochi and Nyaa",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/poknight.zip",
+      "label": "Poker Night",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/popbounc.zip",
+      "label": "Pop 'n Bounce / Gapporin",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pspikes2.zip",
+      "label": "Power Spikes II (NGM-068)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/preisle2.zip",
+      "label": "Prehistoric Isle 2",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pulstar.zip",
+      "label": "Pulstar",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pbobblenb.zip",
+      "label": "Puzzle Bobble / Bust-A-Move (Neo-Geo) (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pbobblen.zip",
+      "label": "Puzzle Bobble / Bust-A-Move (Neo-Geo) (NGM-083)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/pbobbl2n.zip",
+      "label": "Puzzle Bobble 2 / Bust-A-Move Again (Neo-Geo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/puzzledp.zip",
+      "label": "Puzzle De Pon!",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/puzzldpr.zip",
+      "label": "Puzzle De Pon! R!",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/joyjoy.zip",
+      "label": "Puzzled / Joy Joy Kid (NGM-021)(NGH-021)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/quizdaisk.zip",
+      "label": "Quiz Daisousa Sen - The Last Count Down (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/quizdais.zip",
+      "label": "Quiz Daisousa Sen - The Last Count Down (NGM-023)(NGH-023)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/quizkofk.zip",
+      "label": "Quiz King of Fighters (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/quizkof.zip",
+      "label": "Quiz King of Fighters (SAM-080)(SAH-080)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/quizdai2.zip",
+      "label": "Quiz Meitantei Neo & Geo - Quiz Daisousa Sen part 2 (NGM-042)(NGH-042)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rotd.zip",
+      "label": "Rage of the Dragons (NGM-264?)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ragnagrd.zip",
+      "label": "Ragnagard / Shin-Oh-Ken",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbff1a.zip",
+      "label": "Real Bout Fatal Fury / Real Bout Garou Densetsu (bug fix revision)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbff1.zip",
+      "label": "Real Bout Fatal Fury / Real Bout Garou Densetsu (NGM-095)(NGH-095)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbff2k.zip",
+      "label": "Real Bout Fatal Fury 2 - The Newcomers (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbff2h.zip",
+      "label": "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGH-2400)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbff2.zip",
+      "label": "Real Bout Fatal Fury 2 - The Newcomers / Real Bout Garou Densetsu 2 - the newcomers (NGM-2400)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbffspec.zip",
+      "label": "Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/rbffspeck.zip",
+      "label": "Real Bout Fatal Fury Special / Real Bout Garou Densetsu Special (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ridhero.zip",
+      "label": "Riding Hero (NGM-006)(NGH-006)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ridheroh.zip",
+      "label": "Riding Hero (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/roboarmy.zip",
+      "label": "Robo Army",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/robocopi.zip",
+      "label": "Robocop (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samshoh.zip",
+      "label": "Samurai Shodown / Samurai Spirits (NGH-045)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho.zip",
+      "label": "Samurai Shodown / Samurai Spirits (NGM-045)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho2.zip",
+      "label": "Samurai Shodown II / Shin Samurai Spirits - Haohmaru jigokuhen (NGM-063)(NGH-063)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho3h.zip",
+      "label": "Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGH-087)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho3.zip",
+      "label": "Samurai Shodown III / Samurai Spirits - Zankurou Musouken (NGM-087)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho4.zip",
+      "label": "Samurai Shodown IV - Amakusa's Revenge / Samurai Spirits - Amakusa Kourin (NGM-222)(NGH-222)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho5b.zip",
+      "label": "Samurai Shodown V / Samurai Spirits Zero (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho5h.zip",
+      "label": "Samurai Shodown V / Samurai Spirits Zero (NGH-2700)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho5.zip",
+      "label": "Samurai Shodown V / Samurai Spirits Zero (NGM-2700)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsh5sp.zip",
+      "label": "Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/samsho2k.zip",
+      "label": "Saulabi Spirits / Jin Saulabi Tu Hon (Korean release of Samurai Shodown II)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/savagere.zip",
+      "label": "Savage Reign / Fu'un Mokushiroku - kakutou sousei",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sengokuh.zip",
+      "label": "Sengoku / Sengoku Denshou (NGH-017)(US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sengoku.zip",
+      "label": "Sengoku / Sengoku Denshou (NGM-017)(NGH-017)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sengoku2.zip",
+      "label": "Sengoku 2 / Sengoku Denshou 2",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sengoku3.zip",
+      "label": "Sengoku 3 / Sengoku Densho 2001",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/beast.zip",
+      "label": "Shadow of the Beast (Neo Geo demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/shocktro.zip",
+      "label": "Shock Troopers (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/shocktroa.zip",
+      "label": "Shock Troopers (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/shocktr2.zip",
+      "label": "Shock Troopers - 2nd Squad",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcboot.zip",
+      "label": "SNK vs. Capcom - SVC Chaos (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcpcb.zip",
+      "label": "SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcpcba.zip",
+      "label": "SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svc.zip",
+      "label": "SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcplus.zip",
+      "label": "SNK vs. Capcom - SVC Chaos Plus (bootleg set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcplusa.zip",
+      "label": "SNK vs. Capcom - SVC Chaos Plus (bootleg set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/svcsplus.zip",
+      "label": "SNK vs. Capcom - SVC Chaos Super Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/socbrawlh.zip",
+      "label": "Soccer Brawl (NGH-031)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/socbrawl.zip",
+      "label": "Soccer Brawl (NGM-031)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/spinmast.zip",
+      "label": "Spin Master / Miracle Adventure",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/stakwin.zip",
+      "label": "Stakes Winner / Stakes Winner - GI kinzen seiha e no michi",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/stakwin2.zip",
+      "label": "Stakes Winner 2",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/strhoop.zip",
+      "label": "Street Hoop / Street Slam / Dunk Dream (DEM-004) (DEH-004)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/s1945p.zip",
+      "label": "Strikers 1945 Plus",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/sdodgeb.zip",
+      "label": "Super Dodge Ball / Kunio no Nekketsu Toukyuu Densetsu",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ssideki.zip",
+      "label": "Super Sidekicks / Tokuten Ou",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ssideki2.zip",
+      "label": "Super Sidekicks 2 - The World Championship / Tokuten Ou 2 - real fight football (NGM-061)(NGH-061)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ssideki3.zip",
+      "label": "Super Sidekicks 3 - The Next Glory / Tokuten Ou 3 - eikou e no michi",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/mosyougi.zip",
+      "label": "Syougi No Tatsujin - Master of Syougi",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/tws96.zip",
+      "label": "Tecmo World Soccer '96",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/tmnti.zip",
+      "label": "Teenage Mutant Ninja Turtles (Intro demo)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/irrmaze.zip",
+      "label": "The Irritating Maze / Ultra Denryu Iraira Bou",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof94.zip",
+      "label": "The King of Fighters '94 (NGM-055)(NGH-055)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof95h.zip",
+      "label": "The King of Fighters '95 (NGH-084)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof95.zip",
+      "label": "The King of Fighters '95 (NGM-084)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof96ae.zip",
+      "label": "The King of Fighters '96 (Anniversary Edition, EGHT hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof96ep.zip",
+      "label": "The King of Fighters '96 (bootleg / hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof96cn.zip",
+      "label": "The King of Fighters '96 (Chinese Edition ver 1.0, hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof96h.zip",
+      "label": "The King of Fighters '96 (NGH-214)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof96.zip",
+      "label": "The King of Fighters '96 (NGM-214)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97cn.zip",
+      "label": "The King of Fighters '97 (10th Anniversary Chinese Edition, EGHT hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97k.zip",
+      "label": "The King of Fighters '97 (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97h.zip",
+      "label": "The King of Fighters '97 (NGH-2320)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97.zip",
+      "label": "The King of Fighters '97 (NGM-2320)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97xt.zip",
+      "label": "The King of Fighters '97 - Final Battle (hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97pls.zip",
+      "label": "The King of Fighters '97 Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof97pla.zip",
+      "label": "The King of Fighters '97 Plus 2003 (bootleg / hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof98ka.zip",
+      "label": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (Korean board 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof98k.zip",
+      "label": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (Korean board)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof98h.zip",
+      "label": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (NGH-2420)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof98.zip",
+      "label": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - dream match never ends (NGM-2420)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof99e.zip",
+      "label": "The King of Fighters '99 - Millennium Battle (earlier)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof99k.zip",
+      "label": "The King of Fighters '99 - Millennium Battle (Korean release)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof99h.zip",
+      "label": "The King of Fighters '99 - Millennium Battle (NGH-2510)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof99.zip",
+      "label": "The King of Fighters '99 - Millennium Battle (NGM-2510)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof99p.zip",
+      "label": "The King of Fighters '99 - Millennium Battle (prototype)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof10th.zip",
+      "label": "The King of Fighters 10th Anniversary (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k5uni.zip",
+      "label": "The King of Fighters 10th Anniversary 2005 Unique (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf10thep.zip",
+      "label": "The King of Fighters 10th Anniversary Extra Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2000.zip",
+      "label": "The King of Fighters 2000 (NGM-2570) (NGH-2570)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2000n.zip",
+      "label": "The King of Fighters 2000 (not encrypted)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2001h.zip",
+      "label": "The King of Fighters 2001 (NGH-2621)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2001.zip",
+      "label": "The King of Fighters 2001 (NGM-262?)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k1pls.zip",
+      "label": "The King of Fighters 2001 Plus (set 1, bootleg / hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k1pa.zip",
+      "label": "The King of Fighters 2001 Plus (set 2, bootleg / hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2002b.zip",
+      "label": "The King of Fighters 2002 (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2002.zip",
+      "label": "The King of Fighters 2002 (NGM-2650)(NGH-2650)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2ps2.zip",
+      "label": "The King of Fighters 2002 (PlayStation 2 ver 0.4, EGHT hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2mp.zip",
+      "label": "The King of Fighters 2002 Magic Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2mp2.zip",
+      "label": "The King of Fighters 2002 Magic Plus II (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2pls.zip",
+      "label": "The King of Fighters 2002 Plus (bootleg set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2pla.zip",
+      "label": "The King of Fighters 2002 Plus (bootleg set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2plb.zip",
+      "label": "The King of Fighters 2002 Plus (bootleg set 3)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k2plc.zip",
+      "label": "The King of Fighters 2002 Super (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k3pcb.zip",
+      "label": "The King of Fighters 2003",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k3bl.zip",
+      "label": "The King of Fighters 2003 (bootleg set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k3bla.zip",
+      "label": "The King of Fighters 2003 (bootleg set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2003h.zip",
+      "label": "The King of Fighters 2003 (NGH-2710)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2003.zip",
+      "label": "The King of Fighters 2003 (NGM-2710)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k3pl.zip",
+      "label": "The King of Fighters 2004 Plus / Hero (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k3upl.zip",
+      "label": "The King of Fighters 2004 Ultra Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kof2k4se.zip",
+      "label": "The King of Fighters Special Edition 2004 (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/kf2k4pls.zip",
+      "label": "The King of Fighters Special Edition 2004 Plus (bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lastbladh.zip",
+      "label": "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGH-2340)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lastblad.zip",
+      "label": "The Last Blade / Bakumatsu Roman - Gekka no Kenshi (NGM-2340)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lastbld2.zip",
+      "label": "The Last Blade 2 / Bakumatsu Roman - Dai Ni Maku Gekka no Kenshi (NGM-2430)(NGH-2430)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/lastsold.zip",
+      "label": "The Last Soldier (Korean release of The Last Blade)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/superspy.zip",
+      "label": "The Super Spy (NGM-011)(NGH-011)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/ssideki4.zip",
+      "label": "The Ultimate 11 - The SNK Football Championship / Tokuten Ou - Honoo no Libero",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/trally.zip",
+      "label": "Thrash Rally (ALM-003)(ALH-003)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/tophuntrh.zip",
+      "label": "Top Hunter - Roddy & Cathy (NGH-046)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/tophuntr.zip",
+      "label": "Top Hunter - Roddy & Cathy (NGM-046)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/tpgolf.zip",
+      "label": "Top Player's Golf (NGM-003)(NGH-003)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/twinspri.zip",
+      "label": "Twinkle Star Sprites",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/vliner.zip",
+      "label": "V-Liner (set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/vlinero.zip",
+      "label": "V-Liner (set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/viewpoin.zip",
+      "label": "Viewpoint",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/gowcaizr.zip",
+      "label": "Voltage Fighter - Gowcaizer / Choujin Gakuen Gowcaizer",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wakuwak7.zip",
+      "label": "Waku Waku 7",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wjammers.zip",
+      "label": "Windjammers / Flying Power Disc",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wh1h.zip",
+      "label": "World Heroes (ALH-005",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wh1.zip",
+      "label": "World Heroes (ALM-005)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wh1ha.zip",
+      "label": "World Heroes (set 3)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wh2.zip",
+      "label": "World Heroes 2 (ALM-006)(ALH-006)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/wh2j.zip",
+      "label": "World Heroes 2 Jet (ADM-007)(ADH-007)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/whp.zip",
+      "label": "World Heroes Perfect",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/zedblade.zip",
+      "label": "Zed Blade / Operation Ragnarok",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/zintrckb.zip",
+      "label": "Zintrick / Oshidashi Zentrix (hack / bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/zintrkcd.zip",
+      "label": "Zintrick / Oshidashi Zentrix (Neo CD conversion)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    },
+    {
+      "path": "/data/ROMS/NEOGEO/zupapa.zip",
+      "label": "Zupapa!",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_neogeo_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 Neo Geo)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 Neo Geo.lpl"
+    }
+  ]
+}

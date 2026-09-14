@@ -161,6 +161,16 @@ Descargadas de [libretro-database](https://github.com/libretro/libretro-database
 | `cfb7fbc10d19e479f7486f4a8f332c9d1d95cbfd` | `SNK - Neo Geo Pocket Color.rdb` |
 | `7fdb69a7b39bb66dbe6e0816861ca8df3280c02d` | `SNK - Neo Geo Pocket.rdb` |
 
+Añadidas el 2026-09-14, de la rama `master` (commit `0eee396a0f5d`):
+
+| SHA-1 | Archivo |
+|---|---|
+| `8abad092629556b8d99f367e488ab9db0e34af5f` | `Commodore - 64.rdb` |
+| `b686a3544370bb437605e153c828a9d75466ed5d` | `DOS.rdb` |
+| `07e9656b9d32fb07b77318000d2737c38381a521` | `ScummVM.rdb` |
+
+`database/dat/` no se sube. Guarda los DAT de FB Alpha 2012 que genera `tools/fba2012.py` desde el código fuente de los cores, y un `fba2012.json` con las tablas de ROMs para verificar sin volver a clonar.
+
 **Compatibilidad con RetroArch 1.8.8:** se compararon con las mismas bases de la etiqueta `v1.8.8`. La cabecera de formato es idéntica (`RARCHDB` + desplazamiento de metadatos) y ambas traen los campos `crc` y `name` que usa el escaneo. Las actuales solo tienen más juegos (Game Boy: 4399 frente a 1672).
 
 ### Listas (`playlists/*.lpl`)
@@ -187,6 +197,20 @@ Generadas con `python tools/retroarch_lists.py`, con la misma estructura JSON (v
 | `LYNX/` | `Atari - Lynx` | handy |
 | `32X/` | `Sega - 32X` | picodrive |
 | `VB/` | `Nintendo - Virtual Boy` | mednafen_vb |
+| `C64/` | `Commodore - 64` | vice_x64sc |
+| `C64/PRG/` (con subcarpetas) | `Commodore - 64 (PRG)`, con la base de datos `Commodore - 64` | vice_x64sc |
+| `DOS/` | `DOS` (los `.conf` de la raíz) | dosbox_svn |
+| `SCUMMVM/` (con subcarpetas) | `ScummVM` (los `.scummvm`) | scummvm |
+
+Las de arcade salen de `python tools/fba2012.py listas`, con el nombre de cada juego sacado del DAT de su core. Cada carpeta tiene su propia lista y su propio core:
+
+| Carpeta | Lista | Core |
+|---|---|---|
+| `ARCADE/FBNEO/` | `FB Alpha 2012` | fbalpha2012 |
+| `ARCADE/FBNEO/CPS1/` | `FB Alpha 2012 CPS-1` | fbalpha2012_cps1 |
+| `ARCADE/FBNEO/CPS2/` | `FB Alpha 2012 CPS-2` | fbalpha2012_cps2 |
+| `ARCADE/FBNEO/CPS3/` | `FB Alpha 2012 CPS-3` | fbalpha2012_cps3 |
+| `NEOGEO/` | `FB Alpha 2012 Neo Geo` | fbalpha2012_neogeo |
 
 Cómo se construyen:
 
@@ -237,6 +261,24 @@ Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su
 - Los juegos **sin carátula aparecen igual** en su lista, con su nombre.
 - SNES tiene cifras bajas porque 87 de sus ROMs son traducciones, versiones parcheadas o volcados alterados que no están en la base de datos: no se pueden reconocer por CRC. En WonderSwan pasa lo mismo con las variantes `[o]`, `[b]` y `[f]` de la colección GoodWSx.
 - En NES y Lynx, parte de los juegos reconocidos no tienen portada en el servidor de libretro. En Lynx, 89 de las 94 carátulas vienen de `emu/MEDIA/`.
+
+### Listas añadidas el 2026-09-14 (sin carátulas, sin subir)
+
+| Lista | Juegos | Reconocidos en la base de datos | Tamaño |
+|---|--:|--:|--:|
+| FB Alpha 2012 | 2032 | nombre del DAT del core | 0,7 MB |
+| FB Alpha 2012 CPS-1 | 154 | nombre del DAT del core | |
+| FB Alpha 2012 CPS-2 | 273 | nombre del DAT del core | |
+| FB Alpha 2012 CPS-3 | 32 | nombre del DAT del core | |
+| FB Alpha 2012 Neo Geo | 284 | nombre del DAT del core | |
+| Commodore - 64 | 7522 | 2 (0%) | 2,5 MB |
+| Commodore - 64 (PRG) | 11 023 | 0 | 4,0 MB |
+| DOS | 956 | 0 | 0,3 MB |
+| ScummVM | 40 | 40 (100%) | |
+
+- **C64:** `Commodore - 64.rdb` no trae los CRC de estas imágenes de disco y cinta, así que salen con el nombre de archivo, que ya es el de No-Intro en los discos y el de TOSEC en los `.prg`. Los juegos de varios discos aparecen una sola vez, con su `.m3u`; `retroarch_lists.py` no lista sueltos los discos que ya están en un `.m3u`.
+- **DOS:** los `.conf` no se reconocen por CRC, así que el nombre es el de la carpeta del juego.
+- **ScummVM:** la base de datos reconoce los `.scummvm` por su contenido (el id del juego).
 
 ### Subirlas a la consola
 

@@ -27,7 +27,9 @@ PS4_CORES = "/data/self/retroarch/cores"
 THUMB_SERVER = "https://thumbnails.libretro.com"
 THUMB_MAX_PX = 512
 
-# carpeta -> (base de datos / nombre de lista, core por defecto)
+# carpeta -> (nombre de lista, core por defecto[, opciones])
+# Opciones: "rdb", la base de datos si no se llama como la lista; "recursive", para leer también las subcarpetas.
+# Las listas de arcade (FB Alpha 2012) no salen de aquí, sino de tools/fba2012.py: allí manda el romset, no un CRC.
 SYSTEMS = {
     "NES": ("Nintendo - Nintendo Entertainment System", "nestopia"),
     "SNES": ("Nintendo - Super Nintendo Entertainment System", "snes9x2010"),
@@ -47,6 +49,11 @@ SYSTEMS = {
     "LYNX": ("Atari - Lynx", "handy"),
     "32X": ("Sega - 32X", "picodrive"),
     "VB": ("Nintendo - Virtual Boy", "mednafen_vb"),
+    "C64": ("Commodore - 64", "vice_x64sc"),
+    "C64/PRG": ("Commodore - 64 (PRG)", "vice_x64sc", {"rdb": "Commodore - 64", "recursive": True}),
+    # DOS: los .conf de la raíz (los juegos descomprimidos están en subcarpetas). ScummVM: el .scummvm de cada juego
+    "DOS": ("DOS", "dosbox_svn"),
+    "SCUMMVM": ("ScummVM", "scummvm", {"recursive": True}),
 }
 
 
@@ -161,9 +168,27 @@ def thumb_name(label):
     return re.sub(r'[&*/:`<>?\\|"]', "_", label)
 
 
-def build(system_dir, db, core):
+def list_content(folder, recursive):
+    # Rutas relativas a la carpeta del sistema; con recursive, también las de sus subcarpetas (C64/PRG/A/...)
+    if not recursive:
+        return sorted(n for n in os.listdir(folder) if os.path.isfile(os.path.join(folder, n)))
+    found = []
+    for dirpath, dirs, names in os.walk(folder):
+        dirs.sort()
+        here = os.path.relpath(dirpath, folder).replace(os.sep, "/")
+        found += sorted(n if here == "." else f"{here}/{n}" for n in names)
+    return found
+
+
+def m3u_members(path):
+    base = os.path.dirname(path)
+    with open(path, encoding="utf-8", errors="replace") as f:
+        return [os.path.normcase(os.path.join(base, line.strip())) for line in f if line.strip() and not line.startswith("#")]
+
+
+def build(system_dir, db, core, opts):
     folder = os.path.join(EMU, "ROMS", system_dir)
-    rdb_path = os.path.join(RDB_DIR, db + ".rdb")
+    rdb_path = os.path.join(RDB_DIR, opts.get("rdb", db) + ".rdb")
     if not os.path.isdir(folder) or not os.path.exists(rdb_path):
         return [], 0
     info = read_info(core)
@@ -174,24 +199,37 @@ def build(system_dir, db, core):
         if isinstance(crc, bytes) and len(crc) == 4 and rec.get("name"):
             by_crc.setdefault(int.from_bytes(crc, "big"), rec["name"])
 
+    names = list_content(folder, opts.get("recursive", False))
+    # Un juego de varios discos sale una sola vez, con su .m3u: sus discos no se listan sueltos
+    in_m3u = set()
+    for rel in names:
+        if rel.lower().endswith(".m3u"):
+            in_m3u.update(m3u_members(os.path.join(folder, rel)))
+
     items, matched = [], 0
-    for name in sorted(os.listdir(folder)):
-        full = os.path.join(folder, name)
+    for rel in names:
+        full = os.path.join(folder, rel)
+        name = os.path.basename(rel)
         # README.md se colaría: Genesis Plus GX acepta la extensión .md
-        if not os.path.isfile(full) or name.lower() == "readme.md" or os.path.splitext(name)[1].lower() not in exts:
+        if name.lower() == "readme.md" or os.path.splitext(name)[1].lower() not in exts or os.path.normcase(full) in in_m3u:
             continue
-        crcs = rom_crcs(full)
+        members = m3u_members(full) if name.lower().endswith(".m3u") else []
+        # El .m3u se reconoce por su primer disco, y del nombre oficial se quita la etiqueta de disco o cara
+        crcs = rom_crcs(members[0] if members and os.path.exists(members[0]) else full)
         hit = next((c for c in crcs if c in by_crc), None)
         label = by_crc[hit] if hit is not None else os.path.splitext(name)[0]
+        if members and hit is not None:
+            label = re.sub(r"\s*\((?:Disk|Disc|Side|Tape)\b[^)]*\)", "", label)
         matched += hit is not None
         items.append({
-            "path": f"{PS4_ROMS}/{system_dir}/{name}",
+            "path": f"{PS4_ROMS}/{system_dir}/{rel}",
             "label": label,
             "core_path": f"{PS4_CORES}/{core}_libretro_ps4.self",
             "core_name": info["display_name"],
             "crc32": f"{(hit if hit is not None else crcs[0]):08X}|crc",
             "db_name": f"{db}.lpl",
             "_local": full,
+            "_system": system_dir,
             "_matched": hit is not None,
         })
     if not items:
@@ -241,8 +279,7 @@ def fetch_thumbnail(db, item):
                     break
             except (urllib.error.URLError, TimeoutError, OSError):
                 continue
-    system_dir = os.path.basename(os.path.dirname(item["_local"]))
-    media = os.path.join(EMU, "MEDIA", system_dir, os.path.splitext(os.path.basename(item["_local"]))[0] + ".png")
+    media = os.path.join(EMU, "MEDIA", item["_system"], os.path.splitext(os.path.basename(item["_local"]))[0] + ".png")
     if os.path.exists(media):
         with open(media, "rb") as f:
             save_thumbnail(f.read(), target)
@@ -258,10 +295,10 @@ def main():
     args = parser.parse_args()
 
     total = {"juegos": 0, "reconocidos": 0}
-    for system_dir, (db, core) in SYSTEMS.items():
+    for system_dir, (db, core, *opts) in SYSTEMS.items():
         if args.only and system_dir not in args.only:
             continue
-        items, matched = build(system_dir, db, core)
+        items, matched = build(system_dir, db, core, opts[0] if opts else {})
         if not items:
             print(f"{system_dir:9} sin juegos o sin base de datos: no se genera lista", flush=True)
             continue

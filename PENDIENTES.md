@@ -95,9 +95,14 @@ Ordenado el 2026-09-13, con cada movimiento en `cleanup-2026-09-13.tsv`. Neo Geo
 
 Los romsets tienen que ser **exactamente de la versión del core**. Un set de otra versión puede dar juegos que no arrancan sin ningún aviso claro.
 
-- [ ] 🧑 **Romset FB Alpha 2012 `v0.2.97.29`**, para `ARCADE/FBNEO/` y `NEOGEO/`. Tiene que incluir las BIOS de placa que pidan los juegos; en Neo Geo, `neogeo.zip`, **junto a las ROMs** y no en `system/`
-- [ ] 🧑 **Romset MAME 2003-Plus**, para `ARCADE/MAME/`. Solo juegos 2D; no mezclar con sets de otras versiones de MAME
-- [ ] 🤖 Cuando los tengas, puedo cruzarlos con el DAT de cada versión para saber qué juegos están completos
+- [x] 🧑 **Romset FB Alpha 2012:** conseguido el set *v0.2.97.24* de archive.org, con 2890 zips y `neogeo.zip`. Es más antiguo que los cores (v0.2.97.28 y .29)
+- [x] 🤖 **DAT de los 5 cores**, sacados de su código fuente (commits de 2020), y **set verificado zip a zip** con la lógica de carga del core (`tools/fba2012.py`, 14-09):
+  - 2775 juegos arrancan, repartidos por core en `ARCADE/FBNEO/`, `FBNEO/CPS1/`, `FBNEO/CPS2/`, `FBNEO/CPS3/` y `NEOGEO/`, cada carpeta con su lista;
+  - 11 arrancan con alguna ROM de CRC distinta y 9 tienen el driver marcado como que no funciona. Detalle en [`emu/ROMS/ARCADE/FBNEO/README.md`](emu/ROMS/ARCADE/FBNEO/README.md)
+- [ ] 🧑 Opcional: 47 juegos incompletos (`EXTRAS/ARCADE-incompletos/`, cada uno con las ROMs que le faltan) y 12 padres que no arrancan solos. Se completarían con un set v0.2.97.29
+- [ ] 🎮 Subir las 5 carpetas y sus 5 listas, y probar un juego de cada core
+- [ ] 🧑 **Romset MAME 2003-Plus**, para `ARCADE/MAME/` (pendiente de descargar). Solo juegos 2D; no mezclar con sets de otras versiones de MAME
+- [ ] 🤖 Cuando lo tengas, lo cruzo con el DAT de MAME 2003-Plus para saber qué juegos están completos
 
 ---
 
@@ -148,11 +153,19 @@ Formato CD:
 
 ## P6 — Ordenadores
 
-- [ ] 🧑 **Teclado USB.** C64, DOS, MSX y ScummVM se usan con teclado. Comprobar primero que el port de RetroArch lo reconoce
-- [ ] 🧑 Commodore 64: `.d64`, `.t64`, `.tap`, `.prg` o `.crt`, en `C64/`. VICE lleva las ROMs del sistema integradas
-- [ ] 🧑 DOS: una carpeta por juego, con su `.exe` o un `.conf`, en `DOS/`
-- [ ] 🧑 ScummVM: los archivos de datos de tus juegos originales, uno por subcarpeta con su `.scummvm`, en `SCUMMVM/`
-- [ ] 🤖 ScummVM: temas y archivos de datos de motores (`system/scummvm/theme/` y `extra/`), libres
+- [x] 🧑 **Teclado USB** (hecho según Javi, 14-09). C64, DOS, MSX y ScummVM se usan con teclado
+- [x] 🧑 Colecciones de Commodore 64, DOS y ScummVM descargadas (14-09)
+- [x] 🤖 **C64** ordenado (14-09):
+  - 8427 imágenes de disco y cinta en `C64/`, con 509 `.m3u` para los juegos de varios discos (lista de 7522 juegos);
+  - 11 023 `.prg` en `C64/PRG/`, con su propia lista. Detalle en [`emu/ROMS/C64/README.md`](emu/ROMS/C64/README.md)
+- [x] 🤖 **DOS** (14-09): 956 juegos descomprimidos en `DOS/`, cada uno con un `.conf` que lo arranca (`tools/dos.py`), y los zips originales en `emu/ORIGINALES/DOS/`. Detalle en [`emu/ROMS/DOS/README.md`](emu/ROMS/DOS/README.md)
+- [x] 🤖 **ScummVM** (14-09): 40 aventuras de la colección de DOS en `SCUMMVM/`, cada una con su `.scummvm` (id comprobado en ScummVM 2.2) y en su lista
+- [ ] 🎮 Subir C64, DOS y ScummVM con sus 4 listas, y probar un juego de cada uno con teclado. Comprobar antes que el port reconoce el teclado
+- [ ] 🎮 DOS: 254 lanzadores son `dudoso`. Si un juego abre el programa equivocado, se cambia la última línea de su `.conf` (alternativas en [`LANZADORES.md`](emu/ROMS/DOS/LANZADORES.md))
+- [ ] 🧑 DOS: 11 juegos solo traen su instalador (*Discworld*, *Doom* shareware, *Colonization*…) y hay que instalarlos en DOSBox
+- [ ] 🧑 DOS: faltan 778 de los 1778 juegos del `gamelist.xml` de la colección (pendiente de descargar). Cuando lleguen: `python tools/dos.py CARPETA`
+- [ ] 🤖 ScummVM: datos de motores para `system/scummvm/extra/` (`kyra.dat` para *Eye of the Beholder*, `lure.dat` y `queen.tbl`) y temas, de la versión de ScummVM del core, que falta identificar
+- [ ] 🤖 Carátulas de arcade, C64, DOS y ScummVM. De DOS hay 2901 imágenes de ScreenScraper en `emu/MEDIA/DOS/`
 - [ ] 🤖 blueMSX, si se prefiere a fmsx: sus carpetas `Databases/` y `Machines/`, libres
 
 ---
@@ -182,6 +195,8 @@ Formato CD:
 ## P9 — Mantenimiento de la colección en el PC
 
 - [ ] 🧑 Decidir si se borran `EXTRAS/MD-duplicados/` (676) y `EXTRAS/MD-malos/` (6)
+- [ ] 🧑 Decidir qué se hace con lo apartado el 14-09 en `EXTRAS/`: arcade incompleto y sin driver, variantes de PRG y el pack de Google Drive de C64 (244 MB, casi todo repetido), y los zips rotos de DOS
+- [ ] 🧑 Espacio en el PC: quedan 6,7 GB libres en D: tras descomprimir DOS
 - [ ] 🧑 Decidir si `ROMS/NES/Datach - Battle Rush….sav` va a `SAVES/`
 - [ ] 🧑 Quitar `gamelist.xml` y `systeminfo.txt` de `ROMS/GBC` y `ROMS/GBA`, y `Lisezmoi.txt` de `ROMS/NES`
 - [ ] 🧑 Decidir qué hacer con el `.rar` de 4,4 GB de la raíz del repo
@@ -246,7 +261,7 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 | `gba_bios.bin` | GBA | `system/` | P0 | no |
 | `7800 BIOS (U).rom` | Atari 7800 | `system/` | P1 | no |
 | ~~`lynxboot.img`~~ subida | Lynx | `system/` | P1 | no, con handy |
-| `neogeo.zip` (FB Alpha 2012) | Neo Geo | junto a las ROMs | P2 | sí |
+| ~~`neogeo.zip` (FB Alpha 2012)~~ en `ROMS/NEOGEO/` del PC | Neo Geo | junto a las ROMs | P2 | sí |
 | `syscard3.pce` | PC Engine CD | `system/` | P3 | sí |
 | `disksys.rom` | Famicom Disk System | `system/` | P3 | sí |
 | `5200.rom` | Atari 5200 | `system/` | P3 | sí |

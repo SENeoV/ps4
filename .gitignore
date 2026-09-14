@@ -21,6 +21,9 @@ emu/**
 !emu/**/*.md
 !emu/RETROARCH/info/*.info
 !emu/RETROARCH/playlists/*.lpl
+# Juegos de DOS y ScummVM descomprimidos: todo lo de dentro es del juego (hay archivos de datos con extensión .MD)
+emu/ROMS/DOS/*/**
+emu/ROMS/SCUMMVM/*/**
 
 # linux/: igual que emu/. Loader, kernel, initramfs y distros viven solo en local y se catalogan
 # en catalogo/LINUX/. Los repos de linux/src/ son submódulos (solo se versiona el commit).

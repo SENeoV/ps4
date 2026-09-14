@@ -1,0 +1,331 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+  "default_core_name": "ScummVM",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/SCUMMVM/Castle of Dr. Brain/drbrain/Castle of Dr. Brain.scummvm",
+      "label": "Castle of Dr. Brain",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "42A1999B|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Codename - Iceman/ICE/Codename - Iceman.scummvm",
+      "label": "Codename: ICEMAN",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "C702727F|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Conquests of the Longbow - The Legend of Robin Hood/longbow/Conquests of the Longbow - The Legend of Robin Hood.scummvm",
+      "label": "Conquests of the Longbow: The Legend of Robin Hood",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "D47B265C|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Donald Duck's Playground/ddplay/Donald Duck's Playground.scummvm",
+      "label": "Donald Duck's Playground",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "15344C5C|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/DreamWeb/Dreamweb/DreamWeb.scummvm",
+      "label": "Dreamweb",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "7D9D2F7F|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/EcoQuest - The Search for Cetus/equest/EcoQuest - The Search for Cetus.scummvm",
+      "label": "EcoQuest: The Search for Cetus",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "D3E27E1E|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Eye of the Beholder/Eye of the Beholder.scummvm",
+      "label": "Eye of the Beholder",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "D929B40B|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Flight of the Amazon Queen/Flight of the Amazon Queen.scummvm",
+      "label": "Flight of the Amazon Queen",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "19C1B1B5|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Freddy Pharkas - Frontier Pharmacist/Freddy Pharkas - Frontier Pharmacist.scummvm",
+      "label": "Freddy Pharkas: Frontier Pharmacist",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "BEBAB5CD|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Future Wars/Future Wars.scummvm",
+      "label": "Future Wars: Adventures in Time",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "33B068AF|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Gobliiins/goblins/Gobliiins.scummvm",
+      "label": "Gobliiins",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "E3AE4AF7|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Gobliins 2 - The Prince Buffoon/goblins2/Gobliins 2 - The Prince Buffoon.scummvm",
+      "label": "Gobliins 2",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "C8831934|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Gold Rush!/Gold Rush!.scummvm",
+      "label": "Gold Rush!",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "CC061CB0|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Jones in the Fast Lane/jones/Jones in the Fast Lane.scummvm",
+      "label": "Jones in the Fast Lane",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "72ED27D3|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/King's Quest 2 - Romancing the Throne/King's Quest 2 - Romancing the Throne.scummvm",
+      "label": "King's Quest II: Romancing the Throne",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "95F51016|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/King's Quest 3 - To Heir is Human/King's Quest 3 - To Heir is Human.scummvm",
+      "label": "King's Quest III: To Heir is Human",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "8CEE2157|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/King's Quest 4 - The Perils of Rosella/King's Quest 4 - The Perils of Rosella.scummvm",
+      "label": "King's Quest IV: The Perils of Rosella",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "E7F344B8|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/King's Quest 5 - Absence makes the heart go Yonder/kq5/King's Quest 5 - Absence makes the heart go Yonder.scummvm",
+      "label": "King's Quest V: Absence Makes the Heart Go Yonder!",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "DAB486D1|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/King's Quest 6 - Heir today, Gone tomorrow/kq6/King's Quest 6 - Heir today, Gone tomorrow.scummvm",
+      "label": "King's Quest VI: Heir Today, Gone Tomorrow",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "F199D512|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Laura Bow - The Colonel's Bequest/laurabow/Laura Bow - The Colonel's Bequest.scummvm",
+      "label": "Laura Bow 1: The Colonels Bequest",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "4EF87E3A|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Leisure Suit Larry 3 - Passionate Patti in Pursuit of the Pulsating Pectorals/Leisure Suit Larry 3 - Passionate Patti in Pursuit of the Pulsating Pectorals.scummvm",
+      "label": "Leisure Suit Larry 3: Passionate Patti in Pursuit of the Pulsating Pectorals",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "B619DC49|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Leisure Suit Larry 2/Leisure Suit Larry 2.scummvm",
+      "label": "Leisure Suit Larry Goes Looking for Love (in Several Wrong Places)",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "AF02ED08|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Leisure Suit Larry - in the Land of the Lounge Lizards/lsl1/Leisure Suit Larry - in the Land of the Lounge Lizards.scummvm",
+      "label": "Leisure Suit Larry in the Land of the Lounge Lizards",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "842FBECB|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Loom/Loom.scummvm",
+      "label": "Loom",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "8AA8FAED|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Lure of the Temptress/Lure of the Temptress.scummvm",
+      "label": "Lure of the Temptress",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "692BF73D|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Manhunter - New York/Manhunter - New York.scummvm",
+      "label": "Manhunter 1: New York",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "884484F6|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Mixed-Up Fairy Tales/muft/Mixed-Up Fairy Tales.scummvm",
+      "label": "Mixed-Up Fairy Tales",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "654C2542|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Mixed up Mother Goose/Mixed up Mother Goose.scummvm",
+      "label": "Mixed-Up Mother Goose Deluxe",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "AFD54EA3|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Pepper's Adventures in Time/pepper/Pepper's Adventures in Time.scummvm",
+      "label": "Peppers Adventures in Time",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "08102A4E|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Police Quest 2 - The Vengeance/pq2/Police Quest 2 - The Vengeance.scummvm",
+      "label": "Police Quest II: The Vengeance",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "12EDC088|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Police Quest 3 - The Kindred/p3/Police Quest 3 - The Kindred.scummvm",
+      "label": "Police Quest III: The Kindred",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "0BF6F1C9|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Quest for Glory II - Trial By Fire/Quest for Glory II - Trial By Fire.scummvm",
+      "label": "Quest for Glory 2: Trial by Fire",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "5CE0F677|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Quest for Glory III - Wages of War/qfg3/Quest for Glory III - Wages of War.scummvm",
+      "label": "Quest for Glory III: Wages of War",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "45FBC736|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Space Quest 2 - Vohaul's Revenge/Space Quest 2 - Vohaul's Revenge.scummvm",
+      "label": "Space Quest II: Vohaul's Revenge",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "00586F66|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Space Quest 3 - The Pirates of Pestulon/Space Quest 3 - The Pirates of Pestulon.scummvm",
+      "label": "Space Quest III: The Pirates of Pestulon",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "19435E27|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Space Quest 4 - Roger Wilco and the Time Rippers/sq4/Space Quest 4 - Roger Wilco and the Time Rippers.scummvm",
+      "label": "Space Quest IV: Roger Wilco and the Time Rippers",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "5602C8E0|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Space Quest 5 - The Next Mutation/Space Quest 5 - The Next Mutation.scummvm",
+      "label": "Space Quest V: The Next Mutation",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "4F19F9A1|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/The Black Cauldron/The Black Cauldron.scummvm",
+      "label": "The Black Cauldron",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "1A171726|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Ween - The Prophecy/ween/Ween - The Prophecy.scummvm",
+      "label": "The Prophecy",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "D49F6A0F|crc",
+      "db_name": "ScummVM.lpl"
+    },
+    {
+      "path": "/data/ROMS/SCUMMVM/Zak McKracken and the Alien Mindbenders/zak/Zak McKracken and the Alien Mindbenders.scummvm",
+      "label": "Zak McKracken and the Alien Mindbenders",
+      "core_path": "/data/self/retroarch/cores/scummvm_libretro_ps4.self",
+      "core_name": "ScummVM",
+      "crc32": "0A0F6581|crc",
+      "db_name": "ScummVM.lpl"
+    }
+  ]
+}

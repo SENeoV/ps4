@@ -1,0 +1,1243 @@
+{
+  "version": "1.4",
+  "default_core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+  "default_core_name": "Arcade (FB Alpha 2012 CPS-1)",
+  "label_display_mode": 0,
+  "right_thumbnail_mode": 0,
+  "left_thumbnail_mode": 0,
+  "sort_mode": 0,
+  "items": [
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/1941u.zip",
+      "label": "1941 - Counter Attack (900227 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/1941.zip",
+      "label": "1941 - Counter Attack (900227 World)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/1941j.zip",
+      "label": "1941 - Counter Attack (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/1941r1.zip",
+      "label": "1941 - Counter Attack (World)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/area88r.zip",
+      "label": "Area 88 (Japan Resale ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/area88.zip",
+      "label": "Area 88 (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/punisherbz.zip",
+      "label": "Biaofeng Zhanjing (Chinese bootleg)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dino.zip",
+      "label": "Cadillacs & Dinosaurs (930201 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dinou.zip",
+      "label": "Cadillacs & Dinosaurs (930201 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dinoh.zip",
+      "label": "Cadillacs and Dinosaurs (bootleg set 3, 930223 Asia TW)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dinoeh.zip",
+      "label": "Cadillacs and Dinosaurs (hack, 930201 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dinoj.zip",
+      "label": "Cadillacs Kyouryuu-Shinseiki (Cadillacs 930201 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cworld2j.zip",
+      "label": "Capcom World 2 (920611 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/captcommjr1.zip",
+      "label": "Captain Commando (910928 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/captcommu.zip",
+      "label": "Captain Commando (910928 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/captcommr1.zip",
+      "label": "Captain Commando (911014 other country)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/captcommj.zip",
+      "label": "Captain Commando (911202 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/captcomm.zip",
+      "label": "Captain Commando (911202 other country)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cawingr1.zip",
+      "label": "Carrier Air Wing (U.S. navy 901009 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cawing.zip",
+      "label": "Carrier Air Wing (U.S. navy 901012 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cawingu.zip",
+      "label": "Carrier Air Wing (U.S. navy 901012 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cps1demo.zip",
+      "label": "Chaos Demo (CPS-1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/chikij.zip",
+      "label": "Chiki Chiki Boys (900619 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/daimakair.zip",
+      "label": "Dai Makai-Mura (Japan Resale Ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/daimakai.zip",
+      "label": "Dai Makai-Mura (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dinohunt.zip",
+      "label": "Dinosaur Hunter (Chinese bootleg, 930223 Asia TW)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dynwar.zip",
+      "label": "Dynasty Wars (US set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dynwara.zip",
+      "label": "Dynasty Wars (US set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightj1.zip",
+      "label": "Final Fight (900112 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightua.zip",
+      "label": "Final Fight (900112 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightj2.zip",
+      "label": "Final Fight (900305 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightub.zip",
+      "label": "Final Fight (900613 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightj.zip",
+      "label": "Final Fight (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightu.zip",
+      "label": "Final Fight (USA, set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightu1.zip",
+      "label": "Final Fight (USA, set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffight.zip",
+      "label": "Final Fight (World, set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffighta.zip",
+      "label": "Final Fight (World, set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/forgottnua.zip",
+      "label": "Forgotten Worlds (US, B-Board 88618B-2, rev A)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/forgottnu1.zip",
+      "label": "Forgotten Worlds (US, B-Board 88618B-2, Rev C)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/forgottnu.zip",
+      "label": "Forgotten Worlds (US, B-Board 88621B-2, rev C)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/forgottn.zip",
+      "label": "Forgotten Worlds (World)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cps1frog.zip",
+      "label": "Frog Feast (CPS-1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ghoulsu.zip",
+      "label": "Ghouls'n Ghosts (US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ghouls.zip",
+      "label": "Ghouls'n Ghosts (World)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knights.zip",
+      "label": "Knights of the Round (911127 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knightsja.zip",
+      "label": "Knights of the Round (911127 Japan, B-Board 89625B-1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knightsj.zip",
+      "label": "Knights of the Round (911127 Japan, B-Board 91634B-2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knightsu.zip",
+      "label": "Knights of the Round (911127 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knightsb3.zip",
+      "label": "Knights of the Round (bootleg set 3, 911127 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/knightsh.zip",
+      "label": "Knights of the Round (hack set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/lostwrldo.zip",
+      "label": "Lost Worlds (Japan Old ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/lostwrld.zip",
+      "label": "Lost Worlds (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mswordj.zip",
+      "label": "Magic Sword (23.06.1990 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mswordr1.zip",
+      "label": "Magic Sword - heroic fantasy (23.06.1990 other country)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/msword.zip",
+      "label": "Magic Sword - heroic fantasy (25.07.1990 other country)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mswordu.zip",
+      "label": "Magic Sword - heroic fantasy (25.07.1990 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/megamana.zip",
+      "label": "Mega Man - the power battle (951006 Asia)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/megaman.zip",
+      "label": "Mega Man - the power battle (951006 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mtwins.zip",
+      "label": "Mega Twins (chiki chiki boys 900619 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mercs.zip",
+      "label": "Mercs (900302 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mercsur1.zip",
+      "label": "Mercs (900302 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mercsu.zip",
+      "label": "Mercs (900608 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mbomberj.zip",
+      "label": "Muscle Bomber - the body explosion (930713 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mbombrd.zip",
+      "label": "Muscle Bomber Duo - ultimate team battle (931206 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/nemoj.zip",
+      "label": "Nemo (90 11 20 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/nemo.zip",
+      "label": "Nemo (90 11 30 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/pang3r1.zip",
+      "label": "Pang! 3 (950511 Euro)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/pang3.zip",
+      "label": "Pang! 3 (950601 Euro)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/pang3b.zip",
+      "label": "Pang! 3 (bootleg set 1, 950511 Euro)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/pang3j.zip",
+      "label": "Pang! 3: Kaitou Tachi no Karei na Gogo (950511 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/pnickj.zip",
+      "label": "Pnickies (940608 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/qad.zip",
+      "label": "Quiz & Dragons (capcom quiz game 920701 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/rockmanj.zip",
+      "label": "Rockman - the power battle (950922 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofa.zip",
+      "label": "Sangokushi II (921005 Asia)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofah.zip",
+      "label": "Sangokushi II (hack set 1, 921005 Asia)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofhfh.zip",
+      "label": "Sangokushi II: Huo Fenghuang (Chinese bootleg, 921005 Asia)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wof3js.zip",
+      "label": "Sangokushi II: San Jian Sheng (Chinese bootleg set 1, 921005 Asia)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/slammast.zip",
+      "label": "Saturday Night Slam Masters (Slam Masters 930713 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/slammastu.zip",
+      "label": "Saturday Night Slam Masters (slam masters 930713 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/mercsj.zip",
+      "label": "Senjo no Ookami II (Ookami 2 900302 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ua.zip",
+      "label": "Street Fighter II - the world warrior (910206 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2eb.zip",
+      "label": "Street Fighter II - the world warrior (910214 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ja.zip",
+      "label": "Street Fighter II - the world warrior (910214 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ub.zip",
+      "label": "Street Fighter II - the world warrior (910214 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ee.zip",
+      "label": "Street Fighter II - the world warrior (910228 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ue.zip",
+      "label": "Street Fighter II - the world warrior (910228 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2jc.zip",
+      "label": "Street Fighter II - the world warrior (910306 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2uc.zip",
+      "label": "Street Fighter II - the world warrior (910306 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ud.zip",
+      "label": "Street Fighter II - the world warrior (910318 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2uf.zip",
+      "label": "Street Fighter II - the world warrior (910411 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2.zip",
+      "label": "Street Fighter II - the world warrior (910522 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ug.zip",
+      "label": "Street Fighter II - the world warrior (910522 USA, rev G)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ui.zip",
+      "label": "Street Fighter II - the world warrior (910522 USA, rev I)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2uk.zip",
+      "label": "Street Fighter II - the world warrior (911101 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2j.zip",
+      "label": "Street Fighter II - the world warrior (911210 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2qp1.zip",
+      "label": "Street Fighter II - the world warrior (Quicken Pt-I bootleg, 910214 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ebbl.zip",
+      "label": "Street Fighter II - the world warrior (TAB Austria bootleg, 910214 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2thndr.zip",
+      "label": "Street Fighter II - the world warrior (Thunder Edition bootleg, 910214 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2accp2.zip",
+      "label": "Street Fighter II' - champion edition (Accelerator Pt.II bootleg, 920313 Testron)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2acc.zip",
+      "label": "Street Fighter II' - champion edition (Accelerator! bootleg set 1, 920313 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2dkot2.zip",
+      "label": "Street Fighter II' - champion edition (Double K.O. Turbo II bootleg, 902140 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2rb.zip",
+      "label": "Street Fighter II' - champion edition (Rainbow bootleg set 1, 920322 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2rb2.zip",
+      "label": "Street Fighter II' - champion edition (Rainbow bootleg set 2, 920322 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2rb3.zip",
+      "label": "Street Fighter II' - champion edition (Rainbow bootleg set 3, 920322 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2red.zip",
+      "label": "Street Fighter II' - champion edition (Red Wave bootleg set 1, 920313 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ceea.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920313 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ceua.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920313 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ceja.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920322 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ce.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920513 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2cejb.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920513 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ceub.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920513 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2cejc.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920803 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2ceuc.zip",
+      "label": "Street Fighter II' - champion edition (street fighter 2' 920803 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2v004.zip",
+      "label": "Street Fighter II' - champion edition (V004 bootleg set 1, 102092 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2hf.zip",
+      "label": "Street Fighter II' - hyper fighting (street fighter 2' T 921209 ETC)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2hfu.zip",
+      "label": "Street Fighter II' - hyper fighting (street fighter 2' T 921209 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sf2hfj.zip",
+      "label": "Street Fighter II' Turbo - hyper fighting (street fighter 2' T 921209 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/sfzch.zip",
+      "label": "Street Fighter Zero (CPS Changer, 951020 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/ffightjh.zip",
+      "label": "Street Smart / Final Fight (Japan, hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/strider.zip",
+      "label": "Strider (US set 1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/striderua.zip",
+      "label": "Strider (US set 2)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/striderjr.zip",
+      "label": "Strider Hiryu (Japan Resale Ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/striderj.zip",
+      "label": "Strider Hiryu (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dynwarjr.zip",
+      "label": "Tenchi wo Kurau (Japan Resale Ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/dynwarj.zip",
+      "label": "Tenchi wo Kurau (Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofj.zip",
+      "label": "Tenchi wo Kurau II - Sekiheki no Tatakai (921031 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofch.zip",
+      "label": "Tenchi wo Kurau II - Sekiheki no Tatakai (CPS Changer, 921031 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofjh.zip",
+      "label": "Tenchi wo Kurau II - Sekiheki no Tatakai (hack, 921031 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodr1.zip",
+      "label": "The King of Dragons (910711 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kod.zip",
+      "label": "The King of Dragons (910805 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodh.zip",
+      "label": "The King of Dragons (hack)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodja.zip",
+      "label": "The King of Dragons (Japan 910805, B-Board 89625B-1)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodj.zip",
+      "label": "The King of Dragons (Japan 910805, B-Board 90629B-3)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodda.zip",
+      "label": "The King of Dragons (Phoenix bootleg, 910731 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/kodu.zip",
+      "label": "The King of Dragons (US 910910)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/punisher.zip",
+      "label": "The Punisher (930422 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/punisherj.zip",
+      "label": "The Punisher (930422 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/punisheru.zip",
+      "label": "The Punisher (930422 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/3wondersh.zip",
+      "label": "Three Wonders (bootleg, wonder 3 910520 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/3wonders.zip",
+      "label": "Three Wonders (wonder 3 910520 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/3wondersu.zip",
+      "label": "Three Wonders (wonder 3 910520 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/unsquad.zip",
+      "label": "U.N. Squadron (US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/cawingj.zip",
+      "label": "U.S. Navy (901012 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/varthr1.zip",
+      "label": "Varth - operation thunderstorm (920612 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/varthu.zip",
+      "label": "Varth - operation thunderstorm (920612 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/varth.zip",
+      "label": "Varth - operation thunderstorm (920714 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/varthj.zip",
+      "label": "Varth - operation thunderstorm (920714 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofr1.zip",
+      "label": "Warriors of Fate (921002 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wof.zip",
+      "label": "Warriors of Fate (921031 etc)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wofu.zip",
+      "label": "Warriors of Fate (921031 USA)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/willowj.zip",
+      "label": "Willow (Japan, Japanese)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/willowo.zip",
+      "label": "Willow (US old ver.)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/willow.zip",
+      "label": "Willow (US)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    },
+    {
+      "path": "/data/ROMS/ARCADE/FBNEO/CPS1/wonder3.zip",
+      "label": "Wonder 3 (910520 Japan)",
+      "core_path": "/data/self/retroarch/cores/fbalpha2012_cps1_libretro_ps4.self",
+      "core_name": "Arcade (FB Alpha 2012 CPS-1)",
+      "crc32": "DETECT",
+      "db_name": "FB Alpha 2012 CPS-1.lpl"
+    }
+  ]
+}
