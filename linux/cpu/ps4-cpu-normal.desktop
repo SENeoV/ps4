@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=CPU 1,6 GHz — Normal
+Name[en]=CPU 1.6 GHz — Normal
+Comment=Vuelve los 8 núcleos a 1,6 GHz (P2), lo que deja el arranque. Menos calor
+Exec=/usr/local/bin/ps4-cpu normal
+Icon=/usr/local/share/ps4-cpu/normal.svg
+Terminal=false
+Categories=Game;System;
+Keywords=cpu;normal;
+StartupNotify=false

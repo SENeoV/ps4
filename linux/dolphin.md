@@ -2,7 +2,7 @@
 
 Dolphin **2509** (paquete `dolphin-emu 1:2509-1` de Arch, instalado sin red desde `linux/pkgs/`) sobre el Arch de `linux/distros/` (Mesa 25.1, RADV), kernel 5.4.247, en la PS4 Pro CUH-7116B (Baikal B1). Primer juego: *The Legend of Zelda: The Wind Waker* (Europe, `GZLP01`, RVZ), el 13-09-2026, **a 30 fps (velocidad completa) con Vulkan**, 3x de resolución interna, y bajones a 23-24 fps en cinemáticas por la compilación de shaders.
 
-Hardware visto desde Linux: 8 núcleos Jaguar **a 1,59 GHz** (no a los 2,13 de la Pro; ver `README.md`, "Registro"), GPU "AMD Radeon Graphics (RADV LIVERPOOL)", Vulkan 1.3 (RADV) y OpenGL 4.6 (radeonsi), 5,8 GiB de RAM con el payload de 2 GB de VRAM. **El cuello de botella es la CPU**: la GPU tiene margen para resolución y antialiasing, la CPU no lo tiene para compilar shaders ni para juegos exigentes.
+Hardware visto desde Linux: 8 núcleos Jaguar **a 1,6 GHz al arrancar, 2,1 GHz con [`cpu/ps4-cpu`](cpu/README.md)** (icono *Rendimiento* en el escritorio; pulsarlo antes de Dolphin en cada arranque), GPU "AMD Radeon Graphics (RADV LIVERPOOL)", Vulkan 1.3 (RADV) y OpenGL 4.6 (radeonsi), 5,8 GiB de RAM con el payload de 2 GB de VRAM. **El cuello de botella es la CPU**: la GPU tiene margen para resolución y antialiasing, la CPU no lo tiene para compilar shaders ni para juegos exigentes.
 
 Los archivos viven en `/home/ps4/.config/dolphin-emu/`: `Dolphin.ini` (general), `GFX.ini` (gráficos), `GCPadNew.ini` (mando). Dolphin los reescribe al cerrarse: **editarlos solo con Dolphin cerrado**.
 
@@ -215,6 +215,15 @@ Depende de lo que hay en pantalla: el mar y el horizonte con toda la isla son lo
 | A: `GZLE01.ini` limpio | 26,36 · 27,17 · 26,49 · 27,20 · 26,78 · 27,02 | 26,8 |
 | B: + los dos ajustes | 26,32 · 27,48 · 27,11 · 27,49 · 27,03 · 26,69 | 27,0 |
 
-Diferencia dentro del ruido: **no dan rendimiento aquí**, y anulan lo que Dolphin fija para el juego. Se quedan fuera. El MSAA no se probó porque es GPU y el cuello es la CPU. Lo que movería estos fps es la frecuencia de la CPU (1,59 en vez de 2,13 GHz, pendiente) o un kernel mejor, no ajustes de vídeo. CPU entre 72 y 76 °C durante todo esto, con `ps4-fan-threshold60` lanzado antes de Linux.
+Diferencia dentro del ruido: **no dan rendimiento aquí**, y anulan lo que Dolphin fija para el juego. Se quedan fuera. El MSAA no se probó porque es GPU y el cuello es la CPU. Lo que movería estos fps es la frecuencia de la CPU, no ajustes de vídeo. CPU entre 72 y 76 °C durante todo esto, con `ps4-fan-threshold60` lanzado antes de Linux.
+
+**Y la frecuencia lo resolvió** (19:18): con la CPU en P0 (2,1 GHz) por MSR, misma escena y mismo estado cargado:
+
+| CPU | fps | Temp |
+|---|---|---|
+| 1,6 GHz (P2, como arranca) | 26,36 · 27,17 · 26,49 · 27,20 · 26,78 · 27,02 → 26,8 | 74-76 °C |
+| **2,1 GHz (P0)** | 29,98 · 29,97 · 29,96 · 29,84 · 29,97 · 29,97 → **29,95** | 77-80 °C |
+
+Velocidad completa en el peor caso. Detalle, script e iconos del escritorio en [`cpu/README.md`](cpu/README.md).
 
 Para medir: `ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 cap.png` y recortar el contador con `-vf 'crop=110:24:1810:36'`.

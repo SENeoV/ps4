@@ -31,3 +31,5 @@ linux/**
 !linux/**/
 !linux/**/*.md
 !linux/pkgs/*.sh
+# ps4-cpu: script, iconos SVG, lanzadores e instalador (texto, se versiona todo)
+!linux/cpu/*

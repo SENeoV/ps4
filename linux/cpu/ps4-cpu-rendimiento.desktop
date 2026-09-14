@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=CPU 2,1 GHz — Rendimiento
+Name[en]=CPU 2.1 GHz — Performance
+Comment=Pone los 8 núcleos a 2,1 GHz (P0). Dolphin a velocidad completa; sube unos 4 °C
+Exec=/usr/local/bin/ps4-cpu rendimiento
+Icon=/usr/local/share/ps4-cpu/rendimiento.svg
+Terminal=false
+Categories=Game;System;
+Keywords=cpu;rendimiento;dolphin;
+StartupNotify=false

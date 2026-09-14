@@ -246,7 +246,9 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [ ] 🎮 Si la prueba va bien: añadir `Effects` (140 MB) y luego decidir sobre `Environments` (8,2 GB). `HUD` solo sobre la versión USA (está en inglés)
 - [ ] 🧑 El `.7z` de `linux/texturas/` (1,94 GB) es ya la única copia del pack: no borrarlo mientras se quiera extraer más carpetas
 - [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena)
-- [ ] 🤖 Averiguar por qué la CPU va a 1,59 GHz en vez de 2,13 (P-state del loader / kernel 5.4) y si `neocine-1.1` o rmux lo cambian
+- [x] 🤖 **Resuelto (14-09): la CPU va a 1,6 GHz porque el kernel no tiene `cpufreq` y la deja en P2; P0 = 2,1 GHz está permitido.** `linux/cpu/ps4-cpu` lo pide por MSR: *Wind Waker* pasa de 26,8 a 29,95 fps en la misma escena. Instalado en la consola con dos iconos en el escritorio (*Rendimiento* / *Normal*)
+- [ ] 🎮 **Pulsar "CPU 2,1 GHz — Rendimiento" en cada arranque de Linux antes de Dolphin** (se pierde al reiniciar). Vigilar la temperatura: 77-80 °C jugando a 2,1 GHz
+- [ ] 🤖 Comprobar si `neocine-1.1` o los kernels de rmux traen `cpufreq` y arrancan ya en P0; entonces sobra el script
 - [ ] 🎮 RPCS3, con su firmware (AUR, con red)
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
 
