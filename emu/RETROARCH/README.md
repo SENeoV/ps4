@@ -268,22 +268,24 @@ Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su
 - SNES tiene cifras bajas porque 87 de sus ROMs son traducciones, versiones parcheadas o volcados alterados que no están en la base de datos: no se pueden reconocer por CRC. En WonderSwan pasa lo mismo con las variantes `[o]`, `[b]` y `[f]` de la colección GoodWSx.
 - En NES y Lynx, parte de los juegos reconocidos no tienen portada en el servidor de libretro. En Lynx, 89 de las 94 carátulas vienen de `emu/MEDIA/`.
 
-### Listas añadidas el 2026-09-14 (sin carátulas, sin subir)
+### Listas añadidas el 2026-09-14 (sin subir)
 
-| Lista | Juegos | Reconocidos en la base de datos | Tamaño |
-|---|--:|--:|--:|
-| FB Alpha 2012 | 2032 | nombre del DAT del core | 0,7 MB |
-| FB Alpha 2012 CPS-1 | 154 | nombre del DAT del core | |
-| FB Alpha 2012 CPS-2 | 273 | nombre del DAT del core | |
-| FB Alpha 2012 CPS-3 | 32 | nombre del DAT del core | |
-| FB Alpha 2012 Neo Geo | 284 | nombre del DAT del core | |
-| Commodore - 64 | 7522 | 2 (0%) | 2,5 MB |
-| Commodore - 64 (PRG) | 11 023 | 0 | 4,0 MB |
-| DOS | 956 | 0 | 0,3 MB |
-| ScummVM | 40 | 40 (100%) | |
+| Lista | Juegos | Reconocidos en la base de datos | Con carátula | Tamaño carátulas |
+|---|--:|--:|--:|--:|
+| FB Alpha 2012 | 2032 | nombre del DAT del core | 1315 (65 %) | 363 MB |
+| FB Alpha 2012 CPS-1 | 154 | nombre del DAT del core | 67 (44 %) | 18 MB |
+| FB Alpha 2012 CPS-2 | 273 | nombre del DAT del core | 124 (45 %) | 34 MB |
+| FB Alpha 2012 CPS-3 | 32 | nombre del DAT del core | 23 (72 %) | 8 MB |
+| FB Alpha 2012 Neo Geo | 284 | nombre del DAT del core | 219 (77 %) | 62 MB |
+| Commodore - 64 | 7522 | 2 (0 %) | 1029 (14 %) | 360 MB |
+| Commodore - 64 (PRG) | 11 023 | 0 | 0 | |
+| DOS | 956 | 0 | 951 (99 %) | 210 MB |
+| ScummVM | 40 | 40 (100 %) | 23 (58 %) | 9 MB |
+| **Total** | **22 316** | | **3751** | **1064 MB** |
 
-- **C64:** `Commodore - 64.rdb` no trae los CRC de estas imágenes de disco y cinta, así que salen con el nombre de archivo, que ya es el de No-Intro en los discos y el de TOSEC en los `.prg`. Los juegos de varios discos aparecen una sola vez, con su `.m3u`; `retroarch_lists.py` no lista sueltos los discos que ya están en un `.m3u`.
-- **DOS:** los `.conf` no se reconocen por CRC, así que el nombre es el de la carpeta del juego.
+- **C64:** `Commodore - 64.rdb` no trae los CRC de estas imágenes de disco y cinta, así que salen con el nombre de archivo, que ya es el de No-Intro en los discos y el de TOSEC en los `.prg`. Los juegos de varios discos aparecen una sola vez, con su `.m3u`; `retroarch_lists.py` no lista sueltos los discos que ya están en un `.m3u`. Las carátulas se piden al servidor por ese nombre aunque el juego no esté en la base de datos: así salen las 1029. A los `.prg` no se les piden, porque el servidor va con nombres No-Intro y los suyos son TOSEC.
+- **Arcade:** las carátulas están en el servidor bajo *FBNeo - Arcade Games*, con el nombre completo del juego; `fba2012.py listas --thumbs` las pide con la descripción del DAT del core. Donde FBNeo cambió el nombre respecto a FB Alpha 2012, no hay carátula.
+- **DOS:** los `.conf` no se reconocen por CRC, así que el nombre es el de la carpeta del juego. Las carátulas salen de las imágenes de ScreenScraper de `emu/MEDIA/DOS/images/` (836) y del servidor (115).
 - **ScummVM:** la base de datos reconoce los `.scummvm` por su contenido (el id del juego).
 
 ### Subirlas a la consola
@@ -296,4 +298,6 @@ Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su
 
 ### Al añadir ROMs
 
-Volver a ejecutar `python tools/retroarch_lists.py --thumbs`. Regenera las listas y descarga solo las carátulas que falten. Después, subir de nuevo la lista del sistema y su carpeta de carátulas.
+Volver a ejecutar `python tools/retroarch_lists.py --thumbs` (o `python tools/fba2012.py listas --thumbs` en arcade). Regenera las listas y descarga solo las carátulas que falten. Después, subir de nuevo la lista del sistema y su carpeta de carátulas.
+
+Para comprobar los volcados contra los DAT de No-Intro: `python tools/verificar_dumps.py`. Resultado del 2026-09-15 en [`docs/volcados-2026-09-15.md`](../../docs/volcados-2026-09-15.md): 5877 de 6986 (84 %) coinciden con No-Intro.

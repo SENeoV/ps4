@@ -4,6 +4,7 @@
 #   python tools/verificar_dumps.py                  todos los sistemas con lista
 #   python tools/verificar_dumps.py --sistema NES GB
 #   python tools/verificar_dumps.py --faltan         además, los juegos del DAT que no tienes (son muchos)
+#   python tools/verificar_dumps.py --bios           las BIOS de emu/BIOS contra el System.dat de libretro
 # Compara por SHA-1: el de la ROM dentro del zip (columna rom_sha1) o el del archivo suelto.
 
 import argparse
@@ -20,8 +21,18 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import retroarch_lists as ral  # noqa: E402
 
 DAT_DIR = os.path.join(ral.RA, "database", "dat", "no-intro")
+# Carpetas que no tienen DAT de No-Intro que valga: se dice por qué en vez de dar ceros
+SIN_DAT = {
+    "C64": "el DAT de No-Intro de C64 solo cubre cartuchos; estas son imágenes de disco y cinta",
+    "C64/PRG": "programas TOSEC, sin DAT de No-Intro",
+    "DOS": "juegos descomprimidos; no hay DAT",
+    "SCUMMVM": "juegos descomprimidos; no hay DAT",
+}
 FUENTE = "https://raw.githubusercontent.com/libretro/libretro-database/master/metadat/no-intro"
 ROM = re.compile(r'rom\s*\(\s*name\s+"?([^"\n]+?)"?\s+size\s+(\d+)(?:\s+crc\s+(\w+))?(?:\s+md5\s+(\w+))?(?:\s+sha1\s+(\w+))?', re.I)
+SYSTEM_DAT = "https://raw.githubusercontent.com/libretro/libretro-database/master/dat/System.dat"
+# Subcarpetas de emu/BIOS que no son BIOS (software libre) o que repiten las de la raíz con nombre No-Intro
+BIOS_NO = ("PPSSPP/", "bluemsx/", "scummvm/", "Game Gear/", "Master System/", "Sega CD/", "Sega Genesis/")
 
 
 def bajar_dat(db):
@@ -78,17 +89,49 @@ def catalogo_por_sistema():
     return filas
 
 
+def verificar_bios(catalogo):
+    # System.dat agrupa las BIOS por sistema: game ( name "Sega - Mega-CD - Sega CD" ... rom ( name "bios_CD_U.bin" ... sha1 ... ) )
+    destino = os.path.join(os.path.dirname(DAT_DIR), "System.dat")
+    if not os.path.exists(destino):
+        with urllib.request.urlopen(SYSTEM_DAT, timeout=60) as r, open(destino, "wb") as f:
+            f.write(r.read())
+    with open(destino, encoding="utf-8", errors="replace") as f:
+        texto = f.read()
+    conocidas = {}
+    for bloque in re.split(r"\ngame\s*\(", texto)[1:]:
+        sistema = re.search(r'name\s+"([^"]+)"', bloque)
+        for m in ROM.finditer(bloque):
+            if m.group(5):
+                conocidas[m.group(5).lower()] = (sistema.group(1) if sistema else "?", m.group(1))
+    print(f"{'BIOS':40} {'Resultado'}")
+    for r in catalogo.get("BIOS", []):
+        if r["file"].startswith(BIOS_NO):
+            continue
+        hit = conocidas.get(r["sha1"].lower())
+        if hit:
+            print(f"{r['file']:40} ok: {hit[1]} ({hit[0]})")
+        else:
+            print(f"{r['file']:40} NO está en System.dat (otra revisión, o no es una BIOS conocida)")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser()
     parser.add_argument("--sistema", nargs="+", metavar="CARPETA")
     parser.add_argument("--faltan", action="store_true", help="lista también los juegos del DAT que no están")
+    parser.add_argument("--bios", action="store_true", help="comprueba las BIOS contra System.dat en vez de las ROMs")
     args = parser.parse_args()
 
     catalogo = catalogo_por_sistema()
+    if args.bios:
+        verificar_bios(catalogo)
+        return
     print(f"{'Sistema':10} {'Archivos':>8} {'Buenos':>7} {'Sin DAT':>8} {'Faltan':>7}  DAT")
     for carpeta, (db, *_) in ral.SYSTEMS.items():
         if args.sistema and carpeta not in args.sistema:
+            continue
+        if carpeta in SIN_DAT:
+            print(f"{carpeta:10} {'—':>8} {'—':>7} {'—':>8} {'—':>7}  {SIN_DAT[carpeta]}")
             continue
         filas = catalogo.get(carpeta.split("/")[0], [])
         if not filas:
