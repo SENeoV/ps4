@@ -174,8 +174,9 @@ Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla 
 
 1. GoldHEN (Poops), con el pendrive en un puerto **frontal**, teclado y mando por cable conectados, la **tele** como pantalla.
 2. Payload Guest → `ps4-fan-threshold60.bin` (ventilador) → `linux-2048mb.bin`.
-3. Entra solo en LXDE (autologin de LightDM, desde el 14-09). **Icono "CPU 2,1 GHz — Rendimiento"** del escritorio ([`cpu/`](cpu/README.md): por Payload Guest la CPU arranca a 1,6 y sin esto Dolphin no llega a 30 fps; por BinLoader ya viene a 2,1). Dolphin en el menú *Juegos*; *Wind Waker* en la lista. Sin teclado: todo se maneja desde el móvil por VNC.
-4. **Apagar desde el menú de LXDE**, nunca con el botón: la partición no tiene journal.
+3. Entra solo en LXDE (autologin de LightDM, desde el 14-09). **Icono "CPU 2,1 GHz — Rendimiento"** del escritorio ([`cpu/`](cpu/README.md): por Payload Guest la CPU arranca a 1,6 y sin esto Dolphin no llega a 30 fps; por BinLoader ya viene a 2,1). Sin teclado: todo se maneja desde el móvil por VNC.
+4. En el escritorio hay un icono por juego (*Zelda-Wind-Waker-Europe* y *-USA*, que abren Dolphin directamente en el juego), más Dolphin, PPSSPP, Firefox, la carpeta *Juegos* y una terminal ([`escritorio/`](escritorio/README.md)). Al añadir juegos nuevos a `~/Juegos`: `sh ~/escritorio/instalar.sh`.
+5. **Apagar con el icono "Apagar Linux"** o desde el menú de LXDE, nunca con el botón: la partición no tiene journal.
 
 Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`. Desde el móvil, el escritorio se ve por VNC ([`vnc.md`](vnc.md)): puerto 5900, contraseña `ps4linux`.
 
