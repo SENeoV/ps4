@@ -4,7 +4,9 @@ Dolphin **2509** (paquete `dolphin-emu 1:2509-1` de Arch, instalado sin red desd
 
 Hardware visto desde Linux: 8 núcleos Jaguar **a 1,59 GHz** (no a los 2,13 de la Pro; ver `README.md`, "Registro"), GPU "AMD Radeon Graphics (RADV LIVERPOOL)", Vulkan 1.3 (RADV) y OpenGL 4.6 (radeonsi), 5,8 GiB de RAM con el payload de 2 GB de VRAM. **El cuello de botella es la CPU**: la GPU tiene margen para resolución y antialiasing, la CPU no lo tiene para compilar shaders ni para juegos exigentes.
 
-Los archivos viven en `/home/ps4/.config/dolphin-emu/`: `Dolphin.ini` (general), `GFX.ini` (gráficos), `GCPadNew.ini` (mando), `GameSettings/<ID>.ini` (por juego, se crea desde *Properties*). Dolphin los reescribe al cerrarse: **editarlos solo con Dolphin cerrado**.
+Los archivos viven en `/home/ps4/.config/dolphin-emu/`: `Dolphin.ini` (general), `GFX.ini` (gráficos), `GCPadNew.ini` (mando). Dolphin los reescribe al cerrarse: **editarlos solo con Dolphin cerrado**.
+
+**Los ajustes por juego van en otro sitio: `~/.local/share/dolphin-emu/GameSettings/<ID>.ini`** (es donde Dolphin los escribe desde *Properties*). Un `GameSettings/` dentro de `~/.config/dolphin-emu/` **no lo lee**: los `GZLP01.ini` y `GZLE01.ini` que se escribieron ahí el 13 y el 14-09 nunca se aplicaron (comprobado el 14-09: el juego salía en 4:3 y sin texturas). Dolphin los lee al arrancar cada juego, así que un cambio necesita *Stop* y volver a lanzar, no cerrar Dolphin.
 
 ## Configuración a 13-09-2026, 23:50 (leída por SSH)
 
@@ -82,6 +84,8 @@ Cruz = A, círculo = B, cuadrado = X, triángulo = Y, R1 = Z, L2/R2 = L/R. En el
 
 Copia previa completa en `~/.config/dolphin-emu.bak-2026-09-13`. Aplicado todo lo de la tabla salvo las texturas HD: `EnableCheats`, MSAA 4x (`MSAA = 0x00000004`, Dolphin lo guarda en hexadecimal), ubershaders híbridos con compilación previa, V-Sync off, mando con `Z = R1`, `L = L2`, `R = R2` y C-Stick recto, y `GameSettings/GZLP01.ini` con el Gecko *16:9 Widescreen*, el AR *Remove Distance Blur* y `AspectRatio = 1` (16:9 forzado solo en este juego). Para volver atrás: `rm -r ~/.config/dolphin-emu && cp -a ~/.config/dolphin-emu.bak-2026-09-13 ~/.config/dolphin-emu`.
 
+**Corrección del 14-09:** ese `GZLP01.ini` se escribió en `~/.config/dolphin-emu/GameSettings/`, que Dolphin no lee, así que no se aplicó. Lo que el europeo usaba de verdad era un `~/.local/share/dolphin-emu/GameSettings/GZLP01.ini` creado desde la interfaz el 13-09 a las 23:10, con el *Widescreen Hack* **y** el código Gecko a la vez, `MSAA = 1`, anisotrópico 8x, `EnableGPUTextureDecoding = True`, `ArbitraryMipmapDetection = False` y los parches `$Max health` y `$Current health`. El 14-09 se sustituyó por la versión limpia (Gecko 16:9, AR sin desenfoque, `AspectRatio = 1`) y el resto lo hereda de la configuración global; el original está en `~/.config/dolphin-emu.bak-2026-09-14/GameSettings-local-share/GZLP01.ini`.
+
 Trucos de manejo remoto que sirvieron: Dolphin no tiene control remoto, pero con `xdotool` (`DISPLAY=:0`) se le mandan atajos: *Shift+F1* guarda estado en la ranura 1 (queda en `~/.local/share/dolphin-emu/StateSaves/GZLP01.s01`, se carga con F1) y *Ctrl+Q* en la ventana principal (no en la de render) lo cierra, previo diálogo *Confirm* que se acepta con *Alt+Y*. Dolphin solo reescribe los `.ini` si algo cambió.
 
 ## Cómo aplicar los cambios (a mano)
@@ -94,7 +98,7 @@ sed -i 's/^VSync = .*/VSync = False/' GFX.ini
 sed -i 's/^MSAA = .*/MSAA = 4/' GFX.ini
 grep -q ShaderCompilationMode GFX.ini || sed -i '/^\[Settings\]/a ShaderCompilationMode = 2\nWaitForShadersBeforeStarting = True' GFX.ini
 grep -q EnableCheats Dolphin.ini || sed -i '/^\[Core\]/a EnableCheats = True' Dolphin.ini
-mkdir -p GameSettings && printf '[Gecko_Enabled]\n$16:9 Widescreen\n' > GameSettings/GZLP01.ini
+printf '[Gecko_Enabled]\n$16:9 Widescreen\n' > ~/.local/share/dolphin-emu/GameSettings/GZLP01.ini
 ```
 
 y el `GCPadNew.ini` de arriba tal cual. Después, arrancar el juego una vez y esperar la compilación inicial de shaders (una barra al principio); las siguientes veces sale de la caché.
@@ -146,13 +150,10 @@ Con **Dolphin cerrado** (reescribe los `.ini` al salir) y por SSH/SFTP a la IP d
 # 2. Texturas: linux/texturas/GZL/  ->  ~/.local/share/dolphin-emu/Load/Textures/GZL/
 mkdir -p ~/.local/share/dolphin-emu/Load/Textures/GZL
 
-# 3. Activarlas y bajar el anisotrópico a 1x
-cd ~/.config/dolphin-emu
-sed -i 's/^MaxAnisotropy = .*/MaxAnisotropy = 0/' GFX.ini
-grep -q '^HiresTextures' GFX.ini || sed -i '/^\[Settings\]/a HiresTextures = True\nCacheHiresTextures = False' GFX.ini
+# 3. Activarlas y bajar el anisotrópico a 1x, solo en el USA (ver el GZLE01.ini de abajo)
 ```
 
-En la interfaz es lo mismo: *Graphics → Enhancements → Anisotropic Filtering: 1x* y *Graphics → Advanced → Load Custom Textures* sí, *Prefetch Custom Textures* no.
+En la interfaz es lo mismo, desde *Propiedades del juego*: *Anisotropic Filtering: 1x* y *Load Custom Textures* sí, *Prefetch Custom Textures* no.
 
 Para comprobar que las coge basta con que Link se vea distinto (o mirar `~/.local/share/dolphin-emu/Logs/dolphin.log`). Si no cambia nada, casi siempre es que la carpeta no se llama exactamente `GZL` o que los `.dds` quedaron un nivel de más (`Load/Textures/GZL/GZL/...`).
 
@@ -175,7 +176,8 @@ Para comprobar que las coge basta con que Link se vea distinto (o mirar `~/.loca
 Tiempos reales del 14-09: subida por SFTP del juego y del `.tar` hasta las 00:30; `tar` hasta las 01:11 (846 archivos, con `Dirty` clavado en ~990 MB todo el rato); `sync` hasta las 02:11. **Una hora y cuarenta minutos para ~1,3 GB.** Para esperar sin que se corte la sesión SSH, un script con `setsid nohup` que registra `dds` y `Dirty` cada minuto y hace el `sync` al final.
 
 **La lectura, en cambio, va bien: 13 MiB/s** (SHA-1 del `.rvz` USA con la caché vaciada, `echo 1 > /proc/sys/vm/drop_caches`: 823 MiB en 61 s). Eso es lo que cuenta al jugar: un `.dds` de personaje, de 0,5 MB de media, se lee en unas centésimas. El pendrive es malo para copiar cosas, no necesariamente para cargar texturas.
-- **Todo por juego, sin tocar la configuración global ni la versión europea**: `GameSettings/GZLE01.ini` activa las texturas y el anisotrópico a 1x solo en el USA, y copia del europeo el 16:9 y el desenfoque:
+
+**Todo por juego, sin tocar la configuración global ni la versión europea**: `~/.local/share/dolphin-emu/GameSettings/GZLE01.ini` activa las texturas y el anisotrópico a 1x solo en el USA, y copia del europeo el 16:9 y el desenfoque:
 
 ```ini
 [Gecko_Enabled]
@@ -190,4 +192,29 @@ CacheHiresTextures = False
 MaxAnisotropy = 0
 ```
 
-Los nombres de los códigos son iguales en `sys/GameSettings/GZLE01.ini` y `GZLP01.ini`, los dos verificados para RetroAchievements. Así el europeo sigue en 16x y sin texturas (las ignora porque `HiresTextures` está desactivado globalmente), y el USA las carga. Para quitarlo: `rm ~/.config/dolphin-emu/GameSettings/GZLE01.ini`.
+Los nombres de los códigos son iguales en `sys/GameSettings/GZLE01.ini` y `GZLP01.ini`, los dos verificados para RetroAchievements. Así el europeo sigue en 16x y sin texturas (las ignora porque `HiresTextures` está desactivado globalmente), y el USA las carga. Para quitarlo: `rm ~/.local/share/dolphin-emu/GameSettings/GZLE01.ini`.
+
+### Resultado (14-09-2026, 18:40-19:10)
+
+El primer arranque del USA salió en **4:3 con barras y sin texturas**: el `GZLE01.ini` estaba en `~/.config/dolphin-emu/GameSettings/`, que Dolphin no lee (ver arriba). Movido a `~/.local/share/dolphin-emu/GameSettings/`, el juego sale en 16:9 y **las texturas HD de personajes entran**: Link nítido a 1080p de cara y de espaldas.
+
+Rendimiento, con las texturas activas y el contador de Dolphin (`ShowFPS`), leído con capturas de pantalla por SSH (`ffmpeg -f x11grab`, que sí incluye el OSD; la captura de Dolphin con F9 no lo lleva y sale a la resolución interna):
+
+| Escena | fps |
+|---|---|
+| Interior (casa de la abuela), título | 29,9-30 |
+| Outset mirando a la casa de Link | 29,98 |
+| Outset, camino de la playa mirando al mar con toda la bahía | **25,2-27,2** |
+
+Depende de lo que hay en pantalla: el mar y el horizonte con toda la isla son lo más caro del juego, y todo lo que se dibuja pasa por la CPU. En interiores va a velocidad completa; navegando es donde más se notará.
+
+**Prueba A/B de los ajustes "de rendimiento"** que llevaba el `GZLP01.ini` de la interfaz (`ArbitraryMipmapDetection = False` y `EnableGPUTextureDecoding = True`), en la misma escena exacta (estado guardado en la ranura 2, cámara idéntica, Link quieto), 6 muestras en un minuto:
+
+| | fps | Media |
+|---|---|---|
+| A: `GZLE01.ini` limpio | 26,36 · 27,17 · 26,49 · 27,20 · 26,78 · 27,02 | 26,8 |
+| B: + los dos ajustes | 26,32 · 27,48 · 27,11 · 27,49 · 27,03 · 26,69 | 27,0 |
+
+Diferencia dentro del ruido: **no dan rendimiento aquí**, y anulan lo que Dolphin fija para el juego. Se quedan fuera. El MSAA no se probó porque es GPU y el cuello es la CPU. Lo que movería estos fps es la frecuencia de la CPU (1,59 en vez de 2,13 GHz, pendiente) o un kernel mejor, no ajustes de vídeo. CPU entre 72 y 76 °C durante todo esto, con `ps4-fan-threshold60` lanzado antes de Linux.
+
+Para medir: `ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 cap.png` y recortar el contador con `-vf 'crop=110:24:1810:36'`.

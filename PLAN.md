@@ -174,7 +174,7 @@ Nada probado aún con teclado en la consola.
 - [x] 🎮 **Dolphin con *Wind Waker* a 30 fps (velocidad completa), backend Vulkan, resolución nativa (13-09, 23:40)**
 - [x] 🤖 *Wind Waker* USA (`GZLE01`) en `emu/ROMS/GC/` y prueba de texturas HD *Hypatia WWHD v2.0* preparada en `linux/texturas/GZL/` (14-09; 846 archivos, 404 MB de los 9,14 GB del pack)
 - [x] 🤖 USA y texturas subidos por SFTP; `GZLE01.ini` con texturas y anisotrópico 1x solo para el USA (14-09)
-- [ ] 🎮 Probar el USA con texturas y medir el impacto ([`linux/dolphin.md`](linux/dolphin.md#texturas-hd-hypatia-wwhd-v20))
+- [x] 🎮 USA con texturas HD de personajes: funciona, 16:9, 30 fps en interiores y 25-27 mirando al mar; los ajustes "de rendimiento" probados en A/B no cambian nada (14-09, [`linux/dolphin.md`](linux/dolphin.md#texturas-hd-hypatia-wwhd-v20))
 - [ ] 🎮 RPCS3, con su firmware; comparar OpenGL frente a Vulkan en Dolphin; `ps4-fan-threshold60` antes de Linux
 - [ ] 🤖 Cuando salga el kernel 7.x para Baikal: cambiar a CachyOS Light y revisar `linux/README.md`
 
