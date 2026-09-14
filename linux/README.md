@@ -174,7 +174,7 @@ Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla 
 
 1. GoldHEN (Poops), con el pendrive en un puerto **frontal**, teclado y mando por cable conectados, la **tele** como pantalla.
 2. Payload Guest → `ps4-fan-threshold60.bin` (ventilador) → `linux-2048mb.bin`.
-3. Entra solo en LXDE (autologin). **Icono "CPU 2,1 GHz — Rendimiento"** del escritorio ([`cpu/`](cpu/README.md): la CPU arranca a 1,6 y sin esto Dolphin no llega a 30 fps). Dolphin en el menú *Juegos*; *Wind Waker* en la lista.
+3. Entra solo en LXDE (autologin de LightDM, desde el 14-09). **Icono "CPU 2,1 GHz — Rendimiento"** del escritorio ([`cpu/`](cpu/README.md): por Payload Guest la CPU arranca a 1,6 y sin esto Dolphin no llega a 30 fps; por BinLoader ya viene a 2,1). Dolphin en el menú *Juegos*; *Wind Waker* en la lista. Sin teclado: todo se maneja desde el móvil por VNC.
 4. **Apagar desde el menú de LXDE**, nunca con el botón: la partición no tiene journal.
 
 Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`. Desde el móvil, el escritorio se ve por VNC ([`vnc.md`](vnc.md)): puerto 5900, contraseña `ps4linux`.
@@ -244,7 +244,7 @@ Lecciones:
 
 - **Payload Guest** instalado y `/data/payloads/` con los 30 `.bin` de `pkg/payloads/`; el `meta.json` sin `icon` lo rompía y se quitó. Linux se arranca desde la consola eligiendo `linux-2048mb.bin`.
 - La IP de Linux en la red de casa fue **192.168.1.180** (Wi-Fi `DIGIFIBRA-PLUS-938F`, conectada con `hidden yes`); cambia con DHCP, se localiza por la MAC del Wi-Fi (`e8:9e:b4:9e:bd:6f`).
-- Por SSH: **autologin en LXDE** (`/etc/sddm.conf.d/autologin.conf`, `Session=LXDE`; las sesiones disponibles son `LXDE`, `openbox` y `plasmax11`), `Dolphin.ini` con `GFXBackend = OGL` e `ISOPath0 = /home/ps4/Juegos`, y ***Wind Waker* copiado** por SFTP como `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz` (SHA-1 igual al catálogo). SFTP no aceptó el nombre largo con comas y paréntesis.
+- Por SSH: autologin en LXDE escrito en `/etc/sddm.conf.d/autologin.conf` (**no sirvió: el gestor activo es LightDM, no SDDM**; corregido el 14-09, ver abajo), `Dolphin.ini` con `GFXBackend = OGL` e `ISOPath0 = /home/ps4/Juegos`, y ***Wind Waker* copiado** por SFTP como `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz` (SHA-1 igual al catálogo). SFTP no aceptó el nombre largo con comas y paréntesis.
 - Revisión del log de arranque (`journalctl -b -p warning`): ningún servicio fallido. Se arregló lo que hacía ruido: **ZRAM** (la distro lo configura pero el kernel `baikal_mt76` no trae el módulo: `dev-zram0.device` agotaba el tiempo cada 90 s y alargaba el arranque a 3:30; desactivado renombrando `/etc/systemd/zram-generator.conf`) y **dominio regulatorio** (`WIRELESS_REGDOM="ES"` en `/etc/conf.d/wireless-regdom`). Lo demás es normal en PS4 con 5.4: sin ACPI ni IOAPIC, `pci=biosirq`, `over-current` falso en los puertos USB (lo de Baikal), `ahci probe failed` (sin SATA, por eso no hay disco interno), systemd pidiendo kernel ≥ 5.7, y la partición ext4 sin journal ("mounting unchecked fs": apagar siempre desde el menú).
 - El disco interno de la PS4 aparece en Linux como `sdb` con sus 16 particiones cifradas. No tocar.
 - `pacman -S` funciona con red; `ifconfig`/`iwconfig`/`nslookup` no existen como paquetes (son `net-tools`, `wireless_tools`, `bind`); con `ip`, `iw` y `getent hosts` sobra.
@@ -257,6 +257,16 @@ Lecciones:
 - Zona horaria puesta a `Europe/Madrid` (venía en UTC; la hora ya la sincroniza NTP).
 - Estado de Dolphin guardado por SSH (`xdotool`, Shift+F1), Dolphin cerrado por SSH y **configuración recomendada aplicada** con copia previa (`dolphin.md`): ubershaders híbridos, V-Sync off, MSAA 4x, mando sin conflicto, 16:9 real y sin desenfoque de lejanía en *Wind Waker*.
 - **DualShock 4 mapeado por USB** en Dolphin; por Bluetooth no funciona todavía. Revisada la configuración de Dolphin y del juego (`Dolphin.ini`, `GFX.ini`, `GCPadNew.ini`, `sys/GameSettings/GZL.ini`) y recomendaciones en [`dolphin.md`](dolphin.md): ubershaders híbridos, V-Sync off, MSAA 4x, Z/L/R sin conflicto en el mando, 16:9 por código Gecko.
+
+### 2026-09-14 — texturas HD, CPU a 2,1 GHz, VNC, autologin de verdad
+
+- *Wind Waker* USA y las texturas HD *Hypatia* en la consola; los ajustes por juego de Dolphin viven en `~/.local/share/dolphin-emu/GameSettings/`, no en `~/.config/` ([`dolphin.md`](dolphin.md)).
+- **CPU:** arranca en P2 (1,6 GHz) y el kernel no tiene `cpufreq`; [`cpu/ps4-cpu`](cpu/README.md) pide P0 (2,1 GHz) por MSR y *Wind Waker* pasa de 26,8 a 29,95 fps. **Arrancando Linux por BinLoader desde el PC, la CPU ya viene en P0**; por Payload Guest viene en P2 y hay que pulsar el icono. Sin explicación todavía.
+- **Payload `linux-3072mb.bin`: se cuelga en esta consola** (pantalla negra, sin red, dos intentos: Payload Guest y BinLoader). El de 2 GB va a la primera por las dos vías. `ps4-fan-threshold60.bin` entra bien por BinLoader también.
+- **Autologin:** el gestor de sesión de la distro es **LightDM** (`lightdm.service` activo; `sddm` instalado pero desactivado), así que el `sddm.conf.d` del día 13 nunca hizo nada y se estaba escribiendo la contraseña a mano. Arreglado: grupo `autologin` con `ps4` dentro (lo exige `/etc/pam.d/lightdm-autologin`) y `/etc/lightdm/lightdm.conf.d/50-autologin.conf` con `autologin-user=ps4`, `autologin-session=LXDE`, `autologin-user-timeout=0`. Comprobado con `systemctl restart lightdm`: entra solo. Los avisos de `pam_kwallet5` en el journal son el monedero de KDE sin clave, inofensivos.
+- **VNC** ([`vnc.md`](vnc.md)): `x11vnc` arranca con la sesión; con autologin, el escritorio se ve y se maneja desde el móvil desde el arranque, sin teclado.
+- **Escritura real del pendrive: 1,7 MB/s** secuencial (`dd oflag=direct`), 4 MB/s en archivos pequeños hacia la caché. Los 150 KB/s de la noche anterior eran un `tar` extrayendo con la caché saturada. Subiendo por SFTP archivo a archivo con [`tools/subir_texturas.py`](../tools/subir_texturas.py) se sostienen ~2 MB/s.
+- La partición marca `Filesystem state: not clean` (`tune2fs -l /dev/sda2`) por los cuelgues del payload de 3 GB: `e2fsck` pendiente desde la rescue shell.
 
 ## Problemas conocidos
 

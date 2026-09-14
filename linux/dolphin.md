@@ -132,6 +132,20 @@ Aparte trae `-[Optional Textures]-` con variantes sueltas (boomerang de *A Link 
 
 Que el pack sea "solo inglés" afecta de verdad a `HUD` (textos y menús dibujados en las texturas): sobre la versión europea en español, el HUD saldría en inglés. `Characters`, `Items`, `Effects` y `Environments` no llevan texto y sirven igual en cualquier idioma.
 
+### Resultado final: el pack entero, a velocidad completa (15-09-2026, 00:25)
+
+**Los 5.747 archivos (9,2 GB) están en la consola**, verificados por hash conjunto carpeta a carpeta, y *Wind Waker* USA va a **29,95-29,98 fps** (ocho muestras seguidas en Outset), con la CPU al 150 % y a **62-65 °C**. Es decir: velocidad completa con el pack completo, siempre que la CPU esté a 2,1 GHz.
+
+| | Antes | Con el pack entero |
+|---|---|---|
+| fps (Outset) | 26,8 a 1,6 GHz · 29,95 a 2,1 GHz | **29,97** |
+| Memoria de Dolphin | 526 MB | **1,98 GB** (quedan 2,7 GB libres de 5,9) |
+| Pendrive | 8,9 GB usados | 18 GB usados, **9,2 GB libres** |
+
+La memoria es lo único que hay que vigilar: con `CacheHiresTextures = False` Dolphin carga cada `.dds` cuando aparece y no lo suelta, así que en una partida larga que recorra muchas islas puede seguir subiendo. Si algún día se queda sin RAM, la salida es quitar `Environments` (el 87 % del pack) o el payload de 3 GB de VRAM, que hoy no arranca.
+
+Subido con [`tools/subir_texturas.py`](../tools/subir_texturas.py) por SFTP archivo a archivo, ~2,4 MiB/s: `Additions` 14 s, `Effects` 57 s, `HUD` ~5 min, `Environments` (8,2 GB) ~70 min. Cada carpeta termina comparando el hash conjunto del PC con el de la consola.
+
 ### Conjunto de prueba (extraído el 14-09-2026)
 
 Antes de mover 9 GB por Wi-Fi a un pendrive a USB 2.0, se prueba con lo que más se ve y menos pesa: **`Characters` + `Items`, 846 archivos y 404 MB**, en `linux/texturas/GZL/`. Si el rendimiento aguanta, se añade `Effects` (140 MB), luego `Environments` (8,2 GB, el que decidirá) y `HUD` solo sobre la versión USA.

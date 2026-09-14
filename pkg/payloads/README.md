@@ -10,7 +10,7 @@ Los `.bin` de Linux son los del zip del loader v25 (`linux/loader/`); comprobado
 |---|---|---|
 | `linux-1024mb.bin` | 1 GB | Instalar y primer arranque (la distro se copia a RAM) |
 | `linux-2048mb.bin` | 2 GB | **Uso normal**: escritorio y emuladores |
-| `linux-3072mb.bin`, `linux-4096mb.bin` | 3-4 GB | Juegos con mucha VRAM; quedan 5 o 4 GB de RAM |
+| `linux-3072mb.bin`, `linux-4096mb.bin` | 3-4 GB | Juegos con mucha VRAM; quedan 5 o 4 GB de RAM. **El de 3 GB se cuelga en esta consola** (14-09-2026: pantalla negra y sin red, por Payload Guest y por BinLoader; el de 4 GB sin probar). Quedarse con el de 2 GB |
 | `linux-32mb.bin` … `linux-512mb.bin` | 32-512 MB | Servidor sin gráficos. Con 32 o 64 hay pantallas que no dan imagen; 128 es el mínimo razonable |
 
 ## Herramientas (sin restricción de firmware según el host)

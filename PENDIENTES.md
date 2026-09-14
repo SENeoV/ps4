@@ -58,7 +58,7 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 
 - [ ] 🧑 Disco externo para la colección: el repo solo guarda las referencias, no los juegos
 - [x] 🤖 Las 15 partidas de la consola están copiadas en `emu/SAVES/` (2026-09-13). Repetir la copia de vez en cuando, sobre todo antes de subir cualquier `.srm` desde el PC, porque sobrescribe la de la consola
-- [ ] 🎮🤖 Automatizarlo con un script que las descargue por FTP y las verifique
+- [x] 🤖 Script hecho (14-09): `python tools/ps4ftp.py partidas IP --hacer` baja las que hayan cambiado y comprueba el tamaño. Falta ejecutarlo con la consola en la PS4
 
 ---
 
@@ -166,6 +166,7 @@ Formato CD:
 - [ ] 🧑 DOS: faltan 778 de los 1778 juegos del `gamelist.xml` de la colección (pendiente de descargar). Cuando lleguen: `python tools/dos.py CARPETA`
 - [x] 🤖 ScummVM: `kyra.dat`, `lure.dat` y `queen.tbl` (rama 2.2) y el tema `scummmodern.zip` en `emu/BIOS/scummvm/` (14-09). Sin ellos no arrancan *Eye of the Beholder*, *Lure of the Temptress* ni *Flight of the Amazon Queen*. Falta subirlos y comprobar que el core de 2020 los da por buenos
 - [x] 🤖 blueMSX: sus carpetas `Databases/` y `Machines/` en `emu/BIOS/bluemsx/` (14-09), 302 archivos. Siguen faltando las ROMs de MSX, que las aportas tú
+- [x] 🤖 Carátulas de arcade, C64, DOS y ScummVM (14-09): 3751 en total, 1,1 GB. Arcade 1748 de 2775, C64 1029 de 7522 (los `.prg` no tienen), DOS 951 de 956 (de sus imágenes de ScreenScraper) y ScummVM 23 de 40. Detalle en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md)
 
 ---
 
@@ -200,8 +201,8 @@ Formato CD:
 - [ ] 🧑 Quitar `gamelist.xml` y `systeminfo.txt` de `ROMS/GBC` y `ROMS/GBA`, y `Lisezmoi.txt` de `ROMS/NES`
 - [ ] 🧑 Decidir qué hacer con el `.rar` de 4,4 GB de la raíz del repo
 - [ ] 🧑 Comprobar el espacio libre en la PS4 antes de subir las carátulas (1,4 GB) y antes de las tandas 4 y 5: los paquetes de PS1 y PSP ocupan GB
-- [ ] 🧑 Descargar los DAT de **No-Intro** y **Redump** (gratuitos)
-- [ ] 🤖 Hacer un verificador que cruce esos DAT con el `rom-sha1` del catálogo y marque cada volcado como bueno, malo o desconocido
+- [x] 🤖 DAT de **No-Intro**: los publica libretro-database y `tools/verificar_dumps.py` los baja solo (15-09). Redump no hace falta hasta que haya juegos en CD
+- [x] 🤖 Verificador hecho y pasado (15-09): **5877 de 6986 volcados (84 %) coinciden con No-Intro**; el resto son hacks, traducciones y variantes. SNES (15 %) y WonderSwan (50 %) son las colecciones menos fiables. Tabla en [`docs/volcados-2026-09-15.md`](docs/volcados-2026-09-15.md)
 
 ---
 
@@ -223,10 +224,12 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🎮 Payload Guest instalado; Linux arranca desde la consola (13-09)
 - [x] 🧑 *Wind Waker* (Europe, RVZ, `GZLP01`, 870 MB) en `emu/ROMS/GC/` (13-09)
 - [x] 🤖 Copiado por SFTP a `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz`, SHA-1 verificado; Dolphin configurado con OpenGL y esa carpeta (13-09)
-- [x] 🤖 Autologin en LXDE, ZRAM desactivado (sin módulo en el 5.4) y `WIRELESS_REGDOM=ES`, por SSH (13-09)
+- [x] 🤖 ZRAM desactivado (sin módulo en el 5.4) y `WIRELESS_REGDOM=ES`, por SSH (13-09). El autologin de ese día se escribió para SDDM y no hizo nada
+- [x] 🤖 **Autologin de verdad (14-09):** el gestor es LightDM; grupo `autologin` + `/etc/lightdm/lightdm.conf.d/50-autologin.conf`. Entra solo en LXDE, sin teclado; con el VNC se maneja desde el móvil
 - [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
 - [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro y trae ZRAM); si va, se queda y se reactiva el `zram-generator.conf`
-- [ ] 🧑 Apagar Linux siempre desde el menú (partición sin journal); algún día `e2fsck` en frío desde la rescue shell
+- [ ] 🧑 Apagar Linux siempre desde el menú (partición sin journal). **`e2fsck` en frío desde la rescue shell, ya con motivo:** `tune2fs` marca `not clean` tras los cuelgues del payload de 3 GB (14-09)
+- [x] 🎮 Payload `linux-3072mb.bin` probado (14-09): **se cuelga**, por Payload Guest y por BinLoader. Quedarse con el de 2 GB
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
 - [x] 🎮 ***Wind Waker* a 30 fps en Dolphin 2509** (Vulkan), 13-09 a las 23:40
 - [ ] 🎮 Lanzar `ps4-fan-threshold60.bin` antes de Linux en cada arranque: la CPU va a 71 °C jugando y en Baikal nadie mueve el ventilador
@@ -240,13 +243,15 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🤖 Pendrive terminó de escribir el 14-09: `tar` de 00:30 a 01:11 y `sync` hasta las 02:11 (1 h 40 min para ~1,3 GB)
 - [x] 🎮 USA con texturas HD probado (14-09): Link en HD, 16:9, 30 fps en interiores y 25-27 mirando al mar. Ojo: los `GameSettings/*.ini` van en `~/.local/share/dolphin-emu/`, no en `~/.config/` (los del 13-09 nunca se aplicaron); corregidos el USA y el europeo
 - [x] 🤖 Prueba A/B de `ArbitraryMipmapDetection = False` + `EnableGPUTextureDecoding = True`: 26,8 frente a 27,0 fps, sin efecto; descartados (`linux/dolphin.md`)
-- [ ] 🧑 Pendrive o SSD con buena escritura sostenida: el Kingston DataTraveler 3.0 escribe a ~150 KB/s y el pack completo de texturas tardaría unas 17 h
+- [x] 🤖 Medida real del pendrive (14-09): **1,7 MB/s** secuencial; los 150 KB/s eran el `tar` con la caché llena. Un SSD sigue siendo mejor, pero el pack completo cabe en ~90 min por SFTP
 - [x] 🧑 Originales de Descargas borrados tras verificar las copias del repo (14-09)
-- [ ] 🎮 Si la prueba va bien: añadir `Effects` (140 MB) y luego decidir sobre `Environments` (8,2 GB). `HUD` solo sobre la versión USA (está en inglés)
+- [x] 🤖 **Pack de texturas completo en la consola (15-09, 00:25):** 5.747 archivos y 9,2 GB, las seis carpetas verificadas por hash conjunto con `tools/subir_texturas.py`
+- [x] 🎮 **Medido con el pack entero: 29,97 fps** (8 muestras en Outset), CPU al 150 % y 62-65 °C. Velocidad completa
+- [ ] 🎮 Probar navegando y en mazmorras, que es lo que falta por ver; vigilar la memoria de Dolphin (1,98 GB con el pack, 2,7 GB libres) en partidas largas
 - [ ] 🧑 El `.7z` de `linux/texturas/` (1,94 GB) es ya la única copia del pack: no borrarlo mientras se quiera extraer más carpetas
 - [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena)
 - [x] 🤖 **Resuelto (14-09): la CPU va a 1,6 GHz porque el kernel no tiene `cpufreq` y la deja en P2; P0 = 2,1 GHz está permitido.** `linux/cpu/ps4-cpu` lo pide por MSR: *Wind Waker* pasa de 26,8 a 29,95 fps en la misma escena. Instalado en la consola con dos iconos en el escritorio (*Rendimiento* / *Normal*)
-- [ ] 🎮 **Pulsar "CPU 2,1 GHz — Rendimiento" en cada arranque de Linux antes de Dolphin** (se pierde al reiniciar). Vigilar la temperatura: 77-80 °C jugando a 2,1 GHz
+- [ ] 🎮 **Pulsar "CPU 2,1 GHz — Rendimiento" en cada arranque de Linux antes de Dolphin** (se pierde al reiniciar). Vigilar la temperatura: 77-80 °C jugando a 2,1 GHz. Si Linux se lanza por BinLoader desde el PC, la CPU ya viene a 2,1 (14-09; sin explicación aún)
 - [ ] 🤖 Comprobar si `neocine-1.1` o los kernels de rmux traen `cpufreq` y arrancan ya en P0; entonces sobra el script
 - [x] 🤖 VNC para ver el escritorio desde el móvil: `x11vnc` del archivo de Arch (09-03-2026), arranca con la sesión, puerto 5900, clave `ps4linux` (14-09, [`linux/vnc.md`](linux/vnc.md))
 - [ ] 🎮 RPCS3, con su firmware (AUR, con red)
@@ -283,13 +288,13 @@ Todas las BIOS deberían coincidir con los hashes que publica libretro. Cuando l
 
 1. ~~Bases de datos `.rdb` para crear listas de juegos~~ — **hecho**
 2. ~~Carátulas desde `emu/MEDIA/` o desde libretro-thumbnails~~ — **hecho**, junto con las listas ya generadas
-3. Script de copia de seguridad de partidas por FTP
+3. ~~Script de copia de seguridad de partidas por FTP~~ — **hecho** (`tools/ps4ftp.py partidas`), falta ejecutarlo
 4. Script de conversión a `.chd` con verificación
 5. Pasos verificados para PSX-FPKG y PSP-FPKG
-6. Carpeta `PPSSPP/` de assets para el core de PSP
-7. Temas y datos de ScummVM, y carpetas de blueMSX
-8. Verificador de volcados contra los DAT de No-Intro y Redump
-9. Comprobación de hashes de cada BIOS antes de subirla
+6. ~~Carpeta `PPSSPP/` de assets para el core de PSP~~ — **hecho** (`emu/BIOS/PPSSPP/`)
+7. ~~Temas y datos de ScummVM, y carpetas de blueMSX~~ — **hecho** (`emu/BIOS/scummvm/`, `emu/BIOS/bluemsx/`)
+8. ~~Verificador de volcados contra los DAT de No-Intro~~ — **hecho** (`tools/verificar_dumps.py`); Redump, cuando haya CD
+9. ~~Comprobación de hashes de cada BIOS antes de subirla~~ — **hecho** (`tools/verificar_dumps.py --bios`, contra `System.dat`): las 9 de la raíz coinciden salvo `bios_CD_J.bin`, que es otra revisión
 
 ## No hace falta conseguir
 
