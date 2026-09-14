@@ -25,6 +25,17 @@ Leyenda: **PC** = está en `emu/BIOS/` · **PS4** = subida y verificada por SHA-
 - `32x/32X_G_BIOS.BIN`, `32X_M_BIOS.BIN`, `32X_S_BIOS.BIN`: BIOS reales de 32X que venían con la colección. **PicoDrive no las usa** (lleva las suyas), así que no se suben.
 - Las subcarpetas `Game Gear/`, `Master System/`, `Sega CD/` y `Sega Genesis/` son los mismos archivos con su nombre original de No-Intro; son duplicados de los de la raíz.
 
+### Software libre preparado el 2026-09-14 (no son BIOS, pero van en `system/`)
+
+| Carpeta | Para | Qué es | Origen |
+|---|---|---|---|
+| `PPSSPP/` | ppsspp | Los 59 archivos de `assets` que el core exige (`ppge_atlas.zim`, fuentes, shaders, idiomas), 12 MB | [ppsspp](https://github.com/hrydgard/ppsspp), commit `9aab3d986` del 30-06-2020, el mismo día que el port R4 |
+| `bluemsx/Databases/`, `bluemsx/Machines/` | bluemsx | 302 archivos con las máquinas MSX y su base de datos, 9 MB. Las ROMs de MSX siguen faltando (las pide fmsx o bluemsx) | [blueMSX-libretro](https://github.com/libretro/blueMSX-libretro), commit `1d441d9` de 2020 |
+| `scummvm/extra/` | scummvm | `kyra.dat` (*Eye of the Beholder*), `lure.dat` (*Lure of the Temptress*) y `queen.tbl` (*Flight of the Amazon Queen*): sin ellos esos tres no arrancan | [scummvm](https://github.com/scummvm/scummvm), rama `branch-2-2` |
+| `scummvm/theme/` | scummvm | `scummmodern.zip`, el tema del menú de ScummVM | ídem |
+
+Los `.dat` de ScummVM tienen que ser de la misma versión que el core. El core del port es de 2020 y no está identificada su versión exacta, así que se cogió la rama 2.2; si ScummVM se queja de la versión del archivo, hay que probar con la de otra rama.
+
 ## Lo que falta, por tanda
 
 | Archivo | Sistema | Core | ¿Obligatoria? | Tanda |
@@ -36,11 +47,11 @@ Leyenda: **PC** = está en `emu/BIOS/` · **PS4** = subida y verificada por SHA-
 | `disksys.rom` | Famicom Disk System | nestopia / fceumm / mesen | sí | 3 |
 | `5200.rom` | Atari 5200 | atari800 | sí | 3 |
 | `MSX.ROM`, `MSX2.ROM`, `MSX2EXT.ROM`, `MSX2P.ROM`, `MSX2PEXT.ROM` | MSX / MSX2 | fmsx | sí (las cinco) | 3 |
-| `Databases/`, `Machines/` | MSX | bluemsx | sí, si se usa bluemsx | 3 |
+| ~~`bluemsx/Databases/`, `bluemsx/Machines/`~~ ya están | MSX | bluemsx | sí, si se usa bluemsx | 3 |
 | `scph5501.bin` (US), `scph5502.bin` (EU), `scph5500.bin` (JP) | PS1 en RetroArch | pcsx_rearmed (opcional) / mednafen_psx (obligatoria) | según core; PS1 Classics no la necesita | 4 |
-| `PPSSPP/` (carpeta `assets` completa de PPSSPP) | PSP en RetroArch | ppsspp | sí; es software libre, no una BIOS | 5 |
+| ~~`PPSSPP/` (carpeta `assets` de PPSSPP)~~ ya está | PSP en RetroArch | ppsspp | sí; es software libre, no una BIOS | 5 |
 | `vice/JiffyDOS_*.bin` | C64 | vice_* | no; VICE lleva las ROMs del sistema integradas | ordenadores |
-| `scummvm/theme/`, `scummvm/extra/` | ScummVM | scummvm | no; software libre | ordenadores |
+| ~~`scummvm/theme/`, `scummvm/extra/`~~ ya están | ScummVM | scummvm | obligatorias para tres juegos; software libre | ordenadores |
 | `dc/dc_boot.bin` | Dreamcast | flycast | no (tiene BIOS HLE), pero recomendada | después |
 | `dc/naomi.zip` | NAOMI | flycast | **sí**, sin HLE | después |
 | `dc/awbios.zip` | Atomiswave | flycast | **sí**, sin HLE | después |

@@ -263,27 +263,32 @@ def save_thumbnail(data, target):
     img.save(target, "PNG", optimize=True)
 
 
-def fetch_thumbnail(db, item):
+def fetch_thumbnail(db, item, server_db=None):
+    # server_db: nombre de la colección en el servidor de libretro, si no se llama como la lista
     target = os.path.join(THUMBS, db, "Named_Boxarts", thumb_name(item["label"]) + ".png")
     if os.path.exists(target):
         return "ya estaba"
-    if item["_matched"]:
-        url = f"{THUMB_SERVER}/{urllib.parse.quote(db)}/Named_Boxarts/{urllib.parse.quote(thumb_name(item['label']))}.png"
-        for _ in range(2):
-            try:
-                with urllib.request.urlopen(url, timeout=30) as r:
-                    save_thumbnail(r.read(), target)
-                return "servidor"
-            except urllib.error.HTTPError as e:
-                if e.code == 404:
-                    break
-            except (urllib.error.URLError, TimeoutError, OSError):
-                continue
-    media = os.path.join(EMU, "MEDIA", item["_system"], os.path.splitext(os.path.basename(item["_local"]))[0] + ".png")
-    if os.path.exists(media):
-        with open(media, "rb") as f:
-            save_thumbnail(f.read(), target)
-        return "MEDIA"
+    # Se prueba el servidor aunque el juego no esté en la base de datos: en C64 el nombre del archivo ya es el oficial
+    url = f"{THUMB_SERVER}/{urllib.parse.quote(server_db or db)}/Named_Boxarts/{urllib.parse.quote(thumb_name(item['label']))}.png"
+    for _ in range(2):
+        try:
+            with urllib.request.urlopen(url, timeout=30) as r:
+                save_thumbnail(r.read(), target)
+            return "servidor"
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                break
+        except (urllib.error.URLError, TimeoutError, OSError):
+            continue
+    # En MEDIA, con el nombre del juego o con los sufijos de ScreenScraper (así están las de DOS)
+    stem = os.path.splitext(os.path.basename(item["_local"]))[0]
+    for sub in ("", "images"):
+        for name in (f"{stem}.png", f"{stem}-thumb.png", f"{stem}-image.png", f"{stem}.jpg", f"{stem}-thumb.jpg"):
+            media = os.path.join(EMU, "MEDIA", item["_system"], sub, name)
+            if os.path.exists(media):
+                with open(media, "rb") as f:
+                    save_thumbnail(f.read(), target)
+                return "MEDIA"
     return "sin carátula"
 
 
@@ -295,10 +300,11 @@ def main():
     args = parser.parse_args()
 
     total = {"juegos": 0, "reconocidos": 0}
-    for system_dir, (db, core, *opts) in SYSTEMS.items():
+    for system_dir, (db, core, *rest) in SYSTEMS.items():
         if args.only and system_dir not in args.only:
             continue
-        items, matched = build(system_dir, db, core, opts[0] if opts else {})
+        opts = rest[0] if rest else {}
+        items, matched = build(system_dir, db, core, opts)
         if not items:
             print(f"{system_dir:9} sin juegos o sin base de datos: no se genera lista", flush=True)
             continue
@@ -307,7 +313,7 @@ def main():
         line = f"{system_dir:9} {len(items):5} juegos | reconocidos en la base de datos {matched:5} ({matched / len(items):.0%})"
         if args.thumbs:
             with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
-                results = list(pool.map(lambda i: fetch_thumbnail(db, i), items))
+                results = list(pool.map(lambda i: fetch_thumbnail(db, i, opts.get("rdb")), items))
             counts = {k: results.count(k) for k in ("servidor", "MEDIA", "ya estaba", "sin carátula")}
             line += " | carátulas " + ", ".join(f"{k}: {v}" for k, v in counts.items() if v)
         print(line, flush=True)

@@ -409,6 +409,8 @@ def cmd_verificar(args):
 # ---------------------------------------------------------------- listas de RetroArch
 
 def cmd_listas(args):
+    import concurrent.futures
+
     parsed = load_parsed()
     for core, (_, _, version, folder) in CORES.items():
         path = os.path.join(ral.EMU, "ROMS", *folder.split("/"))
@@ -447,7 +449,14 @@ def cmd_listas(args):
         with open(os.path.join(ral.PLAYLISTS, f"{info['corename']}.lpl"), "w", encoding="utf-8", newline="\n") as f:
             json.dump(playlist, f, indent=2, ensure_ascii=False)
             f.write("\n")
-        print(f"{folder:20} {info['corename']:22} {len(items):5} juegos en la lista | " + ", ".join(f"{k}: {v}" for k, v in count.items()))
+        line = f"{folder:20} {info['corename']:22} {len(items):5} juegos en la lista | " + ", ".join(f"{k}: {v}" for k, v in count.items())
+        if args.thumbs:
+            # Las carátulas de arcade están en el servidor de libretro bajo FBNeo, con el nombre completo del juego
+            thumbs = [{"label": i["label"], "_local": os.path.join(path, os.path.basename(i["path"])), "_system": folder} for i in items]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+                results = list(pool.map(lambda i: ral.fetch_thumbnail(info["corename"], i, "FBNeo - Arcade Games"), thumbs))
+            line += " | carátulas " + ", ".join(f"{k}: {results.count(k)}" for k in ("servidor", "MEDIA", "ya estaba", "sin carátula") if results.count(k))
+        print(line)
         for note in notes:
             print("   ", note)
 
@@ -461,7 +470,8 @@ def main():
     p = sub.add_parser("verificar")
     p.add_argument("carpeta")
     p.add_argument("--tsv")
-    sub.add_parser("listas")
+    p = sub.add_parser("listas")
+    p.add_argument("--thumbs", action="store_true", help="descarga también las carátulas que falten")
     args = parser.parse_args()
     {"dat": cmd_dat, "verificar": cmd_verificar, "listas": cmd_listas}[args.cmd](args)
 

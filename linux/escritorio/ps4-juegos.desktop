@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Juegos
+Name[en]=Games
+Comment=Abre la carpeta con las imágenes de GameCube y Wii para Dolphin
+Exec=xdg-open /home/ps4/Juegos
+Icon=folder-games
+Terminal=false
+Categories=Game;System;
+Keywords=juegos;dolphin;iso;rvz;
+StartupNotify=false

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Apagar Linux
+Name[en]=Shut down Linux
+Comment=Apaga la consola como es debido. La partición del pendrive no tiene journal: un corte de corriente la deja a medias
+Exec=systemctl poweroff
+Icon=system-shutdown
+Terminal=false
+Categories=System;
+Keywords=apagar;poweroff;
+StartupNotify=false

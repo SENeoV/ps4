@@ -33,3 +33,5 @@ linux/**
 !linux/pkgs/*.sh
 # ps4-cpu: script, iconos SVG, lanzadores e instalador (texto, se versiona todo)
 !linux/cpu/*
+# escritorio: lanzadores .desktop e instalador (texto)
+!linux/escritorio/*

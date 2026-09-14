@@ -15,6 +15,7 @@ Procedimiento para instalar RetroArch y validar la cadena completa con una ROM d
 | `emu/RETROARCH/playlists/*.lpl` | `/data/retroarch/playlists/` | Listas de juegos ya generadas, cada juego con su nombre y su core. Se regeneran con `python tools/retroarch_lists.py` |
 | `emu/RETROARCH/database/rdb/*.rdb` | `/data/retroarch/database/rdb/` | Bases de datos de libretro: permiten a RetroArch reconocer juegos al escanear |
 | `emu/RETROARCH/thumbnails/<lista>/` | `/data/retroarch/thumbnails/<lista>/` | Carátulas. La carpeta de cada sistema tiene que llamarse igual que su lista |
+| `emu/RETROARCH/assets/` | `/data/retroarch/assets/` | Iconos y fuentes del menú. Sin ellos Ozone funciona pero sin iconos (101 MB) |
 | `emu/SAVES/*.srm` | `/data/retroarch/savefiles/` | Partidas guardadas. Carpeta plana (`sort_savefiles_enable = "false"`). Subir sobrescribe la partida de la consola |
 | `emu/ROMS/ARCADE/FBNEO/` y sus `CPS1/`, `CPS2/`, `CPS3/`; `emu/ROMS/NEOGEO/` | `/data/ROMS/...` con la misma ruta | Cada carpeta es de un core. El padre de cada clon y la BIOS de placa (`neogeo.zip`, `pgm.zip`) van en la misma carpeta que el juego |
 | `emu/ROMS/DOS/` | `/data/ROMS/DOS/` | Las carpetas de juego y sus `.conf`. Cada `.conf` monta `/data/ROMS/DOS/<Juego>`, así que en otra ruta no arranca |

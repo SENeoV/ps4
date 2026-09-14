@@ -219,6 +219,12 @@ Cómo se construyen:
 - Los juegos reconocidos muestran el **nombre oficial** de la base de datos, que puede no coincidir con el del archivo: por ejemplo, `Battle Bull (E) [!].gb` aparece como *Battle Bull (USA)* porque es el mismo volcado.
 - Cada juego lleva su core, así que se abre directamente, sin preguntar cuál usar.
 
+### Iconos y fuentes del menú (`assets/`)
+
+`/data/retroarch/assets/` está vacío en la consola: el menú Ozone funciona, pero sin iconos, y el registro lista 150 `Asset missing`. Preparados el 2026-09-14 en `assets/` (101 MB, 4879 archivos) desde [retroarch-assets](https://github.com/libretro/retroarch-assets), **commit `8827a81` del 28-06-2020**, dos días antes del port R4 que tiene la consola, así que son exactamente los de esa versión.
+
+Se copiaron `ozone/`, `xmb/`, `rgui/`, `glui/`, `nxrgui/`, `menu_widgets/`, `sounds/`, `pkg/` y `branding/`. Quedaron fuera `src/` (los SVG de origen, 113 MB) y `wallpapers/` (26 MB), que no hacen falta.
+
 ### Carátulas (`thumbnails/`)
 
 - Portadas (`Named_Boxarts`) del servidor oficial `thumbnails.libretro.com`, buscadas por el nombre oficial de cada juego reconocido.

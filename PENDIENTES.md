@@ -51,7 +51,7 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 ### Registro y aspecto del menú
 
 - [x] 🤖 Registro a archivo activado en `retroarch.cfg` el 2026-09-13 (`log_to_file`, `log_verbosity`): cada arranque deja un `.log` en `/data/retroarch/logs/`. Útil para diagnosticar; borrar los viejos de vez en cuando
-- [ ] 🤖 `/data/retroarch/assets/` está vacío: el menú Ozone funciona pero sin iconos (el log lista 150 `Asset missing`). Los assets son libres (`assets.zip` de buildbot.libretro.com); prepararlos para la versión 1.8.8 y subirlos
+- [x] 🤖 Assets del menú preparados en `emu/RETROARCH/assets/` (14-09): 101 MB del commit `8827a81` de retroarch-assets, del 28-06-2020, dos días antes del port de la consola. Falta subirlos a `/data/retroarch/assets/`
 - [x] 🤖 Copia de `retroarch.cfg` de la consola en `emu/RETROARCH/backup/` (local, no versionada) y en `/data/retroarch/retroarch.cfg.bak`
 
 ### Copias de seguridad
@@ -147,7 +147,7 @@ Formato CD:
 - [ ] 🧑 Tus juegos de PSP en `.iso`
 - [ ] 🧑 Herramienta **PSP-FPKG** (Jabu), que usa el emulador PSPHD de PS Plus
 - [ ] 🎮 Consultar cada juego en la [lista de compatibilidad de PSP Classics](https://www.psdevwiki.com/ps4/Template:PSP_Classics_Emulator_Compatibility_List) **antes** de convertirlo: la compatibilidad es mixta
-- [ ] 🤖 Solo para la vía alternativa en RetroArch: preparar la carpeta `assets` **completa** de PPSSPP (no solo `ppge_atlas.zim`), que es libre y el core `ppsspp` exige, para subirla a `system/PPSSPP/`
+- [x] 🤖 Solo para la vía alternativa en RetroArch: carpeta `assets` completa de PPSSPP en `emu/BIOS/PPSSPP/` (14-09), 59 archivos del commit `9aab3d986` del 30-06-2020. Falta subirla a `system/PPSSPP/`
 
 ---
 
@@ -164,9 +164,8 @@ Formato CD:
 - [ ] 🎮 DOS: 254 lanzadores son `dudoso`. Si un juego abre el programa equivocado, se cambia la última línea de su `.conf` (alternativas en [`LANZADORES.md`](emu/ROMS/DOS/LANZADORES.md))
 - [ ] 🧑 DOS: 11 juegos solo traen su instalador (*Discworld*, *Doom* shareware, *Colonization*…) y hay que instalarlos en DOSBox
 - [ ] 🧑 DOS: faltan 778 de los 1778 juegos del `gamelist.xml` de la colección (pendiente de descargar). Cuando lleguen: `python tools/dos.py CARPETA`
-- [ ] 🤖 ScummVM: datos de motores para `system/scummvm/extra/` (`kyra.dat` para *Eye of the Beholder*, `lure.dat` y `queen.tbl`) y temas, de la versión de ScummVM del core, que falta identificar
-- [ ] 🤖 Carátulas de arcade, C64, DOS y ScummVM. De DOS hay 2901 imágenes de ScreenScraper en `emu/MEDIA/DOS/`
-- [ ] 🤖 blueMSX, si se prefiere a fmsx: sus carpetas `Databases/` y `Machines/`, libres
+- [x] 🤖 ScummVM: `kyra.dat`, `lure.dat` y `queen.tbl` (rama 2.2) y el tema `scummmodern.zip` en `emu/BIOS/scummvm/` (14-09). Sin ellos no arrancan *Eye of the Beholder*, *Lure of the Temptress* ni *Flight of the Amazon Queen*. Falta subirlos y comprobar que el core de 2020 los da por buenos
+- [x] 🤖 blueMSX: sus carpetas `Databases/` y `Machines/` en `emu/BIOS/bluemsx/` (14-09), 302 archivos. Siguen faltando las ROMs de MSX, que las aportas tú
 
 ---
 
