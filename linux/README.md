@@ -174,10 +174,10 @@ Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla 
 
 1. GoldHEN (Poops), con el pendrive en un puerto **frontal**, teclado y mando por cable conectados, la **tele** como pantalla.
 2. Payload Guest → `ps4-fan-threshold60.bin` (ventilador) → `linux-2048mb.bin`.
-3. Entra solo en LXDE (autologin). Dolphin en el menú *Juegos*; *Wind Waker* en la lista.
+3. Entra solo en LXDE (autologin). **Icono "CPU 2,1 GHz — Rendimiento"** del escritorio ([`cpu/`](cpu/README.md): la CPU arranca a 1,6 y sin esto Dolphin no llega a 30 fps). Dolphin en el menú *Juegos*; *Wind Waker* en la lista.
 4. **Apagar desde el menú de LXDE**, nunca con el botón: la partición no tiene journal.
 
-Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`.
+Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`. Desde el móvil, el escritorio se ve por VNC ([`vnc.md`](vnc.md)): puerto 5900, contraseña `ps4linux`.
 
 ## Errores de este proyecto y qué aprender de ellos
 

@@ -249,6 +249,7 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🤖 **Resuelto (14-09): la CPU va a 1,6 GHz porque el kernel no tiene `cpufreq` y la deja en P2; P0 = 2,1 GHz está permitido.** `linux/cpu/ps4-cpu` lo pide por MSR: *Wind Waker* pasa de 26,8 a 29,95 fps en la misma escena. Instalado en la consola con dos iconos en el escritorio (*Rendimiento* / *Normal*)
 - [ ] 🎮 **Pulsar "CPU 2,1 GHz — Rendimiento" en cada arranque de Linux antes de Dolphin** (se pierde al reiniciar). Vigilar la temperatura: 77-80 °C jugando a 2,1 GHz
 - [ ] 🤖 Comprobar si `neocine-1.1` o los kernels de rmux traen `cpufreq` y arrancan ya en P0; entonces sobra el script
+- [x] 🤖 VNC para ver el escritorio desde el móvil: `x11vnc` del archivo de Arch (09-03-2026), arranca con la sesión, puerto 5900, clave `ps4linux` (14-09, [`linux/vnc.md`](linux/vnc.md))
 - [ ] 🎮 RPCS3, con su firmware (AUR, con red)
 - [ ] 🤖 Vigilar [rmuxnet/linux](https://gitlab.com/rmuxnet/linux/-/releases): cuando publique un 7.x con Baikal, cambiar a CachyOS Light y actualizar `linux/README.md`
 
