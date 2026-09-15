@@ -61,10 +61,13 @@ def recorrer_remoto(ftp, ruta):
 
 
 def recorrer_local(carpeta):
+    # Los .md son documentación del PC (README, LANZADORES) y no van a la consola
     encontrados = {}
     for dirpath, dirs, names in os.walk(carpeta):
         dirs.sort()
         for n in sorted(names):
+            if n.lower().endswith(".md"):
+                continue
             p = os.path.join(dirpath, n)
             encontrados[os.path.relpath(p, carpeta).replace(os.sep, "/")] = os.path.getsize(p)
     return encontrados
