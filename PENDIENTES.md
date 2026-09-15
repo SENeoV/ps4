@@ -249,6 +249,7 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🤖 **Pack de texturas completo en la consola (15-09, 00:25):** 5.747 archivos y 9,2 GB, las seis carpetas verificadas por hash conjunto con `tools/subir_texturas.py`
 - [x] 🎮 **Medido con el pack entero: 29,97 fps** (8 muestras en Outset), CPU al 150 % y 62-65 °C. Velocidad completa
 - [ ] 🎮 Probar navegando y en mazmorras, que es lo que falta por ver; vigilar la memoria de Dolphin (1,98 GB con el pack, 2,7 GB libres) en partidas largas
+- [x] 🤖 Hack de 60 fps (`linux/src/Wind-Waker-60FPS-Hack`, submódulo): **descartado**. Pide *CPU Clock Override* al 200 %, que además no funciona desde Dolphin 5.0-4792, y provoca bloqueos sin salida en el barco de Niko, el Templo de la Tierra y Molgera ([`linux/dolphin.md`](linux/dolphin.md#el-hack-de-60-fps-no))
 - [ ] 🧑 El `.7z` de `linux/texturas/` (1,94 GB) es ya la única copia del pack: no borrarlo mientras se quiera extraer más carpetas
 - [ ] 🧑 Comparar OpenGL y Vulkan en Dolphin (fps en la misma escena)
 - [x] 🤖 **Resuelto (14-09): la CPU va a 1,6 GHz porque el kernel no tiene `cpufreq` y la deja en P2; P0 = 2,1 GHz está permitido.** `linux/cpu/ps4-cpu` lo pide por MSR: *Wind Waker* pasa de 26,8 a 29,95 fps en la misma escena. Instalado en la consola con dos iconos en el escritorio (*Rendimiento* / *Normal*)

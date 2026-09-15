@@ -16,3 +16,6 @@
 [submodule "linux/src/ps4-linux-12xx"]
 	path = linux/src/ps4-linux-12xx
 	url = https://github.com/feeRnt/ps4-linux-12xx.git
+[submodule "linux/src/Wind-Waker-60FPS-Hack"]
+	path = linux/src/Wind-Waker-60FPS-Hack
+	url = https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack.git

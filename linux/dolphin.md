@@ -146,6 +146,18 @@ La memoria es lo único que hay que vigilar: con `CacheHiresTextures = False` Do
 
 Subido con [`tools/subir_texturas.py`](../tools/subir_texturas.py) por SFTP archivo a archivo, ~2,4 MiB/s: `Additions` 14 s, `Effects` 57 s, `HUD` ~5 min, `Environments` (8,2 GB) ~70 min. Cada carpeta termina comparando el hash conjunto del PC con el de la consola.
 
+## El hack de 60 fps: no
+
+`linux/src/Wind-Waker-60FPS-Hack/` (submódulo desde el 15-09, [Meowmaritus](https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack), 2016-2017) son 39 códigos Gecko `FPSHack_*` que hacen correr *Wind Waker* a 60 fps. Es **solo para la versión USA** (`GZLE01`), que es justo la que tenemos con las texturas. Aun así, **no sirve aquí**, por tres motivos independientes:
+
+1. **Pide *CPU Clock Override* al 200 %** (972 MHz de GameCube emulada), y el propio autor avisa: *"el hack de 60 FPS es bastante más difícil de emular a velocidad completa que el juego sin modificar"*. Esta consola sostiene 30 fps con la CPU a 2,1 GHz y no le sobra nada; duplicar el trabajo del núcleo emulado no cabe.
+2. **El *clock override* no funciona en las versiones nuevas de Dolphin.** El autor solo lo dio por bueno en **5.0-3679**; en 5.0-4792 ya no hacía nada. Tenemos el **2509**, de 2025.
+3. **Rompe la partida.** El propio README lista bloqueos sin salida: Niko no llega a la plataforma en el barco (principio del juego), el slime de la parte del Templo de la Tierra se libera antes de tiempo, y la sala de Molgera se cuelga en negro. Además los enemigos atacan el doble de a menudo.
+
+Se queda en el repo como referencia: los `.asm` comentados y el mapa de símbolos demangled de *Wind Waker* (en `EXTRA STUFF`) son buen material si algún día hace falta trastear con la memoria del juego. Para jugar, **30 fps con las texturas HD**, que es lo que el juego pedía de origen.
+
+Si aun así se quiere probar: los códigos van al `[Gecko]` de `~/.local/share/dolphin-emu/GameSettings/GZLE01.ini` y se activan en `[Gecko_Enabled]`; hay que **desactivar los demás códigos de inyección ASM** (el hack agota el espacio que Gecko reserva para el código inyectado), lo que incluye el *16:9 Widescreen* que tenemos puesto.
+
 ### Conjunto de prueba (extraído el 14-09-2026)
 
 Antes de mover 9 GB por Wi-Fi a un pendrive a USB 2.0, se prueba con lo que más se ve y menos pesa: **`Characters` + `Items`, 846 archivos y 404 MB**, en `linux/texturas/GZL/`. Si el rendimiento aguanta, se añade `Effects` (140 MB), luego `Environments` (8,2 GB, el que decidirá) y `HUD` solo sobre la versión USA.
