@@ -8,6 +8,8 @@ Los archivos viven en `/home/ps4/.config/dolphin-emu/`: `Dolphin.ini` (general),
 
 **Los ajustes por juego van en otro sitio: `~/.local/share/dolphin-emu/GameSettings/<ID>.ini`** (es donde Dolphin los escribe desde *Properties*). Un `GameSettings/` dentro de `~/.config/dolphin-emu/` **no lo lee**: los `GZLP01.ini` y `GZLE01.ini` que se escribieron ahí el 13 y el 14-09 nunca se aplicaron (comprobado el 14-09: el juego salía en 4:3 y sin texturas). Dolphin los lee al arrancar cada juego, así que un cambio necesita *Stop* y volver a lanzar, no cerrar Dolphin.
 
+El resto del archivo es el diario de lo que se hizo, por fechas. Al final están las dos secciones de referencia, que son lo que hay que leer antes de tocar nada: **[reglas de configuración](#reglas-de-configuración-qué-se-lee-dónde-y-cuándo)** (qué archivo gana, cómo se llaman las secciones, cuándo se relee cada cosa, qué no se toca) y **[protocolo de pruebas](#protocolo-de-pruebas-en-la-consola)** (cómo medir en esta consola sin sacar una conclusión falsa).
+
 ## Configuración a 13-09-2026, 23:50 (leída por SSH)
 
 | Archivo | Clave | Valor | Comentario |
@@ -330,3 +332,139 @@ Método: `ffmpeg -f x11grab` para leer el contador, y `top` para la CPU, que lle
 Mientras tanto se queda en el repo como referencia: los `.asm` comentados y el mapa de símbolos demangled de *Wind Waker* (2 MB, en `EXTRA STUFF`) son buen material si algún día hace falta trastear con la memoria del juego. Para jugar, **30 fps con las texturas HD**, que es el ritmo para el que se hizo.
 
 Si aun así se quiere probar: los códigos van al `[Gecko]` de `~/.local/share/dolphin-emu/GameSettings/GZLE01.ini` y se activan en `[Gecko_Enabled]`; hay que **desactivar los demás códigos de inyección ASM** (el hack agota el espacio que Gecko reserva para el código inyectado), lo que incluye el *16:9 Widescreen* que tenemos puesto.
+
+## Reglas de configuración: qué se lee, dónde y cuándo
+
+Casi todos los errores de configuración de este proyecto han sido de *sitio* (editar el archivo que Dolphin no mira) o de *momento* (editarlo cuando Dolphin lo va a sobrescribir). Esto es lo aprendido, puesto como referencia.
+
+### Los tres niveles, y cuál gana
+
+| Nivel | Dónde | Qué es |
+|---|---|---|
+| Global | `~/.config/dolphin-emu/` → `Dolphin.ini`, `GFX.ini`, `GCPadNew.ini` | Lo que vale para todos los juegos |
+| Del juego, de fábrica | `sys/GameSettings/` de la instalación → `GZL.ini`, `GZLE01.ini`, `GZLP01.ini` | Lo que Dolphin sabe que este juego necesita, más su lista de códigos. **No editar**: se pierde al actualizar el paquete y además está bien |
+| Del juego, nuestro | `~/.local/share/dolphin-emu/GameSettings/<ID>.ini` | Lo único que tocamos por juego. **Gana sobre los dos anteriores** |
+
+Dolphin carga el INI de **3 letras y el de 6**: para `GZLE01` lee `GZL.ini` y `GZLE01.ini`, en los dos niveles. Por eso los ajustes de fábrica del juego están en `GZL.ini` y valen para las dos regiones. Un `~/.local/share/dolphin-emu/GameSettings/GZL.ini` nuestro sería la forma de poner algo común al europeo y al USA (igual que la carpeta de texturas se llama `GZL`); aquí no se ha usado: cada versión tiene su INI de 6 letras porque llevan cosas distintas.
+
+### Los nombres de las secciones **no** son los mismos arriba y abajo
+
+Este es el fallo silencioso más fácil de cometer: copiar una clave de `GFX.ini` al INI del juego tal cual. No da error, simplemente no hace nada.
+
+| En `GFX.ini` (global) | En el INI del juego | Claves que usamos |
+|---|---|---|
+| `[Settings]` | `[Video_Settings]` | `InternalResolution`, `MSAA`, `AspectRatio`, `HiresTextures`, `CacheHiresTextures`, `ShaderCompilationMode` |
+| `[Enhancements]` | `[Video_Enhancements]` | `MaxAnisotropy`, `ForceFiltering` |
+| `[Hacks]` | `[Video_Hacks]` | `EFBAccessEnable`, `EFBToTextureEnable` (los que fija el juego) |
+| `[Hardware]` | `[Video_Hardware]` | `VSync` |
+| `[Core]` de `Dolphin.ini` | `[Core]` (igual) | `CPUThread`, `OverclockEnable`, `Overclock`, `EmulationSpeed` |
+
+Los apartados de códigos (`[Gecko]`, `[Gecko_Enabled]`, `[ActionReplay]`, `[ActionReplay_Enabled]`) solo existen en el INI del juego.
+
+### Cuándo se relee cada cosa
+
+| Qué se cambia | Qué hace falta para que surta efecto |
+|---|---|
+| INI del juego: códigos, texturas, aspecto, *overclock* | **Stop y volver a lanzar el juego.** No hace falta cerrar Dolphin |
+| `GFX.ini`, `Dolphin.ini`, `GCPadNew.ini` a mano | **Dolphin cerrado antes de editar.** Al salir los reescribe enteros con lo que tiene en memoria y se lleva por delante la edición |
+| Cualquier cosa desde la interfaz | Al momento, y se guarda al salir |
+
+Dolphin solo reescribe los `.ini` si algo cambió durante la sesión; aun así, la regla práctica es no editarlos nunca con Dolphin abierto.
+
+### Números que no se entienden solos
+
+| Clave | Qué significa el número |
+|---|---|
+| `MaxAnisotropy` | 0 = 1x, 1 = 2x, 2 = 4x, 3 = 8x, 4 = 16x. **No** son las veces |
+| `AspectRatio` | 0 = Auto, 1 = forzar 16:9, 2 = forzar 4:3, 3 = estirar |
+| `ShaderCompilationMode` | 0 = síncrona, 1 = ubershaders síncronos, 2 = **ubershaders híbridos** (el nuestro), 3 = asíncrona saltando dibujado |
+| `InternalResolution` | múltiplo de la nativa: 3 = 3x ≈ 1080p |
+| `MSAA` | número de muestras; 1 = sin AA. Dolphin lo guarda en hexadecimal (`0x00000004` = 4x) y lo lee también en decimal |
+| `SIDevice0` | 6 = mando estándar en el puerto 1 |
+| `EmulationSpeed` | 1.0 = velocidad normal, **0.0 = sin límite** (solo para medir, ver el protocolo) |
+
+### Códigos: lo que hay que cumplir para que uno se active
+
+1. `EnableCheats = True` en `Dolphin.ini [Core]`. Es **global**: sin eso no se aplica ningún código de ningún juego, por muy habilitado que esté en su INI.
+2. El código, en **su** apartado: los Gecko (`04…`, `C2…`) en `[Gecko]`, los de Action Replay en `[ActionReplay]`. Mezclarlos no da error de sintaxis, revienta en ejecución (ver "Errores míos en esta prueba", arriba).
+3. El nombre en `[Gecko_Enabled]` / `[ActionReplay_Enabled]`, con `$` delante y **exactamente igual** al del apartado del código o al que trae el `sys/GameSettings`; un espacio o una tilde de más y no se activa, sin aviso.
+4. *Stop* y relanzar el juego: la lista se lee al arrancar.
+5. Los Gecko de inyección de código (`C2…`) comparten un espacio reservado limitado: varios a la vez se pisan. Por eso el hack de 60 fps exigiría quitar el *16:9 Widescreen*.
+
+### Lo que no se toca en esta consola
+
+| Ajuste | Por qué |
+|---|---|
+| `EFBAccessEnable`, `EFBToTextureEnable`, `VISkip`, `ArbitraryMipmapDetection`, `EnableGPUTextureDecoding` | Los fija el `GZL.ini` de fábrica porque el juego los necesita. Los dos últimos, probados en A/B el 14-09: no dan fps |
+| DSP **LLE** | HLE en su hilo es lo que hace que quepa. LLE emula el DSP instrucción a instrucción: es CPU, que es justo lo que falta |
+| **Dual Core** (`CPUThread = False`) | Recurso típico para arreglar cuelgues en otros juegos; aquí partiría el rendimiento por la mitad. Antes de desactivarlo, probar todo lo demás |
+| **MMU** | Solo lo piden unos pocos juegos y cuesta mucha CPU |
+| **SSAA** | Cuadruplica el coste por píxel. MSAA sí, que en esta GPU es casi gratis |
+| *Online Updater* de Dolphin, o actualizar el paquete | La distro está clavada al archivo de Arch del 09-03-2026 (ver [`README.md`](README.md)); además, cambiar de versión de Dolphin invalida los estados guardados |
+
+**Ojo con los iconos de juego del escritorio:** lanzan `dolphin-emu -b -e <imagen>`, y `-b` es *batch*, es decir **sin ventana principal**. La receta de cerrar por SSH con *Ctrl+Q* en la ventana principal y *Alt+Y* en el diálogo supone Dolphin abierto de la forma normal, con sus dos ventanas. Lanzado desde el icono del juego solo debería estar la de render (es lo que significa la opción; **sin comprobar en la consola**): conviene mirar qué ventanas hay con `xdotool search --name Dolphin` y cómo se cierra esa, **antes** de necesitarlo con una partida sin guardar.
+
+## Protocolo de pruebas en la consola
+
+Medir aquí es fácil de hacer mal: hay un tope de 30 fps que disimula cualquier diferencia, una CPU que arranca a otra frecuencia, un pendrive lento y un escritorio que se comparte por VNC. Esta es la rutina que hace comparables dos medidas.
+
+### Antes de medir, en este orden
+
+1. **Pedir la consola.** Es de uno: si hay otra sesión trabajando en ella, esperar. Tocarla lo decide Javi.
+2. **`ps4-fan-threshold60.bin` en Payload Guest, antes de arrancar Linux.** Sin él, a 2,1 GHz se llega a 80 °C y el Syscon acaba apagando la consola.
+3. **CPU a 2,1 GHz**: icono *CPU 2,1 GHz — Rendimiento*, o `ps4-cpu rendimiento`; comprobar con `ps4-cpu estado`. Arrancando por Payload Guest la CPU viene en P2 (1,6 GHz) y **todas las cifras salen un 12 % bajas**; por BinLoader ya viene en P0.
+4. **Visor VNC desconectado.** x11vnc lee la pantalla a base de sondeos y gasta la CPU que se está midiendo ([`vnc.md`](vnc.md)).
+5. **Nada copiando al pendrive.** Escribe a 1,7 MB/s: una subida por SFTP en marcha falsea la prueba entera.
+6. **Cargar siempre el mismo estado guardado**, con el personaje quieto y la cámara idéntica.
+7. **Descartar la primera pasada** por una zona: ahí se compilan los shaders y se leen por primera vez las `.dds` del pendrive. Se mide a partir de la segunda.
+8. **Al menos cinco muestras**, y apuntarlas una a una, no solo la media: la dispersión dice tanto como el valor (en la prueba del reloj emulado del 16-09 alternaban 27,4 y 34,6, y esa bimodalidad era el dato).
+
+### Cómo se lee el número
+
+```sh
+# fotograma completo (para ver qué había en pantalla) y recorte del contador
+ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 escena.png
+ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 -vf 'crop=110:24:1810:36' fps.png
+```
+
+- El contador es el `ShowFPS` de Dolphin, arriba a la derecha, y solo sale en una captura **de la pantalla X**. La captura propia de Dolphin (F9) **no lleva el OSD** y además sale a la resolución interna: no sirve para medir.
+- **Guardar siempre el fotograma completo, no solo el recorte.** El recorte no distingue el juego corriendo de una pausa, de un menú abierto o de un diálogo de Dolphin tapando la escena; más de una conclusión falsa ha salido de un número creíble sobre una pantalla que no era la que se creía.
+- A la vez, CPU y temperatura: `top -bn1 | head` (el hilo de emulación y el de GPU saturados son ~200 %) y `cat /sys/class/hwmon/hwmon*/temp1_input`.
+
+### Los seis errores que ya han falseado una medida
+
+| Error | Cómo se nota | Qué hacer |
+|---|---|---|
+| **Medir contra el tope de 30 fps** | Sale 29,9x en las dos ramas del A/B y se concluye "no hay diferencia" | Si el número roza 30, se está midiendo el limitador, no la máquina. Para capacidad, `EmulationSpeed = 0.0`, y devolverlo a `1.0` al terminar |
+| **Medir con la CPU en P2** | Todo un 12 % bajo, de forma coherente | `ps4-cpu estado` antes de empezar |
+| **Medir con el visor VNC conectado** | Fps más bajos y más irregulares | Desconectar el visor; para mirar sin medir da igual |
+| **Medir solo el recorte del contador** | Un número perfectamente creíble de una escena que no es | Capturar también el fotograma entero |
+| **Medir la primera pasada por la zona** | Bajones que no se repiten después | Entrar, salir y volver antes de contar |
+| **Comparar en escenas distintas** | Diferencias grandes que no vienen del ajuste | Estado guardado, cámara quieta, la escena patrón |
+
+### La escena patrón y las cifras conocidas
+
+La referencia del proyecto es el **estado de la ranura 2 del USA (`StateSaves/GZLE01.s02`): playa de Outset mirando al mar**, con toda la bahía y el horizonte en pantalla, que es lo más caro que se ha encontrado en el juego. **No guardar encima de esa ranura** (la 1 es la partida europea del 13-09).
+
+| Escena | Condiciones | fps |
+|---|---|---|
+| Interior (casa de la abuela), título | texturas HD, 1,6 GHz | 29,9-30 |
+| Outset mirando a la casa de Link | texturas HD, 1,6 GHz | 29,98 |
+| **Playa de Outset mirando al mar** | texturas HD, 1,6 GHz (P2) | 26,8 (26,36-27,20) |
+| **Playa de Outset mirando al mar** | texturas HD, 2,1 GHz (P0) | **29,95** (29,84-29,98) |
+| Playa de Outset, **sin límite de velocidad** | texturas HD, 2,1 GHz | ~33 → **capacidad = 110 % del tiempo real** |
+
+Cifras que acompañan a una medida buena: memoria de Dolphin 526 MB sin texturas y **1,98 GB con el pack entero** (de 5,9 GiB totales), CPU al 150 % jugando y hasta 200 % sin límite, temperatura 62-65 °C con el pack a 2,1 GHz y 77-80 °C en las pruebas largas.
+
+**Sin medir todavía:** navegando en barco y dentro de una mazmorra, los dos escenarios que faltan por ver y los candidatos a ser peores que la playa. Llegar allí sin jugar no se pudo (arriba); hará falta una partida avanzada o jugar hasta ahí. Tampoco está hecha la comparación OpenGL frente a Vulkan, que sí es un A/B con sentido porque cambia el hilo de GPU y el coste de compilar shaders.
+
+### Qué anotar de cada prueba
+
+Fecha y hora, versión del juego (`GZLE01` / `GZLP01`), frecuencia de la CPU, backend, si estaban las texturas, el estado guardado usado, **las muestras una a una**, temperatura y CPU, y qué se restauró al terminar. Sin la frecuencia y el estado guardado, una medida no se puede comparar con nada.
+
+### Antes de dar por buena una conclusión
+
+- **Cambiar un ajuste de GPU y no ver diferencia no significa que el ajuste no haga nada**: significa que el cuello es la CPU, que es lo que pasa aquí con MSAA, resolución interna y anisotrópico. Esos se prueban para ver si **rompen algo** o para ganar imagen, no para ganar fps.
+- **Lo que mueve los fps en esta consola es la frecuencia de la CPU**, y poco más. Antes de montar un A/B de vídeo, preguntarse si el ajuste toca el hilo de emulación.
+- **Un resultado que sale demasiado barato hay que explicarlo**, no celebrarlo: el *overclock* al 200 % costó solo un 10 % porque el juego seguía a 30 Hz y Dolphin salta los bucles de espera. Sin esa explicación, la conclusión habría sido la contraria.
+- **Deshacer siempre lo que se tocó para medir** (`EmulationSpeed`, *overclock*, mando mapeado a teclado, códigos de prueba) y dejarlo dicho por escrito. Que conste es parte del resultado.
