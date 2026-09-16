@@ -121,15 +121,25 @@ def cmd_subir(args):
     creadas, hechos, bytes_ok, t0 = set(), 0, 0, time.time()
     for rel in sorted(faltan):
         destino = f"{args.remoto.rstrip('/')}/{rel}"
-        mkdirs(ftp, os.path.dirname(destino), creadas)
-        with open(os.path.join(local, *rel.split("/")), "rb") as f:
+        # Cada archivo abre una conexión de datos; tras decenas de miles seguidos, Windows da WinError 10013 al pasar
+        # por un bloque de puertos reservados (Hyper-V) o al agotar los TIME_WAIT. Se espera, se reconecta y se reintenta
+        for intento in range(6):
             try:
-                ftp.storbinary(f"STOR {destino}", f, blocksize=1 << 16)
-            except (ftplib.all_errors, OSError) as e:
-                print(f"  fallo en {rel}: {e}; reconecto y reintento")
+                mkdirs(ftp, os.path.dirname(destino), creadas)
+                with open(os.path.join(local, *rel.split("/")), "rb") as f:
+                    ftp.storbinary(f"STOR {destino}", f, blocksize=1 << 16)
+                break
+            except ftplib.all_errors as e:
+                if intento == 5:
+                    raise
+                print(f"  fallo en {rel}: {type(e).__name__}: {e}; espero 15 s y reconecto ({intento + 1}/5)", flush=True)
+                try:
+                    ftp.close()
+                except Exception:
+                    pass
+                time.sleep(15)
                 ftp = conectar(args.ip)
-                f.seek(0)
-                ftp.storbinary(f"STOR {destino}", f, blocksize=1 << 16)
+                creadas.clear()
         hechos += 1
         bytes_ok += faltan[rel]
         if hechos % 25 == 0 or bytes_ok == total:
