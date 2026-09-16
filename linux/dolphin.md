@@ -158,7 +158,7 @@ Subido con [`tools/subir_texturas.py`](../tools/subir_texturas.py) por SFTP arch
 | A 2,092 GHz (P0) | 29,95 fps — en el tope de 30 |
 | Capacidad estimada a 2,1 GHz | 26,8 × (2,092 / 1,593) = **~35 fps**, y es una cota superior: la latencia de memoria no escala con el reloj |
 
-O sea, **un 17 % de margen sobre los 30 fps, cuando hacen falta un 100 %.** Nos quedamos cortos por un factor de ~1,7. El resultado esperado serían unos 35 fps de los 60, es decir el juego a poco más de la mitad de velocidad, que es justo el *"super slowmo"* del que avisa el autor.
+O sea, **un 17 % de margen sobre los 30 fps, cuando hacen falta un 100 %.** Nos quedamos cortos por un factor de ~1,7. El resultado esperado serían unos 35 fps de los 60, es decir el juego a poco más de la mitad de velocidad, que es justo el *"super slowmo"* del que avisa el autor. **Medido el 16-09 y confirmado: 33 fps** (ver abajo).
 
 Y el margen no se puede sacar de los gráficos: el cuello es el hilo de emulación de la CPU (Dolphin usa ~1,5 núcleos de los 8; los otros 6 no ayudan, porque el PowerPC se emula en un solo hilo). Bajar la resolución interna, el MSAA o las texturas alivia la GPU, que ya va sobrada. Y 2,1 GHz es el P-state máximo (P0): no hay más reloj que pedir.
 
@@ -172,9 +172,20 @@ Los 39 códigos son direcciones absolutas del binario USA (`C2006410`, `C20251A0
 
 Portarlo significaría localizar las 39 funciones en el binario PAL —con el mapa de símbolos que viene en `EXTRA STUFF`, que es del USA— y reescribir cada código. Es trabajo de ingeniería inversa, no de configuración, y aun así chocaría con el mismo muro de CPU.
 
-### La medida que lo zanjaría
+### Medido el 16-09-2026: confirmado, no llega
 
-Con la consola libre, sin instalar el hack: poner `EmulationSpeed = 0` (sin límite) en `Dolphin.ini`, cargar el estado de la playa y leer los fps. Eso da la capacidad real en vez de la estimada. Y una segunda prueba, `Overclock = 2.0` con `OverclockEnable = True` **sin los códigos Gecko**, mide el coste exacto de duplicar el reloj emulado. Si de la primera salieran 60 o más, habría que replantearse todo esto.
+Dos pruebas en la consola, con el pack de texturas puesto, la CPU a 2,1 GHz y el estado guardado de la playa de Outset (ranura 2), para no depender de estimaciones:
+
+| Prueba | Configuración | fps | Lectura |
+|---|---|---|---|
+| **A — capacidad real** | `EmulationSpeed = 0.0` (sin límite) | 32,2 · 34,4 · 33,9 · 34,8 · 28,9 | **~33 fps de un juego de 30 → 110 % de tiempo real** |
+| **B — reloj emulado al doble** | `OverclockEnable = True`, `Overclock = 2.0`, sin límite | 27,4 · 34,6 · 27,8 · 27,7 · 33,8 · 27,6 | ~30 fps: el *overclock* solo cuesta un **10 %** |
+
+**La prueba A es la que decide.** La capacidad de esta consola es del **110 % del tiempo real** con *Wind Waker* a 30 Hz. El hack lo pone a 60 Hz, o sea **200 %**. Con el hack instalado saldrían unos 33 fps de los 60: el juego a la mitad de velocidad, en cámara lenta. La estimación previa (~35 fps) se confirmó con dos décimas de diferencia.
+
+La prueba B sale engañosamente barata y conviene entender por qué, para no sacar la conclusión contraria: subir el reloj emulado **sin** el hack no duplica el trabajo, porque el juego sigue a 30 Hz y lo único que hace es terminar antes su cálculo y quedarse esperando el barrido de pantalla; Dolphin detecta esos bucles de espera y los salta. El coste real llega cuando el bucle del juego corre 60 veces por segundo, que es lo que hacen los códigos Gecko, y eso es lo que no cabe en el 110 %.
+
+Método: `ffmpeg -f x11grab` para leer el contador, y `top` para la CPU, que llegó al 200 % (dos núcleos saturados: el hilo de emulación y el de GPU) a 61-68 °C. La configuración se restauró al terminar.
 
 Mientras tanto se queda en el repo como referencia: los `.asm` comentados y el mapa de símbolos demangled de *Wind Waker* (2 MB, en `EXTRA STUFF`) son buen material si algún día hace falta trastear con la memoria del juego. Para jugar, **30 fps con las texturas HD**, que es el ritmo para el que se hizo.
 
