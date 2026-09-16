@@ -14,7 +14,7 @@ Leído en *Ajustes → Sistema → Información del sistema* con GoldHEN cargado
 | Firmware | 12.52 (`HEN 12.52`) |
 | **Southbridge** | **Baikal B1 (0x30201)** |
 | GoldHEN | v2.4b18.10 |
-| IP | 192.168.1.201 (cambia; confirmarla antes de conectar) |
+| IP | Sistema de PS4: 192.168.1.201 por Ethernet (DHCP; cambia, confirmarla antes de conectar). Linux: **192.168.1.33 fija** por Wi-Fi desde el 16-09-2026 (perfil `DIGIFIBRA-PLUS-938F` de NetworkManager) |
 | Pantalla | **Tele LG por HDMI.** El monitor Samsung de 22" 1080p no recibe señal con los kernels 5.4 (sacan 1080p60 fijo sin leer el EDID); la tele sí. La PS4 en 1080p, HDR y Deep Colour desactivados |
 
 Lo que implica ser **Baikal**, y además Pro, según la guía y los mantenedores del kernel (septiembre de 2026):
@@ -178,7 +178,7 @@ Fuera de emuladores: Steam con Proton, Lutris y Heroic; la guía trae una tabla 
 4. En el escritorio hay un icono por juego (*Zelda-Wind-Waker-Europe* y *-USA*, que abren Dolphin directamente en el juego), más Dolphin, PPSSPP, Firefox, la carpeta *Juegos* y una terminal ([`escritorio/`](escritorio/README.md)). Al añadir juegos nuevos a `~/Juegos`: `sh ~/escritorio/instalar.sh`.
 5. **Apagar con el icono "Apagar Linux"** o desde el menú de LXDE, nunca con el botón: la partición no tiene journal.
 
-Desde el PC, con la PS4 en Linux: `python tools/ps4linux.py ip` y luego `MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando"`. Desde el móvil, el escritorio se ve por VNC ([`vnc.md`](vnc.md)): puerto 5900, contraseña `ps4linux`.
+Desde el PC, con la PS4 en Linux: `MSYS_NO_PATHCONV=1 python tools/ps4linux.py "comando"` (va a la IP fija `192.168.1.33`; `python tools/ps4linux.py ip` la comprueba y, si no responde, busca la consola por la MAC). Desde el móvil, el escritorio se ve por VNC ([`vnc.md`](vnc.md)): puerto 5900, contraseña `ps4linux`.
 
 ## Errores de este proyecto y qué aprender de ellos
 
@@ -244,7 +244,7 @@ Lecciones:
 ### 2026-09-13, noche — Payload Guest, ajustes por SSH y el juego en la consola
 
 - **Payload Guest** instalado y `/data/payloads/` con los 30 `.bin` de `pkg/payloads/`; el `meta.json` sin `icon` lo rompía y se quitó. Linux se arranca desde la consola eligiendo `linux-2048mb.bin`.
-- La IP de Linux en la red de casa fue **192.168.1.180** (Wi-Fi `DIGIFIBRA-PLUS-938F`, conectada con `hidden yes`); cambia con DHCP, se localiza por la MAC del Wi-Fi (`e8:9e:b4:9e:bd:6f`).
+- La IP de Linux en la red de casa fue **192.168.1.180** (Wi-Fi `DIGIFIBRA-PLUS-938F`, conectada con `hidden yes`); cambia con DHCP, se localiza por la MAC del Wi-Fi (`e8:9e:b4:9e:bd:6f`). Desde el 16-09 es fija, `.33` (ver abajo).
 - Por SSH: autologin en LXDE escrito en `/etc/sddm.conf.d/autologin.conf` (**no sirvió: el gestor activo es LightDM, no SDDM**; corregido el 14-09, ver abajo), `Dolphin.ini` con `GFXBackend = OGL` e `ISOPath0 = /home/ps4/Juegos`, y ***Wind Waker* copiado** por SFTP como `/home/ps4/Juegos/Zelda-Wind-Waker-Europe.rvz` (SHA-1 igual al catálogo). SFTP no aceptó el nombre largo con comas y paréntesis.
 - Revisión del log de arranque (`journalctl -b -p warning`): ningún servicio fallido. Se arregló lo que hacía ruido: **ZRAM** (la distro lo configura pero el kernel `baikal_mt76` no trae el módulo: `dev-zram0.device` agotaba el tiempo cada 90 s y alargaba el arranque a 3:30; desactivado renombrando `/etc/systemd/zram-generator.conf`) y **dominio regulatorio** (`WIRELESS_REGDOM="ES"` en `/etc/conf.d/wireless-regdom`). Lo demás es normal en PS4 con 5.4: sin ACPI ni IOAPIC, `pci=biosirq`, `over-current` falso en los puertos USB (lo de Baikal), `ahci probe failed` (sin SATA, por eso no hay disco interno), systemd pidiendo kernel ≥ 5.7, y la partición ext4 sin journal ("mounting unchecked fs": apagar siempre desde el menú).
 - El disco interno de la PS4 aparece en Linux como `sdb` con sus 16 particiones cifradas. No tocar.
@@ -268,6 +268,22 @@ Lecciones:
 - **VNC** ([`vnc.md`](vnc.md)): `x11vnc` arranca con la sesión; con autologin, el escritorio se ve y se maneja desde el móvil desde el arranque, sin teclado.
 - **Escritura real del pendrive: 1,7 MB/s** secuencial (`dd oflag=direct`), 4 MB/s en archivos pequeños hacia la caché. Los 150 KB/s de la noche anterior eran un `tar` extrayendo con la caché saturada. Subiendo por SFTP archivo a archivo con [`tools/subir_texturas.py`](../tools/subir_texturas.py) se sostienen ~2 MB/s.
 - La partición marca `Filesystem state: not clean` (`tune2fs -l /dev/sda2`) por los cuelgues del payload de 3 GB: `e2fsck` pendiente desde la rescue shell.
+
+### 2026-09-16 — IP fija de Linux: 192.168.1.33
+
+Objetivo: llegar a la consola desde fuera de casa a través de Tailscale (el PC de casa como *subnet router* de `192.168.1.0/24`); por el túnel no cruza el descubrimiento por broadcast, así que las IPs tienen que ser conocidas. Sin reserva en el router (decisión de Javi): la IP se fija en la propia consola, en la zona baja de la red, que el DHCP no usa (por debajo de `.128` solo respondía el router, `.1`).
+
+- Perfil `DIGIFIBRA-PLUS-938F` de NetworkManager, por SSH, con la consola conectada por DHCP en `.180`. Se copiaron la puerta de enlace y los DNS que daba el DHCP (`100.90.1.1` y `100.100.1.1`, los de Digi):
+
+  ```
+  sudo nmcli con mod DIGIFIBRA-PLUS-938F ipv4.method manual ipv4.addresses 192.168.1.33/24 ipv4.gateway 192.168.1.1 ipv4.dns "100.90.1.1 100.100.1.1" connection.autoconnect-priority 10
+  sudo systemd-run --on-active=2 --unit=ps4-ip-fija nmcli dev reapply wlan2
+  ```
+
+  La prioridad 10 es para que en casa gane a `JFK-963` (el hotspot del PC, que sigue en DHCP y también está guardado). Verificado: `ip -4 a` da `.33/24`, ruta por `.1`, `ping 1.1.1.1` y DNS resuelven, y `.180` deja de responder. Sobrevive al reinicio porque está en el perfil, no en la sesión.
+- **Aviso:** `nmcli con up` lanzado con `nohup ... &` desde la sesión SSH murió con la sesión y no llegó a ejecutarse (la consola seguía en `.180`). Con `systemd-run` (unidad transitoria, independiente del SSH) sí; `nmcli dev reapply` aplica la IP nueva sin soltar el Wi-Fi, y el SSH vuelve por `.33` en unos 30 s.
+- `tools/ps4linux.py` usa `.33` por defecto (ya no hace falta pasar la IP) y `ip` solo barre la red si la fija no responde.
+- Pendiente: excepción IDS de ESET también para `.33` (hoy solo cubre `.201`; ver `INSTALL.md`), y montar el subnet router de Tailscale en el PC.
 
 ## Problemas conocidos
 

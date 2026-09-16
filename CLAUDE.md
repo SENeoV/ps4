@@ -32,8 +32,8 @@ python tools/fba2012.py verificar CARPETA  # zip a zip: con qué core arranca, q
 python tools/fba2012.py listas             # verifica las carpetas de arcade y regenera sus 5 listas
 python tools/dos.py CARPETA [--hacer]      # juegos de DOS: descomprime, crea el .conf (o .scummvm) y guarda el zip en ORIGINALES
 python tools/guard.py pre-commit           # la comprobación anti-binarios del hook (pre-push lee el stdin del hook)
-python tools/ps4linux.py ip                # con la PS4 en Linux: busca su IP por la MAC del Wi-Fi y prueba el SSH
-MSYS_NO_PATHCONV=1 python tools/ps4linux.py <ip> "comando" | --put local remoto   # SSH/SFTP a la PS4 en Linux (ps4/ps4)
+python tools/ps4linux.py ip                # con la PS4 en Linux: comprueba la IP fija (192.168.1.33) y, si no responde, la busca por la MAC del Wi-Fi
+MSYS_NO_PATHCONV=1 python tools/ps4linux.py [<ip>] "comando" | --put local remoto   # SSH/SFTP a la PS4 en Linux (ps4/ps4); sin <ip>, la fija
 cp tools/hooks/pre-commit tools/hooks/pre-push .git/hooks/   # instalar los hooks en un clon nuevo
 ```
 
@@ -78,7 +78,7 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ### Acceso por FTP
 
-- FTP de GoldHEN: puerto 2121, anónimo, modo pasivo y **una sola conexión**, porque falla con transferencias en paralelo. Para carpetas, `tools/ps4ftp.py subir` (reanudable) y `verificar`. **ESET** toma una subida de miles de archivos por un escaneo de puertos y bloquea la IP de la consola una hora (`WinError 10013` en todo, ni ping): la IP tiene excepción IDS desde el 16-09; si cambia de IP, hay que rehacerla. GoldHEN se carga a mano tras cada reinicio (en 12.52, con el exploit Poops desde un Blu-ray; procedimiento en `INSTALL.md`) y el FTP se activa desde su menú; si no conecta, pedírselo al usuario.
+- FTP de GoldHEN: puerto 2121, anónimo, modo pasivo y **una sola conexión**, porque falla con transferencias en paralelo. Para carpetas, `tools/ps4ftp.py subir` (reanudable) y `verificar`. **ESET** toma una subida de miles de archivos por un escaneo de puertos y bloquea la IP de la consola una hora (`WinError 10013` en todo, ni ping): la IP `.201` tiene excepción IDS desde el 16-09; falta añadir la `.33` de Linux (o toda la red), y si cambia alguna, rehacerla. GoldHEN se carga a mano tras cada reinicio (en 12.52, con el exploit Poops desde un Blu-ray; procedimiento en `INSTALL.md`) y el FTP se activa desde su menú; si no conecta, pedírselo al usuario.
 - La IP cambia. Se ve en la consola en *Ajustes → Red → Ver estado de la conexión* y suele acabar en `.1.201`. Confirmarla con el usuario antes de conectar.
 - **Leer es libre**: listar, descargar para verificar hashes, revisar `retroarch.cfg`. **Subir, borrar o renombrar en la consola, solo después de confirmarlo con el usuario.**
 
@@ -110,7 +110,7 @@ Proyecto aparte de RetroArch, en marcha desde el 2026-09-13 y sin probar aún en
 - **`bootargs.txt` tiene que llevar `root=LABEL=psxitarch`** o el initramfs se para en la rescue shell pidiendo `resume-boot`. El instalador lo borra al reparticionar.
 - **Antes de Linux, `ps4-fan-threshold60.bin`** en Payload Guest: en Baikal nadie mueve el ventilador y la CPU llega a 71 °C jugando; los apagones de la madrugada fueron eso.
 - **La CPU arranca a 1,6 GHz (P2) y el kernel no la sube**: no hay `cpufreq`. `linux/cpu/ps4-cpu rendimiento` (icono en el escritorio) la pone a 2,1 GHz por MSR y Dolphin pasa de 27 a 30 fps; se pierde al reiniciar. A 2,1 GHz jugando, 77-80 °C.
-- Con la PS4 en Linux, `tools/ps4linux.py` (SSH, `ps4`/`ps4`; `sudo systemctl start sshd` ya está `enabled`). La IP cambia: buscarla por la MAC del Wi-Fi. **En Git Bash, `MSYS_NO_PATHCONV=1`** o cualquier argumento que empiece por `/` llega convertido a ruta de Windows (una copia por SFTP falló dos veces por esto).
+- Con la PS4 en Linux, `tools/ps4linux.py` (SSH, `ps4`/`ps4`; `sudo systemctl start sshd` ya está `enabled`). IP fija **192.168.1.33** desde el 16-09-2026 (en el perfil Wi-Fi de NetworkManager, no en el router); `ps4linux.py ip` la busca por la MAC solo si no responde. **En Git Bash, `MSYS_NO_PATHCONV=1`** o cualquier argumento que empiece por `/` llega convertido a ruta de Windows (una copia por SFTP falló dos veces por esto).
 - **Dolphin reescribe sus `.ini` al cerrarse**: editarlos solo con Dolphin cerrado. Por SSH se maneja con `xdotool` (`DISPLAY=:0`): Shift+F1 guarda estado, Ctrl+Q en la ventana principal (hay dos) más Alt+Y en el diálogo *Confirm* lo cierra. Detalle en `linux/dolphin.md`.
 - **Los ajustes por juego de Dolphin van en `~/.local/share/dolphin-emu/GameSettings/<ID>.ini`**, no en `~/.config/dolphin-emu/GameSettings/`: ahí Dolphin no mira, y los que se escribieron ahí el 13 y el 14-09 no se aplicaron nunca. Se leen al arrancar el juego (*Stop* y volver a lanzar basta). Los fps se leen con `ffmpeg -f x11grab` (la captura F9 de Dolphin no lleva el contador).
 - **Payload Guest** solo lista `.bin` en la raíz de `/data/payloads/` y no lee subcarpetas; un `meta.json` sin `icon` lo rompe. Los nombres de paquete de Arch con `:` (epoch) no valen en FAT32 ni NTFS (Windows crea un flujo alternativo): renombrar.
