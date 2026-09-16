@@ -121,25 +121,29 @@ def cmd_subir(args):
     creadas, hechos, bytes_ok, t0 = set(), 0, 0, time.time()
     for rel in sorted(faltan):
         destino = f"{args.remoto.rstrip('/')}/{rel}"
-        # Cada archivo abre una conexión de datos; tras decenas de miles seguidos, Windows da WinError 10013 al pasar
-        # por un bloque de puertos reservados (Hyper-V) o al agotar los TIME_WAIT. Se espera, se reconecta y se reintenta
-        for intento in range(6):
+        # Cada archivo abre una conexión de datos a un puerto distinto de la consola. Tras decenas de miles, ESET lo toma
+        # por un escaneo de puertos y bloquea la IP durante una hora (WinError 10013 en todo, ni ping). Se espera con
+        # pausas crecientes, hasta algo más de dos horas en total, reconectando en cada intento
+        esperas = (15, 60, 300, 900, 1800, 3600, 3600)
+        for intento, espera in enumerate(esperas + (None,)):
             try:
+                if ftp is None:
+                    ftp = conectar(args.ip)
+                    creadas.clear()
                 mkdirs(ftp, os.path.dirname(destino), creadas)
                 with open(os.path.join(local, *rel.split("/")), "rb") as f:
                     ftp.storbinary(f"STOR {destino}", f, blocksize=1 << 16)
                 break
             except ftplib.all_errors as e:
-                if intento == 5:
+                if espera is None:
                     raise
-                print(f"  fallo en {rel}: {type(e).__name__}: {e}; espero 15 s y reconecto ({intento + 1}/5)", flush=True)
+                print(f"  fallo en {rel}: {type(e).__name__}: {e}; espero {espera} s y reconecto ({intento + 1}/{len(esperas)})", flush=True)
                 try:
                     ftp.close()
                 except Exception:
                     pass
-                time.sleep(15)
-                ftp = conectar(args.ip)
-                creadas.clear()
+                ftp = None
+                time.sleep(espera)
         hechos += 1
         bytes_ok += faltan[rel]
         if hechos % 25 == 0 or bytes_ok == total:
