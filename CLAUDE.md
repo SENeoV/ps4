@@ -26,6 +26,7 @@ python tools/inventory.py                  # regenera inventory.csv, INVENTORY.m
 python tools/inventory.py --force          # recalcula todos los SHA-1
 python tools/retroarch_lists.py            # regenera las listas .lpl e imprime la cobertura por sistema
 python tools/retroarch_lists.py --thumbs   # además descarga o copia las carátulas que falten
+python tools/caratulas.py [--simular]      # segunda pasada: casa por título contra el índice del servidor (etiquetas, GoodTools, FBNeo, padre del clon)
 python tools/fba2012.py dat                # DAT de los 5 cores FB Alpha 2012 sacados de su código fuente (commits de 2020)
 python tools/fba2012.py verificar CARPETA  # zip a zip: con qué core arranca, qué ROMs le faltan y a qué carpeta va
 python tools/fba2012.py listas             # verifica las carpetas de arcade y regenera sus 5 listas

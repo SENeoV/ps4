@@ -300,4 +300,25 @@ Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su
 
 Volver a ejecutar `python tools/retroarch_lists.py --thumbs` (o `python tools/fba2012.py listas --thumbs` en arcade). Regenera las listas y descarga solo las carátulas que falten. Después, subir de nuevo la lista del sistema y su carpeta de carátulas.
 
+### Segunda pasada de carátulas (2026-09-16)
+
+`python tools/caratulas.py` busca las que la primera pasada no encuentra por nombre exacto: baja el índice de cada carpeta del servidor y casa por título, quitando etiquetas (`[cr X]`, `(Alt)`, `(Disk 1)`, `[!]`…), traduciendo regiones de GoodTools (`(U)` → USA) y eligiendo la región más parecida cuando hay varias. En arcade pasa del nombre corto del zip al de FBNeo con `FBNeo - Arcade Games.rdb`, y un clon sin carátula hereda la de su padre. Encontró 4283 más:
+
+| Lista | Con carátula | | Lista | Con carátula |
+|---|--:|---|---|--:|
+| NES | 567 / 632 | | FB Alpha 2012 | 1758 / 2032 |
+| SNES | 133 / 164 | | FB Alpha 2012 CPS-1 | 152 / 154 |
+| Game Boy | 1445 / 1542 | | FB Alpha 2012 CPS-2 | 270 / 273 |
+| Game Boy Color | 473 / 495 | | FB Alpha 2012 CPS-3 | 32 / 32 |
+| Game Boy Advance | 195 / 213 | | FB Alpha 2012 Neo Geo | 258 / 284 |
+| Master System | 327 / 333 | | Commodore - 64 | 2072 / 7522 |
+| Game Gear | 373 / 373 | | Commodore - 64 (PRG) | 1576 / 11 023 |
+| Mega Drive | 1252 / 1337 | | DOS | 954 / 956 |
+| Atari 2600 | 715 / 885 | | ScummVM | 30 / 40 |
+| Atari 7800 | 122 / 170 | | PC Engine | 210 / 210 |
+| Lynx | 126 / 136 | | Neo Geo Pocket / Color | 3 / 3 y 67 / 72 |
+| WonderSwan / Color | 133 / 214 y 98 / 131 | | 32X, Virtual Boy | 38 / 45 y 31 / 31 |
+
+En total 13 409 carátulas (3,8 GB): los 18 sistemas antiguos al 90 % y arcade al 89 %. Lo que falta son hacks, traducciones y variantes que el servidor no tiene; de C64 no hay más. Subirlas: `python tools/ps4ftp.py subir IP emu\RETROARCH\thumbnails /data/retroarch/thumbnails --hacer --remoto-existe` sube solo las que falten.
+
 Para comprobar los volcados contra los DAT de No-Intro: `python tools/verificar_dumps.py`. Resultado del 2026-09-15 en [`docs/volcados-2026-09-15.md`](../../docs/volcados-2026-09-15.md): 5877 de 6986 (84 %) coinciden con No-Intro.

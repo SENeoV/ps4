@@ -39,7 +39,9 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 - [x] 🤖 5400 carátulas (77%) del servidor oficial de libretro y de `emu/MEDIA/`, reducidas a 512 px
 - [x] 🎮 **Subido y verificado por FTP el 2026-09-13:** las 18 bases de datos y las 18 listas coinciden por SHA-1 con las del PC, y las 5373 carátulas están completas
 - [x] 🎮 Las 18 listas aparecen en la consola
-- [ ] 🧑 Opcional: 1586 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan, Atari 2600 y Atari 7800 (del 7800 el servidor de libretro apenas tiene portadas; del resto son traducciones y variantes que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
+- [x] 🤖 Segunda pasada de carátulas casando por título (16-09, `tools/caratulas.py`): 4283 más en todas las listas. Los 18 sistemas antiguos pasan del 77 % al 90 % (SNES de 25 a 133, Atari 7800 de 11 a 122) y arcade del 63 % al 89 %. Detalle en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md)
+- [ ] 🎮 Subir las carátulas nuevas (1,3 GB) cuando la consola vuelva a la PS4: `python tools/ps4ftp.py subir IP emu\RETROARCH\thumbnails /data/retroarch/thumbnails --hacer --remoto-existe`
+- [ ] 🧑 Opcional: los 678 juegos antiguos que siguen sin carátula son hacks, traducciones y variantes que el servidor no tiene; solo tendrían carátula añadiéndola a mano
 - ⚠️ La lista de Game Boy Color en la consola tenía 497 entradas y la del PC 495: RetroArch había añadido *Gameboy Gallery 3* y *DynaMike* por su cuenta, con el core en DETECT. El 15-09 se subieron de nuevo las listas y esa quedó como la del PC; no falta nada, porque esos dos juegos salen en la lista de Game Boy
 
 ### BIOS opcionales
