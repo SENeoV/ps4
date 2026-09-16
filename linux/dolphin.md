@@ -166,6 +166,16 @@ A esto se suma que **rompe la partida**. El propio README lista bloqueos sin sal
 
 **Corrección (15-09):** en la primera versión de esta nota puse que el *CPU Clock Override* ya no funcionaba en las versiones nuevas de Dolphin. **Es falso.** Lo decía el README del hack refiriéndose a 5.0-4792, un fallo de 2017 que se arregló: en Dolphin actual sigue existiendo como `OverclockEnable` / `Overclock` en `[Core]`, y admite valor por juego desde el INI. Ese motivo no vale; el que manda es el de la CPU.
 
+### Estado del hack en internet (revisado el 16-09-2026)
+
+Buscado a fondo para descartar que hubiera algo más nuevo o mejor. No lo hay:
+
+- **El repositorio original está abandonado desde 2017.** 7 commits, 34 estrellas, 1 incidencia abierta, 0 *pull requests*. El aviso de copyright dice "Meowmaritus 2016-2017" y el README no menciona ningún sucesor.
+- **El único fork reciente no aporta nada.** [`EleventhLucas/Wind-Waker-FPS-Hacks`](https://github.com/EleventhLucas/Wind-Waker-FPS-Hacks), creado el 14-08-2026, se anuncia como "parches para *Wind Waker* a distintas tasas de refresco, arreglando el código que depende de la tasa"; pero su README es **copia literal del original**, con los mismos tres bloqueos sin salida y la misma firma de Meowmaritus. Sin commits propios.
+- **No existe versión PAL** de este hack ni de ningún otro equivalente, en ningún sitio.
+- **El *clock override* sigue vivo** en Dolphin moderno (`OverclockEnable` / `Overclock` en `[Core]`, también por juego desde el INI). Lo del 5.0-4792 fue un fallo puntual de 2017.
+- La referencia que maneja la comunidad para mover *Wind Waker* a 60 fps es **un x86 moderno rápido de un solo hilo**, tipo i3 Skylake o Haswell bien subido. Los Jaguar de la PS4 a 2,1 GHz son una arquitectura de bajo consumo de 2013, muy por debajo de eso.
+
 ### La versión europea (`GZLP01`): no, y no es cuestión de probar
 
 Los 39 códigos son direcciones absolutas del binario USA (`C2006410`, `C20251A0`, … `C25F0228`): cada uno inyecta código en una función concreta de `GZLE01`. La compilación PAL coloca esas mismas funciones en **otras direcciones**, así que aplicarlos al europeo no daría 60 fps: parchearía instrucciones al azar y lo más probable es que se cuelgue. Por eso el autor escribe que *"no es compatible con ninguna otra región del juego"*.
