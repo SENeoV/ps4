@@ -40,7 +40,7 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 - [x] 🎮 **Subido y verificado por FTP el 2026-09-13:** las 18 bases de datos y las 18 listas coinciden por SHA-1 con las del PC, y las 5373 carátulas están completas
 - [x] 🎮 Las 18 listas aparecen en la consola
 - [ ] 🧑 Opcional: 1586 juegos no tienen carátula, sobre todo en SNES, NES, WonderSwan, Atari 2600 y Atari 7800 (del 7800 el servidor de libretro apenas tiene portadas; del resto son traducciones y variantes que no están en la base de datos). Aparecen igual, con su nombre; solo tendrían carátula añadiéndola a mano
-- ⚠️ La lista de Game Boy Color en la consola tiene 497 entradas y la del PC 495: RetroArch añadió *Gameboy Gallery 3* y *DynaMike* por su cuenta, con el core en DETECT. Son juegos de la carpeta `GB` que ya salen en su propia lista, así que no falta nada; solo desaparecerían si se vuelve a subir esa lista desde el PC
+- ⚠️ La lista de Game Boy Color en la consola tenía 497 entradas y la del PC 495: RetroArch había añadido *Gameboy Gallery 3* y *DynaMike* por su cuenta, con el core en DETECT. El 15-09 se subieron de nuevo las listas y esa quedó como la del PC; no falta nada, porque esos dos juegos salen en la lista de Game Boy
 
 ### BIOS opcionales
 
@@ -51,7 +51,8 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 ### Registro y aspecto del menú
 
 - [x] 🤖 Registro a archivo activado en `retroarch.cfg` el 2026-09-13 (`log_to_file`, `log_verbosity`): cada arranque deja un `.log` en `/data/retroarch/logs/`. Útil para diagnosticar; borrar los viejos de vez en cuando
-- [x] 🤖 Assets del menú preparados en `emu/RETROARCH/assets/` (14-09): 101 MB del commit `8827a81` de retroarch-assets, del 28-06-2020, dos días antes del port de la consola. Falta subirlos a `/data/retroarch/assets/`
+- [x] 🤖 Assets del menú preparados en `emu/RETROARCH/assets/` (14-09): 101 MB del commit `8827a81` de retroarch-assets, del 28-06-2020, dos días antes del port de la consola. **Subidos y verificados el 15-09** (4868 archivos en `/data/retroarch/assets/`)
+- [ ] 🎮 Comprobar que el menú Ozone ya muestra los iconos
 - [x] 🤖 Copia de `retroarch.cfg` de la consola en `emu/RETROARCH/backup/` (local, no versionada) y en `/data/retroarch/retroarch.cfg.bak`
 
 ### Copias de seguridad
@@ -100,7 +101,8 @@ Los romsets tienen que ser **exactamente de la versión del core**. Un set de ot
   - 2775 juegos arrancan, repartidos por core en `ARCADE/FBNEO/`, `FBNEO/CPS1/`, `FBNEO/CPS2/`, `FBNEO/CPS3/` y `NEOGEO/`, cada carpeta con su lista;
   - 11 arrancan con alguna ROM de CRC distinta y 9 tienen el driver marcado como que no funciona. Detalle en [`emu/ROMS/ARCADE/FBNEO/README.md`](emu/ROMS/ARCADE/FBNEO/README.md)
 - [ ] 🧑 Opcional: 47 juegos incompletos (`EXTRAS/ARCADE-incompletos/`, cada uno con las ROMs que le faltan) y 12 padres que no arrancan solos. Se completarían con un set v0.2.97.29
-- [ ] 🎮 Subir las 5 carpetas y sus 5 listas, y probar un juego de cada core
+- [x] 🎮 **Subidas y verificadas por FTP el 15-09** las 5 carpetas (2799 zips, 8,1 GB), sus 5 listas y 1748 carátulas, con `tools/ps4ftp.py`: mismo nombre y tamaño que en el PC
+- [ ] 🎮 Probar un juego de cada core (la lista de cada carpeta ya lo abre con el suyo)
 - [ ] 🧑 **Romset MAME 2003-Plus**, para `ARCADE/MAME/` (pendiente de descargar). Solo juegos 2D; no mezclar con sets de otras versiones de MAME
 - [ ] 🤖 Cuando lo tengas, lo cruzo con el DAT de MAME 2003-Plus para saber qué juegos están completos
 
@@ -147,7 +149,7 @@ Formato CD:
 - [ ] 🧑 Tus juegos de PSP en `.iso`
 - [ ] 🧑 Herramienta **PSP-FPKG** (Jabu), que usa el emulador PSPHD de PS Plus
 - [ ] 🎮 Consultar cada juego en la [lista de compatibilidad de PSP Classics](https://www.psdevwiki.com/ps4/Template:PSP_Classics_Emulator_Compatibility_List) **antes** de convertirlo: la compatibilidad es mixta
-- [x] 🤖 Solo para la vía alternativa en RetroArch: carpeta `assets` completa de PPSSPP en `emu/BIOS/PPSSPP/` (14-09), 59 archivos del commit `9aab3d986` del 30-06-2020. Falta subirla a `system/PPSSPP/`
+- [x] 🤖 Solo para la vía alternativa en RetroArch: carpeta `assets` completa de PPSSPP en `emu/BIOS/PPSSPP/` (14-09), 59 archivos del commit `9aab3d986` del 30-06-2020. **Subida a `system/PPSSPP/` el 15-09**
 
 ---
 
@@ -160,12 +162,13 @@ Formato CD:
   - 11 023 `.prg` en `C64/PRG/`, con su propia lista. Detalle en [`emu/ROMS/C64/README.md`](emu/ROMS/C64/README.md)
 - [x] 🤖 **DOS** (14-09): 956 juegos descomprimidos en `DOS/`, cada uno con un `.conf` que lo arranca (`tools/dos.py`), y los zips originales en `emu/ORIGINALES/DOS/`. Detalle en [`emu/ROMS/DOS/README.md`](emu/ROMS/DOS/README.md)
 - [x] 🤖 **ScummVM** (14-09): 40 aventuras de la colección de DOS en `SCUMMVM/`, cada una con su `.scummvm` (id comprobado en ScummVM 2.2) y en su lista
-- [ ] 🎮 Subir C64, DOS y ScummVM con sus 4 listas, y probar un juego de cada uno con teclado. Comprobar antes que el port reconoce el teclado
+- [x] 🎮 **Subidos y verificados por FTP el 15 y 16-09** C64 (19 959 archivos, 1 GB), ScummVM (1589 archivos) y DOS (87 050 archivos, 5,2 GB), con sus 4 listas y 2003 carátulas. DOS tardó dos tardes: ESET bloqueó la IP de la consola dos veces al tomar la subida por un escaneo de puertos (ver `INSTALL.md`); ya tiene excepción
+- [ ] 🎮 Probar un juego de cada uno con teclado. *Amazon - Guardians of Eden* ya ha arrancado en DOSBox: dejó su `AM.CFG` en la consola
 - [ ] 🎮 DOS: 254 lanzadores son `dudoso`. Si un juego abre el programa equivocado, se cambia la última línea de su `.conf` (alternativas en [`LANZADORES.md`](emu/ROMS/DOS/LANZADORES.md))
 - [ ] 🧑 DOS: 11 juegos solo traen su instalador (*Discworld*, *Doom* shareware, *Colonization*…) y hay que instalarlos en DOSBox
 - [ ] 🧑 DOS: faltan 778 de los 1778 juegos del `gamelist.xml` de la colección (pendiente de descargar). Cuando lleguen: `python tools/dos.py CARPETA`
-- [x] 🤖 ScummVM: `kyra.dat`, `lure.dat` y `queen.tbl` (rama 2.2) y el tema `scummmodern.zip` en `emu/BIOS/scummvm/` (14-09). Sin ellos no arrancan *Eye of the Beholder*, *Lure of the Temptress* ni *Flight of the Amazon Queen*. Falta subirlos y comprobar que el core de 2020 los da por buenos
-- [x] 🤖 blueMSX: sus carpetas `Databases/` y `Machines/` en `emu/BIOS/bluemsx/` (14-09), 302 archivos. Siguen faltando las ROMs de MSX, que las aportas tú
+- [x] 🤖 ScummVM: `kyra.dat`, `lure.dat` y `queen.tbl` (rama 2.2) y el tema `scummmodern.zip` en `emu/BIOS/scummvm/` (14-09). Sin ellos no arrancan *Eye of the Beholder*, *Lure of the Temptress* ni *Flight of the Amazon Queen*. **Subidos a `system/scummvm/` el 15-09**; falta comprobar que el core de 2020 los da por buenos
+- [x] 🤖 blueMSX: sus carpetas `Databases/` y `Machines/` en `emu/BIOS/bluemsx/` (14-09), 302 archivos, **subidos a `system/bluemsx/` el 15-09**. Siguen faltando las ROMs de MSX, que las aportas tú
 - [x] 🤖 Carátulas de arcade, C64, DOS y ScummVM (14-09): 3751 en total, 1,1 GB. Arcade 1748 de 2775, C64 1029 de 7522 (los `.prg` no tienen), DOS 951 de 956 (de sus imágenes de ScreenScraper) y ScummVM 23 de 40. Detalle en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md)
 
 ---

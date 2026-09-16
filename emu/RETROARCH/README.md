@@ -268,7 +268,7 @@ Atari 7800 se quedó con las 170 ROMs que reconoce la base de datos, así que su
 - SNES tiene cifras bajas porque 87 de sus ROMs son traducciones, versiones parcheadas o volcados alterados que no están en la base de datos: no se pueden reconocer por CRC. En WonderSwan pasa lo mismo con las variantes `[o]`, `[b]` y `[f]` de la colección GoodWSx.
 - En NES y Lynx, parte de los juegos reconocidos no tienen portada en el servidor de libretro. En Lynx, 89 de las 94 carátulas vienen de `emu/MEDIA/`.
 
-### Listas añadidas el 2026-09-14 (sin subir)
+### Listas añadidas el 2026-09-14 (subidas y verificadas el 15-09, con sus carátulas)
 
 | Lista | Juegos | Reconocidos en la base de datos | Con carátula | Tamaño carátulas |
 |---|--:|--:|--:|--:|

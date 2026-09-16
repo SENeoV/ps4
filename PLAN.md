@@ -93,8 +93,8 @@ El romset tiene que ser de la versión exacta del core.
 
 | Sistema | Carpeta | Core | Romset | ROMs | Probado en PS4 |
 |---|---|---|---|---|---|
-| Neo Geo | `NEOGEO/` | fbalpha2012_neogeo | FB Alpha 2012 + `neogeo.zip` junto a las ROMs | [x] 284 | [ ] |
-| Arcade FB Alpha 2012 | `ARCADE/FBNEO/` y sus subcarpetas `CPS1/`, `CPS2/` y `CPS3/` | fbalpha2012 (+ cps1/2/3), uno por carpeta | FB Alpha 2012 | [x] 2491 | [ ] |
+| Neo Geo | `NEOGEO/` | fbalpha2012_neogeo | FB Alpha 2012 + `neogeo.zip` junto a las ROMs | [x] 284, en la PS4 | [ ] |
+| Arcade FB Alpha 2012 | `ARCADE/FBNEO/` y sus subcarpetas `CPS1/`, `CPS2/` y `CPS3/` | fbalpha2012 (+ cps1/2/3), uno por carpeta | FB Alpha 2012 | [x] 2491, en la PS4 | [ ] |
 | Arcade MAME | `ARCADE/MAME/` | mame2003_plus | MAME 2003-Plus; solo juegos 2D | [ ] | [ ] |
 
 Colocado el 14-09-2026 (registro en `cleanup-2026-09-14-arcade.tsv`). Viene del set FB Alpha 2012 *v0.2.97.24*, más antiguo que los cores. `tools/fba2012.py` sacó el DAT de cada core de su código fuente y verificó cada zip con la misma lógica de carga del core. Resultado: **2775 juegos arrancan**, repartidos en cinco carpetas, una por core, cada una con su lista. Quedan apartados en `EXTRAS/` 47 juegos incompletos y 44 zips sin driver.
@@ -125,9 +125,9 @@ Colocado el 14-09-2026 (registro en `cleanup-2026-09-14-arcade.tsv`). Viene del 
 
 | Sistema | Carpeta | Core | ROMs | Probado en PS4 |
 |---|---|---|---|---|
-| Commodore 64 | `C64/` y `C64/PRG/` | vice_x64sc | [x] 8427 + 11 023 PRG | [ ] |
-| DOS | `DOS/` | dosbox_svn | [x] 956 | [ ] |
-| ScummVM | `SCUMMVM/` | scummvm | [x] 40 | [ ] |
+| Commodore 64 | `C64/` y `C64/PRG/` | vice_x64sc | [x] 8427 + 11 023 PRG, en la PS4 | [ ] |
+| DOS | `DOS/` | dosbox_svn | [x] 956, en la PS4 | [ ] |
+| ScummVM | `SCUMMVM/` | scummvm | [x] 40, en la PS4 | [ ] |
 
 Colocado el 14-09-2026 (registro en `cleanup-2026-09-14-c64.tsv`, `-c64-prg.tsv` y `-dos.tsv`):
 
@@ -135,7 +135,7 @@ Colocado el 14-09-2026 (registro en `cleanup-2026-09-14-c64.tsv`, `-c64-prg.tsv`
 - **DOS:** 956 juegos descomprimidos, cada uno con un `.conf` que lo arranca (254 con el ejecutable dudoso, 11 que hay que instalar), y los zips en `ORIGINALES/DOS/`.
 - **ScummVM:** 40 aventuras de esa colección.
 
-Nada probado aún con teclado en la consola.
+**Subido y verificado por FTP el 15 y 16-09-2026** (`tools/ps4ftp.py`: mismo nombre y tamaño archivo a archivo), junto con arcade, las 9 listas nuevas, 3751 carátulas, los assets del menú y las carpetas de PPSSPP, blueMSX y ScummVM en `system/`. Nada probado aún con teclado en la consola.
 
 ### Probar después — rendimiento variable o sin datos
 

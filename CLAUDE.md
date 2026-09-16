@@ -77,7 +77,7 @@ Cada reorganización de la colección se registra movimiento a movimiento en `cl
 
 ### Acceso por FTP
 
-- FTP de GoldHEN: puerto 2121, anónimo, modo pasivo y **una sola conexión**, porque falla con transferencias en paralelo. GoldHEN se carga a mano tras cada reinicio (en 12.52, con el exploit Poops desde un Blu-ray; procedimiento en `INSTALL.md`) y el FTP se activa desde su menú; si no conecta, pedírselo al usuario.
+- FTP de GoldHEN: puerto 2121, anónimo, modo pasivo y **una sola conexión**, porque falla con transferencias en paralelo. Para carpetas, `tools/ps4ftp.py subir` (reanudable) y `verificar`. **ESET** toma una subida de miles de archivos por un escaneo de puertos y bloquea la IP de la consola una hora (`WinError 10013` en todo, ni ping): la IP tiene excepción IDS desde el 16-09; si cambia de IP, hay que rehacerla. GoldHEN se carga a mano tras cada reinicio (en 12.52, con el exploit Poops desde un Blu-ray; procedimiento en `INSTALL.md`) y el FTP se activa desde su menú; si no conecta, pedírselo al usuario.
 - La IP cambia. Se ve en la consola en *Ajustes → Red → Ver estado de la conexión* y suele acabar en `.1.201`. Confirmarla con el usuario antes de conectar.
 - **Leer es libre**: listar, descargar para verificar hashes, revisar `retroarch.cfg`. **Subir, borrar o renombrar en la consola, solo después de confirmarlo con el usuario.**
 
