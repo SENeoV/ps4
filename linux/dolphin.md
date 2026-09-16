@@ -146,61 +146,6 @@ La memoria es lo único que hay que vigilar: con `CacheHiresTextures = False` Do
 
 Subido con [`tools/subir_texturas.py`](../tools/subir_texturas.py) por SFTP archivo a archivo, ~2,4 MiB/s: `Additions` 14 s, `Effects` 57 s, `HUD` ~5 min, `Environments` (8,2 GB) ~70 min. Cada carpeta termina comparando el hash conjunto del PC con el de la consola.
 
-## El hack de 60 fps: no
-
-`linux/src/Wind-Waker-60FPS-Hack/` (submódulo desde el 15-09, [Meowmaritus](https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack), 2016-2017) son 39 códigos Gecko `FPSHack_*` que hacen correr *Wind Waker* a 60 fps. Es **solo para la versión USA** (`GZLE01`), que es justo la que tenemos con las texturas.
-
-**El motivo de fondo para descartarlo es la CPU, no el software.** El hack exige *CPU Clock Override* **al 200 %**: el PowerPC emulado ejecuta el doble de instrucciones por segundo, porque el bucle del juego pasa de 30 a 60 Hz. Es decir, **hace falta el doble de CPU anfitriona**. Lo que tenemos, medido en la escena de la playa de Outset:
-
-| | |
-|---|---|
-| A 1,593 GHz (P2) | 26,8 fps — por debajo del tope, así que ahí la CPU está saturada |
-| A 2,092 GHz (P0) | 29,95 fps — en el tope de 30 |
-| Capacidad estimada a 2,1 GHz | 26,8 × (2,092 / 1,593) = **~35 fps**, y es una cota superior: la latencia de memoria no escala con el reloj |
-
-O sea, **un 17 % de margen sobre los 30 fps, cuando hacen falta un 100 %.** Nos quedamos cortos por un factor de ~1,7. El resultado esperado serían unos 35 fps de los 60, es decir el juego a poco más de la mitad de velocidad, que es justo el *"super slowmo"* del que avisa el autor. **Medido el 16-09 y confirmado: 33 fps** (ver abajo).
-
-Y el margen no se puede sacar de los gráficos: el cuello es el hilo de emulación de la CPU (Dolphin usa ~1,5 núcleos de los 8; los otros 6 no ayudan, porque el PowerPC se emula en un solo hilo). Bajar la resolución interna, el MSAA o las texturas alivia la GPU, que ya va sobrada. Y 2,1 GHz es el P-state máximo (P0): no hay más reloj que pedir.
-
-A esto se suma que **rompe la partida**. El propio README lista bloqueos sin salida: Niko no llega a la plataforma en el barco (principio del juego), el slime del Templo de la Tierra se libera antes de tiempo, y la sala de Molgera se cuelga en negro. Los enemigos, además, atacan el doble de a menudo.
-
-**Corrección (15-09):** en la primera versión de esta nota puse que el *CPU Clock Override* ya no funcionaba en las versiones nuevas de Dolphin. **Es falso.** Lo decía el README del hack refiriéndose a 5.0-4792, un fallo de 2017 que se arregló: en Dolphin actual sigue existiendo como `OverclockEnable` / `Overclock` en `[Core]`, y admite valor por juego desde el INI. Ese motivo no vale; el que manda es el de la CPU.
-
-### Estado del hack en internet (revisado el 16-09-2026)
-
-Buscado a fondo para descartar que hubiera algo más nuevo o mejor. No lo hay:
-
-- **El repositorio original está abandonado desde 2017.** 7 commits, 34 estrellas, 1 incidencia abierta, 0 *pull requests*. El aviso de copyright dice "Meowmaritus 2016-2017" y el README no menciona ningún sucesor.
-- **El único fork reciente no aporta nada.** [`EleventhLucas/Wind-Waker-FPS-Hacks`](https://github.com/EleventhLucas/Wind-Waker-FPS-Hacks), creado el 14-08-2026, se anuncia como "parches para *Wind Waker* a distintas tasas de refresco, arreglando el código que depende de la tasa"; pero su README es **copia literal del original**, con los mismos tres bloqueos sin salida y la misma firma de Meowmaritus. Sin commits propios.
-- **No existe versión PAL** de este hack ni de ningún otro equivalente, en ningún sitio.
-- **El *clock override* sigue vivo** en Dolphin moderno (`OverclockEnable` / `Overclock` en `[Core]`, también por juego desde el INI). Lo del 5.0-4792 fue un fallo puntual de 2017.
-- La referencia que maneja la comunidad para mover *Wind Waker* a 60 fps es **un x86 moderno rápido de un solo hilo**, tipo i3 Skylake o Haswell bien subido. Los Jaguar de la PS4 a 2,1 GHz son una arquitectura de bajo consumo de 2013, muy por debajo de eso.
-
-### La versión europea (`GZLP01`): no, y no es cuestión de probar
-
-Los 39 códigos son direcciones absolutas del binario USA (`C2006410`, `C20251A0`, … `C25F0228`): cada uno inyecta código en una función concreta de `GZLE01`. La compilación PAL coloca esas mismas funciones en **otras direcciones**, así que aplicarlos al europeo no daría 60 fps: parchearía instrucciones al azar y lo más probable es que se cuelgue. Por eso el autor escribe que *"no es compatible con ninguna otra región del juego"*.
-
-Portarlo significaría localizar las 39 funciones en el binario PAL —con el mapa de símbolos que viene en `EXTRA STUFF`, que es del USA— y reescribir cada código. Es trabajo de ingeniería inversa, no de configuración, y aun así chocaría con el mismo muro de CPU.
-
-### Medido el 16-09-2026: confirmado, no llega
-
-Dos pruebas en la consola, con el pack de texturas puesto, la CPU a 2,1 GHz y el estado guardado de la playa de Outset (ranura 2), para no depender de estimaciones:
-
-| Prueba | Configuración | fps | Lectura |
-|---|---|---|---|
-| **A — capacidad real** | `EmulationSpeed = 0.0` (sin límite) | 32,2 · 34,4 · 33,9 · 34,8 · 28,9 | **~33 fps de un juego de 30 → 110 % de tiempo real** |
-| **B — reloj emulado al doble** | `OverclockEnable = True`, `Overclock = 2.0`, sin límite | 27,4 · 34,6 · 27,8 · 27,7 · 33,8 · 27,6 | ~30 fps: el *overclock* solo cuesta un **10 %** |
-
-**La prueba A es la que decide.** La capacidad de esta consola es del **110 % del tiempo real** con *Wind Waker* a 30 Hz. El hack lo pone a 60 Hz, o sea **200 %**. Con el hack instalado saldrían unos 33 fps de los 60: el juego a la mitad de velocidad, en cámara lenta. La estimación previa (~35 fps) se confirmó con dos décimas de diferencia.
-
-La prueba B sale engañosamente barata y conviene entender por qué, para no sacar la conclusión contraria: subir el reloj emulado **sin** el hack no duplica el trabajo, porque el juego sigue a 30 Hz y lo único que hace es terminar antes su cálculo y quedarse esperando el barrido de pantalla; Dolphin detecta esos bucles de espera y los salta. El coste real llega cuando el bucle del juego corre 60 veces por segundo, que es lo que hacen los códigos Gecko, y eso es lo que no cabe en el 110 %.
-
-Método: `ffmpeg -f x11grab` para leer el contador, y `top` para la CPU, que llegó al 200 % (dos núcleos saturados: el hilo de emulación y el de GPU) a 61-68 °C. La configuración se restauró al terminar.
-
-Mientras tanto se queda en el repo como referencia: los `.asm` comentados y el mapa de símbolos demangled de *Wind Waker* (2 MB, en `EXTRA STUFF`) son buen material si algún día hace falta trastear con la memoria del juego. Para jugar, **30 fps con las texturas HD**, que es el ritmo para el que se hizo.
-
-Si aun así se quiere probar: los códigos van al `[Gecko]` de `~/.local/share/dolphin-emu/GameSettings/GZLE01.ini` y se activan en `[Gecko_Enabled]`; hay que **desactivar los demás códigos de inyección ASM** (el hack agota el espacio que Gecko reserva para el código inyectado), lo que incluye el *16:9 Widescreen* que tenemos puesto.
-
 ### Conjunto de prueba (extraído el 14-09-2026)
 
 Antes de mover 9 GB por Wi-Fi a un pendrive a USB 2.0, se prueba con lo que más se ve y menos pesa: **`Characters` + `Items`, 846 archivos y 404 MB**, en `linux/texturas/GZL/`. Si el rendimiento aguanta, se añade `Effects` (140 MB), luego `Environments` (8,2 GB, el que decidirá) y `HUD` solo sobre la versión USA.
@@ -296,3 +241,58 @@ Diferencia dentro del ruido: **no dan rendimiento aquí**, y anulan lo que Dolph
 Velocidad completa en el peor caso. Detalle, script e iconos del escritorio en [`cpu/README.md`](cpu/README.md).
 
 Para medir: `ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 cap.png` y recortar el contador con `-vf 'crop=110:24:1810:36'`.
+
+## El hack de 60 fps: no
+
+`linux/src/Wind-Waker-60FPS-Hack/` (submódulo desde el 15-09, [Meowmaritus](https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack), 2016-2017) son 39 códigos Gecko `FPSHack_*` que hacen correr *Wind Waker* a 60 fps. Es **solo para la versión USA** (`GZLE01`), que es justo la que tenemos con las texturas.
+
+**El motivo de fondo para descartarlo es la CPU, no el software.** El hack exige *CPU Clock Override* **al 200 %**: el PowerPC emulado ejecuta el doble de instrucciones por segundo, porque el bucle del juego pasa de 30 a 60 Hz. Es decir, **hace falta el doble de CPU anfitriona**. Lo que tenemos, medido en la escena de la playa de Outset:
+
+| | |
+|---|---|
+| A 1,593 GHz (P2) | 26,8 fps — por debajo del tope, así que ahí la CPU está saturada |
+| A 2,092 GHz (P0) | 29,95 fps — en el tope de 30 |
+| Capacidad estimada a 2,1 GHz | 26,8 × (2,092 / 1,593) = **~35 fps**, y es una cota superior: la latencia de memoria no escala con el reloj |
+
+O sea, **un 17 % de margen sobre los 30 fps, cuando hacen falta un 100 %.** Nos quedamos cortos por un factor de ~1,7. El resultado esperado serían unos 35 fps de los 60, es decir el juego a poco más de la mitad de velocidad, que es justo el *"super slowmo"* del que avisa el autor. **Medido el 16-09 y confirmado: 33 fps** (ver abajo).
+
+Y el margen no se puede sacar de los gráficos: el cuello es el hilo de emulación de la CPU (Dolphin usa ~1,5 núcleos de los 8; los otros 6 no ayudan, porque el PowerPC se emula en un solo hilo). Bajar la resolución interna, el MSAA o las texturas alivia la GPU, que ya va sobrada. Y 2,1 GHz es el P-state máximo (P0): no hay más reloj que pedir.
+
+A esto se suma que **rompe la partida**. El propio README lista bloqueos sin salida: Niko no llega a la plataforma en el barco (principio del juego), el slime del Templo de la Tierra se libera antes de tiempo, y la sala de Molgera se cuelga en negro. Los enemigos, además, atacan el doble de a menudo.
+
+**Corrección (15-09):** en la primera versión de esta nota puse que el *CPU Clock Override* ya no funcionaba en las versiones nuevas de Dolphin. **Es falso.** Lo decía el README del hack refiriéndose a 5.0-4792, un fallo de 2017 que se arregló: en Dolphin actual sigue existiendo como `OverclockEnable` / `Overclock` en `[Core]`, y admite valor por juego desde el INI. Ese motivo no vale; el que manda es el de la CPU.
+
+### Estado del hack en internet (revisado el 16-09-2026)
+
+Buscado a fondo para descartar que hubiera algo más nuevo o mejor. No lo hay:
+
+- **El repositorio original está abandonado desde 2017.** 7 commits, 34 estrellas, 1 incidencia abierta, 0 *pull requests*. El aviso de copyright dice "Meowmaritus 2016-2017" y el README no menciona ningún sucesor.
+- **El único fork reciente no aporta nada.** [`EleventhLucas/Wind-Waker-FPS-Hacks`](https://github.com/EleventhLucas/Wind-Waker-FPS-Hacks), creado el 14-08-2026, se anuncia como "parches para *Wind Waker* a distintas tasas de refresco, arreglando el código que depende de la tasa"; pero su README es **copia literal del original**, con los mismos tres bloqueos sin salida y la misma firma de Meowmaritus. Sin commits propios.
+- **No existe versión PAL** de este hack ni de ningún otro equivalente, en ningún sitio.
+- **El *clock override* sigue vivo** en Dolphin moderno (`OverclockEnable` / `Overclock` en `[Core]`, también por juego desde el INI). Lo del 5.0-4792 fue un fallo puntual de 2017.
+- La referencia que maneja la comunidad para mover *Wind Waker* a 60 fps es **un x86 moderno rápido de un solo hilo**, tipo i3 Skylake o Haswell bien subido. Los Jaguar de la PS4 a 2,1 GHz son una arquitectura de bajo consumo de 2013, muy por debajo de eso.
+
+### La versión europea (`GZLP01`): no, y no es cuestión de probar
+
+Los 39 códigos son direcciones absolutas del binario USA (`C2006410`, `C20251A0`, … `C25F0228`): cada uno inyecta código en una función concreta de `GZLE01`. La compilación PAL coloca esas mismas funciones en **otras direcciones**, así que aplicarlos al europeo no daría 60 fps: parchearía instrucciones al azar y lo más probable es que se cuelgue. Por eso el autor escribe que *"no es compatible con ninguna otra región del juego"*.
+
+Portarlo significaría localizar las 39 funciones en el binario PAL —con el mapa de símbolos que viene en `EXTRA STUFF`, que es del USA— y reescribir cada código. Es trabajo de ingeniería inversa, no de configuración, y aun así chocaría con el mismo muro de CPU.
+
+### Medido el 16-09-2026: confirmado, no llega
+
+Dos pruebas en la consola, con el pack de texturas puesto, la CPU a 2,1 GHz y el estado guardado de la playa de Outset (ranura 2), para no depender de estimaciones:
+
+| Prueba | Configuración | fps | Lectura |
+|---|---|---|---|
+| **A — capacidad real** | `EmulationSpeed = 0.0` (sin límite) | 32,2 · 34,4 · 33,9 · 34,8 · 28,9 | **~33 fps de un juego de 30 → 110 % de tiempo real** |
+| **B — reloj emulado al doble** | `OverclockEnable = True`, `Overclock = 2.0`, sin límite | 27,4 · 34,6 · 27,8 · 27,7 · 33,8 · 27,6 | ~30 fps: el *overclock* solo cuesta un **10 %** |
+
+**La prueba A es la que decide.** La capacidad de esta consola es del **110 % del tiempo real** con *Wind Waker* a 30 Hz. El hack lo pone a 60 Hz, o sea **200 %**. Con el hack instalado saldrían unos 33 fps de los 60: el juego a la mitad de velocidad, en cámara lenta. La estimación previa (~35 fps) se confirmó con dos décimas de diferencia.
+
+La prueba B sale engañosamente barata y conviene entender por qué, para no sacar la conclusión contraria: subir el reloj emulado **sin** el hack no duplica el trabajo, porque el juego sigue a 30 Hz y lo único que hace es terminar antes su cálculo y quedarse esperando el barrido de pantalla; Dolphin detecta esos bucles de espera y los salta. El coste real llega cuando el bucle del juego corre 60 veces por segundo, que es lo que hacen los códigos Gecko, y eso es lo que no cabe en el 110 %.
+
+Método: `ffmpeg -f x11grab` para leer el contador, y `top` para la CPU, que llegó al 200 % (dos núcleos saturados: el hilo de emulación y el de GPU) a 61-68 °C. La configuración se restauró al terminar.
+
+Mientras tanto se queda en el repo como referencia: los `.asm` comentados y el mapa de símbolos demangled de *Wind Waker* (2 MB, en `EXTRA STUFF`) son buen material si algún día hace falta trastear con la memoria del juego. Para jugar, **30 fps con las texturas HD**, que es el ritmo para el que se hizo.
+
+Si aun así se quiere probar: los códigos van al `[Gecko]` de `~/.local/share/dolphin-emu/GameSettings/GZLE01.ini` y se activan en `[Gecko_Enabled]`; hay que **desactivar los demás códigos de inyección ASM** (el hack agota el espacio que Gecko reserva para el código inyectado), lo que incluye el *16:9 Widescreen* que tenemos puesto.
