@@ -16,6 +16,9 @@
 [submodule "linux/src/ps4-linux-12xx"]
 	path = linux/src/ps4-linux-12xx
 	url = https://github.com/feeRnt/ps4-linux-12xx.git
+	# 13 archivos del kernel solo se diferencian en mayusculas (xt_dscp.c / xt_DSCP.c):
+	# en NTFS son el mismo archivo y uno queda modificado para siempre. Ver CLAUDE.md.
+	ignore = dirty
 [submodule "linux/src/Wind-Waker-60FPS-Hack"]
 	path = linux/src/Wind-Waker-60FPS-Hack
 	url = https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack.git

@@ -129,3 +129,5 @@ Ninguno de los dos se edita. En `pkg/` está el PS4 Cheats Manager (`CHTM00777`)
 ## Git
 
 Commits directos a `main`, con el mensaje en español.
+
+El submódulo del kernel `linux/src/ps4-linux-12xx` lleva `ignore = dirty` en `.gitmodules`: 13 archivos del kernel de Linux solo se diferencian en mayúsculas (`net/netfilter/xt_dscp.c` y `xt_DSCP.c`, `xt_mark.h` y `xt_MARK.h`…) y en NTFS son el mismo archivo, así que uno de cada par queda modificado para siempre y no hay `checkout` que lo arregle. Con `ignore = dirty`, `git status` no mira dentro del submódulo pero **sí sigue avisando si su HEAD cambia de commit**; a cambio, una edición a propósito del código del kernel tampoco se vería. Los otros seis submódulos no tienen colisiones y van sin la opción.
