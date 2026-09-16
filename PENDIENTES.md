@@ -42,7 +42,7 @@ Preparado el 2026-09-13 en `emu/RETROARCH/`. Detalle y resultados por sistema en
 - [x] 🤖 Segunda pasada de carátulas casando por título (16-09, `tools/caratulas.py`, revisada y rehecha tras corregir tres fallos de elección): 4286 más en todas las listas. Los 18 sistemas antiguos pasan del 77 % al 90 % (SNES de 25 a 133, Atari 7800 de 11 a 122) y arcade del 63 % al 89 %. Detalle en [`emu/RETROARCH/README.md`](emu/RETROARCH/README.md)
 - [ ] 🎮 Subir las carátulas nuevas (1,3 GB) cuando la consola vuelva a la PS4: `python tools/ps4ftp.py subir IP emu\RETROARCH\thumbnails /data/retroarch/thumbnails --hacer --remoto-existe`
 - [ ] 🧑 Opcional: los 678 juegos antiguos que siguen sin carátula son hacks, traducciones y variantes que el servidor no tiene; solo tendrían carátula añadiéndola a mano
-- [ ] 🧑 **Decidir sobre los homónimos de C64:** ~520 juegos distintos con el mismo título comparten carátula (la de *un* juego con ese título, acertada más o menos la mitad de las veces). Opciones: dejarlas así (recomendado; está explicado en `emu/RETROARCH/README.md`) o quitárselas y que salgan sin carátula
+- [x] 🧑 Homónimos de C64: ~520 juegos distintos con el mismo título comparten carátula (la de *un* juego con ese título, acertada más o menos la mitad de las veces). **Decidido el 16-09: se dejan**; explicado en `emu/RETROARCH/README.md`
 - ⚠️ La lista de Game Boy Color en la consola tenía 497 entradas y la del PC 495: RetroArch había añadido *Gameboy Gallery 3* y *DynaMike* por su cuenta, con el core en DETECT. El 15-09 se subieron de nuevo las listas y esa quedó como la del PC; no falta nada, porque esos dos juegos salen en la lista de Game Boy
 
 ### BIOS opcionales
