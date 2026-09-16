@@ -234,7 +234,9 @@ Preparado el 2026-09-13 en [`linux/`](linux/README.md). La consola es **Baikal B
 - [x] 🤖 **Autologin de verdad (14-09):** el gestor es LightDM; grupo `autologin` + `/etc/lightdm/lightdm.conf.d/50-autologin.conf`. Entra solo en LXDE, sin teclado; con el VNC se maneja desde el móvil
 - [ ] 🧑 Pendrive en el puerto trasero o con alargador: ahora va a USB 2.0
 - [ ] 🧑 Probar el kernel `neocine-1.1` con la tele (más rendimiento en Pro y trae ZRAM); si va, se queda y se reactiva el `zram-generator.conf`
-- [ ] 🧑 Apagar Linux siempre desde el menú (partición sin journal). **`e2fsck` en frío desde la rescue shell, ya con motivo:** `tune2fs` marca `not clean` tras los cuelgues del payload de 3 GB (14-09)
+- [ ] 🧑 Apagar Linux siempre desde el menú: la partición no tiene journal (el instalador la crea con `-O ^has_journal`, a propósito, por el desgaste de la flash)
+- [x] 🤖 **Descartado el 16-09 que la partición esté dañada.** El `not clean` que anoté el 14-09 era alarma en falso: ext4 lo marca mientras está montada y yo lo leía desde el sistema en marcha. Cero errores registrados. Añadir journal tampoco compensa. Explicado en [`linux/README.md`](linux/README.md#por-qué-la-partición-no-tiene-journal)
+- [ ] 🧑 Opcional, higiene: `e2fsck -f` metiendo el pendrive en otro Linux. Desde la consola no se puede: el initramfs no trae `e2fsck` y a la rescue shell no se llega por red (sin Ethernet, sin firmware MT7668, sin `wpa_supplicant`)
 - [x] 🎮 Payload `linux-3072mb.bin` probado (14-09): **se cuelga**, por Payload Guest y por BinLoader. Quedarse con el de 2 GB
 - [ ] 🧑 *Wind Waker* en `.iso` o `.rvz` en un USB aparte en exFAT (la partición del pendrive es ext4 y Windows no la escribe), y un hub USB para teclado y ratón
 - [x] 🎮 ***Wind Waker* a 30 fps en Dolphin 2509** (Vulkan), 13-09 a las 23:40

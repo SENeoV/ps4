@@ -267,7 +267,7 @@ Lecciones:
 - **Autologin:** el gestor de sesión de la distro es **LightDM** (`lightdm.service` activo; `sddm` instalado pero desactivado), así que el `sddm.conf.d` del día 13 nunca hizo nada y se estaba escribiendo la contraseña a mano. Arreglado: grupo `autologin` con `ps4` dentro (lo exige `/etc/pam.d/lightdm-autologin`) y `/etc/lightdm/lightdm.conf.d/50-autologin.conf` con `autologin-user=ps4`, `autologin-session=LXDE`, `autologin-user-timeout=0`. Comprobado con `systemctl restart lightdm`: entra solo. Los avisos de `pam_kwallet5` en el journal son el monedero de KDE sin clave, inofensivos.
 - **VNC** ([`vnc.md`](vnc.md)): `x11vnc` arranca con la sesión; con autologin, el escritorio se ve y se maneja desde el móvil desde el arranque, sin teclado.
 - **Escritura real del pendrive: 1,7 MB/s** secuencial (`dd oflag=direct`), 4 MB/s en archivos pequeños hacia la caché. Los 150 KB/s de la noche anterior eran un `tar` extrayendo con la caché saturada. Subiendo por SFTP archivo a archivo con [`tools/subir_texturas.py`](../tools/subir_texturas.py) se sostienen ~2 MB/s.
-- La partición marca `Filesystem state: not clean` (`tune2fs -l /dev/sda2`) por los cuelgues del payload de 3 GB: `e2fsck` pendiente desde la rescue shell.
+- ~~La partición marca `Filesystem state: not clean` por los cuelgues del payload de 3 GB~~ — **corregido el 16-09, era una alarma mía en falso**: `not clean` es también lo que muestra ext4 **mientras está montada**, y se estaba leyendo desde el propio sistema en marcha. Ver "Por qué la partición no tiene journal" abajo.
 
 ### 2026-09-16 — IP fija de Linux: 192.168.1.33
 
@@ -284,6 +284,40 @@ Objetivo: llegar a la consola desde fuera de casa a través de Tailscale (el PC 
 - **Aviso:** `nmcli con up` lanzado con `nohup ... &` desde la sesión SSH murió con la sesión y no llegó a ejecutarse (la consola seguía en `.180`). Con `systemd-run` (unidad transitoria, independiente del SSH) sí; `nmcli dev reapply` aplica la IP nueva sin soltar el Wi-Fi, y el SSH vuelve por `.33` en unos 30 s.
 - `tools/ps4linux.py` usa `.33` por defecto (ya no hace falta pasar la IP) y `ip` solo barre la red si la fija no responde.
 - Pendiente: excepción IDS de ESET también para `.33` (hoy solo cubre `.201`; ver `INSTALL.md`), y montar el subnet router de Tailscale en el PC.
+
+## Por qué la partición no tiene journal
+
+Es **deliberado, del instalador de DionKill**. `install-psxitarch.sh`, línea 92:
+
+```sh
+mke2fs-new -t ext4 -F -L psxitarch -O ^has_journal $device"2"
+```
+
+`-O ^has_journal`. Se confirma en la partición: `tune2fs -l /dev/sda2` lista `ext_attr resize_inode dir_index filetype extent flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize`, **sin `has_journal`**. Sigue siendo ext4 (tiene `extent`, `flex_bg`), pero sin diario. El motivo es el medio: en memoria flash el journal duplica las escrituras de metadatos y multiplica el desgaste, y este pendrive escribe a 1,7 MB/s. El kernel lo dice al montar: `mounting unchecked fs, running e2fsck is recommended` y `mounted filesystem without journal`.
+
+**No se va a añadir, y el motivo de peso no es el rendimiento.** Para jugar da igual: la sesión es casi toda lectura, y el journal solo encarece las operaciones de metadatos (crear y borrar archivos), que aquí se notan al copiar miles de archivos, no jugando. El motivo real es que `tune2fs -O has_journal` exige la partición **desmontada** y un `e2fsck` después, y eso hoy no se puede hacer en esta consola (ver abajo).
+
+### Corrección: lo de `not clean` era una alarma en falso mía
+
+El 14-09 anoté que la partición estaba dañada por los cuelgues del payload de 3 GB, porque `tune2fs` decía `Filesystem state: not clean`. **Está mal razonado:** ext4 marca `not clean` **mientras está montada**, y yo lo estaba leyendo desde el propio sistema en marcha, así que ese dato no distingue "sucia por un cuelgue" de "montada ahora mismo".
+
+Lo que sí es evidencia: `tune2fs` **no muestra ningún contador de errores** (solo aparece si es mayor que cero), o sea **cero errores registrados**. `Last checked` es la fecha de creación, así que nunca se ha comprobado; el aviso `mounting unchecked fs` del kernel es lo normal en un ext4 sin journal que no ha pasado por `e2fsck`, no un síntoma de daño.
+
+Conclusión: no hay nada roto que arreglar. El `e2fsck` pasa de "problema a corregir" a "higiene cuando toque".
+
+### Y aunque se quisiera, la rescue shell no puede
+
+El initramfs son 49 archivos sobre busybox y **no trae `e2fsck` ni `fsck.ext4`**: solo `mke2fs-new` (formatear) y el `fsck` de busybox, que es un lanzador que llama a `fsck.ext4`, que no existe.
+
+Tampoco se llega a la rescue shell por red desde el PC, aunque el initramfs traiga `dropbear` y una opción de arranque `sshd_wait=N` pensada justo para eso: esta consola **no tiene Ethernet en Linux**, el único firmware Wi-Fi incluido es **Marvell** (`sd8797`, `sd8897`, de las PS4 antiguas) y no el MediaTek MT7668 de esta, y no hay `wpa_supplicant` para asociarse a una red WPA2. La rescue shell sigue necesitando **tele y teclado USB**.
+
+Si algún día se quiere comprobar de verdad, tres vías, de más cómoda a menos:
+
+1. **Meter el pendrive en otro Linux** y `e2fsck -f /dev/sdX2`. Lo más limpio.
+2. **Llevarse las herramientas al pendrive**: copiar `e2fsck` (348 KB) y sus 6 librerías del Arch instalado (2,2 MB en total) a la partición FAT32, y ejecutarlo desde la rescue shell con `LD_LIBRARY_PATH` contra `/dev/sda2` ya desmontada.
+3. `e2fsck -n` desde el sistema en marcha: solo informa y sobre una partición montada no es fiable, pero da una pista.
+
+Mientras tanto, lo único que hay que seguir haciendo es **apagar desde el menú**, que es lo que evita el problema en origen.
 
 ## Problemas conocidos
 
