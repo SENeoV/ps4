@@ -242,6 +242,40 @@ Velocidad completa en el peor caso. Detalle, script e iconos del escritorio en [
 
 Para medir: `ffmpeg -loglevel error -y -f x11grab -video_size 1920x1080 -i :0 -frames:v 1 cap.png` y recortar el contador con `-vf 'crop=110:24:1810:36'`.
 
+## Automatizar el juego por SSH: qué funciona y qué no
+
+Probado el 16-09-2026 intentando llegar a una mazmorra sin jugar, para medir el rendimiento allí. **Se puede pulsar botones del juego por SSH; no se puede saltar de fase con los códigos de Dolphin.**
+
+### Simular pulsaciones: sí, con dos condiciones
+
+1. **El mando 1 tiene que estar mapeado a teclado, entero.** La sintaxis de Dolphin para combinar dos dispositivos en una misma acción (`` Buttons/X = `Button W` | `XInput2/0/Virtual core pointer:U` ``) **se acepta sin error pero no funciona**: el DualShock sigue respondiendo y el teclado no. Hay que poner `Device = XInput2/0/Virtual core pointer` y nombres de tecla a secas.
+2. **Hay que mantener la tecla pulsada.** `xdotool key X` pulsa y suelta en unos 12 ms y Dolphin, que sondea a 60 Hz, se lo pierde. Lo que funciona es `xdotool keydown x; sleep 1; xdotool keyup x`.
+
+Comprobado sin ambigüedad: con el mapeo de teclado y `keydown Return` durante un segundo, se abrió el menú de objetos del juego.
+
+Mapeo de teclado usado (se restaura después con la copia de `GCPadNew.ini`): A=Espacio, B=B, X=U, Y=I, Z=P, Start=Return, cruceta=O/K/J/L, stick=W/A/S/D, L=Q, R=E.
+
+### Saltar a una mazmorra: no, con este Dolphin
+
+`sys/GameSettings/GZLE01.ini` trae 14 códigos *Test room* y un *Hidden dungeon* que cambian de fase escribiendo el nombre en `0x803C9D48` y una bandera en `0x803C9D44`; el activador es por botones (`8A3ED84A <máscara>`). Los nombres reales de las mazmorras están en el propio binario del juego (`M_NewD2` Dragon Roost, `kindan` Bosque Prohibido, `M_Dai` Templo de la Tierra, `kaze` Templo del Viento; se ven en el mapa de símbolos de `linux/src/Wind-Waker-60FPS-Hack/EXTRA STUFF/`).
+
+Pero **ninguno de esos códigos se dispara en Dolphin 2509**, ni los míos ni los que trae Dolphin: con *Test room 1* habilitado y L+Z mantenido tres segundos, la pulsación llega (la cámara se reorienta, que es lo que hace Z) y la fase no cambia. Son códigos heredados de hace más de una década; el activador por botones de Action Replay parece no estar implementado ya.
+
+Para medir en una mazmorra hacen falta otras vías: una partida guardada avanzada, o jugar hasta allí. Queda pendiente.
+
+### Errores míos en esta prueba, para no repetirlos
+
+| Error | Qué pasó | Cómo evitarlo |
+|---|---|---|
+| Copiar un código al apartado equivocado | Metí los códigos de salto en `[Gecko]` cuando el opcode `8A` es de **Action Replay**. El manejador de códigos de Gecko intentó ejecutarlos y el juego murió con *"Invalid read from 0x00000000, PC = 0x80001f00"*. Perdí dos intentos creyendo que fallaba el salto | Mirar en qué sección del INI vive el código antes de copiar su formato. Un `PC` dentro de `0x80001800-0x80002000` señala al manejador de Gecko, no al juego |
+| Dar por buena la sintaxis `\|` entre dispositivos | Falla en silencio: ni error ni aviso | Comprobar siempre el efecto en pantalla con algo inequívoco (Start abre el menú) antes de seguir construyendo encima |
+| `xdotool key` para pulsar un botón | Demasiado corto para el sondeo de Dolphin | `keydown` + `sleep` + `keyup` |
+| Heredocs (`<<'PY'`) a través de `tools/ps4linux.py` | El texto llega literal y no se ejecuta; la orden parece funcionar y no hace nada | Subir el script con `--put` y ejecutarlo, o editar desde el PC por SFTP |
+| `sed -i` para editar los INI | Varias veces no cambió nada, sin error | Verificar el archivo después de cada edición; para INI, mejor Python por SFTP |
+| Órdenes compuestas muy largas por SSH | Algunas no llegaron a ejecutarse y no dieron salida | Partirlas y comprobar el resultado de cada parte |
+
+Ver también el error de la ruta de `GameSettings` (arriba) y el de medir con el juego en pausa (abajo): ambos costaron una conclusión equivocada antes de detectarlos.
+
 ## El hack de 60 fps: no
 
 `linux/src/Wind-Waker-60FPS-Hack/` (submódulo desde el 15-09, [Meowmaritus](https://github.com/Meowmaritus/Wind-Waker-60FPS-Hack), 2016-2017) son 39 códigos Gecko `FPSHack_*` que hacen correr *Wind Waker* a 60 fps. Es **solo para la versión USA** (`GZLE01`), que es justo la que tenemos con las texturas.
