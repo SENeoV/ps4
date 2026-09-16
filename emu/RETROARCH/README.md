@@ -302,23 +302,25 @@ Volver a ejecutar `python tools/retroarch_lists.py --thumbs` (o `python tools/fb
 
 ### Segunda pasada de carátulas (2026-09-16)
 
-`python tools/caratulas.py` busca las que la primera pasada no encuentra por nombre exacto: baja el índice de cada carpeta del servidor y casa por título, quitando etiquetas (`[cr X]`, `(Alt)`, `(Disk 1)`, `[!]`…), traduciendo regiones de GoodTools (`(U)` → USA) y eligiendo la región más parecida cuando hay varias. En arcade pasa del nombre corto del zip al de FBNeo con `FBNeo - Arcade Games.rdb`, y un clon sin carátula hereda la de su padre. Encontró 4283 más:
+`python tools/caratulas.py` busca las que la primera pasada no encuentra por nombre exacto: baja el índice de cada carpeta del servidor y casa por título, quitando etiquetas (`[cr X]`, `(Alt)`, `(Disk 1)`, `[!]`…), traduciendo regiones de GoodTools (`(U)` → USA) y eligiendo la región más parecida cuando hay varias. En arcade pasa del nombre corto del zip al de FBNeo con `FBNeo - Arcade Games.rdb`, y un clon sin carátula hereda la de su padre solo si es el mismo juego (todas las palabras de un título están en el otro). Encontró 4286 más:
 
 | Lista | Con carátula | | Lista | Con carátula |
 |---|--:|---|---|--:|
-| NES | 567 / 632 | | FB Alpha 2012 | 1758 / 2032 |
-| SNES | 133 / 164 | | FB Alpha 2012 CPS-1 | 152 / 154 |
+| NES | 567 / 632 | | FB Alpha 2012 | 1749 / 2032 |
+| SNES | 133 / 164 | | FB Alpha 2012 CPS-1 | 150 / 154 |
 | Game Boy | 1445 / 1542 | | FB Alpha 2012 CPS-2 | 270 / 273 |
 | Game Boy Color | 473 / 495 | | FB Alpha 2012 CPS-3 | 32 / 32 |
-| Game Boy Advance | 195 / 213 | | FB Alpha 2012 Neo Geo | 258 / 284 |
-| Master System | 327 / 333 | | Commodore - 64 | 2072 / 7522 |
-| Game Gear | 373 / 373 | | Commodore - 64 (PRG) | 1576 / 11 023 |
+| Game Boy Advance | 195 / 213 | | FB Alpha 2012 Neo Geo | 257 / 284 |
+| Master System | 327 / 333 | | Commodore - 64 | 2071 / 7522 |
+| Game Gear | 373 / 373 | | Commodore - 64 (PRG) | 1575 / 11 023 |
 | Mega Drive | 1252 / 1337 | | DOS | 954 / 956 |
 | Atari 2600 | 715 / 885 | | ScummVM | 30 / 40 |
 | Atari 7800 | 122 / 170 | | PC Engine | 210 / 210 |
 | Lynx | 126 / 136 | | Neo Geo Pocket / Color | 3 / 3 y 67 / 72 |
 | WonderSwan / Color | 133 / 214 y 98 / 131 | | 32X, Virtual Boy | 38 / 45 y 31 / 31 |
 
-En total 13 409 carátulas (3,8 GB): los 18 sistemas antiguos al 90 % y arcade al 89 %. Lo que falta son hacks, traducciones y variantes que el servidor no tiene; de C64 no hay más. Subirlas: `python tools/ps4ftp.py subir IP emu\RETROARCH\thumbnails /data/retroarch/thumbnails --hacer --remoto-existe` sube solo las que falten.
+En total 13 396 carátulas (3,8 GB): los 18 sistemas antiguos al 90 % y arcade al 89 %. Lo que falta son hacks, traducciones y variantes que el servidor no tiene; de C64 no hay más.
+
+**Revisión del 16-09** (otra sesión reconstruyó cada elección; sus listas TSV están en `%TEMP%\claude\caratulas-revision-2026-09-16\`): el título normalizado coincidía siempre, y los tres fallos que había se corrigieron y se rehízo la pasada: 70 juegos habían cogido una *Beta* o *Proto* habiendo versión normal, *Uridium+* e *International Karate +* habían cogido la del juego base (el `+` se perdía), y cinco hacks con nombre propio (*Sky Wolf*, *Hot Bubble*…) heredaban la del original. Lo que queda es inherente al servidor: **homónimos de C64**. Juegos distintos con el mismo título (dos *Aftermath*, cuatro *Atlantis*, cuatro *Battleship*, *Aliens* de Activision y de Electric Dreams…) comparten la única carátula que hay con ese título, sin editor: 66 carátulas para 159 juegos en la lista de discos y 138 para 360 en la de PRG. Es la portada de *un* juego con ese título, correcta más o menos la mitad de las veces; y donde el servidor distingue editor tampoco es fiable (las dos *Eliminator* son la misma imagen). Subirlas: `python tools/ps4ftp.py subir IP emu\RETROARCH\thumbnails /data/retroarch/thumbnails --hacer --remoto-existe` sube solo las que falten.
 
 Para comprobar los volcados contra los DAT de No-Intro: `python tools/verificar_dumps.py`. Resultado del 2026-09-15 en [`docs/volcados-2026-09-15.md`](../../docs/volcados-2026-09-15.md): 5877 de 6986 (84 %) coinciden con No-Intro.

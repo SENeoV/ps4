@@ -40,8 +40,14 @@ GOODTOOLS = {"U": "USA", "E": "Europe", "J": "Japan", "W": "World", "G": "German
 REGION_ORDER = ["USA", "World", "Europe", "USA, Europe", "Japan, USA", "Japan", "Germany", "France", "Spain", "Italy"]
 
 
+VARIANTES = re.compile(r"\s*\((Alt|Disk|Disc|Side|Tape|Rev|v\d|Beta|Proto|Unl|Program|Docs|Sample|Demo)[^)]*\)", re.I)
+# Versiones peores que la normal: solo valen si el propio juego lo es
+INFERIOR = re.compile(r"\b(beta|proto|prototype|sample|demo|pirate|hack|bootleg|unl)\b", re.I)
+
+
 def norm_title(s):
-    s = re.sub(r"\[.*?\]|\(.*?\)", " ", s.lower())
+    # El "+" cuenta como palabra: Uridium+ e International Karate + son otros juegos
+    s = re.sub(r"\[.*?\]|\(.*?\)", " ", s.lower()).replace("+", " plus ")
     s = re.sub(r"\b(the|a|an)\b", " ", s)
     return " ".join(re.sub(r"[^a-z0-9]+", " ", s).split())
 
@@ -88,9 +94,8 @@ class Indice:
             self.by_title.setdefault(norm_title(n), []).append(n)
 
     def buscar(self, label):
-        # 1) tal cual; 2) sin etiquetas de variante; 3) por título, eligiendo la región más parecida
-        for cand in (label, re.sub(r"\s*\[[^\]]*\]", "", label).strip(),
-                     re.sub(r"\s*\((Alt|Disk|Disc|Side|Tape|Rev|v\d|Beta|Proto|Unl|Program|Docs)[^)]*\)", "", label, flags=re.I).strip()):
+        # 1) tal cual; 2) sin etiquetas de variante; 3) por título, eligiendo el candidato que más se parece
+        for cand in (label, re.sub(r"\s*\[[^\]]*\]", "", label).strip(), VARIANTES.sub("", label).strip()):
             if cand in self.exact:
                 return cand
         cands = self.by_title.get(norm_title(label))
@@ -100,15 +105,25 @@ class Indice:
             return cands[0]
         regs = regions_of(label)
         tokens = paren_tokens(label)
-        for r in regs:
-            same = [c for c in cands if f"({r})" in c or f"({r}," in c]
-            if same:
-                return max(same, key=lambda c: len(tokens & paren_tokens(c)))
-        for r in REGION_ORDER:
-            same = [c for c in cands if f"({r})" in c]
-            if same:
-                return same[0]
-        return max(cands, key=lambda c: len(tokens & paren_tokens(c)))
+        inferior = bool(INFERIOR.search(label))
+
+        def puntos(c):
+            ct = paren_tokens(c)
+            # Lo que comparten las etiquetas (región, editor, revisión) suma; lo que sobra en la carátula resta un poco
+            s = 3 * len(tokens & ct) - 0.5 * len(ct - tokens)
+            if any(f"({r})" in c or f"({r}," in c for r in regs):
+                s += 5
+            elif not regs:
+                for i, r in enumerate(REGION_ORDER):
+                    if f"({r})" in c:
+                        s += 2 - 0.1 * i
+                        break
+            # Una Beta o Proto solo si el juego también lo es; con alternativa normal, nunca
+            if INFERIOR.search(c) and not inferior:
+                s -= 6
+            return s
+
+        return max(sorted(cands), key=puntos)
 
 
 def load_fbneo():
@@ -163,14 +178,21 @@ def procesar(lista, simular):
             while chain[-1] in parents and parents[chain[-1]] and parents[chain[-1]] not in seen:
                 seen.add(chain[-1])
                 chain.append(parents[chain[-1]])
+            propio = norm_title(fbneo.get(short) or clean)
             for i, z in enumerate(chain):
                 cand = fbneo.get(z)
                 found = indice.buscar(cand) if cand else None
                 if not found and i == 0:
                     found = indice.buscar(clean)
+                if found and i > 0:
+                    # Del padre solo si es el mismo juego (las palabras de un título están todas en el otro): un hack
+                    # con nombre propio (Sky Wolf sobre Airwolf, Super Galaxians sobre Galaxian) no lleva la del original
+                    a, b = set(propio.split()), set(norm_title(found).split())
+                    if not (a <= b or b <= a):
+                        found = None
+                        continue
+                    heredan.append(label)
                 if found:
-                    if i > 0:
-                        heredan.append(label)
                     break
         else:
             found = indice.buscar(clean)
